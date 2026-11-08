@@ -1,0 +1,258 @@
+<!doctype html>
+<html lang="ru">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>English Review · Повторение уроков</title>
+<meta name="theme-color" content="#f4f6fa">
+<meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="English Review">
+<link rel="icon" href="./icon.png" type="image/png"><link rel="apple-touch-icon" href="./icon.png">
+<link rel="manifest" href="./manifest.webmanifest">
+<style>:root{color-scheme:light;--paper:#f4f6fa;--card:#fff;--ink:#17233a;--muted:#65728a;--border:#dce2ed;--accent:#294ba6;--soft:#edf1fc;--ok:#176c49;--okBg:#e8f6ee;--bad:#a32e2e;--badBg:#fff0ee;--warn:#765a1f;--warnBg:#fff8e8;--shadow:0 4px 18px rgba(30,45,85,.04)}
+@media(prefers-color-scheme:dark){:root{color-scheme:dark;--paper:#111827;--card:#1b2638;--ink:#ebf0fa;--muted:#a9b4ca;--border:#334057;--accent:#a2b5ff;--soft:#273555;--ok:#80dab1;--okBg:#1b3e32;--bad:#ffaaa3;--badBg:#493038;--warn:#f4d28b;--warnBg:#433928;--shadow:none}}
+*{box-sizing:border-box}html{scroll-behavior:auto;scroll-padding-top:185px}body{margin:0;background:var(--paper);color:var(--ink);font:15px/1.43 -apple-system,BlinkMacSystemFont,"Segoe UI",system-ui,Arial,sans-serif;-webkit-font-smoothing:antialiased}button,input,textarea{font:inherit}button{cursor:pointer}button:disabled{opacity:.48;cursor:default}button:focus-visible,input:focus-visible,textarea:focus-visible,summary:focus-visible{outline:2px solid var(--accent);outline-offset:2px}.app{max-width:820px;margin:auto;padding:0 12px max(88px,env(safe-area-inset-bottom))}
+.header{background:var(--paper);position:sticky;top:0;z-index:15;padding:10px 0 6px;border-bottom:1px solid var(--border)}.topline{display:flex;justify-content:space-between;align-items:center;gap:8px;margin-bottom:8px}.brand{font-size:16px;letter-spacing:-.02em;font-weight:780}.brand small{display:block;font-weight:450;letter-spacing:0;color:var(--muted);font-size:11px}.topactions{display:flex;gap:5px;align-items:center}.tiny{border:1px solid var(--border);background:var(--card);color:var(--ink);padding:5px 9px;border-radius:9px;font-size:12px;white-space:nowrap}.active{background:var(--accent)!important;color:var(--paper)!important;border-color:var(--accent)!important}.strip{display:flex;gap:5px;overflow-x:auto;scrollbar-width:thin;overscroll-behavior-x:contain;padding:2px 0 6px}.strip button{border:1px solid var(--border);color:var(--ink);background:var(--card);padding:7px 11px;border-radius:999px;white-space:nowrap;flex:none;font-size:12px;font-weight:650}.strip .selected{background:var(--accent);color:#fff;border-color:var(--accent)}@media(prefers-color-scheme:dark){.strip .selected{color:#0f1725}}.strip .flag{margin-left:3px;color:inherit;font-size:10px}.viewbar{gap:4px;padding-bottom:4px}.viewbar button{padding:6px 9px;border-radius:9px;font-size:12px}.viewbar .selected{background:var(--soft);color:var(--accent);border-color:var(--accent)}
+main{padding-top:12px}.intro{display:flex;gap:10px;align-items:center;justify-content:space-between;margin-bottom:10px}.intro h1{font-size:18px;line-height:1.2;margin:0 0 2px}.intro p{margin:0;color:var(--muted);font-size:12px}.storage-alert{border:1px solid #dba85d;background:var(--warnBg);border-radius:10px;padding:10px;font-size:12px;margin-bottom:12px;color:var(--warn)}.stats{display:flex;gap:6px;flex-wrap:wrap;margin:8px 0}.tag{background:var(--soft);border-radius:7px;color:var(--accent);font-size:11px;padding:4px 7px;font-weight:650}.tag.good{background:var(--okBg);color:var(--ok)}.tag.bad{background:var(--badBg);color:var(--bad)}.hint{color:var(--muted);font-size:12px}.section{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:13px;margin:0 0 9px;box-shadow:var(--shadow)}.section h2{font-size:15px;margin:0 0 6px}.section p{margin:0 0 8px}.section p:last-child{margin-bottom:0}.section summary{font-weight:700;cursor:pointer;padding:2px 0}.section details[open] summary{margin-bottom:10px}.theory-body{display:grid;gap:8px}.theory-body .example{background:var(--soft);border-radius:9px;padding:9px 10px;font-size:13px}.theory-body .error{color:var(--warn);font-size:12px;border-left:2px solid var(--warn);padding-left:9px}.theory-body table{border-collapse:collapse;width:100%;font-size:12px}.theory-body th,.theory-body td{border-bottom:1px solid var(--border);padding:6px 5px;text-align:left;vertical-align:top}.lessonwords{display:grid;grid-template-columns:repeat(auto-fit,minmax(175px,1fr));gap:6px}.word{border:1px solid var(--border);background:var(--card);padding:9px;border-radius:10px;display:grid;gap:3px}.word strong{font-size:14px}.word .trans{font-size:12px;color:var(--muted)}.word .pron{font-size:11px;color:var(--accent)}.wordtop{display:flex;justify-content:space-between;align-items:start;gap:8px}.speak{border:1px solid var(--border);border-radius:10px;background:var(--soft);color:var(--accent);padding:4px 8px;font-size:12px;white-space:nowrap}.btn{padding:11px 13px;border:1px solid transparent;border-radius:10px;background:var(--accent);color:white;font-weight:650;text-align:center}.btn.subtle{background:var(--card);color:var(--ink);border-color:var(--border)}.btn.line{background:var(--soft);color:var(--accent);border-color:var(--border)}@media(prefers-color-scheme:dark){.btn:not(.subtle):not(.line){color:#101829}}
+.quizhead{display:flex;align-items:center;justify-content:space-between;gap:8px;margin:0 0 8px}.quizhead h2{font-size:16px;margin:0}.quizhead p{font-size:11px;margin:0;color:var(--muted)}.meter{height:5px;background:var(--border);border-radius:20px;overflow:hidden;margin-bottom:12px}.meter>span{display:block;background:var(--accent);height:100%;transition:width .1s}
+.questiongrid{display:grid;grid-template-columns:1fr;gap:8px}.qcard{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:11px 12px;min-width:0;box-shadow:var(--shadow)}.qcard.right{border-color:var(--ok)}.qcard.wrong{border-color:var(--bad)}.qtop{display:flex;justify-content:space-between;align-items:center;margin-bottom:7px}.qnumber{color:var(--muted);font-size:11px;font-weight:650}.qprompt{font-size:15px;font-weight:650;line-height:1.38;overflow-wrap:anywhere;margin-bottom:8px}.qprompt .blank{display:inline-block;border-bottom:2px solid var(--accent);min-width:25px}.optiongrid{display:grid;gap:5px}.choice{width:100%;display:flex;align-items:center;gap:10px;text-align:left;background:var(--paper);border:1px solid var(--border);border-radius:9px;padding:8px 10px;color:var(--ink);font-size:14px;min-height:36px}.choice .circle{width:18px;height:18px;display:grid;place-items:center;border-radius:50%;border:1px solid var(--border);font-weight:750;flex:none;font-size:11px;color:var(--muted)}.choice.sel{border:2px solid var(--accent);background:var(--soft);padding:7px 9px}.choice.sel .circle{background:var(--accent);color:white}.choice.answer-good{border-color:var(--ok);background:var(--okBg)}.choice.answer-bad{border-color:var(--bad);background:var(--badBg)}.qinput{border:1.5px solid var(--border);border-radius:9px;background:var(--paper);color:var(--ink);width:100%;padding:10px;font-size:16px}.qinput:focus{outline:2px solid var(--accent)}textarea.qinput{min-height:76px;resize:vertical}.chips{display:flex;gap:5px;flex-wrap:wrap;margin-top:7px}.token{background:var(--paper);color:var(--ink);padding:6px 9px;border:1px solid var(--border);border-radius:7px;font-size:13px}.token.placed{background:var(--soft);border-color:var(--accent);color:var(--accent)}.tokenslot{border:1px dashed var(--border);background:var(--paper);border-radius:8px;min-height:37px;padding:5px;display:flex;gap:4px;flex-wrap:wrap;align-items:center}.tokenslot .muted{color:var(--muted);font-size:12px}.explanation{margin-top:10px;border-top:1px solid var(--border);padding-top:9px;font-size:13px}.verdict{font-weight:750}.verdict.good{color:var(--ok)}.verdict.bad{color:var(--bad)}.verdict.pending{color:var(--warn)}.answerline{background:var(--soft);padding:8px;border-radius:8px;margin:7px 0;font-size:13px}.why{margin:6px 0 0;color:var(--ink);font-size:13px}.why strong{color:var(--accent)}.self-row{display:flex;gap:6px;margin-top:9px}.self-row button{flex:1;font-size:12px;padding:9px 7px}.note-small{font-size:11px;color:var(--muted);margin:5px 0}.spacer{height:12px}
+.footer{position:fixed;bottom:0;left:0;right:0;padding:8px max(12px,env(safe-area-inset-left)) max(8px,env(safe-area-inset-bottom)) max(12px,env(safe-area-inset-right));z-index:20;background:var(--card);border-top:1px solid var(--border);box-shadow:0 -5px 18px rgba(0,0,0,.06)}.footer-inner{max-width:796px;margin:auto;display:flex;align-items:center;gap:7px}.footer-inner button{min-width:60px;padding:10px 11px}.footer .centre{flex:1;text-align:center;color:var(--muted);font-size:12px;white-space:nowrap}.footer .grow{flex:1}.footer .primary{flex:2}.statusbox{background:var(--soft);border:1px solid var(--border);border-radius:12px;padding:13px;margin:0 0 12px}.statusbox .big{font-size:25px;font-weight:800}.statusbox .ok{color:var(--ok)}.history-item{border:1px solid var(--border);border-radius:10px;margin:8px 0;padding:10px;background:var(--card)}.history-item summary{cursor:pointer;font-weight:680}.history-item details p{margin:7px 0}.history-details{padding:7px 0}.history-details .entry{font-size:12px;padding:8px 0;border-top:1px solid var(--border)}.history-details .entry strong{color:var(--accent)}.actions{display:flex;gap:8px;flex-wrap:wrap}.actions>*{flex:1}.settings-row{display:flex;align-items:center;justify-content:space-between;gap:8px;margin:8px 0}.settings-row select{background:var(--card);color:var(--ink);border:1px solid var(--border);padding:8px;border-radius:8px;font-size:13px}
+@media(min-width:620px){.questiongrid{grid-template-columns:repeat(2,minmax(0,1fr))}.qcard{padding:14px}.choice{padding:10px}.choice.sel{padding:9px}.brand{font-size:18px}.app{padding:0 20px 100px}.topline{margin-bottom:11px}.intro h1{font-size:20px}}
+@media(max-width:380px){.app{padding-left:8px;padding-right:8px}.brand{font-size:15px}.strip button{padding:6px 9px}.qcard{padding:10px}.topactions .tiny{padding:5px 6px}.footer-inner button{min-width:50px;font-size:12px;padding:10px 7px}}
+@media(max-width:600px){.topline{display:grid;grid-template-columns:1fr;gap:6px}.brand{white-space:nowrap}.brand small{display:inline;margin-left:4px}.topactions{width:100%;justify-content:space-between}.topactions>.tiny{flex:1;text-align:center}.topactions select{max-width:130px}}
+body[data-mode="l1"] .intro,body[data-mode="l2"] .intro,body[data-mode="l3"] .intro,body[data-mode="l4"] .intro,body[data-mode="l5"] .intro,body[data-mode="l6"] .intro,body[data-mode="fix"] .intro,body[data-mode="mist"] .intro{display:none}
+.explanation details{border-top:1px solid var(--border);padding:7px 0 0;margin-top:5px}.explanation summary{font-size:12px;color:var(--accent);font-weight:650;cursor:pointer}
+
+.other-apps{display:flex;gap:14px;flex-wrap:wrap;margin:12px 0 20px}.other-apps a{color:var(--accent);font-size:15px;font-weight:650;text-decoration:underline}
+/* Mobile usability v5: larger readable text, full-width lesson chooser, ~4 exercises at a time. */
+body{font-size:16px;line-height:1.5}
+.brand{font-size:18px}
+.brand small{font-size:12px}
+.lesson-picker{display:flex;align-items:center;gap:9px;margin:4px 0 6px;color:var(--muted);font-size:14px;font-weight:600}
+.lesson-picker select,.direction-picker select{min-width:0;flex:1;appearance:auto;-webkit-appearance:menulist;border:1px solid var(--border);border-radius:10px;background:var(--card);color:var(--ink);font-size:16px;padding:9px 8px;width:100%}
+.direction-picker{display:flex;align-items:center;gap:10px;margin:2px 0 11px;color:var(--muted);font-size:14px;font-weight:650}
+.qprompt{font-size:18px;line-height:1.4}.choice{font-size:16px;min-height:43px;padding:10px 11px}.choice.sel{padding:9px 10px}
+.qnumber{font-size:12px}.token{font-size:16px;min-height:38px;padding:8px 10px}
+.hint,.note-small{font-size:13px}.section{font-size:16px}.section summary{font-size:16px}.theory-body .example{font-size:15px}.theory-body .error{font-size:14px}
+.section h2{font-size:18px}.theory-body table{font-size:14px}.theory-body th,.theory-body td{padding:8px 5px}
+.explanation,.why{font-size:15px}.explanation summary{font-size:15px}.answerline{font-size:15px}.quizhead h2{font-size:17px}.quizhead p{font-size:13px}
+.viewbar button{font-size:14px;padding:8px 11px}.tiny{font-size:13px}.intro h1{font-size:20px}
+.qcard{padding:13px 14px}.btn{font-size:15px}
+@media(max-width:600px){.topline{gap:5px}.topactions{display:flex;gap:6px}.topactions .tiny{padding:8px 6px;min-width:0}.lesson-picker{margin:6px 0}.header{padding:8px 0 5px}.app{padding-left:12px;padding-right:12px}.questiongrid{gap:10px}}
+</style></head>
+<body><div class="app"><header class="header">
+<div class="topline"><div class="brand">English Review <small>Outcomes Pre-Intermediate · <span id="brand-lesson">Урок 3</span></small></div>
+<div class="topactions"><button class="tiny" id="slow-btn" type="button">Озвучка 1×</button><select class="tiny" id="page-size" aria-label="Вопросов на экране"><option value="1">1 вопрос</option><option value="2">2 вопроса</option><option value="3">3 вопроса</option><option value="4">4 вопроса</option><option value="5">5 вопросов</option></select><button class="tiny" id="export-head" type="button">Экспорт</button></div></div>
+<label class="lesson-picker" for="lesson-select"><span>Урок</span><select id="lesson-select" aria-label="Выбери урок"></select></label>
+<nav class="strip viewbar" id="view-nav" aria-label="Разделы и уровни"></nav>
+</header>
+<main><div class="intro"><div><div class="hint" id="eyebrow">Урок 3</div><h1 id="title">Работа из дома</h1></div><span class="tag">A2 → B1</span></div>
+<div class="storage-alert" id="storage-alert" hidden>Локальное хранилище сейчас недоступно: результаты сохранятся только до закрытия страницы. Открой сайт по HTTPS в обычном Safari.</div>
+<div class="storage-alert" id="error-banner" hidden></div>
+<div id="body"><p>Запуск интерактивного приложения… Если экран не меняется, открой опубликованную HTTPS-страницу в Safari. Предпросмотр вложений ChatGPT может не выполнять JavaScript.</p></div></main></div>
+<div class="footer" id="footer" hidden></div>
+<input type="file" id="import-file" accept=".json,application/json" hidden>
+<script>window.ENGLISH_LESSONS=__LESSONS_JSON__;</script>
+<script>'use strict';
+(function(){
+const lessons=window.ENGLISH_LESSONS;
+const records=lessons.index;
+const KEY='english-review:v4';
+const LABELS={theory:'Теория',l1:'1 · Узнаю',l2:'2 · Выбираю',l3:'3 · Вставляю',l4:'4 · Собираю',l5:'5 · Перевожу',fix:'Мои ошибки',mist:'Повторить ошибки',history:'История'};
+const EXERCISE=['l1','l2','l3','l4','l5','fix','mist'];
+const LEVELSIZE={l1:10,l2:10,l3:10,l4:8,l5:8,l6:4,fix:8,mist:10};
+const el=id=>document.getElementById(id);
+const escapeHTML=x=>String(x??'').replace(/[&<>"']/g,k=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[k]));
+const markdown=x=>escapeHTML(x).replace(/\*\*(.*?)\*\*/g,'<b>$1</b>');
+const fmt=x=>new Date(x).toLocaleString('ru-RU',{day:'2-digit',month:'2-digit',hour:'2-digit',minute:'2-digit'});
+const dflt=()=>({version:4,lesson:'03',tab:'theory',progress:{},drafts:{},prefs:{pageSize:4,slow:false,l1Direction:'en',uiV5:true}});
+let storageOK=false;let state=dflt();let page=0;
+try{localStorage.setItem('__eng_test','ok');storageOK=localStorage.getItem('__eng_test')==='ok';localStorage.removeItem('__eng_test')}catch(e){}
+if(storageOK){try{const old=JSON.parse(localStorage.getItem(KEY));if(old&&old.version===4&&old.progress&&old.drafts){state={...dflt(),...old,prefs:{...dflt().prefs,...old.prefs,uiV5:old.prefs?.uiV5===true}}}}catch(e){}}
+// One-time UI preference migration: keep all lesson progress and drafts unchanged.
+if(!state.prefs.uiV5){state.prefs.pageSize=4;state.prefs.l1Direction='en';state.prefs.uiV5=true}
+if(!['en','ru'].includes(state.prefs.l1Direction))state.prefs.l1Direction='en';
+if(!records.some(x=>x.id===state.lesson))state.lesson='03';
+if(!(state.tab in LABELS))state.tab='theory';
+function persist(){if(!storageOK)return;try{localStorage.setItem(KEY,JSON.stringify(state))}catch(e){storageOK=false;el('storage-alert').hidden=false}}
+function prog(id=state.lesson){return state.progress[id]||(state.progress[id]={attempts:[],mistakes:{},mastery:{}})}
+function draftKey(l=state.lesson,m=state.tab){return l+'/'+m+(m==='l1'?':'+state.prefs.l1Direction:'')}
+function lesson(){return lessons[state.lesson]}
+function norm(x){let s=String(x??'').toLowerCase().replace(/[’‘`]/g,"'");s=s.replace(/\b([ap])\s*\.\s*m\s*\.?/g,'$1m');s=s.replace(/\bi'm\b/g,'i am').replace(/\b(you|we|they)'re\b/g,'$1 are').replace(/\b(he|she|it|there|that|what|who|where)'s\b/g,'$1 is').replace(/\bi've\b/g,'i have').replace(/\bi'll\b/g,'i will').replace(/\bcan't\b|\bcannot\b/g,'can not').replace(/\bwon't\b/g,'will not').replace(/\b(\w+)n't\b/g,'$1 not');return s.replace(/(\d),(\d{3})/g,'$1$2').replace(/[.,!?;:"()…]/g,' ').replace(/\s-\s/g,' ').replace(/-/g,' ').replace(/\s+/g,' ').trim()}
+function countDone(q, ans){if(q.kind==='choice')return typeof ans==='number';if(q.kind==='build')return Array.isArray(ans)&&ans.length===(q.correctTokenCount||q.tokens.length);return typeof ans==='string'&&ans.trim()!==''}
+function getAns(B,q){return B.answers[q.key]}
+function randOrder(total,seed){return Array.from({length:total},(_,i)=>(i+seed)%total)}
+function rotate(arr,n,size){if(!arr.length)return [];const start=(n*size)%arr.length;const count=Math.min(arr.length,size);return randOrder(count,0).map(i=>arr[(start+i)%arr.length])}
+function explain(raw,q){
+ const s=(raw||'').trim();const txt=[q.prompt||'',q.correct||'',q.why||''].join(' ').toLowerCase();
+ let explicit='';
+ if(/does(n't| not)? have to|does she have/i.test(txt))explicit='После does/doesn’t используется have, а не has. Вспомогательный does уже показывает третье лицо.';
+ else if(/has to|have to/i.test(txt)&&/\b(has|have|work|care|check)\b/i.test(txt))explicit='Have to / has to выражает необходимость. После to нужен глагол в начальной форме (work, care, check).';
+ else if(/had to|yesterday.*had|last week.*had/i.test(txt))explicit='Had to уже обозначает прошедшее время, поэтому после него ставится начальная форма: had to take, не had to took.';
+ else if(/apply for|applied for/i.test(txt))explicit='С откликом на вакансию употребляется apply for a job; в выражении hundreds of jobs обязательно of.';
+ else if(/hardly|hard\b/i.test(txt)&&/work|earn/i.test(txt))explicit='Hard означает «усердно» (work hard), а hardly — «едва, почти не» (hardly earn).';
+ else if(/does(n't| not)?|does she|does he/i.test(txt))explicit='После does / doesn’t основной глагол всегда без -s: Does she work? / She doesn’t work.';
+ else if(/\bif\b.*\bwill\b/i.test(txt))explicit='В if-части общего правила используем Present Simple, не will.';
+ else if(/\b(need|want|try|decided)\b.*\bto\b/i.test(txt))explicit='После need, want, try и decide перед вторым глаголом ставим to: need to finish, want to work.';
+ else if(/\b(he|she|it)\b.*\b(work|has|studies|goes|depends)\b/i.test(txt))explicit='В Present Simple для he/she/it обычно добавляем -s/-es/-ies к глаголу.';
+ else if(/\b(am|is|are|i'm|he's|she's)\b.*ing\b/i.test(txt))explicit='Present Continuous строится как am/is/are + глагол с -ing. Он описывает процесс сейчас или временную ситуацию.';
+ else if(/\b(can|could)\b/i.test(txt))explicit='После can/could следующий глагол всегда в начальной форме, без to и без -s.';
+ if(s&&!/^(повтори конструкцию|смотри образец|правильно)$/i.test(s)){
+   let t=s[0].toUpperCase()+s.slice(1); if(!/[.!?]$/.test(t))t+='.';
+   if(explicit && !norm(t).includes(norm(explicit).slice(0,20)))return t+' '+explicit;
+   return t;
+ }
+ if(explicit)return explicit;
+ if(q.kind==='build'){
+    const sentence=String(q.correct||'');
+    if(/\b(has to|have to|had to)\b/i.test(sentence))return 'Конструкция have/has/had to + начальная форма глагола выражает необходимость. Сначала кто, затем необходимость, затем действие.';
+    if(/\b(don't|doesn't|didn't)\b/i.test(sentence))return 'В отрицании вспомогательный do/does/did + not идёт перед основным глаголом. После него глагол без окончания -s/-ed.';
+    if(/^(Do|Does|Did|Are|Is|Can|What|Where|Why|When|How|Who)\b/i.test(sentence))return 'Вопрос: вопросительное слово (если есть) → вспомогательный глагол → подлежащее → основной глагол. Сохраняй нужный предлог.';
+    if(/\b(at|in|on)\s+\w/i.test(sentence))return 'Обычно порядок: кто → действие → что/кого → где → когда. Предлоги: at для времени по часам, in для периода/места, on для дней и платформ.';
+    if(/\b(yesterday|last week|ago)\b/i.test(sentence))return 'Указание на прошедшее время требует Past Simple: had, got, went, said и другие формы из урока.';
+    return 'В утвердительном предложении сначала подлежащее, затем глагол и дополнение. Слова, не подходящие по смыслу или грамматике, оставь в банке.';
+  }
+ if(q.kind==='speak')return 'Это пример ответа, а не единственная правильная формулировка. Важно передать смысл и использовать подходящую грамматику.';
+ return 'Сравни структуру с образцом. Обрати внимание на форму глагола, артикли, предлоги и порядок слов.';
+}
+function poolFor(L,mode){
+ if(mode==='l1')return L.vocab.map((v,i)=>mkWord(L,i,state.prefs.l1Direction));
+ const source=L[mode]||[];
+ return source.map((r,i)=>{
+  const common={key:mode+':'+i,mode,kind:'text',why:r.why||'',prompt:'',correct:'',accept:[]};
+  if(mode==='l2')return{...common,kind:'choice',prompt:r.q,options:r.o,correctIndex:r.a,correct:r.o[r.a]};
+  if(mode==='l3')return{...common,kind:'text',prompt:r.q,hint:r.hint,accept:r.a,correct:r.a[0]};
+  if(mode==='l4'){
+    const needed=r.en.replace(/[!?.,]+$/,'').split(/\s+/),tokens=[...needed];
+    const used=new Set(needed.map(w=>w.toLowerCase().replace(/[^a-z]/g,'')));
+    const distractorBank=['is','are','am','have','has','had','do','does','to','for','with','on','at','in','from','the','a','an','not','was','will','can','my','his','her','their','they','he','she','it','working','worked','going','and','but'];
+    const offset=(i*7+mode.length)%distractorBank.length;
+    for(let n=0;n<distractorBank.length&&tokens.length<needed.length+3;n++){
+      const x=distractorBank[(offset+n)%distractorBank.length];
+      if(!used.has(x)){tokens.push(x);used.add(x)}
+    }
+    const order=tokens.map((_,j)=>j).sort((a,b)=>((a*17+i*13)%101)-((b*17+i*13)%101));
+    return{...common,kind:'build',prompt:r.ru,correct:r.en,tokens,correctTokenCount:needed.length,order};
+  }
+  if(mode==='l5')return{...common,kind:'text',prompt:r.ru,accept:r.a,correct:r.a[0]};
+  if(mode==='l6')return{...common,kind:'speak',prompt:r.q,sub:r.ru,starter:r.start,correct:r.model,accept:[r.model]};
+  if(mode==='fix')return{...common,kind:'text',prompt:r.wrong,sub:r.ru,correct:r.a[0],accept:r.a};
+  return common;
+ });
+}
+function mkWord(L,i,dir){const v=L.vocab[i];const correct=dir==='en'?v.ru:v.en;const arr=L.vocab.map((w,j)=>({s:dir==='en'?w.ru:w.en,j})).filter(w=>w.j!==i&&w.s!==correct);const targets=[correct];for(let n=0;n<arr.length&&targets.length<3;n++){const candidate=arr[(i*5+n)%arr.length].s;if(!targets.includes(candidate))targets.push(candidate)}const shift=i%3;const opts=targets.slice(shift).concat(targets.slice(0,shift));return{key:'l1:'+i+':'+dir,mode:'l1',kind:'choice',prompt:dir==='en'?v.en:v.ru,pron:dir==='en'?v.pron:null,correctIndex:opts.indexOf(correct),correct,options:opts,why:v.en+' — '+v.ru+' (произношение: '+v.pron+').'};}
+function buildBlock(L,mode){const p=prog();const number=p.attempts.filter(a=>a.mode===mode&&(mode!=='l1'||a.direction===state.prefs.l1Direction)).length;let pool;if(mode==='mist'){
+   const errs=Object.keys(p.mistakes);pool=errs.map(key=>{
+      const m=key.split(':')[0];
+      if(m==='l1'){const match=key.match(/^l1:(\d+):(en|ru)$/);return match?mkWord(L,Number(match[1]),match[2]):null}
+      return poolFor(L,m).find(q=>q.key===key)
+    }).filter(Boolean);
+ }else pool=poolFor(L,mode);
+ const items=rotate(pool,number,LEVELSIZE[mode]||8);
+ return{lesson:L.id,mode,direction:mode==='l1'?state.prefs.l1Direction:null,id:'b-'+Date.now()+'-'+Math.floor(Math.random()*1000),created:new Date().toISOString(),page:0,answers:{},self:{},checked:false,completed:false,items};
+}
+function currentBlock(create=true){const key=draftKey();if(!state.drafts[key]&&create){state.drafts[key]=buildBlock(lesson(),state.tab);persist()}return state.drafts[key]||null}
+function masteryLevel(id,mode){const at=prog(id).attempts.filter(x=>x.mode===mode);return at.length>=2&&at[0].percentage>=80&&at[1].percentage>=80}
+function grade(q,B){if(!B.checked)return undefined;const answer=getAns(B,q);if(q.kind==='choice')return answer===q.correctIndex;if(q.kind==='speak')return B.self[q.key]===undefined?null:B.self[q.key];if(q.kind==='build'){
+  const ordered=(Array.isArray(answer)?answer:[]).map(j=>q.tokens[j]).join(' ');
+  if(norm(ordered)===norm(q.correct))return true;return B.self[q.key]===undefined?null:B.self[q.key];
+ }
+ if(q.accept&&q.accept.some(a=>norm(a)===norm(answer)))return true;
+ return B.self[q.key]===undefined?null:B.self[q.key];
+}
+function snapshotAnswer(q,B){const a=getAns(B,q);return q.kind==='choice'?q.options[a]||'—':q.kind==='build'?Array.isArray(a)?a.map(j=>q.tokens[j]).join(' '):'—':String(a??'—')}
+function finish(B){if(B.completed||!B.checked)return;const evaluations=B.items.map(q=>grade(q,B));if(evaluations.some(v=>v===null||v===undefined))return;
+ const p=prog(B.lesson);const n=B.items.length;const score=evaluations.filter(Boolean).length;const percentage=Math.round(score/n*100);
+ B.items.forEach((q,i)=>{
+  const prior=p.mistakes[q.key];if(!evaluations[i])p.mistakes[q.key]={misses:(prior?.misses||0)+1,streak:0,last:snapshotAnswer(q,B),example:q.correct,mode:q.mode};
+  else if(prior){prior.streak=(prior.streak||0)+1;if(prior.streak>=2)delete p.mistakes[q.key]}
+ });
+ const attempt={id:B.id,mode:B.mode,direction:B.direction||null,at:new Date().toISOString(),n,score,percentage,items:B.items.map((q,i)=>({key:q.key,mode:q.mode,question:q.prompt,answer:snapshotAnswer(q,B),correct:q.correct,ok:evaluations[i],why:explain(q.why,q)}))};
+ p.attempts.unshift(attempt);B.completed=true;B.percentage=percentage;persist();
+}
+function head(){const leftView=el('view-nav').scrollLeft;
+  const lessonSelect=el('lesson-select');
+  if(!lessonSelect.options.length)lessonSelect.innerHTML=records.map(r=>`<option value="${escapeHTML(r.id)}">${escapeHTML(r.num)} · ${escapeHTML(r.title)}</option>`).join('');
+  lessonSelect.value=state.lesson;
+ el('view-nav').innerHTML=Object.entries(LABELS).map(([k,t])=>`<button type="button" data-tab="${k}" class="${state.tab===k?'selected':''}" aria-selected="${state.tab===k}">${escapeHTML(t)}${k==='mist'&&Object.keys(prog().mistakes).length?' <span class="flag">'+Object.keys(prog().mistakes).length+'</span>':''}</button>`).join('');el('view-nav').scrollLeft=leftView;
+ const L=lesson();el('title').textContent=L.title;el('eyebrow').textContent='Урок '+L.num;el('brand-lesson').textContent='Урок '+L.num;
+ el('storage-alert').hidden=storageOK;
+ el('slow-btn').textContent=state.prefs.slow?'Озвучка 0.7×':'Озвучка 1×';
+}
+function audioOK(){return typeof window.speechSynthesis!=='undefined'&&typeof window.SpeechSynthesisUtterance==='function'}
+function speaker(t){return audioOK()?`<button type="button" class="speak" data-say="${escapeHTML(t)}" aria-label="Прослушать">🔊</button>`:''}
+function showTheory(){const L=lesson();const sections=L.theory.map((s,i)=>`<section class="section"><details ${i===0?'open':''}><summary>${i+1}. ${markdown(s.h)}</summary><div class="theory-body">${(s.text||[]).map(t=>`<p>${markdown(t)}</p>`).join('')}${s.table&&s.table.length?`<table><thead><tr>${s.table[0].map(x=>`<th>${markdown(x)}</th>`).join('')}</tr></thead><tbody>${s.table.slice(1).map(row=>`<tr>${row.map(x=>`<td>${markdown(x)}</td>`).join('')}</tr>`).join('')}</tbody></table>`:''}${(s.ex||[]).map(([en,ru])=>`<div class="example">${speaker(en)} <b>${escapeHTML(en)}</b><br><span class="hint">${escapeHTML(ru)}</span></div>`).join('')}${(s.warn||[]).map(w=>`<div class="error">${markdown(w)}</div>`).join('')}</div></details></section>`).join('');
+ el('body').innerHTML=`<div class="stats"><span class="tag">${L.theory.length} тем</span><span class="tag">${L.vocab.length} слов и фраз</span><span class="tag">Уровень A2</span></div><p class="hint">Разверни нужную тему, затем переходи к тренировке. Все примеры — из твоей базы занятий.</p>${sections}<section class="section"><h2>Как закреплять</h2><p>Пройди блок на 80% или выше <b>два раза подряд</b>, затем переходи к следующему уровню. Ошибки исчезают после двух правильных ответов подряд.</p><button type="button" class="btn" data-tab="l1">Начать уровень 1 →</button></section><nav class="other-apps" aria-label="Другие приложения"><a href="./words/">Тренажёр слов</a><a href="./reader/">Читалка</a></nav>`;
+ el('footer').hidden=true;
+}
+function showWords(){const L=lesson();el('body').innerHTML=`<div class="quizhead"><h2>Словарь · ${L.vocab.length}</h2><p>Английский → перевод → произношение</p></div><div class="lessonwords">${L.vocab.map(v=>`<div class="word"><div class="wordtop"><strong>${escapeHTML(v.en)}</strong>${speaker(v.en)}</div><span class="trans">${escapeHTML(v.ru)}</span><span class="pron">[${escapeHTML(v.pron)}]</span></div>`).join('')}</div>`;el('footer').hidden=true;}
+function showHistory(){const P=prog();const attempts=P.attempts;
+ const recent=attempts.map(a=>`<details class="history-item"><summary>${escapeHTML(LABELS[a.mode]||a.mode)}${a.mode==='l1'&&a.direction?' ('+(a.direction==='en'?'EN→RU':'RU→EN')+')':''} · ${fmt(a.at)} · ${a.score}/${a.n} (${a.percentage}%) ${a.percentage>=80?'✓':''}</summary><div class="history-details">${a.items.map((r,i)=>`<div class="entry"><strong>${i+1}. ${r.ok?'✓':'✕'} ${escapeHTML(r.question)}</strong><br>Твой ответ: ${escapeHTML(r.answer)}<br>Правильно: ${escapeHTML(r.correct)}<br>Почему: ${escapeHTML(r.why)}</div>`).join('')}</div></details>`).join('');
+ el('body').innerHTML=`<div class="quizhead"><h2>История и прогресс</h2><span class="tag">${attempts.length} попыток</span></div><section class="section"><h2>Пройденные уровни</h2>${EXERCISE.filter(m=>m!=='mist').map(m=>{const a=attempts.filter(x=>x.mode===m);return `<p>${escapeHTML(LABELS[m])}: ${a.length?a[0].percentage+'% (последняя)':'ещё нет попыток'} ${masteryLevel(state.lesson,m)?'· ✓ два раза подряд':''}</p>`}).join('')}<p class="hint">История сохраняется в этом браузере по адресу сайта, даже когда открываешь следующий блок. На другом устройстве нужен импорт JSON.</p></section><div class="actions"><button class="btn" type="button" id="export-btn">Экспорт JSON</button><button class="btn subtle" type="button" id="import-btn">Импорт JSON</button></div><div class="spacer"></div>${recent||'<p class="hint">Проверенных блоков пока нет. После первой проверки ответы с объяснениями появятся здесь.</p>'}`;
+ el('footer').hidden=true;
+}
+function showMistEmpty(){el('body').innerHTML='<section class="section"><h2>Работа над ошибками</h2><p>Пока ошибок нет. Они появятся после проверки упражнений и исчезнут, когда ответишь верно дважды подряд.</p></section>';el('footer').hidden=true;}
+function renderPrompt(q){return escapeHTML(q.prompt).replace(/___/g,'<span class="blank">&nbsp;&nbsp;&nbsp;</span>')}
+function renderQuestion(q,i,B){const ans=getAns(B,q),isChecked=B.checked,r=grade(q,B),options=q.kind==='choice'?`<div class="optiongrid">${q.options.map((o,j)=>`<button type="button" class="choice ${ans===j?'sel':''} ${isChecked&&j===q.correctIndex?'answer-good':''} ${isChecked&&j===ans&&ans!==q.correctIndex?'answer-bad':''}" data-answer-choice="${escapeHTML(q.key)}" data-choice="${j}" ${isChecked?'disabled':''}><span class="circle">${ans===j?'✓':String.fromCharCode(65+j)}</span><span>${escapeHTML(o)}</span></button>`).join('')}</div>`:'';
+ let input='';
+ if(q.kind==='text'||q.kind==='speak'){input=q.kind==='speak'?`<textarea class="qinput" data-answer-text="${escapeHTML(q.key)}" placeholder="1–3 предложения" ${isChecked?'disabled':''}>${escapeHTML(ans||'')}</textarea>`:`<input type="text" class="qinput" data-answer-text="${escapeHTML(q.key)}" value="${escapeHTML(ans||'')}" placeholder="${q.mode==='l5'?'Перевод на английский':'Твой ответ'}" autocomplete="off" autocapitalize="off" ${isChecked?'disabled':''}>`}
+ if(q.kind==='build'){const selected=Array.isArray(ans)?ans:[];const ordered=selected.map(j=>`<button type="button" class="token placed" data-word-remove="${q.key}" data-index="${j}" ${isChecked?'disabled':''}>${escapeHTML(q.tokens[j])} ×</button>`).join('');const remain=q.order.filter(j=>!selected.includes(j)).map(j=>`<button type="button" class="token" data-word-add="${q.key}" data-index="${j}" ${isChecked?'disabled':''}>${escapeHTML(q.tokens[j])}</button>`).join('');input=`<div class="tokenslot">${ordered||'<span class="muted">Нажимай слова по порядку</span>'}</div><div class="chips">${remain}</div>`}
+ const help=q.hint?`<div class="hint">Подсказка: ${escapeHTML(q.hint)}</div>`:q.starter?`<div class="hint">Начни: ${escapeHTML(q.starter)}</div>`:q.sub?`<div class="hint">${escapeHTML(q.sub)}</div>`:q.pron?`<div class="hint">[${escapeHTML(q.pron)}]</div>`:'';
+ let feedback='';
+ if(isChecked){const status=r===true?'<span class="verdict good">✓ Правильно</span>':r===false?'<span class="verdict bad">✕ Ошибка</span>':'<span class="verdict pending">Проверь формулировку</span>';feedback=`<div class="explanation">${status}<details open><summary>${r===true?'Почему так правильно?':'Образец и объяснение'}</summary><div class="answerline"><b>Правильно:</b> ${escapeHTML(q.correct)} ${speaker(q.correct)}</div><div class="why"><strong>Почему:</strong> ${escapeHTML(explain(q.why,q))}</div></details>${r===null?`<div class="note-small">Если твой вариант тоже грамматически правильный и передаёт смысл, отметь его как верный.</div><div class="self-row"><button class="btn line" type="button" data-self="${escapeHTML(q.key)}" data-value="1">Тоже правильно</button><button class="btn subtle" type="button" data-self="${escapeHTML(q.key)}" data-value="0">Есть ошибка</button></div>`:''}</div>`}
+ return `<article class="qcard ${isChecked&&r===true?'right':''} ${isChecked&&r===false?'wrong':''}" id="question-${i}"><div class="qtop"><span class="qnumber">${i+1} / ${B.items.length}</span>${isChecked&&r!==null?`<span class="tag ${r?'good':'bad'}">${r?'Верно':'Ошибка'}</span>`:''}</div><div class="qprompt">${renderPrompt(q)} ${q.kind==='speak'?speaker(q.prompt):''}</div>${help}${options}${input}${feedback}</article>`;
+}
+function pageSize(){return Math.max(1,Math.min(5,Number(state.prefs.pageSize)||4))}
+function jumpToTop(){window.scrollTo({top:0,behavior:'instant'})}
+function renderQuiz(){const L=lesson();let B=currentBlock();if(!B||B.items.length===0){showMistEmpty();return}page=Math.max(0,Math.min(page,Math.ceil(B.items.length/pageSize())-1));B.page=page;persist();
+ const from=page*pageSize(),to=Math.min(B.items.length,from+pageSize());const num=B.items.filter(q=>countDone(q,getAns(B,q))).length;const done= B.items.every(q=>countDone(q,getAns(B,q)));const pending=B.checked?B.items.filter(q=>grade(q,B)===null).length:0;
+ el('body').innerHTML=`${B.mode==='l1'?`<label class="direction-picker">Переводить <select id="recognition-dir" aria-label="Направление перевода"><option value="en" ${state.prefs.l1Direction==='en'?'selected':''}>С английского на русский</option><option value="ru" ${state.prefs.l1Direction==='ru'?'selected':''}>С русского на английский</option></select></label>`:''}<div class="quizhead"><div><h2>${escapeHTML(LABELS[B.mode])} ${B.completed?'· проверено':''}</h2><p>Вопросы ${from+1}–${to} из ${B.items.length} · отвечено ${num} из ${B.items.length}${storageOK?' · автосохранение ✓':''}</p></div><span class="tag ${B.completed&&B.percentage>=80?'good':''}">${B.completed?B.percentage+'%':num+'/'+B.items.length}</span></div><div class="meter"><span style="width:${100*num/B.items.length}%"></span></div>${B.checked?`<div class="statusbox"><div class="big">${B.completed?B.percentage+'%':'Проверка ответов'}</div>${B.completed?`<div>${B.percentage>=80?'Успешная попытка.':'Пока меньше 80%.'} Результат сохранён в истории.</div>`:`<div>Ответы показаны. Осталось подтвердить варианты с открытым ответом: ${pending}.</div>`}</div>`:''}<div class="questiongrid">${B.items.slice(from,to).map((q,i)=>renderQuestion(q,from+i,B)).join('')}</div>${B.checked&&!B.completed?'<p class="hint">Образцы и объяснения открылись после проверки. Для собственных формулировок выбери «Тоже правильно» или «Есть ошибка».</p>':''}${B.completed?`<div class="spacer"></div><section class="section"><h2>Результат сохранён</h2><p>Попытка доступна во вкладке «История». Не нужно сохранять её повторно.</p><div class="actions"><button class="btn" type="button" id="again-btn">Новый блок этого уровня</button><button class="btn subtle" type="button" data-tab="history">Посмотреть историю</button></div></section>`:''}`;
+ const f=el('footer');f.hidden=false;
+ let c='';
+ if(!B.checked)c=done?'<button class="btn primary" type="button" id="check-btn">Проверить все</button>':'<button class="btn primary" type="button" id="check-btn" disabled title="Сначала ответь на все вопросы">Проверить все</button>';
+ else if(!B.completed)c='<span class="tag">Самопроверка</span>';
+ else c='<button type="button" class="btn line" id="again-btn-foot">Новая попытка</button>';
+ f.innerHTML=`<div class="footer-inner"><button class="btn subtle" id="prev-btn" ${page===0?'disabled':''}>←</button><span class="centre">${page+1}/${Math.ceil(B.items.length/pageSize())}</span><button class="btn subtle" id="next-btn" ${to>=B.items.length?'disabled':''}>→</button>${c}</div>`;
+}
+function render(){document.body.dataset.mode=state.tab;head();const v=state.tab;el('body').innerHTML='';if(v==='theory')showTheory();else if(v==='words')showWords();else if(v==='history')showHistory();else if(v==='mist'&&Object.keys(prog().mistakes).length===0&&!(currentBlock(false)&&currentBlock(false).completed))showMistEmpty();else renderQuiz();}
+function navLesson(id){if(!lessons[id])return;state.lesson=id;state.tab='theory';page=0;persist();render();jumpToTop()}
+function navTab(tab){if(!(tab in LABELS))return;state.tab=tab;page=0;if(EXERCISE.includes(tab)){const B=currentBlock();if(B)page=B.page||0}persist();render();jumpToTop()}
+function updateDraft(qkey,val){const B=currentBlock(false);if(!B||B.checked)return;B.answers[qkey]=val;persist();updateCounter(B)}
+function updateCounter(B){const n=B.items.filter(q=>countDone(q,B.answers[q.key])).length;const p=el('body').querySelector('.quizhead p');if(p)p.textContent=p.textContent.replace(/отвечено \d+ из \d+/,`отвечено ${n} из ${B.items.length}`);const tag=el('body').querySelector('.quizhead .tag');if(tag)tag.textContent=n+'/'+B.items.length;const meter=el('body').querySelector('.meter span');if(meter)meter.style.width=(100*n/B.items.length)+'%';const b=el('check-btn');if(b)b.disabled=n!==B.items.length}
+function checkNow(){const B=currentBlock(false);if(!B||B.checked)return;let missing=B.items.findIndex(q=>!countDone(q,getAns(B,q)));if(missing!==-1){page=Math.floor(missing/pageSize());render();return;}B.checked=true;for(const q of B.items){if(q.kind==='speak')continue;grade(q,B)}finish(B);persist();render();jumpToTop()}
+function newAttempt(){const k=draftKey();state.drafts[k]=buildBlock(lesson(),state.tab);page=0;persist();render();jumpToTop()}
+function selfMark(qkey,val){const B=currentBlock(false);if(!B||!B.checked)return;B.self[qkey]=val;finish(B);persist();render()}
+function setPage(n){const B=currentBlock(false);if(!B)return;page=Math.max(0,Math.min(Math.ceil(B.items.length/pageSize())-1,n));B.page=page;persist();render();jumpToTop()}
+function speakText(t){if(!audioOK())return;try{speechSynthesis.cancel();const u=new SpeechSynthesisUtterance(t);u.lang='en-GB';u.rate=state.prefs.slow?.65:.95;const vs=speechSynthesis.getVoices();u.voice=vs.find(v=>/^en-GB/i.test(v.lang))||vs.find(v=>/^en/i.test(v.lang))||null;speechSynthesis.speak(u)}catch(e){}}
+function exportData(){const obj={format:'english-review-v4',exported:new Date().toISOString(),state};const blob=new Blob([JSON.stringify(obj,null,2)],{type:'application/json'});const url=URL.createObjectURL(blob);const a=document.createElement('a');a.href=url;a.download='english-review-progress.json';document.body.appendChild(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),2000)}
+function openImport(){el('import-file').click()}
+async function importFile(f){try{const str=await f.text();const obj=JSON.parse(str);if(obj.format==='english-review-v4'&&obj.state&&obj.state.progress){if(!confirm('Заменить текущий прогресс импортированным?'))return;state={...dflt(),...obj.state,prefs:{...dflt().prefs,...obj.state.prefs}};page=0;persist();render();alert('Прогресс восстановлен.');return}
+ if(obj.format==='english-review-v1'&&obj.data){if(!confirm('Импортировать прогресс из старой версии приложения?'))return;let count=0;for(const [k,val]of Object.entries(obj.data)){if(!k.startsWith('rl:prog:'))continue;const lid=k.slice('rl:prog:'.length);const raw=JSON.parse(val);if(!lessons[lid])continue;const p=prog(lid);const list=Array.isArray(raw.log)?raw.log:[];for(const r of list){if(!r.lv||!r.n)continue;p.attempts.push({id:'legacy-'+count++,mode:r.lv,at:new Date(r.ts||Date.now()).toISOString(),n:r.n,score:r.s,percentage:Math.round(r.s/r.n*100),items:[]})}for(const [key,m]of Object.entries(raw.mistakes||{}))p.mistakes[key]={misses:m.miss||1,streak:m.streak||0,last:m.ans||'',example:'',mode:key.split(':')[0]};}persist();render();alert('Импортирована история из прежней версии.');return}
+ throw Error('Файл не похож на экспорт English Review.');
+ }catch(err){alert('Не получилось импортировать: '+err.message)}el('import-file').value=''}
+function onClick(e){let b=e.target.closest('button');if(!b)return;const d=b.dataset;
+ if(d.lesson)return navLesson(d.lesson);if(d.tab)return navTab(d.tab);if(d.say)return speakText(d.say);
+ if('answerChoice' in d){updateDraft(d.answerChoice,+d.choice);render();return}
+ if('wordAdd' in d){const B=currentBlock(false);if(B&&!B.checked){const x=B.answers[d.wordAdd]||[],q=B.items.find(q=>q.key===d.wordAdd);if(q&&x.length<(q.correctTokenCount||q.tokens.length)&&!x.includes(+d.index)){B.answers[d.wordAdd]=[...x,+d.index];persist();render()}}return}
+ if('wordRemove' in d){const B=currentBlock(false);if(B&&!B.checked){const x=B.answers[d.wordRemove]||[];B.answers[d.wordRemove]=x.filter(j=>j!==+d.index);persist();render()}return}
+ if('self' in d){selfMark(d.self,d.value==='1');return}
+ if(b.id==='prev-btn'){setPage(page-1);return}if(b.id==='next-btn'){setPage(page+1);return}if(b.id==='check-btn'){checkNow();return}
+ if(b.id==='again-btn'||b.id==='again-btn-foot'){newAttempt();return}
+ if(b.id==='export-btn'||b.id==='export-head'){exportData();return}if(b.id==='import-btn'){openImport();return}
+ if(b.id==='slow-btn'){state.prefs.slow=!state.prefs.slow;persist();head();return}
+}
+function onInput(e){const t=e.target;if(t.matches('[data-answer-text]')){updateDraft(t.dataset.answerText,t.value)}}
+document.addEventListener('click',onClick);document.addEventListener('input',onInput);document.addEventListener('change',onInput);
+el('import-file').addEventListener('change',e=>{if(e.target.files&&e.target.files[0])importFile(e.target.files[0])});
+el('page-size').value=String(pageSize());el('page-size').addEventListener('change',e=>{state.prefs.pageSize=Number(e.target.value)||4;page=0;persist();render()});
+  el('lesson-select').addEventListener('change',e=>navLesson(e.target.value));
+  document.addEventListener('change',e=>{if(e.target.id==='recognition-dir'){
+    const value=e.target.value;if(!['en','ru'].includes(value))return;
+    state.prefs.l1Direction=value;page=0;persist();render();jumpToTop();
+  }});
+window.addEventListener('error',e=>{const banner=el('error-banner');if(banner){banner.hidden=false;banner.textContent='Ошибка приложения: '+(e.message||'Неизвестная ошибка')}});
+// Expose a read-only test hook to verify persistence and question selection in browser tests.
+window.__reviewDebug={getState:()=>JSON.parse(JSON.stringify(state)),lessonCount:records.length,storageOK:()=>storageOK};
+render();
+if('serviceWorker' in navigator&&location.protocol==='https:')navigator.serviceWorker.register('./sw.js').catch(()=>{});
+})();
+</script>
+</body></html>

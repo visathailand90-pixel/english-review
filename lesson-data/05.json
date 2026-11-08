@@ -1,0 +1,1018 @@
+{
+  "id": "05",
+  "num": "5",
+  "title": "Организуй своё время",
+  "date": "13.10",
+  "summary": "Урок про работу из дома и баланс работы и жизни.\nСоветы: Try to… (старайся) и Don't… (не делай).\nГлавная грамматика — zero conditional: общие правила и факты.\nIf + Present Simple, Present Simple. Без will, с -s у he/she/it.",
+  "theory": [
+    {
+      "h": "Zero conditional — общие правила",
+      "text": [
+        "Говорим о том, что **всегда** происходит при каком-то условии: факты, правила, привычки.",
+        "Схема: **If + Present Simple, Present Simple**."
+      ],
+      "table": [
+        [
+          "Условие (if)",
+          "Результат"
+        ],
+        [
+          "If I drink too much coffee,",
+          "I can't sleep."
+        ],
+        [
+          "If sales increase,",
+          "a company makes more profit."
+        ],
+        [
+          "If you mix red and blue,",
+          "you get purple."
+        ]
+      ],
+      "ex": [
+        [
+          "If I have a problem, I like to lie down.",
+          "Если у меня проблема, я люблю прилечь."
+        ],
+        [
+          "If water freezes, it makes ice.",
+          "Если вода замерзает, получается лёд."
+        ]
+      ]
+    },
+    {
+      "h": "После if — без will",
+      "text": [
+        "В части с **if** будущее время не ставим, даже если по-русски хочется сказать «будет».",
+        "В обеих частях — обычный **Present Simple**."
+      ],
+      "ex": [
+        [
+          "If I have a problem, I lie down.",
+          "Если у меня (будет) проблема, я ложусь."
+        ]
+      ],
+      "warn": [
+        "If I **will have** a problem → If I **have** a problem. После if will не нужен."
+      ]
+    },
+    {
+      "h": "-s у he / she / it",
+      "text": [
+        "Present Simple: с he, she, it и одним человеком или вещью глагол получает **-s**.",
+        "Это правило работает в обеих частях предложения."
+      ],
+      "table": [
+        [
+          "Кто",
+          "Форма"
+        ],
+        [
+          "I, you, we, they",
+          "work / feel"
+        ],
+        [
+          "he, she, it",
+          "works / feels"
+        ],
+        [
+          "отрицание he/she/it",
+          "doesn't work"
+        ]
+      ],
+      "ex": [
+        [
+          "If he works late, he feels tired.",
+          "Если он работает допоздна, он чувствует усталость."
+        ],
+        [
+          "If the offer is weak, the cost per lead goes up.",
+          "Если оффер слабый, стоимость лида растёт."
+        ]
+      ],
+      "warn": [
+        "If he **work** late → If he **works** late.",
+        "If she **doesn't works** → If she **doesn't work**. После doesn't глагол без -s."
+      ]
+    },
+    {
+      "h": "Запятая: где стоит if",
+      "text": [
+        "**If** в начале → ставим запятую.",
+        "**If** в середине → запятая не нужна."
+      ],
+      "ex": [
+        [
+          "If I work in the kitchen, I eat more.",
+          "Если я работаю на кухне, я ем больше."
+        ],
+        [
+          "I eat more if I work in the kitchen.",
+          "Я ем больше, если работаю на кухне."
+        ]
+      ]
+    },
+    {
+      "h": "Советы: Try to… / Don't…",
+      "text": [
+        "**Try to + глагол** — «старайся что-то делать».",
+        "**Don't + глагол** (без to) — «не делай»."
+      ],
+      "ex": [
+        [
+          "Try to take a break every hour.",
+          "Старайся делать перерыв каждый час."
+        ],
+        [
+          "Don't eat at your desk.",
+          "Не ешь за рабочим столом."
+        ]
+      ],
+      "warn": [
+        "Try **do** it → Try **to do** it. После try нужно to.",
+        "Don't **to work** → Don't **work**. После don't to не нужно."
+      ]
+    },
+    {
+      "h": "Полезные слова урока",
+      "text": [
+        "**advice** — неисчисляемое: some advice, а не an advice / advices.",
+        "**waste time** — тратить время впустую, **focus on** — сосредоточиться на."
+      ],
+      "ex": [
+        [
+          "Linda gives Henry some advice.",
+          "Линда даёт Генри советы."
+        ],
+        [
+          "I don't waste time on the way to the office.",
+          "Я не трачу время на дорогу в офис."
+        ]
+      ],
+      "warn": [
+        "an advice → **some advice** / **a piece of advice**."
+      ]
+    }
+  ],
+  "vocab": [
+    {
+      "en": "waste time",
+      "pron": "уэйст тайм",
+      "ru": "тратить время впустую"
+    },
+    {
+      "en": "focus on",
+      "pron": "фОукэс он",
+      "ru": "сосредоточиться на"
+    },
+    {
+      "en": "podcast",
+      "pron": "пОдкаст",
+      "ru": "подкаст"
+    },
+    {
+      "en": "host",
+      "pron": "хОуст",
+      "ru": "ведущий"
+    },
+    {
+      "en": "advice",
+      "pron": "эдвАйс",
+      "ru": "совет, советы"
+    },
+    {
+      "en": "work-life balance",
+      "pron": "уЁк-лайф бЭлэнс",
+      "ru": "баланс работы и жизни"
+    },
+    {
+      "en": "get up early",
+      "pron": "гет ап Ёли",
+      "ru": "рано вставать"
+    },
+    {
+      "en": "separate office",
+      "pron": "сЭпэрэт Офис",
+      "ru": "отдельный кабинет"
+    },
+    {
+      "en": "exercise",
+      "pron": "Эксэсайз",
+      "ru": "физические упражнения"
+    },
+    {
+      "en": "lie down",
+      "pron": "лай дАун",
+      "ru": "прилечь"
+    },
+    {
+      "en": "take a break",
+      "pron": "тейк э брЕйк",
+      "ru": "сделать перерыв"
+    },
+    {
+      "en": "occasionally",
+      "pron": "экЕйжнэли",
+      "ru": "иногда, изредка"
+    },
+    {
+      "en": "discount",
+      "pron": "дИскаунт",
+      "ru": "скидка"
+    },
+    {
+      "en": "employ",
+      "pron": "имплОй",
+      "ru": "нанимать"
+    },
+    {
+      "en": "staff",
+      "pron": "стаф",
+      "ru": "персонал"
+    },
+    {
+      "en": "stay up late",
+      "pron": "стэй ап лЕйт",
+      "ru": "поздно ложиться"
+    },
+    {
+      "en": "book in advance",
+      "pron": "бук ин эдвАнс",
+      "ru": "бронировать заранее"
+    },
+    {
+      "en": "refund",
+      "pron": "рИифанд",
+      "ru": "возврат денег"
+    },
+    {
+      "en": "cancelled",
+      "pron": "кЭнсэлд",
+      "ru": "отменён"
+    },
+    {
+      "en": "prize",
+      "pron": "прайз",
+      "ru": "приз"
+    },
+    {
+      "en": "retire",
+      "pron": "ритАйэ",
+      "ru": "выйти на пенсию"
+    },
+    {
+      "en": "research",
+      "pron": "рисЁч",
+      "ru": "исследование"
+    },
+    {
+      "en": "survey",
+      "pron": "сЁвэй",
+      "ru": "опрос"
+    },
+    {
+      "en": "workforce",
+      "pron": "уЁкфос",
+      "ru": "все работники"
+    },
+    {
+      "en": "worldwide",
+      "pron": "уёлдуАйд",
+      "ru": "по всему миру"
+    },
+    {
+      "en": "on average",
+      "pron": "он Эвэридж",
+      "ru": "в среднем"
+    },
+    {
+      "en": "according to",
+      "pron": "экОдинг ту",
+      "ru": "согласно"
+    },
+    {
+      "en": "reduce",
+      "pron": "ридьЮс",
+      "ru": "сокращать"
+    },
+    {
+      "en": "the amount of",
+      "pron": "зэ эмАунт ов",
+      "ru": "количество"
+    },
+    {
+      "en": "agree",
+      "pron": "эгрИ",
+      "ru": "соглашаться"
+    },
+    {
+      "en": "profit",
+      "pron": "прОфит",
+      "ru": "прибыль"
+    }
+  ],
+  "l2": [
+    {
+      "q": "If I ___ too much coffee, I can't sleep.",
+      "o": [
+        "drink",
+        "will drink",
+        "drinks"
+      ],
+      "a": 0,
+      "why": "после if — Present Simple, без will; I → без -s"
+    },
+    {
+      "q": "Try ___ up at the same time every day.",
+      "o": [
+        "get",
+        "to get",
+        "getting"
+      ],
+      "a": 1,
+      "why": "try to + глагол"
+    },
+    {
+      "q": "Don't ___ in your bedroom.",
+      "o": [
+        "to work",
+        "working",
+        "work"
+      ],
+      "a": 2,
+      "why": "после don't глагол без to"
+    },
+    {
+      "q": "If he works late, he ___ tired.",
+      "o": [
+        "feel",
+        "feels",
+        "will feels"
+      ],
+      "a": 1,
+      "why": "he → feels, с -s"
+    },
+    {
+      "q": "If you ___ a separate office, it can be a problem.",
+      "o": [
+        "don't have",
+        "doesn't have",
+        "won't have"
+      ],
+      "a": 0,
+      "why": "you → don't, без will"
+    },
+    {
+      "q": "If sales increase, a company ___ more profit.",
+      "o": [
+        "make",
+        "makes",
+        "will makes"
+      ],
+      "a": 1,
+      "why": "a company = it → makes"
+    },
+    {
+      "q": "Linda gives Henry some ___.",
+      "o": [
+        "advices",
+        "advice",
+        "an advice"
+      ],
+      "a": 1,
+      "why": "advice неисчисляемое: some advice"
+    },
+    {
+      "q": "If the printer ink is low, the red light ___ on.",
+      "o": [
+        "come",
+        "comes",
+        "is come"
+      ],
+      "a": 1,
+      "why": "the red light = it → comes"
+    },
+    {
+      "q": "I don't waste time ___ the way to the office.",
+      "o": [
+        "in",
+        "on",
+        "at"
+      ],
+      "a": 1,
+      "why": "on the way — по дороге"
+    },
+    {
+      "q": "I can focus better ___ home.",
+      "o": [
+        "at",
+        "in",
+        "on"
+      ],
+      "a": 0,
+      "why": "at home — дома"
+    },
+    {
+      "q": "If she ___ a problem with a task, she asks her boss.",
+      "o": [
+        "have",
+        "has",
+        "will have"
+      ],
+      "a": 1,
+      "why": "she → has; после if без will"
+    },
+    {
+      "q": "If our client ___ a clear offer, the ads don't work.",
+      "o": [
+        "doesn't have",
+        "don't have",
+        "doesn't has"
+      ],
+      "a": 0,
+      "why": "client = he/she → doesn't + глагол без -s"
+    },
+    {
+      "q": "Try ___ a break every hour.",
+      "o": [
+        "take",
+        "to take",
+        "taking"
+      ],
+      "a": 1,
+      "why": "try to + глагол"
+    },
+    {
+      "q": "If the offer is weak, the cost per lead ___ up.",
+      "o": [
+        "go",
+        "goes",
+        "will go"
+      ],
+      "a": 1,
+      "why": "the cost = it → goes"
+    },
+    {
+      "q": "If I ___ bored, I listen to a podcast.",
+      "o": [
+        "am",
+        "is",
+        "will be"
+      ],
+      "a": 0,
+      "why": "I → am; после if без will"
+    },
+    {
+      "q": "If you ___ online, there is a 10% discount.",
+      "o": [
+        "order",
+        "will order",
+        "orders"
+      ],
+      "a": 0,
+      "why": "you → order, без will"
+    },
+    {
+      "q": "We employ extra staff if we ___ a big order.",
+      "o": [
+        "will have",
+        "have",
+        "has"
+      ],
+      "a": 1,
+      "why": "после if — Present Simple; we → have"
+    },
+    {
+      "q": "I only stay up late if I ___ work the next day.",
+      "o": [
+        "don't have",
+        "doesn't have",
+        "won't have"
+      ],
+      "a": 0,
+      "why": "I → don't have; после if без will"
+    },
+    {
+      "q": "You can get flights cheaper if you book ___ advance.",
+      "o": [
+        "on",
+        "at",
+        "in"
+      ],
+      "a": 2,
+      "why": "in advance — заранее"
+    },
+    {
+      "q": "If my manager ___ me a task late, I stay up late.",
+      "o": [
+        "give",
+        "gives",
+        "will give"
+      ],
+      "a": 1,
+      "why": "my manager = he/she → gives"
+    },
+    {
+      "q": "If Henry ___ at his desk, he does less exercise.",
+      "o": [
+        "eat",
+        "eats",
+        "is eat"
+      ],
+      "a": 1,
+      "why": "Henry = he → eats"
+    }
+  ],
+  "l3": [
+    {
+      "q": "If I ___ a problem, I like to lie down.",
+      "hint": "у меня есть — 1 слово, без will",
+      "a": [
+        "have"
+      ],
+      "why": "после if — Present Simple"
+    },
+    {
+      "q": "___ eat at your desk.",
+      "hint": "не (делай) — 1 слово, сокращение",
+      "a": [
+        "don't",
+        "do not"
+      ],
+      "why": "запрет: Don't + глагол"
+    },
+    {
+      "q": "Try ___ a break every hour.",
+      "hint": "делать (перерыв) — 2 слова",
+      "a": [
+        "to take"
+      ],
+      "why": "try to + глагол"
+    },
+    {
+      "q": "If he ___ late, he feels tired.",
+      "hint": "работает — 1 слово, он",
+      "a": [
+        "works"
+      ],
+      "why": "he → -s"
+    },
+    {
+      "q": "If you mix red and blue, you ___ purple.",
+      "hint": "получаешь — 1 слово",
+      "a": [
+        "get"
+      ],
+      "why": "результат — Present Simple"
+    },
+    {
+      "q": "If water freezes, it ___ ice.",
+      "hint": "делает, превращается в — 1 слово",
+      "a": [
+        "makes"
+      ],
+      "why": "it → makes"
+    },
+    {
+      "q": "I don't ___ time on the way to the office.",
+      "hint": "тратить впустую — 1 слово",
+      "a": [
+        "waste"
+      ],
+      "why": "waste time — тратить время впустую"
+    },
+    {
+      "q": "It's hard to ___ working at home.",
+      "hint": "перестать — 1 слово",
+      "a": [
+        "stop"
+      ],
+      "why": "stop working — перестать работать"
+    },
+    {
+      "q": "If you finish in the top three, you get a ___.",
+      "hint": "приз — 1 слово",
+      "a": [
+        "prize"
+      ],
+      "why": "слово урока: prize"
+    },
+    {
+      "q": "If the concert is cancelled, do we get a ___?",
+      "hint": "возврат денег — 1 слово",
+      "a": [
+        "refund"
+      ],
+      "why": "слово урока: refund"
+    },
+    {
+      "q": "If we have a big order, we ___ extra staff.",
+      "hint": "нанимаем — 1 слово",
+      "a": [
+        "employ"
+      ],
+      "why": "employ — нанимать"
+    },
+    {
+      "q": "If she ___ understand a word, she asks a colleague.",
+      "hint": "не (понимает) — 1 слово, она, сокращение",
+      "a": [
+        "doesn't",
+        "does not"
+      ],
+      "why": "she → doesn't + глагол без -s"
+    },
+    {
+      "q": "If our ads ___ well, the client is happy.",
+      "hint": "работают — 1 слово, они",
+      "a": [
+        "work"
+      ],
+      "why": "ads = they → без -s"
+    },
+    {
+      "q": "If the client ___ more money on ads, he gets more leads.",
+      "hint": "тратит — 1 слово, он",
+      "a": [
+        "spends"
+      ],
+      "why": "the client = he → spends"
+    },
+    {
+      "q": "On ___, workers check emails every 6 minutes.",
+      "hint": "в среднем — 1 слово",
+      "a": [
+        "average"
+      ],
+      "why": "on average — в среднем"
+    },
+    {
+      "q": "___ to a study, managers work 50 hours a week.",
+      "hint": "согласно — 1 слово",
+      "a": [
+        "according"
+      ],
+      "why": "according to — согласно"
+    },
+    {
+      "q": "If you want to retire early, you ___ find a job where you earn a lot.",
+      "hint": "тебе стоит — 1 слово",
+      "a": [
+        "should"
+      ],
+      "why": "should + глагол — совет"
+    },
+    {
+      "q": "If we ___ more offers, we get better results.",
+      "hint": "тестируем — 1 слово",
+      "a": [
+        "test"
+      ],
+      "why": "we → без -s, без will"
+    },
+    {
+      "q": "My boss ___ OK if I am occasionally late.",
+      "hint": "(он) не против — 1 слово: есть",
+      "a": [
+        "is"
+      ],
+      "why": "my boss = he → is"
+    },
+    {
+      "q": "If I ___ eight hours a night, I don't work well.",
+      "hint": "не сплю — впиши оба слова через пробел, сокращение",
+      "a": [
+        "don't sleep",
+        "do not sleep"
+      ],
+      "why": "отрицание с I → don't + глагол"
+    },
+    {
+      "q": "If Henry ___ more, he ___ less exercise.",
+      "hint": "ест … делает — впиши оба слова через пробел",
+      "a": [
+        "eats does"
+      ],
+      "why": "Henry = he → -s в обеих частях"
+    }
+  ],
+  "l4": [
+    {
+      "ru": "Я работаю из дома большую часть времени.",
+      "en": "I work from home most of the time."
+    },
+    {
+      "ru": "Не ешь за рабочим столом.",
+      "en": "Don't eat at your desk."
+    },
+    {
+      "ru": "Старайся рано вставать.",
+      "en": "Try to get up early."
+    },
+    {
+      "ru": "Дома я лучше сосредотачиваюсь.",
+      "en": "I can focus better at home."
+    },
+    {
+      "ru": "Его офис — это ещё и его спальня.",
+      "en": "His office is also his bedroom."
+    },
+    {
+      "ru": "Если я устаю, я ложусь.",
+      "en": "If I feel tired, I lie down."
+    },
+    {
+      "ru": "Если она работает допоздна, она устаёт.",
+      "en": "If she works late, she feels tired."
+    },
+    {
+      "ru": "Если ты заказываешь онлайн, есть скидка.",
+      "en": "If you order online, there is a discount."
+    },
+    {
+      "ru": "Я ем больше, если работаю на кухне.",
+      "en": "I eat more if I work in the kitchen."
+    },
+    {
+      "ru": "Если оффер слабый, лиды дорожают.",
+      "en": "If the offer is weak, leads cost more."
+    },
+    {
+      "ru": "Если клиент не платит, мы останавливаем рекламу.",
+      "en": "If the client doesn't pay, we stop the ads."
+    },
+    {
+      "ru": "Если мне скучно, я смотрю подкаст.",
+      "en": "If I'm bored, I listen to a podcast."
+    },
+    {
+      "ru": "Ты можешь много добиться, только если много работаешь.",
+      "en": "You can only be successful if you work hard."
+    },
+    {
+      "ru": "Не трать время на дорогу в офис.",
+      "en": "Don't waste time on the way to the office."
+    }
+  ],
+  "l5": [
+    {
+      "ru": "Старайся делать перерыв каждый час.",
+      "a": [
+        "Try to take a break every hour."
+      ],
+      "why": "try to + глагол; every hour без предлога"
+    },
+    {
+      "ru": "Не работай в спальне.",
+      "a": [
+        "Don't work in your bedroom.",
+        "Do not work in your bedroom.",
+        "Don't work in the bedroom."
+      ],
+      "why": "Don't + глагол без to"
+    },
+    {
+      "ru": "Если у меня проблема, я ложусь.",
+      "a": [
+        "If I have a problem, I lie down.",
+        "If I have a problem, I like to lie down."
+      ],
+      "why": "после if без will"
+    },
+    {
+      "ru": "Если он работает допоздна, он устаёт.",
+      "a": [
+        "If he works late, he feels tired.",
+        "If he works late, he gets tired."
+      ],
+      "why": "he → works, feels — -s в обеих частях"
+    },
+    {
+      "ru": "Я трачу время впустую дома.",
+      "a": [
+        "I waste time at home."
+      ],
+      "why": "waste time — без предлога; at home"
+    },
+    {
+      "ru": "Дай мне совет.",
+      "a": [
+        "Give me some advice.",
+        "Give me advice.",
+        "Give me a piece of advice."
+      ],
+      "why": "advice неисчисляемое — без an"
+    },
+    {
+      "ru": "Если я пью много кофе, я не могу спать.",
+      "a": [
+        "If I drink a lot of coffee, I can't sleep.",
+        "If I drink too much coffee, I can't sleep."
+      ],
+      "why": "Present Simple в обеих частях"
+    },
+    {
+      "ru": "Если продажи растут, компания получает больше прибыли.",
+      "a": [
+        "If sales increase, a company makes more profit.",
+        "If sales increase, the company makes more profit.",
+        "If sales go up, a company makes more profit."
+      ],
+      "why": "a company = it → makes"
+    },
+    {
+      "ru": "Я ем больше, если работаю на кухне.",
+      "a": [
+        "I eat more if I work in the kitchen."
+      ],
+      "why": "if в середине — без запятой"
+    },
+    {
+      "ru": "Если ты бронируешь заранее, билеты дешевле.",
+      "a": [
+        "If you book in advance, flights are cheaper.",
+        "If you book in advance, tickets are cheaper.",
+        "You can get flights cheaper if you book in advance."
+      ],
+      "why": "in advance — заранее; после if без will"
+    },
+    {
+      "ru": "Если клиент не отвечает, я ему звоню.",
+      "a": [
+        "If the client doesn't answer, I call him.",
+        "If a client doesn't answer, I call him.",
+        "If the client doesn't reply, I call him."
+      ],
+      "why": "client = he → doesn't + глагол без -s"
+    },
+    {
+      "ru": "Иногда я опаздываю на работу.",
+      "a": [
+        "I am occasionally late for work.",
+        "I'm occasionally late for work.",
+        "Occasionally I am late for work.",
+        "Sometimes I'm late for work."
+      ],
+      "why": "late for work — с предлогом for"
+    },
+    {
+      "ru": "Я поздно ложусь, только если завтра нет работы.",
+      "a": [
+        "I only stay up late if I don't have work the next day.",
+        "I only stay up late if I don't have work tomorrow."
+      ],
+      "why": "stay up late; после if без will"
+    },
+    {
+      "ru": "Если мы тестируем больше офферов, результаты лучше.",
+      "a": [
+        "If we test more offers, we get better results.",
+        "If we test more offers, the results are better."
+      ],
+      "why": "we → без -s, без will"
+    },
+    {
+      "ru": "Если оффер слабый, стоимость лида растёт.",
+      "a": [
+        "If the offer is weak, the cost per lead goes up.",
+        "If the offer is weak, the cost per lead increases."
+      ],
+      "why": "the cost = it → goes up"
+    },
+    {
+      "ru": "Если ей нужно отдохнуть, она гуляет.",
+      "a": [
+        "If she needs to relax, she goes for a walk.",
+        "If she needs to relax, she walks."
+      ],
+      "why": "she → needs, goes — -s в обеих частях"
+    }
+  ],
+  "l6": [
+    {
+      "q": "Do you like working from home? Why?",
+      "ru": "Тебе нравится работать из дома? Почему?",
+      "start": "Yes, I like it because…",
+      "model": "Yes, I like it because I can focus better at home and I don't waste time on the way to the office."
+    },
+    {
+      "q": "Do you have a good work-life balance?",
+      "ru": "У тебя хороший баланс работы и жизни?",
+      "start": "Not really. If I…",
+      "model": "Not really. If I have a lot of work, I don't stop working in the evening."
+    },
+    {
+      "q": "What time of day do you work best?",
+      "ru": "В какое время дня ты работаешь лучше всего?",
+      "start": "I work best…",
+      "model": "I work best in the morning. If I get up early, I can focus on difficult tasks."
+    },
+    {
+      "q": "What do you do if you need to relax?",
+      "ru": "Что ты делаешь, если нужно отдохнуть?",
+      "start": "If I need to relax, I…",
+      "model": "If I need to relax, I lie down or go for a walk."
+    },
+    {
+      "q": "What do you do if you don't understand a word in English?",
+      "ru": "Что ты делаешь, если не понимаешь слово по-английски?",
+      "start": "If I don't understand a word, I…",
+      "model": "If I don't understand a word, I check it online and write it in my dictionary."
+    },
+    {
+      "q": "What happens if a client's offer is weak?",
+      "ru": "Что происходит, если у клиента слабый оффер?",
+      "start": "If a client's offer is weak, …",
+      "model": "If a client's offer is weak, the cost per lead goes up and the ads don't work well."
+    },
+    {
+      "q": "What advice can you give to people who work from home?",
+      "ru": "Какой совет ты можешь дать тем, кто работает из дома?",
+      "start": "Try to… Don't…",
+      "model": "Try to take a break every hour. Don't work in your bedroom."
+    }
+  ],
+  "fix": [
+    {
+      "wrong": "If I will have a problem, I lie down.",
+      "a": [
+        "If I have a problem, I lie down."
+      ],
+      "ru": "Если у меня проблема, я ложусь.",
+      "why": "после if will не ставим"
+    },
+    {
+      "wrong": "If the client will pay, we start the ads.",
+      "a": [
+        "If the client pays, we start the ads."
+      ],
+      "ru": "Если клиент платит, мы запускаем рекламу.",
+      "why": "после if без will; client = he → pays"
+    },
+    {
+      "wrong": "If we will test more offers, we get better results.",
+      "a": [
+        "If we test more offers, we get better results."
+      ],
+      "ru": "Если мы тестируем больше офферов, результаты лучше.",
+      "why": "после if — Present Simple, без will"
+    },
+    {
+      "wrong": "Try do it every day.",
+      "a": [
+        "Try to do it every day."
+      ],
+      "ru": "Старайся делать это каждый день.",
+      "why": "после try нужно to"
+    },
+    {
+      "wrong": "Try get up at the same time every day.",
+      "a": [
+        "Try to get up at the same time every day."
+      ],
+      "ru": "Старайся вставать в одно и то же время каждый день.",
+      "why": "try to + глагол"
+    },
+    {
+      "wrong": "Don't to eat at your desk.",
+      "a": [
+        "Don't eat at your desk.",
+        "Do not eat at your desk."
+      ],
+      "ru": "Не ешь за рабочим столом.",
+      "why": "после don't to не нужно"
+    },
+    {
+      "wrong": "If he work late, he feels tired.",
+      "a": [
+        "If he works late, he feels tired."
+      ],
+      "ru": "Если он работает допоздна, он устаёт.",
+      "why": "he → works, с -s"
+    },
+    {
+      "wrong": "If she works late, she feel tired.",
+      "a": [
+        "If she works late, she feels tired."
+      ],
+      "ru": "Если она работает допоздна, она устаёт.",
+      "why": "-s нужно в обеих частях: she feels"
+    },
+    {
+      "wrong": "If the offer is weak, the cost per lead go up.",
+      "a": [
+        "If the offer is weak, the cost per lead goes up."
+      ],
+      "ru": "Если оффер слабый, стоимость лида растёт.",
+      "why": "the cost = it → goes"
+    },
+    {
+      "wrong": "If my boss doesn't likes the report, I change it.",
+      "a": [
+        "If my boss doesn't like the report, I change it."
+      ],
+      "ru": "Если начальнику не нравится отчёт, я его переделываю.",
+      "why": "после doesn't глагол без -s"
+    }
+  ]
+}

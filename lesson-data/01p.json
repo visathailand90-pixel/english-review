@@ -1,0 +1,1131 @@
+{
+  "id": "01p",
+  "num": "1 практ.",
+  "title": "Говорим о работе",
+  "date": "10.10",
+  "summary": "Разговорная практика: рассказываем о своей работе маркетологом.\nЛиды, стоимость лида, слабый оффер, стабильные результаты.\nПовторяем Present Simple (I work, it depends), need/want + to, «чтобы» = to.\nУчимся задавать вопросы о работе и отвечать на них.",
+  "theory": [
+    {
+      "h": "I work, а не I'm work",
+      "text": [
+        "Когда говорим об обычной работе и привычках — **Present Simple**: I work, I get, I run.",
+        "**am/is/are** с глаголом без -ing не ставим."
+      ],
+      "ex": [
+        [
+          "I work at a marketing agency.",
+          "Я работаю в маркетинговом агентстве."
+        ],
+        [
+          "I usually get ten leads a day.",
+          "Обычно я получаю десять заявок в день."
+        ],
+        [
+          "I work from nine to six.",
+          "Я работаю с девяти до шести."
+        ]
+      ],
+      "warn": [
+        "I'm work in marketing → I **work** in marketing."
+      ]
+    },
+    {
+      "h": "he, she, it → глагол + -s",
+      "text": [
+        "После **he, she, it** и одного предмета (the client, the offer) к глаголу добавляем **-s**.",
+        "В вопросах и отрицаниях — **does**, а глагол без -s."
+      ],
+      "table": [
+        [
+          "Кто",
+          "Форма"
+        ],
+        [
+          "I, you, we, they",
+          "work, depend, make"
+        ],
+        [
+          "he, she, it",
+          "works, depends, makes"
+        ]
+      ],
+      "ex": [
+        [
+          "It depends on the client.",
+          "Это зависит от клиента."
+        ],
+        [
+          "It makes me happy.",
+          "Это делает меня счастливым."
+        ],
+        [
+          "Where does she work?",
+          "Где она работает?"
+        ]
+      ],
+      "warn": [
+        "It **depend** on the budget → It **depends** on the budget.",
+        "Does she **works**? → Does she **work**?"
+      ]
+    },
+    {
+      "h": "need / want / try + to",
+      "text": [
+        "После **need, want, try** перед вторым глаголом ставим **to**.",
+        "need to finish — нужно закончить, want to get — хочу получить."
+      ],
+      "ex": [
+        [
+          "Sometimes I work late because I need to finish my tasks.",
+          "Иногда я работаю допоздна, потому что мне нужно закончить задачи."
+        ],
+        [
+          "I want to get consistent results.",
+          "Я хочу получать стабильные результаты."
+        ]
+      ],
+      "warn": [
+        "I want **finish** → I want **to finish**."
+      ]
+    },
+    {
+      "h": "«чтобы» = to, а не for",
+      "text": [
+        "Цель действия («чтобы что-то сделать») — **to + глагол**.",
+        "**for** с глаголом в этом значении не используем."
+      ],
+      "ex": [
+        [
+          "I run ad campaigns to get better results.",
+          "Я запускаю рекламные кампании, чтобы получить лучшие результаты."
+        ],
+        [
+          "I test offers to get more leads.",
+          "Я тестирую офферы, чтобы получить больше заявок."
+        ]
+      ],
+      "warn": [
+        "I test offers **for get** more leads → I test offers **to get** more leads."
+      ]
+    },
+    {
+      "h": "Прошедшее: got, went up",
+      "text": [
+        "Неправильные глаголы: **get → got**, **go up → went up**.",
+        "С yesterday — прошедшая форма."
+      ],
+      "table": [
+        [
+          "Сейчас / обычно",
+          "Вчера / в прошлом"
+        ],
+        [
+          "get",
+          "got"
+        ],
+        [
+          "go up",
+          "went up"
+        ]
+      ],
+      "ex": [
+        [
+          "Yesterday I got twenty leads.",
+          "Вчера я получил двадцать заявок."
+        ],
+        [
+          "The cost per lead went up.",
+          "Стоимость лида выросла."
+        ]
+      ],
+      "warn": [
+        "Yesterday I **get** twenty leads → Yesterday I **got** twenty leads."
+      ]
+    },
+    {
+      "h": "job и work, competition",
+      "text": [
+        "**job** — конкретная работа, с a: I have a job.",
+        "**work** — работа вообще, без a: I have a lot of work.",
+        "**competition** (конкуренция) — неисчисляемое: There **is** a lot of competition. **competitions** — это соревнования."
+      ],
+      "ex": [
+        [
+          "I have a lot of work today.",
+          "У меня сегодня много работы."
+        ],
+        [
+          "There is a lot of competition in this field.",
+          "В этой сфере большая конкуренция."
+        ]
+      ],
+      "warn": [
+        "There are a lot of competitions → There **is** a lot of **competition**.",
+        "I have **a work** → I have **a job** / I have **work**."
+      ]
+    },
+    {
+      "h": "Вопросы о работе",
+      "text": [
+        "Вопросы с you — **do**, с she/he — **does**.",
+        "**How long have you worked here?** — работа ещё продолжается. **How long did you work there?** — уже закончилась."
+      ],
+      "ex": [
+        [
+          "What do you do?",
+          "Чем ты занимаешься?"
+        ],
+        [
+          "Do you get on well with your co-workers?",
+          "Ты хорошо ладишь с коллегами?"
+        ],
+        [
+          "I've worked here for about three years.",
+          "Я работаю здесь около трёх лет."
+        ]
+      ],
+      "warn": [
+        "What does she **does**? → What does she **do**?"
+      ]
+    },
+    {
+      "h": "Осторожно: звуки и числа",
+      "text": [
+        "**weak** (слабый) и **week** (неделя) звучат одинаково — смысл понятен из контекста.",
+        "**results** — во множественном числе, проговаривай **-s** в конце.",
+        "130 — one hundred **and** thirty, 113 — one hundred **and** thirteen."
+      ],
+      "ex": [
+        [
+          "The client's offer is weak.",
+          "Оффер клиента слабый."
+        ],
+        [
+          "I got one hundred and thirty leads last week.",
+          "На прошлой неделе я получил сто тридцать заявок."
+        ]
+      ]
+    }
+  ],
+  "vocab": [
+    {
+      "en": "get",
+      "pron": "гЕт",
+      "ru": "получать"
+    },
+    {
+      "en": "got",
+      "pron": "гОт",
+      "ru": "получил"
+    },
+    {
+      "en": "go up",
+      "pron": "гОу ап",
+      "ru": "расти, повышаться"
+    },
+    {
+      "en": "went up",
+      "pron": "уЭнт ап",
+      "ru": "вырос"
+    },
+    {
+      "en": "weak",
+      "pron": "уИик",
+      "ru": "слабый"
+    },
+    {
+      "en": "week",
+      "pron": "уИик",
+      "ru": "неделя"
+    },
+    {
+      "en": "consistent results",
+      "pron": "кэнсИстэнт ризАлтс",
+      "ru": "стабильные результаты"
+    },
+    {
+      "en": "stabilize results",
+      "pron": "стЭйбэлайз ризАлтс",
+      "ru": "стабилизировать результаты"
+    },
+    {
+      "en": "keep good results",
+      "pron": "кИип гуд ризАлтс",
+      "ru": "сохранять хорошие результаты"
+    },
+    {
+      "en": "it takes time",
+      "pron": "ит тЭйкс тайм",
+      "ru": "это требует времени"
+    },
+    {
+      "en": "thanks to",
+      "pron": "сЭнкс ту",
+      "ru": "благодаря"
+    },
+    {
+      "en": "by testing offers",
+      "pron": "бай тЭстинг Офэз",
+      "ru": "с помощью тестирования офферов"
+    },
+    {
+      "en": "it depends on",
+      "pron": "ит дипЭндз он",
+      "ru": "это зависит от"
+    },
+    {
+      "en": "cost per lead",
+      "pron": "кОст пё лиид",
+      "ru": "стоимость лида"
+    },
+    {
+      "en": "lead",
+      "pron": "лИид",
+      "ru": "заявка, лид"
+    },
+    {
+      "en": "offer",
+      "pron": "Офэ",
+      "ru": "оффер, предложение"
+    },
+    {
+      "en": "work for an agency",
+      "pron": "уёк фор эн Эйджэнси",
+      "ru": "работать на агентство"
+    },
+    {
+      "en": "work for myself",
+      "pron": "уёк фо майсЭлф",
+      "ru": "работать на себя"
+    },
+    {
+      "en": "work from home",
+      "pron": "уёк фром хОум",
+      "ru": "работать из дома"
+    },
+    {
+      "en": "work full-time",
+      "pron": "уёк фул тАйм",
+      "ru": "работать полный день"
+    },
+    {
+      "en": "work part-time",
+      "pron": "уёк пат тАйм",
+      "ru": "работать неполный день"
+    },
+    {
+      "en": "work late",
+      "pron": "уёк лЭйт",
+      "ru": "работать допоздна"
+    },
+    {
+      "en": "be late for work",
+      "pron": "би лЭйт фо уёк",
+      "ru": "опаздывать на работу"
+    },
+    {
+      "en": "get on well with co-workers",
+      "pron": "гет он уЭл уиз кОу-уёкэз",
+      "ru": "ладить с коллегами"
+    },
+    {
+      "en": "deal with clients",
+      "pron": "дИил уиз клАйэнтс",
+      "ru": "работать с клиентами, решать вопросы клиентов"
+    },
+    {
+      "en": "run ad campaigns",
+      "pron": "ран эд кэмпЭйнз",
+      "ru": "запускать рекламные кампании"
+    },
+    {
+      "en": "run a business",
+      "pron": "ран э бИзнэс",
+      "ru": "вести бизнес"
+    },
+    {
+      "en": "earn money",
+      "pron": "Ён мАни",
+      "ru": "зарабатывать деньги"
+    },
+    {
+      "en": "do research",
+      "pron": "ду рисЁч",
+      "ru": "проводить исследование"
+    },
+    {
+      "en": "competition",
+      "pron": "компэтИшн",
+      "ru": "конкуренция"
+    },
+    {
+      "en": "job",
+      "pron": "джОб",
+      "ru": "конкретная работа, должность"
+    },
+    {
+      "en": "co-worker",
+      "pron": "кОу-уёкэ",
+      "ru": "коллега"
+    }
+  ],
+  "l2": [
+    {
+      "q": "I ___ at a marketing agency.",
+      "o": [
+        "work",
+        "am work",
+        "works"
+      ],
+      "a": 0,
+      "why": "обычное действие с I → просто work"
+    },
+    {
+      "q": "It ___ on the client.",
+      "o": [
+        "depend",
+        "depends",
+        "is depend"
+      ],
+      "a": 1,
+      "why": "it → глагол + -s"
+    },
+    {
+      "q": "Yesterday I ___ twenty leads.",
+      "o": [
+        "get",
+        "got",
+        "gets"
+      ],
+      "a": 1,
+      "why": "yesterday → прошедшее: get → got"
+    },
+    {
+      "q": "The client's offer is ___.",
+      "o": [
+        "week",
+        "weak",
+        "weaks"
+      ],
+      "a": 1,
+      "why": "weak — слабый, week — неделя"
+    },
+    {
+      "q": "I want ___ this campaign today.",
+      "o": [
+        "finish",
+        "to finish",
+        "finishing"
+      ],
+      "a": 1,
+      "why": "после want → to + глагол"
+    },
+    {
+      "q": "I test offers ___ more leads.",
+      "o": [
+        "for get",
+        "for getting",
+        "to get"
+      ],
+      "a": 2,
+      "why": "«чтобы» = to + глагол"
+    },
+    {
+      "q": "Last month the cost per lead ___.",
+      "o": [
+        "went up",
+        "goes up",
+        "go up"
+      ],
+      "a": 0,
+      "why": "прошлый месяц → go up → went up"
+    },
+    {
+      "q": "There ___ a lot of competition in this field.",
+      "o": [
+        "are",
+        "is",
+        "be"
+      ],
+      "a": 1,
+      "why": "competition неисчисляемое → is"
+    },
+    {
+      "q": "I have a lot of ___ this week.",
+      "o": [
+        "work",
+        "a work",
+        "works"
+      ],
+      "a": 0,
+      "why": "work в общем — без a и без -s"
+    },
+    {
+      "q": "She has a good ___ at an IT company.",
+      "o": [
+        "work",
+        "job",
+        "works"
+      ],
+      "a": 1,
+      "why": "конкретная работа с a → a job"
+    },
+    {
+      "q": "Where ___ she work?",
+      "o": [
+        "do",
+        "is",
+        "does"
+      ],
+      "a": 2,
+      "why": "she в вопросе → does"
+    },
+    {
+      "q": "Does she ___ full-time?",
+      "o": [
+        "works",
+        "work",
+        "working"
+      ],
+      "a": 1,
+      "why": "после does глагол без -s"
+    },
+    {
+      "q": "It ___ me happy when clients get good results.",
+      "o": [
+        "make",
+        "makes",
+        "is make"
+      ],
+      "a": 1,
+      "why": "it → makes"
+    },
+    {
+      "q": "I like ___ marketing strategies.",
+      "o": [
+        "create",
+        "creating",
+        "to creating"
+      ],
+      "a": 1,
+      "why": "в конспекте: I like creating …"
+    },
+    {
+      "q": "I ___ on well with my co-workers.",
+      "o": [
+        "get",
+        "go",
+        "have"
+      ],
+      "a": 0,
+      "why": "ладить — get on well with"
+    },
+    {
+      "q": "My client earns good money ___ my work.",
+      "o": [
+        "thanks for",
+        "thanks to",
+        "thank to"
+      ],
+      "a": 1,
+      "why": "благодаря — thanks to"
+    },
+    {
+      "q": "I stabilize results ___ testing offers.",
+      "o": [
+        "by",
+        "with",
+        "for"
+      ],
+      "a": 0,
+      "why": "с помощью чего-то (-ing) → by"
+    },
+    {
+      "q": "I often ___ ad campaigns for my clients.",
+      "o": [
+        "do",
+        "make",
+        "run"
+      ],
+      "a": 2,
+      "why": "запускать кампании — run ad campaigns"
+    },
+    {
+      "q": "It ___ time to stabilize results.",
+      "o": [
+        "takes",
+        "take",
+        "needs to"
+      ],
+      "a": 0,
+      "why": "это требует времени — it takes time"
+    },
+    {
+      "q": "Sometimes I ___ late for work.",
+      "o": [
+        "am",
+        "is",
+        "have"
+      ],
+      "a": 0,
+      "why": "опаздывать — be late → I am late"
+    },
+    {
+      "q": "I've worked here ___ about three years.",
+      "o": [
+        "since",
+        "for",
+        "during"
+      ],
+      "a": 1,
+      "why": "сколько времени длится → for"
+    },
+    {
+      "q": "How long ___ you worked here?",
+      "o": [
+        "do",
+        "did",
+        "have"
+      ],
+      "a": 2,
+      "why": "работа продолжается → How long have you worked here?"
+    },
+    {
+      "q": "I want to get ___ results.",
+      "o": [
+        "consistent",
+        "consist",
+        "consistently"
+      ],
+      "a": 0,
+      "why": "стабильные результаты — consistent results"
+    },
+    {
+      "q": "Getting good results is sometimes easier than ___ them.",
+      "o": [
+        "keep",
+        "keeping",
+        "to keeping"
+      ],
+      "a": 1,
+      "why": "параллель с getting → keeping"
+    }
+  ],
+  "l3": [
+    {
+      "q": "I ___ from home.",
+      "hint": "работаю — 1 слово",
+      "a": [
+        "work"
+      ],
+      "why": "I → work, без am"
+    },
+    {
+      "q": "Yesterday I ___ thirty leads.",
+      "hint": "получил — глагол в прошедшем",
+      "a": [
+        "got"
+      ],
+      "why": "get → got"
+    },
+    {
+      "q": "The cost per lead went ___ last week.",
+      "hint": "выросла — 1 слово после went",
+      "a": [
+        "up"
+      ],
+      "why": "go up → went up"
+    },
+    {
+      "q": "It ___ on the budget.",
+      "hint": "зависит — 1 слово",
+      "a": [
+        "depends"
+      ],
+      "why": "it → -s"
+    },
+    {
+      "q": "I need ___ my tasks today.",
+      "hint": "закончить — 2 слова",
+      "a": [
+        "to finish"
+      ],
+      "why": "need + to"
+    },
+    {
+      "q": "I run ad campaigns ___ more leads.",
+      "hint": "чтобы получить — 2 слова",
+      "a": [
+        "to get"
+      ],
+      "why": "«чтобы» = to"
+    },
+    {
+      "q": "There is a lot of ___ in marketing.",
+      "hint": "конкуренция — 1 слово",
+      "a": [
+        "competition"
+      ],
+      "why": "неисчисляемое, без -s"
+    },
+    {
+      "q": "The client's offer is too ___.",
+      "hint": "слабый — 1 слово",
+      "a": [
+        "weak"
+      ],
+      "why": "weak, не week"
+    },
+    {
+      "q": "The ___ is too high.",
+      "hint": "стоимость лида — 3 слова",
+      "a": [
+        "cost per lead"
+      ],
+      "why": "cost per lead"
+    },
+    {
+      "q": "My client earns good money ___ my work.",
+      "hint": "благодаря — 2 слова",
+      "a": [
+        "thanks to"
+      ],
+      "why": "thanks to"
+    },
+    {
+      "q": "I work ___ an agency.",
+      "hint": "на (агентство) — 1 слово",
+      "a": [
+        "for"
+      ],
+      "why": "work for an agency"
+    },
+    {
+      "q": "I ___ with clients every day.",
+      "hint": "имею дело — 1 слово",
+      "a": [
+        "deal"
+      ],
+      "why": "deal with clients"
+    },
+    {
+      "q": "I want to get ___ results.",
+      "hint": "стабильные — 1 слово",
+      "a": [
+        "consistent"
+      ],
+      "why": "consistent results"
+    },
+    {
+      "q": "It ___ time to stabilize results.",
+      "hint": "требует (времени) — 1 слово",
+      "a": [
+        "takes"
+      ],
+      "why": "it takes time"
+    },
+    {
+      "q": "I get on ___ with my co-workers.",
+      "hint": "хорошо — 1 слово",
+      "a": [
+        "well"
+      ],
+      "why": "get on well with"
+    },
+    {
+      "q": "Sometimes I work ___ because I have a lot of work.",
+      "hint": "допоздна — 1 слово",
+      "a": [
+        "late"
+      ],
+      "why": "work late"
+    },
+    {
+      "q": "Where ___ she ___?",
+      "hint": "где она работает — впиши оба слова через пробел",
+      "a": [
+        "does work"
+      ],
+      "why": "she → does + work без -s"
+    },
+    {
+      "q": "I stabilize results ___ offers.",
+      "hint": "с помощью тестирования — 2 слова",
+      "a": [
+        "by testing"
+      ],
+      "why": "by + -ing"
+    },
+    {
+      "q": "How long ___ you ___ here?",
+      "hint": "сколько ты здесь работаешь (и сейчас) — впиши оба слова через пробел",
+      "a": [
+        "have worked"
+      ],
+      "why": "работа продолжается → have worked"
+    },
+    {
+      "q": "I like creating strategies and ___ ad campaigns.",
+      "hint": "запускать — 1 слово с -ing",
+      "a": [
+        "running"
+      ],
+      "why": "creating … and running"
+    }
+  ],
+  "l4": [
+    {
+      "ru": "Я работаю в маркетинге.",
+      "en": "I work in marketing."
+    },
+    {
+      "ru": "Вчера я получил десять заявок.",
+      "en": "Yesterday I got ten leads."
+    },
+    {
+      "ru": "Стоимость лида слишком высокая.",
+      "en": "The cost per lead is too high."
+    },
+    {
+      "ru": "Это зависит от бюджета.",
+      "en": "It depends on the budget."
+    },
+    {
+      "ru": "Я хочу закончить эту кампанию сегодня.",
+      "en": "I want to finish this campaign today."
+    },
+    {
+      "ru": "Я работаю на себя.",
+      "en": "I work for myself."
+    },
+    {
+      "ru": "Я хорошо лажу со своими коллегами.",
+      "en": "I get on well with my co-workers."
+    },
+    {
+      "ru": "В этой сфере большая конкуренция.",
+      "en": "There is a lot of competition in this field."
+    },
+    {
+      "ru": "Я тестирую офферы, чтобы получить больше заявок.",
+      "en": "I test offers to get more leads."
+    },
+    {
+      "ru": "Стабилизировать результаты требует времени.",
+      "en": "It takes time to stabilize results."
+    },
+    {
+      "ru": "Она работает полный день?",
+      "en": "Does she work full-time?"
+    },
+    {
+      "ru": "Я работаю с девяти до шести.",
+      "en": "I work from nine to six."
+    },
+    {
+      "ru": "Мой клиент зарабатывает благодаря моей работе.",
+      "en": "My client earns money thanks to my work."
+    },
+    {
+      "ru": "Сколько ты здесь работаешь?",
+      "en": "How long have you worked here?"
+    }
+  ],
+  "l5": [
+    {
+      "ru": "Я работаю из дома.",
+      "a": [
+        "I work from home."
+      ],
+      "why": "из дома — from home, без the"
+    },
+    {
+      "ru": "Обычно я получаю десять заявок в день.",
+      "a": [
+        "I usually get ten leads a day.",
+        "Usually I get ten leads a day."
+      ],
+      "why": "в день — a day; usually перед глаголом"
+    },
+    {
+      "ru": "Вчера я получил двадцать заявок.",
+      "a": [
+        "Yesterday I got twenty leads.",
+        "I got twenty leads yesterday."
+      ],
+      "why": "get → got"
+    },
+    {
+      "ru": "Стоимость лида выросла.",
+      "a": [
+        "The cost per lead went up."
+      ],
+      "why": "go up → went up"
+    },
+    {
+      "ru": "Оффер клиента слабый.",
+      "a": [
+        "The client's offer is weak."
+      ],
+      "why": "weak, не week; client's — с апострофом"
+    },
+    {
+      "ru": "Это зависит от клиента.",
+      "a": [
+        "It depends on the client."
+      ],
+      "why": "it → depends; от — on"
+    },
+    {
+      "ru": "Это делает меня счастливым.",
+      "a": [
+        "It makes me happy."
+      ],
+      "why": "it → makes"
+    },
+    {
+      "ru": "У меня много работы.",
+      "a": [
+        "I have a lot of work."
+      ],
+      "why": "work — без a и без -s"
+    },
+    {
+      "ru": "Я работаю на маркетинговое агентство.",
+      "a": [
+        "I work for a marketing agency.",
+        "I work at a marketing agency."
+      ],
+      "why": "work for / at an agency, без am"
+    },
+    {
+      "ru": "Я хорошо лажу с клиентами.",
+      "a": [
+        "I get on well with clients.",
+        "I get on well with my clients."
+      ],
+      "why": "get on well with"
+    },
+    {
+      "ru": "Мне нужно закончить мои задачи.",
+      "a": [
+        "I need to finish my tasks."
+      ],
+      "why": "need + to"
+    },
+    {
+      "ru": "Я запускаю рекламу, чтобы получить больше заявок.",
+      "a": [
+        "I run ad campaigns to get more leads.",
+        "I run ads to get more leads."
+      ],
+      "why": "«чтобы» = to, не for"
+    },
+    {
+      "ru": "Иногда я опаздываю на работу.",
+      "a": [
+        "Sometimes I am late for work.",
+        "Sometimes I'm late for work.",
+        "I am sometimes late for work.",
+        "I'm sometimes late for work."
+      ],
+      "why": "be late for work — нужен am"
+    },
+    {
+      "ru": "Я хочу получать стабильные результаты.",
+      "a": [
+        "I want to get consistent results."
+      ],
+      "why": "want + to; results с -s"
+    },
+    {
+      "ru": "В этой сфере большая конкуренция.",
+      "a": [
+        "There is a lot of competition in this field.",
+        "There's a lot of competition in this field."
+      ],
+      "why": "competition неисчисляемое → is"
+    },
+    {
+      "ru": "Где она работает?",
+      "a": [
+        "Where does she work?"
+      ],
+      "why": "she → does, work без -s"
+    },
+    {
+      "ru": "Я работаю здесь около трёх лет.",
+      "a": [
+        "I've worked here for about three years.",
+        "I have worked here for about three years."
+      ],
+      "why": "работа продолжается → have worked + for"
+    },
+    {
+      "ru": "Сложно стабилизировать результаты, когда оффер слабый.",
+      "a": [
+        "It's hard to stabilize results when the offer is weak.",
+        "It is hard to stabilize results when the offer is weak."
+      ],
+      "why": "It's hard to …; когда — when"
+    }
+  ],
+  "l6": [
+    {
+      "q": "What do you do?",
+      "ru": "Чем ты занимаешься?",
+      "start": "I work in…",
+      "model": "I work in marketing. I run ad campaigns for clients."
+    },
+    {
+      "q": "Where do you work?",
+      "ru": "Где ты работаешь?",
+      "start": "I work for…",
+      "model": "I work for a marketing agency, but I work from home."
+    },
+    {
+      "q": "How long have you worked there?",
+      "ru": "Сколько ты там работаешь?",
+      "start": "I've worked there for…",
+      "model": "I've worked there for about three years."
+    },
+    {
+      "q": "Do you enjoy it?",
+      "ru": "Тебе это нравится?",
+      "start": "Yes, I like…",
+      "model": "Yes, I like creating marketing strategies and running ad campaigns. It makes me happy."
+    },
+    {
+      "q": "What are the hours like?",
+      "ru": "Какой у тебя график?",
+      "start": "I work from…",
+      "model": "I work full-time, from nine to six. Sometimes I work late because I need to finish my tasks."
+    },
+    {
+      "q": "Do you get on well with your co-workers?",
+      "ru": "Ты хорошо ладишь с коллегами?",
+      "start": "Yes, I get on…",
+      "model": "Yes, I get on well with my co-workers and my clients."
+    },
+    {
+      "q": "Is it hard to get good results?",
+      "ru": "Сложно получать хорошие результаты?",
+      "start": "It depends on…",
+      "model": "It depends on the client. It's hard to stabilize results when the offer is weak."
+    },
+    {
+      "q": "How do you get more leads?",
+      "ru": "Как ты получаешь больше заявок?",
+      "start": "I test…",
+      "model": "I test offers to get more leads. It takes time, but it works."
+    }
+  ],
+  "fix": [
+    {
+      "wrong": "I'm work at a marketing agency.",
+      "a": [
+        "I work at a marketing agency."
+      ],
+      "ru": "Я работаю в маркетинговом агентстве.",
+      "why": "обычное действие — просто work, без am"
+    },
+    {
+      "wrong": "I'm work in marketing.",
+      "a": [
+        "I work in marketing."
+      ],
+      "ru": "Я работаю в маркетинге.",
+      "why": "I work, не I'm work"
+    },
+    {
+      "wrong": "Sometimes I work late because I need finish my tasks.",
+      "a": [
+        "Sometimes I work late because I need to finish my tasks."
+      ],
+      "ru": "Иногда я работаю допоздна, потому что мне нужно закончить задачи.",
+      "why": "после need — to"
+    },
+    {
+      "wrong": "I want finish this campaign today.",
+      "a": [
+        "I want to finish this campaign today."
+      ],
+      "ru": "Я хочу закончить эту кампанию сегодня.",
+      "why": "после want — to"
+    },
+    {
+      "wrong": "I run ad campaigns for get better results.",
+      "a": [
+        "I run ad campaigns to get better results."
+      ],
+      "ru": "Я запускаю рекламные кампании, чтобы получить лучшие результаты.",
+      "why": "«чтобы» = to, не for"
+    },
+    {
+      "wrong": "I test offers for get more leads.",
+      "a": [
+        "I test offers to get more leads."
+      ],
+      "ru": "Я тестирую офферы, чтобы получить больше заявок.",
+      "why": "«чтобы» = to, не for"
+    },
+    {
+      "wrong": "It depend on the client.",
+      "a": [
+        "It depends on the client."
+      ],
+      "ru": "Это зависит от клиента.",
+      "why": "it → глагол + -s"
+    },
+    {
+      "wrong": "It depend on the budget.",
+      "a": [
+        "It depends on the budget."
+      ],
+      "ru": "Это зависит от бюджета.",
+      "why": "it → depends"
+    },
+    {
+      "wrong": "It make me happy.",
+      "a": [
+        "It makes me happy."
+      ],
+      "ru": "Это делает меня счастливым.",
+      "why": "it → makes"
+    },
+    {
+      "wrong": "There are a lot of competitions.",
+      "a": [
+        "There is a lot of competition.",
+        "There's a lot of competition."
+      ],
+      "ru": "Большая конкуренция.",
+      "why": "competition неисчисляемое; competitions — соревнования"
+    },
+    {
+      "wrong": "There are a lot of competitions in this field.",
+      "a": [
+        "There is a lot of competition in this field.",
+        "There's a lot of competition in this field."
+      ],
+      "ru": "В этой сфере большая конкуренция.",
+      "why": "конкуренция — competition, с is"
+    },
+    {
+      "wrong": "I like creating marketing strategies and running ad campaign.",
+      "a": [
+        "I like creating marketing strategies and running ad campaigns."
+      ],
+      "ru": "Мне нравится создавать маркетинговые стратегии и запускать рекламные кампании.",
+      "why": "кампании — во мн. числе, campaigns"
+    },
+    {
+      "wrong": "I want to get consistent result.",
+      "a": [
+        "I want to get consistent results."
+      ],
+      "ru": "Я хочу получать стабильные результаты.",
+      "why": "results — во мн. числе, проговаривай -s"
+    }
+  ]
+}

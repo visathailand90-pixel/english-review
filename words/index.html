@@ -1,0 +1,522 @@
+<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}@media(max-width:560px){body{font-size:16px}.rule{font-size:14px}.chip{font-size:14px}.opt{font-size:16px}input[type=text]{font-size:16px}}
+</style><title>Тренажёр английских слов</title><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-title" content="English Words"><meta name="theme-color" content="#f4f6fa"><link rel="manifest" href="./manifest.webmanifest"><link rel="apple-touch-icon" href="../icon-192.png"></head><body>
+<title>Тренажёр слов</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Unbounded:wght@500;700&family=Rubik:wght@400;500;600&display=swap">
+<style>
+/* Layout: one narrow phone column — mode chips on top, one big card / question in the middle, controls under the thumb */
+:root{
+  --bg:#eef1f5; --surface:#ffffff; --ink:#18213a; --muted:#5d6782;
+  --denim:#2f4a8a; --denim-soft:#dfe6f6; --tape:#f2c230; --tape-ink:#3a2c00;
+  --good:#1f7a4d; --good-soft:#dcf1e6; --bad:#b23a3a; --bad-soft:#f7e0e0; --line:#d5dbe6;
+  --display:"Unbounded", "Rubik", system-ui, sans-serif;
+  --body:"Rubik", system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#0f1422; --surface:#182036; --ink:#e8ecf6; --muted:#9aa5c2;
+  --denim:#8fa8e8; --denim-soft:#243050; --tape:#f2c230; --tape-ink:#2a2000;
+  --good:#5fd39a; --good-soft:#173a2a; --bad:#ef8a8a; --bad-soft:#3d1f24; --line:#2b3654; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#0f1422; --surface:#182036; --ink:#e8ecf6; --muted:#9aa5c2;
+  --denim:#8fa8e8; --denim-soft:#243050; --tape:#f2c230; --tape-ink:#2a2000;
+  --good:#5fd39a; --good-soft:#173a2a; --bad:#ef8a8a; --bad-soft:#3d1f24; --line:#2b3654; color-scheme:dark}
+html,body{height:100%}
+body{background:var(--bg);color:var(--ink);font-family:var(--body);font-size:16px;line-height:1.45;
+  padding-left:max(16px, env(safe-area-inset-left, 0px));padding-right:max(16px, env(safe-area-inset-right, 0px));padding-block:14px 28px}
+.wrap{max-width:520px;margin:0 auto;display:flex;flex-direction:column;gap:14px}
+header{display:flex;align-items:baseline;justify-content:space-between;gap:12px}
+h1{font-family:var(--display);font-size:1.15rem;margin:0;letter-spacing:.01em}
+.pack{font-size:.78rem;color:var(--muted);text-transform:uppercase;letter-spacing:.08em}
+.chips{display:flex;gap:8px;overflow-x:auto;padding-bottom:4px;scrollbar-width:none}
+.chips::-webkit-scrollbar{display:none}
+.chip{flex:0 0 auto;border:1.5px solid var(--line);background:var(--surface);color:var(--ink);border-radius:999px;
+  padding:8px 13px;font:500 .88rem var(--body);cursor:pointer;display:flex;gap:6px;align-items:center}
+.chip[aria-pressed="true"]{background:var(--denim);border-color:var(--denim);color:var(--surface)}
+.chip .best{font-size:.72rem;opacity:.8;font-variant-numeric:tabular-nums}
+.rule{font-size:.85rem;color:var(--muted);margin:0}
+/* flashcard */
+.stage{perspective:1200px}
+.card{position:relative;height:340px;cursor:pointer;transform-style:preserve-3d;transition:transform .45s ease;touch-action:pan-y}
+.card.flipped{transform:rotateY(180deg)}
+.face{position:absolute;inset:0;backface-visibility:hidden;-webkit-backface-visibility:hidden;background:var(--surface);
+  border-radius:22px;border:1.5px solid var(--line);display:flex;flex-direction:column;align-items:center;justify-content:center;
+  gap:12px;padding:22px;text-align:center;box-shadow:0 10px 30px -18px rgba(20,30,60,.45)}
+.face.back{transform:rotateY(180deg);background:var(--denim-soft)}
+.stitch{position:absolute;inset:9px;border:1.5px dashed var(--line);border-radius:16px;pointer-events:none}
+.face.back .stitch{border-color:color-mix(in srgb, var(--denim) 35%, transparent)}
+.tag{position:absolute;top:18px;left:20px;font-size:.75rem;color:var(--muted);font-variant-numeric:tabular-nums;letter-spacing:.05em}
+.word{font-family:var(--display);font-weight:700;font-size:2.3rem;line-height:1.1;word-break:break-word}
+.form{font-size:.9rem;color:var(--muted)}
+.pron{font-size:1.15rem;color:var(--denim);font-weight:500}
+.hint{position:absolute;bottom:18px;font-size:.78rem;color:var(--muted)}
+.ru{font-family:var(--display);font-size:1.6rem;font-weight:500}
+.ex{font-size:1rem;display:flex;gap:8px;align-items:center;justify-content:center;flex-wrap:wrap}
+.ex b{font-weight:600}
+.exru{font-size:.92rem;color:var(--muted);margin-top:-6px}
+.note{background:var(--tape);color:var(--tape-ink);font-size:.85rem;font-weight:500;padding:6px 10px;border-radius:8px;max-width:100%}
+.say{border:none;background:var(--denim);color:var(--surface);border-radius:999px;display:inline-flex;align-items:center;gap:6px;
+  padding:10px 16px;font:500 .9rem var(--body);cursor:pointer}
+.say.small{padding:6px 10px;font-size:.8rem}
+.say.ghost{background:transparent;color:var(--denim);border:1.5px solid var(--denim)}
+.say svg{width:18px;height:18px;flex:none}
+.say.small svg{width:15px;height:15px}
+.row{display:flex;gap:10px;justify-content:center;flex-wrap:wrap}
+.nav{display:grid;grid-template-columns:1fr auto 1fr;gap:10px;align-items:center}
+.btn{border:1.5px solid var(--line);background:var(--surface);color:var(--ink);border-radius:14px;padding:13px 14px;
+  font:500 .95rem var(--body);cursor:pointer}
+.btn.primary{background:var(--denim);color:var(--surface);border-color:var(--denim)}
+.btn:disabled{opacity:.4;cursor:default}
+.count{font-variant-numeric:tabular-nums;color:var(--muted);font-size:.9rem;text-align:center;min-width:64px}
+.toggles{display:flex;gap:16px;justify-content:center;flex-wrap:wrap;font-size:.85rem;color:var(--muted)}
+.toggles label{display:flex;gap:6px;align-items:center;cursor:pointer}
+/* quiz */
+.bar{height:6px;background:var(--line);border-radius:6px;overflow:hidden}
+.bar i{display:block;height:100%;background:var(--tape);width:0;transition:width .25s}
+.q{background:var(--surface);border:1.5px solid var(--line);border-radius:22px;padding:22px 18px;display:flex;flex-direction:column;gap:14px}
+.qhead{display:flex;justify-content:space-between;font-size:.8rem;color:var(--muted);font-variant-numeric:tabular-nums}
+.qprompt{text-align:center;display:flex;flex-direction:column;gap:8px;align-items:center}
+.qprompt .word{font-size:2rem}
+.qprompt .ru{font-size:1.5rem}
+.sent{font-size:1.15rem;font-weight:500;line-height:1.5}
+.gap{display:inline-block;min-width:70px;border-bottom:2.5px solid var(--tape);color:var(--denim);font-weight:600}
+.opts{display:grid;gap:10px}
+.opt{text-align:left;border:1.5px solid var(--line);background:var(--bg);color:var(--ink);border-radius:14px;padding:13px 14px;
+  font:500 1rem var(--body);cursor:pointer;display:flex;gap:10px;align-items:baseline}
+.opt .l{font-weight:600;color:var(--muted);width:1.1em;flex:none}
+.opt .p{color:var(--muted);font-weight:400;font-size:.88rem}
+.opt.ok{background:var(--good-soft);border-color:var(--good)}
+.opt.no{background:var(--bad-soft);border-color:var(--bad)}
+.opt:disabled{cursor:default}
+input[type=text]{width:100%;font:500 1.2rem var(--body);padding:13px 14px;border-radius:14px;border:1.5px solid var(--line);
+  background:var(--bg);color:var(--ink);text-align:center}
+input[type=text]:focus{outline:2.5px solid var(--denim);outline-offset:1px}
+.letter{font-family:var(--display);font-size:1.3rem;letter-spacing:.18em;color:var(--denim)}
+.fb{border-radius:14px;padding:12px 14px;display:flex;flex-direction:column;gap:6px;align-items:flex-start}
+.fb.ok{background:var(--good-soft);color:var(--good)}
+.fb.no{background:var(--bad-soft);color:var(--bad)}
+.fb .ans{color:var(--ink);font-size:1.05rem}
+.fb .ans b{font-family:var(--display);font-weight:700}
+.fb .line{display:flex;gap:10px;align-items:center;flex-wrap:wrap;color:var(--ink)}
+.res{background:var(--surface);border:1.5px solid var(--line);border-radius:22px;padding:22px 18px;display:flex;flex-direction:column;gap:14px;text-align:center}
+.big{font-family:var(--display);font-size:2.6rem;font-weight:700;font-variant-numeric:tabular-nums}
+.verdict{font-weight:600}
+.verdict.ok{color:var(--good)} .verdict.no{color:var(--bad)}
+.miss{display:flex;flex-wrap:wrap;gap:8px;justify-content:center}
+.miss span{background:var(--bad-soft);color:var(--bad);border-radius:999px;padding:5px 11px;font-size:.88rem;font-weight:500}
+.copy{font-size:.85rem;color:var(--muted);background:var(--bg);border-radius:12px;padding:10px;text-align:left;white-space:pre-wrap;user-select:all}
+.toast{position:fixed;left:50%;bottom:calc(20px + env(safe-area-inset-bottom, 0px));transform:translateX(-50%);background:var(--ink);color:var(--bg);
+  padding:10px 16px;border-radius:12px;font-size:.88rem;max-width:calc(100% - 32px)}
+button:focus-visible,.chip:focus-visible{outline:2.5px solid var(--tape);outline-offset:2px}
+.phl{display:flex;flex-direction:column;gap:12px}
+.ph{background:var(--surface);border:1.5px solid var(--line);border-radius:18px;padding:14px 16px;display:flex;flex-direction:column;gap:10px}
+.ph h3{margin:0;font-family:var(--display);font-size:1.05rem;display:flex;gap:8px;align-items:baseline;flex-wrap:wrap}
+.ph h3 span{font-family:var(--body);font-weight:400;font-size:.85rem;color:var(--muted)}
+.pi{display:flex;gap:10px;align-items:flex-start}
+.pi .t{flex:1;min-width:0}
+.pi .e{font-weight:600}
+.pi .r{font-size:.9rem;color:var(--muted)}
+.idiom{display:inline-block;background:var(--tape);color:var(--tape-ink);font-size:.7rem;font-weight:600;border-radius:6px;padding:1px 6px;margin-left:6px;vertical-align:2px;text-transform:uppercase;letter-spacing:.05em}
+@media (prefers-reduced-motion: reduce){.card{transition:none}.bar i{transition:none}}
+</style>
+
+<div class="wrap">
+  <header>
+    <h1 id="ttl">Одежда</h1>
+    <span class="pack" id="pk">пачка 1</span>
+  </header>
+  <nav class="chips" id="packs" aria-label="Пачка слов"></nav>
+  <nav class="chips" id="chips" aria-label="Режим"></nav>
+  <main id="app"></main>
+</div>
+<div class="toast" id="toast" hidden></div>
+
+<script>
+const PACK1 = [
+ {en:"clothes",pr:"клОуз",ru:"одежда",g:"g",ex:"I buy new clothes twice a year.",exru:"Покупаю новую одежду дважды в год.",note:"всегда мн. число: clothes are",s:"I buy new ___ twice a year.",sru:"Покупаю новую одежду дважды в год."},
+ {en:"shirt",pr:"шЁт",ru:"рубашка",g:"g",ex:"I wear a white shirt to meetings.",exru:"Ношу белую рубашку на встречи.",note:"shorts [шотс] — шорты",s:"I wear a white ___ to meetings.",sru:"Ношу белую рубашку на встречи."},
+ {en:"T-shirt",pr:"тИишёт",ru:"футболка",g:"g",ex:"In summer I wear a T-shirt.",exru:"Летом я ношу футболку.",note:"",s:"In summer I usually wear a ___ and shorts.",sru:"Летом обычно ношу футболку и шорты."},
+ {en:"trousers",pr:"трАузэз",ru:"брюки",g:"g",ex:"These trousers are too long.",exru:"Эти брюки слишком длинные.",note:"всегда мн. число",s:"These ___ are too long for me.",sru:"Эти брюки мне слишком длинные."},
+ {en:"jeans",pr:"джИинз",ru:"джинсы",g:"g",ex:"My jeans are new.",exru:"Мои джинсы новые.",note:"всегда мн. число",s:"My ___ are blue.",sru:"Мои джинсы синие."},
+ {en:"jacket",pr:"джЭкит",ru:"куртка",g:"g",ex:"I need a new jacket.",exru:"Мне нужна новая куртка.",note:"smart jacket — пиджак",s:"It's cold. Take your ___.",sru:"Холодно. Возьми куртку."},
+ {en:"coat",pr:"кОут",ru:"пальто",g:"g",ex:"I need a winter coat.",exru:"Мне нужно зимнее пальто.",note:"",s:"I need a long winter ___.",sru:"Мне нужно длинное зимнее пальто."},
+ {en:"dress",pr:"дрЭс",ru:"платье",g:"g",ex:"She has a red dress.",exru:"У неё красное платье.",note:"",s:"She has a beautiful red ___.",sru:"У неё красивое красное платье."},
+ {en:"shoes",pr:"шУуз",ru:"обувь, туфли",g:"g",ex:"These shoes are new.",exru:"Эти туфли новые.",note:"всегда мн. число",s:"These ___ are uncomfortable to walk in.",sru:"В этой обуви неудобно ходить."},
+ {en:"size",pr:"сАйз",ru:"размер",g:"a",ex:"What size are you?",exru:"Какой у тебя размер?",note:"",s:"What ___ are you? — Medium.",sru:"Какой у тебя размер? — M."},
+ {en:"leather",pr:"лЭзэ",ru:"кожа, кожаный",g:"a",ex:"I have a leather jacket.",exru:"У меня есть кожаная куртка.",note:"",s:"I have a black ___ jacket.",sru:"У меня есть чёрная кожаная куртка."},
+ {en:"thick",pr:"сИк",ru:"толстый, плотный",g:"a",ex:"It's a thick winter coat.",exru:"Это плотное зимнее пальто.",note:"th — язык между зубами. sick — больной",s:"It's a ___ coat for the winter.",sru:"Это плотное пальто на зиму."},
+ {en:"warm",pr:"уОом",ru:"тёплый",g:"a",ex:"This coat keeps me warm.",exru:"Это пальто меня согревает.",note:"",s:"This coat keeps me ___.",sru:"Это пальто меня согревает."},
+ {en:"wear",pr:"уЭа",ru:"носить (одежду)",g:"v",form:"прошедшее: wore",ex:"I usually wear black.",exru:"Я обычно ношу чёрное.",note:"wear — носить, put on — надеть",s:"I usually ___ black.",sru:"Я обычно ношу чёрное."},
+ {en:"put on",pr:"пут Он",ru:"надевать",g:"v",form:"прошедшее: put on",ex:"I put on my coat and go out.",exru:"Надеваю пальто и выхожу.",note:"надеть — действие",s:"I ___ my coat and go out.",sru:"Я надеваю пальто и выхожу."},
+ {en:"try on",pr:"трАй он",ru:"примерять",g:"v",form:"прошедшее: tried on",ex:"Can I try it on?",exru:"Можно примерить?",note:"try it on — it посередине",s:"Can I ___ this jacket?",sru:"Можно примерить эту куртку?"},
+ {en:"fit",pr:"фИт",ru:"подходить по размеру",g:"v",ex:"These jeans don't fit me.",exru:"Эти джинсы мне не по размеру.",note:"fit — размер, suit — стиль",s:"These jeans don't ___ me. They're too small.",sru:"Эти джинсы мне не по размеру. Они маленькие."},
+ {en:"suit",pr:"сьЮт",ru:"идти, подходить по стилю",g:"v",ex:"This colour suits you.",exru:"Тебе идёт этот цвет.",note:"fit — размер, suit — стиль",s:"Does this colour ___ me?",sru:"Мне идёт этот цвет?"}
+];
+const PACK2 = [
+ {en:"waste time",pr:"уЭйст тайм",ru:"тратить время впустую",g:"v",ex:"Don't waste time on social media.",exru:"Не трать время на соцсети.",note:"waste time on + что-то",s:"I don't want to ___ on long meetings.",sru:"Не хочу тратить время на долгие встречи."},
+ {en:"focus on",pr:"фОукэс он",ru:"сосредоточиться на",g:"v",ex:"I can focus on my work at home.",exru:"Дома я могу сосредоточиться на работе.",note:"всегда с on",s:"At home I can ___ my work.",sru:"Дома я могу сосредоточиться на работе."},
+ {en:"survey",pr:"сЁвэй",ru:"опрос",g:"n",ex:"We did a survey of our clients.",exru:"Мы провели опрос клиентов.",note:"",s:"We did a ___ of 500 clients.",sru:"Мы провели опрос 500 клиентов."},
+ {en:"on average",pr:"он Эвэридж",ru:"в среднем",g:"a",ex:"On average, I work nine hours a day.",exru:"В среднем я работаю 9 часов в день.",note:"",s:"People check their email every six minutes ___.",sru:"В среднем люди проверяют почту каждые 6 минут."},
+ {en:"according to",pr:"экОдинг ту",ru:"согласно, по данным",g:"a",ex:"According to the survey, 32% work from home.",exru:"По данным опроса, 32% работают из дома.",note:"",s:"Sales went up, ___ the report.",sru:"Продажи выросли, согласно отчёту."},
+ {en:"reduce",pr:"ридьЮс",ru:"сокращать, снижать",g:"v",form:"прошедшее: reduced",ex:"We need to reduce costs.",exru:"Нам нужно сократить расходы.",note:"",s:"We need to ___ the cost per lead.",sru:"Нам нужно снизить стоимость лида."},
+ {en:"discount",pr:"дИскаунт",ru:"скидка",g:"n",ex:"There's a 10% discount today.",exru:"Сегодня скидка 10%.",note:"",s:"If you order online, there's a 10% ___.",sru:"Если заказать онлайн, будет скидка 10%."},
+ {en:"staff",pr:"стааф",ru:"персонал, сотрудники",g:"n",ex:"The clinic needs more staff.",exru:"Клинике нужно больше сотрудников.",note:"без -s: staff, не staffs",s:"The clinic needs more ___ at weekends.",sru:"Клинике нужно больше персонала по выходным."},
+ {en:"employ",pr:"имплОй",ru:"нанимать (на работу)",g:"v",form:"прошедшее: employed",ex:"The company employs 50 people.",exru:"В компании работают 50 человек.",note:"employee — сотрудник",s:"We want to ___ two new marketers.",sru:"Мы хотим нанять двух новых маркетологов."},
+ {en:"occasionally",pr:"экЕйжнэли",ru:"иногда, изредка",g:"a",ex:"I occasionally work late.",exru:"Я иногда работаю допоздна.",note:"пишется: двойная c, двойная l",s:"I ___ work at weekends, but not often.",sru:"Я изредка работаю по выходным, но не часто."},
+ {en:"recently",pr:"рИисэнтли",ru:"недавно",g:"a",ex:"I recently started a new project.",exru:"Я недавно начал новый проект.",note:"",s:"I ___ started learning English with a tutor.",sru:"Я недавно начал учить английский с репетитором."},
+ {en:"reliable",pr:"рилАйэбл",ru:"надёжный",g:"a",ex:"He's very reliable.",exru:"Он очень надёжный.",note:"",s:"Peter is very ___. He's always on time.",sru:"Питер очень надёжный. Он всегда вовремя."},
+ {en:"event",pr:"ивЭнт",ru:"мероприятие, событие",g:"n",ex:"We're organizing a big event.",exru:"Мы организуем большое мероприятие.",note:"",s:"We're organizing a big ___ for our clients.",sru:"Мы организуем большое мероприятие для клиентов."},
+ {en:"however",pr:"хауЭвэ",ru:"однако",g:"a",ex:"The flight was late. However, it's usually on time.",exru:"Рейс опоздал. Однако обычно он вовремя.",note:"",s:"The ads are expensive. They work well, ___.",sru:"Реклама дорогая. Однако она хорошо работает."},
+ {en:"schedule",pr:"скЕджул / шЭдьюл",ru:"расписание, график",g:"n",ex:"My schedule is very busy.",exru:"У меня очень плотный график.",note:"",s:"My ___ is very busy this week.",sru:"На этой неделе у меня плотный график."},
+ {en:"arrive",pr:"эрАйв",ru:"прибывать, приезжать",g:"v",form:"прошедшее: arrived",ex:"The train arrives at eight.",exru:"Поезд прибывает в восемь.",note:"arrive at (место), arrive in (город)",s:"Please ___ ten minutes before the meeting.",sru:"Пожалуйста, приходите за 10 минут до встречи."},
+ {en:"flight",pr:"флайт",ru:"рейс, перелёт",g:"n",ex:"My flight is at six a.m.",exru:"Мой рейс в 6 утра.",note:"",s:"My ___ to London is at six in the morning.",sru:"Мой рейс в Лондон в шесть утра."},
+ {en:"campaign",pr:"кэмпЕйн",ru:"(рекламная) кампания",g:"n",ex:"We're launching a new ad campaign.",exru:"Мы запускаем новую рекламную кампанию.",note:"g не читается. company — компания (фирма)",s:"We're launching a new ad ___ on Instagram.",sru:"Мы запускаем новую рекламную кампанию в Instagram."},
+ {en:"van",pr:"вэн",ru:"фургон",g:"n",rep:1,ex:"He drives a delivery van.",exru:"Он водит фургон доставки.",note:"delivery driver — курьер",s:"He drives a white ___ for a delivery company.",sru:"Он водит белый фургон в компании доставки."},
+ {en:"during",pr:"дьЮринг",ru:"во время, в течение",g:"a",rep:1,ex:"Don't use your phone during the lesson.",exru:"Не пользуйся телефоном во время урока.",note:"during + существительное: during the call",s:"He called me ___ the meeting.",sru:"Он позвонил мне во время встречи."},
+ {en:"clothes",pr:"клОуз",ru:"одежда",g:"g",rep:1,ex:"I don't spend much money on clothes.",exru:"Я не трачу много денег на одежду.",note:"пишется: c-l-o-t-h-e-s",s:"I don't spend much money on ___.",sru:"Я не трачу много денег на одежду."},
+ {en:"trousers",pr:"трАузэз",ru:"брюки",g:"g",rep:1,ex:"I usually wear dark trousers to work.",exru:"На работу обычно ношу тёмные брюки.",note:"пишется: t-r-o-u-s-e-r-s",s:"I usually wear dark ___ to work.",sru:"На работу я обычно ношу тёмные брюки."},
+ {en:"shoes",pr:"шУуз",ru:"обувь, туфли",g:"g",rep:1,ex:"I need new shoes for the winter.",exru:"Мне нужна новая обувь на зиму.",note:"пишется: s-h-o-e-s",s:"I need new ___ for the winter.",sru:"Мне нужна новая обувь на зиму."},
+ {en:"leather",pr:"лЭзэ",ru:"кожа, кожаный",g:"a",rep:1,ex:"These leather shoes are expensive.",exru:"Эти кожаные туфли дорогие.",note:"пишется: l-e-a-t-h-e-r, без s",s:"These ___ shoes are expensive.",sru:"Эти кожаные туфли дорогие."},
+ {en:"thick",pr:"сИк",ru:"толстый, плотный",g:"a",rep:1,ex:"I need a thick jacket for the winter.",exru:"Мне нужна плотная куртка на зиму.",note:"th — язык между зубами. sick — больной",s:"I need a ___ jacket for the winter.",sru:"Мне нужна плотная куртка на зиму."},
+ {en:"try on",pr:"трАй он",ru:"примерять",g:"v",rep:1,ex:"Can I try on this T-shirt?",exru:"Можно примерить эту футболку?",note:"примерить в магазине — try on",s:"Can I ___ this T-shirt, please?",sru:"Можно примерить эту футболку?"},
+ {en:"put on",pr:"пут Он",ru:"надевать",g:"v",rep:1,ex:"I put on my jacket and go out.",exru:"Я надеваю куртку и выхожу.",note:"надеть перед выходом — put on",s:"It's cold, so I ___ my jacket and go out.",sru:"Холодно, поэтому я надеваю куртку и выхожу."}
+];
+/* expressions: [english, russian, idiom? (1 = переносный смысл)] */
+const EXPR1 = {
+ "clothes":[["change clothes","переодеться"],["casual clothes","повседневная одежда"]],
+ "shirt":[["Keep your shirt on!","Не кипятись! Успокойся!",1]],
+ "T-shirt":[["It's T-shirt weather.","Тепло, можно ходить в футболке.",1]],
+ "jacket":[["a life jacket","спасательный жилет"]],
+ "coat":[["a coat of paint","слой краски",1]],
+ "dress":[["get dressed","одеться"],["a dress code","дресс-код"]],
+ "shoes":[["I wouldn't like to be in his shoes.","Не хотел бы я быть на его месте.",1]],
+ "size":[["One size fits all.","Универсальный размер; одно решение для всех.",1]],
+ "thick":[["through thick and thin","и в горе, и в радости; несмотря ни на что",1],["thick-skinned","толстокожий (не обижается)",1]],
+ "warm":[["a warm welcome","тёплый приём"],["warm up","разогреться, размяться"]],
+ "wear":[["wear and tear","износ (от использования)",1]],
+ "put on":[["put on weight","набрать вес"],["put on some music","включить музыку"]],
+ "try on":[["Nice try!","Хорошая попытка! (не прокатило)",1]],
+ "fit":[["keep fit","поддерживать форму"],["fit in","вписаться, стать своим",1]],
+ "suit":[["Suit yourself.","Как хочешь. Дело твоё.",1],["That suits me.","Меня это устраивает."]]
+};
+const EXPR2 = {
+ "waste time":[["It's a waste of time.","Это пустая трата времени."],["Stop wasting my time!","Хватит тратить моё время!"]],
+ "focus on":[["Let's focus on the main goal.","Давай сосредоточимся на главной цели."],["I can't focus.","Не могу сосредоточиться."]],
+ "survey":[["fill in a survey","заполнить опрос"],["carry out a survey","провести опрос"]],
+ "on average":[["above average","выше среднего"],["below average","ниже среднего"]],
+ "according to":[["according to plan","по плану"],["according to the data","по данным"]],
+ "reduce":[["reduce costs","сократить расходы"],["reduce the price","снизить цену"]],
+ "discount":[["Can I get a discount?","Можно скидку?"]],
+ "staff":[["a staff meeting","собрание сотрудников, планёрка"],["a member of staff","сотрудник"]],
+ "employ":[["self-employed","самозанятый, работает на себя"]],
+ "occasionally":[["every now and then","время от времени",1]],
+ "recently":[["Have you seen him recently?","Ты видел его в последнее время?"],["lately","в последнее время (синоним)"]],
+ "reliable":[["a reliable source","надёжный источник"]],
+ "event":[["a corporate event","корпоратив"],["in any event","в любом случае",1]],
+ "however":[["However you like.","Как тебе удобно. Как хочешь."]],
+ "schedule":[["ahead of schedule","раньше срока"],["behind schedule","с отставанием от графика"],["on schedule","по графику"]],
+ "arrive":[["arrive on time","прийти вовремя"],["arrive at a decision","прийти к решению",1]],
+ "flight":[["catch a flight","успеть на рейс"],["miss a flight","опоздать на рейс"]],
+ "campaign":[["launch a campaign","запустить кампанию"],["run a campaign","вести кампанию"]],
+ "van":[["a delivery van","фургон доставки"]],
+ "during":[["during the day","днём, в течение дня"],["during the week","в будни"]],
+ "clothes":[["change clothes","переодеться"]],
+ "trousers":[["She wears the trousers.","Она главная в семье, она командует.",1]],
+ "shoes":[["I wouldn't like to be in his shoes.","Не хотел бы я быть на его месте.",1]],
+ "leather":[["genuine leather","натуральная кожа"]],
+ "thick":[["through thick and thin","и в горе, и в радости; несмотря ни на что",1]],
+ "put on":[["put on weight","набрать вес"]],
+ "try on":[["Nice try!","Хорошая попытка! (не прокатило)",1]]
+};
+const PACKS = [
+ {id:"clothes1",n:1,title:"Одежда",words:PACK1,expr:EXPR1},
+ {id:"work2",n:2,title:"Работа и время",words:PACK2,expr:EXPR2}
+];
+let P = PACKS[1], W = P.words;
+const MODES = [
+ {id:"cards",label:"Карточки"},
+ {id:"r1",label:"1 · EN → RU",title:"Круг 1 · английский → русский"},
+ {id:"r2",label:"2 · RU → EN",title:"Круг 2 · русский → английский"},
+ {id:"r3",label:"3 · Предложения",title:"Круг 3 · вставь слово"},
+ {id:"r4",label:"4 · По букве",title:"Круг 4 · напиши по первой букве"},
+ {id:"r5",label:"5 · Без подсказки",title:"Круг 5 · напиши без подсказки"},
+ {id:"phr",label:"Выражения"}
+];
+const passMark = n => n - 2;
+const SPK = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M11 5 6 9H3v6h3l5 4z"/><path d="M15.5 8.5a5 5 0 0 1 0 7"/><path d="M18.5 5.5a9 9 0 0 1 0 13"/></svg>';
+
+const store = {
+  get(k,d){try{const v=localStorage.getItem(k);return v==null?d:JSON.parse(v)}catch(e){return d}},
+  set(k,v){try{localStorage.setItem(k,JSON.stringify(v))}catch(e){}}
+};
+let best = store.get(P.id+":best",{});
+let autoSay = store.get("clothes1:autosay",true);
+function setPack(i){
+  P=PACKS[i]; W=P.words; best=store.get(P.id+":best",{});
+  mode="cards"; cardOrder=W.map((x,k)=>k); cardI=0; flipped=false; cardShuffled=false; Q=null;
+  store.set("pack",i); render();
+}
+function renderPacks(){
+  document.getElementById("packs").innerHTML = PACKS.map((p,i)=>
+    `<button class="chip" type="button" data-pack="${i}" aria-pressed="${p===P}">Пачка ${p.n} · ${p.title}</button>`).join("");
+  document.getElementById("ttl").textContent=P.title;
+  const reps=W.filter(w=>w.rep).length;
+  document.getElementById("pk").textContent=`пачка ${P.n} · ${W.length-reps} новых${reps?` + ${reps} повтор`:""}`;
+}
+document.getElementById("packs").addEventListener("click",e=>{
+  const c=e.target.closest("[data-pack]"); if(c)setPack(+c.dataset.pack);
+});
+
+/* ---------- speech ---------- */
+let voice=null;
+function pickVoice(){
+  if(!("speechSynthesis" in window))return;
+  const vs=speechSynthesis.getVoices();
+  voice = vs.find(v=>/en[-_]GB/i.test(v.lang)) || vs.find(v=>/en[-_]US/i.test(v.lang)) || vs.find(v=>/^en/i.test(v.lang)) || null;
+}
+if("speechSynthesis" in window){pickVoice();speechSynthesis.onvoiceschanged=pickVoice;}
+function say(text,slow){
+  if(!("speechSynthesis" in window)){toast("Озвучка не поддерживается в этом браузере. Открой страницу в Chrome или Safari.");return;}
+  try{
+    speechSynthesis.cancel();
+    const u=new SpeechSynthesisUtterance(text);
+    u.lang = voice? voice.lang : "en-GB"; if(voice)u.voice=voice;
+    u.rate = slow?0.6:0.9;
+    speechSynthesis.speak(u);
+  }catch(e){toast("Не получилось включить звук");}
+}
+function sayBtn(text,cls="",label=""){
+  return `<button class="say ${cls}" data-say="${text.replace(/"/g,"&quot;")}" type="button">${SPK}${label}</button>`;
+}
+let tt;
+function toast(m){const t=document.getElementById("toast");t.textContent=m;t.hidden=false;clearTimeout(tt);tt=setTimeout(()=>t.hidden=true,2600);}
+
+document.addEventListener("click",e=>{
+  const b=e.target.closest("[data-say]");
+  if(b){e.stopPropagation();say(b.dataset.say,b.dataset.slow==="1");}
+},true);
+
+/* ---------- helpers ---------- */
+const shuffle=a=>{a=a.slice();for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]]}return a};
+function distractors(idx,n=3){
+  const w=W[idx];
+  let pool=shuffle(W.map((x,i)=>i).filter(i=>i!==idx&&W[i].g===w.g));
+  if(pool.length<n)pool=pool.concat(shuffle(W.map((x,i)=>i).filter(i=>i!==idx&&!pool.includes(i))));
+  return pool.slice(0,n);
+}
+const norm=s=>s.toLowerCase().replace(/[^a-z]/g,"");
+
+/* ---------- state ---------- */
+let mode="cards";
+let cardOrder=W.map((x,i)=>i), cardI=0, flipped=false, cardShuffled=false;
+let Q=null;
+
+function renderChips(){
+  document.getElementById("chips").innerHTML = MODES.map(m=>{
+    const b = best[m.id]!=null ? `<span class="best">${best[m.id]}/${W.length}</span>` : "";
+    return `<button class="chip" type="button" data-mode="${m.id}" aria-pressed="${m.id===mode}">${m.label}${b}</button>`;
+  }).join("");
+}
+document.getElementById("chips").addEventListener("click",e=>{
+  const c=e.target.closest("[data-mode]"); if(!c)return;
+  mode=c.dataset.mode; if(mode!=="cards"&&mode!=="phr")startRound(mode); render();
+});
+
+function renderPhr(){
+  const ex=P.expr||{};
+  const items=W.filter(w=>ex[w.en]);
+  document.getElementById("app").innerHTML=`
+  <div class="phl">
+    <p class="rule">Как эти слова звучат в живой речи. Учить наизусть не надо, просто послушай и повтори вслух. Метка «идиома» значит, что смысл не дословный.</p>
+    ${items.map(w=>`<section class="ph"><h3>${w.en} <span>${w.ru}</span></h3>
+      ${ex[w.en].map(p=>`<div class="pi">${sayBtn(p[0],"small")}<div class="t"><div class="e">${p[0]}${p[2]?'<span class="idiom">идиома</span>':""}</div><div class="r">${p[1]}</div></div></div>`).join("")}
+    </section>`).join("")}
+  </div>`;
+}
+
+function render(){
+  renderPacks();
+  renderChips();
+  if(mode==="phr")renderPhr();
+  else if(mode==="cards")renderCards(); else if(Q && Q.done)renderResult(); else renderQ();
+}
+
+/* ---------- cards ---------- */
+function renderCards(){
+  const w=W[cardOrder[cardI]];
+  const app=document.getElementById("app");
+  app.innerHTML=`
+  <div style="display:flex;flex-direction:column;gap:14px">
+    <p class="rule">Тапни по карточке, чтобы перевернуть. Свайп влево или вправо листает. Каждое слово говори вслух.</p>
+    <div class="stage"><div class="card ${flipped?"flipped":""}" id="card" role="button" tabindex="0" aria-label="Карточка, нажми чтобы перевернуть">
+      <div class="face front"><span class="stitch"></span>
+        <span class="tag">${cardI+1} / ${W.length}${w.rep?" · повтор":""}</span>
+        <div class="word">${w.en}</div>
+        <div class="pron">[${w.pr}]</div>
+        ${w.form?`<div class="form">${w.form}</div>`:""}
+        <div class="row">${sayBtn(w.en,"","Слушать")}<button class="say ghost" type="button" data-say="${w.en}" data-slow="1">${SPK}Медленно</button></div>
+        <span class="hint">нажми — перевод</span>
+      </div>
+      <div class="face back"><span class="stitch"></span>
+        <span class="tag">${w.en}</span>
+        <div class="ru">${w.ru}</div>
+        <div class="ex"><span><b>${w.ex}</b></span>${sayBtn(w.ex,"small")}</div>
+        <div class="exru">${w.exru}</div>
+        ${w.note?`<div class="note">${w.note}</div>`:""}
+      </div>
+    </div></div>
+    <div class="nav">
+      <button class="btn" id="prev" type="button" ${cardI===0?"disabled":""}>← Назад</button>
+      <span class="count">${cardI+1} / ${W.length}</span>
+      <button class="btn primary" id="next" type="button">${cardI===W.length-1?"К кругу 1 →":"Дальше →"}</button>
+    </div>
+    <div class="toggles">
+      <label><input type="checkbox" id="shuf" ${cardShuffled?"checked":""}> Перемешать</label>
+      <label><input type="checkbox" id="auto" ${autoSay?"checked":""}> Озвучивать сразу</label>
+    </div>
+  </div>`;
+  const card=document.getElementById("card");
+  card.addEventListener("click",()=>{flipped=!flipped;card.classList.toggle("flipped",flipped);});
+  card.addEventListener("keydown",e=>{if(e.key===" "||e.key==="Enter"){e.preventDefault();card.click();}});
+  let x0=null,y0=null;
+  card.addEventListener("touchstart",e=>{x0=e.touches[0].clientX;y0=e.touches[0].clientY},{passive:true});
+  card.addEventListener("touchend",e=>{
+    if(x0==null)return; const dx=e.changedTouches[0].clientX-x0, dy=e.changedTouches[0].clientY-y0; x0=null;
+    if(Math.abs(dx)>50&&Math.abs(dx)>Math.abs(dy)){ e.preventDefault(); dx<0?go(1):go(-1); }
+  });
+  document.getElementById("prev").onclick=()=>go(-1);
+  document.getElementById("next").onclick=()=>{ if(cardI===W.length-1){mode="r1";startRound("r1");render();} else go(1); };
+  document.getElementById("shuf").onchange=e=>{cardShuffled=e.target.checked;cardOrder=cardShuffled?shuffle(W.map((x,i)=>i)):W.map((x,i)=>i);cardI=0;flipped=false;renderCards();};
+  document.getElementById("auto").onchange=e=>{autoSay=e.target.checked;store.set("clothes1:autosay",autoSay);};
+}
+function go(d){
+  const n=cardI+d; if(n<0||n>=W.length)return;
+  cardI=n; flipped=false; renderCards();
+  if(autoSay)say(W[cardOrder[cardI]].en);
+}
+document.addEventListener("keydown",e=>{
+  if(mode!=="cards"||e.target.tagName==="INPUT")return;
+  if(e.key==="ArrowRight")go(1); if(e.key==="ArrowLeft")go(-1);
+});
+
+/* ---------- rounds ---------- */
+function startRound(m,subset){
+  const ids=subset||W.map((x,i)=>i);
+  Q={mode:m,order:shuffle(ids),i:0,score:0,wrong:[],answered:false,full:!subset,opts:null,last:null,done:false};
+}
+function renderQ(){
+  const app=document.getElementById("app");
+  const m=MODES.find(x=>x.id===Q.mode);
+  const idx=Q.order[Q.i], w=W[idx];
+  if(!Q.opts && ["r1","r2","r3"].includes(Q.mode)) Q.opts=shuffle([idx,...distractors(idx)]);
+  let prompt="", body="";
+  if(Q.mode==="r1"){
+    prompt=`<div class="word">${w.en}</div><div class="pron">[${w.pr}]</div>${sayBtn(w.en,"small","Слушать")}`;
+    body=optsHtml(i=>W[i].ru);
+  } else if(Q.mode==="r2"){
+    prompt=`<div class="ru">${w.ru}</div>`;
+    body=optsHtml(i=>`${W[i].en} <span class="p">[${W[i].pr}]</span>`);
+  } else if(Q.mode==="r3"){
+    prompt=`<div class="sent">${w.s.replace("___",'<span class="gap">'+(Q.answered?W[Q.last.pick].en:"&nbsp;")+'</span>')}</div><div class="exru">(${w.sru})</div>`;
+    body=optsHtml(i=>W[i].en);
+  } else {
+    const hint = Q.mode==="r4" ? `<div class="letter">${w.en[0]}${"_".repeat(Math.max(w.en.length-1,0))}</div><div class="exru">${w.en.length} букв${w.en.includes(" ")?" (с пробелом)":w.en.includes("-")?" (с дефисом)":""}</div>` : "";
+    prompt=`<div class="ru">${w.ru}</div>${hint}`;
+    body=`<form id="wf" autocomplete="off"><input type="text" id="win" autocapitalize="off" autocorrect="off" spellcheck="false" placeholder="пиши по-английски" ${Q.answered?"disabled":""} value="${Q.answered?Q.last.typed.replace(/"/g,"&quot;"):""}"></form>
+      ${Q.answered?"":`<button class="btn primary" type="button" id="check">Проверить</button>`}`;
+  }
+  app.innerHTML=`
+  <div style="display:flex;flex-direction:column;gap:12px">
+    <div class="bar"><i style="width:${(Q.i/Q.order.length)*100}%"></i></div>
+    <div class="q">
+      <div class="qhead"><span>${m.title}</span><span>${Q.i+1} / ${Q.order.length} · ✓ ${Q.score}</span></div>
+      <div class="qprompt">${prompt}</div>
+      ${body}
+      ${Q.answered?fbHtml(w):""}
+      ${Q.answered?`<button class="btn primary" type="button" id="nextq">${Q.i===Q.order.length-1?"Итог →":"Дальше →"}</button>`:""}
+    </div>
+  </div>`;
+  if(["r1","r2","r3"].includes(Q.mode)){
+    app.querySelectorAll(".opt").forEach(b=>b.onclick=()=>answer(+b.dataset.i));
+  } else if(!Q.answered){
+    const inp=document.getElementById("win"); inp.focus();
+    document.getElementById("wf").onsubmit=e=>{e.preventDefault();answerTyped(inp.value)};
+    document.getElementById("check").onclick=()=>answerTyped(inp.value);
+  }
+  const nb=document.getElementById("nextq"); if(nb){nb.onclick=nextQ; nb.focus({preventScroll:true});}
+}
+function optsHtml(lbl){
+  return `<div class="opts">${Q.opts.map((i,k)=>{
+    let c=""; if(Q.answered){ if(i===Q.order[Q.i])c="ok"; else if(i===Q.last.pick)c="no"; }
+    return `<button class="opt ${c}" type="button" data-i="${i}" ${Q.answered?"disabled":""}><span class="l">${"abcd"[k]}</span><span>${lbl(i)}</span></button>`;
+  }).join("")}</div>`;
+}
+function fbHtml(w){
+  const ok=Q.last.ok;
+  return `<div class="fb ${ok?"ok":"no"}">
+    <strong>${ok?"✅ Верно":"❌ Ошибка"}</strong>
+    <div class="line"><span class="ans"><b>${w.en}</b> [${w.pr}] — ${w.ru}</span>${sayBtn(w.en,"small")}</div>
+    ${!ok&&w.note?`<div class="note">${w.note}</div>`:""}
+  </div>`;
+}
+function answer(pick){
+  if(Q.answered)return;
+  const idx=Q.order[Q.i], ok=pick===idx;
+  record(ok,idx); Q.last={pick,ok}; Q.answered=true; renderQ();
+  if(autoSay)say(W[idx].en);
+}
+function answerTyped(v){
+  if(Q.answered)return;
+  if(!v.trim()){toast("Напиши слово");return;}
+  const idx=Q.order[Q.i], ok=norm(v)===norm(W[idx].en);
+  record(ok,idx); Q.last={typed:v.trim(),ok}; Q.answered=true; renderQ();
+  if(autoSay)say(W[idx].en);
+}
+function record(ok,idx){ if(ok)Q.score++; else if(!Q.wrong.includes(idx))Q.wrong.push(idx); }
+function nextQ(){
+  if(Q.i===Q.order.length-1){
+    Q.done=true;
+    if(Q.full){ if(best[Q.mode]==null||Q.score>best[Q.mode]){best[Q.mode]=Q.score;store.set(P.id+":best",best);} }
+    render(); return;
+  }
+  Q.i++; Q.answered=false; Q.opts=null; Q.last=null; renderQ();
+}
+function renderResult(){
+  const m=MODES.find(x=>x.id===Q.mode), tot=Q.order.length;
+  const need = passMark(tot);
+  const pass = Q.full ? Q.score>=need : Q.wrong.length===0;
+  const nm = MODES[MODES.findIndex(x=>x.id===Q.mode)+1];
+  const nextMode = nm && nm.id[0]==="r" ? nm : null;
+  const text = `Пачка ${P.n}. ${m.title}: ${Q.score}/${tot}${Q.full?"":" (повтор ошибок)"}\nОшибки: ${Q.wrong.length?Q.wrong.map(i=>W[i].en).join(", "):"нет"}`;
+  document.getElementById("app").innerHTML=`
+  <div class="res">
+    <div class="qhead" style="justify-content:center"><span>${m.title}</span></div>
+    <div class="big">${Q.score} / ${tot}</div>
+    <div class="verdict ${pass?"ok":"no"}">${Q.full ? (pass?"Круг сдан. Можно дальше.":`Нужно ${need} из ${tot}. Повтори ошибки и пройди круг ещё раз.`) : (pass?"Ошибки исправлены. Теперь пройди весь круг заново.":"Ещё есть ошибки, повтори их.")}</div>
+    ${Q.wrong.length?`<div class="miss">${Q.wrong.map(i=>`<span>${W[i].en} — ${W[i].ru}</span>`).join("")}</div>`:""}
+    <div class="row">
+      ${Q.wrong.length?`<button class="btn primary" type="button" id="rw">Повторить ошибки</button>`:""}
+      <button class="btn" type="button" id="ra">Весь круг заново</button>
+      ${pass&&Q.full&&nextMode?`<button class="btn primary" type="button" id="nx">${nextMode.label} →</button>`:""}
+    </div>
+    <div class="copy" id="ct">${text}</div>
+    <button class="btn" type="button" id="cp">Скопировать результат для чата</button>
+  </div>`;
+  const w=Q.wrong.slice();
+  const rw=document.getElementById("rw"); if(rw)rw.onclick=()=>{startRound(Q.mode,w);render();};
+  document.getElementById("ra").onclick=()=>{startRound(Q.mode);render();};
+  const nx=document.getElementById("nx"); if(nx)nx.onclick=()=>{mode=nextMode.id;startRound(mode);render();};
+  document.getElementById("cp").onclick=()=>{
+    const done=()=>toast("Скопировано. Вставь в чат.");
+    try{navigator.clipboard.writeText(text).then(done,()=>{selectCopy();toast("Выдели текст выше и скопируй");});}
+    catch(e){selectCopy();toast("Выдели текст выше и скопируй");}
+  };
+}
+function selectCopy(){const r=document.createRange();r.selectNodeContents(document.getElementById("ct"));const s=getSelection();s.removeAllRanges();s.addRange(r);}
+
+{ const sp=store.get("pack",1); if(PACKS[sp]){P=PACKS[sp];W=P.words;best=store.get(P.id+":best",{});cardOrder=W.map((x,k)=>k);} }
+render();
+</script>
+
+</body></html>

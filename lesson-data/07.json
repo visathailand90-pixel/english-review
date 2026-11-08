@@ -1,0 +1,1258 @@
+{
+  "id": "07",
+  "num": "7",
+  "title": "Покупки и одежда",
+  "date": "25.10",
+  "summary": "Урок о покупках: онлайн или в обычном магазине, возвраты и выгодные покупки.\nСлова про одежду и цвета, разница fit и suit.\nНачало Past Simple: bought, ordered, returned, was/were.\nДва глагола подряд: like buying, need to look, spend time on.",
+  "theory": [
+    {
+      "h": "Онлайн или в магазине",
+      "text": [
+        "**item** — одна вещь, товар (можно посчитать). **stuff** — вещи вообще, не считается: без -s и без a.",
+        "**retail store** — обычный магазин. **carry** — иметь в продаже. **a deal** — выгодная покупка.",
+        "**return** — вернуть товар, **refund** — вернуть деньги. **subscription** — подписка."
+      ],
+      "ex": [
+        [
+          "I bought three items online.",
+          "Я купил три вещи онлайн."
+        ],
+        [
+          "This store carries cute stuff.",
+          "В этом магазине продаются милые вещи."
+        ],
+        [
+          "I returned the jacket and got a refund.",
+          "Я вернул куртку и получил деньги обратно."
+        ]
+      ],
+      "warn": [
+        "a lot of **stuffs** → a lot of **stuff**. stuff не бывает во множественном числе."
+      ]
+    },
+    {
+      "h": "Одежда: clothes и try on",
+      "text": [
+        "**clothes** — всегда множественное число: clothes **are**.",
+        "**try on** — примерять. Если вместо вещи местоимение, оно стоит посередине: **try it on**, **try them on**.",
+        "jeans, trousers, shorts — тоже множественное: try **them** on."
+      ],
+      "ex": [
+        [
+          "Clothes are expensive here.",
+          "Одежда здесь дорогая."
+        ],
+        [
+          "I like this dress. Can I try it on?",
+          "Мне нравится это платье. Можно примерить?"
+        ],
+        [
+          "These jeans are nice. I want to try them on.",
+          "Джинсы классные. Хочу их примерить."
+        ]
+      ],
+      "warn": [
+        "I want to try on **it** → I want to try **it on**.",
+        "Clothes **is** → Clothes **are**."
+      ]
+    },
+    {
+      "h": "fit или suit",
+      "text": [
+        "**fit** — подходит **по размеру**. **suit** — идёт **по стилю**, к лицу.",
+        "Похожие слова: **quite** [квайт] — довольно, **quiet** [квАйэт] — тихий; **thick** — плотный, **sick** — больной."
+      ],
+      "table": [
+        [
+          "Слово",
+          "Значение",
+          "Пример"
+        ],
+        [
+          "fit",
+          "по размеру",
+          "These shoes don't fit."
+        ],
+        [
+          "suit",
+          "по стилю",
+          "This colour suits you."
+        ]
+      ],
+      "ex": [
+        [
+          "They don't really fit well.",
+          "Они не очень подходят по размеру."
+        ],
+        [
+          "I think these earrings suit me.",
+          "Думаю, эти серьги мне идут."
+        ]
+      ],
+      "warn": [
+        "quite **too** uncomfortable → quite uncomfortable. quite и too вместе не ставим."
+      ]
+    },
+    {
+      "h": "Past Simple: правильные глаголы",
+      "text": [
+        "Говорим о том, что уже было: вчера, на прошлой неделе, год назад.",
+        "Правильные глаголы: просто добавь **-ed**. Форма одна для всех: I, he, they.",
+        "try → tried, apply → applied (y → ied)."
+      ],
+      "table": [
+        [
+          "Сейчас",
+          "Прошлое"
+        ],
+        [
+          "work",
+          "worked"
+        ],
+        [
+          "order",
+          "ordered"
+        ],
+        [
+          "return",
+          "returned"
+        ],
+        [
+          "try",
+          "tried"
+        ],
+        [
+          "use",
+          "used"
+        ]
+      ],
+      "ex": [
+        [
+          "I ordered a sofa online.",
+          "Я заказал диван онлайн."
+        ],
+        [
+          "They lasted for years.",
+          "Они прослужили годы."
+        ]
+      ]
+    },
+    {
+      "h": "Past Simple: неправильные глаголы",
+      "text": [
+        "Эти глаголы надо просто запомнить.",
+        "**be** в прошлом: I/he/she/it **was**, you/we/they **were**."
+      ],
+      "table": [
+        [
+          "Сейчас",
+          "Прошлое"
+        ],
+        [
+          "buy",
+          "bought [бот]"
+        ],
+        [
+          "get",
+          "got"
+        ],
+        [
+          "go",
+          "went"
+        ],
+        [
+          "come",
+          "came"
+        ],
+        [
+          "say",
+          "said [сэд]"
+        ],
+        [
+          "think",
+          "thought [сот]"
+        ],
+        [
+          "have",
+          "had"
+        ],
+        [
+          "be",
+          "was / were"
+        ]
+      ],
+      "ex": [
+        [
+          "I bought a lovely thick coat.",
+          "Я купил милое плотное пальто."
+        ],
+        [
+          "I never thought I'd say this.",
+          "Никогда не думал, что скажу это."
+        ],
+        [
+          "It was in bad condition.",
+          "Это было в плохом состоянии."
+        ]
+      ],
+      "warn": [
+        "I **buyed** → I **bought**.",
+        "The jeans **was** small → The jeans **were** small."
+      ]
+    },
+    {
+      "h": "Have you ever…? — Когда-нибудь…?",
+      "text": [
+        "Спрашиваем об опыте: **Have you ever** + ordered / bought…?",
+        "Короткий ответ: **Yes, I have.** / **No, I haven't.** Не «Yes, I did»."
+      ],
+      "ex": [
+        [
+          "Have you ever ordered something online that looked different?",
+          "Ты когда-нибудь заказывал онлайн что-то, что выглядело по-другому?"
+        ],
+        [
+          "Yes, I have. I ordered some clothes, but they looked different.",
+          "Да. Я заказал одежду, но она выглядела по-другому."
+        ]
+      ]
+    },
+    {
+      "h": "Два глагола подряд",
+      "text": [
+        "После **like** — глагол с **-ing**: I like **buying**, I don't like **paying**.",
+        "После **need** — **to**: I need **to look** good. Вопрос: **Do I need to** read it?",
+        "«Тратить время на» — **spend time on**: spend less time on work. Или spend time + -ing: spend time **finding**."
+      ],
+      "ex": [
+        [
+          "I don't like paying more for the same quality.",
+          "Не люблю платить больше за то же качество."
+        ],
+        [
+          "You need to look good.",
+          "Тебе нужно хорошо выглядеть."
+        ]
+      ],
+      "warn": [
+        "I like **buy** → I like **buying**.",
+        "I need **read** → I need **to read**.",
+        "spend time **for** → spend time **on**."
+      ]
+    }
+  ],
+  "vocab": [
+    {
+      "en": "item",
+      "pron": "Айтэм",
+      "ru": "вещь, товар"
+    },
+    {
+      "en": "stuff",
+      "pron": "стАф",
+      "ru": "вещи (неисчисл.)"
+    },
+    {
+      "en": "retail store",
+      "pron": "рИитэйл стор",
+      "ru": "обычный магазин"
+    },
+    {
+      "en": "carry",
+      "pron": "кЭри",
+      "ru": "иметь в продаже"
+    },
+    {
+      "en": "a deal",
+      "pron": "э дИил",
+      "ru": "выгодная покупка"
+    },
+    {
+      "en": "trusted",
+      "pron": "трАстид",
+      "ru": "проверенный"
+    },
+    {
+      "en": "recommendation",
+      "pron": "рэкэмэндЭйшн",
+      "ru": "рекомендация"
+    },
+    {
+      "en": "be tired of",
+      "pron": "би тАйэд ов",
+      "ru": "устать от"
+    },
+    {
+      "en": "I'm done",
+      "pron": "айм дАн",
+      "ru": "с меня хватит"
+    },
+    {
+      "en": "already",
+      "pron": "олрЭди",
+      "ru": "уже"
+    },
+    {
+      "en": "approach (to)",
+      "pron": "эпрОуч",
+      "ru": "подход (к)"
+    },
+    {
+      "en": "order",
+      "pron": "Одэ",
+      "ru": "заказывать"
+    },
+    {
+      "en": "return",
+      "pron": "ритЁн",
+      "ru": "возвращать"
+    },
+    {
+      "en": "refund",
+      "pron": "рИифанд",
+      "ru": "возврат денег"
+    },
+    {
+      "en": "try on",
+      "pron": "трАй он",
+      "ru": "примерять"
+    },
+    {
+      "en": "subscription",
+      "pron": "сэбскрИпшн",
+      "ru": "подписка"
+    },
+    {
+      "en": "in real life",
+      "pron": "ин рИэл лайф",
+      "ru": "в реальности"
+    },
+    {
+      "en": "clothes",
+      "pron": "клОуз",
+      "ru": "одежда"
+    },
+    {
+      "en": "trousers",
+      "pron": "трАузэз",
+      "ru": "брюки"
+    },
+    {
+      "en": "smart jacket",
+      "pron": "смат джЭкит",
+      "ru": "пиджак"
+    },
+    {
+      "en": "earrings",
+      "pron": "Иэрингз",
+      "ru": "серьги"
+    },
+    {
+      "en": "jewellery",
+      "pron": "джУуэлри",
+      "ru": "украшения"
+    },
+    {
+      "en": "beige",
+      "pron": "бЕйж",
+      "ru": "бежевый"
+    },
+    {
+      "en": "dark red",
+      "pron": "дак рЭд",
+      "ru": "бордовый"
+    },
+    {
+      "en": "fit",
+      "pron": "фИт",
+      "ru": "подходить по размеру"
+    },
+    {
+      "en": "suit",
+      "pron": "сьЮт",
+      "ru": "идти, подходить по стилю"
+    },
+    {
+      "en": "quality",
+      "pron": "квОлити",
+      "ru": "качество"
+    },
+    {
+      "en": "last",
+      "pron": "лАст",
+      "ru": "служить (о вещи)"
+    },
+    {
+      "en": "second-hand",
+      "pron": "сЭкэнд-хэнд",
+      "ru": "б/у"
+    },
+    {
+      "en": "condition",
+      "pron": "кэндИшн",
+      "ru": "состояние"
+    },
+    {
+      "en": "thick",
+      "pron": "сИк",
+      "ru": "плотный"
+    },
+    {
+      "en": "keep someone warm",
+      "pron": "кИип ... уом",
+      "ru": "согревать"
+    },
+    {
+      "en": "similar",
+      "pron": "сИмилэ",
+      "ru": "похожий"
+    },
+    {
+      "en": "complicated",
+      "pron": "кОмпликейтид",
+      "ru": "сложный"
+    },
+    {
+      "en": "uncomfortable",
+      "pron": "анкАмфтэбл",
+      "ru": "неудобный"
+    }
+  ],
+  "l2": [
+    {
+      "q": "I ___ a coat last week.",
+      "o": [
+        "buy",
+        "bought",
+        "buyed"
+      ],
+      "a": 1,
+      "why": "buy — неправильный глагол: bought"
+    },
+    {
+      "q": "This T-shirt doesn't ___. It's too small.",
+      "o": [
+        "fit",
+        "suit",
+        "wear"
+      ],
+      "a": 0,
+      "why": "по размеру → fit"
+    },
+    {
+      "q": "Dark blue really ___ you.",
+      "o": [
+        "fits",
+        "suits",
+        "wears"
+      ],
+      "a": 1,
+      "why": "по стилю, к лицу → suits"
+    },
+    {
+      "q": "I like this dress. Can I try ___ on?",
+      "o": [
+        "it",
+        "them",
+        "its"
+      ],
+      "a": 0,
+      "why": "dress — одна вещь → try it on"
+    },
+    {
+      "q": "These jeans are nice. I want to try ___ on.",
+      "o": [
+        "it",
+        "them",
+        "they"
+      ],
+      "a": 1,
+      "why": "jeans — мн.ч. → try them on"
+    },
+    {
+      "q": "Clothes ___ expensive in this store.",
+      "o": [
+        "is",
+        "are",
+        "be"
+      ],
+      "a": 1,
+      "why": "clothes — всегда мн.ч. → are"
+    },
+    {
+      "q": "I ___ the dress because it didn't fit.",
+      "o": [
+        "return",
+        "returned",
+        "returning"
+      ],
+      "a": 1,
+      "why": "это было в прошлом → returned"
+    },
+    {
+      "q": "I returned the shoes and got a ___.",
+      "o": [
+        "refund",
+        "subscription",
+        "condition"
+      ],
+      "a": 0,
+      "why": "вернуть деньги → refund"
+    },
+    {
+      "q": "I'm tired ___ shopping online.",
+      "o": [
+        "of",
+        "from",
+        "with"
+      ],
+      "a": 0,
+      "why": "be tired of — устать от"
+    },
+    {
+      "q": "I go to retail stores ___ a year.",
+      "o": [
+        "twice",
+        "two time",
+        "second"
+      ],
+      "a": 0,
+      "why": "дважды в год → twice a year"
+    },
+    {
+      "q": "It ___ on the situation.",
+      "o": [
+        "depend",
+        "depends",
+        "is depend"
+      ],
+      "a": 1,
+      "why": "it → depends, без is"
+    },
+    {
+      "q": "I don't like ___ more for the same quality.",
+      "o": [
+        "pay",
+        "paying",
+        "to paying"
+      ],
+      "a": 1,
+      "why": "like + глагол с -ing"
+    },
+    {
+      "q": "I don't want to spend a lot of time ___ shopping.",
+      "o": [
+        "on",
+        "for",
+        "in"
+      ],
+      "a": 0,
+      "why": "spend time on — тратить время на"
+    },
+    {
+      "q": "This coat is ___ warm.",
+      "o": [
+        "quite",
+        "quiet",
+        "quit"
+      ],
+      "a": 0,
+      "why": "quite — довольно, quiet — тихий"
+    },
+    {
+      "q": "This coat is ___, so it keeps me warm.",
+      "o": [
+        "thick",
+        "sick",
+        "quick"
+      ],
+      "a": 0,
+      "why": "thick — плотный, sick — больной"
+    },
+    {
+      "q": "Yesterday I ___ to a retail store.",
+      "o": [
+        "go",
+        "went",
+        "goed"
+      ],
+      "a": 1,
+      "why": "go — неправильный: went"
+    },
+    {
+      "q": "Last year this coat ___ my favourite.",
+      "o": [
+        "was",
+        "were",
+        "been"
+      ],
+      "a": 0,
+      "why": "it (coat) → was"
+    },
+    {
+      "q": "Have you ever ordered clothes online? — Yes, I ___.",
+      "o": [
+        "did",
+        "have",
+        "do"
+      ],
+      "a": 1,
+      "why": "Have you ever…? → Yes, I have"
+    },
+    {
+      "q": "I ___ it was a good deal, but it wasn't.",
+      "o": [
+        "thought",
+        "thinked",
+        "think"
+      ],
+      "a": 0,
+      "why": "think — неправильный: thought"
+    },
+    {
+      "q": "I bought ___ leather jacket.",
+      "o": [
+        "a",
+        "an",
+        "the a"
+      ],
+      "a": 0,
+      "why": "leather начинается с согласного звука → a"
+    },
+    {
+      "q": "My old boots ___ for years.",
+      "o": [
+        "lasted",
+        "lasting",
+        "was last"
+      ],
+      "a": 0,
+      "why": "прослужили (в прошлом) → lasted"
+    },
+    {
+      "q": "I ___ some clothes, but they looked different, so I returned them.",
+      "o": [
+        "order",
+        "ordered",
+        "was order"
+      ],
+      "a": 1,
+      "why": "прошлое правильного глагола → ordered"
+    },
+    {
+      "q": "Right now I'm ___ AI to create content.",
+      "o": [
+        "use",
+        "using",
+        "used"
+      ],
+      "a": 1,
+      "why": "right now, I'm → глагол с -ing"
+    },
+    {
+      "q": "My friend ___ she liked my new jacket.",
+      "o": [
+        "sayed",
+        "said",
+        "say"
+      ],
+      "a": 1,
+      "why": "say — неправильный: said [сэд]"
+    }
+  ],
+  "l3": [
+    {
+      "q": "Last month I ___ a new jacket.",
+      "hint": "купил — глагол в прошедшем",
+      "a": [
+        "bought"
+      ],
+      "why": "buy → bought"
+    },
+    {
+      "q": "I ___ the shoes because they were too small.",
+      "hint": "вернул — глагол в прошедшем",
+      "a": [
+        "returned"
+      ],
+      "why": "return + -ed"
+    },
+    {
+      "q": "I'm ___ of online shopping.",
+      "hint": "устал — 1 слово",
+      "a": [
+        "tired"
+      ],
+      "why": "be tired of — устать от"
+    },
+    {
+      "q": "These trousers look great. I need to try ___ on.",
+      "hint": "их — местоимение",
+      "a": [
+        "them"
+      ],
+      "why": "trousers — мн.ч. → them"
+    },
+    {
+      "q": "This store ___ cute stuff.",
+      "hint": "имеет в продаже — глагол с -s",
+      "a": [
+        "carries"
+      ],
+      "why": "it → carries (y → ies)"
+    },
+    {
+      "q": "I love a good ___.",
+      "hint": "выгодная покупка — 1 слово",
+      "a": [
+        "deal"
+      ],
+      "why": "a good deal — выгодная покупка"
+    },
+    {
+      "q": "These jeans don't ___ me. They're too big.",
+      "hint": "подходят по размеру — 1 слово",
+      "a": [
+        "fit"
+      ],
+      "why": "по размеру → fit"
+    },
+    {
+      "q": "I think these earrings ___ me.",
+      "hint": "идут мне (по стилю) — глагол без -s",
+      "a": [
+        "suit"
+      ],
+      "why": "earrings — мн.ч. → suit без -s"
+    },
+    {
+      "q": "It looked completely different in ___ ___.",
+      "hint": "в реальности — 2 слова",
+      "a": [
+        "real life"
+      ],
+      "why": "in real life — в реальности"
+    },
+    {
+      "q": "I got a ___ after I returned the coat.",
+      "hint": "возврат денег — 1 слово",
+      "a": [
+        "refund"
+      ],
+      "why": "refund — деньги обратно"
+    },
+    {
+      "q": "I bought these boots in a ___ shop.",
+      "hint": "б/у — слово через дефис",
+      "a": [
+        "second-hand",
+        "second hand"
+      ],
+      "why": "second-hand — б/у"
+    },
+    {
+      "q": "A lot of stuff was in bad ___.",
+      "hint": "состояние — 1 слово",
+      "a": [
+        "condition"
+      ],
+      "why": "in bad condition — в плохом состоянии"
+    },
+    {
+      "q": "This thick coat keeps me ___.",
+      "hint": "тёплый — 1 слово",
+      "a": [
+        "warm"
+      ],
+      "why": "keep someone warm — согревать"
+    },
+    {
+      "q": "We meet our clients ___ a year.",
+      "hint": "дважды — 1 слово",
+      "a": [
+        "twice"
+      ],
+      "why": "twice a year, не two time on year"
+    },
+    {
+      "q": "Yesterday I ___ to a second-hand shop.",
+      "hint": "пошёл — глагол в прошедшем",
+      "a": [
+        "went"
+      ],
+      "why": "go → went"
+    },
+    {
+      "q": "The instructions were difficult to ___.",
+      "hint": "следовать — 1 слово",
+      "a": [
+        "follow"
+      ],
+      "why": "follow instructions — следовать инструкциям"
+    },
+    {
+      "q": "My old leather shoes ___ for years.",
+      "hint": "прослужили — глагол в прошедшем",
+      "a": [
+        "lasted"
+      ],
+      "why": "last + -ed"
+    },
+    {
+      "q": "I ___ a refund last week.",
+      "hint": "получил — глагол в прошедшем",
+      "a": [
+        "got"
+      ],
+      "why": "get → got"
+    },
+    {
+      "q": "The sofa ___ in good condition.",
+      "hint": "был — прошедшее от be",
+      "a": [
+        "was"
+      ],
+      "why": "it (sofa) → was"
+    },
+    {
+      "q": "The jeans ___ too small.",
+      "hint": "были — прошедшее от be",
+      "a": [
+        "were"
+      ],
+      "why": "jeans — мн.ч. → were"
+    },
+    {
+      "q": "I don't like ___ a lot of time on shopping.",
+      "hint": "тратить — глагол с -ing",
+      "a": [
+        "spending"
+      ],
+      "why": "like + -ing"
+    },
+    {
+      "q": "Have you ever ___ something online that looked different?",
+      "hint": "заказывал — форма с -ed",
+      "a": [
+        "ordered"
+      ],
+      "why": "Have you ever + ordered"
+    },
+    {
+      "q": "I ___ ___ I'd buy clothes online.",
+      "hint": "никогда не думал — впиши оба слова через пробел",
+      "a": [
+        "never thought"
+      ],
+      "why": "think → thought"
+    },
+    {
+      "q": "The price ___ on the client.",
+      "hint": "зависит — глагол с -s",
+      "a": [
+        "depends"
+      ],
+      "why": "it → depends, без it's"
+    }
+  ],
+  "l4": [
+    {
+      "ru": "Я купил три вещи онлайн.",
+      "en": "I bought three items online."
+    },
+    {
+      "ru": "У меня много вещей.",
+      "en": "I have a lot of stuff."
+    },
+    {
+      "ru": "Мне нужно это примерить.",
+      "en": "I need to try it on."
+    },
+    {
+      "ru": "Этот цвет тебе идёт.",
+      "en": "This colour suits you."
+    },
+    {
+      "ru": "Эти туфли мне не подходят по размеру.",
+      "en": "These shoes don't fit me."
+    },
+    {
+      "ru": "Я вернул куртку и получил деньги обратно.",
+      "en": "I returned the jacket and got a refund."
+    },
+    {
+      "ru": "Я покупаю новую одежду дважды в год.",
+      "en": "I buy new clothes twice a year."
+    },
+    {
+      "ru": "Это зависит от ситуации.",
+      "en": "It depends on the situation."
+    },
+    {
+      "ru": "Эта куртка меня согревает.",
+      "en": "This jacket keeps me warm."
+    },
+    {
+      "ru": "Я предпочитаю обычные магазины.",
+      "en": "I prefer retail stores."
+    },
+    {
+      "ru": "Мне не нравятся логотипы брендов.",
+      "en": "I don't like brand logos."
+    },
+    {
+      "ru": "Оно выглядело совершенно иначе.",
+      "en": "It looked completely different."
+    },
+    {
+      "ru": "Я никогда не думал, что скажу это.",
+      "en": "I never thought I'd say this."
+    },
+    {
+      "ru": "Я купил это в магазине б/у.",
+      "en": "I bought it in a second-hand shop."
+    },
+    {
+      "ru": "Эти кожаные ботинки очень хорошего качества.",
+      "en": "These leather boots are really good quality."
+    },
+    {
+      "ru": "Это было в плохом состоянии.",
+      "en": "It was in bad condition."
+    }
+  ],
+  "l5": [
+    {
+      "ru": "Я заказал диван онлайн.",
+      "a": [
+        "I ordered a sofa online."
+      ],
+      "why": "order + -ed"
+    },
+    {
+      "ru": "Вчера я купил пиджак.",
+      "a": [
+        "Yesterday I bought a smart jacket.",
+        "I bought a smart jacket yesterday."
+      ],
+      "why": "buy → bought; пиджак — smart jacket"
+    },
+    {
+      "ru": "Мне нужно их примерить. (о джинсах)",
+      "a": [
+        "I need to try them on."
+      ],
+      "why": "need to + глагол; them между try и on"
+    },
+    {
+      "ru": "Эта куртка мне не подходит по размеру.",
+      "a": [
+        "This jacket doesn't fit me.",
+        "This jacket doesn't fit.",
+        "This jacket does not fit me."
+      ],
+      "why": "по размеру → fit, не suit"
+    },
+    {
+      "ru": "Одежда очень дорогая.",
+      "a": [
+        "Clothes are very expensive."
+      ],
+      "why": "clothes — мн.ч. → are"
+    },
+    {
+      "ru": "Я устал от онлайн-шопинга.",
+      "a": [
+        "I'm tired of online shopping.",
+        "I am tired of online shopping.",
+        "I'm tired of shopping online."
+      ],
+      "why": "tired of, не tired from"
+    },
+    {
+      "ru": "С меня хватит этого приложения.",
+      "a": [
+        "I'm done with this app.",
+        "I am done with this app."
+      ],
+      "why": "I'm done with — с меня хватит"
+    },
+    {
+      "ru": "Есть рекомендации?",
+      "a": [
+        "Any recommendations?"
+      ],
+      "why": "recommendation — во мн.ч. -s"
+    },
+    {
+      "ru": "Какой у тебя подход к покупкам?",
+      "a": [
+        "What's your approach to shopping?",
+        "What is your approach to shopping?"
+      ],
+      "why": "approach to — подход к"
+    },
+    {
+      "ru": "Я уже заказал это.",
+      "a": [
+        "I've already ordered it.",
+        "I have already ordered it.",
+        "I already ordered it."
+      ],
+      "why": "already стоит перед ordered"
+    },
+    {
+      "ru": "Это довольно неудобно.",
+      "a": [
+        "It's quite uncomfortable.",
+        "It is quite uncomfortable."
+      ],
+      "why": "quite без too"
+    },
+    {
+      "ru": "Инструкции сложные.",
+      "a": [
+        "The instructions are complicated.",
+        "The instructions are difficult."
+      ],
+      "why": "instructions — мн.ч. → are"
+    },
+    {
+      "ru": "Я плачу за одну подписку.",
+      "a": [
+        "I pay for one subscription."
+      ],
+      "why": "платить за — pay for"
+    },
+    {
+      "ru": "Мы тратим меньше времени на работу.",
+      "a": [
+        "We spend less time on work."
+      ],
+      "why": "spend time on, не for"
+    },
+    {
+      "ru": "Мне нравятся яркие цвета.",
+      "a": [
+        "I like bright colours.",
+        "I like bright colors."
+      ],
+      "why": "bright colours — яркие цвета"
+    },
+    {
+      "ru": "У меня была похожая пара.",
+      "a": [
+        "I had a similar pair."
+      ],
+      "why": "have → had"
+    },
+    {
+      "ru": "Мне нужно хорошо выглядеть на встречах с клиентами.",
+      "a": [
+        "I need to look good at meetings with clients.",
+        "I need to look good when I meet clients."
+      ],
+      "why": "need to look — после need нужно to"
+    },
+    {
+      "ru": "Ты когда-нибудь заказывал одежду онлайн?",
+      "a": [
+        "Have you ever ordered clothes online?"
+      ],
+      "why": "Have you ever + ordered"
+    },
+    {
+      "ru": "Он сказал, что это выгодная покупка.",
+      "a": [
+        "He said it was a good deal.",
+        "He said that it was a good deal."
+      ],
+      "why": "say → said, is → was"
+    }
+  ],
+  "l6": [
+    {
+      "q": "Do you prefer online shopping or retail stores?",
+      "ru": "Ты предпочитаешь онлайн-шопинг или обычные магазины?",
+      "start": "When I need to buy clothes, I…",
+      "model": "When I need to buy clothes, I go to a retail store because I need to try them on. Other items, like tech, I buy online."
+    },
+    {
+      "q": "What's your approach to shopping?",
+      "ru": "Какой у тебя подход к покупкам?",
+      "start": "I only buy things when…",
+      "model": "I only buy things when I need them. I buy new clothes about twice a year."
+    },
+    {
+      "q": "Have you ever ordered something online that looked different in real life?",
+      "ru": "Ты когда-нибудь заказывал онлайн что-то, что в реальности выглядело по-другому?",
+      "start": "Yes, I have. I ordered…",
+      "model": "Yes, I have. I ordered some clothes, but they looked different, so I returned them."
+    },
+    {
+      "q": "Do you like shopping for clothes and trying things on?",
+      "ru": "Тебе нравится покупать одежду и примерять вещи?",
+      "start": "No, I don't. I don't like…",
+      "model": "No, I don't. I don't like spending a lot of time on shopping."
+    },
+    {
+      "q": "How important is what you wear to you?",
+      "ru": "Насколько для тебя важно, что ты носишь?",
+      "start": "It depends on the situation…",
+      "model": "It depends on the situation. When I work from home, it isn't very important. But when I meet clients, it's really important."
+    },
+    {
+      "q": "What is your typical style?",
+      "ru": "Какой у тебя обычный стиль?",
+      "start": "I like the old money style…",
+      "model": "I like the old money style. I don't like brand logos, and I don't like paying more for the same quality."
+    },
+    {
+      "q": "What are your favourite colours?",
+      "ru": "Какие у тебя любимые цвета?",
+      "start": "My favourite colours are…",
+      "model": "My favourite colours are black, white, beige and dark red."
+    },
+    {
+      "q": "When do people usually wear smart clothes?",
+      "ru": "Когда люди обычно носят нарядную одежду?",
+      "start": "People usually wear smart clothes…",
+      "model": "People usually wear smart clothes at a wedding or when they meet clients."
+    }
+  ],
+  "fix": [
+    {
+      "wrong": "I like buy IT product because it's help me spend less time.",
+      "a": [
+        "I like buying tech products because they help me spend less time on work."
+      ],
+      "ru": "Мне нравится покупать технику, потому что она помогает мне тратить меньше времени на работу.",
+      "why": "like + -ing; products — мн.ч. → they help, без it's"
+    },
+    {
+      "wrong": "I want to buy very more programs and service.",
+      "a": [
+        "I want to buy a lot of programs and services."
+      ],
+      "ru": "Я хочу купить много программ и сервисов.",
+      "why": "много — a lot of, не very more; services с -s"
+    },
+    {
+      "wrong": "Right now I using AI and create soft without buy subscribe.",
+      "a": [
+        "Right now I'm using AI to create software without buying subscriptions."
+      ],
+      "ru": "Сейчас я использую ИИ, чтобы создавать софт без покупки подписок.",
+      "why": "I'm using; без + -ing: without buying; подписка — subscription"
+    },
+    {
+      "wrong": "I buy new clothes two time on year.",
+      "a": [
+        "I buy new clothes twice a year."
+      ],
+      "ru": "Я покупаю новую одежду дважды в год.",
+      "why": "дважды в год — twice a year"
+    },
+    {
+      "wrong": "I need to watch how look this thing when I try on.",
+      "a": [
+        "I need to see how it looks when I try it on."
+      ],
+      "ru": "Мне нужно увидеть, как это выглядит, когда я это примеряю.",
+      "why": "how it looks — сначала it, потом глагол; try it on"
+    },
+    {
+      "wrong": "We spend more time for found a good thing.",
+      "a": [
+        "We spend more time finding good things."
+      ],
+      "ru": "Мы тратим больше времени на поиск хороших вещей.",
+      "why": "spend time + -ing: spend time finding"
+    },
+    {
+      "wrong": "It's depend on situation.",
+      "a": [
+        "It depends on the situation."
+      ],
+      "ru": "Это зависит от ситуации.",
+      "why": "it depends — без is; on the situation"
+    },
+    {
+      "wrong": "It's don't so important for me.",
+      "a": [
+        "It isn't very important for me.",
+        "It's not very important for me.",
+        "It is not very important for me."
+      ],
+      "ru": "Для меня это не очень важно.",
+      "why": "с прилагательным — isn't, не don't"
+    },
+    {
+      "wrong": "You need look so good.",
+      "a": [
+        "You need to look good."
+      ],
+      "ru": "Тебе нужно хорошо выглядеть.",
+      "why": "need to + глагол"
+    },
+    {
+      "wrong": "I don't like logotip brands.",
+      "a": [
+        "I don't like brand logos."
+      ],
+      "ru": "Мне не нравятся логотипы брендов.",
+      "why": "логотипы брендов — brand logos (главное слово в конце)"
+    },
+    {
+      "wrong": "I don't like pay more for the same quality.",
+      "a": [
+        "I don't like paying more for the same quality."
+      ],
+      "ru": "Не люблю платить больше за то же качество.",
+      "why": "like + -ing: like paying"
+    },
+    {
+      "wrong": "I don't a girl.",
+      "a": [
+        "I'm not a girl.",
+        "I am not a girl."
+      ],
+      "ru": "Я не девушка.",
+      "why": "без глагола-действия → I'm not"
+    },
+    {
+      "wrong": "My favorites colors are black and white.",
+      "a": [
+        "My favourite colours are black and white.",
+        "My favorite colors are black and white."
+      ],
+      "ru": "Мои любимые цвета — чёрный и белый.",
+      "why": "favourite — прилагательное, без -s"
+    },
+    {
+      "wrong": "It's quite too uncomfortable.",
+      "a": [
+        "It's quite uncomfortable.",
+        "It is quite uncomfortable."
+      ],
+      "ru": "Это довольно неудобно.",
+      "why": "quite и too вместе не ставим"
+    },
+    {
+      "wrong": "Let's go move on the next question.",
+      "a": [
+        "Let's move on to the next question."
+      ],
+      "ru": "Давай перейдём к следующему вопросу.",
+      "why": "move on to — без go"
+    },
+    {
+      "wrong": "I need read it?",
+      "a": [
+        "Do I need to read it?"
+      ],
+      "ru": "Мне нужно это прочитать?",
+      "why": "вопрос — Do I need to…?"
+    }
+  ]
+}

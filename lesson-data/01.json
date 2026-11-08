@@ -1,0 +1,1227 @@
+{
+  "id": "01",
+  "num": "1",
+  "title": "Работа и профессии",
+  "date": "",
+  "summary": "Урок про работу: разница между job, work и profession.\nУстойчивые сочетания: deal with, earn, do research, work for / work in, run a company.\nКак спросить человека о работе: What do you do? What … like?\nГрамматика: -s для he/she/it, вопросы с do/does, to + глагол и -ing.",
+  "theory": [
+    {
+      "h": "job, work, profession",
+      "text": [
+        "**job** — конкретная работа, её можно посчитать: a job, two jobs.",
+        "**work** — работа как занятие, не считается: «a work» сказать нельзя.",
+        "**profession** — профессия: I'm a doctor by profession.",
+        "**housework** — работа по дому, **homework** — домашнее задание."
+      ],
+      "table": [
+        [
+          "Слово",
+          "Как говорим"
+        ],
+        [
+          "job",
+          "a new job, two jobs, a part-time job"
+        ],
+        [
+          "work",
+          "a lot of work, at work, go to work"
+        ],
+        [
+          "profession",
+          "a marketer by profession"
+        ]
+      ],
+      "ex": [
+        [
+          "I'm looking for a new job.",
+          "Я ищу новую работу."
+        ],
+        [
+          "I have a lot of work today.",
+          "Сегодня у меня много работы."
+        ],
+        [
+          "I'm at work.",
+          "Я на работе."
+        ]
+      ],
+      "warn": [
+        "a part-time **work** → a part-time **job**. Конкретная работа — job.",
+        "a lot of **jobs** today → a lot of **work** today. Объём работы — work."
+      ]
+    },
+    {
+      "h": "deal with, earn, do",
+      "text": [
+        "**deal with** — справляться, иметь дело: problems, customers, enquiries.",
+        "**earn** — зарабатывать: good money, $2,000 a month, the minimum wage.",
+        "**do** — делать: research, training, essential work."
+      ],
+      "ex": [
+        [
+          "I deal with customers every day.",
+          "Я каждый день работаю с клиентами."
+        ],
+        [
+          "She earns good money.",
+          "Она хорошо зарабатывает."
+        ],
+        [
+          "I need to do some research.",
+          "Мне нужно провести исследование."
+        ]
+      ],
+      "warn": [
+        "**make** research → **do** research.",
+        "deal with **problem** → deal with **problems**."
+      ]
+    },
+    {
+      "h": "work for, work in, run",
+      "text": [
+        "**work for** + компания или человек: He works for Google.",
+        "**work in** + сфера: I work in marketing.",
+        "**work for myself** — работать на себя. **run** — управлять бизнесом: She runs a café.",
+        "Своим временем не «run», а **manage**: manage my time."
+      ],
+      "table": [
+        [
+          "Кто",
+          "На себя",
+          "На свою компанию"
+        ],
+        [
+          "I",
+          "for myself",
+          "for my own company"
+        ],
+        [
+          "you",
+          "for yourself",
+          "for your own company"
+        ],
+        [
+          "he",
+          "for himself",
+          "for his own company"
+        ],
+        [
+          "she",
+          "for herself",
+          "for her own company"
+        ],
+        [
+          "they",
+          "for themselves",
+          "for their own company"
+        ]
+      ],
+      "ex": [
+        [
+          "I want to run my own company.",
+          "Я хочу управлять своей компанией."
+        ],
+        [
+          "Do you work for yourself?",
+          "Ты работаешь на себя?"
+        ]
+      ],
+      "warn": [
+        "He can't **run** his time → He can't **manage** his time.",
+        "I **do** ads → I **run** ads. Рекламу «запускают»."
+      ]
+    },
+    {
+      "h": "work + наречие",
+      "text": [
+        "work hard, work late, work part-time, work full-time.",
+        "Наречие ставим **после** work."
+      ],
+      "ex": [
+        [
+          "I often work late.",
+          "Я часто работаю допоздна."
+        ],
+        [
+          "I work part-time.",
+          "Я работаю неполный день."
+        ]
+      ],
+      "warn": [
+        "I part-time work → I **work part-time**."
+      ]
+    },
+    {
+      "h": "Вопросы о работе",
+      "text": [
+        "**What do you do?** — Кем ты работаешь? **What are you doing?** — Что ты делаешь сейчас?",
+        "**What … like?** — какой? What's your boss like? — Какой у тебя начальник?",
+        "Вопрос: It is easy → **Is** it easy? You work → **Do** you work? He works → **Does** he work?"
+      ],
+      "ex": [
+        [
+          "Where do you work?",
+          "Где ты работаешь?"
+        ],
+        [
+          "How long have you worked there?",
+          "Как долго ты там работаешь?"
+        ],
+        [
+          "What are the hours like?",
+          "Какой у тебя график?"
+        ],
+        [
+          "What are your co-workers like? Do you get on?",
+          "Какие у тебя коллеги? Вы ладите?"
+        ]
+      ],
+      "warn": [
+        "Кем работаешь? — What do you do?, а не What are you doing?"
+      ]
+    },
+    {
+      "h": "-s для he, she, it",
+      "text": [
+        "I work → He **works**. I don't work → He **doesn't work**. Do you work? → **Does** he work?",
+        "Одно -s на предложение: если есть does/doesn't, глагол без -s.",
+        "Два глагола у he/she — оба с -s: She works in marketing and runs ads."
+      ],
+      "ex": [
+        [
+          "She doesn't like her job.",
+          "Ей не нравится её работа."
+        ],
+        [
+          "My boss runs a restaurant and works hard.",
+          "Мой начальник управляет рестораном и много работает."
+        ]
+      ],
+      "warn": [
+        "He doesn't **works** → He doesn't **work**.",
+        "She **is works** → She **works** (обычно) или She **is working** (сейчас)."
+      ]
+    },
+    {
+      "h": "to + глагол или -ing",
+      "text": [
+        "После want, need, try, decide, plan, hope, would like → **to**: I want to work abroad.",
+        "«Чтобы» = **to**, не for: I study English to get a job abroad.",
+        "После can — без to: He can speak English.",
+        "После am/is/are, like, love, enjoy, hate, finish, stop, quit и после предлогов → **-ing**."
+      ],
+      "table": [
+        [
+          "По-русски",
+          "Форма"
+        ],
+        [
+          "хочу, надо, пытаюсь, решил, планирую",
+          "to + глагол"
+        ],
+        [
+          "нравится, наслаждаюсь, закончил, бросил",
+          "глагол + -ing"
+        ],
+        [
+          "после предлога (for, at, about, before…)",
+          "глагол + -ing"
+        ]
+      ],
+      "ex": [
+        [
+          "I enjoy working with my team.",
+          "Мне нравится работать с моей командой."
+        ],
+        [
+          "I'm good at dealing with customers.",
+          "Я хорошо умею работать с клиентами."
+        ]
+      ],
+      "warn": [
+        "for earn money → **to** earn money.",
+        "She likes **work** → She likes **working**."
+      ]
+    }
+  ],
+  "vocab": [
+    {
+      "en": "job",
+      "pron": "джОб",
+      "ru": "работа (конкретная)"
+    },
+    {
+      "en": "work",
+      "pron": "уЁк",
+      "ru": "работа (занятие)"
+    },
+    {
+      "en": "profession",
+      "pron": "прэфЭшн",
+      "ru": "профессия"
+    },
+    {
+      "en": "housework",
+      "pron": "хАусуёк",
+      "ru": "работа по дому"
+    },
+    {
+      "en": "homework",
+      "pron": "хОумуёк",
+      "ru": "домашнее задание"
+    },
+    {
+      "en": "deal with",
+      "pron": "дИл уиз",
+      "ru": "справляться, иметь дело с"
+    },
+    {
+      "en": "enquiries",
+      "pron": "инкуАйэриз",
+      "ru": "запросы, обращения"
+    },
+    {
+      "en": "customers",
+      "pron": "кАстэмэз",
+      "ru": "клиенты, покупатели"
+    },
+    {
+      "en": "earn",
+      "pron": "Ёрн",
+      "ru": "зарабатывать"
+    },
+    {
+      "en": "good money",
+      "pron": "гуд мАни",
+      "ru": "хорошие деньги"
+    },
+    {
+      "en": "the minimum wage",
+      "pron": "зэ мИнимэм уэйдж",
+      "ru": "минимальная зарплата"
+    },
+    {
+      "en": "do research",
+      "pron": "ду рисЁрч",
+      "ru": "проводить исследование"
+    },
+    {
+      "en": "do training",
+      "pron": "ду трЭйнинг",
+      "ru": "проходить обучение"
+    },
+    {
+      "en": "essential work",
+      "pron": "исЭншл уёк",
+      "ru": "важная, необходимая работа"
+    },
+    {
+      "en": "work for myself",
+      "pron": "уёк фо майсЭлф",
+      "ru": "работать на себя"
+    },
+    {
+      "en": "run my own company",
+      "pron": "ран май Оун кампэни",
+      "ru": "управлять своей компанией"
+    },
+    {
+      "en": "work in marketing",
+      "pron": "уёк ин мАкитинг",
+      "ru": "работать в маркетинге"
+    },
+    {
+      "en": "the fashion industry",
+      "pron": "зэ фЭшн индэстри",
+      "ru": "индустрия моды"
+    },
+    {
+      "en": "manage my time",
+      "pron": "мЭнидж май тайм",
+      "ru": "распределять своё время"
+    },
+    {
+      "en": "work hard",
+      "pron": "уёк хАд",
+      "ru": "много и усердно работать"
+    },
+    {
+      "en": "work late",
+      "pron": "уёк лЭйт",
+      "ru": "работать допоздна"
+    },
+    {
+      "en": "work part-time",
+      "pron": "уёк пАт-тайм",
+      "ru": "работать неполный день"
+    },
+    {
+      "en": "work full-time",
+      "pron": "уёк фУл-тайм",
+      "ru": "работать полный день"
+    },
+    {
+      "en": "work nights",
+      "pron": "уёк нАйтс",
+      "ru": "работать по ночам"
+    },
+    {
+      "en": "entrepreneur",
+      "pron": "онтрэпрэнЁ",
+      "ru": "предприниматель"
+    },
+    {
+      "en": "receptionist",
+      "pron": "рисЭпшэнист",
+      "ru": "администратор"
+    },
+    {
+      "en": "co-workers",
+      "pron": "кОу-уёкэз",
+      "ru": "коллеги"
+    },
+    {
+      "en": "get on",
+      "pron": "гет Он",
+      "ru": "ладить"
+    },
+    {
+      "en": "boss",
+      "pron": "бОс",
+      "ru": "начальник"
+    },
+    {
+      "en": "abroad",
+      "pron": "эбрОд",
+      "ru": "за границей"
+    },
+    {
+      "en": "quit",
+      "pron": "куИт",
+      "ru": "бросить, уйти"
+    },
+    {
+      "en": "come back to work",
+      "pron": "кам бЭк ту уёк",
+      "ru": "вернуться на работу"
+    }
+  ],
+  "l2": [
+    {
+      "q": "I have a lot of ___ today.",
+      "o": [
+        "work",
+        "job",
+        "works"
+      ],
+      "a": 0,
+      "why": "объём работы — work, неисчисляемое"
+    },
+    {
+      "q": "She found a new ___ in Warsaw.",
+      "o": [
+        "work",
+        "job",
+        "works"
+      ],
+      "a": 1,
+      "why": "конкретная работа — a job"
+    },
+    {
+      "q": "I'm a marketer by ___.",
+      "o": [
+        "profession",
+        "job",
+        "work"
+      ],
+      "a": 0,
+      "why": "по профессии — by profession"
+    },
+    {
+      "q": "My son is doing his ___ for school.",
+      "o": [
+        "homework",
+        "housework",
+        "job"
+      ],
+      "a": 0,
+      "why": "домашнее задание — homework; housework — уборка, готовка"
+    },
+    {
+      "q": "I ___ with customers every day.",
+      "o": [
+        "deal",
+        "make",
+        "earn"
+      ],
+      "a": 0,
+      "why": "иметь дело с — deal with"
+    },
+    {
+      "q": "Lawyers ___ good money.",
+      "o": [
+        "earn",
+        "deal",
+        "run"
+      ],
+      "a": 0,
+      "why": "зарабатывать — earn"
+    },
+    {
+      "q": "Before a campaign I always ___ research.",
+      "o": [
+        "make",
+        "do",
+        "run"
+      ],
+      "a": 1,
+      "why": "do research, а не make research"
+    },
+    {
+      "q": "He works ___ his dad.",
+      "o": [
+        "for",
+        "in",
+        "on"
+      ],
+      "a": 0,
+      "why": "на человека или компанию — work for"
+    },
+    {
+      "q": "My sister works ___ the fashion industry.",
+      "o": [
+        "for",
+        "in",
+        "on"
+      ],
+      "a": 1,
+      "why": "сфера — work in"
+    },
+    {
+      "q": "My friend ___ a small café.",
+      "o": [
+        "runs",
+        "works",
+        "deals"
+      ],
+      "a": 0,
+      "why": "управлять бизнесом — run"
+    },
+    {
+      "q": "He can't ___ his time.",
+      "o": [
+        "run",
+        "manage",
+        "deal"
+      ],
+      "a": 1,
+      "why": "распределять время — manage my time, не run"
+    },
+    {
+      "q": "She works for ___ own company.",
+      "o": [
+        "her",
+        "herself",
+        "his"
+      ],
+      "a": 0,
+      "why": "своя компания для she — her own company"
+    },
+    {
+      "q": "Would you like to work for ___?",
+      "o": [
+        "yourself",
+        "you",
+        "your"
+      ],
+      "a": 0,
+      "why": "на себя для you — for yourself"
+    },
+    {
+      "q": "I ___ at the weekends.",
+      "o": [
+        "work part-time",
+        "part-time work",
+        "part-time working"
+      ],
+      "a": 0,
+      "why": "наречие после глагола: work part-time"
+    },
+    {
+      "q": "She ___ in marketing.",
+      "o": [
+        "work",
+        "works",
+        "is works"
+      ],
+      "a": 1,
+      "why": "she → works; «is works» нельзя"
+    },
+    {
+      "q": "My co-worker ___ like working late.",
+      "o": [
+        "don't",
+        "doesn't",
+        "isn't"
+      ],
+      "a": 1,
+      "why": "he/she + глагол like → doesn't"
+    },
+    {
+      "q": "Does he ___ late?",
+      "o": [
+        "work",
+        "works",
+        "working"
+      ],
+      "a": 0,
+      "why": "после does глагол без -s"
+    },
+    {
+      "q": "My boss runs a restaurant and ___ hard.",
+      "o": [
+        "work",
+        "works",
+        "working"
+      ],
+      "a": 1,
+      "why": "два глагола у he — оба с -s"
+    },
+    {
+      "q": "What do you ___? — I'm a marketer.",
+      "o": [
+        "do",
+        "doing",
+        "does"
+      ],
+      "a": 0,
+      "why": "кем работаешь — What do you do?"
+    },
+    {
+      "q": "What's your boss ___? — He's nice.",
+      "o": [
+        "like",
+        "likes",
+        "liking"
+      ],
+      "a": 0,
+      "why": "какой? — What … like?"
+    },
+    {
+      "q": "I want ___ abroad.",
+      "o": [
+        "work",
+        "to work",
+        "working"
+      ],
+      "a": 1,
+      "why": "после want → to + глагол"
+    },
+    {
+      "q": "She loves ___ with customers.",
+      "o": [
+        "to works",
+        "work",
+        "working"
+      ],
+      "a": 2,
+      "why": "после love → -ing"
+    },
+    {
+      "q": "I study English ___ get a job abroad.",
+      "o": [
+        "for",
+        "to",
+        "for to"
+      ],
+      "a": 1,
+      "why": "«чтобы» = to, не for"
+    },
+    {
+      "q": "I'm good at ___ with customers.",
+      "o": [
+        "deal",
+        "to deal",
+        "dealing"
+      ],
+      "a": 2,
+      "why": "после предлога at → -ing"
+    },
+    {
+      "q": "He can ___ English.",
+      "o": [
+        "speak",
+        "to speak",
+        "speaks"
+      ],
+      "a": 0,
+      "why": "после can — без to и без -s"
+    }
+  ],
+  "l3": [
+    {
+      "q": "She has two ___.",
+      "hint": "работы (конкретные) — 1 слово во мн. числе",
+      "a": [
+        "jobs"
+      ],
+      "why": "job исчисляемое → jobs"
+    },
+    {
+      "q": "Sorry, I can't talk. I'm at ___.",
+      "hint": "на работе — 1 слово",
+      "a": [
+        "work"
+      ],
+      "why": "at work — без артикля"
+    },
+    {
+      "q": "I ___ problems every day.",
+      "hint": "справляюсь с — 2 слова",
+      "a": [
+        "deal with"
+      ],
+      "why": "deal with + problems"
+    },
+    {
+      "q": "She ___ $2,000 a month.",
+      "hint": "зарабатывает — 1 слово",
+      "a": [
+        "earns"
+      ],
+      "why": "she → earns"
+    },
+    {
+      "q": "In my job I ___ a lot of research.",
+      "hint": "делаю, провожу — 1 слово",
+      "a": [
+        "do"
+      ],
+      "why": "do research"
+    },
+    {
+      "q": "It's difficult to live on ___ minimum wage.",
+      "hint": "нужный артикль перед minimum wage",
+      "a": [
+        "the"
+      ],
+      "why": "the minimum wage — с артиклем the"
+    },
+    {
+      "q": "He works ___ Google.",
+      "hint": "на (компанию) — 1 слово",
+      "a": [
+        "for"
+      ],
+      "why": "компания → work for"
+    },
+    {
+      "q": "My sister works ___ education.",
+      "hint": "в (сфере) — 1 слово",
+      "a": [
+        "in"
+      ],
+      "why": "сфера → work in"
+    },
+    {
+      "q": "One day I want to ___ my own company.",
+      "hint": "управлять — 1 слово",
+      "a": [
+        "run"
+      ],
+      "why": "управлять бизнесом — run"
+    },
+    {
+      "q": "I don't have a boss. I work for ___.",
+      "hint": "на себя — 1 слово",
+      "a": [
+        "myself"
+      ],
+      "why": "I → myself"
+    },
+    {
+      "q": "They work for ___ own company.",
+      "hint": "их (своей) — 1 слово",
+      "a": [
+        "their"
+      ],
+      "why": "they → their own company"
+    },
+    {
+      "q": "I need to ___ my time better.",
+      "hint": "распределять — 1 слово",
+      "a": [
+        "manage"
+      ],
+      "why": "manage my time, не run"
+    },
+    {
+      "q": "Sometimes we work ___ before a big campaign.",
+      "hint": "допоздна — 1 слово",
+      "a": [
+        "late"
+      ],
+      "why": "work late — допоздна"
+    },
+    {
+      "q": "She works ___, only four hours a day.",
+      "hint": "неполный день — 1 слово через дефис",
+      "a": [
+        "part-time",
+        "part time"
+      ],
+      "why": "work part-time — наречие после глагола"
+    },
+    {
+      "q": "___ you work for yourself?",
+      "hint": "вспомогательный глагол для you",
+      "a": [
+        "do"
+      ],
+      "why": "you work → Do you work?"
+    },
+    {
+      "q": "___ he work for a big company?",
+      "hint": "вспомогательный глагол для he",
+      "a": [
+        "does"
+      ],
+      "why": "he works → Does he work?"
+    },
+    {
+      "q": "___ it easy to earn good money in marketing?",
+      "hint": "глагол be для it — 1 слово",
+      "a": [
+        "is"
+      ],
+      "why": "It is easy → Is it easy?"
+    },
+    {
+      "q": "She ___ like her job.",
+      "hint": "не (для she)",
+      "a": [
+        "doesn't",
+        "does not"
+      ],
+      "why": "she → doesn't + глагол без -s"
+    },
+    {
+      "q": "He ___ for a big company and ___ ads.",
+      "hint": "работает, запускает — впиши оба слова через пробел",
+      "a": [
+        "works runs"
+      ],
+      "why": "два глагола у he — оба с -s"
+    },
+    {
+      "q": "What are your co-workers ___?",
+      "hint": "какие (What … ?) — 1 слово",
+      "a": [
+        "like"
+      ],
+      "why": "какой? — What … like?"
+    },
+    {
+      "q": "I decided ___ learn English.",
+      "hint": "частица перед глаголом — 1 слово",
+      "a": [
+        "to"
+      ],
+      "why": "после decide → to"
+    },
+    {
+      "q": "I love ___ with my team.",
+      "hint": "работать — глагол с -ing",
+      "a": [
+        "working"
+      ],
+      "why": "после love → -ing"
+    },
+    {
+      "q": "Thanks for ___ me.",
+      "hint": "помогать — глагол с -ing",
+      "a": [
+        "helping"
+      ],
+      "why": "после предлога for → -ing"
+    },
+    {
+      "q": "Right now I ___ studying English.",
+      "hint": "глагол be для I — 1 слово",
+      "a": [
+        "am"
+      ],
+      "why": "сейчас → am + -ing"
+    }
+  ],
+  "l4": [
+    {
+      "ru": "Я ищу новую работу.",
+      "en": "I'm looking for a new job."
+    },
+    {
+      "ru": "У меня много работы.",
+      "en": "I have a lot of work."
+    },
+    {
+      "ru": "Она зарабатывает хорошие деньги.",
+      "en": "She earns good money."
+    },
+    {
+      "ru": "Я обрабатываю запросы от клиентов.",
+      "en": "I deal with enquiries from customers."
+    },
+    {
+      "ru": "Мне нужно провести исследование.",
+      "en": "I need to do some research."
+    },
+    {
+      "ru": "Он работает на большую компанию.",
+      "en": "He works for a big company."
+    },
+    {
+      "ru": "Я работаю в маркетинге.",
+      "en": "I work in marketing."
+    },
+    {
+      "ru": "Мои родители управляют маленьким отелем.",
+      "en": "My parents run a small hotel."
+    },
+    {
+      "ru": "Я часто работаю допоздна.",
+      "en": "I often work late."
+    },
+    {
+      "ru": "Ты работаешь на себя?",
+      "en": "Do you work for yourself?"
+    },
+    {
+      "ru": "Какой у тебя начальник?",
+      "en": "What's your boss like?"
+    },
+    {
+      "ru": "Как долго ты там работаешь?",
+      "en": "How long have you worked there?"
+    },
+    {
+      "ru": "Он не любит свою работу.",
+      "en": "He doesn't like his job."
+    },
+    {
+      "ru": "Она решила открыть своё дело.",
+      "en": "She decided to run her own business."
+    },
+    {
+      "ru": "Мне нравится работать с моей командой.",
+      "en": "I enjoy working with my team."
+    },
+    {
+      "ru": "Я учу английский, чтобы найти работу за границей.",
+      "en": "I study English to find a job abroad."
+    }
+  ],
+  "l5": [
+    {
+      "ru": "У меня две работы.",
+      "a": [
+        "I have two jobs."
+      ],
+      "why": "job исчисляемое → two jobs"
+    },
+    {
+      "ru": "Я на работе.",
+      "a": [
+        "I'm at work.",
+        "I am at work."
+      ],
+      "why": "at work — без артикля"
+    },
+    {
+      "ru": "По профессии я маркетолог.",
+      "a": [
+        "I'm a marketer by profession.",
+        "I am a marketer by profession."
+      ],
+      "why": "by profession; не забудь a перед профессией"
+    },
+    {
+      "ru": "Она работает неполный день в кафе.",
+      "a": [
+        "She works part-time in a café.",
+        "She works part-time in a cafe.",
+        "She works part time in a café.",
+        "She works part time in a cafe."
+      ],
+      "why": "work part-time — наречие после глагола"
+    },
+    {
+      "ru": "Она зарабатывает 1500 долларов в месяц.",
+      "a": [
+        "She earns $1,500 a month.",
+        "She earns $1500 a month.",
+        "She earns 1,500 dollars a month.",
+        "She earns 1500 dollars a month."
+      ],
+      "why": "в месяц → a month; she → earns"
+    },
+    {
+      "ru": "Перед кампанией я провожу исследование.",
+      "a": [
+        "Before a campaign I do research.",
+        "Before a campaign, I do research.",
+        "Before the campaign I do research.",
+        "Before the campaign, I do research."
+      ],
+      "why": "do research, не make research"
+    },
+    {
+      "ru": "Она справляется с запросами клиентов.",
+      "a": [
+        "She deals with enquiries from customers.",
+        "She deals with customer enquiries.",
+        "She deals with customers' enquiries."
+      ],
+      "why": "deal with; she → deals"
+    },
+    {
+      "ru": "Она работает на себя.",
+      "a": [
+        "She works for herself."
+      ],
+      "why": "she → herself; works с -s"
+    },
+    {
+      "ru": "Мой брат работает в образовании.",
+      "a": [
+        "My brother works in education."
+      ],
+      "why": "сфера → work in"
+    },
+    {
+      "ru": "Я хочу управлять своей компанией.",
+      "a": [
+        "I want to run my own company."
+      ],
+      "why": "want to + run; my own company"
+    },
+    {
+      "ru": "Мне нужно лучше распределять время.",
+      "a": [
+        "I need to manage my time better."
+      ],
+      "why": "manage my time, не run; need to"
+    },
+    {
+      "ru": "Я работаю полный день.",
+      "a": [
+        "I work full-time.",
+        "I work full time."
+      ],
+      "why": "наречие после глагола: work full-time"
+    },
+    {
+      "ru": "Кем ты работаешь?",
+      "a": [
+        "What do you do?"
+      ],
+      "why": "What do you do?, а не What are you doing?"
+    },
+    {
+      "ru": "Какие у тебя коллеги?",
+      "a": [
+        "What are your co-workers like?",
+        "What are your coworkers like?"
+      ],
+      "why": "какой? → What … like?"
+    },
+    {
+      "ru": "Вы ладите?",
+      "a": [
+        "Do you get on?",
+        "Do you get on well?"
+      ],
+      "why": "ладить — get on"
+    },
+    {
+      "ru": "Она работает в маркетинге и запускает рекламу.",
+      "a": [
+        "She works in marketing and runs ads."
+      ],
+      "why": "два глагола у she — оба с -s; рекламу запускают — run ads"
+    },
+    {
+      "ru": "Я учу английский, чтобы работать за границей.",
+      "a": [
+        "I study English to work abroad.",
+        "I learn English to work abroad.",
+        "I'm learning English to work abroad.",
+        "I am learning English to work abroad."
+      ],
+      "why": "«чтобы» = to, не for"
+    },
+    {
+      "ru": "Мне нравится работать с клиентами.",
+      "a": [
+        "I like working with clients.",
+        "I enjoy working with clients.",
+        "I like working with customers.",
+        "I enjoy working with customers."
+      ],
+      "why": "после like/enjoy → -ing"
+    },
+    {
+      "ru": "Он решил бросить работу.",
+      "a": [
+        "He decided to quit his job."
+      ],
+      "why": "decided to + глагол; конкретная работа — job"
+    },
+    {
+      "ru": "Сейчас я учу английский.",
+      "a": [
+        "Right now I'm studying English.",
+        "I'm studying English right now.",
+        "Right now I am studying English.",
+        "I am studying English right now."
+      ],
+      "why": "сейчас → am + -ing"
+    }
+  ],
+  "l6": [
+    {
+      "q": "What do you do?",
+      "ru": "Кем ты работаешь?",
+      "start": "I'm a…",
+      "model": "I'm a marketer. I run ads for businesses."
+    },
+    {
+      "q": "Where do you work?",
+      "ru": "Где ты работаешь?",
+      "start": "I work for…",
+      "model": "I work for a marketing agency, but I work from home."
+    },
+    {
+      "q": "How long have you worked there?",
+      "ru": "Как долго ты там работаешь?",
+      "start": "About…",
+      "model": "About two years."
+    },
+    {
+      "q": "Do you enjoy it?",
+      "ru": "Тебе нравится?",
+      "start": "Yeah, it's…",
+      "model": "Yeah, it's good. Sometimes it's a bit boring."
+    },
+    {
+      "q": "What are the hours like?",
+      "ru": "Какой у тебя график?",
+      "start": "I work…",
+      "model": "I work full-time, and sometimes I work late."
+    },
+    {
+      "q": "What are your co-workers like? Do you get on?",
+      "ru": "Какие у тебя коллеги? Вы ладите?",
+      "start": "They're…",
+      "model": "They're great. We get on well."
+    },
+    {
+      "q": "Would you like to work for yourself?",
+      "ru": "Хотел бы ты работать на себя?",
+      "start": "Yes, I'd like to…",
+      "model": "Yes, I'd like to run my own company one day."
+    },
+    {
+      "q": "How do you deal with problems and stress at work?",
+      "ru": "Как ты справляешься с проблемами и стрессом на работе?",
+      "start": "I try to…",
+      "model": "I try to manage my time and not work late."
+    }
+  ],
+  "fix": [
+    {
+      "wrong": "I deal with problem at work.",
+      "a": [
+        "I deal with problems at work."
+      ],
+      "ru": "Я справляюсь с проблемами на работе.",
+      "why": "problem исчисляемое — нужно problems"
+    },
+    {
+      "wrong": "She wants to earn respect people.",
+      "a": [
+        "She wants to earn people's respect.",
+        "She wants to earn the respect of people."
+      ],
+      "ru": "Она хочет заслужить уважение людей.",
+      "why": "уважение людей → people's respect"
+    },
+    {
+      "wrong": "He tries look for a new job for earn big money.",
+      "a": [
+        "He's trying to find a new job to earn good money.",
+        "He is trying to find a new job to earn good money."
+      ],
+      "ru": "Он пытается найти новую работу, чтобы хорошо зарабатывать.",
+      "why": "try to + глагол; «чтобы» = to, не for; good money, не big money"
+    },
+    {
+      "wrong": "She want comeback at work, because she needs earn money.",
+      "a": [
+        "She wants to come back to work because she needs to earn money.",
+        "She wants to come back to work, because she needs to earn money."
+      ],
+      "ru": "Она хочет вернуться на работу, потому что ей нужно зарабатывать.",
+      "why": "she wants; want to / need to; come back to work"
+    },
+    {
+      "wrong": "I do ads for business.",
+      "a": [
+        "I run ads for businesses."
+      ],
+      "ru": "Я запускаю рекламу для бизнесов.",
+      "why": "рекламу запускают — run ads; бизнесов — businesses"
+    },
+    {
+      "wrong": "She successful do her work.",
+      "a": [
+        "She does her job well."
+      ],
+      "ru": "Она хорошо делает свою работу.",
+      "why": "she → does; «хорошо» — well в конце"
+    },
+    {
+      "wrong": "She likes work for big company.",
+      "a": [
+        "She likes working for a big company."
+      ],
+      "ru": "Ей нравится работать на большую компанию.",
+      "why": "после like → -ing; нужен артикль a"
+    },
+    {
+      "wrong": "He can't run his time.",
+      "a": [
+        "He can't manage his time.",
+        "He cannot manage his time."
+      ],
+      "ru": "Он не умеет распределять своё время.",
+      "why": "время — manage, не run"
+    },
+    {
+      "wrong": "I look for a part-time work.",
+      "a": [
+        "I'm looking for a part-time job.",
+        "I am looking for a part-time job."
+      ],
+      "ru": "Я ищу работу на неполный день.",
+      "why": "сейчас → am looking; конкретная работа — job"
+    },
+    {
+      "wrong": "My friend always late work.",
+      "a": [
+        "My friend is always late for work."
+      ],
+      "ru": "Мой друг всегда опаздывает на работу.",
+      "why": "опаздывать на работу — be late for work"
+    }
+  ]
+}

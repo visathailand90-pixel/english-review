@@ -1,0 +1,1907 @@
+{
+  "id": "09",
+  "num": "9",
+  "title": "Сравнения и диалоги в магазине",
+  "date": "03.11",
+  "summary": "Повторяем сравнения better than, cheaper than, easier, wider, fresher, busier. Практикуем покупки, очереди, возвраты, разговор с продавцом. Исчисляемые и неисчисляемые существительные: a/an, some, any. Аудирование: пять ситуаций (1=e, 2=a, 3=f, 4=c, 5=d; b — лишняя). Составлено по рассказу ученика, скриншотам доски и предоставленному тексту аудирования; записи самого занятия нет.",
+  "theory": [
+    {
+      "h": "Сравнительная степень: -er, more, than",
+      "text": [
+        "Сравниваем две вещи: **adjective + -er + than** или **more + adjective + than**.",
+        "После **be**: My phone **is better than** my old phone.",
+        "Чтобы сказать «намного», добавляем **much**: much fresher, much cheaper. «Немного» — **a bit**: a bit easier."
+      ],
+      "table": [
+        [
+          "Обычная форма",
+          "Сравнение"
+        ],
+        [
+          "cheap",
+          "cheaper"
+        ],
+        [
+          "fresh",
+          "fresher"
+        ],
+        [
+          "wide",
+          "wider"
+        ],
+        [
+          "good",
+          "better"
+        ],
+        [
+          "expensive",
+          "more expensive"
+        ]
+      ],
+      "ex": [
+        [
+          "My phone is better than my old phone.",
+          "Мой телефон лучше старого."
+        ],
+        [
+          "Fruit at the market is much fresher than in the supermarket.",
+          "Фрукты на рынке намного свежее, чем в супермаркете."
+        ]
+      ],
+      "warn": [
+        "My phone **better than** → My phone **is better than**.",
+        "more cheaper → cheaper."
+      ]
+    },
+    {
+      "h": "Согласная + y → ier",
+      "text": [
+        "Если прилагательное заканчивается на **согласную + y**, меняем **y → i** и добавляем **-er**.",
+        "easy → easier; busy → busier; lazy → lazier.",
+        "Это не правило для всех прилагательных: например, **new → newer**."
+      ],
+      "ex": [
+        [
+          "Shopping online is easier than going to a shop.",
+          "Покупать онлайн проще, чем ходить в магазин."
+        ],
+        [
+          "Today I am busier than yesterday.",
+          "Сегодня я более занят, чем вчера."
+        ]
+      ],
+      "warn": [
+        "more easier → easier",
+        "He lazier today → He is lazier today."
+      ]
+    },
+    {
+      "h": "Дополняем фразы на пакетах",
+      "text": [
+        "На уроке нужно было **продолжать сравнение своими идеями**, не просто выбрать слово.",
+        "Шаблон: **X is better than Y because + причина**.",
+        "Можно говорить про покупки, телефон, район, магазин одежды."
+      ],
+      "ex": [
+        [
+          "Shopping online is better than shopping in a mall because it saves time.",
+          "Онлайн-покупки лучше похода в ТЦ, потому что экономят время."
+        ],
+        [
+          "Where I live now is better than my old neighbourhood because it is quieter.",
+          "Там, где я сейчас живу, лучше прежнего района, потому что там тише."
+        ],
+        [
+          "This shop is better for clothes than the other one because it has a wider choice.",
+          "Этот магазин лучше для одежды, потому что в нём шире выбор."
+        ]
+      ],
+      "warn": [
+        "because I can buy more cheap → because I can buy cheaper things."
+      ]
+    },
+    {
+      "h": "Пять диалогов: кто что делал",
+      "text": [
+        "**1 — e:** взрослый и ребёнок спорят из-за одежды: одежда не нравится ребёнку.",
+        "**2 — a:** покупатель выбирает красивый подарочный пакет; продавец разрешает вернуться без новой очереди.",
+        "**3 — f:** покупательница приносит повреждённый товар и показывает чек; продавец обращается к менеджеру.",
+        "**4 — c:** телевизора нет в наличии; покупатель не хочет ждать 3–4 недели и отказывается.",
+        "**5 — d:** покупатель просит пройти вперёд в очереди, потому что покупает только соль.",
+        "**b — лишняя:** никто не жалуется именно на плохое обслуживание."
+      ],
+      "ex": [
+        [
+          "Do you have one of these in a smaller size?",
+          "У вас есть такой же, но меньшего размера?"
+        ],
+        [
+          "That's not in stock.",
+          "Этого нет в наличии."
+        ],
+        [
+          "You don’t need to queue again.",
+          "Вам не нужно снова стоять в очереди."
+        ]
+      ]
+    },
+    {
+      "h": "Вежливые просьбы и касса",
+      "text": [
+        "**Excuse me. Could you help me?** — Извините, не могли бы помочь?",
+        "**Would you like me to…?** — Хотите, чтобы я…?",
+        "**Could I maybe go ahead of you?** — Можно я пройду перед вами?",
+        "**Do you have one of these in a smaller size?** — Есть такой же меньшего размера?",
+        "**Are you sure? — Of course! Go ahead.** — Вы уверены? — Конечно! Проходите."
+      ],
+      "ex": [
+        [
+          "Would you like me to put it in a bag?",
+          "Положить это в пакет?"
+        ],
+        [
+          "Could I maybe go ahead of you?",
+          "Можно я пройду перед вами?"
+        ],
+        [
+          "I bought this the other day, and it is damaged.",
+          "Я купил это на днях, и оно повреждено."
+        ]
+      ],
+      "warn": [
+        "Can I take a place after you? — в контексте очереди естественнее **Could I go ahead of you?**"
+      ]
+    },
+    {
+      "h": "a/an, some, any — покупки и продукты",
+      "text": [
+        "**a/an** — одна исчисляемая вещь: a banana, an apple.",
+        "**some** — некоторое количество в утверждении: some bananas, some rice.",
+        "**any** — обычно в отрицаниях и вопросах: any apples, any bread.",
+        "Неисчисляемые слова **rice, bread, pasta** в этих примерах не употребляются с a/an.",
+        "В просьбах и предложениях **some** тоже возможно: Would you like some water?"
+      ],
+      "ex": [
+        [
+          "We have got some rice.",
+          "У нас есть немного риса."
+        ],
+        [
+          "We haven’t got any bread.",
+          "У нас нет хлеба."
+        ],
+        [
+          "Have we got any pears?",
+          "У нас есть груши?"
+        ]
+      ],
+      "warn": [
+        "an rice → some rice",
+        "Have we got some bread? — для нейтрального вопроса обычно **any bread**."
+      ]
+    },
+    {
+      "h": "Фразы: возврат и причины",
+      "text": [
+        "**take something back to a shop** — вернуть вещь в магазин.",
+        "Причины: **It is damaged. / It does not work. / It does not fit.**",
+        "**receipt** — чек; **get rid of** — избавиться, выбросить; **in stock** — в наличии; **out of stock** — нет в наличии.",
+        "**What are two reasons…?** — Назови две причины. Старайся отвечать 1–3 предложениями."
+      ],
+      "ex": [
+        [
+          "I want to take it back because it is damaged.",
+          "Хочу вернуть это, потому что вещь повреждена."
+        ],
+        [
+          "I got rid of the box, but I have the receipt.",
+          "Я выбросил коробку, но у меня есть чек."
+        ]
+      ]
+    },
+    {
+      "h": "Как разбирать аудирование",
+      "text": [
+        "Сначала выслушай диалог и назови ситуацию; только потом ищи опорные фразы.",
+        "Слова-маркеры: **birthday / gift bags** → подарок; **damaged / receipt** → возврат; **not in stock / three or four weeks** → отказ от покупки; **go ahead / queue** → очередь.",
+        "Отдельно потренируй **reported speech** в простом пересказе: The man said he needed a smaller size."
+      ],
+      "ex": [
+        [
+          "The woman said the item was damaged.",
+          "Женщина сказала, что товар был повреждён."
+        ],
+        [
+          "The customer decided not to buy the TV.",
+          "Покупатель решил не покупать телевизор."
+        ]
+      ]
+    },
+    {
+      "h": "Сравнительная степень",
+      "text": [
+        "Короткие прилагательные: **-er + than**: cheap → cheaper, fresh → fresher.",
+        "Согласная + y: easy → easier, busy → busier, lazy → lazier.",
+        "Длинные слова: **more + adjective**. Усиление: much fresher — намного свежее; a bit cheaper — немного дешевле."
+      ],
+      "ex": [
+        [
+          "Fruit is fresher at the market.",
+          "Фрукты свежее на рынке."
+        ],
+        [
+          "This shop has a wider choice.",
+          "В этом магазине выбор шире."
+        ],
+        [
+          "He is lazier today than yesterday.",
+          "Сегодня он ленивее, чем вчера."
+        ]
+      ],
+      "warn": [
+        "He lazier → He **is** lazier.",
+        "more easier → **easier**."
+      ]
+    },
+    {
+      "h": "Покупки и решения",
+      "text": [
+        "**go shopping** — ходить за покупками (не go to the shopping).",
+        "**make a decision** — принять решение; **by myself** — самостоятельно.",
+        "**once a week** — раз в неделю; **that’s why** — вот почему; **even if** — даже если."
+      ],
+      "ex": [
+        [
+          "I make decisions by myself.",
+          "Я принимаю решения сам."
+        ],
+        [
+          "I go shopping once a week.",
+          "Я хожу за покупками раз в неделю."
+        ],
+        [
+          "That's why I buy things elsewhere.",
+          "Вот почему я покупаю вещи в другом месте."
+        ]
+      ],
+      "warn": [
+        "I go to the shopping → I **go shopping**.",
+        "That why → **That’s why**."
+      ]
+    },
+    {
+      "h": "Слова и смысл",
+      "text": [
+        "**healthy** — здоровый (прилагательное); **healthily** — здоровым образом (наречие).",
+        "**find** — находить; прошедшая форма **found**.",
+        "**wide** — широкий; **wider** — более широкий."
+      ],
+      "ex": [
+        [
+          "I want to eat more healthily.",
+          "Я хочу питаться здоровее."
+        ],
+        [
+          "I found fresh vegetables at the market.",
+          "Я нашёл свежие овощи на рынке."
+        ]
+      ]
+    }
+  ],
+  "vocab": [
+    {
+      "en": "better than",
+      "ru": "лучше, чем",
+      "pron": "бЭтэ зэн"
+    },
+    {
+      "en": "wider choice",
+      "ru": "более широкий выбор",
+      "pron": "уАйдэ чойс"
+    },
+    {
+      "en": "cheaper",
+      "ru": "дешевле",
+      "pron": "чИипэ"
+    },
+    {
+      "en": "fresher",
+      "ru": "свежее",
+      "pron": "фрЭшэ"
+    },
+    {
+      "en": "easier",
+      "ru": "проще",
+      "pron": "Иизиэ"
+    },
+    {
+      "en": "busier",
+      "ru": "более занятой",
+      "pron": "бИзиэ"
+    },
+    {
+      "en": "lazier",
+      "ru": "более ленивый",
+      "pron": "лЭйзиэ"
+    },
+    {
+      "en": "much",
+      "ru": "намного (перед сравнением)",
+      "pron": "мач"
+    },
+    {
+      "en": "a bit",
+      "ru": "немного",
+      "pron": "э бит"
+    },
+    {
+      "en": "than",
+      "ru": "чем (при сравнении)",
+      "pron": "зэн"
+    },
+    {
+      "en": "receipt",
+      "ru": "чек",
+      "pron": "рисИит"
+    },
+    {
+      "en": "damaged",
+      "ru": "повреждённый",
+      "pron": "дЭмиджд"
+    },
+    {
+      "en": "reduced price",
+      "ru": "сниженная цена",
+      "pron": "ридьЮст прайс"
+    },
+    {
+      "en": "grow into",
+      "ru": "дорасти до вещи",
+      "pron": "гроу Инту"
+    },
+    {
+      "en": "suit",
+      "ru": "идти (по стилю)",
+      "pron": "сьют"
+    },
+    {
+      "en": "gift bag",
+      "ru": "подарочный пакет",
+      "pron": "гифт бэг"
+    },
+    {
+      "en": "queue",
+      "ru": "очередь; стоять в очереди",
+      "pron": "кью"
+    },
+    {
+      "en": "go ahead",
+      "ru": "проходите; действуйте",
+      "pron": "гоу эхЭд"
+    },
+    {
+      "en": "in stock",
+      "ru": "в наличии",
+      "pron": "ин стОк"
+    },
+    {
+      "en": "out of stock",
+      "ru": "нет в наличии",
+      "pron": "аут ов стОк"
+    },
+    {
+      "en": "on display",
+      "ru": "на витрине",
+      "pron": "он дисплЭй"
+    },
+    {
+      "en": "take back",
+      "ru": "вернуть (в магазин)",
+      "pron": "тэйк бэк"
+    },
+    {
+      "en": "the other day",
+      "ru": "на днях",
+      "pron": "зи Азэ дэй"
+    },
+    {
+      "en": "get rid of",
+      "ru": "избавиться от, выбросить",
+      "pron": "гет рид ов"
+    },
+    {
+      "en": "shop assistant",
+      "ru": "продавец-консультант",
+      "pron": "шоп эсИстэнт"
+    },
+    {
+      "en": "staff",
+      "ru": "сотрудники, персонал",
+      "pron": "стаф"
+    },
+    {
+      "en": "salt",
+      "ru": "соль",
+      "pron": "солт"
+    },
+    {
+      "en": "make a decision",
+      "ru": "принять решение",
+      "pron": "мэйк э дисИжн"
+    },
+    {
+      "en": "by myself",
+      "ru": "самостоятельно",
+      "pron": "бай майсЭлф"
+    },
+    {
+      "en": "some",
+      "ru": "немного; несколько",
+      "pron": "сам"
+    },
+    {
+      "en": "any",
+      "ru": "какое-либо количество (вопрос/отрицание)",
+      "pron": "Эни"
+    },
+    {
+      "en": "countable",
+      "ru": "исчисляемый",
+      "pron": "кАунтэбл"
+    },
+    {
+      "en": "uncountable",
+      "ru": "неисчисляемый",
+      "pron": "анкАунтэбл"
+    },
+    {
+      "en": "argue",
+      "ru": "спорить",
+      "pron": "Аргью"
+    },
+    {
+      "en": "complain",
+      "ru": "жаловаться",
+      "pron": "кэмплЭйн"
+    },
+    {
+      "en": "a smaller size",
+      "ru": "размер поменьше",
+      "pron": "э смОлэ сайз"
+    },
+    {
+      "en": "would you like me to",
+      "ru": "хотите, чтобы я…",
+      "pron": "вуд ю лайк ми ту"
+    },
+    {
+      "en": "could I maybe",
+      "ru": "можно ли мне…",
+      "pron": "куд ай мЭйби"
+    },
+    {
+      "en": "wider",
+      "ru": "более широкий",
+      "pron": ""
+    },
+    {
+      "en": "fresher",
+      "ru": "более свежий",
+      "pron": ""
+    },
+    {
+      "en": "easier",
+      "ru": "легче",
+      "pron": ""
+    },
+    {
+      "en": "busier",
+      "ru": "более занятый",
+      "pron": ""
+    },
+    {
+      "en": "lazier",
+      "ru": "более ленивый",
+      "pron": ""
+    },
+    {
+      "en": "make a decision",
+      "ru": "принять решение",
+      "pron": ""
+    },
+    {
+      "en": "by myself",
+      "ru": "самостоятельно",
+      "pron": ""
+    },
+    {
+      "en": "once a week",
+      "ru": "раз в неделю",
+      "pron": ""
+    },
+    {
+      "en": "go shopping",
+      "ru": "ходить за покупками",
+      "pron": ""
+    },
+    {
+      "en": "that's why",
+      "ru": "вот почему",
+      "pron": ""
+    },
+    {
+      "en": "even if",
+      "ru": "даже если",
+      "pron": ""
+    },
+    {
+      "en": "healthily",
+      "ru": "здоровым образом",
+      "pron": ""
+    },
+    {
+      "en": "wide range",
+      "ru": "широкий ассортимент",
+      "pron": ""
+    },
+    {
+      "en": "local market",
+      "ru": "местный рынок",
+      "pron": ""
+    },
+    {
+      "en": "high quality",
+      "ru": "высокое качество",
+      "pron": ""
+    },
+    {
+      "en": "farmer products",
+      "ru": "фермерские продукты",
+      "pron": ""
+    },
+    {
+      "en": "than",
+      "ru": "чем (при сравнении)",
+      "pron": ""
+    },
+    {
+      "en": "much",
+      "ru": "намного (при сравнении)",
+      "pron": ""
+    }
+  ],
+  "l2": [
+    {
+      "q": "My new phone is ___ than my old one.",
+      "o": [
+        "good",
+        "better",
+        "best"
+      ],
+      "a": 1,
+      "why": "good → better"
+    },
+    {
+      "q": "This shop is ___ than the other one.",
+      "o": [
+        "cheap",
+        "cheaper",
+        "more cheaper"
+      ],
+      "a": 1,
+      "why": "cheap → cheaper"
+    },
+    {
+      "q": "Shopping online is ___ than going to the mall.",
+      "o": [
+        "easy",
+        "more easy",
+        "easier"
+      ],
+      "a": 2,
+      "why": "easy → easier"
+    },
+    {
+      "q": "My sister is ___ than me today.",
+      "o": [
+        "busy",
+        "busier",
+        "more busyer"
+      ],
+      "a": 1,
+      "why": "busy → busier"
+    },
+    {
+      "q": "He is ___ today than yesterday.",
+      "o": [
+        "lazier",
+        "lazy",
+        "more lazier"
+      ],
+      "a": 0,
+      "why": "lazy → lazier"
+    },
+    {
+      "q": "This market has a ___ choice of fruit.",
+      "o": [
+        "wider",
+        "wide",
+        "more wider"
+      ],
+      "a": 0,
+      "why": "wide → wider"
+    },
+    {
+      "q": "The vegetables here are much ___ than at the supermarket.",
+      "o": [
+        "fresh",
+        "fresher",
+        "more fresher"
+      ],
+      "a": 1,
+      "why": "much + fresher"
+    },
+    {
+      "q": "This bag is a bit ___ than that one.",
+      "o": [
+        "small",
+        "smaller",
+        "more smaller"
+      ],
+      "a": 1,
+      "why": "a bit + smaller"
+    },
+    {
+      "q": "My laptop is better ___ my old laptop.",
+      "o": [
+        "that",
+        "than",
+        "then"
+      ],
+      "a": 1,
+      "why": "сравнение → than"
+    },
+    {
+      "q": "My phone ___ better than my old one.",
+      "o": [
+        "are",
+        "is",
+        "be"
+      ],
+      "a": 1,
+      "why": "подлежащее + is + прилагательное"
+    },
+    {
+      "q": "Do you have this in a ___ size?",
+      "o": [
+        "smallest",
+        "smaller",
+        "most small"
+      ],
+      "a": 1,
+      "why": "smaller size"
+    },
+    {
+      "q": "This size doesn’t ___ me.",
+      "o": [
+        "fit",
+        "suits",
+        "wear"
+      ],
+      "a": 0,
+      "why": "fit — по размеру"
+    },
+    {
+      "q": "This colour really ___ you.",
+      "o": [
+        "fit",
+        "suits",
+        "suit"
+      ],
+      "a": 1,
+      "why": "it → suits"
+    },
+    {
+      "q": "I bought this ___ other day.",
+      "o": [
+        "an",
+        "a",
+        "the"
+      ],
+      "a": 2,
+      "why": "the other day"
+    },
+    {
+      "q": "I want to take this ___ to the shop.",
+      "o": [
+        "up",
+        "back",
+        "out"
+      ],
+      "a": 1,
+      "why": "take back — вернуть"
+    },
+    {
+      "q": "Do you have the ___?",
+      "o": [
+        "receipt",
+        "recipe",
+        "receive"
+      ],
+      "a": 0,
+      "why": "receipt — чек"
+    },
+    {
+      "q": "The TV is not ___.",
+      "o": [
+        "on stock",
+        "in stock",
+        "at stock"
+      ],
+      "a": 1,
+      "why": "in stock"
+    },
+    {
+      "q": "Would you like me ___ it in a bag?",
+      "o": [
+        "put",
+        "to put",
+        "putting"
+      ],
+      "a": 1,
+      "why": "would like + to"
+    },
+    {
+      "q": "Could I maybe go ___ of you?",
+      "o": [
+        "ahead",
+        "after",
+        "before to"
+      ],
+      "a": 0,
+      "why": "go ahead of you"
+    },
+    {
+      "q": "You don’t need to ___ again.",
+      "o": [
+        "queue",
+        "queued",
+        "queuing"
+      ],
+      "a": 0,
+      "why": "need to + базовая форма"
+    },
+    {
+      "q": "We have got ___ rice.",
+      "o": [
+        "a",
+        "some",
+        "an"
+      ],
+      "a": 1,
+      "why": "rice — неисчисляемое"
+    },
+    {
+      "q": "We haven’t got ___ bread.",
+      "o": [
+        "some",
+        "a",
+        "any"
+      ],
+      "a": 2,
+      "why": "в отрицании обычно any"
+    },
+    {
+      "q": "Have you got ___ apples?",
+      "o": [
+        "any",
+        "an",
+        "a"
+      ],
+      "a": 0,
+      "why": "вопрос о множественном → any"
+    },
+    {
+      "q": "She bought ___ apple.",
+      "o": [
+        "a",
+        "an",
+        "some"
+      ],
+      "a": 1,
+      "why": "an apple"
+    },
+    {
+      "q": "We have got ___ bananas.",
+      "o": [
+        "some",
+        "an",
+        "a"
+      ],
+      "a": 0,
+      "why": "some bananas"
+    },
+    {
+      "q": "Why is he shopping? He is buying a ___.",
+      "o": [
+        "gift",
+        "queue",
+        "receipt"
+      ],
+      "a": 0,
+      "why": "подарок"
+    },
+    {
+      "q": "Someone is taking an item ___ to the shop.",
+      "o": [
+        "back",
+        "in",
+        "off"
+      ],
+      "a": 0,
+      "why": "take back"
+    },
+    {
+      "q": "Someone ___ not to buy the TV.",
+      "o": [
+        "decides",
+        "decision",
+        "deciding"
+      ],
+      "a": 0,
+      "why": "decides not to"
+    },
+    {
+      "q": "They are ___ about what to buy.",
+      "o": [
+        "argue",
+        "arguing",
+        "argued"
+      ],
+      "a": 1,
+      "why": "are arguing"
+    },
+    {
+      "q": "I usually buy groceries ___ a week.",
+      "o": [
+        "once",
+        "one",
+        "first"
+      ],
+      "a": 0,
+      "why": "once a week"
+    },
+    {
+      "q": "This market is ___ than the supermarket.",
+      "o": [
+        "fresh",
+        "fresher",
+        "freshest"
+      ],
+      "a": 1,
+      "why": "fresh → fresher + than"
+    },
+    {
+      "q": "It is ___ to buy things online.",
+      "o": [
+        "easy",
+        "easier",
+        "more easier"
+      ],
+      "a": 1,
+      "why": "easy → easier"
+    },
+    {
+      "q": "My schedule is ___ this week.",
+      "o": [
+        "busier",
+        "busyier",
+        "more busyier"
+      ],
+      "a": 0,
+      "why": "busy → busier"
+    },
+    {
+      "q": "I ___ decisions by myself.",
+      "o": [
+        "do",
+        "make",
+        "take"
+      ],
+      "a": 1,
+      "why": "make a decision"
+    },
+    {
+      "q": "I go shopping ___.",
+      "o": [
+        "once a week",
+        "one a week",
+        "once on week"
+      ],
+      "a": 0,
+      "why": "once a week"
+    },
+    {
+      "q": "I ___ shopping on Saturdays.",
+      "o": [
+        "go",
+        "go to the",
+        "go to"
+      ],
+      "a": 0,
+      "why": "go shopping"
+    },
+    {
+      "q": "These vegetables are much ___.",
+      "o": [
+        "fresh",
+        "fresher",
+        "freshest"
+      ],
+      "a": 1,
+      "why": "much fresher"
+    },
+    {
+      "q": "I want to eat more ___.",
+      "o": [
+        "healthy",
+        "healthily",
+        "health"
+      ],
+      "a": 1,
+      "why": "eat healthily"
+    },
+    {
+      "q": "He is ___ than yesterday.",
+      "o": [
+        "lazier",
+        "lazy",
+        "more lazier"
+      ],
+      "a": 0,
+      "why": "lazy → lazier"
+    },
+    {
+      "q": "I prefer this shop ___ it has a wider range.",
+      "o": [
+        "because",
+        "that why",
+        "than"
+      ],
+      "a": 0,
+      "why": "because = потому что"
+    },
+    {
+      "q": "___ I buy things in other places.",
+      "o": [
+        "That why",
+        "That's why",
+        "Because why"
+      ],
+      "a": 1,
+      "why": "That's why = вот почему"
+    },
+    {
+      "q": "This shop has a ___ choice.",
+      "o": [
+        "wider",
+        "more wide",
+        "widest than"
+      ],
+      "a": 0,
+      "why": "wider choice"
+    }
+  ],
+  "l3": [
+    {
+      "q": "My phone is ___ than my old phone.",
+      "hint": "лучше — 1 слово",
+      "a": [
+        "better"
+      ],
+      "why": "good → better"
+    },
+    {
+      "q": "This shop is ___ than the other shop.",
+      "hint": "дешевле — 1 слово",
+      "a": [
+        "cheaper"
+      ],
+      "why": "cheap → cheaper"
+    },
+    {
+      "q": "Online shopping is ___.",
+      "hint": "проще — 1 слово",
+      "a": [
+        "easier"
+      ],
+      "why": "easy → easier"
+    },
+    {
+      "q": "Today I am ___ than yesterday.",
+      "hint": "более занят — 1 слово",
+      "a": [
+        "busier"
+      ],
+      "why": "busy → busier"
+    },
+    {
+      "q": "He is ___ than yesterday.",
+      "hint": "более ленивый — 1 слово",
+      "a": [
+        "lazier"
+      ],
+      "why": "lazy → lazier"
+    },
+    {
+      "q": "The market has a ___ choice.",
+      "hint": "более широкий — 1 слово",
+      "a": [
+        "wider"
+      ],
+      "why": "wide → wider"
+    },
+    {
+      "q": "The fruit is much ___ here.",
+      "hint": "свежее — 1 слово",
+      "a": [
+        "fresher"
+      ],
+      "why": "fresh → fresher"
+    },
+    {
+      "q": "My laptop is better ___ my old one.",
+      "hint": "чем — 1 слово",
+      "a": [
+        "than"
+      ],
+      "why": "than — сравнение"
+    },
+    {
+      "q": "This one is a ___ bigger.",
+      "hint": "немного — 1 слово",
+      "a": [
+        "bit"
+      ],
+      "why": "a bit"
+    },
+    {
+      "q": "Do you have this in a ___ size?",
+      "hint": "меньшем — 1 слово",
+      "a": [
+        "smaller"
+      ],
+      "why": "smaller size"
+    },
+    {
+      "q": "Do you have the ___?",
+      "hint": "чек — 1 слово",
+      "a": [
+        "receipt"
+      ],
+      "why": "receipt"
+    },
+    {
+      "q": "I bought this the other day and it is ___.",
+      "hint": "повреждено — 1 слово",
+      "a": [
+        "damaged"
+      ],
+      "why": "damaged"
+    },
+    {
+      "q": "The TV is not in ___.",
+      "hint": "наличии — 1 слово",
+      "a": [
+        "stock"
+      ],
+      "why": "in stock"
+    },
+    {
+      "q": "Could I maybe go ___ of you?",
+      "hint": "впереди — 1 слово",
+      "a": [
+        "ahead"
+      ],
+      "why": "go ahead"
+    },
+    {
+      "q": "You don’t need to ___ again.",
+      "hint": "стоять в очереди — 1 слово",
+      "a": [
+        "queue"
+      ],
+      "why": "queue"
+    },
+    {
+      "q": "Would you like me ___ put it in a bag?",
+      "hint": "частица — 1 слово",
+      "a": [
+        "to"
+      ],
+      "why": "would like to"
+    },
+    {
+      "q": "I got ___ of the box.",
+      "hint": "избавился — 1 слово",
+      "a": [
+        "rid"
+      ],
+      "why": "get rid of"
+    },
+    {
+      "q": "We’ve got ___ bananas.",
+      "hint": "несколько — 1 слово",
+      "a": [
+        "some"
+      ],
+      "why": "some bananas"
+    },
+    {
+      "q": "We haven’t got ___ apples.",
+      "hint": "нисколько — 1 слово",
+      "a": [
+        "any"
+      ],
+      "why": "any в отрицании"
+    },
+    {
+      "q": "Have we got ___ pasta?",
+      "hint": "сколько-нибудь — 1 слово",
+      "a": [
+        "any"
+      ],
+      "why": "any в вопросе"
+    },
+    {
+      "q": "I have ___ apple.",
+      "hint": "артикль — 1 слово",
+      "a": [
+        "an"
+      ],
+      "why": "an apple"
+    },
+    {
+      "q": "We have got ___ rice.",
+      "hint": "немного — 1 слово",
+      "a": [
+        "some"
+      ],
+      "why": "some rice"
+    },
+    {
+      "q": "I make decisions by ___.",
+      "hint": "самостоятельно — 1 слово",
+      "a": [
+        "myself"
+      ],
+      "why": "by myself"
+    },
+    {
+      "q": "We buy groceries ___ a week.",
+      "hint": "раз в неделю — 1 слово",
+      "a": [
+        "once"
+      ],
+      "why": "once a week"
+    },
+    {
+      "q": "The customer wants to take the item ___.",
+      "hint": "вернуть — 1 слово",
+      "a": [
+        "back"
+      ],
+      "why": "take back"
+    },
+    {
+      "q": "She is ___ about bad service.",
+      "hint": "жалуется — -ing",
+      "a": [
+        "complaining"
+      ],
+      "why": "is complaining"
+    },
+    {
+      "q": "I go ___ once a week.",
+      "hint": "за покупками",
+      "a": [
+        "shopping"
+      ],
+      "why": "за покупками"
+    },
+    {
+      "q": "I make decisions by ___.",
+      "hint": "самостоятельно",
+      "a": [
+        "myself"
+      ],
+      "why": "самостоятельно"
+    },
+    {
+      "q": "This market is ___ than that one.",
+      "hint": "свежее",
+      "a": [
+        "fresher"
+      ],
+      "why": "свежее"
+    },
+    {
+      "q": "He is ___ today than yesterday.",
+      "hint": "ленивее",
+      "a": [
+        "lazier"
+      ],
+      "why": "ленивее"
+    },
+    {
+      "q": "This task is ___ than the last one.",
+      "hint": "легче",
+      "a": [
+        "easier"
+      ],
+      "why": "легче"
+    },
+    {
+      "q": "I want to eat more ___.",
+      "hint": "здоровее (наречие)",
+      "a": [
+        "healthily"
+      ],
+      "why": "здоровее (наречие)"
+    },
+    {
+      "q": "I ___ a decision yesterday.",
+      "hint": "принял",
+      "a": [
+        "made"
+      ],
+      "why": "принял"
+    },
+    {
+      "q": "I go shopping ___ a week.",
+      "hint": "один раз",
+      "a": [
+        "once"
+      ],
+      "why": "один раз"
+    },
+    {
+      "q": "This shop has a ___ choice.",
+      "hint": "более широкий",
+      "a": [
+        "wider"
+      ],
+      "why": "более широкий"
+    },
+    {
+      "q": "___ why I buy it online.",
+      "hint": "вот почему",
+      "a": [
+        "that’s"
+      ],
+      "why": "вот почему"
+    },
+    {
+      "q": "These products are high ___.",
+      "hint": "качество",
+      "a": [
+        "quality"
+      ],
+      "why": "качество"
+    }
+  ],
+  "l4": [
+    {
+      "ru": "Мой телефон лучше старого.",
+      "en": "My phone is better than my old phone."
+    },
+    {
+      "ru": "Онлайн-покупки проще.",
+      "en": "Shopping online is easier."
+    },
+    {
+      "ru": "Этот магазин дешевле другого.",
+      "en": "This shop is cheaper than the other one."
+    },
+    {
+      "ru": "Сегодня я занят больше, чем вчера.",
+      "en": "I am busier today than yesterday."
+    },
+    {
+      "ru": "Фрукты на рынке намного свежее.",
+      "en": "The fruit at the market is much fresher."
+    },
+    {
+      "ru": "Вы можете мне помочь?",
+      "en": "Could you help me?"
+    },
+    {
+      "ru": "У вас есть такой же меньшего размера?",
+      "en": "Do you have one of these in a smaller size?"
+    },
+    {
+      "ru": "Я купил это на днях.",
+      "en": "I bought this the other day."
+    },
+    {
+      "ru": "Можно я пройду перед вами?",
+      "en": "Could I go ahead of you?"
+    },
+    {
+      "ru": "Вы можете положить это в пакет?",
+      "en": "Could you put it in a bag?"
+    },
+    {
+      "ru": "Этого телевизора нет в наличии.",
+      "en": "This TV is not in stock."
+    },
+    {
+      "ru": "Я решил не покупать его.",
+      "en": "I decided not to buy it."
+    },
+    {
+      "ru": "У нас есть немного риса.",
+      "en": "We have got some rice."
+    },
+    {
+      "ru": "У нас нет хлеба.",
+      "en": "We have not got any bread."
+    },
+    {
+      "ru": "У нас есть яблоки?",
+      "en": "Have we got any apples?"
+    },
+    {
+      "ru": "Я сам принимаю решения.",
+      "en": "I make decisions by myself."
+    },
+    {
+      "ru": "Я хочу вернуть это в магазин.",
+      "en": "I want to take this back to the shop."
+    },
+    {
+      "ru": "Это подходит тебе по стилю.",
+      "en": "It suits you."
+    },
+    {
+      "ru": "Я хожу за покупками раз в неделю.",
+      "en": "I go shopping once a week."
+    },
+    {
+      "ru": "Здесь выбор шире.",
+      "en": "There is a wider choice here."
+    },
+    {
+      "ru": "Этот магазин дешевле.",
+      "en": "This shop is cheaper."
+    },
+    {
+      "ru": "Сегодня он занят больше, чем вчера.",
+      "en": "He is busier today than yesterday."
+    },
+    {
+      "ru": "Я хочу питаться здоровее.",
+      "en": "I want to eat more healthily."
+    },
+    {
+      "ru": "Поэтому я покупаю вещи онлайн.",
+      "en": "That's why I buy things online."
+    },
+    {
+      "ru": "На рынке овощи свежее.",
+      "en": "Vegetables are fresher at the market."
+    }
+  ],
+  "l5": [
+    {
+      "ru": "Онлайн-покупки лучше, чем покупки в торговом центре.",
+      "a": [
+        "Shopping online is better than shopping at the mall.",
+        "Online shopping is better than shopping in a mall."
+      ],
+      "why": "better than"
+    },
+    {
+      "ru": "Мой телефон лучше моего старого телефона.",
+      "a": [
+        "My phone is better than my old phone."
+      ],
+      "why": "better than"
+    },
+    {
+      "ru": "Я сегодня более занят, чем вчера.",
+      "a": [
+        "I am busier today than yesterday.",
+        "I'm busier today than yesterday."
+      ],
+      "why": "busy → busier"
+    },
+    {
+      "ru": "Это намного дешевле.",
+      "a": [
+        "It is much cheaper."
+      ],
+      "why": "much + comparative"
+    },
+    {
+      "ru": "Здесь фрукты свежее, чем в супермаркете.",
+      "a": [
+        "The fruit here is fresher than in the supermarket.",
+        "Fruit here is fresher than at the supermarket."
+      ],
+      "why": "fresh → fresher"
+    },
+    {
+      "ru": "У вас есть такой же меньшего размера?",
+      "a": [
+        "Do you have one of these in a smaller size?",
+        "Do you have this in a smaller size?"
+      ],
+      "why": "smaller size"
+    },
+    {
+      "ru": "Я купил это на днях, и оно повреждено.",
+      "a": [
+        "I bought this the other day, and it is damaged.",
+        "I bought this the other day, and it's damaged."
+      ],
+      "why": "the other day, damaged"
+    },
+    {
+      "ru": "У вас есть чек?",
+      "a": [
+        "Do you have the receipt?",
+        "Have you got the receipt?"
+      ],
+      "why": "receipt"
+    },
+    {
+      "ru": "Я выбросил коробку.",
+      "a": [
+        "I got rid of the box.",
+        "I threw away the box."
+      ],
+      "why": "get rid of"
+    },
+    {
+      "ru": "Этого нет в наличии.",
+      "a": [
+        "It is not in stock.",
+        "It's not in stock.",
+        "It is out of stock.",
+        "It's out of stock."
+      ],
+      "why": "in stock"
+    },
+    {
+      "ru": "Можно мне пройти перед вами?",
+      "a": [
+        "Could I go ahead of you?",
+        "Could I maybe go ahead of you?",
+        "Can I go ahead of you?"
+      ],
+      "why": "go ahead of you"
+    },
+    {
+      "ru": "Вам не нужно снова стоять в очереди.",
+      "a": [
+        "You do not need to queue again.",
+        "You don't need to queue again."
+      ],
+      "why": "need to queue"
+    },
+    {
+      "ru": "Вы хотите, чтобы я положил это в пакет?",
+      "a": [
+        "Would you like me to put it in a bag?"
+      ],
+      "why": "would you like me to"
+    },
+    {
+      "ru": "У нас есть немного риса.",
+      "a": [
+        "We have got some rice.",
+        "We've got some rice.",
+        "We have some rice."
+      ],
+      "why": "some rice"
+    },
+    {
+      "ru": "У нас нет хлеба.",
+      "a": [
+        "We have not got any bread.",
+        "We haven't got any bread.",
+        "We do not have any bread.",
+        "We don't have any bread."
+      ],
+      "why": "any bread"
+    },
+    {
+      "ru": "У нас есть груши?",
+      "a": [
+        "Have we got any pears?",
+        "Do we have any pears?"
+      ],
+      "why": "any в вопросе"
+    },
+    {
+      "ru": "Он решил не покупать телевизор.",
+      "a": [
+        "He decided not to buy the TV."
+      ],
+      "why": "decided not to"
+    },
+    {
+      "ru": "Женщина хотела вернуть повреждённый товар.",
+      "a": [
+        "The woman wanted to take the damaged item back."
+      ],
+      "why": "take back"
+    },
+    {
+      "ru": "Я принимаю решения самостоятельно.",
+      "a": [
+        "I make decisions by myself.",
+        "I make my own decisions."
+      ],
+      "why": "make a decision"
+    },
+    {
+      "ru": "Я покупаю продукты раз в неделю.",
+      "a": [
+        "I buy groceries once a week."
+      ],
+      "why": "once a week"
+    },
+    {
+      "ru": "Я хожу за покупками раз в неделю.",
+      "a": [
+        "I go shopping once a week."
+      ],
+      "why": "Повтори конструкцию из урока."
+    },
+    {
+      "ru": "Я сам принимаю решения.",
+      "a": [
+        "I make decisions by myself."
+      ],
+      "why": "Повтори конструкцию из урока."
+    },
+    {
+      "ru": "Здесь выбор шире.",
+      "a": [
+        "There is a wider choice here."
+      ],
+      "why": "Повтори конструкцию из урока."
+    },
+    {
+      "ru": "Этот магазин дешевле.",
+      "a": [
+        "This shop is cheaper."
+      ],
+      "why": "Повтори конструкцию из урока."
+    },
+    {
+      "ru": "Сегодня он занят больше, чем вчера.",
+      "a": [
+        "He is busier today than yesterday."
+      ],
+      "why": "Повтори конструкцию из урока."
+    },
+    {
+      "ru": "Я хочу питаться здоровее.",
+      "a": [
+        "I want to eat more healthily."
+      ],
+      "why": "Повтори конструкцию из урока."
+    },
+    {
+      "ru": "Поэтому я покупаю вещи онлайн.",
+      "a": [
+        "That's why I buy things online."
+      ],
+      "why": "Повтори конструкцию из урока."
+    },
+    {
+      "ru": "На рынке овощи свежее.",
+      "a": [
+        "Vegetables are fresher at the market."
+      ],
+      "why": "Повтори конструкцию из урока."
+    }
+  ],
+  "l6": [
+    {
+      "q": "Is shopping online better than shopping in a mall? Why?",
+      "ru": "Онлайн-покупки лучше покупок в торговом центре?",
+      "start": "I think shopping online is…",
+      "model": "I think shopping online is better because it saves time."
+    },
+    {
+      "q": "Is your phone better than your old phone?",
+      "ru": "Твой телефон лучше предыдущего?",
+      "start": "My phone is…",
+      "model": "My phone is faster than my old phone. The camera is better too."
+    },
+    {
+      "q": "Where you live now is better than where you lived before. Do you agree?",
+      "ru": "Где ты живёшь сейчас лучше прежнего места?",
+      "start": "Where I live now is…",
+      "model": "Where I live now is quieter than my old neighbourhood."
+    },
+    {
+      "q": "What shop is better for buying clothes? Why?",
+      "ru": "Какой магазин лучше для покупки одежды?",
+      "start": "I prefer… because…",
+      "model": "I prefer shopping in retail stores because I can try clothes on."
+    },
+    {
+      "q": "What are two reasons you might take things back to a shop?",
+      "ru": "Назови две причины возврата товара.",
+      "start": "I might take something back if…",
+      "model": "I might take something back if it is damaged or if it does not fit."
+    },
+    {
+      "q": "What are two things you might say or ask in a queue?",
+      "ru": "Что можно сказать в очереди?",
+      "start": "Could I…? / Are you…?",
+      "model": "Could I maybe go ahead of you? Are you in the queue?"
+    },
+    {
+      "q": "What are two questions you might ask a member of staff in a shop?",
+      "ru": "Два вопроса продавцу.",
+      "start": "Excuse me, could you…?",
+      "model": "Excuse me, could you help me? Do you have this in a smaller size?"
+    },
+    {
+      "q": "What are two things a shop assistant might ask you when you pay?",
+      "ru": "Что спросит продавец на кассе?",
+      "start": "Would you like…?",
+      "model": "Would you like a bag? Would you like to pay by card?"
+    },
+    {
+      "q": "Retell conversation 3 in two sentences.",
+      "ru": "Перескажи третий диалог (возврат).",
+      "start": "The woman bought…",
+      "model": "The woman bought a damaged item. She wanted to return it, but she did not have the box."
+    },
+    {
+      "q": "Retell conversation 5 in two sentences.",
+      "ru": "Перескажи пятый диалог (очередь).",
+      "start": "A customer…",
+      "model": "A customer asked to go ahead because he only needed salt. The other customer agreed."
+    },
+    {
+      "q": "Do you enjoy going shopping?",
+      "ru": "Тебе нравится ходить по магазинам?",
+      "start": "I usually…",
+      "model": "I usually go shopping once a week."
+    },
+    {
+      "q": "Do you make shopping decisions by yourself?",
+      "ru": "Ты сам принимаешь решения о покупках?",
+      "start": "Yes, I…",
+      "model": "Yes, I make decisions by myself."
+    },
+    {
+      "q": "Are local markets cheaper than supermarkets?",
+      "ru": "Рынки дешевле супермаркетов?",
+      "start": "I think…",
+      "model": "I think local markets can be cheaper."
+    },
+    {
+      "q": "What is easier to buy online?",
+      "ru": "Что проще покупать онлайн?",
+      "start": "It is easier…",
+      "model": "It is easier to buy electronics online."
+    }
+  ],
+  "fix": [
+    {
+      "wrong": "My phone better than my old phone.",
+      "a": [
+        "My phone is better than my old phone."
+      ],
+      "ru": "Мой телефон лучше старого.",
+      "why": "нужен is"
+    },
+    {
+      "wrong": "Shopping is more easier online.",
+      "a": [
+        "Shopping is easier online."
+      ],
+      "ru": "Покупать онлайн проще.",
+      "why": "easier уже сравнительная форма"
+    },
+    {
+      "wrong": "He more lazy than yesterday.",
+      "a": [
+        "He is lazier than yesterday."
+      ],
+      "ru": "Он ленивее, чем вчера.",
+      "why": "is + lazier"
+    },
+    {
+      "wrong": "I no feel hate it.",
+      "a": [
+        "I do not hate it.",
+        "I don't hate it."
+      ],
+      "ru": "Я это не ненавижу.",
+      "why": "для отрицания do not"
+    },
+    {
+      "wrong": "I go to the shopping malls sometimes.",
+      "a": [
+        "I sometimes go to shopping malls."
+      ],
+      "ru": "Иногда я хожу в торговые центры.",
+      "why": "без the, если в общем"
+    },
+    {
+      "wrong": "I make discussion more quickly.",
+      "a": [
+        "I make decisions more quickly."
+      ],
+      "ru": "Я быстрее принимаю решения.",
+      "why": "make decisions, не discussion"
+    },
+    {
+      "wrong": "Decision make by myself.",
+      "a": [
+        "I make decisions by myself."
+      ],
+      "ru": "Решения принимаю сам.",
+      "why": "нужно I и правильный порядок"
+    },
+    {
+      "wrong": "I very lazy for it.",
+      "a": [
+        "I am too lazy for that.",
+        "I'm too lazy for that."
+      ],
+      "ru": "Мне слишком лень.",
+      "why": "нужен am; too lazy"
+    },
+    {
+      "wrong": "I like go to street market.",
+      "a": [
+        "I like going to street markets.",
+        "I like to go to street markets."
+      ],
+      "ru": "Мне нравится ходить на рынки.",
+      "why": "like + ing или like to"
+    },
+    {
+      "wrong": "I can found good products at markets.",
+      "a": [
+        "I can find good products at markets."
+      ],
+      "ru": "На рынках я могу найти хорошие продукты.",
+      "why": "после can базовая форма"
+    },
+    {
+      "wrong": "My mom buy more clothes.",
+      "a": [
+        "My mom buys more clothes."
+      ],
+      "ru": "Мама покупает больше одежды.",
+      "why": "my mom = she → buys"
+    },
+    {
+      "wrong": "I buy products one time a week.",
+      "a": [
+        "I buy groceries once a week.",
+        "I buy food once a week."
+      ],
+      "ru": "Я покупаю продукты раз в неделю.",
+      "why": "once a week"
+    },
+    {
+      "wrong": "It depend on the product.",
+      "a": [
+        "It depends on the product."
+      ],
+      "ru": "Это зависит от товара.",
+      "why": "it → depends"
+    },
+    {
+      "wrong": "That why I buy things elsewhere.",
+      "a": [
+        "That's why I buy things elsewhere.",
+        "That is why I buy things elsewhere."
+      ],
+      "ru": "Поэтому я покупаю вещи в других местах.",
+      "why": "That is why / That’s why"
+    },
+    {
+      "wrong": "She is more busier today.",
+      "a": [
+        "She is busier today."
+      ],
+      "ru": "Она сегодня более занята.",
+      "why": "busier, без more"
+    },
+    {
+      "wrong": "They will eat more healthly.",
+      "a": [
+        "They will eat more healthily."
+      ],
+      "ru": "Они будут питаться здоровее.",
+      "why": "healthily"
+    },
+    {
+      "wrong": "I want to take this thing back because it not work.",
+      "a": [
+        "I want to take this item back because it does not work.",
+        "I want to take this item back because it doesn't work."
+      ],
+      "ru": "Хочу вернуть товар, потому что он не работает.",
+      "why": "does not work"
+    },
+    {
+      "wrong": "I go to the shopping.",
+      "ru": "",
+      "a": [
+        "I go shopping."
+      ],
+      "why": "Исправление по контексту транскрибации."
+    },
+    {
+      "wrong": "I very lazy for it.",
+      "ru": "",
+      "a": [
+        "I am too lazy to do it."
+      ],
+      "why": "Исправление по контексту транскрибации."
+    },
+    {
+      "wrong": "I like go to the street market.",
+      "ru": "",
+      "a": [
+        "I like going to the street market."
+      ],
+      "why": "Исправление по контексту транскрибации."
+    },
+    {
+      "wrong": "I can found products.",
+      "ru": "",
+      "a": [
+        "I can find products."
+      ],
+      "why": "Исправление по контексту транскрибации."
+    },
+    {
+      "wrong": "My mom buy more clothes.",
+      "ru": "",
+      "a": [
+        "My mom buys more clothes."
+      ],
+      "why": "Исправление по контексту транскрибации."
+    },
+    {
+      "wrong": "That why I have to buy.",
+      "ru": "",
+      "a": [
+        "That is why I have to buy."
+      ],
+      "why": "Исправление по контексту транскрибации."
+    },
+    {
+      "wrong": "I make decision by myself.",
+      "ru": "",
+      "a": [
+        "I make decisions by myself."
+      ],
+      "why": "Исправление по контексту транскрибации."
+    },
+    {
+      "wrong": "I think my mom buy more.",
+      "ru": "",
+      "a": [
+        "I think my mom buys more."
+      ],
+      "why": "Исправление по контексту транскрибации."
+    }
+  ]
+}

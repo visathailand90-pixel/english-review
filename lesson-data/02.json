@@ -1,0 +1,1147 @@
+{
+  "id": "02",
+  "num": "2",
+  "title": "Simple и Continuous",
+  "date": "",
+  "summary": "Урок про два настоящих времени. Present Simple — то, что бывает всегда, регулярно, факты и расписания. Present Continuous — то, что происходит сейчас, временно или запланировано. Глаголы состояния (know, need, want) обычно не ставим в -ing. После when/if о будущем — Present Simple, а не will.",
+  "theory": [
+    {
+      "h": "Главная разница",
+      "text": [
+        "**Present Simple** — постоянное, регулярное, факты.",
+        "**Present Continuous** — прямо сейчас, временно, в процессе."
+      ],
+      "ex": [
+        [
+          "I work in marketing.",
+          "Я работаю в маркетинге (постоянно)."
+        ],
+        [
+          "I'm working on a new project this week.",
+          "На этой неделе я работаю над новым проектом."
+        ],
+        [
+          "I live in Minsk.",
+          "Я живу в Минске."
+        ],
+        [
+          "I'm living with a friend this month.",
+          "В этом месяце я живу у друга."
+        ]
+      ]
+    },
+    {
+      "h": "Как строится",
+      "text": [
+        "Simple: глагол, для he/she/it добавляем **-s**. Отрицание и вопрос — через **do/does**.",
+        "Continuous: **am/is/are + глагол-ing**. Отрицание — am/is/are + **not**, вопрос — am/is/are в начало."
+      ],
+      "table": [
+        [
+          "",
+          "Present Simple",
+          "Present Continuous"
+        ],
+        [
+          "+",
+          "I work / He works",
+          "I am working / He is working"
+        ],
+        [
+          "−",
+          "I don't work / He doesn't work",
+          "I'm not working / He isn't working"
+        ],
+        [
+          "?",
+          "Do you work? / Does he work?",
+          "Are you working? / Is he working?"
+        ]
+      ],
+      "warn": [
+        "I **working** → I **'m working**. Без am/is/are форма -ing не работает.",
+        "He doesn't **works** → He doesn't **work**. После doesn't глагол без -s."
+      ]
+    },
+    {
+      "h": "Когда Present Simple",
+      "text": [
+        "Привычки и распорядок, общеизвестные факты, расписания.",
+        "Маркеры: **always, usually, often, sometimes, never, every day**.",
+        "После **when/if** о будущем — Present Simple, не will."
+      ],
+      "ex": [
+        [
+          "I go to the gym twice a week.",
+          "Я хожу в спортзал два раза в неделю."
+        ],
+        [
+          "Water boils at 100 degrees.",
+          "Вода кипит при 100 градусах."
+        ],
+        [
+          "The lesson starts at 6.",
+          "Урок начинается в 6."
+        ],
+        [
+          "When I get home, I'll call you.",
+          "Когда я приду домой, я тебе позвоню."
+        ]
+      ],
+      "warn": [
+        "When I **will get** home → When I **get** home. После when — без will."
+      ]
+    },
+    {
+      "h": "Когда Present Continuous",
+      "text": [
+        "Прямо сейчас, временно (these days), планы на ближайшее, изменения, раздражающая привычка (always + -ing).",
+        "Маркеры: **now, right now, at the moment, these days, nowadays, still, this week**."
+      ],
+      "ex": [
+        [
+          "I'm talking to my tutor right now.",
+          "Я сейчас разговариваю с репетитором."
+        ],
+        [
+          "I'm meeting my friends on Saturday.",
+          "В субботу я встречаюсь с друзьями."
+        ],
+        [
+          "My English is getting better.",
+          "Мой английский становится лучше."
+        ],
+        [
+          "He's always complaining!",
+          "Он вечно жалуется!"
+        ]
+      ]
+    },
+    {
+      "h": "Глаголы состояния",
+      "text": [
+        "Эти глаголы обычно **не** ставим в -ing, даже если речь о «сейчас».",
+        "Мысли: know, understand, think (считать), believe, remember, forget, agree. Чувства: like, love, hate, want, prefer, need. Владение: have, own, belong to. Другие: seem, mean, depend on, cost."
+      ],
+      "ex": [
+        [
+          "I know the answer.",
+          "Я знаю ответ."
+        ],
+        [
+          "I need help right now.",
+          "Мне нужна помощь прямо сейчас."
+        ],
+        [
+          "This company belongs to my boss.",
+          "Эта компания принадлежит моему боссу."
+        ]
+      ],
+      "warn": [
+        "I'm **knowing** → I **know**.",
+        "I'm **needing** help → I **need** help."
+      ]
+    },
+    {
+      "h": "Двойные глаголы",
+      "text": [
+        "Некоторые глаголы меняют смысл: состояние → Simple, действие → Continuous."
+      ],
+      "table": [
+        [
+          "Simple (состояние)",
+          "Continuous (действие)"
+        ],
+        [
+          "I think it's good. — считаю",
+          "I'm thinking about it. — обдумываю"
+        ],
+        [
+          "I have a car. — у меня есть",
+          "I'm having lunch. — обедаю"
+        ],
+        [
+          "It tastes good. — на вкус",
+          "She's tasting the soup. — пробует"
+        ],
+        [
+          "I see a dog. — вижу",
+          "I'm seeing a client today. — встречаюсь"
+        ]
+      ]
+    },
+    {
+      "h": "Как быстро выбрать",
+      "text": [
+        "Временно, не закончено, at the moment, this week → **Continuous**.",
+        "Вообще верно, always, usually, never → **Simple**.",
+        "Видишь окончание -s → Simple. Видишь am/is/are + -ing → Continuous."
+      ],
+      "ex": [
+        [
+          "Lawyers earn good money.",
+          "Юристы хорошо зарабатывают (вообще)."
+        ],
+        [
+          "I am earning the minimum wage at the moment.",
+          "Сейчас я получаю минимальную зарплату."
+        ]
+      ]
+    }
+  ],
+  "vocab": [
+    {
+      "en": "present",
+      "pron": "прЭзэнт",
+      "ru": "настоящее (время)"
+    },
+    {
+      "en": "simple",
+      "pron": "сИмпл",
+      "ru": "простой"
+    },
+    {
+      "en": "continuous",
+      "pron": "кэнтИньюэс",
+      "ru": "длительный"
+    },
+    {
+      "en": "temporary",
+      "pron": "тЭмпэрэри",
+      "ru": "временный"
+    },
+    {
+      "en": "habit",
+      "pron": "хЭбит",
+      "ru": "привычка"
+    },
+    {
+      "en": "routine",
+      "pron": "рутИн",
+      "ru": "распорядок"
+    },
+    {
+      "en": "stative verbs",
+      "pron": "стЭйтив вёбз",
+      "ru": "глаголы состояния"
+    },
+    {
+      "en": "general truth",
+      "pron": "джЕнэрэл трус",
+      "ru": "общеизвестный факт"
+    },
+    {
+      "en": "timetable",
+      "pron": "тАймтейбл",
+      "ru": "расписание"
+    },
+    {
+      "en": "at the moment",
+      "pron": "эт зэ мОумэнт",
+      "ru": "в данный момент"
+    },
+    {
+      "en": "nowadays",
+      "pron": "нАуэдейз",
+      "ru": "в наше время"
+    },
+    {
+      "en": "still",
+      "pron": "стИл",
+      "ru": "всё ещё"
+    },
+    {
+      "en": "own",
+      "pron": "Оун",
+      "ru": "владеть"
+    },
+    {
+      "en": "belong to",
+      "pron": "билОнг ту",
+      "ru": "принадлежать"
+    },
+    {
+      "en": "realize",
+      "pron": "рИэлайз",
+      "ru": "осознавать"
+    },
+    {
+      "en": "suppose",
+      "pron": "сэпОуз",
+      "ru": "полагать"
+    },
+    {
+      "en": "prefer",
+      "pron": "прифЁ",
+      "ru": "предпочитать"
+    },
+    {
+      "en": "seem",
+      "pron": "сИм",
+      "ru": "казаться"
+    },
+    {
+      "en": "depend on",
+      "pron": "дипЕнд он",
+      "ru": "зависеть от"
+    },
+    {
+      "en": "include",
+      "pron": "инклУд",
+      "ru": "включать"
+    },
+    {
+      "en": "weigh",
+      "pron": "уЭй",
+      "ru": "весить"
+    },
+    {
+      "en": "complain",
+      "pron": "кэмплЕйн",
+      "ru": "жаловаться"
+    },
+    {
+      "en": "run (a business)",
+      "pron": "рАн",
+      "ru": "управлять (бизнесом)"
+    },
+    {
+      "en": "earn",
+      "pron": "Ён",
+      "ru": "зарабатывать"
+    },
+    {
+      "en": "minimum wage",
+      "pron": "мИнимэм уЭйдж",
+      "ru": "минимальная зарплата"
+    },
+    {
+      "en": "deal with",
+      "pron": "дИл уиз",
+      "ru": "иметь дело с"
+    },
+    {
+      "en": "customer",
+      "pron": "кАстэмэр",
+      "ru": "покупатель"
+    },
+    {
+      "en": "client",
+      "pron": "клАйэнт",
+      "ru": "клиент"
+    },
+    {
+      "en": "industry",
+      "pron": "Индэстри",
+      "ru": "отрасль"
+    },
+    {
+      "en": "lawyer",
+      "pron": "лОйэр",
+      "ru": "юрист"
+    },
+    {
+      "en": "get fit",
+      "pron": "гЕт фИт",
+      "ru": "прийти в форму"
+    },
+    {
+      "en": "organize",
+      "pron": "Огэнайз",
+      "ru": "организовывать"
+    },
+    {
+      "en": "conference",
+      "pron": "кОнфэрэнс",
+      "ru": "конференция"
+    }
+  ],
+  "l2": [
+    {
+      "q": "I ___ in marketing.",
+      "o": [
+        "work",
+        "works",
+        "working"
+      ],
+      "a": 0,
+      "why": "I → work, без -s и без -ing"
+    },
+    {
+      "q": "He ___ from home every Friday.",
+      "o": [
+        "work",
+        "works",
+        "is work"
+      ],
+      "a": 1,
+      "why": "every Friday → Simple, he → -s"
+    },
+    {
+      "q": "Take an umbrella. It ___ outside.",
+      "o": [
+        "rains",
+        "is raining",
+        "raining"
+      ],
+      "a": 1,
+      "why": "прямо сейчас → is + -ing"
+    },
+    {
+      "q": "I ___ on a big project this week.",
+      "o": [
+        "work",
+        "am working",
+        "working"
+      ],
+      "a": 1,
+      "why": "this week, временно → am working"
+    },
+    {
+      "q": "She ___ deal with customers.",
+      "o": [
+        "don't",
+        "doesn't",
+        "isn't"
+      ],
+      "a": 1,
+      "why": "she + глагол без -ing → doesn't"
+    },
+    {
+      "q": "___ you work here?",
+      "o": [
+        "Are",
+        "Do",
+        "Does"
+      ],
+      "a": 1,
+      "why": "you + work → вопрос через Do"
+    },
+    {
+      "q": "___ he working in the office this week?",
+      "o": [
+        "Does",
+        "Do",
+        "Is"
+      ],
+      "a": 2,
+      "why": "working → вопрос через Is"
+    },
+    {
+      "q": "I ___ the answer.",
+      "o": [
+        "know",
+        "am knowing",
+        "knowing"
+      ],
+      "a": 0,
+      "why": "know — глагол состояния, без -ing"
+    },
+    {
+      "q": "I ___ help right now.",
+      "o": [
+        "need",
+        "am needing",
+        "needs"
+      ],
+      "a": 0,
+      "why": "need — глагол состояния, даже с right now"
+    },
+    {
+      "q": "This company ___ to my boss.",
+      "o": [
+        "belong",
+        "belongs",
+        "is belonging"
+      ],
+      "a": 1,
+      "why": "belong to — состояние; company = it → -s"
+    },
+    {
+      "q": "Water ___ at 100 degrees.",
+      "o": [
+        "boil",
+        "boils",
+        "is boiling"
+      ],
+      "a": 1,
+      "why": "общеизвестный факт → Simple, it → -s"
+    },
+    {
+      "q": "The lesson ___ at 6 tomorrow.",
+      "o": [
+        "starts",
+        "is start",
+        "start"
+      ],
+      "a": 0,
+      "why": "расписание → Simple, lesson = it → -s"
+    },
+    {
+      "q": "When I ___ to the office, I'll call you.",
+      "o": [
+        "will get",
+        "get",
+        "am get"
+      ],
+      "a": 1,
+      "why": "после when о будущем — без will"
+    },
+    {
+      "q": "I usually ___ work at 8.",
+      "o": [
+        "start",
+        "am starting",
+        "starts"
+      ],
+      "a": 0,
+      "why": "usually → Simple"
+    },
+    {
+      "q": "Right now I ___ English.",
+      "o": [
+        "study",
+        "am studying",
+        "studies"
+      ],
+      "a": 1,
+      "why": "right now → am + -ing"
+    },
+    {
+      "q": "I ___ this ad is very good.",
+      "o": [
+        "think",
+        "am thinking",
+        "thinks"
+      ],
+      "a": 0,
+      "why": "think = считаю → Simple"
+    },
+    {
+      "q": "I ___ about changing my job.",
+      "o": [
+        "think",
+        "am thinking",
+        "thinks"
+      ],
+      "a": 1,
+      "why": "think about = обдумываю → Continuous"
+    },
+    {
+      "q": "We ___ dinner now.",
+      "o": [
+        "have",
+        "has",
+        "are having"
+      ],
+      "a": 2,
+      "why": "have dinner = действие, now → are having"
+    },
+    {
+      "q": "The price ___ on the client.",
+      "o": [
+        "depends",
+        "is depending",
+        "depend"
+      ],
+      "a": 0,
+      "why": "depend on — глагол состояния, price = it → -s"
+    },
+    {
+      "q": "Our sales ___ better this month.",
+      "o": [
+        "get",
+        "are getting",
+        "gets"
+      ],
+      "a": 1,
+      "why": "изменение, this month → are getting"
+    },
+    {
+      "q": "I'm ___ a client today.",
+      "o": [
+        "see",
+        "seeing",
+        "sees"
+      ],
+      "a": 1,
+      "why": "see = встречаться (план) → -ing"
+    },
+    {
+      "q": "Lawyers ___ good money.",
+      "o": [
+        "earn",
+        "are earning",
+        "earns"
+      ],
+      "a": 0,
+      "why": "вообще верно → Simple, lawyers = they → без -s"
+    },
+    {
+      "q": "I ___ dealing with that problem right now.",
+      "o": [
+        "don't",
+        "am not",
+        "doesn't"
+      ],
+      "a": 1,
+      "why": "dealing (-ing) → отрицание am not"
+    },
+    {
+      "q": "They ___ studying English at the moment.",
+      "o": [
+        "don't",
+        "aren't",
+        "doesn't"
+      ],
+      "a": 1,
+      "why": "studying (-ing) → aren't"
+    },
+    {
+      "q": "My boss is always ___ about the ads!",
+      "o": [
+        "complain",
+        "complains",
+        "complaining"
+      ],
+      "a": 2,
+      "why": "раздражающая привычка: is always + -ing"
+    }
+  ],
+  "l3": [
+    {
+      "q": "I ___ in Minsk.",
+      "hint": "живу (постоянно) — 1 слово",
+      "a": [
+        "live"
+      ],
+      "why": "постоянно → Simple"
+    },
+    {
+      "q": "She ___ in Warsaw. She was born there.",
+      "hint": "живёт (постоянно) — 1 слово",
+      "a": [
+        "lives"
+      ],
+      "why": "she → -s"
+    },
+    {
+      "q": "This week I ___ from home.",
+      "hint": "работаю (временно) — 2 слова",
+      "a": [
+        "am working",
+        "'m working"
+      ],
+      "why": "this week → am + -ing"
+    },
+    {
+      "q": "My boss ___ at weekends.",
+      "hint": "не работает (вообще) — 2 слова",
+      "a": [
+        "doesn't work",
+        "does not work"
+      ],
+      "why": "he/she → doesn't + глагол без -s"
+    },
+    {
+      "q": "___ she work late?",
+      "hint": "вспомогательный глагол для вопроса — 1 слово",
+      "a": [
+        "does"
+      ],
+      "why": "she + work → Does"
+    },
+    {
+      "q": "Be quiet! The baby ___.",
+      "hint": "спит сейчас — 2 слова",
+      "a": [
+        "is sleeping",
+        "'s sleeping"
+      ],
+      "why": "прямо сейчас → is + -ing"
+    },
+    {
+      "q": "I go to the gym ___ a week.",
+      "hint": "два раза — 1 слово",
+      "a": [
+        "twice"
+      ],
+      "why": "twice a week — два раза в неделю"
+    },
+    {
+      "q": "The train ___ at 7 a.m.",
+      "hint": "отправляется (по расписанию) — 1 слово",
+      "a": [
+        "leaves"
+      ],
+      "why": "расписание → Simple, -s"
+    },
+    {
+      "q": "When I ___ work, I'll call you.",
+      "hint": "закончу — 1 слово, без will",
+      "a": [
+        "finish"
+      ],
+      "why": "после when о будущем — Present Simple"
+    },
+    {
+      "q": "I'm meeting my friends ___ Saturday.",
+      "hint": "предлог перед днём недели — 1 слово",
+      "a": [
+        "on"
+      ],
+      "why": "дни недели → on"
+    },
+    {
+      "q": "I ___ you.",
+      "hint": "понимаю — 1 слово",
+      "a": [
+        "understand"
+      ],
+      "why": "understand — глагол состояния"
+    },
+    {
+      "q": "He ___ a new car.",
+      "hint": "у него есть — 1 слово",
+      "a": [
+        "has"
+      ],
+      "why": "have = владеть → Simple, he → has"
+    },
+    {
+      "q": "Which hotel ___ you staying in?",
+      "hint": "вспомогательный глагол — 1 слово",
+      "a": [
+        "are"
+      ],
+      "why": "staying (-ing) → are"
+    },
+    {
+      "q": "My parents ___ a small family hotel.",
+      "hint": "управляют (постоянно) — 1 слово",
+      "a": [
+        "run"
+      ],
+      "why": "постоянно → Simple, they → без -s"
+    },
+    {
+      "q": "I am ___ the shop while my boss is on holiday.",
+      "hint": "управляю (временно) — глагол с -ing",
+      "a": [
+        "running"
+      ],
+      "why": "run → running (двойная n)"
+    },
+    {
+      "q": "He ___ to find work in the TV industry at the moment.",
+      "hint": "пытается сейчас — 2 слова",
+      "a": [
+        "is trying",
+        "'s trying"
+      ],
+      "why": "at the moment → is + -ing"
+    },
+    {
+      "q": "I am earning the minimum wage ___.",
+      "hint": "в данный момент — 3 слова",
+      "a": [
+        "at the moment"
+      ],
+      "why": "маркер Continuous"
+    },
+    {
+      "q": "I ___ with customers normally.",
+      "hint": "не имею дела (обычно) — 2 слова",
+      "a": [
+        "don't deal",
+        "do not deal"
+      ],
+      "why": "normally → Simple, отрицание don't"
+    },
+    {
+      "q": "___ you working in the office this week?",
+      "hint": "вспомогательный глагол — 1 слово",
+      "a": [
+        "are"
+      ],
+      "why": "working (-ing) → Are"
+    },
+    {
+      "q": "This soup ___ good.",
+      "hint": "на вкус (состояние) — 1 слово",
+      "a": [
+        "tastes"
+      ],
+      "why": "taste = на вкус → Simple, -s"
+    },
+    {
+      "q": "She ___ the soup now.",
+      "hint": "пробует сейчас — 2 слова",
+      "a": [
+        "is tasting",
+        "'s tasting"
+      ],
+      "why": "taste = пробовать (действие) → -ing"
+    },
+    {
+      "q": "I'm helping to organize a conference. I ___ it.",
+      "hint": "мне нравится (сейчас, глагол enjoy) — 2 слова",
+      "a": [
+        "am enjoying",
+        "'m enjoying"
+      ],
+      "why": "enjoy можно в Continuous"
+    },
+    {
+      "q": "I can walk to work. It only ___ ten minutes.",
+      "hint": "занимает (о времени) — 1 слово",
+      "a": [
+        "takes"
+      ],
+      "why": "it → takes"
+    }
+  ],
+  "l4": [
+    {
+      "ru": "Я работаю в маркетинге.",
+      "en": "I work in marketing."
+    },
+    {
+      "ru": "Он не работает здесь.",
+      "en": "He doesn't work here."
+    },
+    {
+      "ru": "Где ты работаешь?",
+      "en": "Where do you work?"
+    },
+    {
+      "ru": "В каком отеле ты живёшь?",
+      "en": "Which hotel are you staying in?"
+    },
+    {
+      "ru": "Она не работает допоздна.",
+      "en": "She doesn't work late."
+    },
+    {
+      "ru": "Они изучают английский?",
+      "en": "Are they studying English?"
+    },
+    {
+      "ru": "Урок начинается в шесть.",
+      "en": "The lesson starts at six."
+    },
+    {
+      "ru": "Этот ноутбук принадлежит моему боссу.",
+      "en": "This laptop belongs to my boss."
+    },
+    {
+      "ru": "Я обдумываю новый проект.",
+      "en": "I'm thinking about a new project."
+    },
+    {
+      "ru": "Моя работа становится интереснее.",
+      "en": "My work is getting more interesting."
+    },
+    {
+      "ru": "Мой клиент вечно жалуется!",
+      "en": "My client is always complaining!"
+    },
+    {
+      "ru": "Я не понимаю этот отчёт.",
+      "en": "I don't understand this report."
+    },
+    {
+      "ru": "Я помогаю организовать конференцию.",
+      "en": "I'm helping to organize a conference."
+    },
+    {
+      "ru": "Я не занимаюсь этой проблемой.",
+      "en": "I'm not dealing with that problem."
+    },
+    {
+      "ru": "Мне нужно поговорить с менеджером.",
+      "en": "I need to speak to the manager."
+    }
+  ],
+  "l5": [
+    {
+      "ru": "Я живу в Минске.",
+      "a": [
+        "I live in Minsk."
+      ],
+      "why": "постоянно → Simple"
+    },
+    {
+      "ru": "Сейчас я живу у друга.",
+      "a": [
+        "I'm living with a friend now.",
+        "I am living with a friend now.",
+        "Now I'm living with a friend.",
+        "At the moment I'm living with a friend."
+      ],
+      "why": "временно → am + -ing"
+    },
+    {
+      "ru": "Она не работает в офисе.",
+      "a": [
+        "She doesn't work in the office.",
+        "She does not work in the office."
+      ],
+      "why": "doesn't + work, без -s"
+    },
+    {
+      "ru": "Ты работаешь из дома?",
+      "a": [
+        "Do you work from home?"
+      ],
+      "why": "вообще → Do you…?"
+    },
+    {
+      "ru": "Ты сейчас работаешь?",
+      "a": [
+        "Are you working now?",
+        "Are you working right now?",
+        "Are you working at the moment?"
+      ],
+      "why": "сейчас → Are you …-ing?"
+    },
+    {
+      "ru": "Я знаю ответ.",
+      "a": [
+        "I know the answer."
+      ],
+      "why": "не I'm knowing — глагол состояния"
+    },
+    {
+      "ru": "Мне нужна помощь.",
+      "a": [
+        "I need help.",
+        "I need some help."
+      ],
+      "why": "не I'm needing — глагол состояния"
+    },
+    {
+      "ru": "Я обычно езжу на работу на автобусе.",
+      "a": [
+        "I usually go to work by bus."
+      ],
+      "why": "usually → Simple; by bus без the"
+    },
+    {
+      "ru": "Поезд отправляется в 7 утра.",
+      "a": [
+        "The train leaves at 7 a.m.",
+        "The train leaves at 7 am.",
+        "The train leaves at seven a.m."
+      ],
+      "why": "расписание → Simple, -s"
+    },
+    {
+      "ru": "Когда я приду домой, я позвоню тебе.",
+      "a": [
+        "When I get home, I'll call you.",
+        "When I get home, I will call you."
+      ],
+      "why": "после when — get, не will get"
+    },
+    {
+      "ru": "В пятницу я встречаюсь с репетитором.",
+      "a": [
+        "I'm meeting my tutor on Friday.",
+        "I am meeting my tutor on Friday."
+      ],
+      "why": "договорённость → Continuous; дни недели → on"
+    },
+    {
+      "ru": "Смотри! Идёт дождь.",
+      "a": [
+        "Look! It's raining.",
+        "Look! It is raining."
+      ],
+      "why": "прямо сейчас → is raining"
+    },
+    {
+      "ru": "Я думаю, это хорошая идея.",
+      "a": [
+        "I think it's a good idea.",
+        "I think it is a good idea.",
+        "I think that it's a good idea."
+      ],
+      "why": "think = считаю → не I'm thinking"
+    },
+    {
+      "ru": "У меня есть машина.",
+      "a": [
+        "I have a car.",
+        "I've got a car."
+      ],
+      "why": "have = владеть → не I'm having"
+    },
+    {
+      "ru": "Мы сейчас обедаем.",
+      "a": [
+        "We're having lunch now.",
+        "We are having lunch now.",
+        "We're having lunch right now."
+      ],
+      "why": "have lunch = действие → -ing"
+    },
+    {
+      "ru": "Это зависит от клиента.",
+      "a": [
+        "It depends on the client."
+      ],
+      "why": "depend on — состояние, it → -s"
+    },
+    {
+      "ru": "Мой английский становится лучше.",
+      "a": [
+        "My English is getting better."
+      ],
+      "why": "изменение → Continuous"
+    },
+    {
+      "ru": "Он вечно жалуется!",
+      "a": [
+        "He's always complaining!",
+        "He is always complaining!"
+      ],
+      "why": "раздражающая привычка → always + -ing"
+    }
+  ],
+  "l6": [
+    {
+      "q": "Where do you work?",
+      "ru": "Где ты работаешь?",
+      "start": "I work…",
+      "model": "I work in marketing. I work from home in Minsk."
+    },
+    {
+      "q": "What do you usually do in the morning?",
+      "ru": "Что ты обычно делаешь утром?",
+      "start": "I usually…",
+      "model": "I usually get up at 7 and start work at 8."
+    },
+    {
+      "q": "What are you working on at the moment?",
+      "ru": "Над чем ты сейчас работаешь?",
+      "start": "At the moment I'm working on…",
+      "model": "At the moment I'm working on a new ad campaign for a client."
+    },
+    {
+      "q": "What are you doing at the moment that is different to your normal habits?",
+      "ru": "Что ты сейчас делаешь не так, как обычно?",
+      "start": "These days I'm…",
+      "model": "These days I'm going to the gym to try and get fit."
+    },
+    {
+      "q": "Are you studying anything these days?",
+      "ru": "Ты сейчас что-нибудь изучаешь?",
+      "start": "Yes, I'm studying…",
+      "model": "Yes, I'm studying English with a tutor twice a week."
+    },
+    {
+      "q": "What do you like about where you live and work?",
+      "ru": "Что тебе нравится в том, где ты живёшь и работаешь?",
+      "start": "I like…",
+      "model": "I like my flat. I work from home, so I don't waste time on the bus."
+    },
+    {
+      "q": "Are there any changes happening in your life?",
+      "ru": "В твоей жизни сейчас что-то меняется?",
+      "start": "Yes, my English is…",
+      "model": "Yes, my English is getting better and I'm thinking about changing my job."
+    }
+  ],
+  "fix": [
+    {
+      "wrong": "I working on a new project.",
+      "a": [
+        "I'm working on a new project.",
+        "I am working on a new project."
+      ],
+      "ru": "Я работаю над новым проектом.",
+      "why": "без am/is/are форма -ing не работает"
+    },
+    {
+      "wrong": "He working from home this week.",
+      "a": [
+        "He's working from home this week.",
+        "He is working from home this week."
+      ],
+      "ru": "На этой неделе он работает из дома.",
+      "why": "he → is + -ing"
+    },
+    {
+      "wrong": "They not studying English.",
+      "a": [
+        "They aren't studying English.",
+        "They are not studying English.",
+        "They're not studying English."
+      ],
+      "ru": "Они не изучают английский.",
+      "why": "отрицание: are + not + -ing"
+    },
+    {
+      "wrong": "I'm knowing the answer.",
+      "a": [
+        "I know the answer."
+      ],
+      "ru": "Я знаю ответ.",
+      "why": "know — глагол состояния, без -ing"
+    },
+    {
+      "wrong": "I'm needing help right now.",
+      "a": [
+        "I need help right now.",
+        "I need some help right now."
+      ],
+      "ru": "Мне нужна помощь прямо сейчас.",
+      "why": "need — глагол состояния, даже с right now"
+    },
+    {
+      "wrong": "This company is belonging to my boss.",
+      "a": [
+        "This company belongs to my boss."
+      ],
+      "ru": "Эта компания принадлежит моему боссу.",
+      "why": "belong to — глагол состояния"
+    },
+    {
+      "wrong": "I'm having a car.",
+      "a": [
+        "I have a car.",
+        "I've got a car."
+      ],
+      "ru": "У меня есть машина.",
+      "why": "have = владеть → Simple"
+    },
+    {
+      "wrong": "I'm thinking it's a good idea.",
+      "a": [
+        "I think it's a good idea.",
+        "I think it is a good idea."
+      ],
+      "ru": "Я думаю, это хорошая идея.",
+      "why": "think = считаю → Simple"
+    },
+    {
+      "wrong": "When I will get home, I'll call you.",
+      "a": [
+        "When I get home, I'll call you.",
+        "When I get home, I will call you."
+      ],
+      "ru": "Когда я приду домой, я тебе позвоню.",
+      "why": "после when о будущем — без will"
+    },
+    {
+      "wrong": "When I will finish work, I'll call you.",
+      "a": [
+        "When I finish work, I'll call you.",
+        "When I finish work, I will call you."
+      ],
+      "ru": "Когда я закончу работу, я тебе позвоню.",
+      "why": "после when — finish, не will finish"
+    }
+  ]
+}

@@ -1,0 +1,1212 @@
+{
+  "id": "04",
+  "num": "4",
+  "title": "Как дела на работе",
+  "date": "11.10",
+  "summary": "Учимся спрашивать и отвечать «Как дела на работе?».\nПовторяем -s у he/she/it и форму «like to / try to + глагол».\nРазбираем местоимения my, his, her, their и слово like.\nГлавная тема — разница on time и in time.\nПлюс фразы о работе: apply for, give a presentation, shout at, on the Internet.",
+  "theory": [
+    {
+      "h": "How's it going? — как спросить «как дела»",
+      "text": [
+        "Спрашиваем: **How's it going?**, **How are you?**, **How's work going?**",
+        "Отвечаем: **Not bad.** / **Very busy!** / **Really well.** И возвращаем вопрос: **How about you?**"
+      ],
+      "ex": [
+        [
+          "How's work going? — Very busy! How about you?",
+          "Как дела на работе? — Очень много дел! А у тебя?"
+        ],
+        [
+          "Not bad, but I have a lot of work.",
+          "Неплохо, но у меня много работы."
+        ]
+      ],
+      "warn": [
+        "How is going with you? → **How's it going?** Слово **it** обязательно."
+      ]
+    },
+    {
+      "h": "-s у he / she / it",
+      "text": [
+        "В Present Simple у he, she, it глагол получает **-s**.",
+        "В отрицании — **doesn't** + глагол без -s.",
+        "После **who** про одного человека тоже -s: a freelancer who **works**."
+      ],
+      "table": [
+        [
+          "Кто",
+          "Утверждение",
+          "Отрицание"
+        ],
+        [
+          "I, you, we, they",
+          "work",
+          "don't work"
+        ],
+        [
+          "he, she, it",
+          "works",
+          "doesn't work"
+        ]
+      ],
+      "ex": [
+        [
+          "She helps parents.",
+          "Она помогает родителям."
+        ],
+        [
+          "He doesn't earn money.",
+          "Он не зарабатывает деньги."
+        ]
+      ],
+      "warn": [
+        "He **don't** earn → He **doesn't** earn.",
+        "She **help** parents → She **helps** parents."
+      ]
+    },
+    {
+      "h": "like to / try to + глагол",
+      "text": [
+        "После **like to**, **try to** глагол в начальной форме, без -s и без will.",
+        "-s ставим только у первого глагола: She **likes** to **help**."
+      ],
+      "ex": [
+        [
+          "She likes to help people.",
+          "Ей нравится помогать людям."
+        ],
+        [
+          "I try to be on time.",
+          "Я стараюсь приходить вовремя."
+        ]
+      ],
+      "warn": [
+        "She likes to **helps** → She likes to **help**.",
+        "I try **will be** on time → I try **to be** on time."
+      ]
+    },
+    {
+      "h": "Местоимения: my, his, her, their",
+      "text": [
+        "Чей? — **my, your, his, her, its, our, their**.",
+        "**their** [зэа] — их. **there** — там. Звучат похоже, пишутся по-разному."
+      ],
+      "table": [
+        [
+          "Кто",
+          "Чей"
+        ],
+        [
+          "I",
+          "my"
+        ],
+        [
+          "you",
+          "your"
+        ],
+        [
+          "he",
+          "his"
+        ],
+        [
+          "she",
+          "her"
+        ],
+        [
+          "it",
+          "its"
+        ],
+        [
+          "we",
+          "our"
+        ],
+        [
+          "they",
+          "their"
+        ]
+      ],
+      "ex": [
+        [
+          "Talita loves her job.",
+          "Талита любит свою работу."
+        ],
+        [
+          "They increased our wages.",
+          "Нам повысили зарплату."
+        ]
+      ]
+    },
+    {
+      "h": "like и as",
+      "text": [
+        "**like** — нравиться: I like my co-workers.",
+        "**like** — как, похоже: Something like this.",
+        "«работать **кем**» — **as**: I work **as** a marketer."
+      ],
+      "ex": [
+        [
+          "He works as an assistant.",
+          "Он работает ассистентом."
+        ],
+        [
+          "It's like this.",
+          "Это вот так."
+        ]
+      ],
+      "warn": [
+        "Jada works **in delivery** → Jada works **as a delivery driver**.",
+        "**part-time** — неполный день. «past time» — такого нет."
+      ]
+    },
+    {
+      "h": "take care of / care for",
+      "text": [
+        "**take care of** — заботиться о ком-то.",
+        "**care for** — ухаживать (например, за больным)."
+      ],
+      "ex": [
+        [
+          "She takes care of her children.",
+          "Она заботится о своих детях."
+        ],
+        [
+          "She cared for her dad.",
+          "Она ухаживала за отцом."
+        ]
+      ],
+      "warn": [
+        "take care **for** kids → take care **of** kids."
+      ]
+    },
+    {
+      "h": "on time / in time",
+      "text": [
+        "**on time** — точно по расписанию, не опоздал.",
+        "**in time** — успел, пока не стало поздно. Часто: **in time to** + глагол.",
+        "**at any time** — в любое время."
+      ],
+      "ex": [
+        [
+          "The plane arrived on time at 8:00 AM.",
+          "Самолёт прилетел вовремя, в 8:00."
+        ],
+        [
+          "I arrived in time to catch the train.",
+          "Я успел на поезд."
+        ],
+        [
+          "Luckily, she remembered in time.",
+          "К счастью, она вовремя вспомнила."
+        ]
+      ],
+      "warn": [
+        "Встреча в 3 — пришёл в 3 → **on time**. Успел до конца / до отправления → **in time**."
+      ]
+    },
+    {
+      "h": "Фразы о работе",
+      "text": [
+        "**apply for** a job — подать заявку, **give a presentation** — выступить с презентацией.",
+        "**shout at** someone — накричать, **talk with** — разговаривать с, **work on** — работать над.",
+        "В интернете, в соцсетях — **on**: on the Internet, on Instagram, on Telegram."
+      ],
+      "ex": [
+        [
+          "I gave my first presentation last week.",
+          "Я впервые выступил с презентацией на прошлой неделе."
+        ],
+        [
+          "We run ads on Instagram.",
+          "Мы запускаем рекламу в Instagram."
+        ]
+      ],
+      "warn": [
+        "«презентовать» → **give a presentation**.",
+        "**in** the Internet → **on** the Internet."
+      ]
+    }
+  ],
+  "vocab": [
+    {
+      "en": "How's it going?",
+      "pron": "хауз ит гОуин",
+      "ru": "Как дела?"
+    },
+    {
+      "en": "How's work going?",
+      "pron": "хауз вёк гОуин",
+      "ru": "Как дела на работе?"
+    },
+    {
+      "en": "Not bad.",
+      "pron": "нот бЭд",
+      "ru": "Неплохо."
+    },
+    {
+      "en": "How about you?",
+      "pron": "хау эбАут ю",
+      "ru": "А у тебя?"
+    },
+    {
+      "en": "I see.",
+      "pron": "ай сИи",
+      "ru": "Понятно."
+    },
+    {
+      "en": "part-time",
+      "pron": "пАт тайм",
+      "ru": "неполный день"
+    },
+    {
+      "en": "take care of",
+      "pron": "тейк кЭа ов",
+      "ru": "заботиться о"
+    },
+    {
+      "en": "care for",
+      "pron": "кЭа фо",
+      "ru": "ухаживать за"
+    },
+    {
+      "en": "accessible",
+      "pron": "эксЭсэбл",
+      "ru": "доступный"
+    },
+    {
+      "en": "parental leave",
+      "pron": "пэрЭнтл лиив",
+      "ru": "декрет"
+    },
+    {
+      "en": "on time",
+      "pron": "он тАйм",
+      "ru": "вовремя, по расписанию"
+    },
+    {
+      "en": "in time",
+      "pron": "ин тАйм",
+      "ru": "успеть, пока не поздно"
+    },
+    {
+      "en": "at any time",
+      "pron": "эт Эни тайм",
+      "ru": "в любое время"
+    },
+    {
+      "en": "flight",
+      "pron": "флАйт",
+      "ru": "рейс"
+    },
+    {
+      "en": "arrive",
+      "pron": "эрАйв",
+      "ru": "прибывать"
+    },
+    {
+      "en": "catch the train",
+      "pron": "кЭтч зэ трейн",
+      "ru": "успеть на поезд"
+    },
+    {
+      "en": "parcel",
+      "pron": "пАсл",
+      "ru": "посылка"
+    },
+    {
+      "en": "however",
+      "pron": "хауЭвэ",
+      "ru": "однако"
+    },
+    {
+      "en": "schedule",
+      "pron": "скЕджул",
+      "ru": "расписание"
+    },
+    {
+      "en": "whole",
+      "pron": "хОул",
+      "ru": "целый"
+    },
+    {
+      "en": "reliable",
+      "pron": "рилАйэбл",
+      "ru": "надёжный"
+    },
+    {
+      "en": "remember",
+      "pron": "римЭмбэ",
+      "ru": "помнить"
+    },
+    {
+      "en": "apply for",
+      "pron": "эплАй фо",
+      "ru": "подать заявку на"
+    },
+    {
+      "en": "interview",
+      "pron": "Интэвью",
+      "ru": "собеседование"
+    },
+    {
+      "en": "give a presentation",
+      "pron": "гив э прэзэнтЭйшн",
+      "ru": "выступить с презентацией"
+    },
+    {
+      "en": "increase",
+      "pron": "инкрИис",
+      "ru": "увеличивать"
+    },
+    {
+      "en": "organize",
+      "pron": "Огэнайз",
+      "ru": "организовать"
+    },
+    {
+      "en": "argument",
+      "pron": "Агьюмэнт",
+      "ru": "спор"
+    },
+    {
+      "en": "shout at",
+      "pron": "шАут эт",
+      "ru": "кричать на"
+    },
+    {
+      "en": "spend",
+      "pron": "спЭнд",
+      "ru": "тратить, проводить"
+    },
+    {
+      "en": "skills",
+      "pron": "скИлз",
+      "ru": "навыки"
+    },
+    {
+      "en": "work on",
+      "pron": "вёк он",
+      "ru": "работать над"
+    },
+    {
+      "en": "recently",
+      "pron": "рИисэнтли",
+      "ru": "недавно"
+    },
+    {
+      "en": "event",
+      "pron": "ивЭнт",
+      "ru": "мероприятие"
+    },
+    {
+      "en": "a couple of",
+      "pron": "э кАпл ов",
+      "ru": "пара, несколько"
+    }
+  ],
+  "l2": [
+    {
+      "q": "How's it ___?",
+      "o": [
+        "go",
+        "going",
+        "goes"
+      ],
+      "a": 1,
+      "why": "How's it going? — устойчивая фраза"
+    },
+    {
+      "q": "Very busy! How ___ you?",
+      "o": [
+        "about",
+        "for",
+        "with"
+      ],
+      "a": 0,
+      "why": "How about you? — «а у тебя?»"
+    },
+    {
+      "q": "She ___ parents with their kids.",
+      "o": [
+        "help",
+        "helps",
+        "helping"
+      ],
+      "a": 1,
+      "why": "she → глагол с -s"
+    },
+    {
+      "q": "He ___ earn money for his job.",
+      "o": [
+        "don't",
+        "doesn't",
+        "isn't"
+      ],
+      "a": 1,
+      "why": "he → doesn't + глагол"
+    },
+    {
+      "q": "She likes to ___ people.",
+      "o": [
+        "helps",
+        "helping",
+        "help"
+      ],
+      "a": 2,
+      "why": "после like to — глагол без -s"
+    },
+    {
+      "q": "I try ___ on time.",
+      "o": [
+        "will be",
+        "to be",
+        "be"
+      ],
+      "a": 1,
+      "why": "try to + глагол"
+    },
+    {
+      "q": "I know a freelancer who ___ on projects.",
+      "o": [
+        "work",
+        "works",
+        "working"
+      ],
+      "a": 1,
+      "why": "who про одного человека → -s"
+    },
+    {
+      "q": "Talita loves ___ job.",
+      "o": [
+        "his",
+        "their",
+        "her"
+      ],
+      "a": 2,
+      "why": "Talita — она → her"
+    },
+    {
+      "q": "Si-Woo doesn't get money for ___ work.",
+      "o": [
+        "his",
+        "her",
+        "its"
+      ],
+      "a": 0,
+      "why": "он → his"
+    },
+    {
+      "q": "Our clients have ___ own shops.",
+      "o": [
+        "there",
+        "their",
+        "they"
+      ],
+      "a": 1,
+      "why": "их → their; there — там"
+    },
+    {
+      "q": "I work ___ a marketer.",
+      "o": [
+        "like",
+        "as",
+        "how"
+      ],
+      "a": 1,
+      "why": "работать кем → as"
+    },
+    {
+      "q": "She works ___ in a café.",
+      "o": [
+        "past time",
+        "part-time",
+        "part time job"
+      ],
+      "a": 1,
+      "why": "неполный день → part-time"
+    },
+    {
+      "q": "She takes care ___ her children.",
+      "o": [
+        "for",
+        "about",
+        "of"
+      ],
+      "a": 2,
+      "why": "take care of — заботиться о"
+    },
+    {
+      "q": "Please be ___ for the meeting at 10.",
+      "o": [
+        "on time",
+        "in time",
+        "at time"
+      ],
+      "a": 0,
+      "why": "по расписанию → on time"
+    },
+    {
+      "q": "I arrived ___ to catch the train.",
+      "o": [
+        "on time",
+        "in time",
+        "at time"
+      ],
+      "a": 1,
+      "why": "успел что-то сделать → in time to"
+    },
+    {
+      "q": "Peter is very reliable. He's always ___.",
+      "o": [
+        "in time",
+        "on time",
+        "at time"
+      ],
+      "a": 1,
+      "why": "всегда пунктуален → on time"
+    },
+    {
+      "q": "Lucy almost forgot the parcel. Luckily, she remembered ___.",
+      "o": [
+        "on time",
+        "in time",
+        "at any time"
+      ],
+      "a": 1,
+      "why": "успела вспомнить, пока не поздно → in time"
+    },
+    {
+      "q": "You can call me at ___ time.",
+      "o": [
+        "any",
+        "some",
+        "every"
+      ],
+      "a": 0,
+      "why": "в любое время → at any time"
+    },
+    {
+      "q": "I ___ for a job at a big agency.",
+      "o": [
+        "applied",
+        "applyed",
+        "apply to"
+      ],
+      "a": 0,
+      "why": "apply → applied for"
+    },
+    {
+      "q": "Last week I ___ a presentation for a client.",
+      "o": [
+        "made",
+        "gave",
+        "did"
+      ],
+      "a": 1,
+      "why": "выступить с презентацией → give (gave) a presentation"
+    },
+    {
+      "q": "My boss shouted ___ me yesterday.",
+      "o": [
+        "on",
+        "to",
+        "at"
+      ],
+      "a": 2,
+      "why": "накричать на → shout at"
+    },
+    {
+      "q": "I spend a lot of time ___ the Internet.",
+      "o": [
+        "in",
+        "on",
+        "at"
+      ],
+      "a": 1,
+      "why": "в интернете → on the Internet"
+    },
+    {
+      "q": "We run ads ___ Instagram.",
+      "o": [
+        "on",
+        "in",
+        "at"
+      ],
+      "a": 0,
+      "why": "в соцсети → on Instagram"
+    },
+    {
+      "q": "Right now I'm ___ on a big project.",
+      "o": [
+        "work",
+        "works",
+        "working"
+      ],
+      "a": 2,
+      "why": "после I'm → -ing"
+    }
+  ],
+  "l3": [
+    {
+      "q": "How's ___ going?",
+      "hint": "работа — 1 слово",
+      "a": [
+        "work"
+      ],
+      "why": "How's work going? — как дела на работе"
+    },
+    {
+      "q": "___ bad, thanks.",
+      "hint": "«неплохо» — первое слово",
+      "a": [
+        "not"
+      ],
+      "why": "Not bad — неплохо"
+    },
+    {
+      "q": "Very busy! How ___ you?",
+      "hint": "«а у тебя?» — 1 слово",
+      "a": [
+        "about"
+      ],
+      "why": "How about you?"
+    },
+    {
+      "q": "My manager ___ our clients a lot.",
+      "hint": "помогает — глагол с -s",
+      "a": [
+        "helps"
+      ],
+      "why": "he/she → -s"
+    },
+    {
+      "q": "Our designer ___ like long meetings.",
+      "hint": "не любит — отрицание для he/she, 1 слово",
+      "a": [
+        "doesn't",
+        "does not"
+      ],
+      "why": "he/she → doesn't"
+    },
+    {
+      "q": "She likes ___ help people.",
+      "hint": "частица перед глаголом — 1 слово",
+      "a": [
+        "to"
+      ],
+      "why": "like to + глагол"
+    },
+    {
+      "q": "I try to ___ on time for every call.",
+      "hint": "быть — 1 слово",
+      "a": [
+        "be"
+      ],
+      "why": "try to be"
+    },
+    {
+      "q": "They increased ___ wages.",
+      "hint": "наши — 1 слово",
+      "a": [
+        "our"
+      ],
+      "why": "we → our"
+    },
+    {
+      "q": "People who work for themselves have ___ own clients.",
+      "hint": "их — 1 слово",
+      "a": [
+        "their"
+      ],
+      "why": "их → their (не there)"
+    },
+    {
+      "q": "He works ___ an assistant.",
+      "hint": "в качестве — 1 слово",
+      "a": [
+        "as"
+      ],
+      "why": "работать кем → as"
+    },
+    {
+      "q": "I work ___ at an agency.",
+      "hint": "неполный день — 1 слово через дефис",
+      "a": [
+        "part-time",
+        "part time"
+      ],
+      "why": "part-time, не past time"
+    },
+    {
+      "q": "She cared ___ her dad when he was ill.",
+      "hint": "ухаживала за — 1 слово",
+      "a": [
+        "for"
+      ],
+      "why": "care for — ухаживать"
+    },
+    {
+      "q": "The interview started ___ time.",
+      "hint": "точно по расписанию — 1 слово",
+      "a": [
+        "on"
+      ],
+      "why": "по расписанию → on time"
+    },
+    {
+      "q": "I sent the report ___ time to show it at the meeting.",
+      "hint": "успел — 1 слово",
+      "a": [
+        "in"
+      ],
+      "why": "успел что-то сделать → in time to"
+    },
+    {
+      "q": "The flight was late today. ___, it's usually on time.",
+      "hint": "однако — 1 слово",
+      "a": [
+        "however"
+      ],
+      "why": "However — однако"
+    },
+    {
+      "q": "I didn't arrive on time, but I saw the ___ film.",
+      "hint": "целый — 1 слово",
+      "a": [
+        "whole"
+      ],
+      "why": "whole — целый"
+    },
+    {
+      "q": "Last month I ___ for three jobs.",
+      "hint": "подал заявку — глагол в прошедшем",
+      "a": [
+        "applied"
+      ],
+      "why": "apply → applied"
+    },
+    {
+      "q": "I ___ a presentation in a meeting last week.",
+      "hint": "выступил (с презентацией) — глагол в прошедшем",
+      "a": [
+        "gave"
+      ],
+      "why": "give → gave a presentation"
+    },
+    {
+      "q": "We had an ___ about the budget.",
+      "hint": "спор — 1 слово",
+      "a": [
+        "argument"
+      ],
+      "why": "argument — спор"
+    },
+    {
+      "q": "I'm ___ with a possible new client.",
+      "hint": "разговариваю — глагол с -ing",
+      "a": [
+        "talking"
+      ],
+      "why": "после I'm → -ing; talk with"
+    },
+    {
+      "q": "I had a ___ of interviews last month.",
+      "hint": "пара — 1 слово",
+      "a": [
+        "couple"
+      ],
+      "why": "a couple of — пара"
+    },
+    {
+      "q": "Our client is ___ TikTok.",
+      "hint": "предлог «в» для соцсети — 1 слово",
+      "a": [
+        "on"
+      ],
+      "why": "on TikTok, on Telegram"
+    },
+    {
+      "q": "The client meeting ___ ___.",
+      "hint": "прошла хорошо — впиши оба слова через пробел",
+      "a": [
+        "went well"
+      ],
+      "why": "go well → went well"
+    }
+  ],
+  "l4": [
+    {
+      "ru": "Как дела на работе? А у тебя?",
+      "en": "How's work going? How about you?"
+    },
+    {
+      "ru": "Неплохо, но у меня много работы.",
+      "en": "Not bad, but I have a lot of work."
+    },
+    {
+      "ru": "Она работает в центре.",
+      "en": "She works in a centre."
+    },
+    {
+      "ru": "Он не получает денег за свою работу.",
+      "en": "He doesn't get paid for his job."
+    },
+    {
+      "ru": "Ей нравится помогать людям.",
+      "en": "She likes to help people."
+    },
+    {
+      "ru": "Я работаю маркетологом.",
+      "en": "I work as a marketer."
+    },
+    {
+      "ru": "Она заботится о своих детях.",
+      "en": "She takes care of her children."
+    },
+    {
+      "ru": "Самолёт прибыл вовремя.",
+      "en": "The plane arrived on time."
+    },
+    {
+      "ru": "Я успел на поезд.",
+      "en": "I arrived in time to catch the train."
+    },
+    {
+      "ru": "Питер очень надёжный.",
+      "en": "Peter is very reliable."
+    },
+    {
+      "ru": "Встреча назначена на 3 часа дня.",
+      "en": "The meeting has been scheduled for 3 pm."
+    },
+    {
+      "ru": "Нам недавно повысили зарплату.",
+      "en": "They increased our wages recently."
+    },
+    {
+      "ru": "Я работаю над очень интересным проектом.",
+      "en": "I'm working on a really interesting project."
+    },
+    {
+      "ru": "Мой начальник накричал на меня.",
+      "en": "My boss shouted at me."
+    },
+    {
+      "ru": "Я нашёл эту информацию в интернете.",
+      "en": "I found this information on the Internet."
+    }
+  ],
+  "l5": [
+    {
+      "ru": "Как дела?",
+      "a": [
+        "How's it going?",
+        "How is it going?",
+        "How are you?"
+      ],
+      "why": "не забудь it: How's it going"
+    },
+    {
+      "ru": "Очень много дел! А у тебя?",
+      "a": [
+        "Very busy! How about you?",
+        "Very busy! And you?"
+      ],
+      "why": "«а у тебя» → How about you"
+    },
+    {
+      "ru": "Понятно.",
+      "a": [
+        "I see."
+      ],
+      "why": "I see — понятно, а не «I understand»"
+    },
+    {
+      "ru": "Она помогает родителям.",
+      "a": [
+        "She helps parents."
+      ],
+      "why": "she → helps с -s"
+    },
+    {
+      "ru": "Он не зарабатывает деньги.",
+      "a": [
+        "He doesn't earn money.",
+        "He does not earn money."
+      ],
+      "why": "he → doesn't, не don't"
+    },
+    {
+      "ru": "Я стараюсь быть вовремя.",
+      "a": [
+        "I try to be on time."
+      ],
+      "why": "try to be, без will"
+    },
+    {
+      "ru": "Талита любит свою работу.",
+      "a": [
+        "Talita loves her job.",
+        "Talita loves her work."
+      ],
+      "why": "она → her"
+    },
+    {
+      "ru": "Он работает ассистентом.",
+      "a": [
+        "He works as an assistant."
+      ],
+      "why": "кем → as, перед гласной an"
+    },
+    {
+      "ru": "Она учится и работает неполный день.",
+      "a": [
+        "She studies and works part-time.",
+        "She studies and works part time."
+      ],
+      "why": "part-time, у обоих глаголов -s"
+    },
+    {
+      "ru": "Пожалуйста, приходи на встречу вовремя.",
+      "a": [
+        "Please be on time for the meeting.",
+        "Please arrive on time for the meeting.",
+        "Please come to the meeting on time."
+      ],
+      "why": "по расписанию → on time"
+    },
+    {
+      "ru": "К счастью, она вовремя вспомнила.",
+      "a": [
+        "Luckily, she remembered in time."
+      ],
+      "why": "успела, пока не поздно → in time"
+    },
+    {
+      "ru": "Рейс обычно прилетает вовремя.",
+      "a": [
+        "The flight is usually on time.",
+        "The flight usually arrives on time."
+      ],
+      "why": "по расписанию → on time"
+    },
+    {
+      "ru": "Звони мне в любое время.",
+      "a": [
+        "Call me at any time.",
+        "Call me any time.",
+        "Call me anytime."
+      ],
+      "why": "в любое время → at any time"
+    },
+    {
+      "ru": "Я подал заявки на много вакансий.",
+      "a": [
+        "I applied for lots of jobs.",
+        "I applied for a lot of jobs.",
+        "I applied for many jobs."
+      ],
+      "why": "apply for — с предлогом for"
+    },
+    {
+      "ru": "Я выступил с презентацией.",
+      "a": [
+        "I gave a presentation."
+      ],
+      "why": "не «presented», а give a presentation"
+    },
+    {
+      "ru": "Мы поспорили об этом.",
+      "a": [
+        "We had an argument about it."
+      ],
+      "why": "поспорить → have an argument"
+    },
+    {
+      "ru": "Я трачу много времени в интернете.",
+      "a": [
+        "I spend a lot of time on the Internet.",
+        "I spend lots of time on the Internet."
+      ],
+      "why": "on the Internet, не in"
+    },
+    {
+      "ru": "Мы запускаем рекламу в Telegram.",
+      "a": [
+        "We run ads on Telegram."
+      ],
+      "why": "соцсеть → on"
+    }
+  ],
+  "l6": [
+    {
+      "q": "How's work going?",
+      "ru": "Как дела на работе?",
+      "start": "Not bad, but…",
+      "model": "Not bad, but I have a lot of work. How about you?"
+    },
+    {
+      "q": "What are you working on right now?",
+      "ru": "Над чем ты сейчас работаешь?",
+      "start": "I'm working on…",
+      "model": "I'm working on a really interesting project for a new client. It's a lot of work."
+    },
+    {
+      "q": "Are you always on time for meetings?",
+      "ru": "Ты всегда приходишь на встречи вовремя?",
+      "start": "I try to…",
+      "model": "I try to be on time. I work from home, so it's easy."
+    },
+    {
+      "q": "Did you give a presentation recently?",
+      "ru": "Ты недавно выступал с презентацией?",
+      "start": "Yes, I gave…",
+      "model": "Yes, I gave a presentation for a client last week and it went really well."
+    },
+    {
+      "q": "Do you know anyone who works on a flexible contract?",
+      "ru": "Ты знаешь кого-то, кто работает по гибкому контракту?",
+      "start": "I don't know anyone…, but…",
+      "model": "I don't know anyone on a flexible contract, but I know a freelancer who works on projects."
+    },
+    {
+      "q": "How much time do you spend on the Internet?",
+      "ru": "Сколько времени ты проводишь в интернете?",
+      "start": "I spend…",
+      "model": "I spend most of my time on the Internet. We run ads on Instagram and on Telegram."
+    },
+    {
+      "q": "What new skills do you want to learn?",
+      "ru": "Какие новые навыки ты хочешь освоить?",
+      "start": "I want to learn…",
+      "model": "I want to learn English. It's an important skill for a marketer."
+    },
+    {
+      "q": "Is it easy to get work experience in Belarus?",
+      "ru": "В Беларуси легко получить опыт работы?",
+      "start": "Yes, it's quite…",
+      "model": "Yes, it's quite easy. You can work in delivery. It's accessible."
+    }
+  ],
+  "fix": [
+    {
+      "wrong": "How is going with you?",
+      "a": [
+        "How's it going?",
+        "How is it going?"
+      ],
+      "ru": "Как дела?",
+      "why": "устойчивая фраза: How's it going?"
+    },
+    {
+      "wrong": "Right now he don't earn money for his job.",
+      "a": [
+        "Right now he doesn't get paid for his job.",
+        "Right now he doesn't earn money for his job.",
+        "He doesn't get paid for his job."
+      ],
+      "ru": "Сейчас он не получает денег за свою работу.",
+      "why": "he → doesn't; естественнее get paid"
+    },
+    {
+      "wrong": "This girl work in center.",
+      "a": [
+        "She works in a centre.",
+        "This girl works in a centre.",
+        "This girl works in a center."
+      ],
+      "ru": "Эта девушка работает в центре.",
+      "why": "she → works; перед centre нужен a"
+    },
+    {
+      "wrong": "This center help for people to take care for kids.",
+      "a": [
+        "The centre helps parents take care of their children.",
+        "This centre helps parents take care of their kids."
+      ],
+      "ru": "Центр помогает родителям заботиться о детях.",
+      "why": "helps с -s, без for; take care of"
+    },
+    {
+      "wrong": "Jada work in delivery past time.",
+      "a": [
+        "Jada works as a delivery driver part-time."
+      ],
+      "ru": "Джейда работает курьером неполный день.",
+      "why": "works с -s; кем → as; part-time, не past time"
+    },
+    {
+      "wrong": "This girl study and work past time with help flexible contract.",
+      "a": [
+        "She studies and works part-time on a flexible contract."
+      ],
+      "ru": "Она учится и работает неполный день по гибкому контракту.",
+      "why": "studies/works с -s; part-time; on a flexible contract"
+    },
+    {
+      "wrong": "She help parents.",
+      "a": [
+        "She helps parents."
+      ],
+      "ru": "Она помогает родителям.",
+      "why": "she → helps"
+    },
+    {
+      "wrong": "She likes to helps people.",
+      "a": [
+        "She likes to help people."
+      ],
+      "ru": "Ей нравится помогать людям.",
+      "why": "после like to — глагол без -s"
+    },
+    {
+      "wrong": "I try will be on time.",
+      "a": [
+        "I try to be on time."
+      ],
+      "ru": "Я стараюсь быть вовремя.",
+      "why": "try to + глагол, без will"
+    },
+    {
+      "wrong": "I know a freelancer who work on projects.",
+      "a": [
+        "I know a freelancer who works on projects."
+      ],
+      "ru": "Я знаю фрилансера, который работает над проектами.",
+      "why": "who про одного человека → works"
+    },
+    {
+      "wrong": "I don't know people who works on a flexible contract.",
+      "a": [
+        "I don't know anyone who works on a flexible contract."
+      ],
+      "ru": "Я не знаю никого, кто работает по гибкому контракту.",
+      "why": "«никого» → anyone, тогда works"
+    },
+    {
+      "wrong": "She takes care for her kids.",
+      "a": [
+        "She takes care of her kids.",
+        "She takes care of her children."
+      ],
+      "ru": "Она заботится о своих детях.",
+      "why": "take care of, не for"
+    },
+    {
+      "wrong": "I think about best job has Talita.",
+      "a": [
+        "I think Talita has the best job."
+      ],
+      "ru": "Я думаю, у Талиты лучшая работа.",
+      "why": "порядок слов: кто + has; the best"
+    },
+    {
+      "wrong": "It's not so useful her work.",
+      "a": [
+        "Her work isn't as useful as Talita's.",
+        "Her work is not as useful as Talita's."
+      ],
+      "ru": "Её работа не такая полезная, как у Талиты.",
+      "why": "подлежащее в начале; not as … as"
+    }
+  ]
+}

@@ -1,0 +1,1342 @@
+{
+  "id": "03",
+  "num": "3",
+  "title": "Работа из дома",
+  "date": "07.10",
+  "summary": "Фразы для работы из дома: созвоны, микрофон, наушники, твой рабочий режим.\nТри истории о работе: Si-Woo (Южная Корея), Talita (Уругвай) и Jada (Манчестер).\nГрамматика: have to / has to / had to («приходится»), myself / themselves, прошедшее время (said, took, left, applied).\nПредлоги и мелочи: at 8 a.m., apply for jobs, hundreds of jobs, two days a week.",
+  "theory": [
+    {
+      "h": "have to — «приходится»",
+      "text": [
+        "**have to + глагол** = мне приходится, я должен (так сложились обстоятельства).",
+        "После have to / has to глагол **всегда в начальной форме**: без -s, без -ed.",
+        "Не теряй **to**: She **has to** work, а не She has work."
+      ],
+      "table": [
+        [
+          "Кто",
+          "Форма"
+        ],
+        [
+          "I, you, we, they",
+          "have to work"
+        ],
+        [
+          "he, she, it",
+          "has to work"
+        ]
+      ],
+      "ex": [
+        [
+          "I have to work late today.",
+          "Сегодня мне приходится работать допоздна."
+        ],
+        [
+          "She has to care for her dad.",
+          "Ей приходится ухаживать за отцом."
+        ],
+        [
+          "He has to work hard.",
+          "Ему приходится много работать."
+        ]
+      ],
+      "warn": [
+        "She has **work** → She **has to** work. Без to смысл другой: «у неё есть работа».",
+        "She has to **works** → She has to **work**. После has to глагол без -s."
+      ]
+    },
+    {
+      "h": "Отрицание и вопрос",
+      "text": [
+        "Отрицание: **don't / doesn't have to** = не нужно, не обязательно.",
+        "Вопрос: **Do / Does ... have to ...?**",
+        "После doesn't и does всегда **have**, не has."
+      ],
+      "table": [
+        [
+          "",
+          "I, you, we, they",
+          "he, she, it"
+        ],
+        [
+          "–",
+          "don't have to go",
+          "doesn't have to go"
+        ],
+        [
+          "?",
+          "Do you have to go?",
+          "Does she have to go?"
+        ]
+      ],
+      "ex": [
+        [
+          "I don't have to go to the office.",
+          "Мне не нужно ходить в офис."
+        ],
+        [
+          "Does she have to work at weekends?",
+          "Ей приходится работать по выходным?"
+        ]
+      ],
+      "warn": [
+        "He doesn't **go** → He doesn't **have to** go, если смысл «ему не нужно».",
+        "**Does** she **has** to…? → **Does** she **have** to…? Does уже показывает he/she."
+      ]
+    },
+    {
+      "h": "had to — «пришлось» (прошлое)",
+      "text": [
+        "Для всех лиц одна форма: **had to + глагол**.",
+        "Если есть **yesterday, last week, ago** — нужно **had to**, а не have to.",
+        "После had to глагол в начальной форме и **обязательно есть глагол**."
+      ],
+      "ex": [
+        [
+          "She had to choose her family.",
+          "Ей пришлось выбрать семью."
+        ],
+        [
+          "Yesterday I had to work late.",
+          "Вчера мне пришлось работать допоздна."
+        ],
+        [
+          "Did you have to take time off?",
+          "Тебе пришлось взять отгул?"
+        ]
+      ],
+      "warn": [
+        "She had to **took** → She had to **take**. Прошлое уже в had.",
+        "I had to my tasks → I had to **do** my tasks. Нужен глагол.",
+        "Yesterday I **have to** → Yesterday I **had to**."
+      ]
+    },
+    {
+      "h": "have или have to?",
+      "text": [
+        "**have + предмет** = у меня есть: I have a laptop.",
+        "**have to + глагол** = мне приходится: I have to work."
+      ],
+      "ex": [
+        [
+          "I have a wireless mouse.",
+          "У меня есть беспроводная мышка."
+        ],
+        [
+          "I have to turn on my microphone.",
+          "Мне нужно включить микрофон."
+        ]
+      ],
+      "warn": [
+        "I have to laptop → I have **a** laptop. После to идёт глагол, а не предмет."
+      ]
+    },
+    {
+      "h": "myself / themselves",
+      "text": [
+        "**work for myself** = работать на себя (без начальника).",
+        "Слова **themselfs** нет, правильно **themselves**."
+      ],
+      "table": [
+        [
+          "Кто",
+          "Сам"
+        ],
+        [
+          "I",
+          "myself"
+        ],
+        [
+          "you",
+          "yourself"
+        ],
+        [
+          "he / she",
+          "himself / herself"
+        ],
+        [
+          "we",
+          "ourselves"
+        ],
+        [
+          "they",
+          "themselves"
+        ]
+      ],
+      "ex": [
+        [
+          "I work for myself.",
+          "Я работаю на себя."
+        ],
+        [
+          "We did it ourselves.",
+          "Мы сделали это сами."
+        ]
+      ]
+    },
+    {
+      "h": "Прошедшее время",
+      "text": [
+        "Правильные глаголы: + **-ed**: cared, started, applied (y → ied).",
+        "Неправильные надо запомнить: say → **said** [сэд], get → **got**, take → **took**, leave → **left**.",
+        "В вопросе и отрицании: **did / didn't + начальная форма**."
+      ],
+      "ex": [
+        [
+          "I left university two years ago.",
+          "Я окончил университет два года назад."
+        ],
+        [
+          "My boss said: don't come back.",
+          "Мой босс сказал: больше не приходи."
+        ]
+      ],
+      "warn": [
+        "I didn't **took** → I didn't **take**."
+      ]
+    },
+    {
+      "h": "Предлоги и мелочи",
+      "text": [
+        "Время по часам: **at** 8 a.m., **at** 7. Через пять минут: **in** five.",
+        "**apply for** jobs · **hundreds of** jobs · **two days a week** · **$1,400 a month**.",
+        "**a** только с одним предметом: a call, a job. С множественным без a: calls, jobs.",
+        "Не забывай **am / is / are**: I**'m** on a call. I**'m** never late."
+      ],
+      "warn": [
+        "I start work **in** 8 → **at** 8.",
+        "I work at marketing agency → at **a** marketing agency.",
+        "call **with** my clients → call my clients."
+      ]
+    },
+    {
+      "h": "hard или hardly?",
+      "text": [
+        "**hard** = много, усердно: He works hard.",
+        "**hardly** = почти не: I hardly earn anything.",
+        "Это разные слова, а не «hard + -ly»."
+      ],
+      "ex": [
+        [
+          "She has to work hard.",
+          "Ей приходится много работать."
+        ],
+        [
+          "Sometimes you hardly earn anything.",
+          "Иногда ты почти ничего не зарабатываешь."
+        ]
+      ],
+      "warn": [
+        "He works **hardly** (= почти не работает!) → He works **hard**."
+      ]
+    }
+  ],
+  "vocab": [
+    {
+      "en": "you're muted",
+      "pron": "юа мьЮтид",
+      "ru": "у тебя выключен микрофон"
+    },
+    {
+      "en": "unmute",
+      "pron": "анмьЮт",
+      "ru": "включи микрофон"
+    },
+    {
+      "en": "put on headphones",
+      "pron": "пут он хЭдфоунз",
+      "ru": "надевать наушники"
+    },
+    {
+      "en": "I'm on a call in five",
+      "pron": "айм он э кол ин файв",
+      "ru": "у меня созвон через пять минут"
+    },
+    {
+      "en": "a wireless mouse",
+      "pron": "э уАйэлэс маус",
+      "ru": "беспроводная мышка"
+    },
+    {
+      "en": "move around",
+      "pron": "мув эрАунд",
+      "ru": "размяться, подвигаться"
+    },
+    {
+      "en": "turn on",
+      "pron": "тён Он",
+      "ru": "включать"
+    },
+    {
+      "en": "turn off",
+      "pron": "тён Оф",
+      "ru": "выключать"
+    },
+    {
+      "en": "a safe space",
+      "pron": "э сэйф спэйс",
+      "ru": "безопасное место"
+    },
+    {
+      "en": "apply for jobs",
+      "pron": "эплАй фо джобз",
+      "ru": "откликаться на вакансии"
+    },
+    {
+      "en": "there's so much competition",
+      "pron": "зэаз сОу мач кампэтИшн",
+      "ru": "огромная конкуренция"
+    },
+    {
+      "en": "without pay",
+      "pron": "уизАут пэй",
+      "ru": "без оплаты"
+    },
+    {
+      "en": "a properly paid job",
+      "pron": "э прОпэли пэйд джоб",
+      "ru": "нормально оплачиваемая работа"
+    },
+    {
+      "en": "Wish me luck!",
+      "pron": "уИш ми лак",
+      "ru": "Пожелай удачи!"
+    },
+    {
+      "en": "for a while",
+      "pron": "фо э уАйл",
+      "ru": "какое-то время"
+    },
+    {
+      "en": "a couple of times",
+      "pron": "э кАпл ов таймз",
+      "ru": "пару раз"
+    },
+    {
+      "en": "take time off",
+      "pron": "тэйк тайм Оф",
+      "ru": "взять отгул"
+    },
+    {
+      "en": "care for",
+      "pron": "кЭа фо",
+      "ru": "ухаживать за"
+    },
+    {
+      "en": "provide",
+      "pron": "прэвАйд",
+      "ru": "предоставлять"
+    },
+    {
+      "en": "grow up",
+      "pron": "грОу ап",
+      "ru": "расти, взрослеть"
+    },
+    {
+      "en": "grateful",
+      "pron": "грЭйтфл",
+      "ru": "благодарный"
+    },
+    {
+      "en": "a flexible contract",
+      "pron": "э флЭксэбл кОнтракт",
+      "ru": "гибкий контракт"
+    },
+    {
+      "en": "hardly",
+      "pron": "хАдли",
+      "ru": "почти не, едва"
+    },
+    {
+      "en": "luckily",
+      "pron": "лАкили",
+      "ru": "к счастью"
+    },
+    {
+      "en": "get on with",
+      "pron": "гет Он уиз",
+      "ru": "ладить с"
+    },
+    {
+      "en": "it suits me",
+      "pron": "ит сьЮтс ми",
+      "ru": "мне это подходит"
+    },
+    {
+      "en": "have to",
+      "pron": "хЭв ту",
+      "ru": "приходится, нужно"
+    },
+    {
+      "en": "work for myself",
+      "pron": "уёк фо майсЭлф",
+      "ru": "работать на себя"
+    },
+    {
+      "en": "themselves",
+      "pron": "зэмсЭлвз",
+      "ru": "сами (они)"
+    },
+    {
+      "en": "said",
+      "pron": "сЭд",
+      "ru": "сказал (say)"
+    },
+    {
+      "en": "left",
+      "pron": "лЕфт",
+      "ru": "ушёл, окончил (leave)"
+    },
+    {
+      "en": "laptop",
+      "pron": "лЭптоп",
+      "ru": "ноутбук"
+    },
+    {
+      "en": "north",
+      "pron": "нОс",
+      "ru": "север"
+    },
+    {
+      "en": "south",
+      "pron": "сАус",
+      "ru": "юг"
+    },
+    {
+      "en": "east",
+      "pron": "Ист",
+      "ru": "восток"
+    }
+  ],
+  "l2": [
+    {
+      "q": "She ___ to care for her dad.",
+      "o": [
+        "have",
+        "has",
+        "having"
+      ],
+      "a": 1,
+      "why": "he/she/it → has to"
+    },
+    {
+      "q": "I ___ to get up at 7 every day.",
+      "o": [
+        "has",
+        "have",
+        "am"
+      ],
+      "a": 1,
+      "why": "I → have to"
+    },
+    {
+      "q": "My boss has ___ check the ads today.",
+      "o": [
+        "to",
+        "for",
+        "—"
+      ],
+      "a": 0,
+      "why": "has to — to не теряем"
+    },
+    {
+      "q": "Jada has to ___ her hours every week.",
+      "o": [
+        "checks",
+        "check",
+        "checked"
+      ],
+      "a": 1,
+      "why": "после has to глагол без -s"
+    },
+    {
+      "q": "He has to ___ late on Fridays.",
+      "o": [
+        "works",
+        "worked",
+        "work"
+      ],
+      "a": 2,
+      "why": "после has to — начальная форма"
+    },
+    {
+      "q": "I have ___ laptop and a wireless mouse.",
+      "o": [
+        "to",
+        "a",
+        "to a"
+      ],
+      "a": 1,
+      "why": "have + предмет = у меня есть, to не нужно"
+    },
+    {
+      "q": "I have ___ unmute before I talk.",
+      "o": [
+        "a",
+        "to",
+        "—"
+      ],
+      "a": 1,
+      "why": "have to + глагол = мне нужно"
+    },
+    {
+      "q": "Last week Talita ___ to take time off.",
+      "o": [
+        "has",
+        "have",
+        "had"
+      ],
+      "a": 2,
+      "why": "last week → had to"
+    },
+    {
+      "q": "Yesterday I had to ___ six tasks.",
+      "o": [
+        "do",
+        "did",
+        "does"
+      ],
+      "a": 0,
+      "why": "после had to — начальная форма"
+    },
+    {
+      "q": "Two years ago he had to ___ for a properly paid job.",
+      "o": [
+        "looked",
+        "look",
+        "looks"
+      ],
+      "a": 1,
+      "why": "прошлое уже в had, глагол без -ed"
+    },
+    {
+      "q": "She had to ___ her family.",
+      "o": [
+        "choose",
+        "chose",
+        "chooses"
+      ],
+      "a": 0,
+      "why": "had to + начальная форма"
+    },
+    {
+      "q": "He doesn't ___ to go to the office.",
+      "o": [
+        "has",
+        "have",
+        "having"
+      ],
+      "a": 1,
+      "why": "после doesn't — have"
+    },
+    {
+      "q": "Does she ___ to work at weekends?",
+      "o": [
+        "has",
+        "have",
+        "had"
+      ],
+      "a": 1,
+      "why": "Does … have to — не has"
+    },
+    {
+      "q": "We don't ___ to start at 8 a.m.",
+      "o": [
+        "have",
+        "has",
+        "had"
+      ],
+      "a": 0,
+      "why": "we → don't have to"
+    },
+    {
+      "q": "Si-Woo applied ___ hundreds of jobs.",
+      "o": [
+        "of",
+        "to",
+        "for"
+      ],
+      "a": 2,
+      "why": "apply for jobs"
+    },
+    {
+      "q": "He applied for hundreds ___ jobs in film.",
+      "o": [
+        "of",
+        "—",
+        "for"
+      ],
+      "a": 0,
+      "why": "hundreds of + сущ."
+    },
+    {
+      "q": "I put on headphones during ___.",
+      "o": [
+        "a calls",
+        "calls",
+        "a call's"
+      ],
+      "a": 1,
+      "why": "множественное число — без a"
+    },
+    {
+      "q": "I start work ___ 8 a.m.",
+      "o": [
+        "in",
+        "on",
+        "at"
+      ],
+      "a": 2,
+      "why": "время по часам → at"
+    },
+    {
+      "q": "Wait, I ___ on a call!",
+      "o": [
+        "—",
+        "'m",
+        "do"
+      ],
+      "a": 1,
+      "why": "I am on a call — нужен am"
+    },
+    {
+      "q": "I work at ___ marketing agency.",
+      "o": [
+        "a",
+        "—",
+        "an"
+      ],
+      "a": 0,
+      "why": "одно агентство → a"
+    },
+    {
+      "q": "Sometimes you ___ earn anything.",
+      "o": [
+        "hard",
+        "hardly",
+        "hards"
+      ],
+      "a": 1,
+      "why": "hardly = почти не"
+    },
+    {
+      "q": "He has to work ___ to get a properly paid job.",
+      "o": [
+        "hardly",
+        "hard",
+        "harder of"
+      ],
+      "a": 1,
+      "why": "hard = много, усердно"
+    },
+    {
+      "q": "They work for ___.",
+      "o": [
+        "themself",
+        "themselfs",
+        "themselves"
+      ],
+      "a": 2,
+      "why": "they → themselves"
+    },
+    {
+      "q": "My boss ___: don't come back.",
+      "o": [
+        "sayed",
+        "said",
+        "says to"
+      ],
+      "a": 1,
+      "why": "say → said (неправильный)"
+    },
+    {
+      "q": "Did you have to ___ time off last month?",
+      "o": [
+        "take",
+        "took",
+        "taking"
+      ],
+      "a": 0,
+      "why": "после did — начальная форма"
+    }
+  ],
+  "l3": [
+    {
+      "q": "She ___ work at weekends.",
+      "hint": "ей приходится — 2 слова",
+      "a": [
+        "has to"
+      ],
+      "why": "she → has to"
+    },
+    {
+      "q": "I ___ turn on my microphone now.",
+      "hint": "мне нужно — 2 слова",
+      "a": [
+        "have to"
+      ],
+      "why": "I → have to"
+    },
+    {
+      "q": "He ___ go to the office. He works from home.",
+      "hint": "ему не нужно — 3 слова",
+      "a": [
+        "doesn't have to",
+        "does not have to"
+      ],
+      "why": "he → doesn't have to"
+    },
+    {
+      "q": "Yesterday I ___ work late.",
+      "hint": "мне пришлось — 2 слова",
+      "a": [
+        "had to"
+      ],
+      "why": "yesterday → had to"
+    },
+    {
+      "q": "Last week we had to ___ a new ad.",
+      "hint": "запустить, начать — глагол start в нужной форме",
+      "a": [
+        "start"
+      ],
+      "why": "после had to — начальная форма"
+    },
+    {
+      "q": "Two years ago she had to ___ time off.",
+      "hint": "взять — глагол take в нужной форме",
+      "a": [
+        "take"
+      ],
+      "why": "had to take, не had to took"
+    },
+    {
+      "q": "This morning I had to ___ my tasks for the week.",
+      "hint": "спланировать — глагол plan",
+      "a": [
+        "plan"
+      ],
+      "why": "после had to нужен глагол"
+    },
+    {
+      "q": "My client has to ___ the contract today.",
+      "hint": "проверить — глагол check в нужной форме",
+      "a": [
+        "check"
+      ],
+      "why": "has to check — без -s"
+    },
+    {
+      "q": "___ she ___ care for her dad?",
+      "hint": "ей приходится…? — впиши оба слова через пробел",
+      "a": [
+        "does have"
+      ],
+      "why": "Does … have to — не has"
+    },
+    {
+      "q": "___ you ___ to work at weekends?",
+      "hint": "тебе приходится…? — впиши оба слова через пробел",
+      "a": [
+        "do have"
+      ],
+      "why": "Do you have to…?"
+    },
+    {
+      "q": "Did you ___ to take time off?",
+      "hint": "пришлось — 1 слово",
+      "a": [
+        "have"
+      ],
+      "why": "did + have to"
+    },
+    {
+      "q": "I have ___ wireless mouse.",
+      "hint": "у меня есть (одна) мышка — 1 слово",
+      "a": [
+        "a"
+      ],
+      "why": "have + a + предмет, без to"
+    },
+    {
+      "q": "He applied ___ jobs in the film industry.",
+      "hint": "откликался на — предлог",
+      "a": [
+        "for"
+      ],
+      "why": "apply for"
+    },
+    {
+      "q": "I applied for ___ jobs.",
+      "hint": "сотни — 2 слова",
+      "a": [
+        "hundreds of"
+      ],
+      "why": "hundreds of jobs"
+    },
+    {
+      "q": "I'm on a call ___ five.",
+      "hint": "через (пять минут) — предлог",
+      "a": [
+        "in"
+      ],
+      "why": "in five = через пять минут"
+    },
+    {
+      "q": "I get up ___ 7 every day.",
+      "hint": "в (7 часов) — предлог",
+      "a": [
+        "at"
+      ],
+      "why": "время по часам → at"
+    },
+    {
+      "q": "I ___ on a call. Please wait.",
+      "hint": "я (нахожусь) — сокращение, 1 слово",
+      "a": [
+        "'m",
+        "am"
+      ],
+      "why": "I'm on a call — без am нельзя"
+    },
+    {
+      "q": "I earn $1,400 ___ month.",
+      "hint": "в месяц — 1 слово",
+      "a": [
+        "a"
+      ],
+      "why": "$1,400 a month"
+    },
+    {
+      "q": "I train two days ___ week.",
+      "hint": "в неделю — 1 слово",
+      "a": [
+        "a"
+      ],
+      "why": "two days a week"
+    },
+    {
+      "q": "Sometimes you ___ earn anything.",
+      "hint": "почти не — 1 слово",
+      "a": [
+        "hardly"
+      ],
+      "why": "hardly = почти не"
+    },
+    {
+      "q": "He works ___ every day.",
+      "hint": "много, усердно — 1 слово",
+      "a": [
+        "hard"
+      ],
+      "why": "hard, не hardly"
+    },
+    {
+      "q": "I work for ___.",
+      "hint": "на себя — 1 слово",
+      "a": [
+        "myself"
+      ],
+      "why": "I → myself"
+    },
+    {
+      "q": "People working for ___ don't have a boss.",
+      "hint": "на себя (они) — 1 слово",
+      "a": [
+        "themselves"
+      ],
+      "why": "they → themselves"
+    },
+    {
+      "q": "I ___ university two years ago.",
+      "hint": "окончил (ушёл) — leave в прошедшем",
+      "a": [
+        "left"
+      ],
+      "why": "leave → left"
+    },
+    {
+      "q": "My boss ___ I can work from home.",
+      "hint": "сказал — say в прошедшем",
+      "a": [
+        "said"
+      ],
+      "why": "say → said [сэд]"
+    }
+  ],
+  "l4": [
+    {
+      "ru": "У меня есть беспроводная мышка.",
+      "en": "I have a wireless mouse."
+    },
+    {
+      "ru": "У меня созвон через пять минут.",
+      "en": "I'm on a call in five."
+    },
+    {
+      "ru": "Я надеваю наушники во время созвонов.",
+      "en": "I put on headphones during calls."
+    },
+    {
+      "ru": "Я начинаю работу в 8 утра.",
+      "en": "I start work at 8 a.m."
+    },
+    {
+      "ru": "Мне не нужно ходить в офис.",
+      "en": "I don't have to go to the office."
+    },
+    {
+      "ru": "Сегодня мне приходится работать допоздна.",
+      "en": "I have to work late today."
+    },
+    {
+      "ru": "Ей пришлось выбрать семью.",
+      "en": "She had to choose her family."
+    },
+    {
+      "ru": "Он откликнулся на сотни вакансий.",
+      "en": "He applied for hundreds of jobs."
+    },
+    {
+      "ru": "Там огромная конкуренция.",
+      "en": "There's so much competition."
+    },
+    {
+      "ru": "Мои часы меняются каждую неделю.",
+      "en": "My hours change every week."
+    },
+    {
+      "ru": "Иногда ты почти ничего не зарабатываешь.",
+      "en": "Sometimes you hardly earn anything."
+    },
+    {
+      "ru": "Какое-то время у меня была работа на полставки.",
+      "en": "I had a part-time job for a while."
+    },
+    {
+      "ru": "Они работают на себя.",
+      "en": "They work for themselves."
+    },
+    {
+      "ru": "Ей приходится работать по выходным?",
+      "en": "Does she have to work at weekends?"
+    }
+  ],
+  "l5": [
+    {
+      "ru": "Ей приходится ухаживать за отцом.",
+      "a": [
+        "She has to care for her dad.",
+        "She has to care for her father."
+      ],
+      "why": "has to + care — без -s, не теряй to"
+    },
+    {
+      "ru": "Ему не нужно ходить в офис.",
+      "a": [
+        "He doesn't have to go to the office.",
+        "He does not have to go to the office."
+      ],
+      "why": "не нужно = doesn't have to, а не doesn't go"
+    },
+    {
+      "ru": "Мне приходится много работать.",
+      "a": [
+        "I have to work hard.",
+        "I have to work a lot."
+      ],
+      "why": "много работать = work hard, не hardly"
+    },
+    {
+      "ru": "Вчера мне пришлось работать допоздна.",
+      "a": [
+        "Yesterday I had to work late.",
+        "I had to work late yesterday."
+      ],
+      "why": "yesterday → had to"
+    },
+    {
+      "ru": "На прошлой неделе ей пришлось взять отгул.",
+      "a": [
+        "Last week she had to take time off.",
+        "She had to take time off last week."
+      ],
+      "why": "had to take — не took"
+    },
+    {
+      "ru": "Мне пришлось сделать мои задачи.",
+      "a": [
+        "I had to do my tasks."
+      ],
+      "why": "после had to нужен глагол do"
+    },
+    {
+      "ru": "Ей приходится работать по выходным?",
+      "a": [
+        "Does she have to work at weekends?",
+        "Does she have to work on weekends?"
+      ],
+      "why": "Does … have to, не has to"
+    },
+    {
+      "ru": "Тебе пришлось работать без оплаты?",
+      "a": [
+        "Did you have to work without pay?"
+      ],
+      "why": "Did you have to + глагол"
+    },
+    {
+      "ru": "У меня есть ноутбук и микрофон.",
+      "a": [
+        "I have a laptop and a microphone."
+      ],
+      "why": "есть = have + a, без to"
+    },
+    {
+      "ru": "Мне нужно включить микрофон.",
+      "a": [
+        "I have to turn on my microphone.",
+        "I have to turn my microphone on.",
+        "I have to unmute."
+      ],
+      "why": "нужно + глагол = have to"
+    },
+    {
+      "ru": "Я откликнулся на сотни вакансий.",
+      "a": [
+        "I applied for hundreds of jobs."
+      ],
+      "why": "apply for, hundreds of"
+    },
+    {
+      "ru": "Я на созвоне.",
+      "a": [
+        "I'm on a call.",
+        "I am on a call."
+      ],
+      "why": "не забывай am"
+    },
+    {
+      "ru": "Я начинаю работу в 8 утра.",
+      "a": [
+        "I start work at 8 a.m.",
+        "I start work at eight a.m.",
+        "I start work at 8 in the morning."
+      ],
+      "why": "время по часам → at"
+    },
+    {
+      "ru": "Я работаю в маркетинговом агентстве.",
+      "a": [
+        "I work at a marketing agency.",
+        "I work for a marketing agency.",
+        "I work in a marketing agency."
+      ],
+      "why": "одно агентство → a"
+    },
+    {
+      "ru": "Я анализирую рекламу каждый день.",
+      "a": [
+        "I analyze ads every day.",
+        "I analyse ads every day.",
+        "I analyze the ads every day."
+      ],
+      "why": "я анализирую = I analyze, не It is analyze"
+    },
+    {
+      "ru": "Мне приходится звонить моим клиентам.",
+      "a": [
+        "I have to call my clients."
+      ],
+      "why": "call my clients — без with"
+    },
+    {
+      "ru": "Я зарабатываю 1400 долларов в месяц.",
+      "a": [
+        "I earn $1,400 a month.",
+        "I earn 1,400 dollars a month.",
+        "I earn $1400 a month."
+      ],
+      "why": "в месяц = a month"
+    },
+    {
+      "ru": "Я надеваю наушники во время созвонов.",
+      "a": [
+        "I put on headphones during calls.",
+        "I put headphones on during calls.",
+        "I put on my headphones during calls."
+      ],
+      "why": "во множественном — без a"
+    },
+    {
+      "ru": "Иногда я почти ничего не зарабатываю.",
+      "a": [
+        "Sometimes I hardly earn anything."
+      ],
+      "why": "почти не = hardly"
+    },
+    {
+      "ru": "Я работаю на себя.",
+      "a": [
+        "I work for myself."
+      ],
+      "why": "I → myself"
+    }
+  ],
+  "l6": [
+    {
+      "q": "Do you have to work at weekends?",
+      "ru": "Тебе приходится работать по выходным?",
+      "start": "Sometimes I have to…",
+      "model": "Sometimes I have to work at weekends, but not often."
+    },
+    {
+      "q": "What time do you start work?",
+      "ru": "Во сколько ты начинаешь работу?",
+      "start": "I start work at…",
+      "model": "I start work at 8 a.m. every working day."
+    },
+    {
+      "q": "Do you have to go to the office?",
+      "ru": "Тебе нужно ходить в офис?",
+      "start": "No, I don't have to…",
+      "model": "No, I don't have to go to the office. I work from home."
+    },
+    {
+      "q": "What do you have in your workspace?",
+      "ru": "Что у тебя на рабочем месте?",
+      "start": "I have a…",
+      "model": "I have a laptop, a microphone and a wireless mouse."
+    },
+    {
+      "q": "What did you have to do yesterday?",
+      "ru": "Что тебе пришлось делать вчера?",
+      "start": "Yesterday I had to…",
+      "model": "Yesterday I had to call my clients and check our ads."
+    },
+    {
+      "q": "Do you put on headphones during calls?",
+      "ru": "Ты надеваешь наушники во время созвонов?",
+      "start": "Yes, I put on… / No, I…",
+      "model": "No, I don't put on headphones. I use my laptop's speakers."
+    },
+    {
+      "q": "Do you want to work for yourself one day?",
+      "ru": "Ты хочешь когда-нибудь работать на себя?",
+      "start": "Yes, I want to work for…",
+      "model": "Yes, I want to work for myself one day. Wish me luck!"
+    }
+  ],
+  "fix": [
+    {
+      "wrong": "She has work at weekends.",
+      "a": [
+        "She has to work at weekends."
+      ],
+      "ru": "Ей приходится работать по выходным.",
+      "why": "не теряй to: has to work"
+    },
+    {
+      "wrong": "He doesn't go to the office, he works from home.",
+      "a": [
+        "He doesn't have to go to the office, he works from home.",
+        "He does not have to go to the office, he works from home."
+      ],
+      "ru": "Ему не нужно ходить в офис, он работает из дома.",
+      "why": "не нужно = doesn't have to"
+    },
+    {
+      "wrong": "She has to works every day.",
+      "a": [
+        "She has to work every day."
+      ],
+      "ru": "Ей приходится работать каждый день.",
+      "why": "после has to глагол без -s"
+    },
+    {
+      "wrong": "Last week she had to took time off.",
+      "a": [
+        "Last week she had to take time off.",
+        "She had to take time off last week."
+      ],
+      "ru": "На прошлой неделе ей пришлось взять отгул.",
+      "why": "had to + начальная форма: take"
+    },
+    {
+      "wrong": "Yesterday I had to my tasks.",
+      "a": [
+        "Yesterday I had to do my tasks.",
+        "I had to do my tasks yesterday."
+      ],
+      "ru": "Вчера мне пришлось делать мои задачи.",
+      "why": "после had to нужен глагол"
+    },
+    {
+      "wrong": "Two years ago I have to work without pay.",
+      "a": [
+        "Two years ago I had to work without pay.",
+        "I had to work without pay two years ago."
+      ],
+      "ru": "Два года назад мне пришлось работать без оплаты.",
+      "why": "ago → had to"
+    },
+    {
+      "wrong": "Does she has to care for her dad?",
+      "a": [
+        "Does she have to care for her dad?"
+      ],
+      "ru": "Ей приходится ухаживать за отцом?",
+      "why": "Does … have to, не has"
+    },
+    {
+      "wrong": "I have to laptop and a wireless mouse.",
+      "a": [
+        "I have a laptop and a wireless mouse."
+      ],
+      "ru": "У меня есть ноутбук и беспроводная мышка.",
+      "why": "есть = have a, без to"
+    },
+    {
+      "wrong": "I applied of hundreds jobs.",
+      "a": [
+        "I applied for hundreds of jobs."
+      ],
+      "ru": "Я откликнулся на сотни вакансий.",
+      "why": "apply for + hundreds of"
+    },
+    {
+      "wrong": "I put on headphones during a calls.",
+      "a": [
+        "I put on headphones during calls.",
+        "I put headphones on during calls."
+      ],
+      "ru": "Я надеваю наушники во время созвонов.",
+      "why": "множественное число — без a"
+    },
+    {
+      "wrong": "He applied for a jobs in film.",
+      "a": [
+        "He applied for jobs in film."
+      ],
+      "ru": "Он откликался на вакансии в кино.",
+      "why": "jobs — множественное, без a"
+    },
+    {
+      "wrong": "He works hardly every day.",
+      "a": [
+        "He works hard every day."
+      ],
+      "ru": "Он много работает каждый день.",
+      "why": "hard = усердно, hardly = почти не"
+    },
+    {
+      "wrong": "I start work in 7.",
+      "a": [
+        "I start work at 7.",
+        "I start work at seven."
+      ],
+      "ru": "Я начинаю работу в 7.",
+      "why": "время по часам → at"
+    },
+    {
+      "wrong": "I on a call.",
+      "a": [
+        "I'm on a call.",
+        "I am on a call."
+      ],
+      "ru": "Я на созвоне.",
+      "why": "нужен am: I'm"
+    },
+    {
+      "wrong": "It is analyze ads every day.",
+      "a": [
+        "I analyze ads every day.",
+        "I analyse ads every day."
+      ],
+      "ru": "Я анализирую рекламу каждый день.",
+      "why": "я = I, просто I analyze"
+    },
+    {
+      "wrong": "I have to call with my clients.",
+      "a": [
+        "I have to call my clients."
+      ],
+      "ru": "Мне нужно позвонить моим клиентам.",
+      "why": "call кого-то — без with"
+    },
+    {
+      "wrong": "I work at marketing agency.",
+      "a": [
+        "I work at a marketing agency."
+      ],
+      "ru": "Я работаю в маркетинговом агентстве.",
+      "why": "одно агентство → a"
+    },
+    {
+      "wrong": "I earn $1400 in month.",
+      "a": [
+        "I earn $1,400 a month.",
+        "I earn $1400 a month."
+      ],
+      "ru": "Я зарабатываю 1400 долларов в месяц.",
+      "why": "в месяц = a month"
+    },
+    {
+      "wrong": "Each task have time.",
+      "a": [
+        "Each task has its time."
+      ],
+      "ru": "У каждой задачи своё время.",
+      "why": "each task = it → has"
+    },
+    {
+      "wrong": "Sometimes we call team with team.",
+      "a": [
+        "Sometimes we have team calls."
+      ],
+      "ru": "Иногда у нас командные созвоны.",
+      "why": "созвоны = have team calls"
+    },
+    {
+      "wrong": "I don't put in on headphone when I on video meeting because I using dynamic my netbook.",
+      "a": [
+        "I don't put on headphones during video calls because I use my laptop's speakers."
+      ],
+      "ru": "Я не надеваю наушники на видеосозвонах, потому что использую динамики ноутбука.",
+      "why": "put on headphones, I use, laptop, speakers"
+    },
+    {
+      "wrong": "I don't late.",
+      "a": [
+        "I'm never late.",
+        "I am never late."
+      ],
+      "ru": "Я никогда не опаздываю.",
+      "why": "late — с am: I'm never late"
+    },
+    {
+      "wrong": "My workspace it's netbook, microphone and computer mouse.",
+      "a": [
+        "My workspace is a laptop, a microphone and a computer mouse."
+      ],
+      "ru": "Моё рабочее место — ноутбук, микрофон и компьютерная мышка.",
+      "why": "без it's; laptop; a перед каждым предметом"
+    },
+    {
+      "wrong": "Training two days in week.",
+      "a": [
+        "I train two days a week."
+      ],
+      "ru": "Я тренируюсь два дня в неделю.",
+      "why": "нужно I; в неделю = a week"
+    },
+    {
+      "wrong": "I start work in 8 a.m.",
+      "a": [
+        "I start work at 8 a.m."
+      ],
+      "ru": "Я начинаю работу в 8 утра.",
+      "why": "время по часам → at"
+    }
+  ]
+}

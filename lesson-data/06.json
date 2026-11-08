@@ -1,0 +1,1236 @@
+{
+  "id": "06",
+  "num": "6",
+  "title": "Артикли и времена",
+  "date": "20.10",
+  "summary": "Когда ставить a, an, the, а когда артикль не нужен (страны, сферы, неисчисляемые слова).\nОкончания -s / -es / -ies для he, she, it и слова частоты: always, often, once a week.\nОтрицания и вопросы с do / does, окончание -ing.\nPresent Simple (обычно) или Continuous (сейчас), порядок слов и типичные ошибки из русского.",
+  "theory": [
+    {
+      "h": "a / an — один предмет, впервые",
+      "text": [
+        "**a / an** — когда говорим об одном предмете или человеке впервые.",
+        "**an** — перед гласным **звуком**: an engineer. Перед согласным — **a**: a meeting.",
+        "a + прилагательное + существительное: **a new job**, **a nice person**.",
+        "Профессия после is / am / are — всегда с a / an: I am **a** student."
+      ],
+      "ex": [
+        [
+          "I have a meeting at ten.",
+          "У меня встреча в десять."
+        ],
+        [
+          "She is an engineer.",
+          "Она инженер."
+        ],
+        [
+          "She has got a new job.",
+          "У неё новая работа."
+        ]
+      ],
+      "warn": [
+        "I have **meeting** at ten → I have **a meeting** at ten.",
+        "is / am / are — это не артикль. My co-workers **the** nice people → My co-workers **are** nice people."
+      ]
+    },
+    {
+      "h": "the и без артикля",
+      "text": [
+        "**the** — когда предмет уже упоминали: The meeting starts at ten.",
+        "**the** — с превосходной степенью и minimum / maximum: **the best** job, **the minimum** wage.",
+        "**Без артикля** — множественное число в общем: nice people, new tables.",
+        "**Без артикля** — неисчисляемые: advice, research, work, money, information.",
+        "Без артикля: do research, have lunch, at work, go to work."
+      ],
+      "ex": [
+        [
+          "The meeting is about a new project.",
+          "Встреча — о новом проекте."
+        ],
+        [
+          "She earns the minimum wage.",
+          "Она получает минимальную зарплату."
+        ],
+        [
+          "He gave me good advice.",
+          "Он дал мне хороший совет."
+        ]
+      ],
+      "warn": [
+        "**a** advice, **a** research — нельзя. Говори: good advice, I do research.",
+        "nice people — без артикля, но a nice person — с a."
+      ]
+    },
+    {
+      "h": "Страны и сферы работы",
+      "text": [
+        "Сферы — без артикля: work in **education**, **IT**, **marketing**.",
+        "Но: work in **the** fashion industry / **the** beauty industry, work for **the** government.",
+        "Страны и города — без артикля: Belarus, Poland, London, Minsk.",
+        "Но: **the** USA, **the** UK, **the** Netherlands, **the** Philippines, **the** Republic of Belarus."
+      ],
+      "table": [
+        [
+          "Без артикля",
+          "С the"
+        ],
+        [
+          "in education, in IT, in marketing",
+          "in the fashion industry"
+        ],
+        [
+          "Belarus, Poland, Minsk, London",
+          "the USA, the UK, the Netherlands"
+        ]
+      ],
+      "ex": [
+        [
+          "I work in education.",
+          "Я работаю в сфере образования."
+        ],
+        [
+          "My sister works in the fashion industry.",
+          "Моя сестра работает в индустрии моды."
+        ],
+        [
+          "My friend lives in the USA.",
+          "Мой друг живёт в США."
+        ]
+      ]
+    },
+    {
+      "h": "-s, -es, -ies для he, she, it",
+      "text": [
+        "Обычно **-s**: works, earns, runs.",
+        "После -s, -sh, -ch, -x, -o → **-es**: watches, finishes, goes, does.",
+        "Согласная + y → **-ies**: studies, applies, tries. Гласная + y → **-s**: plays, pays.",
+        "have → **has**.",
+        "Слова частоты: always, usually, often, sometimes, rarely, never; once a week, twice a week, three times a week."
+      ],
+      "table": [
+        [
+          "Правило",
+          "Пример"
+        ],
+        [
+          "обычно -s",
+          "work → works"
+        ],
+        [
+          "-s, -sh, -ch, -x, -o → -es",
+          "watch → watches, go → goes"
+        ],
+        [
+          "согласная + y → -ies",
+          "study → studies"
+        ],
+        [
+          "гласная + y → -s",
+          "pay → pays"
+        ],
+        [
+          "have",
+          "has"
+        ]
+      ],
+      "ex": [
+        [
+          "He studies English in the evenings.",
+          "Он изучает английский по вечерам."
+        ],
+        [
+          "She finishes work at six.",
+          "Она заканчивает работу в шесть."
+        ]
+      ],
+      "warn": [
+        "Два раза — **twice**, не two times. Один раз — **once**. Дальше: three times."
+      ]
+    },
+    {
+      "h": "Отрицания и вопросы: do / does",
+      "text": [
+        "Отрицание: I / you / we / they **don't**, he / she / it **doesn't** + глагол без -s.",
+        "Вопрос: **Do** you…? **Does** she…? + глагол без -s.",
+        "Краткий ответ: Yes, she does. / No, she doesn't."
+      ],
+      "ex": [
+        [
+          "She doesn't get on with her boss.",
+          "Она не ладит со своим начальником."
+        ],
+        [
+          "Does she work full-time?",
+          "Она работает полный день?"
+        ],
+        [
+          "What time do you usually start work?",
+          "Во сколько ты обычно начинаешь работу?"
+        ]
+      ],
+      "warn": [
+        "Does she **works** → Does she **work**? -s уже есть в does.",
+        "He **not works** → He **doesn't work**."
+      ]
+    },
+    {
+      "h": "-ing и Simple или Continuous",
+      "text": [
+        "-ing: work → working; make → making (без e); run → running, plan → planning (удвоение); lie → lying; study → studying.",
+        "**Present Simple** — обычно, всегда, регулярно: I work for a travel company.",
+        "**Present Continuous** (am / is / are + -ing) — прямо сейчас или временно: I am working from home this week.",
+        "Маркеры Continuous: now, right now, at the moment, today, this week, Look!, Listen!",
+        "like — обычно в Simple: I like this app."
+      ],
+      "ex": [
+        [
+          "The manager is talking on the phone right now.",
+          "Менеджер сейчас разговаривает по телефону."
+        ],
+        [
+          "She starts at eight every day.",
+          "Она начинает в восемь каждый день."
+        ],
+        [
+          "He isn't working today.",
+          "Сегодня он не работает."
+        ]
+      ],
+      "warn": [
+        "Are you **listen** to me? → Are you **listening** to me? В Continuous нужен -ing.",
+        "The manager **dealing** with enquiries → The manager **deals** with enquiries. Без is нет Continuous; обычно → Simple.",
+        "own [оун] — собственный, company [кАмпэни] — компания, campaign [кэмпЕйн] — рекламная кампания. Не путай."
+      ]
+    },
+    {
+      "h": "Порядок слов и вопросы",
+      "text": [
+        "Кто → что делает → что / кого → где → когда.",
+        "Слова частоты — **перед глаголом**, но **после** am / is / are: I usually work late. She is always on time.",
+        "Вопрос: (слово) + do / does / am / is / are + кто + глагол: What **is he** doing now?",
+        "Предлог — в конце: Who do you work **for**?",
+        "who — подлежащее (кто?) → без do: Who **works** here?"
+      ],
+      "table": [
+        [
+          "Кто",
+          "Что делает",
+          "Что / кого",
+          "Где",
+          "Когда"
+        ],
+        [
+          "I",
+          "deal with",
+          "enquiries",
+          "at the office",
+          "on Mondays"
+        ]
+      ],
+      "ex": [
+        [
+          "We run a small restaurant in London.",
+          "Мы управляем небольшим рестораном в Лондоне."
+        ],
+        [
+          "Who works here?",
+          "Кто здесь работает?"
+        ]
+      ],
+      "warn": [
+        "**What he is** doing now? → **What is he** doing now?",
+        "I **very like** my job → I like my job **very much**.",
+        "I don't know **nothing** → I don't know **anything**. В английском одно отрицание."
+      ]
+    }
+  ],
+  "vocab": [
+    {
+      "en": "minimum wage",
+      "pron": "мИнимэм уэйдж",
+      "ru": "минимальная зарплата"
+    },
+    {
+      "en": "co-worker",
+      "pron": "кОу-уёкэ",
+      "ru": "коллега"
+    },
+    {
+      "en": "advice",
+      "pron": "эдвАйс",
+      "ru": "совет"
+    },
+    {
+      "en": "research",
+      "pron": "рисЁрч",
+      "ru": "исследование"
+    },
+    {
+      "en": "engineer",
+      "pron": "энджинИэ",
+      "ru": "инженер"
+    },
+    {
+      "en": "education",
+      "pron": "эджукЕйшн",
+      "ru": "образование"
+    },
+    {
+      "en": "fashion industry",
+      "pron": "фЭшн Индастри",
+      "ru": "индустрия моды"
+    },
+    {
+      "en": "government",
+      "pron": "гАвэнмэнт",
+      "ru": "правительство"
+    },
+    {
+      "en": "earn",
+      "pron": "Ён",
+      "ru": "зарабатывать"
+    },
+    {
+      "en": "enquiry",
+      "pron": "инкуАйэри",
+      "ru": "запрос, обращение"
+    },
+    {
+      "en": "deal with",
+      "pron": "дИл уиз",
+      "ru": "заниматься, обрабатывать"
+    },
+    {
+      "en": "get on with",
+      "pron": "гет Он уиз",
+      "ru": "ладить с"
+    },
+    {
+      "en": "full-time",
+      "pron": "фул тАйм",
+      "ru": "на полный день"
+    },
+    {
+      "en": "apply",
+      "pron": "эплАй",
+      "ru": "подавать заявку"
+    },
+    {
+      "en": "always",
+      "pron": "Олуэйз",
+      "ru": "всегда"
+    },
+    {
+      "en": "usually",
+      "pron": "Южуэли",
+      "ru": "обычно"
+    },
+    {
+      "en": "often",
+      "pron": "Офн",
+      "ru": "часто"
+    },
+    {
+      "en": "sometimes",
+      "pron": "сАмтаймз",
+      "ru": "иногда"
+    },
+    {
+      "en": "rarely",
+      "pron": "рЭали",
+      "ru": "редко"
+    },
+    {
+      "en": "never",
+      "pron": "нЭвэ",
+      "ru": "никогда"
+    },
+    {
+      "en": "once a week",
+      "pron": "уАнс э уик",
+      "ru": "раз в неделю"
+    },
+    {
+      "en": "twice a week",
+      "pron": "туАйс э уик",
+      "ru": "два раза в неделю"
+    },
+    {
+      "en": "at the moment",
+      "pron": "эт зэ мОумэнт",
+      "ru": "в данный момент"
+    },
+    {
+      "en": "right now",
+      "pron": "райт нАу",
+      "ru": "прямо сейчас"
+    },
+    {
+      "en": "on time",
+      "pron": "он тАйм",
+      "ru": "вовремя"
+    },
+    {
+      "en": "own",
+      "pron": "Оун",
+      "ru": "собственный"
+    },
+    {
+      "en": "company",
+      "pron": "кАмпэни",
+      "ru": "компания"
+    },
+    {
+      "en": "campaign",
+      "pron": "кэмпЕйн",
+      "ru": "рекламная кампания"
+    },
+    {
+      "en": "run a company",
+      "pron": "ран э кАмпэни",
+      "ru": "управлять компанией"
+    },
+    {
+      "en": "schedule",
+      "pron": "скЕджул",
+      "ru": "расписание"
+    },
+    {
+      "en": "break",
+      "pron": "брЕйк",
+      "ru": "перерыв"
+    },
+    {
+      "en": "time off",
+      "pron": "тайм Оф",
+      "ru": "отгул, свободное время"
+    }
+  ],
+  "l2": [
+    {
+      "q": "I have ___ call with a client at eleven.",
+      "o": [
+        "a",
+        "an",
+        "(без артикля)"
+      ],
+      "a": 0,
+      "why": "один предмет, впервые, согласный звук → a"
+    },
+    {
+      "q": "Kate is ___ engineer.",
+      "o": [
+        "a",
+        "an",
+        "the"
+      ],
+      "a": 1,
+      "why": "engineer начинается с гласного звука → an"
+    },
+    {
+      "q": "I have a call at eleven. ___ call is about our ads.",
+      "o": [
+        "A",
+        "An",
+        "The"
+      ],
+      "a": 2,
+      "why": "звонок уже упоминали → the"
+    },
+    {
+      "q": "My clients are ___ nice people.",
+      "o": [
+        "a",
+        "the",
+        "(без артикля)"
+      ],
+      "a": 2,
+      "why": "people — множественное число в общем → без артикля"
+    },
+    {
+      "q": "We have got ___ new client.",
+      "o": [
+        "a",
+        "an",
+        "(без артикля)"
+      ],
+      "a": 0,
+      "why": "a + прилагательное + существительное; new — согласный звук"
+    },
+    {
+      "q": "This is ___ best agency in Minsk.",
+      "o": [
+        "a",
+        "the",
+        "(без артикля)"
+      ],
+      "a": 1,
+      "why": "превосходная степень (the best) → the"
+    },
+    {
+      "q": "Many people in our city earn ___ minimum wage.",
+      "o": [
+        "a",
+        "the",
+        "(без артикля)"
+      ],
+      "a": 1,
+      "why": "minimum / maximum → the"
+    },
+    {
+      "q": "He gave me ___ useful advice.",
+      "o": [
+        "a",
+        "an",
+        "(без артикля)"
+      ],
+      "a": 2,
+      "why": "advice — неисчисляемое, a / an нельзя"
+    },
+    {
+      "q": "I do ___ research for our clients.",
+      "o": [
+        "a",
+        "an",
+        "(без артикля)"
+      ],
+      "a": 2,
+      "why": "research — неисчисляемое, do research без артикля"
+    },
+    {
+      "q": "I usually have ___ lunch at one.",
+      "o": [
+        "a",
+        "the",
+        "(без артикля)"
+      ],
+      "a": 2,
+      "why": "have lunch — без артикля"
+    },
+    {
+      "q": "My friend works in ___ IT.",
+      "o": [
+        "a",
+        "the",
+        "(без артикля)"
+      ],
+      "a": 2,
+      "why": "сферы (IT, education, marketing) — без артикля"
+    },
+    {
+      "q": "Her friend works in ___ beauty industry.",
+      "o": [
+        "a",
+        "the",
+        "(без артикля)"
+      ],
+      "a": 1,
+      "why": "the beauty industry / the fashion industry — с the"
+    },
+    {
+      "q": "My cousin lives in ___ UK.",
+      "o": [
+        "a",
+        "the",
+        "(без артикля)"
+      ],
+      "a": 1,
+      "why": "the UK, the USA — с the"
+    },
+    {
+      "q": "Our office is in ___ Minsk.",
+      "o": [
+        "a",
+        "the",
+        "(без артикля)"
+      ],
+      "a": 2,
+      "why": "города и страны (Minsk, Belarus) — без артикля"
+    },
+    {
+      "q": "My boss ___ videos about marketing in the evenings.",
+      "o": [
+        "watchs",
+        "watches",
+        "watchies"
+      ],
+      "a": 1,
+      "why": "после -ch → -es: watches"
+    },
+    {
+      "q": "He ___ English three times a week.",
+      "o": [
+        "studys",
+        "studies",
+        "studyes"
+      ],
+      "a": 1,
+      "why": "согласная + y → -ies: studies"
+    },
+    {
+      "q": "She always ___ for coffee.",
+      "o": [
+        "paies",
+        "pays",
+        "pay"
+      ],
+      "a": 1,
+      "why": "гласная + y → просто -s: pays"
+    },
+    {
+      "q": "She ___ get on with her co-workers.",
+      "o": [
+        "don't",
+        "doesn't",
+        "isn't"
+      ],
+      "a": 1,
+      "why": "she + отрицание в Simple → doesn't"
+    },
+    {
+      "q": "___ he work full-time?",
+      "o": [
+        "Do",
+        "Does",
+        "Is"
+      ],
+      "a": 1,
+      "why": "вопрос с he в Simple → Does"
+    },
+    {
+      "q": "Look! The client ___ to my boss.",
+      "o": [
+        "talks",
+        "is talking",
+        "talking"
+      ],
+      "a": 1,
+      "why": "Look! — происходит сейчас → is + -ing"
+    },
+    {
+      "q": "We ___ a break right now.",
+      "o": [
+        "have",
+        "are having",
+        "has"
+      ],
+      "a": 1,
+      "why": "right now → Continuous: are having"
+    },
+    {
+      "q": "She ___ late for meetings.",
+      "o": [
+        "never",
+        "is never",
+        "does never"
+      ],
+      "a": 1,
+      "why": "слово частоты — после is"
+    },
+    {
+      "q": "What ___ he doing now?",
+      "o": [
+        "does",
+        "is",
+        "do"
+      ],
+      "a": 1,
+      "why": "doing → Continuous, вопрос: is he doing"
+    },
+    {
+      "q": "Who ___ here?",
+      "o": [
+        "does work",
+        "works",
+        "do work"
+      ],
+      "a": 1,
+      "why": "who — подлежащее (кто?) → без do, глагол с -s"
+    }
+  ],
+  "l3": [
+    {
+      "q": "She is ___ marketer.",
+      "hint": "артикль перед согласным звуком — 1 слово",
+      "a": [
+        "a"
+      ],
+      "why": "профессия, согласный звук → a"
+    },
+    {
+      "q": "My dad is ___ engineer.",
+      "hint": "артикль перед гласным звуком — 1 слово",
+      "a": [
+        "an"
+      ],
+      "why": "engineer — гласный звук → an"
+    },
+    {
+      "q": "My brother works for ___ government.",
+      "hint": "артикль — 1 слово",
+      "a": [
+        "the"
+      ],
+      "why": "work for the government"
+    },
+    {
+      "q": "My co-workers ___ friendly.",
+      "hint": "глагол «быть» для they — 1 слово",
+      "a": [
+        "are"
+      ],
+      "why": "they → are; без него предложения нет"
+    },
+    {
+      "q": "She ___ work at six.",
+      "hint": "заканчивает — finish для she",
+      "a": [
+        "finishes"
+      ],
+      "why": "после -sh → -es"
+    },
+    {
+      "q": "He ___ to the office by car.",
+      "hint": "ездит — go для he",
+      "a": [
+        "goes"
+      ],
+      "why": "go → goes"
+    },
+    {
+      "q": "My boss ___ a small office.",
+      "hint": "имеет — have для he",
+      "a": [
+        "has"
+      ],
+      "why": "have → has"
+    },
+    {
+      "q": "Tom ___ for a new job.",
+      "hint": "подаёт заявку — apply для he",
+      "a": [
+        "applies"
+      ],
+      "why": "согласная + y → -ies"
+    },
+    {
+      "q": "She ___ earn good money.",
+      "hint": "не зарабатывает — отрицание для she",
+      "a": [
+        "doesn't",
+        "does not"
+      ],
+      "why": "she → doesn't + глагол без -s"
+    },
+    {
+      "q": "___ you work late on Mondays?",
+      "hint": "вспомогательный глагол для вопроса с you — 1 слово",
+      "a": [
+        "do"
+      ],
+      "why": "you → Do"
+    },
+    {
+      "q": "Where ___ she work?",
+      "hint": "вспомогательный глагол для вопроса с she — 1 слово",
+      "a": [
+        "does"
+      ],
+      "why": "she → does, глагол без -s"
+    },
+    {
+      "q": "I go to the gym ___ a week.",
+      "hint": "два раза — 1 слово",
+      "a": [
+        "twice"
+      ],
+      "why": "два раза — twice, не two times"
+    },
+    {
+      "q": "We have a meeting ___ a week.",
+      "hint": "один раз — 1 слово",
+      "a": [
+        "once"
+      ],
+      "why": "один раз — once"
+    },
+    {
+      "q": "Right now I am ___ a post for Instagram.",
+      "hint": "пишу — write + -ing",
+      "a": [
+        "writing"
+      ],
+      "why": "write → writing (e уходит)"
+    },
+    {
+      "q": "They are ___ a new campaign.",
+      "hint": "планируют — plan + -ing",
+      "a": [
+        "planning"
+      ],
+      "why": "plan → planning (n удваивается)"
+    },
+    {
+      "q": "He is ___ English at the moment.",
+      "hint": "изучает — study + -ing",
+      "a": [
+        "studying"
+      ],
+      "why": "study → studying, y не меняется"
+    },
+    {
+      "q": "Listen! The manager ___ on the phone.",
+      "hint": "разговаривает прямо сейчас — 2 слова (is + -ing)",
+      "a": [
+        "is talking"
+      ],
+      "why": "Listen! → Continuous"
+    },
+    {
+      "q": "This week I ___ from home.",
+      "hint": "работаю на этой неделе — 2 слова",
+      "a": [
+        "am working"
+      ],
+      "why": "this week, временно → am + -ing"
+    },
+    {
+      "q": "I ___ check emails in the morning.",
+      "hint": "обычно — слово частоты",
+      "a": [
+        "usually"
+      ],
+      "why": "слово частоты — перед глаголом"
+    },
+    {
+      "q": "My boss is ___ busy on Mondays.",
+      "hint": "всегда — слово частоты",
+      "a": [
+        "always"
+      ],
+      "why": "после is — слово частоты"
+    },
+    {
+      "q": "What ___ you doing now?",
+      "hint": "глагол «быть» для you — 1 слово",
+      "a": [
+        "are"
+      ],
+      "why": "Continuous: are you doing"
+    },
+    {
+      "q": "Who does your sister work ___?",
+      "hint": "на кого — предлог в конце, 1 слово",
+      "a": [
+        "for"
+      ],
+      "why": "Who … work for? — for в конце"
+    },
+    {
+      "q": "I need some ___.",
+      "hint": "отгул — впиши оба слова через пробел",
+      "a": [
+        "time off"
+      ],
+      "why": "time off — отгул, свободное время"
+    }
+  ],
+  "l4": [
+    {
+      "ru": "У неё новая работа.",
+      "en": "She has got a new job."
+    },
+    {
+      "ru": "Моя сестра работает на правительство.",
+      "en": "My sister works for the government."
+    },
+    {
+      "ru": "Это лучшее приложение для изучения английского.",
+      "en": "This is the best app for learning English."
+    },
+    {
+      "ru": "Я обычно работаю допоздна по пятницам.",
+      "en": "I usually work late on Fridays."
+    },
+    {
+      "ru": "Они всегда заняты по понедельникам.",
+      "en": "They are always busy on Mondays."
+    },
+    {
+      "ru": "Я обрабатываю запросы в офисе по понедельникам.",
+      "en": "I deal with enquiries at the office on Mondays."
+    },
+    {
+      "ru": "Мы управляем небольшим рестораном в Лондоне.",
+      "en": "We run a small restaurant in London."
+    },
+    {
+      "ru": "Сегодня они работают над проектом.",
+      "en": "They are working on a project today."
+    },
+    {
+      "ru": "Я беру обеденный перерыв в час.",
+      "en": "I take a lunch break at one."
+    },
+    {
+      "ru": "Мой начальник никогда не работает по выходным.",
+      "en": "My boss never works at weekends."
+    },
+    {
+      "ru": "Моим клиентам очень нравится наша реклама.",
+      "en": "My clients like our ads very much."
+    },
+    {
+      "ru": "Где работает твоя сестра?",
+      "en": "Where does your sister work?"
+    },
+    {
+      "ru": "Она хорошо зарабатывает?",
+      "en": "Does she earn good money?"
+    },
+    {
+      "ru": "Ты ладишь со своим начальником?",
+      "en": "Do you get on with your boss?"
+    },
+    {
+      "ru": "Во сколько начинается твой перерыв?",
+      "en": "What time does your break start?"
+    }
+  ],
+  "l5": [
+    {
+      "ru": "Я маркетолог.",
+      "a": [
+        "I am a marketer.",
+        "I'm a marketer."
+      ],
+      "why": "нужны и am, и a: I am a…"
+    },
+    {
+      "ru": "Она инженер.",
+      "a": [
+        "She is an engineer.",
+        "She's an engineer."
+      ],
+      "why": "гласный звук → an"
+    },
+    {
+      "ru": "Я работаю в маркетинге.",
+      "a": [
+        "I work in marketing."
+      ],
+      "why": "сфера — без артикля"
+    },
+    {
+      "ru": "Я живу в Беларуси.",
+      "a": [
+        "I live in Belarus."
+      ],
+      "why": "страна — без артикля"
+    },
+    {
+      "ru": "Мой друг живёт в США.",
+      "a": [
+        "My friend lives in the USA.",
+        "My friend lives in the US."
+      ],
+      "why": "the USA — с the; lives с -s"
+    },
+    {
+      "ru": "Мне нужен совет.",
+      "a": [
+        "I need advice.",
+        "I need some advice."
+      ],
+      "why": "advice неисчисляемое — без a"
+    },
+    {
+      "ru": "Я провожу исследования для клиентов.",
+      "a": [
+        "I do research for clients.",
+        "I do research for my clients."
+      ],
+      "why": "do research — без a и без -es"
+    },
+    {
+      "ru": "Она смотрит видео в перерыве.",
+      "a": [
+        "She watches videos in her break.",
+        "She watches videos during her break."
+      ],
+      "why": "watch → watches"
+    },
+    {
+      "ru": "Он изучает английский по вечерам.",
+      "a": [
+        "He studies English in the evenings."
+      ],
+      "why": "study → studies; по вечерам — in the evenings"
+    },
+    {
+      "ru": "Он не ладит со своим начальником.",
+      "a": [
+        "He doesn't get on with his boss.",
+        "He does not get on with his boss."
+      ],
+      "why": "doesn't + глагол без -s"
+    },
+    {
+      "ru": "Она работает полный день?",
+      "a": [
+        "Does she work full-time?",
+        "Does she work full time?"
+      ],
+      "why": "Does she work, не works"
+    },
+    {
+      "ru": "Во сколько ты обычно начинаешь работу?",
+      "a": [
+        "What time do you usually start work?"
+      ],
+      "why": "usually — после you, перед глаголом"
+    },
+    {
+      "ru": "Прямо сейчас я работаю над проектом.",
+      "a": [
+        "Right now I am working on a project.",
+        "Right now I'm working on a project.",
+        "I am working on a project right now.",
+        "I'm working on a project right now."
+      ],
+      "why": "right now → am + -ing"
+    },
+    {
+      "ru": "Что она сейчас делает?",
+      "a": [
+        "What is she doing now?",
+        "What's she doing now?"
+      ],
+      "why": "is перед she: What is she…"
+    },
+    {
+      "ru": "Сегодня он не работает.",
+      "a": [
+        "He isn't working today.",
+        "He is not working today.",
+        "He's not working today.",
+        "Today he isn't working."
+      ],
+      "why": "today, временно → isn't + -ing"
+    },
+    {
+      "ru": "Он управляет собственной компанией.",
+      "a": [
+        "He runs his own company."
+      ],
+      "why": "own — собственный, company — компания"
+    },
+    {
+      "ru": "Я плачу за обед раз в неделю.",
+      "a": [
+        "I pay for lunch once a week."
+      ],
+      "why": "lunch без артикля; раз — once"
+    },
+    {
+      "ru": "Мне нужен отгул.",
+      "a": [
+        "I need some time off.",
+        "I need time off."
+      ],
+      "why": "отгул — time off"
+    },
+    {
+      "ru": "На кого работает твоя сестра?",
+      "a": [
+        "Who does your sister work for?"
+      ],
+      "why": "for в конце, does + work без -s"
+    },
+    {
+      "ru": "Кто здесь работает?",
+      "a": [
+        "Who works here?"
+      ],
+      "why": "who — подлежащее, без do"
+    }
+  ],
+  "l6": [
+    {
+      "q": "Where do you work?",
+      "ru": "Где ты работаешь?",
+      "start": "I work for…",
+      "model": "I work for a marketing agency in Minsk. I usually work from home."
+    },
+    {
+      "q": "What do you usually do at work?",
+      "ru": "Что ты обычно делаешь на работе?",
+      "start": "I usually…",
+      "model": "I usually check our ads and deal with enquiries from clients."
+    },
+    {
+      "q": "How often do you have meetings?",
+      "ru": "Как часто у тебя встречи?",
+      "start": "I have meetings…",
+      "model": "I have meetings twice a week, on Mondays and Thursdays."
+    },
+    {
+      "q": "What are you working on at the moment?",
+      "ru": "Над чем ты работаешь в данный момент?",
+      "start": "At the moment I am working on…",
+      "model": "At the moment I am working on a new campaign for a beauty clinic."
+    },
+    {
+      "q": "Do you get on with your co-workers?",
+      "ru": "Ты ладишь с коллегами?",
+      "start": "Yes, I…",
+      "model": "Yes, I get on with my co-workers. They are nice people."
+    },
+    {
+      "q": "What time does your working day start?",
+      "ru": "Во сколько начинается твой рабочий день?",
+      "start": "My working day starts…",
+      "model": "My working day starts at nine. I take a lunch break at one."
+    },
+    {
+      "q": "Do you ever work late?",
+      "ru": "Ты когда-нибудь работаешь допоздна?",
+      "start": "Sometimes I…",
+      "model": "Sometimes I work late, but I never work at weekends."
+    }
+  ],
+  "fix": [
+    {
+      "wrong": "She earns a minimal wage.",
+      "a": [
+        "She earns the minimum wage."
+      ],
+      "ru": "Она получает минимальную зарплату.",
+      "why": "the minimum wage — с the, слово minimum"
+    },
+    {
+      "wrong": "My co-workers the nice people.",
+      "a": [
+        "My co-workers are nice people."
+      ],
+      "ru": "Мои коллеги — приятные люди.",
+      "why": "нужен глагол are; people без артикля"
+    },
+    {
+      "wrong": "He gave me a good advice.",
+      "a": [
+        "He gave me good advice."
+      ],
+      "ru": "Он дал мне хороший совет.",
+      "why": "advice неисчисляемое — без a"
+    },
+    {
+      "wrong": "I have meeting at ten.",
+      "a": [
+        "I have a meeting at ten."
+      ],
+      "ru": "У меня встреча в десять.",
+      "why": "одна встреча, впервые → a"
+    },
+    {
+      "wrong": "The manager dealing with enquiries.",
+      "a": [
+        "The manager deals with enquiries."
+      ],
+      "ru": "Менеджер обрабатывает запросы.",
+      "why": "обычное действие → Simple, he → deals"
+    },
+    {
+      "wrong": "Are you listen to me?",
+      "a": [
+        "Are you listening to me?"
+      ],
+      "ru": "Ты меня слушаешь?",
+      "why": "are + глагол с -ing"
+    },
+    {
+      "wrong": "She is always time on.",
+      "a": [
+        "She is always on time."
+      ],
+      "ru": "Она всегда приходит вовремя.",
+      "why": "on time — вовремя, порядок слов"
+    },
+    {
+      "wrong": "He often deals with at enquiries work.",
+      "a": [
+        "He often deals with enquiries at work."
+      ],
+      "ru": "Он часто обрабатывает запросы на работе.",
+      "why": "что → где: deals with enquiries at work"
+    },
+    {
+      "wrong": "Who do you for work?",
+      "a": [
+        "Who do you work for?"
+      ],
+      "ru": "На кого ты работаешь?",
+      "why": "for — в конце вопроса"
+    },
+    {
+      "wrong": "What he is doing now?",
+      "a": [
+        "What is he doing now?",
+        "What's he doing now?"
+      ],
+      "ru": "Что он сейчас делает?",
+      "why": "в вопросе is перед he"
+    },
+    {
+      "wrong": "Two times a week.",
+      "a": [
+        "Twice a week."
+      ],
+      "ru": "Два раза в неделю.",
+      "why": "два раза — twice"
+    },
+    {
+      "wrong": "I very like my job.",
+      "a": [
+        "I like my job very much.",
+        "I like my job a lot."
+      ],
+      "ru": "Мне очень нравится моя работа.",
+      "why": "very much — в конце, не перед like"
+    },
+    {
+      "wrong": "Works in London.",
+      "a": [
+        "She works in London.",
+        "He works in London."
+      ],
+      "ru": "Она работает в Лондоне.",
+      "why": "в английском нужно подлежащее (she)"
+    },
+    {
+      "wrong": "I student.",
+      "a": [
+        "I am a student.",
+        "I'm a student."
+      ],
+      "ru": "Я студент.",
+      "why": "нужны am и a"
+    },
+    {
+      "wrong": "I don't know nothing.",
+      "a": [
+        "I don't know anything.",
+        "I do not know anything."
+      ],
+      "ru": "Я ничего не знаю.",
+      "why": "одно отрицание: don't + anything"
+    },
+    {
+      "wrong": "I don't never work late.",
+      "a": [
+        "I never work late."
+      ],
+      "ru": "Я никогда не работаю допоздна.",
+      "why": "never уже отрицание, don't не нужен"
+    }
+  ]
+}

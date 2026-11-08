@@ -1,0 +1,14 @@
+inbox/
+private/
+archive/
+reports/
+tasks/
+staging/
+.env
+.env.*
+*.zip
+*.mp3
+*.mp4
+*.wav
+*.m4a
+__pycache__/

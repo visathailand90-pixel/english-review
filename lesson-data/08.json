@@ -1,0 +1,1280 @@
+{
+  "id": "08",
+  "num": "8",
+  "title": "Покупки онлайн",
+  "date": "27.10",
+  "summary": "Плюсы и минусы онлайн-шопинга: It can be cheaper, The item can look different.\nСтатистика про покупки, числа -teen и -ty (sixteen / sixty), порядковые числа (first, fourth, fortieth).\nФразы про покупки онлайн: make an order, get a delivery, have it delivered, can't afford to, I'm going to.\nИстория про гитару и прошедшее время неправильных глаголов: bought, saw, thought, kept, gave, took.",
+  "theory": [
+    {
+      "h": "can be / can look — может быть / может выглядеть",
+      "text": [
+        "После **can** глагол без to: **can be**, **can look**.",
+        "**can be** + прилагательное: может быть дешевле. **can look** + прилагательное: может выглядеть иначе.",
+        "Перед can ставим **It**, а не It's: в It's уже есть is."
+      ],
+      "table": [
+        [
+          "Фраза",
+          "Перевод"
+        ],
+        [
+          "It can be cheaper.",
+          "Это может быть дешевле."
+        ],
+        [
+          "It can look different.",
+          "Это может выглядеть иначе."
+        ],
+        [
+          "It can be different.",
+          "Это может быть другим."
+        ]
+      ],
+      "ex": [
+        [
+          "Online shopping can be cheaper than an offline shop.",
+          "Онлайн-покупки могут быть дешевле, чем в обычном магазине."
+        ],
+        [
+          "The item can look different.",
+          "Вещь может выглядеть иначе."
+        ]
+      ],
+      "warn": [
+        "**Can be look** different → It **can look** different. Два глагола подряд нельзя.",
+        "**It's can be** cheaper → **It can be** cheaper."
+      ]
+    },
+    {
+      "h": "Заказ и доставка",
+      "text": [
+        "Сделать заказ — **make an order** (не do).",
+        "Получить доставку — **get a delivery** (не give).",
+        "**your order** — твой заказ. **yours** — твой, без существительного."
+      ],
+      "ex": [
+        [
+          "You can make an order on the website.",
+          "Можно сделать заказ на сайте."
+        ],
+        [
+          "When you get the delivery, check the item.",
+          "Когда получишь доставку, проверь вещь."
+        ],
+        [
+          "It's not your order. It's not yours.",
+          "Это не твой заказ. Не твой."
+        ]
+      ],
+      "warn": [
+        "**do** order → **make an order**",
+        "**give** delivery → **get the delivery**",
+        "**yours order** → **your order** или просто **yours**"
+      ]
+    },
+    {
+      "h": "Числа: -teen и -ty",
+      "text": [
+        "**-teen** — от 13 до 19, ударение в конце: sixtEEn.",
+        "**-ty** — десятки, ударение в начале: SIXty.",
+        "**forty** — 40, без u. Годы: **two thousand and twenty** или **twenty twenty**."
+      ],
+      "table": [
+        [
+          "-teen",
+          "-ty"
+        ],
+        [
+          "thirteen — 13",
+          "thirty — 30"
+        ],
+        [
+          "fourteen — 14",
+          "forty — 40"
+        ],
+        [
+          "fifteen — 15",
+          "fifty — 50"
+        ],
+        [
+          "sixteen — 16",
+          "sixty — 60"
+        ],
+        [
+          "eighteen — 18",
+          "eighty — 80"
+        ]
+      ],
+      "ex": [
+        [
+          "Sixty percent of people buy clothes online.",
+          "60% людей покупают одежду онлайн."
+        ],
+        [
+          "Searches went up forty-six percent.",
+          "Поиски выросли на 46%."
+        ]
+      ],
+      "warn": [
+        "sixteen ≠ sixty. 16 — sixteen, 60 — sixty.",
+        "**fourty** → **forty**"
+      ]
+    },
+    {
+      "h": "Порядковые числа: первый, второй, третий",
+      "text": [
+        "Обычно добавляем **-th**: fourth, sixth, ninth.",
+        "Исключения: **first, second, third, fifth, twelfth**.",
+        "Десятки: twenty → **twentieth**, forty → **fortieth**."
+      ],
+      "table": [
+        [
+          "Число",
+          "Порядковое"
+        ],
+        [
+          "1",
+          "the first"
+        ],
+        [
+          "2",
+          "the second"
+        ],
+        [
+          "3",
+          "the third"
+        ],
+        [
+          "4",
+          "the fourth"
+        ],
+        [
+          "5",
+          "the fifth"
+        ],
+        [
+          "12",
+          "the twelfth"
+        ],
+        [
+          "40",
+          "the fortieth"
+        ]
+      ],
+      "ex": [
+        [
+          "It was my fortieth birthday.",
+          "Это был мой сороковой день рождения."
+        ],
+        [
+          "This is the fourth situation.",
+          "Это четвёртая ситуация."
+        ]
+      ],
+      "warn": [
+        "my **thirty** birthday (о 40) → my **fortieth** birthday. Возраст + birthday = порядковое число."
+      ]
+    },
+    {
+      "h": "have it delivered, can't afford to, be going to",
+      "text": [
+        "**have it delivered** — чтобы это доставили (делает кто-то другой).",
+        "«Чтобы» = **to**: I paid extra **to** have it delivered.",
+        "**can't afford to** + глагол — не могу позволить себе (по деньгам).",
+        "**I'm going to** — я собираюсь (план). **I was going to** — я собирался."
+      ],
+      "ex": [
+        [
+          "I paid extra to have it delivered the next day.",
+          "Я доплатил, чтобы доставили на следующий день."
+        ],
+        [
+          "I can't afford to buy a new mobile.",
+          "Я не могу позволить себе новый телефон."
+        ],
+        [
+          "I'm going to buy one second-hand.",
+          "Я куплю б/у (собираюсь купить)."
+        ]
+      ],
+      "warn": [
+        "I paid extra **for** have it delivered → I paid extra **to** have it delivered.",
+        "I can't afford **buy** → I can't afford **to buy**."
+      ]
+    },
+    {
+      "h": "Прошедшее время неправильных глаголов",
+      "text": [
+        "Эти глаголы не получают -ed, их надо запомнить.",
+        "**cost** в прошлом не меняется: It cost a silly amount of money.",
+        "Вопрос о прошлом — через **did**: What **did** you search for?"
+      ],
+      "table": [
+        [
+          "Сейчас",
+          "Прошлое"
+        ],
+        [
+          "buy",
+          "bought"
+        ],
+        [
+          "see",
+          "saw"
+        ],
+        [
+          "think",
+          "thought"
+        ],
+        [
+          "take",
+          "took"
+        ],
+        [
+          "keep",
+          "kept"
+        ],
+        [
+          "give",
+          "gave"
+        ],
+        [
+          "get",
+          "got"
+        ],
+        [
+          "go",
+          "went"
+        ],
+        [
+          "find",
+          "found"
+        ],
+        [
+          "pay",
+          "paid"
+        ]
+      ],
+      "ex": [
+        [
+          "We saw a band we both loved.",
+          "Мы увидели группу, которую оба любили."
+        ],
+        [
+          "I kept it anyway.",
+          "Я всё равно оставил это себе."
+        ],
+        [
+          "They gave me my money back.",
+          "Мне вернули деньги."
+        ]
+      ],
+      "warn": [
+        "We **save** a band → We **saw** a band.",
+        "**thinked**, **buyed**, **keeped** — так нельзя: thought, bought, kept."
+      ]
+    }
+  ],
+  "vocab": [
+    {
+      "en": "item",
+      "pron": "Айтэм",
+      "ru": "вещь, товар"
+    },
+    {
+      "en": "make an order",
+      "pron": "мейк эн Одэ",
+      "ru": "сделать заказ"
+    },
+    {
+      "en": "get a delivery",
+      "pron": "гет э дилИвэри",
+      "ru": "получить доставку"
+    },
+    {
+      "en": "a wider range",
+      "pron": "э уАйдэ рейндж",
+      "ru": "более широкий выбор"
+    },
+    {
+      "en": "marketplace",
+      "pron": "мАкитплейс",
+      "ru": "маркетплейс"
+    },
+    {
+      "en": "seller",
+      "pron": "сЭлэ",
+      "ru": "продавец"
+    },
+    {
+      "en": "percent",
+      "pron": "пэсЭнт",
+      "ru": "процент"
+    },
+    {
+      "en": "on average",
+      "pron": "он Эвэридж",
+      "ru": "в среднем"
+    },
+    {
+      "en": "salary",
+      "pron": "сЭлэри",
+      "ru": "зарплата"
+    },
+    {
+      "en": "access to",
+      "pron": "Эксэс ту",
+      "ru": "доступ к"
+    },
+    {
+      "en": "clothing",
+      "pron": "клОузинг",
+      "ru": "одежда"
+    },
+    {
+      "en": "go up",
+      "pron": "гоу Ап",
+      "ru": "расти, повышаться"
+    },
+    {
+      "en": "almost",
+      "pron": "Олмоуст",
+      "ru": "почти"
+    },
+    {
+      "en": "mainly",
+      "pron": "мЕйнли",
+      "ru": "в основном"
+    },
+    {
+      "en": "parcel",
+      "pron": "пАсл",
+      "ru": "посылка"
+    },
+    {
+      "en": "warehouse",
+      "pron": "уЭахаус",
+      "ru": "склад"
+    },
+    {
+      "en": "return",
+      "pron": "ритЁн",
+      "ru": "возвращать"
+    },
+    {
+      "en": "look for",
+      "pron": "лук фО",
+      "ru": "искать"
+    },
+    {
+      "en": "trainers",
+      "pron": "трЕйнэз",
+      "ru": "кроссовки"
+    },
+    {
+      "en": "ads",
+      "pron": "Эдз",
+      "ru": "реклама"
+    },
+    {
+      "en": "pay extra",
+      "pron": "пей Экстрэ",
+      "ru": "доплатить"
+    },
+    {
+      "en": "have it delivered",
+      "pron": "хэв ит дилИвэд",
+      "ru": "чтобы это доставили"
+    },
+    {
+      "en": "do some research",
+      "pron": "ду сам рисЁч",
+      "ru": "поискать информацию"
+    },
+    {
+      "en": "afford",
+      "pron": "эфОд",
+      "ru": "позволить себе (по деньгам)"
+    },
+    {
+      "en": "second-hand",
+      "pron": "сЭкэнд-хэнд",
+      "ru": "б/у, с рук"
+    },
+    {
+      "en": "huge",
+      "pron": "хьЮдж",
+      "ru": "огромный"
+    },
+    {
+      "en": "headache",
+      "pron": "хЭдэйк",
+      "ru": "головная боль"
+    },
+    {
+      "en": "reduced",
+      "pron": "ридьЮст",
+      "ru": "уценённый"
+    },
+    {
+      "en": "slightly",
+      "pron": "слАйтли",
+      "ru": "слегка, немного"
+    },
+    {
+      "en": "damaged",
+      "pron": "дЭмиджд",
+      "ru": "повреждённый"
+    },
+    {
+      "en": "complain",
+      "pron": "кэмплЕйн",
+      "ru": "жаловаться"
+    },
+    {
+      "en": "exactly",
+      "pron": "игзЭктли",
+      "ru": "точно, в точности"
+    },
+    {
+      "en": "anyway",
+      "pron": "Эниуэй",
+      "ru": "всё равно"
+    },
+    {
+      "en": "a charge",
+      "pron": "э чАдж",
+      "ru": "плата, сбор"
+    },
+    {
+      "en": "recently",
+      "pron": "рИисэнтли",
+      "ru": "недавно"
+    }
+  ],
+  "l2": [
+    {
+      "q": "It can ___ cheaper than an offline shop.",
+      "o": [
+        "be",
+        "is",
+        "to be"
+      ],
+      "a": 0,
+      "why": "после can глагол без to: can be"
+    },
+    {
+      "q": "The item can ___ different on the website.",
+      "o": [
+        "look",
+        "looks",
+        "be look"
+      ],
+      "a": 0,
+      "why": "can look different; can be look — нельзя"
+    },
+    {
+      "q": "___ be cheaper on a marketplace.",
+      "o": [
+        "It's can",
+        "It can",
+        "It can to"
+      ],
+      "a": 1,
+      "why": "It can be — в It's уже есть is"
+    },
+    {
+      "q": "Online shops have a ___ range than offline shops.",
+      "o": [
+        "wide",
+        "more wide",
+        "wider"
+      ],
+      "a": 2,
+      "why": "сравнение: wide → wider"
+    },
+    {
+      "q": "You can ___ an order on the website.",
+      "o": [
+        "do",
+        "make",
+        "give"
+      ],
+      "a": 1,
+      "why": "сделать заказ — make an order"
+    },
+    {
+      "q": "When did you ___ the delivery?",
+      "o": [
+        "give",
+        "do",
+        "get"
+      ],
+      "a": 2,
+      "why": "получить доставку — get a delivery"
+    },
+    {
+      "q": "It's not your order. It's not ___.",
+      "o": [
+        "yours",
+        "your",
+        "you"
+      ],
+      "a": 0,
+      "why": "без существительного — yours"
+    },
+    {
+      "q": "We have 16 clients. That's ___ clients.",
+      "o": [
+        "sixty",
+        "sixteen",
+        "sixth"
+      ],
+      "a": 1,
+      "why": "16 — sixteen, 60 — sixty"
+    },
+    {
+      "q": "60 percent of people shop online. That's ___ percent.",
+      "o": [
+        "sixteen",
+        "sixtieth",
+        "sixty"
+      ],
+      "a": 2,
+      "why": "десятки на -ty: sixty"
+    },
+    {
+      "q": "My boss is 40. He's ___.",
+      "o": [
+        "fourty",
+        "forty",
+        "fourteen"
+      ],
+      "a": 1,
+      "why": "40 — forty, без u"
+    },
+    {
+      "q": "I'm 40 today. It's my ___ birthday.",
+      "o": [
+        "forty",
+        "fortieth",
+        "fourth"
+      ],
+      "a": 1,
+      "why": "день рождения — порядковое число: fortieth"
+    },
+    {
+      "q": "This is the ___ ad this week. (4)",
+      "o": [
+        "fourth",
+        "forty",
+        "four"
+      ],
+      "a": 0,
+      "why": "четвёртый — fourth"
+    },
+    {
+      "q": "It's my ___ order on this marketplace. (3)",
+      "o": [
+        "threeth",
+        "third",
+        "three"
+      ],
+      "a": 1,
+      "why": "исключение: third"
+    },
+    {
+      "q": "Yesterday I ___ a new laptop online.",
+      "o": [
+        "buyed",
+        "bought",
+        "buy"
+      ],
+      "a": 1,
+      "why": "buy → bought"
+    },
+    {
+      "q": "We ___ a band we both loved.",
+      "o": [
+        "save",
+        "seen",
+        "saw"
+      ],
+      "a": 2,
+      "why": "see → saw; save — это «сохранять»"
+    },
+    {
+      "q": "I ___, \"It's my birthday,\" so I clicked \"buy\".",
+      "o": [
+        "thinked",
+        "thought",
+        "think"
+      ],
+      "a": 1,
+      "why": "think → thought"
+    },
+    {
+      "q": "It wasn't exactly what I wanted, but I ___ it anyway.",
+      "o": [
+        "keeped",
+        "keep",
+        "kept"
+      ],
+      "a": 2,
+      "why": "keep → kept"
+    },
+    {
+      "q": "I complained and they ___ me my money back.",
+      "o": [
+        "gave",
+        "gived",
+        "give"
+      ],
+      "a": 0,
+      "why": "give → gave"
+    },
+    {
+      "q": "I clicked on the link and it ___ me to a strange website.",
+      "o": [
+        "taked",
+        "took",
+        "take"
+      ],
+      "a": 1,
+      "why": "take → took"
+    },
+    {
+      "q": "I paid extra ___ have it delivered the next day.",
+      "o": [
+        "for",
+        "that",
+        "to"
+      ],
+      "a": 2,
+      "why": "«чтобы» = to"
+    },
+    {
+      "q": "I paid extra to have it ___ the next day.",
+      "o": [
+        "delivered",
+        "deliver",
+        "delivering"
+      ],
+      "a": 0,
+      "why": "have it delivered — это доставили другие"
+    },
+    {
+      "q": "I can't afford ___ a new mobile.",
+      "o": [
+        "buy",
+        "to buy",
+        "buying"
+      ],
+      "a": 1,
+      "why": "can't afford to + глагол"
+    },
+    {
+      "q": "I'm going ___ buy one second-hand.",
+      "o": [
+        "to",
+        "for",
+        "at"
+      ],
+      "a": 0,
+      "why": "be going to + глагол"
+    },
+    {
+      "q": "Last year I ___ going to buy a guitar, but I didn't.",
+      "o": [
+        "am",
+        "was",
+        "did"
+      ],
+      "a": 1,
+      "why": "в прошлом: I was going to — я собирался"
+    },
+    {
+      "q": "What did you search ___ yesterday?",
+      "o": [
+        "about",
+        "on",
+        "for"
+      ],
+      "a": 2,
+      "why": "искать — search for; о прошлом — did"
+    }
+  ],
+  "l3": [
+    {
+      "q": "The price can ___ lower on a marketplace.",
+      "hint": "быть — 1 слово",
+      "a": [
+        "be"
+      ],
+      "why": "can + be без to"
+    },
+    {
+      "q": "The trainers can ___ different in real life.",
+      "hint": "выглядеть — 1 слово",
+      "a": [
+        "look"
+      ],
+      "why": "can look different"
+    },
+    {
+      "q": "There are ___ items in my order.",
+      "hint": "16 — словом",
+      "a": [
+        "sixteen"
+      ],
+      "why": "13–19 на -teen"
+    },
+    {
+      "q": "About ___ percent of young adults shop online.",
+      "hint": "60 — словом",
+      "a": [
+        "sixty"
+      ],
+      "why": "десятки на -ty"
+    },
+    {
+      "q": "My client is ___ years old.",
+      "hint": "40 — словом",
+      "a": [
+        "forty"
+      ],
+      "why": "forty — без u"
+    },
+    {
+      "q": "We made ___ ads for this client.",
+      "hint": "13 — словом",
+      "a": [
+        "thirteen"
+      ],
+      "why": "thirteen, не threeteen"
+    },
+    {
+      "q": "Last year my wife took me to a concert for my ___ birthday.",
+      "hint": "сороковой — 1 слово",
+      "a": [
+        "fortieth"
+      ],
+      "why": "forty → fortieth"
+    },
+    {
+      "q": "This is our ___ order this week.",
+      "hint": "третий — 1 слово",
+      "a": [
+        "third"
+      ],
+      "why": "исключение: third"
+    },
+    {
+      "q": "The ___ item in the parcel was damaged.",
+      "hint": "пятый — 1 слово",
+      "a": [
+        "fifth"
+      ],
+      "why": "исключение: fifth (не fiveth)"
+    },
+    {
+      "q": "December is the ___ month of the year.",
+      "hint": "двенадцатый — 1 слово",
+      "a": [
+        "twelfth"
+      ],
+      "why": "исключение: twelfth"
+    },
+    {
+      "q": "Yesterday I ___ new trainers online.",
+      "hint": "купил — глагол в прошедшем",
+      "a": [
+        "bought"
+      ],
+      "why": "buy → bought"
+    },
+    {
+      "q": "I ___ a nice hotel near the beach on the website.",
+      "hint": "увидел — глагол в прошедшем",
+      "a": [
+        "saw"
+      ],
+      "why": "see → saw"
+    },
+    {
+      "q": "I ___ it was a good price.",
+      "hint": "подумал — глагол в прошедшем",
+      "a": [
+        "thought"
+      ],
+      "why": "think → thought, gh не читается"
+    },
+    {
+      "q": "It was slightly damaged, but I ___ it anyway.",
+      "hint": "оставил себе — глагол в прошедшем",
+      "a": [
+        "kept"
+      ],
+      "why": "keep → kept"
+    },
+    {
+      "q": "I complained, and the seller ___ me my money back.",
+      "hint": "вернул (дал) — глагол в прошедшем",
+      "a": [
+        "gave"
+      ],
+      "why": "give → gave"
+    },
+    {
+      "q": "My friend ___ me to a concert last week.",
+      "hint": "сводил — глагол в прошедшем",
+      "a": [
+        "took"
+      ],
+      "why": "take → took"
+    },
+    {
+      "q": "I ___ some research about where to stay.",
+      "hint": "сделал (провёл) — глагол в прошедшем",
+      "a": [
+        "did"
+      ],
+      "why": "do → did: do some research"
+    },
+    {
+      "q": "Searches for cheap clothes ___ up 46 percent.",
+      "hint": "выросли (go up) — глагол в прошедшем",
+      "a": [
+        "went"
+      ],
+      "why": "go up → went up"
+    },
+    {
+      "q": "I paid extra to ___ it delivered.",
+      "hint": "чтобы это (сделали) — 1 слово",
+      "a": [
+        "have"
+      ],
+      "why": "have it delivered"
+    },
+    {
+      "q": "I paid extra to have it ___ the next day.",
+      "hint": "доставлено — 1 слово",
+      "a": [
+        "delivered"
+      ],
+      "why": "have it + 3-я форма: delivered"
+    },
+    {
+      "q": "I ___ ___ to buy a new printer.",
+      "hint": "не могу позволить себе — впиши оба слова через пробел",
+      "a": [
+        "can't afford",
+        "cannot afford",
+        "can not afford"
+      ],
+      "why": "can't afford to + глагол"
+    },
+    {
+      "q": "I'm ___ ___ buy a second-hand phone.",
+      "hint": "собираюсь — впиши оба слова через пробел",
+      "a": [
+        "going to"
+      ],
+      "why": "be going to — план"
+    },
+    {
+      "q": "I ___ going to book that hotel, but it had bad reviews.",
+      "hint": "собирался — 1 слово перед going to",
+      "a": [
+        "was"
+      ],
+      "why": "я собирался — I was going to"
+    }
+  ],
+  "l4": [
+    {
+      "ru": "В интернете это может быть дешевле.",
+      "en": "It can be cheaper online."
+    },
+    {
+      "ru": "Товар может выглядеть иначе.",
+      "en": "The item can look different."
+    },
+    {
+      "ru": "Это не твой заказ.",
+      "en": "It's not your order."
+    },
+    {
+      "ru": "Вчера я сделал заказ.",
+      "en": "I made an order yesterday."
+    },
+    {
+      "ru": "Утром мы получили доставку.",
+      "en": "We got the delivery in the morning."
+    },
+    {
+      "ru": "В интернет-магазинах выбор шире.",
+      "en": "Online shops have a wider range."
+    },
+    {
+      "ru": "Это мой сороковой день рождения.",
+      "en": "It's my fortieth birthday."
+    },
+    {
+      "ru": "Я доплатил, чтобы это быстро доставили.",
+      "en": "I paid extra to have it delivered quickly."
+    },
+    {
+      "ru": "Я не могу позволить себе новый ноутбук.",
+      "en": "I can't afford to buy a new laptop."
+    },
+    {
+      "ru": "Я собираюсь купить б/у телефон.",
+      "en": "I'm going to buy a second-hand phone."
+    },
+    {
+      "ru": "Мы увидели группу на концерте.",
+      "en": "We saw a band at the concert."
+    },
+    {
+      "ru": "Я подумал, что это хорошая цена.",
+      "en": "I thought it was a good price."
+    },
+    {
+      "ru": "Мне вернули деньги.",
+      "en": "They gave me my money back."
+    },
+    {
+      "ru": "Я всё равно оставил это себе.",
+      "en": "I kept it anyway."
+    },
+    {
+      "ru": "Что ты искал вчера?",
+      "en": "What did you search for yesterday?"
+    }
+  ],
+  "l5": [
+    {
+      "ru": "Это может быть дешевле.",
+      "a": [
+        "It can be cheaper."
+      ],
+      "why": "не It's can be — просто It can be"
+    },
+    {
+      "ru": "Это может выглядеть иначе.",
+      "a": [
+        "It can look different."
+      ],
+      "why": "can be look — нельзя, только can look"
+    },
+    {
+      "ru": "Я хочу сделать заказ.",
+      "a": [
+        "I want to make an order."
+      ],
+      "why": "сделать заказ — make, не do"
+    },
+    {
+      "ru": "Вчера я получил доставку.",
+      "a": [
+        "I got the delivery yesterday.",
+        "I got a delivery yesterday.",
+        "Yesterday I got the delivery.",
+        "Yesterday I got a delivery."
+      ],
+      "why": "получить доставку — get, не give"
+    },
+    {
+      "ru": "Это не твоё.",
+      "a": [
+        "It's not yours.",
+        "It isn't yours.",
+        "It is not yours."
+      ],
+      "why": "без существительного — yours"
+    },
+    {
+      "ru": "Шестьдесят процентов людей покупают онлайн.",
+      "a": [
+        "Sixty percent of people buy online.",
+        "Sixty percent of people shop online.",
+        "60 percent of people buy online.",
+        "60 percent of people shop online."
+      ],
+      "why": "60 — sixty, не sixteen"
+    },
+    {
+      "ru": "Мне сорок лет.",
+      "a": [
+        "I'm forty.",
+        "I'm forty years old.",
+        "I am forty.",
+        "I am forty years old."
+      ],
+      "why": "forty — без u"
+    },
+    {
+      "ru": "Это мой первый заказ.",
+      "a": [
+        "It's my first order.",
+        "This is my first order.",
+        "It is my first order."
+      ],
+      "why": "первый — first"
+    },
+    {
+      "ru": "Я купил новые кроссовки.",
+      "a": [
+        "I bought new trainers.",
+        "I bought some new trainers.",
+        "I bought new sneakers."
+      ],
+      "why": "buy → bought"
+    },
+    {
+      "ru": "Я увидел красивую гитару.",
+      "a": [
+        "I saw a beautiful guitar."
+      ],
+      "why": "see → saw, не save"
+    },
+    {
+      "ru": "Я подумал, что это забавно.",
+      "a": [
+        "I thought it was funny.",
+        "I thought it was quite funny."
+      ],
+      "why": "think → thought; в прошлом it was"
+    },
+    {
+      "ru": "Я оставил это себе.",
+      "a": [
+        "I kept it."
+      ],
+      "why": "keep → kept"
+    },
+    {
+      "ru": "Они вернули мне деньги.",
+      "a": [
+        "They gave me my money back.",
+        "They gave me the money back."
+      ],
+      "why": "вернуть деньги — give money back → gave"
+    },
+    {
+      "ru": "Ссылка привела меня на странный сайт.",
+      "a": [
+        "The link took me to a strange website."
+      ],
+      "why": "take → took: привело меня на"
+    },
+    {
+      "ru": "Я доплатил, чтобы это доставили.",
+      "a": [
+        "I paid extra to have it delivered."
+      ],
+      "why": "«чтобы» = to; have it delivered"
+    },
+    {
+      "ru": "Я не могу себе позволить новый телефон.",
+      "a": [
+        "I can't afford to buy a new phone.",
+        "I can't afford a new phone.",
+        "I can't afford to buy a new mobile.",
+        "I cannot afford to buy a new phone."
+      ],
+      "why": "can't afford to + глагол"
+    },
+    {
+      "ru": "Я собираюсь купить б/у ноутбук.",
+      "a": [
+        "I'm going to buy a second-hand laptop.",
+        "I am going to buy a second-hand laptop."
+      ],
+      "why": "план — be going to + глагол"
+    },
+    {
+      "ru": "Что ты искал?",
+      "a": [
+        "What did you search for?",
+        "What were you looking for?",
+        "What did you look for?"
+      ],
+      "why": "о прошлом — did; search for с for"
+    }
+  ],
+  "l6": [
+    {
+      "q": "Do you prefer shopping online or in offline shops?",
+      "ru": "Ты предпочитаешь покупать онлайн или в обычных магазинах?",
+      "start": "I prefer shopping…",
+      "model": "I prefer shopping online. It helps me spend less time on shopping, and it can be cheaper."
+    },
+    {
+      "q": "What are the minuses of online shopping?",
+      "ru": "Какие минусы у онлайн-шопинга?",
+      "start": "The item can…",
+      "model": "The item can look different. Sometimes they can deliver not what you ordered."
+    },
+    {
+      "q": "What did you buy online recently?",
+      "ru": "Что ты недавно купил онлайн?",
+      "start": "Recently I bought…",
+      "model": "Recently I bought new trainers on a marketplace. I got the delivery the next day."
+    },
+    {
+      "q": "Do you keep getting ads after you look for something online?",
+      "ru": "Тебе потом всё время показывают рекламу того, что ты искал?",
+      "start": "Yes, I keep getting…",
+      "model": "Yes, I keep getting ads all the time. I'm a marketer, so I know how it works."
+    },
+    {
+      "q": "Did you ever return an item? Why?",
+      "ru": "Ты когда-нибудь возвращал товар? Почему?",
+      "start": "Yes, I returned…",
+      "model": "Yes, I returned a jacket. It looked completely different on the website, so they gave me my money back."
+    },
+    {
+      "q": "What can't you afford to buy now?",
+      "ru": "Что ты сейчас не можешь себе позволить купить?",
+      "start": "I can't afford to…",
+      "model": "I can't afford to buy a new laptop now, so I'm going to buy one second-hand."
+    },
+    {
+      "q": "What are you going to buy next month?",
+      "ru": "Что ты собираешься купить в следующем месяце?",
+      "start": "I'm going to buy…",
+      "model": "I'm going to buy some new clothes. I'm going to make an order online."
+    }
+  ],
+  "fix": [
+    {
+      "wrong": "Can be look different.",
+      "a": [
+        "It can look different.",
+        "It can be different."
+      ],
+      "ru": "Это может выглядеть иначе.",
+      "why": "can be look — нельзя: либо can look, либо can be"
+    },
+    {
+      "wrong": "It's can be cheaper.",
+      "a": [
+        "It can be cheaper."
+      ],
+      "ru": "Это может быть дешевле.",
+      "why": "в It's уже есть is — перед can только It"
+    },
+    {
+      "wrong": "When you give delivery this item, check it.",
+      "a": [
+        "When you get the delivery, check it."
+      ],
+      "ru": "Когда получишь доставку, проверь её.",
+      "why": "получить доставку — get the delivery"
+    },
+    {
+      "wrong": "You can do order on the website.",
+      "a": [
+        "You can make an order on the website."
+      ],
+      "ru": "Можно сделать заказ на сайте.",
+      "why": "сделать заказ — make an order"
+    },
+    {
+      "wrong": "You can look another thing than your original order.",
+      "a": [
+        "You can see a different thing, not what you ordered."
+      ],
+      "ru": "Ты можешь увидеть другую вещь, не то, что заказал.",
+      "why": "увидеть — see; другая вещь — a different thing"
+    },
+    {
+      "wrong": "It's not yours order.",
+      "a": [
+        "It's not your order.",
+        "It is not your order.",
+        "It isn't your order."
+      ],
+      "ru": "Это не твой заказ.",
+      "why": "с существительным — your; yours — без него"
+    },
+    {
+      "wrong": "There are sixty items in the parcel. (16)",
+      "a": [
+        "There are sixteen items in the parcel."
+      ],
+      "ru": "В посылке 16 вещей.",
+      "why": "16 — sixteen, 60 — sixty"
+    },
+    {
+      "wrong": "In two thousand twenty people spent more online.",
+      "a": [
+        "In two thousand and twenty people spent more online.",
+        "In twenty twenty people spent more online.",
+        "In 2020 people spent more online."
+      ],
+      "ru": "В 2020 году люди тратили онлайн больше.",
+      "why": "2020 — two thousand and twenty или twenty twenty"
+    },
+    {
+      "wrong": "I work with context.",
+      "a": [
+        "I work with contextual ads."
+      ],
+      "ru": "Я работаю с контекстной рекламой.",
+      "why": "контекстная реклама — contextual ads"
+    },
+    {
+      "wrong": "What do you search yesterday?",
+      "a": [
+        "What did you search for yesterday?"
+      ],
+      "ru": "Что ты искал вчера?",
+      "why": "о прошлом — did; search for"
+    },
+    {
+      "wrong": "I found not bad hotel near with beach.",
+      "a": [
+        "I found a good hotel near the beach."
+      ],
+      "ru": "Я нашёл хороший отель у пляжа.",
+      "why": "a good hotel; near the beach — без with"
+    },
+    {
+      "wrong": "I booked it for very cheap price.",
+      "a": [
+        "I booked it for a low price."
+      ],
+      "ru": "Я забронировал его по низкой цене.",
+      "why": "цена низкая — a low price, с артиклем a"
+    },
+    {
+      "wrong": "It was my thirty birthday. (40)",
+      "a": [
+        "It was my fortieth birthday."
+      ],
+      "ru": "Это был мой сороковой день рождения.",
+      "why": "40-й — fortieth, порядковое число"
+    },
+    {
+      "wrong": "We save a band we both loved.",
+      "a": [
+        "We saw a band we both loved."
+      ],
+      "ru": "Мы увидели группу, которую оба любили.",
+      "why": "see → saw; save — сохранять"
+    },
+    {
+      "wrong": "I had always dreamed of playing in a band. (I've)",
+      "a": [
+        "I've always dreamed of playing in a band.",
+        "I have always dreamed of playing in a band."
+      ],
+      "ru": "Я всегда мечтал играть в группе.",
+      "why": "I've = I have, а не I had"
+    }
+  ]
+}

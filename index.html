@@ -20,11 +20,28 @@ main{padding-top:12px}.intro{display:flex;gap:10px;align-items:center;justify-co
 @media(max-width:600px){.topline{display:grid;grid-template-columns:1fr;gap:6px}.brand{white-space:nowrap}.brand small{display:inline;margin-left:4px}.topactions{width:100%;justify-content:space-between}.topactions>.tiny{flex:1;text-align:center}.topactions select{max-width:130px}}
 body[data-mode="l1"] .intro,body[data-mode="l2"] .intro,body[data-mode="l3"] .intro,body[data-mode="l4"] .intro,body[data-mode="l5"] .intro,body[data-mode="l6"] .intro,body[data-mode="fix"] .intro,body[data-mode="mist"] .intro{display:none}
 .explanation details{border-top:1px solid var(--border);padding:7px 0 0;margin-top:5px}.explanation summary{font-size:12px;color:var(--accent);font-weight:650;cursor:pointer}
+
+.other-apps{display:flex;gap:14px;flex-wrap:wrap;margin:12px 0 20px}.other-apps a{color:var(--accent);font-size:15px;font-weight:650;text-decoration:underline}
+/* Mobile usability v5: larger readable text, full-width lesson chooser, ~4 exercises at a time. */
+body{font-size:16px;line-height:1.5}
+.brand{font-size:18px}
+.brand small{font-size:12px}
+.lesson-picker{display:flex;align-items:center;gap:9px;margin:4px 0 6px;color:var(--muted);font-size:14px;font-weight:600}
+.lesson-picker select,.direction-picker select{min-width:0;flex:1;appearance:auto;-webkit-appearance:menulist;border:1px solid var(--border);border-radius:10px;background:var(--card);color:var(--ink);font-size:16px;padding:9px 8px;width:100%}
+.direction-picker{display:flex;align-items:center;gap:10px;margin:2px 0 11px;color:var(--muted);font-size:14px;font-weight:650}
+.qprompt{font-size:18px;line-height:1.4}.choice{font-size:16px;min-height:43px;padding:10px 11px}.choice.sel{padding:9px 10px}
+.qnumber{font-size:12px}.token{font-size:16px;min-height:38px;padding:8px 10px}
+.hint,.note-small{font-size:13px}.section{font-size:16px}.section summary{font-size:16px}.theory-body .example{font-size:15px}.theory-body .error{font-size:14px}
+.section h2{font-size:18px}.theory-body table{font-size:14px}.theory-body th,.theory-body td{padding:8px 5px}
+.explanation,.why{font-size:15px}.explanation summary{font-size:15px}.answerline{font-size:15px}.quizhead h2{font-size:17px}.quizhead p{font-size:13px}
+.viewbar button{font-size:14px;padding:8px 11px}.tiny{font-size:13px}.intro h1{font-size:20px}
+.qcard{padding:13px 14px}.btn{font-size:15px}
+@media(max-width:600px){.topline{gap:5px}.topactions{display:flex;gap:6px}.topactions .tiny{padding:8px 6px;min-width:0}.lesson-picker{margin:6px 0}.header{padding:8px 0 5px}.app{padding-left:12px;padding-right:12px}.questiongrid{gap:10px}}
 </style></head>
 <body><div class="app"><header class="header">
 <div class="topline"><div class="brand">English Review <small>Outcomes Pre-Intermediate · <span id="brand-lesson">Урок 3</span></small></div>
-<div class="topactions"><button class="tiny" id="slow-btn" type="button">Озвучка 1×</button><select class="tiny" id="page-size" aria-label="Вопросов на экране"><option value="1">1 вопрос</option><option value="2">2 вопроса</option><option value="3">3 вопроса</option><option value="4">4 вопроса</option></select><button class="tiny" id="export-head" type="button">Экспорт</button></div></div>
-<nav class="strip" id="lesson-nav" aria-label="Выбор урока"></nav>
+<div class="topactions"><button class="tiny" id="slow-btn" type="button">Озвучка 1×</button><select class="tiny" id="page-size" aria-label="Вопросов на экране"><option value="1">1 вопрос</option><option value="2">2 вопроса</option><option value="3">3 вопроса</option><option value="4">4 вопроса</option><option value="5">5 вопросов</option></select><button class="tiny" id="export-head" type="button">Экспорт</button></div></div>
+<label class="lesson-picker" for="lesson-select"><span>Урок</span><select id="lesson-select" aria-label="Выбери урок"></select></label>
 <nav class="strip viewbar" id="view-nav" aria-label="Разделы и уровни"></nav>
 </header>
 <main><div class="intro"><div><div class="hint" id="eyebrow">Урок 3</div><h1 id="title">Работа из дома</h1></div><span class="tag">A2 → B1</span></div>
@@ -39,25 +56,28 @@ body[data-mode="l1"] .intro,body[data-mode="l2"] .intro,body[data-mode="l3"] .in
 const lessons=window.ENGLISH_LESSONS;
 const records=lessons.index;
 const KEY='english-review:v4';
-const LABELS={theory:'Теория',l1:'1 · Узнаю',l2:'2 · Выбираю',l3:'3 · Вставляю',l4:'4 · Собираю',l5:'5 · Перевожу',l6:'6 · Говорю',fix:'Мои ошибки',mist:'Повторить ошибки',history:'История',words:'Слова'};
-const EXERCISE=['l1','l2','l3','l4','l5','l6','fix','mist'];
+const LABELS={theory:'Теория',l1:'1 · Узнаю',l2:'2 · Выбираю',l3:'3 · Вставляю',l4:'4 · Собираю',l5:'5 · Перевожу',fix:'Мои ошибки',mist:'Повторить ошибки',history:'История'};
+const EXERCISE=['l1','l2','l3','l4','l5','fix','mist'];
 const LEVELSIZE={l1:10,l2:10,l3:10,l4:8,l5:8,l6:4,fix:8,mist:10};
 const el=id=>document.getElementById(id);
 const escapeHTML=x=>String(x??'').replace(/[&<>"']/g,k=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[k]));
 const markdown=x=>escapeHTML(x).replace(/\*\*(.*?)\*\*/g,'<b>$1</b>');
 const fmt=x=>new Date(x).toLocaleString('ru-RU',{day:'2-digit',month:'2-digit',hour:'2-digit',minute:'2-digit'});
-const dflt=()=>({version:4,lesson:'03',tab:'theory',progress:{},drafts:{},prefs:{pageSize:2,slow:false}});
+const dflt=()=>({version:4,lesson:'03',tab:'theory',progress:{},drafts:{},prefs:{pageSize:4,slow:false,l1Direction:'en',uiV5:true}});
 let storageOK=false;let state=dflt();let page=0;
 try{localStorage.setItem('__eng_test','ok');storageOK=localStorage.getItem('__eng_test')==='ok';localStorage.removeItem('__eng_test')}catch(e){}
-if(storageOK){try{const old=JSON.parse(localStorage.getItem(KEY));if(old&&old.version===4&&old.progress&&old.drafts){state={...dflt(),...old,prefs:{...dflt().prefs,...old.prefs}}}}catch(e){}}
+if(storageOK){try{const old=JSON.parse(localStorage.getItem(KEY));if(old&&old.version===4&&old.progress&&old.drafts){state={...dflt(),...old,prefs:{...dflt().prefs,...old.prefs,uiV5:old.prefs?.uiV5===true}}}}catch(e){}}
+// One-time UI preference migration: keep all lesson progress and drafts unchanged.
+if(!state.prefs.uiV5){state.prefs.pageSize=4;state.prefs.l1Direction='en';state.prefs.uiV5=true}
+if(!['en','ru'].includes(state.prefs.l1Direction))state.prefs.l1Direction='en';
 if(!records.some(x=>x.id===state.lesson))state.lesson='03';
 if(!(state.tab in LABELS))state.tab='theory';
 function persist(){if(!storageOK)return;try{localStorage.setItem(KEY,JSON.stringify(state))}catch(e){storageOK=false;el('storage-alert').hidden=false}}
 function prog(id=state.lesson){return state.progress[id]||(state.progress[id]={attempts:[],mistakes:{},mastery:{}})}
-function draftKey(l=state.lesson,m=state.tab){return l+'/'+m}
+function draftKey(l=state.lesson,m=state.tab){return l+'/'+m+(m==='l1'?':'+state.prefs.l1Direction:'')}
 function lesson(){return lessons[state.lesson]}
 function norm(x){let s=String(x??'').toLowerCase().replace(/[’‘`]/g,"'");s=s.replace(/\b([ap])\s*\.\s*m\s*\.?/g,'$1m');s=s.replace(/\bi'm\b/g,'i am').replace(/\b(you|we|they)'re\b/g,'$1 are').replace(/\b(he|she|it|there|that|what|who|where)'s\b/g,'$1 is').replace(/\bi've\b/g,'i have').replace(/\bi'll\b/g,'i will').replace(/\bcan't\b|\bcannot\b/g,'can not').replace(/\bwon't\b/g,'will not').replace(/\b(\w+)n't\b/g,'$1 not');return s.replace(/(\d),(\d{3})/g,'$1$2').replace(/[.,!?;:"()…]/g,' ').replace(/\s-\s/g,' ').replace(/-/g,' ').replace(/\s+/g,' ').trim()}
-function countDone(q, ans){if(q.kind==='choice')return typeof ans==='number';if(q.kind==='build')return Array.isArray(ans)&&ans.length===q.tokens.length;return typeof ans==='string'&&ans.trim()!==''}
+function countDone(q, ans){if(q.kind==='choice')return typeof ans==='number';if(q.kind==='build')return Array.isArray(ans)&&ans.length===(q.correctTokenCount||q.tokens.length);return typeof ans==='string'&&ans.trim()!==''}
 function getAns(B,q){return B.answers[q.key]}
 function randOrder(total,seed){return Array.from({length:total},(_,i)=>(i+seed)%total)}
 function rotate(arr,n,size){if(!arr.length)return [];const start=(n*size)%arr.length;const count=Math.min(arr.length,size);return randOrder(count,0).map(i=>arr[(start+i)%arr.length])}
@@ -81,18 +101,37 @@ function explain(raw,q){
    return t;
  }
  if(explicit)return explicit;
- if(q.kind==='build')return 'Обычный порядок слов: подлежащее → сказуемое → дополнение → обстоятельства. В вопросах вспомогательный глагол ставится перед подлежащим.';
+ if(q.kind==='build'){
+    const sentence=String(q.correct||'');
+    if(/\b(has to|have to|had to)\b/i.test(sentence))return 'Конструкция have/has/had to + начальная форма глагола выражает необходимость. Сначала кто, затем необходимость, затем действие.';
+    if(/\b(don't|doesn't|didn't)\b/i.test(sentence))return 'В отрицании вспомогательный do/does/did + not идёт перед основным глаголом. После него глагол без окончания -s/-ed.';
+    if(/^(Do|Does|Did|Are|Is|Can|What|Where|Why|When|How|Who)\b/i.test(sentence))return 'Вопрос: вопросительное слово (если есть) → вспомогательный глагол → подлежащее → основной глагол. Сохраняй нужный предлог.';
+    if(/\b(at|in|on)\s+\w/i.test(sentence))return 'Обычно порядок: кто → действие → что/кого → где → когда. Предлоги: at для времени по часам, in для периода/места, on для дней и платформ.';
+    if(/\b(yesterday|last week|ago)\b/i.test(sentence))return 'Указание на прошедшее время требует Past Simple: had, got, went, said и другие формы из урока.';
+    return 'В утвердительном предложении сначала подлежащее, затем глагол и дополнение. Слова, не подходящие по смыслу или грамматике, оставь в банке.';
+  }
  if(q.kind==='speak')return 'Это пример ответа, а не единственная правильная формулировка. Важно передать смысл и использовать подходящую грамматику.';
  return 'Сравни структуру с образцом. Обрати внимание на форму глагола, артикли, предлоги и порядок слов.';
 }
 function poolFor(L,mode){
- if(mode==='l1')return L.vocab.flatMap((v,i)=>[mkWord(L,i,'en'),mkWord(L,i,'ru')]);
+ if(mode==='l1')return L.vocab.map((v,i)=>mkWord(L,i,state.prefs.l1Direction));
  const source=L[mode]||[];
  return source.map((r,i)=>{
   const common={key:mode+':'+i,mode,kind:'text',why:r.why||'',prompt:'',correct:'',accept:[]};
   if(mode==='l2')return{...common,kind:'choice',prompt:r.q,options:r.o,correctIndex:r.a,correct:r.o[r.a]};
   if(mode==='l3')return{...common,kind:'text',prompt:r.q,hint:r.hint,accept:r.a,correct:r.a[0]};
-  if(mode==='l4'){const tokens=r.en.replace(/[!?.,]+$/,'').split(/\s+/);const randomIdx=tokens.map((_,j)=>j);randomIdx.reverse();if(tokens.length>3){const first=randomIdx.shift();randomIdx.splice(2,0,first)}return{...common,kind:'build',prompt:r.ru,correct:r.en,tokens,order:randomIdx};}
+  if(mode==='l4'){
+    const needed=r.en.replace(/[!?.,]+$/,'').split(/\s+/),tokens=[...needed];
+    const used=new Set(needed.map(w=>w.toLowerCase().replace(/[^a-z]/g,'')));
+    const distractorBank=['is','are','am','have','has','had','do','does','to','for','with','on','at','in','from','the','a','an','not','was','will','can','my','his','her','their','they','he','she','it','working','worked','going','and','but'];
+    const offset=(i*7+mode.length)%distractorBank.length;
+    for(let n=0;n<distractorBank.length&&tokens.length<needed.length+3;n++){
+      const x=distractorBank[(offset+n)%distractorBank.length];
+      if(!used.has(x)){tokens.push(x);used.add(x)}
+    }
+    const order=tokens.map((_,j)=>j).sort((a,b)=>((a*17+i*13)%101)-((b*17+i*13)%101));
+    return{...common,kind:'build',prompt:r.ru,correct:r.en,tokens,correctTokenCount:needed.length,order};
+  }
   if(mode==='l5')return{...common,kind:'text',prompt:r.ru,accept:r.a,correct:r.a[0]};
   if(mode==='l6')return{...common,kind:'speak',prompt:r.q,sub:r.ru,starter:r.start,correct:r.model,accept:[r.model]};
   if(mode==='fix')return{...common,kind:'text',prompt:r.wrong,sub:r.ru,correct:r.a[0],accept:r.a};
@@ -100,14 +139,18 @@ function poolFor(L,mode){
  });
 }
 function mkWord(L,i,dir){const v=L.vocab[i];const correct=dir==='en'?v.ru:v.en;const arr=L.vocab.map((w,j)=>({s:dir==='en'?w.ru:w.en,j})).filter(w=>w.j!==i&&w.s!==correct);const targets=[correct];for(let n=0;n<arr.length&&targets.length<3;n++){const candidate=arr[(i*5+n)%arr.length].s;if(!targets.includes(candidate))targets.push(candidate)}const shift=i%3;const opts=targets.slice(shift).concat(targets.slice(0,shift));return{key:'l1:'+i+':'+dir,mode:'l1',kind:'choice',prompt:dir==='en'?v.en:v.ru,pron:dir==='en'?v.pron:null,correctIndex:opts.indexOf(correct),correct,options:opts,why:v.en+' — '+v.ru+' (произношение: '+v.pron+').'};}
-function buildBlock(L,mode){const p=prog();const number=p.attempts.filter(a=>a.mode===mode).length;let pool;if(mode==='mist'){
-   const errs=Object.keys(p.mistakes);pool=errs.map(key=>{const m=key.split(':')[0];return poolFor(L,m).find(q=>q.key===key)}).filter(Boolean);
+function buildBlock(L,mode){const p=prog();const number=p.attempts.filter(a=>a.mode===mode&&(mode!=='l1'||a.direction===state.prefs.l1Direction)).length;let pool;if(mode==='mist'){
+   const errs=Object.keys(p.mistakes);pool=errs.map(key=>{
+      const m=key.split(':')[0];
+      if(m==='l1'){const match=key.match(/^l1:(\d+):(en|ru)$/);return match?mkWord(L,Number(match[1]),match[2]):null}
+      return poolFor(L,m).find(q=>q.key===key)
+    }).filter(Boolean);
  }else pool=poolFor(L,mode);
  const items=rotate(pool,number,LEVELSIZE[mode]||8);
- return{lesson:L.id,mode,id:'b-'+Date.now()+'-'+Math.floor(Math.random()*1000),created:new Date().toISOString(),page:0,answers:{},self:{},checked:false,completed:false,items};
+ return{lesson:L.id,mode,direction:mode==='l1'?state.prefs.l1Direction:null,id:'b-'+Date.now()+'-'+Math.floor(Math.random()*1000),created:new Date().toISOString(),page:0,answers:{},self:{},checked:false,completed:false,items};
 }
 function currentBlock(create=true){const key=draftKey();if(!state.drafts[key]&&create){state.drafts[key]=buildBlock(lesson(),state.tab);persist()}return state.drafts[key]||null}
-function masteryLevel(id,mode){const at=prog(id).attempts.filter(x=>x.mode===mode);return at.length>=2&&at[at.length-1].percentage>=80&&at[at.length-2].percentage>=80}
+function masteryLevel(id,mode){const at=prog(id).attempts.filter(x=>x.mode===mode);return at.length>=2&&at[0].percentage>=80&&at[1].percentage>=80}
 function grade(q,B){if(!B.checked)return undefined;const answer=getAns(B,q);if(q.kind==='choice')return answer===q.correctIndex;if(q.kind==='speak')return B.self[q.key]===undefined?null:B.self[q.key];if(q.kind==='build'){
   const ordered=(Array.isArray(answer)?answer:[]).map(j=>q.tokens[j]).join(' ');
   if(norm(ordered)===norm(q.correct))return true;return B.self[q.key]===undefined?null:B.self[q.key];
@@ -122,10 +165,13 @@ function finish(B){if(B.completed||!B.checked)return;const evaluations=B.items.m
   const prior=p.mistakes[q.key];if(!evaluations[i])p.mistakes[q.key]={misses:(prior?.misses||0)+1,streak:0,last:snapshotAnswer(q,B),example:q.correct,mode:q.mode};
   else if(prior){prior.streak=(prior.streak||0)+1;if(prior.streak>=2)delete p.mistakes[q.key]}
  });
- const attempt={id:B.id,mode:B.mode,at:new Date().toISOString(),n,score,percentage,items:B.items.map((q,i)=>({key:q.key,mode:q.mode,question:q.prompt,answer:snapshotAnswer(q,B),correct:q.correct,ok:evaluations[i],why:explain(q.why,q)}))};
- p.attempts.unshift(attempt);p.attempts=p.attempts.slice(0,80);B.completed=true;B.percentage=percentage;persist();
+ const attempt={id:B.id,mode:B.mode,direction:B.direction||null,at:new Date().toISOString(),n,score,percentage,items:B.items.map((q,i)=>({key:q.key,mode:q.mode,question:q.prompt,answer:snapshotAnswer(q,B),correct:q.correct,ok:evaluations[i],why:explain(q.why,q)}))};
+ p.attempts.unshift(attempt);B.completed=true;B.percentage=percentage;persist();
 }
-function head(){const leftLesson=el('lesson-nav').scrollLeft,leftView=el('view-nav').scrollLeft;el('lesson-nav').innerHTML=records.map(r=>`<button type="button" data-lesson="${r.id}" class="${r.id===state.lesson?'selected':''}" aria-pressed="${r.id===state.lesson}">${escapeHTML(r.num)}</button>`).join('');el('lesson-nav').scrollLeft=leftLesson;
+function head(){const leftView=el('view-nav').scrollLeft;
+  const lessonSelect=el('lesson-select');
+  if(!lessonSelect.options.length)lessonSelect.innerHTML=records.map(r=>`<option value="${escapeHTML(r.id)}">${escapeHTML(r.num)} · ${escapeHTML(r.title)}</option>`).join('');
+  lessonSelect.value=state.lesson;
  el('view-nav').innerHTML=Object.entries(LABELS).map(([k,t])=>`<button type="button" data-tab="${k}" class="${state.tab===k?'selected':''}" aria-selected="${state.tab===k}">${escapeHTML(t)}${k==='mist'&&Object.keys(prog().mistakes).length?' <span class="flag">'+Object.keys(prog().mistakes).length+'</span>':''}</button>`).join('');el('view-nav').scrollLeft=leftView;
  const L=lesson();el('title').textContent=L.title;el('eyebrow').textContent='Урок '+L.num;el('brand-lesson').textContent='Урок '+L.num;
  el('storage-alert').hidden=storageOK;
@@ -134,12 +180,12 @@ function head(){const leftLesson=el('lesson-nav').scrollLeft,leftView=el('view-n
 function audioOK(){return typeof window.speechSynthesis!=='undefined'&&typeof window.SpeechSynthesisUtterance==='function'}
 function speaker(t){return audioOK()?`<button type="button" class="speak" data-say="${escapeHTML(t)}" aria-label="Прослушать">🔊</button>`:''}
 function showTheory(){const L=lesson();const sections=L.theory.map((s,i)=>`<section class="section"><details ${i===0?'open':''}><summary>${i+1}. ${markdown(s.h)}</summary><div class="theory-body">${(s.text||[]).map(t=>`<p>${markdown(t)}</p>`).join('')}${s.table&&s.table.length?`<table><thead><tr>${s.table[0].map(x=>`<th>${markdown(x)}</th>`).join('')}</tr></thead><tbody>${s.table.slice(1).map(row=>`<tr>${row.map(x=>`<td>${markdown(x)}</td>`).join('')}</tr>`).join('')}</tbody></table>`:''}${(s.ex||[]).map(([en,ru])=>`<div class="example">${speaker(en)} <b>${escapeHTML(en)}</b><br><span class="hint">${escapeHTML(ru)}</span></div>`).join('')}${(s.warn||[]).map(w=>`<div class="error">${markdown(w)}</div>`).join('')}</div></details></section>`).join('');
- el('body').innerHTML=`<div class="stats"><span class="tag">${L.theory.length} тем</span><span class="tag">${L.vocab.length} слов и фраз</span><span class="tag">Уровень A2</span></div><p class="hint">Разверни нужную тему, затем переходи к тренировке. Все примеры — из твоей базы занятий.</p>${sections}<section class="section"><h2>Как закреплять</h2><p>Пройди блок на 80% или выше <b>два раза подряд</b>, затем переходи к следующему уровню. Ошибки исчезают после двух правильных ответов подряд.</p><button type="button" class="btn" data-tab="l1">Начать уровень 1 →</button></section>`;
+ el('body').innerHTML=`<div class="stats"><span class="tag">${L.theory.length} тем</span><span class="tag">${L.vocab.length} слов и фраз</span><span class="tag">Уровень A2</span></div><p class="hint">Разверни нужную тему, затем переходи к тренировке. Все примеры — из твоей базы занятий.</p>${sections}<section class="section"><h2>Как закреплять</h2><p>Пройди блок на 80% или выше <b>два раза подряд</b>, затем переходи к следующему уровню. Ошибки исчезают после двух правильных ответов подряд.</p><button type="button" class="btn" data-tab="l1">Начать уровень 1 →</button></section><nav class="other-apps" aria-label="Другие приложения"><a href="./words/">Тренажёр слов</a><a href="./reader/">Читалка</a></nav>`;
  el('footer').hidden=true;
 }
 function showWords(){const L=lesson();el('body').innerHTML=`<div class="quizhead"><h2>Словарь · ${L.vocab.length}</h2><p>Английский → перевод → произношение</p></div><div class="lessonwords">${L.vocab.map(v=>`<div class="word"><div class="wordtop"><strong>${escapeHTML(v.en)}</strong>${speaker(v.en)}</div><span class="trans">${escapeHTML(v.ru)}</span><span class="pron">[${escapeHTML(v.pron)}]</span></div>`).join('')}</div>`;el('footer').hidden=true;}
 function showHistory(){const P=prog();const attempts=P.attempts;
- const recent=attempts.map(a=>`<details class="history-item"><summary>${escapeHTML(LABELS[a.mode]||a.mode)} · ${fmt(a.at)} · ${a.score}/${a.n} (${a.percentage}%) ${a.percentage>=80?'✓':''}</summary><div class="history-details">${a.items.map((r,i)=>`<div class="entry"><strong>${i+1}. ${r.ok?'✓':'✕'} ${escapeHTML(r.question)}</strong><br>Твой ответ: ${escapeHTML(r.answer)}<br>Правильно: ${escapeHTML(r.correct)}<br>Почему: ${escapeHTML(r.why)}</div>`).join('')}</div></details>`).join('');
+ const recent=attempts.map(a=>`<details class="history-item"><summary>${escapeHTML(LABELS[a.mode]||a.mode)}${a.mode==='l1'&&a.direction?' ('+(a.direction==='en'?'EN→RU':'RU→EN')+')':''} · ${fmt(a.at)} · ${a.score}/${a.n} (${a.percentage}%) ${a.percentage>=80?'✓':''}</summary><div class="history-details">${a.items.map((r,i)=>`<div class="entry"><strong>${i+1}. ${r.ok?'✓':'✕'} ${escapeHTML(r.question)}</strong><br>Твой ответ: ${escapeHTML(r.answer)}<br>Правильно: ${escapeHTML(r.correct)}<br>Почему: ${escapeHTML(r.why)}</div>`).join('')}</div></details>`).join('');
  el('body').innerHTML=`<div class="quizhead"><h2>История и прогресс</h2><span class="tag">${attempts.length} попыток</span></div><section class="section"><h2>Пройденные уровни</h2>${EXERCISE.filter(m=>m!=='mist').map(m=>{const a=attempts.filter(x=>x.mode===m);return `<p>${escapeHTML(LABELS[m])}: ${a.length?a[0].percentage+'% (последняя)':'ещё нет попыток'} ${masteryLevel(state.lesson,m)?'· ✓ два раза подряд':''}</p>`}).join('')}<p class="hint">История сохраняется в этом браузере по адресу сайта, даже когда открываешь следующий блок. На другом устройстве нужен импорт JSON.</p></section><div class="actions"><button class="btn" type="button" id="export-btn">Экспорт JSON</button><button class="btn subtle" type="button" id="import-btn">Импорт JSON</button></div><div class="spacer"></div>${recent||'<p class="hint">Проверенных блоков пока нет. После первой проверки ответы с объяснениями появятся здесь.</p>'}`;
  el('footer').hidden=true;
 }
@@ -151,14 +197,14 @@ function renderQuestion(q,i,B){const ans=getAns(B,q),isChecked=B.checked,r=grade
  if(q.kind==='build'){const selected=Array.isArray(ans)?ans:[];const ordered=selected.map(j=>`<button type="button" class="token placed" data-word-remove="${q.key}" data-index="${j}" ${isChecked?'disabled':''}>${escapeHTML(q.tokens[j])} ×</button>`).join('');const remain=q.order.filter(j=>!selected.includes(j)).map(j=>`<button type="button" class="token" data-word-add="${q.key}" data-index="${j}" ${isChecked?'disabled':''}>${escapeHTML(q.tokens[j])}</button>`).join('');input=`<div class="tokenslot">${ordered||'<span class="muted">Нажимай слова по порядку</span>'}</div><div class="chips">${remain}</div>`}
  const help=q.hint?`<div class="hint">Подсказка: ${escapeHTML(q.hint)}</div>`:q.starter?`<div class="hint">Начни: ${escapeHTML(q.starter)}</div>`:q.sub?`<div class="hint">${escapeHTML(q.sub)}</div>`:q.pron?`<div class="hint">[${escapeHTML(q.pron)}]</div>`:'';
  let feedback='';
- if(isChecked){const status=r===true?'<span class="verdict good">✓ Правильно</span>':r===false?'<span class="verdict bad">✕ Ошибка</span>':'<span class="verdict pending">Проверь формулировку</span>';feedback=`<div class="explanation">${status}<details ${r===true?'':'open'}><summary>${r===true?'Почему так правильно?':'Образец и объяснение'}</summary><div class="answerline"><b>Правильно:</b> ${escapeHTML(q.correct)} ${speaker(q.correct)}</div><div class="why"><strong>Почему:</strong> ${escapeHTML(explain(q.why,q))}</div></details>${r===null?`<div class="note-small">Если твой вариант тоже грамматически правильный и передаёт смысл, отметь его как верный.</div><div class="self-row"><button class="btn line" type="button" data-self="${escapeHTML(q.key)}" data-value="1">Тоже правильно</button><button class="btn subtle" type="button" data-self="${escapeHTML(q.key)}" data-value="0">Есть ошибка</button></div>`:''}</div>`}
+ if(isChecked){const status=r===true?'<span class="verdict good">✓ Правильно</span>':r===false?'<span class="verdict bad">✕ Ошибка</span>':'<span class="verdict pending">Проверь формулировку</span>';feedback=`<div class="explanation">${status}<details open><summary>${r===true?'Почему так правильно?':'Образец и объяснение'}</summary><div class="answerline"><b>Правильно:</b> ${escapeHTML(q.correct)} ${speaker(q.correct)}</div><div class="why"><strong>Почему:</strong> ${escapeHTML(explain(q.why,q))}</div></details>${r===null?`<div class="note-small">Если твой вариант тоже грамматически правильный и передаёт смысл, отметь его как верный.</div><div class="self-row"><button class="btn line" type="button" data-self="${escapeHTML(q.key)}" data-value="1">Тоже правильно</button><button class="btn subtle" type="button" data-self="${escapeHTML(q.key)}" data-value="0">Есть ошибка</button></div>`:''}</div>`}
  return `<article class="qcard ${isChecked&&r===true?'right':''} ${isChecked&&r===false?'wrong':''}" id="question-${i}"><div class="qtop"><span class="qnumber">${i+1} / ${B.items.length}</span>${isChecked&&r!==null?`<span class="tag ${r?'good':'bad'}">${r?'Верно':'Ошибка'}</span>`:''}</div><div class="qprompt">${renderPrompt(q)} ${q.kind==='speak'?speaker(q.prompt):''}</div>${help}${options}${input}${feedback}</article>`;
 }
-function pageSize(){return Math.max(1,Math.min(4,Number(state.prefs.pageSize)||2))}
+function pageSize(){return Math.max(1,Math.min(5,Number(state.prefs.pageSize)||4))}
 function jumpToTop(){window.scrollTo({top:0,behavior:'instant'})}
 function renderQuiz(){const L=lesson();let B=currentBlock();if(!B||B.items.length===0){showMistEmpty();return}page=Math.max(0,Math.min(page,Math.ceil(B.items.length/pageSize())-1));B.page=page;persist();
  const from=page*pageSize(),to=Math.min(B.items.length,from+pageSize());const num=B.items.filter(q=>countDone(q,getAns(B,q))).length;const done= B.items.every(q=>countDone(q,getAns(B,q)));const pending=B.checked?B.items.filter(q=>grade(q,B)===null).length:0;
- el('body').innerHTML=`<div class="quizhead"><div><h2>${escapeHTML(LABELS[B.mode])} ${B.completed?'· проверено':''}</h2><p>Вопросы ${from+1}–${to} из ${B.items.length} · отвечено ${num} из ${B.items.length}${storageOK?' · автосохранение ✓':''}</p></div><span class="tag ${B.completed&&B.percentage>=80?'good':''}">${B.completed?B.percentage+'%':num+'/'+B.items.length}</span></div><div class="meter"><span style="width:${100*num/B.items.length}%"></span></div>${B.checked?`<div class="statusbox"><div class="big">${B.completed?B.percentage+'%':'Проверка ответов'}</div>${B.completed?`<div>${B.percentage>=80?'Успешная попытка.':'Пока меньше 80%.'} Результат сохранён в истории.</div>`:`<div>Ответы показаны. Осталось подтвердить варианты с открытым ответом: ${pending}.</div>`}</div>`:''}<div class="questiongrid">${B.items.slice(from,to).map((q,i)=>renderQuestion(q,from+i,B)).join('')}</div>${B.checked&&!B.completed?'<p class="hint">Образцы и объяснения открылись после проверки. Для собственных формулировок выбери «Тоже правильно» или «Есть ошибка».</p>':''}${B.completed?`<div class="spacer"></div><section class="section"><h2>Результат сохранён</h2><p>Попытка доступна во вкладке «История». Не нужно сохранять её повторно.</p><div class="actions"><button class="btn" type="button" id="again-btn">Новый блок этого уровня</button><button class="btn subtle" type="button" data-tab="history">Посмотреть историю</button></div></section>`:''}`;
+ el('body').innerHTML=`${B.mode==='l1'?`<label class="direction-picker">Переводить <select id="recognition-dir" aria-label="Направление перевода"><option value="en" ${state.prefs.l1Direction==='en'?'selected':''}>С английского на русский</option><option value="ru" ${state.prefs.l1Direction==='ru'?'selected':''}>С русского на английский</option></select></label>`:''}<div class="quizhead"><div><h2>${escapeHTML(LABELS[B.mode])} ${B.completed?'· проверено':''}</h2><p>Вопросы ${from+1}–${to} из ${B.items.length} · отвечено ${num} из ${B.items.length}${storageOK?' · автосохранение ✓':''}</p></div><span class="tag ${B.completed&&B.percentage>=80?'good':''}">${B.completed?B.percentage+'%':num+'/'+B.items.length}</span></div><div class="meter"><span style="width:${100*num/B.items.length}%"></span></div>${B.checked?`<div class="statusbox"><div class="big">${B.completed?B.percentage+'%':'Проверка ответов'}</div>${B.completed?`<div>${B.percentage>=80?'Успешная попытка.':'Пока меньше 80%.'} Результат сохранён в истории.</div>`:`<div>Ответы показаны. Осталось подтвердить варианты с открытым ответом: ${pending}.</div>`}</div>`:''}<div class="questiongrid">${B.items.slice(from,to).map((q,i)=>renderQuestion(q,from+i,B)).join('')}</div>${B.checked&&!B.completed?'<p class="hint">Образцы и объяснения открылись после проверки. Для собственных формулировок выбери «Тоже правильно» или «Есть ошибка».</p>':''}${B.completed?`<div class="spacer"></div><section class="section"><h2>Результат сохранён</h2><p>Попытка доступна во вкладке «История». Не нужно сохранять её повторно.</p><div class="actions"><button class="btn" type="button" id="again-btn">Новый блок этого уровня</button><button class="btn subtle" type="button" data-tab="history">Посмотреть историю</button></div></section>`:''}`;
  const f=el('footer');f.hidden=false;
  let c='';
  if(!B.checked)c=done?'<button class="btn primary" type="button" id="check-btn">Проверить все</button>':'<button class="btn primary" type="button" id="check-btn" disabled title="Сначала ответь на все вопросы">Проверить все</button>';
@@ -185,7 +231,7 @@ async function importFile(f){try{const str=await f.text();const obj=JSON.parse(s
 function onClick(e){let b=e.target.closest('button');if(!b)return;const d=b.dataset;
  if(d.lesson)return navLesson(d.lesson);if(d.tab)return navTab(d.tab);if(d.say)return speakText(d.say);
  if('answerChoice' in d){updateDraft(d.answerChoice,+d.choice);render();return}
- if('wordAdd' in d){const B=currentBlock(false);if(B&&!B.checked){const x=B.answers[d.wordAdd]||[];B.answers[d.wordAdd]=[...x,+d.index];persist();render()}return}
+ if('wordAdd' in d){const B=currentBlock(false);if(B&&!B.checked){const x=B.answers[d.wordAdd]||[],q=B.items.find(q=>q.key===d.wordAdd);if(q&&x.length<(q.correctTokenCount||q.tokens.length)&&!x.includes(+d.index)){B.answers[d.wordAdd]=[...x,+d.index];persist();render()}}return}
  if('wordRemove' in d){const B=currentBlock(false);if(B&&!B.checked){const x=B.answers[d.wordRemove]||[];B.answers[d.wordRemove]=x.filter(j=>j!==+d.index);persist();render()}return}
  if('self' in d){selfMark(d.self,d.value==='1');return}
  if(b.id==='prev-btn'){setPage(page-1);return}if(b.id==='next-btn'){setPage(page+1);return}if(b.id==='check-btn'){checkNow();return}
@@ -196,7 +242,12 @@ function onClick(e){let b=e.target.closest('button');if(!b)return;const d=b.data
 function onInput(e){const t=e.target;if(t.matches('[data-answer-text]')){updateDraft(t.dataset.answerText,t.value)}}
 document.addEventListener('click',onClick);document.addEventListener('input',onInput);document.addEventListener('change',onInput);
 el('import-file').addEventListener('change',e=>{if(e.target.files&&e.target.files[0])importFile(e.target.files[0])});
-el('page-size').value=String(pageSize());el('page-size').addEventListener('change',e=>{state.prefs.pageSize=Number(e.target.value)||2;page=0;persist();render()});
+el('page-size').value=String(pageSize());el('page-size').addEventListener('change',e=>{state.prefs.pageSize=Number(e.target.value)||4;page=0;persist();render()});
+  el('lesson-select').addEventListener('change',e=>navLesson(e.target.value));
+  document.addEventListener('change',e=>{if(e.target.id==='recognition-dir'){
+    const value=e.target.value;if(!['en','ru'].includes(value))return;
+    state.prefs.l1Direction=value;page=0;persist();render();jumpToTop();
+  }});
 window.addEventListener('error',e=>{const banner=el('error-banner');if(banner){banner.hidden=false;banner.textContent='Ошибка приложения: '+(e.message||'Неизвестная ошибка')}});
 // Expose a read-only test hook to verify persistence and question selection in browser tests.
 window.__reviewDebug={getState:()=>JSON.parse(JSON.stringify(state)),lessonCount:records.length,storageOK:()=>storageOK};
