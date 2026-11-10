@@ -24,7 +24,9 @@ export function validateStory(r,expectedWords){
  for(const f of forms){if(!covered.has(f)&&dictionary[f]){r.glossary.push({f,l:dictionary[f].l,ru:dictionary[f].ru,source:"dictionary"});covered.add(f);}}
  if([...forms].some(f=>!covered.has(f)))throw Error("incomplete_glossary");
  const txt=r.paragraphs.join(" ").toLowerCase().replace(/’/g,"'");
- for(const p of r.phrases)if(!p||typeof p.p!=="string"||typeof p.ru!=="string"||p.p.length>100||p.ru.length>140||!txt.includes(p.p.toLowerCase().replace(/’/g,"'")))throw Error("invalid_phrases");
+ for(const p of r.phrases)if(!p||typeof p.p!=="string"||typeof p.ru!=="string"||p.p.length>100||p.ru.length>140)throw Error("invalid_phrases");
+ // Optional phrase hints absent from the final text cannot be tapped; omit them.
+ r.phrases=r.phrases.filter(p=>txt.includes(p.p.toLowerCase().replace(/’/g,"'")));
  return r;
 }
 export function validateRequest(b){

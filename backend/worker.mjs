@@ -42,6 +42,7 @@ export async function handle(req,env,fetcher=fetch){
  if(req.method!=="GET"&&req.headers.get("X-CSRF")!==s.csrf)return reply({error:"csrf_denied"},403);
  if(u.pathname==="/api/logout"&&req.method==="POST"){await env.DB.prepare("DELETE FROM sessions WHERE csrf=?").bind(s.csrf).run();return reply({ok:true},200,{"set-cookie":"owner=; Secure; HttpOnly; SameSite=Strict; Path=/; Max-Age=0"});}
  if(u.pathname==="/api/disable"&&req.method==="POST"){await env.DB.prepare("INSERT OR REPLACE INTO flags(key,value) VALUES('disabled','true')").run();return reply({ok:true});}
+ if(u.pathname==="/api/diagnostics"&&req.method==="GET"){const row=await env.DB.prepare("SELECT value FROM flags WHERE key='last_generation_error'").first();return reply(row?JSON.parse(row.value):{reason:null});}
  if(u.pathname==="/api/texts"&&req.method==="GET"){
   const rows=await env.DB.prepare("SELECT id,data FROM texts ORDER BY created DESC LIMIT 200").all();
   return reply({texts:rows.results.map(r=>({id:r.id,...JSON.parse(r.data)}))});
@@ -66,7 +67,13 @@ export async function handle(req,env,fetcher=fetch){
  }
  const result=await response.json();if(result.status==="incomplete")return reply({error:"incomplete_response"},502);
  const text=(result.output||[]).flatMap(x=>x.content||[]).filter(x=>x.type==="output_text").map(x=>x.text).join("");
- const story=validateStory(JSON.parse(text),b.words),data=JSON.stringify(story),id=await sha(data);
+ let story;
+ try{story=validateStory(JSON.parse(text),b.words);}catch(e){
+  const reason=["invalid_response","invalid_length","invalid_glossary","incomplete_glossary","invalid_phrases"].includes(e.message)?e.message:"invalid_json";
+  await env.DB.prepare("INSERT OR REPLACE INTO flags(key,value) VALUES('last_generation_error',?)").bind(JSON.stringify({reason,candidate:text.slice(0,80000),at:Date.now()})).run();
+  return reply({error:"invalid_response",reason},502);
+ }
+ const data=JSON.stringify(story),id=await sha(data);
  await env.DB.prepare("INSERT OR IGNORE INTO texts(id,data,created) VALUES(?,?,?)").bind(id,data,Date.now()).run();
  return reply({id,story});
 }

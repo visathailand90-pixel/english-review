@@ -31,8 +31,15 @@ assert.equal((await handle(request("/api/generate",b),env,mock)).status,503);
 sql.prepare("DELETE FROM flags").run();sql.prepare("DELETE FROM quota").run();
 for(let i=0;i<3;i++)assert.equal((await handle(request("/api/generate",b),env,mock)).status,200);
 assert.equal((await handle(request("/api/generate",b),env,mock)).status,429);
+sql.prepare("DELETE FROM quota").run();
+const rejected={...story,paragraphs:["Too short."]};
+r=await handle(request("/api/generate",b),env,async()=>Response.json({status:"completed",output:[{content:[{type:"output_text",text:JSON.stringify(rejected)}]}]}));
+assert.equal(r.status,502);assert.equal((await r.json()).reason,"invalid_length");
+assert.equal(sql.prepare("SELECT count(*) as n FROM texts").get().n,1);
+r=await handle(request("/api/diagnostics"),env,mock);assert.equal((await r.json()).reason,"invalid_length");
 assert.equal((await handle(request("/api/logout",{}),env,mock)).status,200);
 assert.equal((await handle(request("/api/session"),env,mock)).status,401);
+assert.equal((await handle(request("/api/diagnostics"),env,mock)).status,401);
 // Boundary checks use the public handler: generic failures never include provider details.
 const module=await import('../backend/worker.mjs');
 const fail=await module.default.fetch(new Request(origin+'/api/login',{method:'POST',headers:{'Origin':origin,'Content-Type':'application/json'},body:'not-json'}),env);
@@ -41,3 +48,6 @@ assert.doesNotMatch(await fail.text(),/mock-not-a-real-key/);
 const repair=validateStory({title:"Test",paragraphs:["A new a mouse."],glossary:[{f:"a",l:"a",ru:"артикль"},{f:"new",l:"new",ru:"новый"},{f:"mouse",l:"mouse",ru:"мышь"}],phrases:[]});
 assert.equal(repair.paragraphs[0],"A new mouse.");
 console.log("PASS owner authentication, CSRF/origin, bonus guard, schema validation, atomic limits, credit exhaustion, cloud dedup and logout; no network API calls");
+
+const absentPhrase=validateStory({...story,phrases:[{p:"not in the story",ru:"unused"},{p:"buy apples",ru:"valid"}]});
+assert.deepEqual(absentPhrase.phrases.map(p=>p.p),["buy apples"]);
