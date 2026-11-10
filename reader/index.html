@@ -1061,7 +1061,7 @@ function addStory(r,id,lesson){
  renderLibrary();return text.id;
 }
 window.addEventListener('message',e=>{
- if(!ownerWindow||e.source!==ownerWindow||e.origin!==store.get('chitalka.ownerEndpoint',''))return;
+ if(!ownerWindow||e.source!==ownerWindow||e.origin!==store.get('chitalka.ownerEndpoint','https://english-reader-owner.english-fc53e115b617.workers.dev'))return;
  try{
  if(e.data?.type==='english-reader-ready')ownerWindow.postMessage({type:'english-reader-request',request:pendingRequest},e.origin);
  if(e.data?.type==='english-reader-story'){const id=addStory(e.data.story,e.data.id,e.data.lesson);openText(id);document.getElementById('genStatus').textContent='Текст сохранён на этом устройстве.';}
@@ -1091,7 +1091,7 @@ if (canSpeak) { try { speechSynthesis.getVoices(); speechSynthesis.onvoiceschang
 const options=window.ENGLISH_READING_CONTEXT.map(l=>'<option value="'+l.id+'">'+l.id+' · '+esc(l.title)+'</option>').join('');
 $('#genLesson').innerHTML=options;$('#genLesson').value='03';
 $('#learnedLessons').innerHTML=window.ENGLISH_READING_CONTEXT.map(l=>'<label style="display:block"><input type="checkbox" data-learned value="'+l.id+'"> '+esc(l.title)+'</label>').join('');
-$('#ownerEndpoint').value=store.get('chitalka.ownerEndpoint','');
+$('#ownerEndpoint').value=store.get('chitalka.ownerEndpoint','https://english-reader-owner.english-fc53e115b617.workers.dev');
 $('#readerExport').onclick=()=>{const data={format:'english-reader-v1',generated,saved,EXTRA};const u=URL.createObjectURL(new Blob([JSON.stringify(data,null,2)],{type:'application/json'}));const a=document.createElement('a');a.href=u;a.download='english-reader-library.json';a.click();setTimeout(()=>URL.revokeObjectURL(u),1000);};
 $('#readerImport').onchange=async e=>{try{const o=JSON.parse(await e.target.files[0].text());if(o.format!=='english-reader-v1'||!Array.isArray(o.generated)||!Array.isArray(o.saved))throw Error();
 for(const t of o.generated){if(!t||typeof t.id!=='string'||typeof t.title!=='string'||!Array.isArray(t.paragraphs)||t.paragraphs.some(p=>typeof p!=='string')||t.paragraphs.join(' ').length>15000)throw Error();}

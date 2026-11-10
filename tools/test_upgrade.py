@@ -41,7 +41,7 @@ try:
    # Old generated texts survive; JSON export includes them; no endpoint => no API request.
    old={'id':'legacy-reading','title':'Old saved text','topic':'Local','paragraphs':['We buy apples.'],'dict':{'we':{'l':'we','ru':'мы','ipa':''}},'phr':{}}
    page.evaluate('(t)=>localStorage.setItem("chitalka.gen",JSON.stringify([t]))',old);page.reload()
-   page.locator('#genBtn').click();assert 'не подключён' in page.locator('#genStatus').inner_text()
+   page.locator('#ownerEndpoint').evaluate('(el)=>el.value=""');page.locator('#genBtn').click();assert 'не подключён' in page.locator('#genStatus').inner_text()
    assert page.locator('#textList .card').count()>1
    with page.expect_download() as info:page.locator('#readerExport').click()
    saved=json.loads(Path(info.value.path()).read_text(encoding='utf-8'))
