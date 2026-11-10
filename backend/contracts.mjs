@@ -14,7 +14,7 @@ export function validateStory(r,expectedWords){
  if(r.paragraphs.join(" ").length>15000)throw Error("invalid_response");
  if(!Array.isArray(r.glossary)||r.glossary.length>500||!Array.isArray(r.phrases)||r.phrases.length>40)throw Error("invalid_response");
  const forms=new Set((r.paragraphs.join(" ").toLowerCase().match(/[a-z]+(?:['’-][a-z]+)*/g)||[]).map(s=>s.replace(/’/g,"'")));
- if(expectedWords){const count=r.paragraphs.join(" ").trim().split(/\s+/).length;if(r.paragraphs.length<3||count<({120:90,180:150,250:220}[expectedWords]||expectedWords*.8)||count>({120:150,180:220,250:300}[expectedWords]||expectedWords*1.3))throw Error("invalid_length");}
+ if(expectedWords){const count=r.paragraphs.join(" ").trim().split(/\s+/).length;if(r.paragraphs.length<3||count<({120:90,180:144,250:220}[expectedWords]||expectedWords*.8)||count>({120:150,180:220,250:300}[expectedWords]||expectedWords*1.3))throw Error("invalid_length");}
  const covered=new Set();
  r.glossary=r.glossary.filter(g=>g&&typeof g.f==="string"&&forms.has(g.f.toLowerCase().replace(/’/g,"\x27")));
  for(const g of r.glossary){

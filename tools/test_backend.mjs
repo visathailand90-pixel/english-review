@@ -37,9 +37,16 @@ r=await handle(request("/api/generate",b),env,async()=>Response.json({status:"co
 assert.equal(r.status,502);assert.equal((await r.json()).reason,"invalid_length");
 assert.equal(sql.prepare("SELECT count(*) as n FROM texts").get().n,1);
 r=await handle(request("/api/diagnostics"),env,mock);assert.equal((await r.json()).reason,"invalid_length");
+await assert.rejects(()=>handle(request("/api/recover",b),env,mock),/invalid_length/);
+assert.equal((await handle(request("/api/recover",b,{"X-CSRF":"bad"}),env,mock)).status,403);
+sql.prepare("INSERT OR REPLACE INTO flags(key,value) VALUES('last_generation_error',?)").run(JSON.stringify({reason:"invalid_length",candidate:JSON.stringify(story)}));
+const callsBeforeRecovery=calls;
+r=await handle(request("/api/recover",b),env,mock);assert.equal(r.status,200);assert.equal((await r.json()).story.title,story.title);
+assert.equal(calls,callsBeforeRecovery);assert.equal(sql.prepare("SELECT count(*) as n FROM texts").get().n,1);
 assert.equal((await handle(request("/api/logout",{}),env,mock)).status,200);
 assert.equal((await handle(request("/api/session"),env,mock)).status,401);
 assert.equal((await handle(request("/api/diagnostics"),env,mock)).status,401);
+assert.equal((await handle(request("/api/recover",b),env,mock)).status,401);
 // Boundary checks use the public handler: generic failures never include provider details.
 const module=await import('../backend/worker.mjs');
 const fail=await module.default.fetch(new Request(origin+'/api/login',{method:'POST',headers:{'Origin':origin,'Content-Type':'application/json'},body:'not-json'}),env);
