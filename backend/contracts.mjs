@@ -3,7 +3,7 @@ export const storySchema = {
  type:"object",additionalProperties:false,
  properties:{
  title:{type:"string"},paragraphs:{type:"array",minItems:3,maxItems:6,items:{type:"string",minLength:80}},
- glossary:{type:"array",items:{type:"object",additionalProperties:false,properties:{f:{type:"string"},l:{type:"string"},ru:{type:"string"}},required:["f","l","ru"]}},
+ glossary:{type:"array",items:{type:"object",additionalProperties:false,properties:{f:{type:"string",pattern:"^[A-Za-z]+(?:['’-][A-Za-z]+)*$"},l:{type:"string"},ru:{type:"string"}},required:["f","l","ru"]}},
  phrases:{type:"array",items:{type:"object",additionalProperties:false,properties:{p:{type:"string"},ru:{type:"string"}},required:["p","ru"]}}
  },required:["title","paragraphs","glossary","phrases"]
 };
