@@ -1,21 +1,27 @@
-﻿export const storySchema = {
+import {dictionary} from "./glossary.mjs";
+export const storySchema = {
  type:"object",additionalProperties:false,
  properties:{
- title:{type:"string"},paragraphs:{type:"array",items:{type:"string"}},
+ title:{type:"string"},paragraphs:{type:"array",minItems:3,maxItems:6,items:{type:"string",minLength:80}},
  glossary:{type:"array",items:{type:"object",additionalProperties:false,properties:{f:{type:"string"},l:{type:"string"},ru:{type:"string"}},required:["f","l","ru"]}},
  phrases:{type:"array",items:{type:"object",additionalProperties:false,properties:{p:{type:"string"},ru:{type:"string"}},required:["p","ru"]}}
  },required:["title","paragraphs","glossary","phrases"]
 };
-export function validateStory(r){
+export function validateStory(r,expectedWords){
  if(!r||typeof r.title!=="string"||!r.title.trim()||r.title.length>150||!Array.isArray(r.paragraphs)||r.paragraphs.length<1||r.paragraphs.length>12||r.paragraphs.some(s=>typeof s!=="string"||s.length>4000))throw Error("invalid_response");
+ // Repair only mechanical duplicate determiners caused by article-bearing vocabulary chunks.
+ r.paragraphs=r.paragraphs.map(p=>p.replace(/\b(a|an)\s+(new|old|small|big|large|nice|beautiful)\s+(?:a|an)\s+/gi,"$1 $2 ").replace(/\b(a|an)\s+(?:a|an)\s+/gi,"$1 "));
  if(r.paragraphs.join(" ").length>15000)throw Error("invalid_response");
  if(!Array.isArray(r.glossary)||r.glossary.length>500||!Array.isArray(r.phrases)||r.phrases.length>40)throw Error("invalid_response");
  const forms=new Set((r.paragraphs.join(" ").toLowerCase().match(/[a-z]+(?:['’-][a-z]+)*/g)||[]).map(s=>s.replace(/’/g,"'")));
+ if(expectedWords){const count=r.paragraphs.join(" ").trim().split(/\s+/).length;if(r.paragraphs.length<3||count<({120:90,180:150,250:220}[expectedWords]||expectedWords*.8)||count>({120:150,180:220,250:300}[expectedWords]||expectedWords*1.3))throw Error("invalid_length");}
  const covered=new Set();
+ r.glossary=r.glossary.filter(g=>g&&typeof g.f==="string"&&forms.has(g.f.toLowerCase().replace(/’/g,"\x27")));
  for(const g of r.glossary){
   if(!g||["f","l","ru"].some(k=>typeof g[k]!=="string"||!g[k]||g[k].length>140)||!forms.has(g.f.toLowerCase().replace(/’/g,"'")))throw Error("invalid_glossary");
   covered.add(g.f.toLowerCase().replace(/’/g,"'"));
  }
+ for(const f of forms){if(!covered.has(f)&&dictionary[f]){r.glossary.push({f,l:dictionary[f].l,ru:dictionary[f].ru,source:"dictionary"});covered.add(f);}}
  if([...forms].some(f=>!covered.has(f)))throw Error("incomplete_glossary");
  const txt=r.paragraphs.join(" ").toLowerCase().replace(/’/g,"'");
  for(const p of r.phrases)if(!p||typeof p.p!=="string"||typeof p.ru!=="string"||p.p.length>100||p.ru.length>140||!txt.includes(p.p.toLowerCase().replace(/’/g,"'")))throw Error("invalid_phrases");

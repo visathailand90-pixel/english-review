@@ -9,7 +9,7 @@ const sha=async s=>Buffer.from(await crypto.subtle.digest("SHA-256",new TextEnco
 const env={DB,PAGES_ORIGIN:"https://owner.example",OWNER_SECRET_SALT:"test-salt",OWNER_SECRET_HASH:await sha("test-salt"+"test-owner-passphrase"),GENERATION_ENABLED:"true",BONUS_ONLY_CONFIRMED:"true",BONUS_EXPIRES_AT:new Date(Date.now()+60000).toISOString(),OPENAI_MODEL:"mock-only-model",OPENAI_API_KEY:"mock-not-a-real-key"};
 const origin="https://reader-owner.example";let cookie="",csrf="";let calls=0;
 function request(path,data,headers={}){return new Request(origin+path,{method:data?"POST":"GET",headers:{...(data?{"Content-Type":"application/json",Origin:origin}:{}),...(cookie?{Cookie:cookie}:{}),...(csrf?{"X-CSRF":csrf}:{}),...headers},body:data?JSON.stringify(data):undefined});}
-const story={title:"A visit",paragraphs:["We buy apples."],glossary:[{f:"we",l:"we",ru:"мы"},{f:"buy",l:"buy",ru:"покупаем"},{f:"apples",l:"apple",ru:"яблоки"}],phrases:[]};
+const story={title:"A visit",paragraphs:Array.from({length:3},()=>Array(20).fill("We buy apples.").join(" ")),glossary:[{f:"we",l:"we",ru:"мы"},{f:"buy",l:"buy",ru:"покупаем"},{f:"apples",l:"apple",ru:"яблоки"}],phrases:[]};
 const mock=async()=>{calls++;return Response.json({status:"completed",output:[{content:[{type:"output_text",text:JSON.stringify(story)}]}]});};
 assert.equal((await handle(request("/api/generate",{}),env,mock)).status,401);
 assert.equal((await handle(request("/api/login",{password:"wrong"}),env,mock)).status,401);
@@ -24,7 +24,8 @@ assert.equal(calls,0);
 r=await handle(request("/api/generate",b),env,mock);assert.equal(r.status,200);assert.equal((await r.json()).story.title,story.title);
 r=await handle(request("/api/texts"),env,mock);assert.equal((await r.json()).texts.length,1);
 await handle(request("/api/texts",story),env,mock);assert.equal(sql.prepare("SELECT count(*) as n FROM texts").get().n,1);
-assert.throws(()=>validateStory({...story,glossary:[]}),/incomplete_glossary/);
+assert.throws(()=>validateStory({...story,paragraphs:["Unlistedword."],glossary:[]}),/incomplete_glossary/);
+assert.throws(()=>validateStory({...story,paragraphs:["We buy apples.","We buy apples.","We buy apples."]},180),/invalid_length/);
 r=await handle(request("/api/generate",b),env,async()=>Response.json({error:{code:"credit_balance_exhausted"}},{status:429}));assert.equal(r.status,429);
 assert.equal((await handle(request("/api/generate",b),env,mock)).status,503);
 sql.prepare("DELETE FROM flags").run();sql.prepare("DELETE FROM quota").run();
@@ -37,4 +38,6 @@ const module=await import('../backend/worker.mjs');
 const fail=await module.default.fetch(new Request(origin+'/api/login',{method:'POST',headers:{'Origin':origin,'Content-Type':'application/json'},body:'not-json'}),env);
 assert.equal(fail.status,502);
 assert.doesNotMatch(await fail.text(),/mock-not-a-real-key/);
+const repair=validateStory({title:"Test",paragraphs:["A new a mouse."],glossary:[{f:"a",l:"a",ru:"артикль"},{f:"new",l:"new",ru:"новый"},{f:"mouse",l:"mouse",ru:"мышь"}],phrases:[]});
+assert.equal(repair.paragraphs[0],"A new mouse.");
 console.log("PASS owner authentication, CSRF/origin, bonus guard, schema validation, atomic limits, credit exhaustion, cloud dedup and logout; no network API calls");
