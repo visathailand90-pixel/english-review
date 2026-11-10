@@ -229,6 +229,38 @@
       "warn": [
         "He works **hardly** (= почти не работает!) → He works **hard**."
       ]
+    },
+    {
+      "h": "Подробнее: have to, had to, hard и hardly",
+      "text": [
+        "Когда: Необходимость по обстоятельствам. Отрицание — отсутствие необходимости, не запрет. В прошлом у всех had to.",
+        "Формула: **have/has to + V; do/does not have to + V; did + subject + have to + V?**"
+      ],
+      "ex": [
+        [
+          "I have to leave at six today.",
+          "Мне сегодня нужно уйти в шесть."
+        ],
+        [
+          "Nora has to collect a parcel.",
+          "Норе нужно забрать посылку."
+        ],
+        [
+          "Did you have to wait outside?",
+          "Тебе пришлось ждать снаружи?"
+        ],
+        [
+          "We did not have to pay for delivery.",
+          "Нам не пришлось платить за доставку."
+        ]
+      ],
+      "warn": [
+        "She doesn't have to, не doesn't has to. Mustn't — запрет, don't have to — можно не делать. Work hard = усердно работать; hardly work = почти не работать."
+      ],
+      "practice": {
+        "q": "Переведи: Вчера ему пришлось работать допоздна.",
+        "a": "He had to work late yesterday."
+      }
     }
   ],
   "vocab": [

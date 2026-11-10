@@ -12,3 +12,9 @@ staging/
 *.wav
 *.m4a
 __pycache__/
+
+node_modules/
+.wrangler/
+.dev.vars*
+backend/wrangler.toml
+backend/*secret*

@@ -1,5 +1,5 @@
 <!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}@media(max-width:560px){body{font-size:16px}.hint{font-size:14px}.chip{font-size:15px}}
-</style><title>Английская читалка</title><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-title" content="English Reader"><meta name="theme-color" content="#f4f6fa"><link rel="manifest" href="./manifest.webmanifest"><link rel="apple-touch-icon" href="../icon-192.png"></head><body>
+select{font:inherit;max-width:100%;width:100%;padding:12px;border:1px solid #ccd6e5;border-radius:10px;background:white;color:inherit;margin:6px 0 12px}input[type=checkbox]{width:auto} .gen label{display:block} </style><title>Английская читалка</title><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-title" content="English Reader"><meta name="theme-color" content="#f4f6fa"><link rel="manifest" href="./manifest.webmanifest"><link rel="apple-touch-icon" href="../icon-192.png"></head><body>
 <title>Английская читалка</title>
 <meta name="claude:viewport-fit-sides" content="cover">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -143,19 +143,20 @@ textarea.fallback{width:100%;box-sizing:border-box;min-height:140px;font:13px/1.
   <section id="library">
     <p class="lead">Тексты строятся на лексике и грамматике твоих уроков. Выбери текст и читай вслух. Нажми на незнакомое слово: увидишь перевод, транскрипцию и сможешь добавить его в изучение. В конце скопируй список слов.</p>
 
-    <div class="gen" id="genBox" hidden>
+    <div class="gen" id="genBox">
       <h2>Новый текст по уроку</h2>
-      <div class="label">Урок</div>
-      <div class="chips" id="lessonChips"></div>
-      <div class="status" id="lessonInfo"></div>
-      <div class="label">Какой текст</div>
-      <div class="chips" id="chips"></div>
-      <input id="customTopic" placeholder="Уточнить тему (необязательно), например: реклама для клиники">
-      <div class="genrow">
-        <button class="btn" id="genBtn">Написать текст</button>
-        <button class="btn ghost" id="stopBtn" hidden>Стоп</button>
-      </div>
-      <div class="status" id="genStatus"></div>
+      <label>Урок<select id="genLesson"></select></label>
+      <label>Формат<select id="genFormat"><option value="story">История</option><option value="dialogue">Диалог</option><option value="article">Небольшая статья</option><option value="posts">Посты</option></select></label>
+      <label>Тема<select id="genTopic"><option>Повседневная жизнь</option><option>Покупки</option><option>Спорт</option><option>Путешествия</option><option>Работа</option><option>Отношения</option><option>Еда</option></select></label>
+      <input id="customTopic" maxlength="200" placeholder="Своя тема (без личных данных)">
+      <label>Сложность<select id="genLevel"><option>A2</option><option>A2+</option></select></label>
+      <label>Размер<select id="genLength"><option value="120">Около 120 слов</option><option value="180" selected>150–220 слов</option><option value="250">Около 250 слов</option></select></label>
+      <details><summary>Пройденные уроки и персонализация</summary><div id="learnedLessons"></div><label><input type="checkbox" id="allowPatterns"> Добавлять нейтральную практику грамматических трудностей</label><p>Передаются выбранные темы уроков и до 15 сохранённых слов. Личные ответы и исходники не передаются.</p></details>
+      <details><summary>Подключение личного сервиса</summary><p>До подтверждения бонуса генерация отключена. Ключ OpenAI вводится только в секреты сервера, никогда здесь.</p><input id="ownerEndpoint" type="url" placeholder="https://имя-сервиса.workers.dev/"></details>
+      <div class="genrow"><button class="btn" id="genBtn">Создать текст</button><button class="btn ghost" id="stopBtn" hidden>Стоп</button></div>
+      <div class="status" id="genStatus" role="status">Онлайн-генерация требует подключения бесплатного личного сервиса. Готовые тексты доступны ниже.</div>
+      <button class="btn ghost" id="readerExport">Экспорт библиотеки</button>
+      <label class="btn ghost">Импорт библиотеки<input id="readerImport" type="file" accept=".json" hidden></label>
     </div>
 
     <div class="label" style="margin-bottom:10px">Тексты</div>
@@ -187,6 +188,7 @@ textarea.fallback{width:100%;box-sizing:border-box;min-height:140px;font:13px/1.
 <div class="backdrop" id="backdrop" hidden></div>
 <div class="sheet" id="sheet" hidden role="dialog" aria-modal="true"><div class="in" id="sheetIn"></div></div>
 
+<script src="./context.js"></script>
 <script>
 /* ---------- built-in dictionary: lemma|перевод|IPA|forms ---------- */
 const RAW = `the|определённый артикль (этот, тот самый)|ðə
@@ -1019,61 +1021,54 @@ function toast(msg) {
   el.textContent = msg; el.hidden = false; clearTimeout(toastTimer); toastTimer = setTimeout(() => { el.hidden = true; }, 2200);
 }
 
-/* ---------- generation ---------- */
-const KINDS = [
-  ["Статья для маркетолога", "a short practical article for a marketer, connected to the lesson topic"],
-  ["История", "a short story about one or two people, with a small problem and a happy ending"],
-  ["Диалог", "a natural dialogue between two colleagues (lines start with the speaker's name, e.g. Anna: ...)"],
-  ["Посты из соцсети", "4-5 short social media posts and replies from different people on the lesson topic (each post starts with the author's name)"]
-];
-let topicIdx = 0, lessonNo = store.get("chitalka.lesson", 3), genCtl = null;
-function renderChips() {
-  $("#lessonChips").innerHTML = LESSONS.map(l => `<button class="chip" data-n="${l.n}" aria-pressed="${l.n === lessonNo}">Урок ${l.n}</button>`).join("");
-  const L = LESSONS.find(l => l.n === lessonNo);
-  $("#lessonInfo").textContent = L ? L.title : "";
-  document.querySelectorAll("#lessonChips .chip").forEach(c => c.onclick = () => { lessonNo = +c.dataset.n; store.set("chitalka.lesson", lessonNo); renderChips(); });
-  $("#chips").innerHTML = KINDS.map((t, i) => `<button class="chip" data-i="${i}" aria-pressed="${i === topicIdx}">${t[0]}</button>`).join("");
-  document.querySelectorAll("#chips .chip").forEach(c => c.onclick = () => { topicIdx = +c.dataset.i; renderChips(); });
+/* ---------- owner-only generation ---------- */
+let genCtl=null;
+function renderChips(){}
+function requestForReader(){
+ const lesson=document.getElementById('genLesson').value;
+ const selected=window.ENGLISH_READING_CONTEXT.find(l=>l.id===lesson);
+ const learned=Array.from(document.querySelectorAll('[data-learned]:checked')).map(x=>x.value);
+ const context=window.ENGLISH_READING_CONTEXT.filter(l=>l.id===lesson||learned.includes(l.id)).map(l=>({lesson:l.id,grammar:l.grammar.slice(-3),vocab:l.vocab.slice(0,16)}));
+ const permitted=[];
+ if(document.getElementById('allowPatterns').checked)permitted.push('Practise third-person -s, did + base form, be in questions, prepositions, and adjective/adverb distinction. These are neutral practice patterns; no personal answers are transmitted.');
+ const words=saved.slice(-15).map(w=>String(w.k).slice(0,60));
+ return {lesson,format:document.getElementById('genFormat').value,level:document.getElementById('genLevel').value,words:Number(document.getElementById('genLength').value),topic:document.getElementById('customTopic').value.slice(0,200)||document.getElementById('genTopic').value,context:JSON.stringify({selected:context,savedWords:words,practice:permitted}).slice(0,7000)};
 }
-async function generate() {
-  const custom = $("#customTopic").value.trim();
-  const L = LESSONS.find(l => l.n === lessonNo) || LESSONS[0];
-  const topicEn = `${KINDS[topicIdx][1]}. Lesson topic: ${L.topic}${custom ? `. Extra focus from the learner: ${custom}` : ""}.
-LESSON ${L.n} MATERIAL — use it on purpose:
-- Grammar to practise: ${L.grammar}. Use these structures several times.
-- Lesson vocabulary: ${L.vocab}. Naturally use 10-14 of these words and phrases.
-Grammar ceiling: only use what an A2 learner who finished lessons 1-${L.n} knows. Avoid Present Perfect, future forms other than will, passive voice and complex clauses${L.n < 7 ? "; keep Past Simple to a few very common verbs" : ""}.`;
-  const label = `Урок ${L.n} · ${KINDS[topicIdx][0].toLowerCase()}`;
-  const avoid = allTexts().map(t => t.title).join("; ");
-  genCtl = new AbortController();
-  $("#genBtn").disabled = true; $("#stopBtn").hidden = false;
-  $("#genStatus").textContent = "Claude пишет текст и словарь к нему. Обычно это 30–90 секунд…";
-  try {
-    const r = await sample.json(
-`You prepare reading-aloud practice for a Russian-speaking learner of English at level A2 (pre-intermediate). He works as a performance marketer.
-Write an ORIGINAL text on this topic: ${topicEn}.
-Rules: 150-220 words; 3-5 short paragraphs; simple A2 grammar (mostly Present Simple, Past Simple, can, will, going to, Present Continuous); mostly common words plus 6-10 useful new topic words; a short English title. Do not reuse these titles: ${avoid}.
-Then build a glossary that covers EVERY distinct word form used in the text (lowercase, exactly as written, contractions like didn't included, personal names included with a note "(имя)"). For each: "f" the form as in the text, "l" its dictionary base form, "ru" a short Russian translation that fits this text (1-4 words), "ipa" British IPA of the base form without slashes.
-Also list 4-10 lesson expressions of 2-4 words that appear as ADJACENT words in the text. "p" = the glossary base form ("l") of each of those words joined by spaces, in text order (for "took time off" → "take time off"; for "has to" → "have to"); "d" = how to show it in a dictionary; "ru" = Russian meaning.
-Reply with only JSON:
-{"title":"...","paragraphs":["..."],"glossary":[{"f":"took","l":"take","ru":"взял","ipa":"teɪk"}],"phrases":[{"p":"take time off","d":"take time off","ru":"взять отгул","ipa":"teɪk taɪm ɒf"}]}`,
-      { signal: genCtl.signal, cache: false });
-    if (!r || !Array.isArray(r.paragraphs) || !r.paragraphs.length) throw { code: "invalid_json" };
-    const dict = {};
-    (r.glossary || []).forEach(g => { if (g && g.f && g.ru) dict[norm(String(g.f))] = { l: String(g.l || g.f), ru: String(g.ru), ipa: String(g.ipa || "") }; });
-    const phr = {};
-    (r.phrases || []).forEach(p => { if (p && p.p && p.ru) { const k = norm(String(p.p)).trim(); phr[k] = { lemma: k, disp: String(p.d || p.p), ru: String(p.ru), ipa: String(p.ipa || "") }; } });
-    const t = { id: "g" + Date.now(), topic: label, title: String(r.title || "New text"), paragraphs: r.paragraphs.map(String), dict, phr };
-    generated.push(t); store.set("chitalka.gen", generated);
-    $("#genStatus").textContent = "";
-    openText(t.id);
-  } catch (e) {
-    $("#genStatus").textContent = errText(e);
-  } finally {
-    $("#genBtn").disabled = false; $("#stopBtn").hidden = true; genCtl = null;
-  }
+let ownerWindow=null,pendingRequest=null;
+function generate(){
+ const value=document.getElementById('ownerEndpoint').value.trim();
+ let url;try{url=new URL(value);if(url.protocol!=='https:'||url.username||url.password||url.pathname!=='/'||!url.hostname.endsWith('.workers.dev'))throw Error();}catch{document.getElementById('genStatus').textContent='Онлайн-сервис ещё не подключён. Нужны подтверждение бесплатных кредитов и защищённый адрес владельца. Старые тексты доступны ниже.';return;}
+ store.set('chitalka.ownerEndpoint',url.origin);
+ pendingRequest=requestForReader();
+ ownerWindow=window.open(url.origin+'/portal','english-reader-owner');
+ document.getElementById('genStatus').textContent=ownerWindow?'Открыто защищённое окно. Войдите и нажмите «Создать текст» там.':'Разрешите открытие окна для личного сервиса.';
 }
-
+function validateReaderStory(r){
+ if(!r||typeof r.title!=='string'||r.title.length>150||!Array.isArray(r.paragraphs)||!r.paragraphs.length||r.paragraphs.length>12||r.paragraphs.some(p=>typeof p!=='string'||p.length>4000)||!Array.isArray(r.glossary)||r.glossary.length>500)throw Error('Неверный текст');
+ return r;
+}
+function addStory(r,id,lesson){
+ validateReaderStory(r);const dict={},phr={};
+ for(const g of r.glossary){if(g&&typeof g.f==='string'&&typeof g.ru==='string')dict[norm(g.f)]={l:String(g.l||g.f),ru:g.ru,ipa:''};}
+ for(const p of r.phrases||[]){if(p&&typeof p.p==='string'&&typeof p.ru==='string')phr[norm(p.p)]={lemma:p.p,disp:p.p,ru:p.ru,ipa:''};}
+ const text={id:'cloud-'+id,title:r.title,topic:'Урок '+(lesson||'')+' · сохранённый текст',paragraphs:r.paragraphs,dict,phr};
+ const same=generated.find(t=>t.id===text.id);
+ if(same&&JSON.stringify(same.paragraphs)!==JSON.stringify(text.paragraphs)){text.id+='-copy-'+Date.now();}
+ else if(same)return same.id;
+ if(!generated.some(t=>t.title===text.title&&JSON.stringify(t.paragraphs)===JSON.stringify(text.paragraphs)))generated.push(text);
+ // Preserve existing library if quota is full; offer JSON backup rather than silent failure.
+ try{localStorage.setItem('chitalka.gen',JSON.stringify(generated));}catch{document.getElementById('genStatus').textContent='Память заполнена. Экспортируйте библиотеку перед закрытием страницы.';}
+ renderLibrary();return text.id;
+}
+window.addEventListener('message',e=>{
+ if(!ownerWindow||e.source!==ownerWindow||e.origin!==store.get('chitalka.ownerEndpoint',''))return;
+ try{
+ if(e.data?.type==='english-reader-ready')ownerWindow.postMessage({type:'english-reader-request',request:pendingRequest},e.origin);
+ if(e.data?.type==='english-reader-story'){const id=addStory(e.data.story,e.data.id,e.data.lesson);openText(id);document.getElementById('genStatus').textContent='Текст сохранён на этом устройстве.';}
+ if(e.data?.type==='english-reader-sync'){for(const t of e.data.texts||[])addStory(t,t.id,'');document.getElementById('genStatus').textContent='Облачные тексты добавлены без замены локальных.';}
+ if(e.data?.type==='english-reader-error'){const m={unauthorized:'Войдите в личный сервис.',rate_limited:'Достигнут лимит запросов.',credits_or_limit_exhausted:'Кредиты или лимит исчерпаны. Генерация остановлена.',timeout:'Время ожидания истекло.',generation_disabled:'Генерация ещё не включена: нужны бесплатный бонус и серверная настройка.'};document.getElementById('genStatus').textContent=m[e.data.error]||'Сервис недоступен. Старые тексты сохранены.';}
+ }catch{document.getElementById('genStatus').textContent='Новый текст не прошёл проверку. Старая библиотека сохранена.';}
+});
 /* ---------- wiring ---------- */
 const tapWord = i => selMode ? tapSel(i) : openWord(i);
 $("#rText").addEventListener("click", e => { const sp = e.target.closest(".w"); if (sp) tapWord(+sp.dataset.i); });
@@ -1092,6 +1087,18 @@ $("#smaller").onclick = () => { readSize = Math.max(15, readSize - 1); applySize
 $("#bigger").onclick = () => { readSize = Math.min(28, readSize + 1); applySize(); };
 if (canSpeak) { try { speechSynthesis.getVoices(); speechSynthesis.onvoiceschanged = () => {}; } catch (e) {} }
 
+
+const options=window.ENGLISH_READING_CONTEXT.map(l=>'<option value="'+l.id+'">'+l.id+' · '+esc(l.title)+'</option>').join('');
+$('#genLesson').innerHTML=options;$('#genLesson').value='03';
+$('#learnedLessons').innerHTML=window.ENGLISH_READING_CONTEXT.map(l=>'<label style="display:block"><input type="checkbox" data-learned value="'+l.id+'"> '+esc(l.title)+'</label>').join('');
+$('#ownerEndpoint').value=store.get('chitalka.ownerEndpoint','');
+$('#readerExport').onclick=()=>{const data={format:'english-reader-v1',generated,saved,EXTRA};const u=URL.createObjectURL(new Blob([JSON.stringify(data,null,2)],{type:'application/json'}));const a=document.createElement('a');a.href=u;a.download='english-reader-library.json';a.click();setTimeout(()=>URL.revokeObjectURL(u),1000);};
+$('#readerImport').onchange=async e=>{try{const o=JSON.parse(await e.target.files[0].text());if(o.format!=='english-reader-v1'||!Array.isArray(o.generated)||!Array.isArray(o.saved))throw Error();
+for(const t of o.generated){if(!t||typeof t.id!=='string'||typeof t.title!=='string'||!Array.isArray(t.paragraphs)||t.paragraphs.some(p=>typeof p!=='string')||t.paragraphs.join(' ').length>15000)throw Error();}
+if(!confirm('Добавить библиотеку без удаления текущих текстов и слов?'))return;
+const merged=[...generated];for(const t of o.generated){const existing=merged.find(x=>x.id===t.id);if(!existing)merged.push(t);else if(JSON.stringify(existing)!==JSON.stringify(t))merged.push({...t,id:t.id+'-import-'+Date.now()});}
+localStorage.setItem('chitalka.gen',JSON.stringify(merged));generated=merged;
+for(const w of o.saved){if(w&&typeof w.k==='string'&&typeof w.ru==='string'&&!saved.some(x=>x.k===w.k))saved.push(w);}store.set('chitalka.words',saved);renderLibrary();$('#wordsCount').textContent=saved.length;}catch{$('#genStatus').textContent='Импорт не выполнен. Проверьте файл; старые данные сохранены.';}};
 applySize(); renderChips(); renderLibrary();
 $("#wordsCount").textContent = saved.length;
 </script>

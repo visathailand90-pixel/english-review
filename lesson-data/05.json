@@ -152,6 +152,38 @@
       "warn": [
         "an advice → **some advice** / **a piece of advice**."
       ]
+    },
+    {
+      "h": "Подробнее: Zero Conditional и советы",
+      "text": [
+        "Когда: Общее правило или повторяющийся результат. Один конкретный будущий результат обычно требует First Conditional.",
+        "Формула: **If + Present Simple, Present Simple**"
+      ],
+      "ex": [
+        [
+          "If I skip breakfast, I feel hungry early.",
+          "Если я пропускаю завтрак, я рано чувствую голод."
+        ],
+        [
+          "If a customer asks for help, we answer politely.",
+          "Если покупатель просит помочь, мы отвечаем вежливо."
+        ],
+        [
+          "The room gets cold if we open both windows.",
+          "В комнате становится холодно, если мы открываем оба окна."
+        ],
+        [
+          "If my phone is off, I do not get calls.",
+          "Если телефон выключен, звонки не поступают."
+        ]
+      ],
+      "warn": [
+        "В обычном условии не ставим will после if. If she works late, she feels tired — не теряем -s. If в начале — запятая между частями. Try to take breaks / Don't skip lunch — советы."
+      ],
+      "practice": {
+        "q": "Вставь: If he (miss) lunch, he (get) hungry.",
+        "a": "If he misses lunch, he gets hungry."
+      }
     }
   ],
   "vocab": [

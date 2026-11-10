@@ -286,6 +286,70 @@
           "Я нашёл свежие овощи на рынке."
         ]
       ]
+    },
+    {
+      "h": "Подробнее: сравнение и усиление",
+      "text": [
+        "Когда: Сравнение двух вещей по признаку. Короткие прилагательные обычно с -er, длинные с more.",
+        "Формула: **adjective-er / more + adjective + than; much / a bit + comparative**"
+      ],
+      "ex": [
+        [
+          "This route is shorter than the old one.",
+          "Этот маршрут короче прежнего."
+        ],
+        [
+          "The market is a bit busier today.",
+          "Сегодня на рынке немного оживлённее."
+        ],
+        [
+          "This chair is much more comfortable.",
+          "Этот стул намного удобнее."
+        ],
+        [
+          "Your new plan is better than mine.",
+          "Твой новый план лучше моего."
+        ]
+      ],
+      "warn": [
+        "Не more cheaper и не very cheaper. Easy→easier, big→bigger, wide→wider; good→better, bad→worse. Much cheaper — намного дешевле."
+      ],
+      "practice": {
+        "q": "Вставь: This bag is (easy) to carry than that one.",
+        "a": "This bag is easier to carry than that one."
+      }
+    },
+    {
+      "h": "Подробнее: some/any и вежливые просьбы",
+      "text": [
+        "Когда: Some часто в утверждении, any — в вопросе/отрицании. В просьбе с ожидаемым согласием возможно some.",
+        "Формула: **some/any + plural or uncountable noun; could + subject + V?**"
+      ],
+      "ex": [
+        [
+          "We have some bread and two apples.",
+          "У нас есть немного хлеба и два яблока."
+        ],
+        [
+          "We do not have any rice.",
+          "У нас нет риса."
+        ],
+        [
+          "Could I have some water, please?",
+          "Можно мне немного воды, пожалуйста?"
+        ],
+        [
+          "Would you like me to find a smaller size?",
+          "Хотите, чтобы я нашёл меньший размер?"
+        ]
+      ],
+      "warn": [
+        "Не a bread, а some bread / a loaf of bread. Could I...? — разрешение; Could you...? — просьба к другому. Ask for a refund — запросить возврат денег; a bargain — выгодная покупка."
+      ],
+      "practice": {
+        "q": "Вставь: Have you got ___ apples? Could I have ___ tea, please?",
+        "a": "any; some — естественно в просьбе."
+      }
     }
   ],
   "vocab": [
@@ -990,6 +1054,66 @@
       ],
       "a": 0,
       "why": "wider choice"
+    },
+    {
+      "q": "The lamp is faulty, so I want to ___.",
+      "o": [
+        "ask for a refund",
+        "pay in a refund",
+        "make a bargain"
+      ],
+      "a": 0,
+      "why": "Ask for a refund — попросить возврат денег. A bargain — выгодная покупка."
+    },
+    {
+      "q": "He ___ a photo of the damaged cup.",
+      "o": [
+        "took",
+        "did",
+        "made a"
+      ],
+      "a": 0,
+      "why": "Устойчивое сочетание take a photo. Прошлое от take — took, не do a photo."
+    },
+    {
+      "q": "She wrote ___ of the shop.",
+      "o": [
+        "a good review",
+        "good review",
+        "a good reviews"
+      ],
+      "a": 0,
+      "why": "Review — исчисляемое в единственном числе: нужен артикль a. Good не заменяет определитель."
+    },
+    {
+      "q": "We need to ___ a decision.",
+      "o": [
+        "do",
+        "make",
+        "making"
+      ],
+      "a": 1,
+      "why": "Make a decision — принять решение. Take a decision тоже встречается, но do a decision неверно. После to начальная форма."
+    },
+    {
+      "q": "He usually pays ___ cash.",
+      "o": [
+        "by",
+        "in",
+        "on"
+      ],
+      "a": 1,
+      "why": "Pay in cash, но pay by card. Запоминаем предлог вместе со способом оплаты."
+    },
+    {
+      "q": "Please ask the assistant ___ a refund.",
+      "o": [
+        "for",
+        "to",
+        "at"
+      ],
+      "a": 0,
+      "why": "Ask someone for something. Request a refund употребляется без for после request."
     }
   ],
   "l3": [
@@ -1903,5 +2027,6 @@
       ],
       "why": "Исправление по контексту транскрибации."
     }
-  ]
+  ],
+  "practiceStart": 42
 }

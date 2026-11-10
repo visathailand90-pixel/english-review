@@ -205,6 +205,70 @@
           "На прошлой неделе я получил сто тридцать заявок."
         ]
       ]
+    },
+    {
+      "h": "Подробнее: работа и предлоги",
+      "text": [
+        "Когда: Job — конкретная должность, work — деятельность или объём работы, profession — специальность. As отвечает «кем», in — сфера, for — работодатель.",
+        "Формула: **a job / some work; work as / in / for**"
+      ],
+      "ex": [
+        [
+          "Maya has a new job at a museum.",
+          "У Майи новая работа в музее."
+        ],
+        [
+          "Ben has some work to finish.",
+          "Бену нужно закончить часть работы."
+        ],
+        [
+          "I work as a guide for a small company.",
+          "Я работаю гидом в небольшой компании."
+        ],
+        [
+          "She works in education and does research.",
+          "Она работает в образовании и проводит исследования."
+        ]
+      ],
+      "warn": [
+        "Не a work в значении работы вообще. Do research, earn money, deal with enquiries — устойчивые сочетания. What do you do? — о работе; What are you doing? — о действии сейчас."
+      ],
+      "practice": {
+        "q": "Вставь: Leo works ___ a teacher ___ a local school.",
+        "a": "as; for. In a local school тоже возможно, если подчёркиваем место."
+      }
+    },
+    {
+      "h": "Подробнее: два глагола, цель и способ",
+      "text": [
+        "Когда: После want/need нужен to-инфинитив. После like/prefer возможны -ing и to-инфинитив. To выражает цель, by + -ing — способ.",
+        "Формула: **want/need to + V; like doing / like to do; to + V; by + V-ing**"
+      ],
+      "ex": [
+        [
+          "I need to call the customer.",
+          "Мне нужно позвонить покупателю."
+        ],
+        [
+          "She likes meeting new colleagues.",
+          "Ей нравится знакомиться с коллегами."
+        ],
+        [
+          "We test ideas to improve our service.",
+          "Мы проверяем идеи, чтобы улучшить сервис."
+        ],
+        [
+          "He learns by asking questions.",
+          "Он учится, задавая вопросы."
+        ]
+      ],
+      "warn": [
+        "She wants to help, не wants to helps. После can без to: can help. Once/twice a week, не two time in week."
+      ],
+      "practice": {
+        "q": "Составь: She / want / learn / to / drive.",
+        "a": "She wants to learn to drive."
+      }
     }
   ],
   "vocab": [

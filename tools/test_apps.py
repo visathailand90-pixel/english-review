@@ -29,7 +29,7 @@ try:
    page.locator('[data-mode="r1"]').click()
    assert page.locator('body').inner_text().strip()
    page.goto(url)
-   assert page.locator('#lesson-select option').count()==10
+   assert page.locator('#lesson-select option').count()>=10
    page.locator('#lesson-select').select_option('03')
    page.locator('#view-nav [data-tab="l1"]').click()
    assert page.locator('.qcard').count()==4

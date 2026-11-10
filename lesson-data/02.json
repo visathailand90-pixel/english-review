@@ -187,6 +187,70 @@
           "Сейчас я получаю минимальную зарплату."
         ]
       ]
+    },
+    {
+      "h": "Подробнее: Present Simple",
+      "text": [
+        "Когда: Для привычек, устойчивых ситуаций, общих фактов и расписаний. Usually/every day помогают, но важен смысл.",
+        "Формула: **I/you/we/they + V; he/she/it + V-s; do/does + subject + V?**"
+      ],
+      "ex": [
+        [
+          "Ella studies design every evening.",
+          "Элла изучает дизайн каждый вечер."
+        ],
+        [
+          "Her brother watches the news at breakfast.",
+          "Её брат смотрит новости за завтраком."
+        ],
+        [
+          "Does your shop open on Sunday?",
+          "Ваш магазин открывается в воскресенье?"
+        ],
+        [
+          "He does not work on Fridays.",
+          "Он не работает по пятницам."
+        ]
+      ],
+      "warn": [
+        "Does уже показывает третье лицо: Does he work?, не works. Согласная+y → studies; гласная+y → plays; watch→watches; have→has. Usually до смыслового глагола, но после be."
+      ],
+      "practice": {
+        "q": "Сделай вопрос: Rita finishes work at five.",
+        "a": "Does Rita finish work at five?"
+      }
+    },
+    {
+      "h": "Подробнее: Continuous и состояния",
+      "text": [
+        "Когда: Действие сейчас, временно или согласованный план. Состояния обычно без -ing: know, need, own, belong, prefer.",
+        "Формула: **am/is/are + V-ing; am/is/are + subject + V-ing?**"
+      ],
+      "ex": [
+        [
+          "I am checking a receipt now.",
+          "Я сейчас проверяю чек."
+        ],
+        [
+          "We are staying near the station this week.",
+          "На этой неделе мы живём у станции."
+        ],
+        [
+          "Are you meeting Sam on Tuesday?",
+          "Ты встречаешься с Сэмом во вторник?"
+        ],
+        [
+          "I think it is useful, but I am thinking about the price.",
+          "Я считаю это полезным, но обдумываю цену."
+        ]
+      ],
+      "warn": [
+        "I working пропускает am. I am a teacher не требует -ing: teacher — существительное. Have a car — владение; have lunch — действие. Run→running, make→making, lie→lying, study→studying. Continuous с always может выражать раздражение."
+      ],
+      "practice": {
+        "q": "Выбери: I (know / am knowing) the address.",
+        "a": "I know the address: состояние знания."
+      }
     }
   ],
   "vocab": [

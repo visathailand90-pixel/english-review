@@ -1,0 +1,21 @@
+﻿name = "english-reader-owner"
+main = "worker.mjs"
+compatibility_date = "2026-11-10"
+workers_dev = true
+
+[observability]
+enabled = false
+
+[vars]
+PAGES_ORIGIN = "https://visathailand90-pixel.github.io"
+GENERATION_ENABLED = "false"
+BONUS_ONLY_CONFIRMED = "false"
+BONUS_EXPIRES_AT = ""
+OPENAI_MODEL = ""
+
+# Copy locally, insert your existing Free account's D1 UUID only after login.
+# Never enable paid Workers or Auto Recharge.
+# [[d1_databases]]
+# binding = "DB"
+# database_name = "english-reader-owner"
+# database_id = "REPLACE_LOCALLY"

@@ -239,6 +239,102 @@
         "I need **read** → I need **to read**.",
         "spend time **for** → spend time **on**."
       ]
+    },
+    {
+      "h": "Подробнее: одежда, размер и стиль",
+      "text": [
+        "Когда: Fit — размер; suit — как выглядит на человеке. Clothes — множественное число. Pair — два предмета пары.",
+        "Формула: **clothes are; fit/suit someone; try it/them on; a pair of + plural**"
+      ],
+      "ex": [
+        [
+          "These clothes are clean.",
+          "Эта одежда чистая."
+        ],
+        [
+          "The boots fit me, but the colour does not suit me.",
+          "Сапоги мне по размеру, но цвет мне не идёт."
+        ],
+        [
+          "Please try them on before you pay.",
+          "Примерьте их перед оплатой."
+        ],
+        [
+          "I need a pair of gloves for winter.",
+          "Мне нужна пара перчаток на зиму."
+        ]
+      ],
+      "warn": [
+        "Try it on, не try on it. Pair — пара, paid — заплатил. Jewellery неисчисляемое: some jewellery, a necklace, a pair of earrings."
+      ],
+      "practice": {
+        "q": "Переведи: Эти джинсы мне подходят по размеру.",
+        "a": "These jeans fit me."
+      }
+    },
+    {
+      "h": "Подробнее: Past Simple — действия",
+      "text": [
+        "Когда: Завершённое событие в прошлом. Yesterday/last week помогают; время также может быть понятно из контекста.",
+        "Формула: **subject + V2; subject + did not + V; did + subject + V?**"
+      ],
+      "ex": [
+        [
+          "I ordered a lamp last Thursday.",
+          "В прошлый четверг я заказал лампу."
+        ],
+        [
+          "She bought a blue scarf yesterday.",
+          "Она вчера купила синий шарф."
+        ],
+        [
+          "We did not keep the damaged box.",
+          "Мы не оставили повреждённую коробку."
+        ],
+        [
+          "Where did you find those boots?",
+          "Где ты нашёл те ботинки?"
+        ]
+      ],
+      "warn": [
+        "Did уже показывает прошлое: Did she buy?, не bought. Didn't go, не didn't went. Try→tried, use→used; buy→bought, see→saw, pay→paid. -ed: worked /t/, played /d/, wanted /ɪd/."
+      ],
+      "practice": {
+        "q": "Сделай вопрос: They paid by card.",
+        "a": "Did they pay by card?"
+      }
+    },
+    {
+      "h": "Подробнее: was/were и What was it?",
+      "text": [
+        "Когда: Be описывает, кем/каким/где кто-то был. I/he/she/it — was; you/we/they — were. Вопрос перестановкой, без did.",
+        "Формула: **was/were + subject?; subject + was/were not**"
+      ],
+      "ex": [
+        [
+          "What was it? It was a small camera.",
+          "Что это было? Это была маленькая камера."
+        ],
+        [
+          "What was excellent? The service was excellent.",
+          "Что именно было отличным? Обслуживание было отличным."
+        ],
+        [
+          "Were the shops open yesterday?",
+          "Магазины вчера были открыты?"
+        ],
+        [
+          "The jacket was not expensive.",
+          "Куртка не была дорогой."
+        ]
+      ],
+      "warn": [
+        "What is it? — что это сейчас; What was it? — что это было. Не What did it be? С другим действием: What did you buy?"
+      ],
+      "practice": {
+        "q": "Поставь в прошлое: What is it? Are they at home?",
+        "a": "What was it? Were they at home?"
+      }
     }
   ],
   "vocab": [
@@ -658,6 +754,66 @@
       ],
       "a": 1,
       "why": "say — неправильный: said [сэд]"
+    },
+    {
+      "q": "I found this hat ___ a street market.",
+      "o": [
+        "at",
+        "to",
+        "on"
+      ],
+      "a": 0,
+      "why": "At обозначает рынок как точку покупки. In the market возможно в других контекстах: внутри рынка."
+    },
+    {
+      "q": "I need a ___ of winter boots.",
+      "o": [
+        "paid",
+        "pair",
+        "piece"
+      ],
+      "a": 1,
+      "why": "Pair — пара, paid — заплатил. A piece of — кусок или отдельный предмет, но не пара ботинок."
+    },
+    {
+      "q": "Choose the complete correct sentence.",
+      "o": [
+        "These gloves fit me well.",
+        "These gloves fits well.",
+        "These gloves fitting me."
+      ],
+      "a": 0,
+      "why": "These gloves — множественное число, поэтому fit без -s. Нужен полный глагол, а не отдельное fitting."
+    },
+    {
+      "q": "I prefer ___ in local shops.",
+      "o": [
+        "shopping",
+        "shoping",
+        "shops"
+      ],
+      "a": 0,
+      "why": "Shopping с двойной p. После prefer допустимы shopping и to shop; среди вариантов только shopping."
+    },
+    {
+      "q": "I like ___ at small markets.",
+      "o": [
+        "buying vegetables",
+        "buy vegetables",
+        "buyed vegetables"
+      ],
+      "a": 0,
+      "why": "Like buying и like to buy допустимы. Голая форма buy после like здесь не подходит."
+    },
+    {
+      "q": "Can I ___ before paying?",
+      "o": [
+        "try it on",
+        "try on it",
+        "try it in"
+      ],
+      "a": 0,
+      "why": "Местоимение it ставится между try и on. С существительным возможны try on the coat и try the coat on."
     }
   ],
   "l3": [
@@ -1254,5 +1410,6 @@
       "ru": "Мне нужно это прочитать?",
       "why": "вопрос — Do I need to…?"
     }
-  ]
+  ],
+  "practiceStart": 24
 }

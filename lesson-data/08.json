@@ -273,6 +273,102 @@
         "We **save** a band → We **saw** a band.",
         "**thinked**, **buyed**, **keeped** — так нельзя: thought, bought, kept."
       ]
+    },
+    {
+      "h": "Подробнее: Past Simple — действия",
+      "text": [
+        "Когда: Завершённое событие в прошлом. Yesterday/last week помогают; время также может быть понятно из контекста.",
+        "Формула: **subject + V2; subject + did not + V; did + subject + V?**"
+      ],
+      "ex": [
+        [
+          "I ordered a lamp last Thursday.",
+          "В прошлый четверг я заказал лампу."
+        ],
+        [
+          "She bought a blue scarf yesterday.",
+          "Она вчера купила синий шарф."
+        ],
+        [
+          "We did not keep the damaged box.",
+          "Мы не оставили повреждённую коробку."
+        ],
+        [
+          "Where did you find those boots?",
+          "Где ты нашёл те ботинки?"
+        ]
+      ],
+      "warn": [
+        "Did уже показывает прошлое: Did she buy?, не bought. Didn't go, не didn't went. Try→tried, use→used; buy→bought, see→saw, pay→paid. -ed: worked /t/, played /d/, wanted /ɪd/."
+      ],
+      "practice": {
+        "q": "Сделай вопрос: They paid by card.",
+        "a": "Did they pay by card?"
+      }
+    },
+    {
+      "h": "Подробнее: was/were и What was it?",
+      "text": [
+        "Когда: Be описывает, кем/каким/где кто-то был. I/he/she/it — was; you/we/they — were. Вопрос перестановкой, без did.",
+        "Формула: **was/were + subject?; subject + was/were not**"
+      ],
+      "ex": [
+        [
+          "What was it? It was a small camera.",
+          "Что это было? Это была маленькая камера."
+        ],
+        [
+          "What was excellent? The service was excellent.",
+          "Что именно было отличным? Обслуживание было отличным."
+        ],
+        [
+          "Were the shops open yesterday?",
+          "Магазины вчера были открыты?"
+        ],
+        [
+          "The jacket was not expensive.",
+          "Куртка не была дорогой."
+        ]
+      ],
+      "warn": [
+        "What is it? — что это сейчас; What was it? — что это было. Не What did it be? С другим действием: What did you buy?"
+      ],
+      "practice": {
+        "q": "Поставь в прошлое: What is it? Are they at home?",
+        "a": "What was it? Were they at home?"
+      }
+    },
+    {
+      "h": "Подробнее: afford, convenient и части речи",
+      "text": [
+        "Когда: Выбираем часть речи по позиции. После can — начальная форма глагола; после be для качества — прилагательное.",
+        "Формула: **can afford + noun / to + V; be convenient; shop conveniently; ask for a refund**"
+      ],
+      "ex": [
+        [
+          "We cannot afford a new sofa.",
+          "Мы не можем позволить себе новый диван."
+        ],
+        [
+          "This is an affordable chair.",
+          "Это доступный по цене стул."
+        ],
+        [
+          "The collection point is convenient.",
+          "Пункт выдачи удобен."
+        ],
+        [
+          "You can shop conveniently from home.",
+          "Можно удобно делать покупки из дома."
+        ]
+      ],
+      "warn": [
+        "Afford — иметь достаточно денег; affordable — доступный по цене. Convenience — удобство, convenient — удобный, conveniently — удобно. On its way — в пути; at a street market — на рынке как в точке покупки."
+      ],
+      "practice": {
+        "q": "Выбери: The shop is (convenient / conveniently). I cannot (afford / affordable) it.",
+        "a": "convenient; afford."
+      }
     }
   ],
   "vocab": [
@@ -702,6 +798,76 @@
       ],
       "a": 2,
       "why": "искать — search for; о прошлом — did"
+    },
+    {
+      "q": "The shop has ___ of scarves.",
+      "o": [
+        "a wide range",
+        "second-hand",
+        "a pair"
+      ],
+      "a": 0,
+      "why": "A wide range — широкий ассортимент; second-hand — бывший в употреблении, не количество стилей."
+    },
+    {
+      "q": "My order is ___ its way.",
+      "o": [
+        "in",
+        "on",
+        "at"
+      ],
+      "a": 1,
+      "why": "On its way — устойчивое сочетание «в пути». In its way имеет другой смысл."
+    },
+    {
+      "q": "The collection point is ___.",
+      "o": [
+        "convenience",
+        "convenient",
+        "conveniently"
+      ],
+      "a": 1,
+      "why": "После is качество описывается прилагательным convenient. Convenience — существительное, conveniently — наречие."
+    },
+    {
+      "q": "They cannot ___ a bigger flat.",
+      "o": [
+        "affordable",
+        "afford",
+        "affordably"
+      ],
+      "a": 1,
+      "why": "Can/cannot + начальная форма глагола: afford — иметь достаточно денег. Affordable — прилагательное."
+    },
+    {
+      "q": "If I can afford a ticket, I ___.",
+      "o": [
+        "have enough money for it",
+        "choose its colour",
+        "return it"
+      ],
+      "a": 0,
+      "why": "Afford — финансовая возможность, а не выбор цвета или возврат."
+    },
+    {
+      "q": "When she was at college, she ___ used books.",
+      "o": [
+        "buys",
+        "bought",
+        "buy"
+      ],
+      "a": 1,
+      "why": "Завершённый период прошлого: buy → bought. Не смешиваем с Present Simple buys."
+    },
+    {
+      "q": "I usually ___ prices before I buy.",
+      "o": [
+        "compare",
+        "comparing",
+        "am compare"
+      ],
+      "a": 0,
+      "why": "Обычная привычка — Present Simple: I compare. Comparing без am не образует сказуемое."
     }
   ],
   "l3": [
@@ -1276,5 +1442,6 @@
       "ru": "Я всегда мечтал играть в группе.",
       "why": "I've = I have, а не I had"
     }
-  ]
+  ],
+  "practiceStart": 25
 }

@@ -56,8 +56,8 @@ body{font-size:16px;line-height:1.5}
 const lessons=window.ENGLISH_LESSONS;
 const records=lessons.index;
 const KEY='english-review:v4';
-const LABELS={theory:'Теория',l1:'1 · Узнаю',l2:'2 · Выбираю',l3:'3 · Вставляю',l4:'4 · Собираю',l5:'5 · Перевожу',fix:'Мои ошибки',mist:'Повторить ошибки',history:'История'};
-const EXERCISE=['l1','l2','l3','l4','l5','fix','mist'];
+const LABELS={theory:'Теория',l1:'1 · Узнаю',l2:'2 · Выбираю',l3:'3 · Вставляю',l4:'4 · Собираю',l5:'5 · Перевожу',focus:'Точечная практика',fix:'Мои ошибки',mist:'Повторить ошибки',history:'История'};
+const EXERCISE=['l1','l2','l3','l4','l5','focus','fix','mist'];
 const LEVELSIZE={l1:10,l2:10,l3:10,l4:8,l5:8,l6:4,fix:8,mist:10};
 const el=id=>document.getElementById(id);
 const escapeHTML=x=>String(x??'').replace(/[&<>"']/g,k=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[k]));
@@ -114,6 +114,7 @@ function explain(raw,q){
  return 'Сравни структуру с образцом. Обрати внимание на форму глагола, артикли, предлоги и порядок слов.';
 }
 function poolFor(L,mode){
+ if(mode==='focus')return L.practiceStart===undefined?[]:poolFor(L,'l2').slice(L.practiceStart);
  if(mode==='l1')return L.vocab.map((v,i)=>mkWord(L,i,state.prefs.l1Direction));
  const source=L[mode]||[];
  return source.map((r,i)=>{
@@ -172,14 +173,14 @@ function head(){const leftView=el('view-nav').scrollLeft;
   const lessonSelect=el('lesson-select');
   if(!lessonSelect.options.length)lessonSelect.innerHTML=records.map(r=>`<option value="${escapeHTML(r.id)}">${escapeHTML(r.num)} · ${escapeHTML(r.title)}</option>`).join('');
   lessonSelect.value=state.lesson;
- el('view-nav').innerHTML=Object.entries(LABELS).map(([k,t])=>`<button type="button" data-tab="${k}" class="${state.tab===k?'selected':''}" aria-selected="${state.tab===k}">${escapeHTML(t)}${k==='mist'&&Object.keys(prog().mistakes).length?' <span class="flag">'+Object.keys(prog().mistakes).length+'</span>':''}</button>`).join('');el('view-nav').scrollLeft=leftView;
+ el('view-nav').innerHTML=Object.entries(LABELS).filter(([k])=>k!=='focus'||lesson().practiceStart!==undefined).map(([k,t])=>`<button type="button" data-tab="${k}" class="${state.tab===k?'selected':''}" aria-selected="${state.tab===k}">${escapeHTML(t)}${k==='mist'&&Object.keys(prog().mistakes).length?' <span class="flag">'+Object.keys(prog().mistakes).length+'</span>':''}</button>`).join('');el('view-nav').scrollLeft=leftView;
  const L=lesson();el('title').textContent=L.title;el('eyebrow').textContent='Урок '+L.num;el('brand-lesson').textContent='Урок '+L.num;
  el('storage-alert').hidden=storageOK;
  el('slow-btn').textContent=state.prefs.slow?'Озвучка 0.7×':'Озвучка 1×';
 }
 function audioOK(){return typeof window.speechSynthesis!=='undefined'&&typeof window.SpeechSynthesisUtterance==='function'}
 function speaker(t){return audioOK()?`<button type="button" class="speak" data-say="${escapeHTML(t)}" aria-label="Прослушать">🔊</button>`:''}
-function showTheory(){const L=lesson();const sections=L.theory.map((s,i)=>`<section class="section"><details ${i===0?'open':''}><summary>${i+1}. ${markdown(s.h)}</summary><div class="theory-body">${(s.text||[]).map(t=>`<p>${markdown(t)}</p>`).join('')}${s.table&&s.table.length?`<table><thead><tr>${s.table[0].map(x=>`<th>${markdown(x)}</th>`).join('')}</tr></thead><tbody>${s.table.slice(1).map(row=>`<tr>${row.map(x=>`<td>${markdown(x)}</td>`).join('')}</tr>`).join('')}</tbody></table>`:''}${(s.ex||[]).map(([en,ru])=>`<div class="example">${speaker(en)} <b>${escapeHTML(en)}</b><br><span class="hint">${escapeHTML(ru)}</span></div>`).join('')}${(s.warn||[]).map(w=>`<div class="error">${markdown(w)}</div>`).join('')}</div></details></section>`).join('');
+function showTheory(){const L=lesson();const sections=L.theory.map((s,i)=>`<section class="section"><details ${i===0?'open':''}><summary>${i+1}. ${markdown(s.h)}</summary><div class="theory-body">${(s.text||[]).map(t=>`<p>${markdown(t)}</p>`).join('')}${s.table&&s.table.length?`<table><thead><tr>${s.table[0].map(x=>`<th>${markdown(x)}</th>`).join('')}</tr></thead><tbody>${s.table.slice(1).map(row=>`<tr>${row.map(x=>`<td>${markdown(x)}</td>`).join('')}</tr>`).join('')}</tbody></table>`:''}${(s.ex||[]).map(([en,ru])=>`<div class="example">${speaker(en)} <b>${escapeHTML(en)}</b><br><span class="hint">${escapeHTML(ru)}</span></div>`).join('')}${s.practice?'<div class="note"><b>Попробуй:</b> '+markdown(s.practice.q)+'<details><summary>Проверить себя</summary>'+markdown(s.practice.a)+'</details></div>':''}${(s.warn||[]).map(w=>`<div class="error">${markdown(w)}</div>`).join('')}</div></details></section>`).join('');
  el('body').innerHTML=`<div class="stats"><span class="tag">${L.theory.length} тем</span><span class="tag">${L.vocab.length} слов и фраз</span><span class="tag">Уровень A2</span></div><p class="hint">Разверни нужную тему, затем переходи к тренировке. Все примеры — из твоей базы занятий.</p>${sections}<section class="section"><h2>Как закреплять</h2><p>Пройди блок на 80% или выше <b>два раза подряд</b>, затем переходи к следующему уровню. Ошибки исчезают после двух правильных ответов подряд.</p><button type="button" class="btn" data-tab="l1">Начать уровень 1 →</button></section><nav class="other-apps" aria-label="Другие приложения"><a href="./words/">Тренажёр слов</a><a href="./reader/">Читалка</a></nav>`;
  el('footer').hidden=true;
 }

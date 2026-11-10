@@ -224,6 +224,70 @@
         "«презентовать» → **give a presentation**.",
         "**in** the Internet → **on** the Internet."
       ]
+    },
+    {
+      "h": "Подробнее: два глагола, цель и способ",
+      "text": [
+        "Когда: После want/need нужен to-инфинитив. После like/prefer возможны -ing и to-инфинитив. To выражает цель, by + -ing — способ.",
+        "Формула: **want/need to + V; like doing / like to do; to + V; by + V-ing**"
+      ],
+      "ex": [
+        [
+          "I need to call the customer.",
+          "Мне нужно позвонить покупателю."
+        ],
+        [
+          "She likes meeting new colleagues.",
+          "Ей нравится знакомиться с коллегами."
+        ],
+        [
+          "We test ideas to improve our service.",
+          "Мы проверяем идеи, чтобы улучшить сервис."
+        ],
+        [
+          "He learns by asking questions.",
+          "Он учится, задавая вопросы."
+        ]
+      ],
+      "warn": [
+        "She wants to help, не wants to helps. После can без to: can help. Once/twice a week, не two time in week."
+      ],
+      "practice": {
+        "q": "Составь: She / want / learn / to / drive.",
+        "a": "She wants to learn to drive."
+      }
+    },
+    {
+      "h": "Подробнее: время и вопросы с be",
+      "text": [
+        "Когда: On time — по графику; in time — успеть до события/для цели. Be описывает состояние, место и профессию.",
+        "Формула: **be on time; in time to + V; question word + be + subject?**"
+      ],
+      "ex": [
+        [
+          "The bus left on time at nine.",
+          "Автобус отправился по расписанию в девять."
+        ],
+        [
+          "We arrived in time to buy tickets.",
+          "Мы успели купить билеты."
+        ],
+        [
+          "She is at home today.",
+          "Она сегодня дома."
+        ],
+        [
+          "How is your new job going?",
+          "Как дела на новой работе?"
+        ]
+      ],
+      "warn": [
+        "Where are you?, не Where do you be? Для действия: Where do you work? In time зависит от цели, on time — от назначенного времени."
+      ],
+      "practice": {
+        "q": "Вставь: We got there ___ time to see the start.",
+        "a": "in time — успели до начала."
+      }
     }
   ],
   "vocab": [

@@ -1,5 +1,5 @@
 <!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}@media(max-width:560px){body{font-size:16px}.rule{font-size:14px}.chip{font-size:14px}.opt{font-size:16px}input[type=text]{font-size:16px}}
-</style><title>Тренажёр английских слов</title><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-title" content="English Words"><meta name="theme-color" content="#f4f6fa"><link rel="manifest" href="./manifest.webmanifest"><link rel="apple-touch-icon" href="../icon-192.png"></head><body>
+#win{box-sizing:border-box;max-width:100%}.face.back{overflow-y:auto;overflow-wrap:anywhere}.card .exru{overflow-wrap:anywhere}</style><title>Тренажёр английских слов</title><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-title" content="English Words"><meta name="theme-color" content="#f4f6fa"><link rel="manifest" href="./manifest.webmanifest"><link rel="apple-touch-icon" href="../icon-192.png"></head><body>
 <title>Тренажёр слов</title>
 <meta name="claude:viewport-fit-sides" content="cover">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -43,7 +43,7 @@ h1{font-family:var(--display);font-size:1.15rem;margin:0;letter-spacing:.01em}
 .face{position:absolute;inset:0;backface-visibility:hidden;-webkit-backface-visibility:hidden;background:var(--surface);
   border-radius:22px;border:1.5px solid var(--line);display:flex;flex-direction:column;align-items:center;justify-content:center;
   gap:12px;padding:22px;text-align:center;box-shadow:0 10px 30px -18px rgba(20,30,60,.45)}
-.face.back{transform:rotateY(180deg);background:var(--denim-soft)}
+#win{box-sizing:border-box;max-width:100%}.face.back{transform:rotateY(180deg);background:var(--denim-soft)}
 .stitch{position:absolute;inset:9px;border:1.5px dashed var(--line);border-radius:16px;pointer-events:none}
 .face.back .stitch{border-color:color-mix(in srgb, var(--denim) 35%, transparent)}
 .tag{position:absolute;top:18px;left:20px;font-size:.75rem;color:var(--muted);font-variant-numeric:tabular-nums;letter-spacing:.05em}
@@ -132,6 +132,8 @@ button:focus-visible,.chip:focus-visible{outline:2.5px solid var(--tape);outline
 </div>
 <div class="toast" id="toast" hidden></div>
 
+<details class="wrap" style="margin:16px auto"><summary>История и резервная копия словаря</summary><button class="btn" id="word-export">Экспорт JSON</button><label class="btn">Импорт JSON<input id="word-import" type="file" accept=".json" hidden></label><div id="word-history"></div></details>
+<script src="./bank.js"></script>
 <script>
 const PACK1 = [
  {en:"clothes",pr:"клОуз",ru:"одежда",g:"g",ex:"I buy new clothes twice a year.",exru:"Покупаю новую одежду дважды в год.",note:"всегда мн. число: clothes are",s:"I buy new ___ twice a year.",sru:"Покупаю новую одежду дважды в год."},
@@ -233,17 +235,19 @@ const PACKS = [
  {id:"clothes1",n:1,title:"Одежда",words:PACK1,expr:EXPR1},
  {id:"work2",n:2,title:"Работа и время",words:PACK2,expr:EXPR2}
 ];
+PACKS.push(...window.ENGLISH_WORD_BANK.packs);
 let P = PACKS[1], W = P.words;
 const MODES = [
  {id:"cards",label:"Карточки"},
  {id:"r1",label:"1 · EN → RU",title:"Круг 1 · английский → русский"},
  {id:"r2",label:"2 · RU → EN",title:"Круг 2 · русский → английский"},
+ {id:"copy",label:"Копирую",title:"Перепиши слово вручную"},
  {id:"r3",label:"3 · Предложения",title:"Круг 3 · вставь слово"},
  {id:"r4",label:"4 · По букве",title:"Круг 4 · напиши по первой букве"},
- {id:"r5",label:"5 · Без подсказки",title:"Круг 5 · напиши без подсказки"},
+ {id:"r5",label:"Вспоминаю написание",title:"Круг 5 · напиши без подсказки"},
  {id:"phr",label:"Выражения"}
 ];
-const passMark = n => n - 2;
+const passMark = n => Math.ceil(n * .8);
 const SPK = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M11 5 6 9H3v6h3l5 4z"/><path d="M15.5 8.5a5 5 0 0 1 0 7"/><path d="M18.5 5.5a9 9 0 0 1 0 13"/></svg>';
 
 const store = {
@@ -253,8 +257,8 @@ const store = {
 let best = store.get(P.id+":best",{});
 let autoSay = store.get("clothes1:autosay",true);
 function setPack(i){
-  P=PACKS[i]; W=P.words; best=store.get(P.id+":best",{});
-  mode="cards"; cardOrder=W.map((x,k)=>k); cardI=0; flipped=false; cardShuffled=false; Q=null;
+  saveRound(); P=PACKS[i]; W=P.words; best=store.get(P.id+":best",{});
+  mode="cards"; cardOrder=W.map((x,k)=>k); cardI=0; flipped=false; cardShuffled=false; Q=store.get(P.id+":draft",null); if(Q)mode=Q.mode;
   store.set("pack",i); render();
 }
 function renderPacks(){
@@ -305,7 +309,12 @@ function distractors(idx,n=3){
   if(pool.length<n)pool=pool.concat(shuffle(W.map((x,i)=>i).filter(i=>i!==idx&&!pool.includes(i))));
   return pool.slice(0,n);
 }
-const norm=s=>s.toLowerCase().replace(/[^a-z]/g,"");
+const norm=s=>String(s).toLowerCase().normalize('NFKC').replace(/[’‘]/g,"'").replace(/[‐‑–—-]/g," ").replace(/\s+/g," ").trim();
+const html=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+function spellingDiff(w,typed){const a=String(typed),b=w;let i=0;while(i<Math.min(a.length,b.length)&&a[i].toLowerCase()===b[i].toLowerCase())i++;return 'С позиции '+(i+1)+': введено «'+(a.slice(i)||'∅')+'», нужно «'+(b.slice(i)||'∅')+'». Полностью: '+b;}
+function saveRound(){store.set(P.id+':draft',Q);}
+function wordState(){return store.get(P.id+':learning',{mistakes:{},history:[],streaks:{}});}
+
 
 /* ---------- state ---------- */
 let mode="cards";
@@ -348,7 +357,7 @@ function renderCards(){
   const app=document.getElementById("app");
   app.innerHTML=`
   <div style="display:flex;flex-direction:column;gap:14px">
-    <p class="rule">Тапни по карточке, чтобы перевернуть. Свайп влево или вправо листает. Каждое слово говори вслух.</p>
+    <p class="rule">Тапни по карточке, чтобы перевернуть. Свайп влево или вправо листает. Каждое слово говори вслух. Русская запись произношения приблизительная; слушай озвучку.</p>
     <div class="stage"><div class="card ${flipped?"flipped":""}" id="card" role="button" tabindex="0" aria-label="Карточка, нажми чтобы перевернуть">
       <div class="face front"><span class="stitch"></span>
         <span class="tag">${cardI+1} / ${W.length}${w.rep?" · повтор":""}</span>
@@ -363,7 +372,7 @@ function renderCards(){
         <div class="ru">${w.ru}</div>
         <div class="ex"><span><b>${w.ex}</b></span>${sayBtn(w.ex,"small")}</div>
         <div class="exru">${w.exru}</div>
-        ${w.note?`<div class="note">${w.note}</div>`:""}
+        ${w.ex2?'<div class="exru"><b>'+html(w.ex2)+'</b><br>'+html(w.ex2ru)+'</div>':""}${w.note?`<div class="note">${w.note}</div>`:""}
       </div>
     </div></div>
     <div class="nav">
@@ -403,7 +412,7 @@ document.addEventListener("keydown",e=>{
 /* ---------- rounds ---------- */
 function startRound(m,subset){
   const ids=subset||W.map((x,i)=>i);
-  Q={mode:m,order:shuffle(ids),i:0,score:0,wrong:[],answered:false,full:!subset,opts:null,last:null,done:false};
+  Q={mode:m,order:shuffle(ids),i:0,score:0,wrong:[],answered:false,full:!subset,opts:null,last:null,done:false}; saveRound();
 }
 function renderQ(){
   const app=document.getElementById("app");
@@ -421,7 +430,7 @@ function renderQ(){
     prompt=`<div class="sent">${w.s.replace("___",'<span class="gap">'+(Q.answered?W[Q.last.pick].en:"&nbsp;")+'</span>')}</div><div class="exru">(${w.sru})</div>`;
     body=optsHtml(i=>W[i].en);
   } else {
-    const hint = Q.mode==="r4" ? `<div class="letter">${w.en[0]}${"_".repeat(Math.max(w.en.length-1,0))}</div><div class="exru">${w.en.length} букв${w.en.includes(" ")?" (с пробелом)":w.en.includes("-")?" (с дефисом)":""}</div>` : "";
+    const hint = Q.mode==="copy" ? '<div class="word">'+html(w.en)+'</div><div class="pron">['+html(w.pr)+']</div><div>Перепиши вручную</div>' : Q.mode==="r4" ? `<div class="letter">${w.en[0]}${"_".repeat(Math.max(w.en.length-1,0))}</div><div class="exru">${w.en.length} букв${w.en.includes(" ")?" (с пробелом)":w.en.includes("-")?" (с дефисом)":""}</div>` : "";
     prompt=`<div class="ru">${w.ru}</div>${hint}`;
     body=`<form id="wf" autocomplete="off"><input type="text" id="win" autocapitalize="off" autocorrect="off" spellcheck="false" placeholder="пиши по-английски" ${Q.answered?"disabled":""} value="${Q.answered?Q.last.typed.replace(/"/g,"&quot;"):""}"></form>
       ${Q.answered?"":`<button class="btn primary" type="button" id="check">Проверить</button>`}`;
@@ -440,7 +449,7 @@ function renderQ(){
   if(["r1","r2","r3"].includes(Q.mode)){
     app.querySelectorAll(".opt").forEach(b=>b.onclick=()=>answer(+b.dataset.i));
   } else if(!Q.answered){
-    const inp=document.getElementById("win"); inp.focus();
+    const inp=document.getElementById("win"); inp.focus(); if(Q.mode==='copy'){inp.onpaste=e=>{e.preventDefault();toast('Введи слово вручную')};inp.ondrop=e=>e.preventDefault();}
     document.getElementById("wf").onsubmit=e=>{e.preventDefault();answerTyped(inp.value)};
     document.getElementById("check").onclick=()=>answerTyped(inp.value);
   }
@@ -457,35 +466,45 @@ function fbHtml(w){
   return `<div class="fb ${ok?"ok":"no"}">
     <strong>${ok?"✅ Верно":"❌ Ошибка"}</strong>
     <div class="line"><span class="ans"><b>${w.en}</b> [${w.pr}] — ${w.ru}</span>${sayBtn(w.en,"small")}</div>
-    ${!ok&&w.note?`<div class="note">${w.note}</div>`:""}
+    ${!ok&&Q.last.typed?'<div class="note">'+html(spellingDiff(w.en,Q.last.typed))+'</div>':""}${!ok&&w.note?`<div class="note">${w.note}</div>`:""}
   </div>`;
 }
 function answer(pick){
   if(Q.answered)return;
   const idx=Q.order[Q.i], ok=pick===idx;
-  record(ok,idx); Q.last={pick,ok}; Q.answered=true; renderQ();
+  record(ok,idx); Q.last={pick,ok}; Q.answered=true; saveRound(); renderQ();
   if(autoSay)say(W[idx].en);
 }
 function answerTyped(v){
   if(Q.answered)return;
   if(!v.trim()){toast("Напиши слово");return;}
-  const idx=Q.order[Q.i], ok=norm(v)===norm(W[idx].en);
-  record(ok,idx); Q.last={typed:v.trim(),ok}; Q.answered=true; renderQ();
+  const idx=Q.order[Q.i], ok=[W[idx].en,...(W[idx].accept||[])].some(x=>norm(v)===norm(x));
+  record(ok,idx); Q.last={typed:v.trim(),ok}; Q.answered=true; saveRound(); renderQ();
   if(autoSay)say(W[idx].en);
 }
-function record(ok,idx){ if(ok)Q.score++; else if(!Q.wrong.includes(idx))Q.wrong.push(idx); }
+function record(ok,idx){
+ if(ok)Q.score++;else if(!Q.wrong.includes(idx))Q.wrong.push(idx);
+ const st=wordState(), key=String(idx);
+ if(!ok)st.mistakes[key]={streak:0,word:W[idx].en};
+ else if(st.mistakes[key]){st.mistakes[key].streak++;if(st.mistakes[key].streak>=2)delete st.mistakes[key];}
+ store.set(P.id+':learning',st);
+}
 function nextQ(){
   if(Q.i===Q.order.length-1){
     Q.done=true;
+    const st=wordState();const pass=Q.score>=passMark(Q.order.length);
+    if(Q.full)st.streaks[Q.mode]=pass?(st.streaks[Q.mode]||0)+1:0;
+    st.history.push({at:new Date().toISOString(),mode:Q.mode,n:Q.order.length,score:Q.score,full:Q.full});
+    store.set(P.id+':learning',st);saveRound();
     if(Q.full){ if(best[Q.mode]==null||Q.score>best[Q.mode]){best[Q.mode]=Q.score;store.set(P.id+":best",best);} }
     render(); return;
   }
-  Q.i++; Q.answered=false; Q.opts=null; Q.last=null; renderQ();
+  Q.i++; Q.answered=false; Q.opts=null; Q.last=null; saveRound(); renderQ();
 }
 function renderResult(){
   const m=MODES.find(x=>x.id===Q.mode), tot=Q.order.length;
   const need = passMark(tot);
-  const pass = Q.full ? Q.score>=need : Q.wrong.length===0;
+  const pass = Q.full ? (wordState().streaks[Q.mode]||0)>=2 : Object.keys(wordState().mistakes).length===0;
   const nm = MODES[MODES.findIndex(x=>x.id===Q.mode)+1];
   const nextMode = nm && nm.id[0]==="r" ? nm : null;
   const text = `Пачка ${P.n}. ${m.title}: ${Q.score}/${tot}${Q.full?"":" (повтор ошибок)"}\nОшибки: ${Q.wrong.length?Q.wrong.map(i=>W[i].en).join(", "):"нет"}`;
@@ -493,7 +512,7 @@ function renderResult(){
   <div class="res">
     <div class="qhead" style="justify-content:center"><span>${m.title}</span></div>
     <div class="big">${Q.score} / ${tot}</div>
-    <div class="verdict ${pass?"ok":"no"}">${Q.full ? (pass?"Круг сдан. Можно дальше.":`Нужно ${need} из ${tot}. Повтори ошибки и пройди круг ещё раз.`) : (pass?"Ошибки исправлены. Теперь пройди весь круг заново.":"Ещё есть ошибки, повтори их.")}</div>
+    <div class="verdict ${pass?"ok":"no"}">${Q.full ? (pass?"Два успешных круга подряд. Можно дальше.":`Нужно ≥80% (${need}/${tot}) два раза подряд. Успешных подряд: ${wordState().streaks[Q.mode]||0}.`) : (pass?"Ошибки исправлены. Теперь пройди весь круг заново.":"Ещё есть ошибки, повтори их.")}</div>
     ${Q.wrong.length?`<div class="miss">${Q.wrong.map(i=>`<span>${W[i].en} — ${W[i].ru}</span>`).join("")}</div>`:""}
     <div class="row">
       ${Q.wrong.length?`<button class="btn primary" type="button" id="rw">Повторить ошибки</button>`:""}
@@ -503,7 +522,7 @@ function renderResult(){
     <div class="copy" id="ct">${text}</div>
     <button class="btn" type="button" id="cp">Скопировать результат для чата</button>
   </div>`;
-  const w=Q.wrong.slice();
+  const w=Object.keys(wordState().mistakes).map(Number);
   const rw=document.getElementById("rw"); if(rw)rw.onclick=()=>{startRound(Q.mode,w);render();};
   document.getElementById("ra").onclick=()=>{startRound(Q.mode);render();};
   const nx=document.getElementById("nx"); if(nx)nx.onclick=()=>{mode=nextMode.id;startRound(mode);render();};
@@ -516,6 +535,15 @@ function renderResult(){
 function selectCopy(){const r=document.createRange();r.selectNodeContents(document.getElementById("ct"));const s=getSelection();s.removeAllRanges();s.addRange(r);}
 
 { const sp=store.get("pack",1); if(PACKS[sp]){P=PACKS[sp];W=P.words;best=store.get(P.id+":best",{});cardOrder=W.map((x,k)=>k);} }
+if(store.get(P.id+':draft',null)){Q=store.get(P.id+':draft',null);mode=Q.mode;}
+const knownKeys=['pack','clothes1:autosay','words:import-conflicts',...PACKS.flatMap(p=>[p.id+':best',p.id+':learning',p.id+':draft'])];
+document.getElementById('word-export').onclick=()=>{const data={};knownKeys.forEach(k=>{const v=localStorage.getItem(k);if(v!==null)data[k]=JSON.parse(v)});const u=URL.createObjectURL(new Blob([JSON.stringify({format:'english-words-v1',data},null,2)],{type:'application/json'}));const a=document.createElement('a');a.href=u;a.download='english-words-progress.json';a.click();setTimeout(()=>URL.revokeObjectURL(u),1000);};
+document.getElementById('word-import').onchange=async e=>{try{const o=JSON.parse(await e.target.files[0].text());if(o.format!=='english-words-v1'||!o.data)throw Error('Неверный формат');for(const k of Object.keys(o.data)){if(!knownKeys.includes(k))throw Error('Неизвестный ключ');}
+if(!confirm('Импорт дополнит отсутствующие данные. Отличающиеся локальные данные сохранятся; конфликтующие значения будут сохранены отдельно. Продолжить?'))return;
+for(const [k,v]of Object.entries(o.data)){if(localStorage.getItem(k)===null)store.set(k,v);else if(JSON.stringify(store.get(k,null))!==JSON.stringify(v))store.set('words:import-conflicts',{...store.get('words:import-conflicts',{}),[k]:v});}location.reload();}catch(err){toast('Импорт не выполнен: '+err.message)}};
+function drawHistory(){document.getElementById('word-history').innerHTML=PACKS.map(p=>{const st=store.get(p.id+':learning',{history:[]});return '<p><b>'+html(p.title)+'</b>: '+st.history.length+' попыток</p>'+st.history.slice(-5).map(h=>'<p>'+html(h.at)+' '+html(h.mode)+': '+h.score+'/'+h.n+'</p>').join('');}).join('');}
+document.querySelector('details.wrap').addEventListener('toggle',drawHistory);
+window.__wordsDebug={packs:PACKS,getRound:()=>Q,getLearning:wordState};
 render();
 </script>
 
