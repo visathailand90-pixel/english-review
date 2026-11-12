@@ -38,7 +38,11 @@ export async function handle(req,env,fetcher=fetch){
   return reply({csrf},200,{"set-cookie":"owner="+token+"; Secure; HttpOnly; SameSite=Strict; Path=/; Max-Age=86400"});
  }
  const s=await session(req,env);if(!s)return reply({error:"unauthorized"},401);
- if(u.pathname==="/api/session"&&req.method==="GET")return reply({csrf:s.csrf,enabled:ready(env)});
+ if(u.pathname==="/api/session"&&req.method==="GET"){
+  const stopped=!!await env.DB.prepare("SELECT value FROM flags WHERE key='disabled'").first();
+  const expired=!(Date.parse(env.BONUS_EXPIRES_AT)>Date.now());
+  return reply({csrf:s.csrf,enabled:ready(env)&&!stopped,reason:expired?"bonus_window_expired":stopped?"owner_or_provider_disabled":ready(env)?null:"not_configured",bonusExpiresAt:env.BONUS_EXPIRES_AT||null,limits:{hour:3,day:8}});
+ }
  if(req.method!=="GET"&&req.headers.get("X-CSRF")!==s.csrf)return reply({error:"csrf_denied"},403);
  if(u.pathname==="/api/logout"&&req.method==="POST"){await env.DB.prepare("DELETE FROM sessions WHERE csrf=?").bind(s.csrf).run();return reply({ok:true},200,{"set-cookie":"owner=; Secure; HttpOnly; SameSite=Strict; Path=/; Max-Age=0"});}
  if(u.pathname==="/api/disable"&&req.method==="POST"){await env.DB.prepare("INSERT OR REPLACE INTO flags(key,value) VALUES('disabled','true')").run();return reply({ok:true});}

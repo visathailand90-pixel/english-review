@@ -38,6 +38,24 @@ try:
    page.reload();assert page.evaluate("JSON.parse(localStorage.getItem('work2:best')).r1")==23
    for path in ['/','/words/','/reader/']:
     page.goto(url+path);assert page.evaluate('document.documentElement.scrollWidth<=innerWidth'),(engine.name,path)
+   page.goto(url+'/words/');assert page.evaluate('__wordsDebug.packs.at(-1).id')=='lesson10-shops'
+   n=page.evaluate('__wordsDebug.packs.length-1');page.locator('[data-pack="'+str(n)+'"]').click();page.locator('[data-mode="copy"]').click()
+   page.evaluate('Q.order=[0];Q.i=0;renderQ()');assert page.evaluate('W[0].en')=='honest'
+   page.locator('#win').fill('honest');page.locator('#check').click();page.reload();assert page.evaluate('__wordsDebug.getRound().answered')
+   page.goto(url+'/');page.locator('#lesson-select').select_option('03');page.locator('#view-nav [data-tab="l3"]').click()
+   previous=page.evaluate("__reviewDebug.getState().drafts['03/l3']")
+   page.locator('#lesson-select').select_option('10')
+   assert page.locator('#lesson-select option').count()==11
+   for mode in ['l1','l2','l3','l4','l5','fix']:
+    page.locator('#view-nav [data-tab="'+mode+'"]').click();assert page.locator('.qcard').count()==4
+    block=page.evaluate("__reviewDebug.getState().drafts['10/"+('l1:en' if mode=='l1' else mode)+"']")
+    if mode=='l4':assert all(len(q['tokens'])==q['correctTokenCount']+3 for q in block['items'])
+    if mode in ['l2','l3']:
+     page.evaluate("(key)=>{const s=__reviewDebug.getState();const b=s.drafts[key];for(const q of b.items)b.answers[q.key]=q.kind==='choice'?q.correctIndex:q.accept[0];localStorage.setItem('english-review:v4',JSON.stringify(s));}",'10/'+mode)
+     page.reload();page.locator('#check-btn').click();assert page.locator('.explanation').count()==4
+   page.reload();assert page.evaluate("__reviewDebug.getState().drafts['03/l3']")==previous
+   assert page.evaluate('document.documentElement.scrollWidth<=innerWidth')
+   page.goto(url+'/reader/');assert page.locator('#genLesson option[value="10"]').count()==1
    # Old generated texts survive; JSON export includes them; no endpoint => no API request.
    old={'id':'legacy-reading','title':'Old saved text','topic':'Local','paragraphs':['We buy apples.'],'dict':{'we':{'l':'we','ru':'мы','ipa':''}},'phr':{}}
    page.evaluate('(t)=>localStorage.setItem("chitalka.gen",JSON.stringify([t]))',old);page.reload()
@@ -76,10 +94,27 @@ baseline='86ab3f6'
 for f in [R/'lesson-data'/n for n in ['index.json','01.json','01p.json']+[f'{i:02}.json' for i in range(2,10)]]:
  before=json.loads(subprocess.check_output(['git','show',baseline+':lesson-data/'+f.name],cwd=R).decode('utf-8'))
  after=json.loads(f.read_text(encoding='utf-8'))
- if f.stem=='index':assert after==before
+ if f.stem=='index':assert after[:len(before)]==before
  else:
   for k in ['vocab','l2','l3','l4','l5','l6','fix','theory']:assert after[k][:len(before[k])]==before[k],(f.name,k)
 old=subprocess.check_output(['git','show',baseline+':words/index.html'],cwd=R).decode('utf-8')
 new=(R/'words/index.html').read_text(encoding='utf-8')
 assert old[old.index('const PACK1'):old.index('const PACKS')]==new[new.index('const PACK1'):new.index('const PACKS')]
 print('PASS append-only lesson and legacy word-pack integrity')
+
+lesson10=json.loads((R/'lesson-data/10.json').read_text(encoding='utf-8'))
+for key,n in {'theory':8,'l2':20,'l3':20,'l4':12,'l5':12,'fix':10}.items():assert len(lesson10[key])>=n
+assert all(q.get('why') for mode in ['l2','l3','l4','l5','fix'] for q in lesson10[mode])
+assert any(set(q['a'])>={'which','that'} for q in lesson10['l3'])
+assert any(set(q['a'])>={'buying','to buy'} for q in lesson10['l3'])
+prior=json.loads(subprocess.check_output(['git','show','97488c2:words/bank.json'],cwd=R).decode('utf-8'))
+current=json.loads((R/'words/bank.json').read_text(encoding='utf-8'))
+for old,now in zip(prior['packs'],current['packs']):
+ assert old['id']==now['id']
+ assert [w['en'] for w in old['words']]==[w['en'] for w in now['words']]
+assert len(current['packs'][-1]['words'])==17
+print('PASS lesson10 counts, alternative answers, old vocabulary IDs/order')
+
+legacySource=(R/'words/index.html').read_text(encoding='utf-8')
+legacyEn=set(re.findall(r'en:\s*[\"\']([^\"\']+)',legacySource[legacySource.index('const PACK1'):legacySource.index('const PACKS')]))
+assert not legacyEn.intersection(w['en'] for w in current['packs'][-1]['words'])

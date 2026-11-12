@@ -1,0 +1,1313 @@
+{
+  "id": "10",
+  "num": "10",
+  "title": "Разбор ошибок: Shops и грамматика",
+  "date": "10.11",
+  "summary": "Закрепление покупок и исправление грамматических ошибок: артикли, времена, устойчивые сочетания, относительные конструкции и количество. Все примеры учебные; допустимые варианты ответа учитываются.",
+  "theory": [
+    {
+      "h": "Артикли: сначала слушаем звук",
+      "text": [
+        "**a + согласный звук; an + гласный звук.** В honest и hour буква h не произносится; university начинается со звука /j/, как в you.",
+        "Первое упоминание: **a jacket**. Известная обоим вещь: **the jacket**. Перед my/this/that второй определитель не нужен.",
+        "Во множественном числе a/an не ставится: **some clothes, clothes are**."
+      ],
+      "ex": [
+        [
+          "She is an honest person.",
+          "Она честный человек."
+        ],
+        [
+          "We waited for an hour at a university.",
+          "Мы ждали час в университете."
+        ],
+        [
+          "I bought a jacket. The jacket was blue.",
+          "Я купил куртку. Эта куртка была синей."
+        ],
+        [
+          "This umbrella is mine.",
+          "Этот зонт мой."
+        ]
+      ],
+      "warn": [
+        "a honest → an honest: важен звук, а не написание.",
+        "a clothes → some clothes; clothes are, не clothes is."
+      ]
+    },
+    {
+      "h": "Present Simple, Continuous и be",
+      "text": [
+        "Привычка/факт: **I compare offers; she compares offers**. Сейчас: **am/is/are + verb-ing**. В Continuous нельзя терять be.",
+        "Местонахождение тоже требует be: **I am at home**. После depend нужен on: **It depends on the price**.",
+        "В третьем лице: buy → buys, pay → pays (гласная + y); study → studies (согласная + y)."
+      ],
+      "ex": [
+        [
+          "I compare offers every week.",
+          "Я сравниваю предложения каждую неделю."
+        ],
+        [
+          "I’m comparing offers now.",
+          "Я сейчас сравниваю предложения."
+        ],
+        [
+          "My sister buys clothes and studies prices.",
+          "Моя сестра покупает одежду и изучает цены."
+        ],
+        [
+          "When I’m at home, I shop online.",
+          "Когда я дома, я покупаю онлайн."
+        ]
+      ],
+      "warn": [
+        "She work → She works.",
+        "I comparing offers → I compare offers (вообще) / I am comparing offers (сейчас)."
+      ]
+    },
+    {
+      "h": "Past Simple: was/were и прошедшие действия",
+      "text": [
+        "**I/he/she/it was; you/we/they were**. Вчерашние последовательные действия оформляем прошедшим временем каждое.",
+        "Неправильные формы: send–sent, take–took, make–made, buy–bought, find–found, pay–paid, go–went. После did/didn’t — начальная форма.",
+        "Окончание -ed определяется последним звуком основы: после глухого, кроме /t/, — /t/ (asked); после звонкого, кроме /d/, — /d/ (called, studied); после /t/ и /d/ — /ɪd/ (wanted, needed)."
+      ],
+      "ex": [
+        [
+          "They were at the shop yesterday.",
+          "Вчера они были в магазине."
+        ],
+        [
+          "When I studied at university, I bought second-hand clothes.",
+          "Когда я учился в университете, я покупал подержанную одежду."
+        ],
+        [
+          "I took photos and sent them.",
+          "Я сделал фотографии и отправил их."
+        ],
+        [
+          "She made a decision yesterday.",
+          "Она приняла решение вчера."
+        ]
+      ],
+      "warn": [
+        "He send yesterday → He sent yesterday.",
+        "She makes a decision yesterday → She made a decision yesterday."
+      ]
+    },
+    {
+      "h": "Сочетания: make, take, do и возврат",
+      "text": [
+        "Сочетания учим целиком: **make a decision, take photos, do research, ask for a refund**.",
+        "**ask somebody to do something**: попросить конкретного человека что-то сделать. Можно ask the assistant to give me my money back.",
+        "**request a refund** — корректный, более официальный запрос возврата. **reject** означает отклонять. Возврат вещи: take an item back; получение денег: get a refund."
+      ],
+      "ex": [
+        [
+          "I made a decision after doing research.",
+          "Я принял решение после изучения вопроса."
+        ],
+        [
+          "I took photos of the damaged item.",
+          "Я сфотографировал повреждённую вещь."
+        ],
+        [
+          "I asked for a refund.",
+          "Я попросил вернуть деньги."
+        ],
+        [
+          "You can request a refund online.",
+          "Вы можете официально запросить возврат онлайн."
+        ]
+      ],
+      "warn": [
+        "do a decision → make a decision.",
+        "request a refund нельзя объявлять ошибкой без контекста."
+      ]
+    },
+    {
+      "h": "После like, enjoy и ask — разные формы",
+      "text": [
+        "**like buying** и **like to buy** допустимы. В упражнениях принимаются оба варианта, если контекст не задаёт отдельного оттенка.",
+        "После **enjoy + -ing**: enjoy buying. После **ask + человек + to + глагол**: ask her to help.",
+        "Универсального правила «между двумя глаголами всегда to» нет: запоминаем управление конкретного глагола."
+      ],
+      "ex": [
+        [
+          "I like buying clothes online.",
+          "Мне нравится покупать одежду онлайн."
+        ],
+        [
+          "I like to buy clothes online.",
+          "Я люблю покупать одежду онлайн."
+        ],
+        [
+          "I enjoy comparing prices.",
+          "Мне нравится сравнивать цены."
+        ],
+        [
+          "I asked her to help me.",
+          "Я попросил её помочь мне."
+        ]
+      ],
+      "warn": [
+        "enjoy to buy → enjoy buying.",
+        "ask her give → ask her to give."
+      ]
+    },
+    {
+      "h": "who, which, that и what",
+      "text": [
+        "После названного человека: **who**, часто **that**. После названной вещи: **which / that** в определительном придаточном без запятых.",
+        "**what I like** = «то, что мне нравится», когда перед what нет отдельного названного существительного.",
+        "**witch** — ведьма; **which** — который/какой. Это разные слова."
+      ],
+      "ex": [
+        [
+          "The assistant who helped me was polite.",
+          "Продавец, который мне помог, был вежлив."
+        ],
+        [
+          "The jacket which I liked was blue.",
+          "Куртка, которая мне понравилась, была синей."
+        ],
+        [
+          "The jacket that I liked was blue.",
+          "Куртка, которая мне понравилась, была синей."
+        ],
+        [
+          "I know what I like.",
+          "Я знаю, что мне нравится."
+        ]
+      ],
+      "warn": [
+        "the item what I bought → the item that/which I bought.",
+        "which и that в этих примерах — оба правильные ответы."
+      ]
+    },
+    {
+      "h": "Предлоги для покупок и доставки",
+      "text": [
+        "Учите устойчивые сочетания: **at a street market, from a second-hand shop, on the website, on the Internet**.",
+        "Способ оплаты: **by card**, но **in cash**. Объект фотографии: photos **of** damaged items.",
+        "Посылка в пути: **on its way**. Благодарность за помощь: thank you **for** your help."
+      ],
+      "ex": [
+        [
+          "I bought it at a street market.",
+          "Я купил это на уличном рынке."
+        ],
+        [
+          "I found the offer on the website.",
+          "Я нашёл предложение на сайте."
+        ],
+        [
+          "Can I pay by card or in cash?",
+          "Можно заплатить картой или наличными?"
+        ],
+        [
+          "The parcel is on its way.",
+          "Посылка в пути."
+        ]
+      ],
+      "warn": [
+        "pay in card → pay by card.",
+        "photos about the item → photos of the item."
+      ]
+    },
+    {
+      "h": "Количество: pair, piece, clothes, advice",
+      "text": [
+        "Парные предметы: **a pair of trainers/jeans/socks; two pairs of trainers**. Согласуем с pair: this pair is; these trainers are.",
+        "**advice и jewellery неисчисляемые**: a piece of advice/jewellery; some advice/jewellery. a/an не сочетаются с множественным существительным напрямую.",
+        "**clothes — множественное**: some clothes are. В общем смысле food обычно неисчисляемое; foods означает виды пищи.",
+        "Фото исчисляемы: **a photo / two photos**."
+      ],
+      "ex": [
+        [
+          "I need a new pair of jeans.",
+          "Мне нужна новая пара джинсов."
+        ],
+        [
+          "She bought two pairs of trainers.",
+          "Она купила две пары кроссовок."
+        ],
+        [
+          "He gave me a piece of advice.",
+          "Он дал мне один совет."
+        ],
+        [
+          "I sent them two photos.",
+          "Я отправил им две фотографии."
+        ]
+      ],
+      "warn": [
+        "a pairs → a pair / two pairs.",
+        "a jewellery / an advice → a piece of jewellery / a piece of advice."
+      ]
+    }
+  ],
+  "vocab": [
+    {
+      "en": "honest",
+      "ru": "честный",
+      "pron": "Онэст"
+    },
+    {
+      "en": "umbrella",
+      "ru": "зонт",
+      "pron": "амбрЭла"
+    },
+    {
+      "en": "hat",
+      "ru": "шляпа; головной убор",
+      "pron": "хэт"
+    },
+    {
+      "en": "checkout",
+      "ru": "касса; оформление заказа",
+      "pron": "чЭк-аут"
+    },
+    {
+      "en": "second-hand",
+      "ru": "подержанный",
+      "pron": "сЭкэнд-хЭнд"
+    },
+    {
+      "en": "compare offers",
+      "ru": "сравнивать предложения",
+      "pron": "кэмпЭа Офэз"
+    },
+    {
+      "en": "bargain",
+      "ru": "выгодная покупка; торговаться",
+      "pron": "бАагин"
+    },
+    {
+      "en": "refund",
+      "ru": "возврат денег",
+      "pron": "рИфанд"
+    },
+    {
+      "en": "sent",
+      "ru": "отправил; форма send",
+      "pron": "сэнт"
+    },
+    {
+      "en": "made",
+      "ru": "сделал; форма make",
+      "pron": "мэйд"
+    },
+    {
+      "en": "took",
+      "ru": "взял; форма take",
+      "pron": "тук"
+    },
+    {
+      "en": "ask for",
+      "ru": "просить о; запрашивать",
+      "pron": "ааск фо"
+    },
+    {
+      "en": "request",
+      "ru": "запрашивать; запрос",
+      "pron": "риквЭст"
+    },
+    {
+      "en": "reject",
+      "ru": "отклонять",
+      "pron": "риджЭкт"
+    },
+    {
+      "en": "leather",
+      "ru": "кожа как материал",
+      "pron": "лЭзэ"
+    },
+    {
+      "en": "tight",
+      "ru": "тесный; плотно облегающий",
+      "pron": "тайт"
+    },
+    {
+      "en": "jewellery",
+      "ru": "украшения; неисчисляемое",
+      "pron": "джУэлри"
+    },
+    {
+      "en": "earrings",
+      "ru": "серьги",
+      "pron": "Иэрингз"
+    },
+    {
+      "en": "a pair of",
+      "ru": "пара чего-либо",
+      "pron": "э пЭа ов"
+    },
+    {
+      "en": "a piece of",
+      "ru": "одна штука; часть",
+      "pron": "э пИс ов"
+    },
+    {
+      "en": "advice",
+      "ru": "совет; неисчисляемое",
+      "pron": "эдвАйс"
+    },
+    {
+      "en": "on its way",
+      "ru": "в пути",
+      "pron": "он итс уЭй"
+    },
+    {
+      "en": "by card",
+      "ru": "картой; способ оплаты",
+      "pron": "бай каад"
+    },
+    {
+      "en": "in cash",
+      "ru": "наличными",
+      "pron": "ин кэш"
+    },
+    {
+      "en": "shop assistant",
+      "ru": "продавец-консультант",
+      "pron": "шоп эсИстэнт"
+    },
+    {
+      "en": "damaged",
+      "ru": "повреждённый",
+      "pron": "дЭмиджд"
+    },
+    {
+      "en": "out of stock",
+      "ru": "нет в наличии",
+      "pron": "аут ов сток"
+    },
+    {
+      "en": "which",
+      "ru": "который; какой о предмете",
+      "pron": "уич"
+    },
+    {
+      "en": "who",
+      "ru": "кто; который о человеке",
+      "pron": "ху"
+    },
+    {
+      "en": "that",
+      "ru": "тот; который",
+      "pron": "зэт"
+    }
+  ],
+  "l2": [
+    {
+      "q": "She is ___ honest person.",
+      "o": [
+        "a",
+        "an",
+        "the"
+      ],
+      "a": 1,
+      "why": "Перед honest начальный h не звучит: нужен an перед гласным звуком."
+    },
+    {
+      "q": "We waited for ___ hour.",
+      "o": [
+        "a",
+        "an",
+        "some"
+      ],
+      "a": 1,
+      "why": "hour начинается с гласного звука; неопределённый артикль an."
+    },
+    {
+      "q": "He studies at ___ university.",
+      "o": [
+        "an",
+        "a",
+        "some"
+      ],
+      "a": 1,
+      "why": "university начинается со звука /j/, поэтому a, не an."
+    },
+    {
+      "q": "I need ___ umbrella: any one will do.",
+      "o": [
+        "a",
+        "an",
+        "some"
+      ],
+      "a": 1,
+      "why": "Один любой зонт — исчисляемое существительное с гласным начальным звуком."
+    },
+    {
+      "q": "I bought a jacket. ___ jacket was blue.",
+      "o": [
+        "A",
+        "The",
+        "An"
+      ],
+      "a": 1,
+      "why": "Во втором предложении говорим об уже упомянутой конкретной куртке."
+    },
+    {
+      "q": "These clothes ___ clean.",
+      "o": [
+        "is",
+        "are",
+        "am"
+      ],
+      "a": 1,
+      "why": "Clothes грамматически множественное: are."
+    },
+    {
+      "q": "My sister ___ clothes every month.",
+      "o": [
+        "buy",
+        "buys",
+        "buying"
+      ],
+      "a": 1,
+      "why": "Регулярное действие, she + глагол с -s. В buy перед y гласная, y сохраняется."
+    },
+    {
+      "q": "She ___ prices every evening.",
+      "o": [
+        "study",
+        "studies",
+        "studying"
+      ],
+      "a": 1,
+      "why": "В study согласная перед y: в третьем лице y меняется на -ies."
+    },
+    {
+      "q": "It ___ on the price.",
+      "o": [
+        "depend",
+        "depends",
+        "depending"
+      ],
+      "a": 1,
+      "why": "Факт в Present Simple: it + depends; зависеть от — depend on."
+    },
+    {
+      "q": "When I ___ at home, I shop online.",
+      "o": [
+        "am",
+        "do",
+        "have"
+      ],
+      "a": 0,
+      "why": "В предложении о местонахождении нужен be: I am at home."
+    },
+    {
+      "q": "Look! I ___ comparing offers now.",
+      "o": [
+        "do",
+        "am",
+        "have"
+      ],
+      "a": 1,
+      "why": "Сейчас происходит действие: am + comparing."
+    },
+    {
+      "q": "Yesterday they ___ at the market.",
+      "o": [
+        "was",
+        "were",
+        "are"
+      ],
+      "a": 1,
+      "why": "They требует were в прошедшем времени."
+    },
+    {
+      "q": "Yesterday I ___ at home.",
+      "o": [
+        "were",
+        "was",
+        "am"
+      ],
+      "a": 1,
+      "why": "С I прошедшая форма be — was."
+    },
+    {
+      "q": "He ___ the photo yesterday.",
+      "o": [
+        "send",
+        "sent",
+        "sends"
+      ],
+      "a": 1,
+      "why": "Yesterday задаёт Past Simple: send → sent."
+    },
+    {
+      "q": "I took photos and ___ them yesterday.",
+      "o": [
+        "send",
+        "sent",
+        "sending"
+      ],
+      "a": 1,
+      "why": "Оба последовательных действия в прошлом: took и sent."
+    },
+    {
+      "q": "She ___ a decision yesterday.",
+      "o": [
+        "makes",
+        "made",
+        "making"
+      ],
+      "a": 1,
+      "why": "Make a decision — принять решение; вчера: make → made."
+    },
+    {
+      "q": "I ___ for the coat yesterday.",
+      "o": [
+        "pay",
+        "paid",
+        "pays"
+      ],
+      "a": 1,
+      "why": "Pay → paid в Past Simple."
+    },
+    {
+      "q": "I enjoy ___ things online.",
+      "o": [
+        "buy",
+        "buying",
+        "to buy"
+      ],
+      "a": 1,
+      "why": "После enjoy используется -ing; enjoy to buy неверно."
+    },
+    {
+      "q": "I like ___ clothes online.",
+      "o": [
+        "buy",
+        "buying",
+        "bought"
+      ],
+      "a": 1,
+      "why": "Like допускает buying и to buy; в предложенных вариантах правильным является buying."
+    },
+    {
+      "q": "I asked her ___ help me.",
+      "o": [
+        "to",
+        "for",
+        "at"
+      ],
+      "a": 0,
+      "why": "Ask + человек + to + начальная форма: asked her to help."
+    },
+    {
+      "q": "The jacket ___ I liked was blue.",
+      "o": [
+        "who",
+        "which",
+        "what"
+      ],
+      "a": 1,
+      "why": "В определительном придаточном о предмете допустимы which и that; who относится к людям."
+    },
+    {
+      "q": "The assistant ___ helped me was polite.",
+      "o": [
+        "what",
+        "who",
+        "which"
+      ],
+      "a": 1,
+      "why": "Человек, который помог: who или that."
+    },
+    {
+      "q": "I know ___ I like.",
+      "o": [
+        "what",
+        "which",
+        "who"
+      ],
+      "a": 0,
+      "why": "Здесь нет названного существительного перед придаточным: what = то, что."
+    },
+    {
+      "q": "I bought it ___ a street market.",
+      "o": [
+        "on",
+        "at",
+        "by"
+      ],
+      "a": 1,
+      "why": "Устойчивое сочетание — at a street market."
+    },
+    {
+      "q": "Can I pay ___ card?",
+      "o": [
+        "in",
+        "by",
+        "on"
+      ],
+      "a": 1,
+      "why": "Способ оплаты картой — by card."
+    },
+    {
+      "q": "I paid ___ cash.",
+      "o": [
+        "by",
+        "in",
+        "on"
+      ],
+      "a": 1,
+      "why": "Оплата наличными — in cash."
+    },
+    {
+      "q": "He gave me a piece of ___.",
+      "o": [
+        "advice",
+        "advices",
+        "an advice"
+      ],
+      "a": 0,
+      "why": "Advice неисчисляемое: a piece of advice, без -s."
+    },
+    {
+      "q": "She bought two ___ of trainers.",
+      "o": [
+        "pair",
+        "pairs",
+        "a pair"
+      ],
+      "a": 1,
+      "why": "После two считаем пары: two pairs of trainers."
+    },
+    {
+      "q": "She is ___ honest person.",
+      "o": [
+        "a",
+        "an",
+        "the"
+      ],
+      "a": 1,
+      "why": "Перед honest начальный h не звучит: нужен an перед гласным звуком."
+    },
+    {
+      "q": "We waited for ___ hour.",
+      "o": [
+        "a",
+        "an",
+        "some"
+      ],
+      "a": 1,
+      "why": "hour начинается с гласного звука; неопределённый артикль an."
+    },
+    {
+      "q": "He studies at ___ university.",
+      "o": [
+        "an",
+        "a",
+        "some"
+      ],
+      "a": 1,
+      "why": "university начинается со звука /j/, поэтому a, не an."
+    },
+    {
+      "q": "I need ___ umbrella: any one will do.",
+      "o": [
+        "a",
+        "an",
+        "some"
+      ],
+      "a": 1,
+      "why": "Один любой зонт — исчисляемое существительное с гласным начальным звуком."
+    },
+    {
+      "q": "I bought a jacket. ___ jacket was blue.",
+      "o": [
+        "A",
+        "The",
+        "An"
+      ],
+      "a": 1,
+      "why": "Во втором предложении говорим об уже упомянутой конкретной куртке."
+    },
+    {
+      "q": "These clothes ___ clean.",
+      "o": [
+        "is",
+        "are",
+        "am"
+      ],
+      "a": 1,
+      "why": "Clothes грамматически множественное: are."
+    },
+    {
+      "q": "My sister ___ clothes every month.",
+      "o": [
+        "buy",
+        "buys",
+        "buying"
+      ],
+      "a": 1,
+      "why": "Регулярное действие, she + глагол с -s. В buy перед y гласная, y сохраняется."
+    },
+    {
+      "q": "She ___ prices every evening.",
+      "o": [
+        "study",
+        "studies",
+        "studying"
+      ],
+      "a": 1,
+      "why": "В study согласная перед y: в третьем лице y меняется на -ies."
+    },
+    {
+      "q": "It ___ on the price.",
+      "o": [
+        "depend",
+        "depends",
+        "depending"
+      ],
+      "a": 1,
+      "why": "Факт в Present Simple: it + depends; зависеть от — depend on."
+    },
+    {
+      "q": "When I ___ at home, I shop online.",
+      "o": [
+        "am",
+        "do",
+        "have"
+      ],
+      "a": 0,
+      "why": "В предложении о местонахождении нужен be: I am at home."
+    }
+  ],
+  "l3": [
+    {
+      "q": "She is ___ honest person.",
+      "hint": "Она честный человек. Подсказка: 1 слово",
+      "a": [
+        "an"
+      ],
+      "why": "Перед honest начальный h не звучит: нужен an перед гласным звуком."
+    },
+    {
+      "q": "We waited for ___ hour.",
+      "hint": "Мы ждали час. Подсказка: 1 слово",
+      "a": [
+        "an"
+      ],
+      "why": "hour начинается с гласного звука; неопределённый артикль an."
+    },
+    {
+      "q": "He studies at ___ university.",
+      "hint": "Он учится в университете. Подсказка: 1 слово",
+      "a": [
+        "a"
+      ],
+      "why": "university начинается со звука /j/, поэтому a, не an."
+    },
+    {
+      "q": "I need ___ umbrella: any one will do.",
+      "hint": "Мне нужен зонт — подойдёт любой. Подсказка: 1 слово",
+      "a": [
+        "an"
+      ],
+      "why": "Один любой зонт — исчисляемое существительное с гласным начальным звуком."
+    },
+    {
+      "q": "I bought a jacket. ___ jacket was blue.",
+      "hint": "Я купил куртку. Эта куртка была синей. Подсказка: 1 слово",
+      "a": [
+        "the"
+      ],
+      "why": "Во втором предложении говорим об уже упомянутой конкретной куртке."
+    },
+    {
+      "q": "These clothes ___ clean.",
+      "hint": "Эта одежда чистая. Подсказка: 1 слово",
+      "a": [
+        "are"
+      ],
+      "why": "Clothes грамматически множественное: are."
+    },
+    {
+      "q": "My sister ___ clothes every month.",
+      "hint": "Моя сестра покупает одежду каждый месяц. Подсказка: 1 слово",
+      "a": [
+        "buys"
+      ],
+      "why": "Регулярное действие, she + глагол с -s. В buy перед y гласная, y сохраняется."
+    },
+    {
+      "q": "She ___ prices every evening.",
+      "hint": "Она изучает цены каждый вечер. Подсказка: 1 слово",
+      "a": [
+        "studies"
+      ],
+      "why": "В study согласная перед y: в третьем лице y меняется на -ies."
+    },
+    {
+      "q": "It ___ on the price.",
+      "hint": "Это зависит от цены. Подсказка: 1 слово",
+      "a": [
+        "depends"
+      ],
+      "why": "Факт в Present Simple: it + depends; зависеть от — depend on."
+    },
+    {
+      "q": "When I ___ at home, I shop online.",
+      "hint": "Когда я дома, я покупаю онлайн. Подсказка: 1 слово",
+      "a": [
+        "am"
+      ],
+      "why": "В предложении о местонахождении нужен be: I am at home."
+    },
+    {
+      "q": "Look! I ___ comparing offers now.",
+      "hint": "Смотри! Я сейчас сравниваю предложения. Подсказка: 1 слово",
+      "a": [
+        "am"
+      ],
+      "why": "Сейчас происходит действие: am + comparing."
+    },
+    {
+      "q": "Yesterday they ___ at the market.",
+      "hint": "Вчера они были на рынке. Подсказка: 1 слово",
+      "a": [
+        "were"
+      ],
+      "why": "They требует were в прошедшем времени."
+    },
+    {
+      "q": "Yesterday I ___ at home.",
+      "hint": "Вчера я был дома. Подсказка: 1 слово",
+      "a": [
+        "was"
+      ],
+      "why": "С I прошедшая форма be — was."
+    },
+    {
+      "q": "He ___ the photo yesterday.",
+      "hint": "Он отправил фотографию вчера. Подсказка: 1 слово",
+      "a": [
+        "sent"
+      ],
+      "why": "Yesterday задаёт Past Simple: send → sent."
+    },
+    {
+      "q": "I took photos and ___ them yesterday.",
+      "hint": "Я сделал фотографии и отправил их вчера. Подсказка: 1 слово",
+      "a": [
+        "sent"
+      ],
+      "why": "Оба последовательных действия в прошлом: took и sent."
+    },
+    {
+      "q": "She ___ a decision yesterday.",
+      "hint": "Она приняла решение вчера. Подсказка: 1 слово",
+      "a": [
+        "made"
+      ],
+      "why": "Make a decision — принять решение; вчера: make → made."
+    },
+    {
+      "q": "I ___ for the coat yesterday.",
+      "hint": "Я заплатил за пальто вчера. Подсказка: 1 слово",
+      "a": [
+        "paid"
+      ],
+      "why": "Pay → paid в Past Simple."
+    },
+    {
+      "q": "I enjoy ___ things online.",
+      "hint": "Мне нравится покупать вещи онлайн. Подсказка: 1 слово",
+      "a": [
+        "buying"
+      ],
+      "why": "После enjoy используется -ing; enjoy to buy неверно."
+    },
+    {
+      "q": "I like ___ clothes online.",
+      "hint": "Я люблю покупать одежду онлайн. Подсказка: 1–2 слова; возможны варианты",
+      "a": [
+        "buying",
+        "to buy"
+      ],
+      "why": "Like допускает buying и to buy; в предложенных вариантах правильным является buying."
+    },
+    {
+      "q": "I asked her ___ help me.",
+      "hint": "Я попросил её помочь мне. Подсказка: 1 слово",
+      "a": [
+        "to"
+      ],
+      "why": "Ask + человек + to + начальная форма: asked her to help."
+    },
+    {
+      "q": "The jacket ___ I liked was blue.",
+      "hint": "Куртка, которая мне понравилась, была синей. Подсказка: 1–2 слова; возможны варианты",
+      "a": [
+        "which",
+        "that"
+      ],
+      "why": "В определительном придаточном о предмете допустимы which и that; who относится к людям."
+    },
+    {
+      "q": "The assistant ___ helped me was polite.",
+      "hint": "Продавец, который мне помог, был вежлив. Подсказка: 1–2 слова; возможны варианты",
+      "a": [
+        "who",
+        "that"
+      ],
+      "why": "Человек, который помог: who или that."
+    },
+    {
+      "q": "I know ___ I like.",
+      "hint": "Я знаю, что мне нравится. Подсказка: 1 слово",
+      "a": [
+        "what"
+      ],
+      "why": "Здесь нет названного существительного перед придаточным: what = то, что."
+    },
+    {
+      "q": "I bought it ___ a street market.",
+      "hint": "Я купил это на уличном рынке. Подсказка: 1 слово",
+      "a": [
+        "at"
+      ],
+      "why": "Устойчивое сочетание — at a street market."
+    },
+    {
+      "q": "Can I pay ___ card?",
+      "hint": "Можно заплатить картой? Подсказка: 1 слово",
+      "a": [
+        "by"
+      ],
+      "why": "Способ оплаты картой — by card."
+    },
+    {
+      "q": "I paid ___ cash.",
+      "hint": "Я заплатил наличными. Подсказка: 1 слово",
+      "a": [
+        "in"
+      ],
+      "why": "Оплата наличными — in cash."
+    },
+    {
+      "q": "He gave me a piece of ___.",
+      "hint": "Он дал мне один совет. Подсказка: 1 слово",
+      "a": [
+        "advice"
+      ],
+      "why": "Advice неисчисляемое: a piece of advice, без -s."
+    },
+    {
+      "q": "She bought two ___ of trainers.",
+      "hint": "Она купила две пары кроссовок. Подсказка: 1 слово",
+      "a": [
+        "pairs"
+      ],
+      "why": "После two считаем пары: two pairs of trainers."
+    }
+  ],
+  "l4": [
+    {
+      "ru": "Мне нужна новая пара джинсов.",
+      "en": "I need a new pair of jeans.",
+      "why": "Один артикль относится к pair; jeans множественное."
+    },
+    {
+      "ru": "Я сделал фотографии и отправил их.",
+      "en": "I took photos and sent them.",
+      "why": "Два действия в прошлом: took и sent; photos — множественное."
+    },
+    {
+      "ru": "Она приняла решение вчера.",
+      "en": "She made a decision yesterday.",
+      "why": "Устойчивое make a decision; вчера: made."
+    },
+    {
+      "ru": "Мне нравится покупать вещи онлайн.",
+      "en": "I like buying things online.",
+      "why": "Like допускает buying/to buy; enjoy только buying."
+    },
+    {
+      "ru": "Куртка, которая мне понравилась, была синей.",
+      "en": "The jacket that I liked was blue.",
+      "why": "Which и that одинаково допустимы в этом определительном придаточном."
+    },
+    {
+      "ru": "Я попросил продавца вернуть мне деньги.",
+      "en": "I asked the shop assistant to give me my money back.",
+      "why": "Ask + человек + to + действие."
+    },
+    {
+      "ru": "Она честный человек.",
+      "en": "She is an honest person.",
+      "why": "Be в настоящем: she is; an перед гласным звуком в honest."
+    },
+    {
+      "ru": "Они были на рынке вчера.",
+      "en": "They were at the market yesterday.",
+      "why": "They were, не they was; at the market."
+    },
+    {
+      "ru": "Я заплатил картой.",
+      "en": "I paid by card.",
+      "why": "Pay → paid; by card."
+    },
+    {
+      "ru": "Я попросил возврат денег.",
+      "en": "I asked for a refund.",
+      "why": "Ask for и более формальное request a refund корректны."
+    },
+    {
+      "ru": "Посылка в пути.",
+      "en": "The parcel is on its way.",
+      "why": "Устойчивое on its way; единственное число is."
+    },
+    {
+      "ru": "Она купила одно украшение.",
+      "en": "She bought a piece of jewellery.",
+      "why": "Jewellery/jewelry неисчисляемое; считаем pieces."
+    },
+    {
+      "ru": "Я сейчас сравниваю предложения.",
+      "en": "I am comparing offers now.",
+      "why": "Сейчас: am comparing; предложения — offers."
+    },
+    {
+      "ru": "Я знаю, что мне нравится.",
+      "en": "I know what I like.",
+      "why": "Без существительного перед придаточным используем what."
+    }
+  ],
+  "l5": [
+    {
+      "ru": "Мне нужна новая пара джинсов.",
+      "a": [
+        "I need a new pair of jeans."
+      ],
+      "why": "Один артикль относится к pair; jeans множественное."
+    },
+    {
+      "ru": "Я сделал фотографии и отправил их.",
+      "a": [
+        "I took photos and sent them."
+      ],
+      "why": "Два действия в прошлом: took и sent; photos — множественное."
+    },
+    {
+      "ru": "Она приняла решение вчера.",
+      "a": [
+        "She made a decision yesterday."
+      ],
+      "why": "Устойчивое make a decision; вчера: made."
+    },
+    {
+      "ru": "Мне нравится покупать вещи онлайн.",
+      "a": [
+        "I like buying things online.",
+        "I like to buy things online.",
+        "I enjoy buying things online."
+      ],
+      "why": "Like допускает buying/to buy; enjoy только buying."
+    },
+    {
+      "ru": "Куртка, которая мне понравилась, была синей.",
+      "a": [
+        "The jacket that I liked was blue.",
+        "The jacket which I liked was blue."
+      ],
+      "why": "Which и that одинаково допустимы в этом определительном придаточном."
+    },
+    {
+      "ru": "Я попросил продавца вернуть мне деньги.",
+      "a": [
+        "I asked the shop assistant to give me my money back.",
+        "I asked the assistant to give me my money back."
+      ],
+      "why": "Ask + человек + to + действие."
+    },
+    {
+      "ru": "Она честный человек.",
+      "a": [
+        "She is an honest person."
+      ],
+      "why": "Be в настоящем: she is; an перед гласным звуком в honest."
+    },
+    {
+      "ru": "Они были на рынке вчера.",
+      "a": [
+        "They were at the market yesterday.",
+        "Yesterday they were at the market."
+      ],
+      "why": "They were, не they was; at the market."
+    },
+    {
+      "ru": "Я заплатил картой.",
+      "a": [
+        "I paid by card."
+      ],
+      "why": "Pay → paid; by card."
+    },
+    {
+      "ru": "Я попросил возврат денег.",
+      "a": [
+        "I asked for a refund.",
+        "I requested a refund."
+      ],
+      "why": "Ask for и более формальное request a refund корректны."
+    },
+    {
+      "ru": "Посылка в пути.",
+      "a": [
+        "The parcel is on its way.",
+        "The package is on its way."
+      ],
+      "why": "Устойчивое on its way; единственное число is."
+    },
+    {
+      "ru": "Она купила одно украшение.",
+      "a": [
+        "She bought a piece of jewellery.",
+        "She bought a piece of jewelry."
+      ],
+      "why": "Jewellery/jewelry неисчисляемое; считаем pieces."
+    },
+    {
+      "ru": "Я сейчас сравниваю предложения.",
+      "a": [
+        "I am comparing offers now.",
+        "I'm comparing offers now.",
+        "Now I am comparing offers."
+      ],
+      "why": "Сейчас: am comparing; предложения — offers."
+    },
+    {
+      "ru": "Я знаю, что мне нравится.",
+      "a": [
+        "I know what I like."
+      ],
+      "why": "Без существительного перед придаточным используем what."
+    }
+  ],
+  "l6": [
+    {
+      "q": "How can you ask for a refund?",
+      "ru": "Как попросить возврат денег?",
+      "start": "I would like…",
+      "model": "I would like a refund, please."
+    },
+    {
+      "q": "Where do you usually buy clothes?",
+      "ru": "Где вы обычно покупаете одежду?",
+      "start": "I usually…",
+      "model": "I usually buy clothes online."
+    }
+  ],
+  "fix": [
+    {
+      "wrong": "She is a honest person.",
+      "a": [
+        "She is an honest person."
+      ],
+      "ru": "Она честный человек.",
+      "why": "An перед гласным звуком; h в honest не произносится."
+    },
+    {
+      "wrong": "She work as a shop assistant.",
+      "a": [
+        "She works as a shop assistant."
+      ],
+      "ru": "Она работает продавцом.",
+      "why": "Регулярное действие: she + works, без is."
+    },
+    {
+      "wrong": "When I home, I shop online.",
+      "a": [
+        "When I'm at home, I shop online.",
+        "When I am at home, I shop online."
+      ],
+      "ru": "Когда я дома, я покупаю онлайн.",
+      "why": "Для местонахождения нужны be и at: I am at home."
+    },
+    {
+      "wrong": "It depend on place.",
+      "a": [
+        "It depends on the place."
+      ],
+      "ru": "Это зависит от места.",
+      "why": "It + depends; речь о конкретном месте: the place."
+    },
+    {
+      "wrong": "I comparing offer.",
+      "a": [
+        "I compare offers.",
+        "I'm comparing offers.",
+        "I am comparing offers."
+      ],
+      "ru": "Я сравниваю предложения.",
+      "why": "Без указателя времени возможны привычка (compare) и процесс (am comparing). Offer здесь обычно во множественном числе."
+    },
+    {
+      "wrong": "He send the photo yesterday.",
+      "a": [
+        "He sent the photo yesterday."
+      ],
+      "ru": "Он отправил фотографию вчера.",
+      "why": "Yesterday: send → sent."
+    },
+    {
+      "wrong": "I took photos and send them.",
+      "a": [
+        "I took photos and sent them."
+      ],
+      "ru": "Я сделал фотографии и отправил их.",
+      "why": "Два завершённых действия: оба глагола в Past Simple."
+    },
+    {
+      "wrong": "She makes a decision yesterday.",
+      "a": [
+        "She made a decision yesterday."
+      ],
+      "ru": "Она приняла решение вчера.",
+      "why": "Вчера: make → made; a decision — исчисляемое существительное."
+    },
+    {
+      "wrong": "I like buy.",
+      "a": [
+        "I like buying.",
+        "I like to buy."
+      ],
+      "ru": "Мне нравится покупать.",
+      "why": "После like возможны -ing и to + начальная форма."
+    },
+    {
+      "wrong": "I need a new a pair of jeans.",
+      "a": [
+        "I need a new pair of jeans."
+      ],
+      "ru": "Мне нужна новая пара джинсов.",
+      "why": "У одной группы a new pair только один артикль."
+    },
+    {
+      "wrong": "She bought a pairs of jewellery.",
+      "a": [
+        "She bought a piece of jewellery.",
+        "She bought a piece of jewelry."
+      ],
+      "ru": "Она купила одно украшение.",
+      "why": "Для одного украшения piece, не pair; jewellery неисчисляемое."
+    },
+    {
+      "wrong": "I enjoy to buy things.",
+      "a": [
+        "I enjoy buying things."
+      ],
+      "ru": "Мне нравится покупать вещи.",
+      "why": "Enjoy требует -ing; правило like здесь неприменимо."
+    }
+  ],
+  "practiceStart": 28
+}

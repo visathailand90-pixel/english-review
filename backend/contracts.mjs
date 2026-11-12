@@ -30,7 +30,7 @@ export function validateStory(r,expectedWords){
  return r;
 }
 export function validateRequest(b){
- const ids=["01","01p","02","03","04","05","06","07","08","09"];
+ const ids=["01","01p","02","03","04","05","06","07","08","09","10"];
  if(!b||!ids.includes(b.lesson)||!["story","dialogue","article","posts"].includes(b.format)||!["A2","A2+"].includes(b.level)||![120,180,250].includes(b.words)||typeof b.topic!=="string"||b.topic.length>200||typeof b.context!=="string"||b.context.length>7000)throw Error("invalid_request");
  return {lesson:b.lesson,format:b.format,level:b.level,words:b.words,topic:b.topic,context:b.context};
 }

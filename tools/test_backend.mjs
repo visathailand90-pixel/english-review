@@ -21,6 +21,8 @@ assert.equal((await handle(request("/api/generate",b,{"X-CSRF":"bad"}),env,mock)
 assert.equal((await handle(request("/api/generate",b),{...env,GENERATION_ENABLED:"false"},mock)).status,503);
 assert.equal((await handle(request("/api/generate",b),{...env,BONUS_EXPIRES_AT:"2000-01-01"},mock)).status,503);
 assert.equal(calls,0);
+let expiryState=await handle(request("/api/session"),{...env,BONUS_EXPIRES_AT:"2000-01-01"},mock);expiryState=await expiryState.json();assert.equal(expiryState.enabled,false);assert.equal(expiryState.reason,"bonus_window_expired");
+
 r=await handle(request("/api/generate",b),env,mock);assert.equal(r.status,200);assert.equal((await r.json()).story.title,story.title);
 r=await handle(request("/api/texts"),env,mock);assert.equal((await r.json()).texts.length,1);
 await handle(request("/api/texts",story),env,mock);assert.equal(sql.prepare("SELECT count(*) as n FROM texts").get().n,1);

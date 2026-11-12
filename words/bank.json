@@ -6626,7 +6626,8 @@
           "pr": "эдвАйс",
           "lessons": [
             "05",
-            "06"
+            "06",
+            "10"
           ],
           "g": "n",
           "ex": "Linda gives Henry some advice.",
@@ -7199,7 +7200,8 @@
           "pr": "рИифанд",
           "lessons": [
             "05",
-            "07"
+            "07",
+            "10"
           ],
           "g": "n",
           "ex": "I returned the jacket and got a refund.",
@@ -7492,7 +7494,8 @@
           "lessons": [
             "07",
             "08",
-            "09"
+            "09",
+            "10"
           ],
           "g": "n",
           "ex": "I need a pair of gloves for winter.",
@@ -9431,7 +9434,8 @@
           "ru": "серьги",
           "pr": "Иэрингз",
           "lessons": [
-            "07"
+            "07",
+            "10"
           ],
           "g": "n",
           "ex": "I think these earrings suit me.",
@@ -9703,7 +9707,8 @@
           "ru": "украшения",
           "pr": "джУуэлри",
           "lessons": [
-            "07"
+            "07",
+            "10"
           ],
           "g": "n",
           "ex": "The jewellery looks similar, but its condition is better.",
@@ -10254,7 +10259,8 @@
           "lessons": [
             "07",
             "08",
-            "09"
+            "09",
+            "10"
           ],
           "g": "n",
           "ex": "I want to request a refund.",
@@ -10436,7 +10442,8 @@
           "pr": "сЭкэнд-хэнд",
           "lessons": [
             "07",
-            "08"
+            "08",
+            "10"
           ],
           "g": "n",
           "ex": "I bought it in a second-hand shop.",
@@ -11218,7 +11225,8 @@
           "pr": "дЭмиджд",
           "lessons": [
             "08",
-            "09"
+            "09",
+            "10"
           ],
           "g": "n",
           "ex": "We did not keep the damaged box.",
@@ -11423,7 +11431,8 @@
           "lessons": [
             "07",
             "08",
-            "09"
+            "09",
+            "10"
           ],
           "g": "n",
           "ex": "This coat is a bargain.",
@@ -12976,7 +12985,8 @@
           "lessons": [
             "07",
             "08",
-            "09"
+            "09",
+            "10"
           ],
           "g": "n",
           "ex": "The parcel is on its way.",
@@ -13314,7 +13324,8 @@
           "ru": "нет в наличии",
           "pr": "аут ов стОк",
           "lessons": [
-            "09"
+            "09",
+            "10"
           ],
           "g": "n",
           "ex": "It is out of stock.",
@@ -13430,7 +13441,8 @@
           "ru": "продавец-консультант",
           "pr": "шоп эсИстэнт",
           "lessons": [
-            "09"
+            "09",
+            "10"
           ],
           "g": "n",
           "ex": "Ask the shop assistant for some salt.",
@@ -13991,6 +14003,523 @@
           ]
         ]
       }
+    },
+    {
+      "id": "lesson10-shops",
+      "n": 21,
+      "title": "Урок 10 · Shops: новые слова и формы",
+      "words": [
+        {
+          "en": "honest",
+          "ru": "честный",
+          "pr": "Онэст",
+          "lessons": [
+            "10"
+          ],
+          "g": "adj",
+          "ex": "She is an honest person.",
+          "exru": "Она честный человек.",
+          "ex2": "An honest assistant told me the truth.",
+          "ex2ru": "Честный продавец сказал мне правду.",
+          "note": "Урок 10. Учебные примеры; произношение приблизительное.",
+          "collocations": [
+            [
+              "She is an honest person.",
+              "Она честный человек."
+            ],
+            [
+              "An honest assistant told me the truth.",
+              "Честный продавец сказал мне правду."
+            ]
+          ],
+          "s": "She is an ___ person.",
+          "sru": "честный",
+          "hard": true,
+          "examplesType": "usage",
+          "pronunciationType": "приблизительная русская запись",
+          "rep": 0
+        },
+        {
+          "en": "umbrella",
+          "ru": "зонт",
+          "pr": "амбрЭла",
+          "lessons": [
+            "10"
+          ],
+          "g": "n",
+          "ex": "I need an umbrella.",
+          "exru": "Мне нужен зонт.",
+          "ex2": "This umbrella is blue.",
+          "ex2ru": "Этот зонт синий.",
+          "note": "Урок 10. Учебные примеры; произношение приблизительное.",
+          "collocations": [
+            [
+              "I need an umbrella.",
+              "Мне нужен зонт."
+            ],
+            [
+              "This umbrella is blue.",
+              "Этот зонт синий."
+            ]
+          ],
+          "s": "I need an ___.",
+          "sru": "зонт",
+          "hard": true,
+          "examplesType": "usage",
+          "pronunciationType": "приблизительная русская запись",
+          "rep": 0
+        },
+        {
+          "en": "hat",
+          "ru": "шляпа; головной убор",
+          "pr": "хэт",
+          "lessons": [
+            "10"
+          ],
+          "g": "n",
+          "ex": "I bought a hat.",
+          "exru": "Я купил шляпу.",
+          "ex2": "The hat is too tight.",
+          "ex2ru": "Шляпа слишком тесная.",
+          "note": "Урок 10. Учебные примеры; произношение приблизительное.",
+          "collocations": [
+            [
+              "I bought a hat.",
+              "Я купил шляпу."
+            ],
+            [
+              "The hat is too tight.",
+              "Шляпа слишком тесная."
+            ]
+          ],
+          "s": "I bought a ___.",
+          "sru": "шляпа; головной убор",
+          "hard": true,
+          "examplesType": "usage",
+          "pronunciationType": "приблизительная русская запись",
+          "rep": 0
+        },
+        {
+          "en": "checkout",
+          "ru": "касса; оформление заказа",
+          "pr": "чЭк-аут",
+          "lessons": [
+            "10"
+          ],
+          "g": "n",
+          "ex": "The checkout is near the door.",
+          "exru": "Касса возле двери.",
+          "ex2": "Please go to the checkout.",
+          "ex2ru": "Пожалуйста, пройдите к кассе.",
+          "note": "Урок 10. Учебные примеры; произношение приблизительное.",
+          "collocations": [
+            [
+              "The checkout is near the door.",
+              "Касса возле двери."
+            ],
+            [
+              "Please go to the checkout.",
+              "Пожалуйста, пройдите к кассе."
+            ]
+          ],
+          "s": "The ___ is near the door.",
+          "sru": "касса; оформление заказа",
+          "hard": true,
+          "examplesType": "usage",
+          "pronunciationType": "приблизительная русская запись",
+          "rep": 0
+        },
+        {
+          "en": "compare offers",
+          "ru": "сравнивать предложения",
+          "pr": "кэмпЭа Офэз",
+          "lessons": [
+            "10"
+          ],
+          "g": "v",
+          "ex": "I compare offers before I buy.",
+          "exru": "Я сравниваю предложения перед покупкой.",
+          "ex2": "We compare offers every week.",
+          "ex2ru": "Мы сравниваем предложения каждую неделю.",
+          "note": "Урок 10. Учебные примеры; произношение приблизительное.",
+          "collocations": [
+            [
+              "I compare offers before I buy.",
+              "Я сравниваю предложения перед покупкой."
+            ],
+            [
+              "We compare offers every week.",
+              "Мы сравниваем предложения каждую неделю."
+            ]
+          ],
+          "s": "I ___ before I buy.",
+          "sru": "сравнивать предложения",
+          "hard": true,
+          "examplesType": "usage",
+          "pronunciationType": "приблизительная русская запись",
+          "rep": 0
+        },
+        {
+          "en": "sent",
+          "ru": "отправил; форма send",
+          "pr": "сэнт",
+          "lessons": [
+            "10"
+          ],
+          "g": "v",
+          "ex": "I sent the photo yesterday.",
+          "exru": "Я отправил фотографию вчера.",
+          "ex2": "She sent me a message.",
+          "ex2ru": "Она отправила мне сообщение.",
+          "note": "Урок 10. Учебные примеры; произношение приблизительное.",
+          "collocations": [
+            [
+              "I sent the photo yesterday.",
+              "Я отправил фотографию вчера."
+            ],
+            [
+              "She sent me a message.",
+              "Она отправила мне сообщение."
+            ]
+          ],
+          "s": "I ___ the photo yesterday.",
+          "sru": "отправил; форма send",
+          "hard": true,
+          "examplesType": "usage",
+          "pronunciationType": "приблизительная русская запись",
+          "rep": 0
+        },
+        {
+          "en": "made",
+          "ru": "сделал; форма make",
+          "pr": "мэйд",
+          "lessons": [
+            "10"
+          ],
+          "g": "v",
+          "ex": "She made a decision.",
+          "exru": "Она приняла решение.",
+          "ex2": "We made a list yesterday.",
+          "ex2ru": "Вчера мы составили список.",
+          "note": "Урок 10. Учебные примеры; произношение приблизительное.",
+          "collocations": [
+            [
+              "She made a decision.",
+              "Она приняла решение."
+            ],
+            [
+              "We made a list yesterday.",
+              "Вчера мы составили список."
+            ]
+          ],
+          "s": "She ___ a decision.",
+          "sru": "сделал; форма make",
+          "hard": true,
+          "examplesType": "usage",
+          "pronunciationType": "приблизительная русская запись",
+          "rep": 0
+        },
+        {
+          "en": "took",
+          "ru": "взял; форма take",
+          "pr": "тук",
+          "lessons": [
+            "10"
+          ],
+          "g": "v",
+          "ex": "I took two photos.",
+          "exru": "Я сделал две фотографии.",
+          "ex2": "He took the item back.",
+          "ex2ru": "Он вернул вещь обратно.",
+          "note": "Урок 10. Учебные примеры; произношение приблизительное.",
+          "collocations": [
+            [
+              "I took two photos.",
+              "Я сделал две фотографии."
+            ],
+            [
+              "He took the item back.",
+              "Он вернул вещь обратно."
+            ]
+          ],
+          "s": "I ___ two photos.",
+          "sru": "взял; форма take",
+          "hard": true,
+          "examplesType": "usage",
+          "pronunciationType": "приблизительная русская запись",
+          "rep": 0
+        },
+        {
+          "en": "ask for",
+          "ru": "просить о; запрашивать",
+          "pr": "ааск фо",
+          "lessons": [
+            "10"
+          ],
+          "g": "v",
+          "ex": "You can ask for a refund.",
+          "exru": "Вы можете попросить возврат.",
+          "ex2": "I always ask for help.",
+          "ex2ru": "Я всегда прошу помощи.",
+          "note": "Урок 10. Учебные примеры; произношение приблизительное.",
+          "collocations": [
+            [
+              "You can ask for a refund.",
+              "Вы можете попросить возврат."
+            ],
+            [
+              "I always ask for help.",
+              "Я всегда прошу помощи."
+            ]
+          ],
+          "s": "You can ___ a refund.",
+          "sru": "просить о; запрашивать",
+          "hard": true,
+          "examplesType": "usage",
+          "pronunciationType": "приблизительная русская запись",
+          "rep": 0
+        },
+        {
+          "en": "reject",
+          "ru": "отклонять",
+          "pr": "риджЭкт",
+          "lessons": [
+            "10"
+          ],
+          "g": "v",
+          "ex": "The shop may reject the request.",
+          "exru": "Магазин может отклонить запрос.",
+          "ex2": "They did not reject my application.",
+          "ex2ru": "Они не отклонили мою заявку.",
+          "note": "Урок 10. Учебные примеры; произношение приблизительное.",
+          "collocations": [
+            [
+              "The shop may reject the request.",
+              "Магазин может отклонить запрос."
+            ],
+            [
+              "They did not reject my application.",
+              "Они не отклонили мою заявку."
+            ]
+          ],
+          "s": "The shop may ___ the request.",
+          "sru": "отклонять",
+          "hard": true,
+          "examplesType": "usage",
+          "pronunciationType": "приблизительная русская запись",
+          "rep": 0
+        },
+        {
+          "en": "tight",
+          "ru": "тесный; плотно облегающий",
+          "pr": "тайт",
+          "lessons": [
+            "10"
+          ],
+          "g": "adj",
+          "ex": "These jeans are too tight.",
+          "exru": "Эти джинсы слишком тесные.",
+          "ex2": "The hat feels tight.",
+          "ex2ru": "Шляпа кажется тесной.",
+          "note": "Урок 10. Учебные примеры; произношение приблизительное.",
+          "collocations": [
+            [
+              "These jeans are too tight.",
+              "Эти джинсы слишком тесные."
+            ],
+            [
+              "The hat feels tight.",
+              "Шляпа кажется тесной."
+            ]
+          ],
+          "s": "These jeans are too ___.",
+          "sru": "тесный; плотно облегающий",
+          "hard": true,
+          "examplesType": "usage",
+          "pronunciationType": "приблизительная русская запись",
+          "rep": 0
+        },
+        {
+          "en": "a piece of",
+          "ru": "одна штука; часть",
+          "pr": "э пИс ов",
+          "lessons": [
+            "10"
+          ],
+          "g": "phrase",
+          "ex": "He gave me a piece of advice.",
+          "exru": "Он дал мне один совет.",
+          "ex2": "She bought a piece of jewellery.",
+          "ex2ru": "Она купила одно украшение.",
+          "note": "Урок 10. Учебные примеры; произношение приблизительное.",
+          "collocations": [
+            [
+              "He gave me a piece of advice.",
+              "Он дал мне один совет."
+            ],
+            [
+              "She bought a piece of jewellery.",
+              "Она купила одно украшение."
+            ]
+          ],
+          "s": "He gave me ___ advice.",
+          "sru": "одна штука; часть",
+          "hard": true,
+          "examplesType": "usage",
+          "pronunciationType": "приблизительная русская запись",
+          "rep": 0
+        },
+        {
+          "en": "by card",
+          "ru": "картой; способ оплаты",
+          "pr": "бай каад",
+          "lessons": [
+            "10"
+          ],
+          "g": "phrase",
+          "ex": "Can I pay by card?",
+          "exru": "Можно заплатить картой?",
+          "ex2": "She paid by card yesterday.",
+          "ex2ru": "Она заплатила картой вчера.",
+          "note": "Урок 10. Учебные примеры; произношение приблизительное.",
+          "collocations": [
+            [
+              "Can I pay by card?",
+              "Можно заплатить картой?"
+            ],
+            [
+              "She paid by card yesterday.",
+              "Она заплатила картой вчера."
+            ]
+          ],
+          "s": "Can I pay ___?",
+          "sru": "картой; способ оплаты",
+          "hard": true,
+          "examplesType": "usage",
+          "pronunciationType": "приблизительная русская запись",
+          "rep": 0
+        },
+        {
+          "en": "in cash",
+          "ru": "наличными",
+          "pr": "ин кэш",
+          "lessons": [
+            "10"
+          ],
+          "g": "phrase",
+          "ex": "I paid in cash.",
+          "exru": "Я заплатил наличными.",
+          "ex2": "Can we pay in cash?",
+          "ex2ru": "Можно нам заплатить наличными?",
+          "note": "Урок 10. Учебные примеры; произношение приблизительное.",
+          "collocations": [
+            [
+              "I paid in cash.",
+              "Я заплатил наличными."
+            ],
+            [
+              "Can we pay in cash?",
+              "Можно нам заплатить наличными?"
+            ]
+          ],
+          "s": "I paid ___.",
+          "sru": "наличными",
+          "hard": true,
+          "examplesType": "usage",
+          "pronunciationType": "приблизительная русская запись",
+          "rep": 0
+        },
+        {
+          "en": "which",
+          "ru": "который; какой о предмете",
+          "pr": "уич",
+          "lessons": [
+            "10"
+          ],
+          "g": "pron",
+          "ex": "The jacket which I liked was blue.",
+          "exru": "Куртка, которая мне понравилась, была синей.",
+          "ex2": "Which bag do you prefer?",
+          "ex2ru": "Какую сумку вы предпочитаете?",
+          "note": "Урок 10. Учебные примеры; произношение приблизительное.",
+          "collocations": [
+            [
+              "The jacket which I liked was blue.",
+              "Куртка, которая мне понравилась, была синей."
+            ],
+            [
+              "Which bag do you prefer?",
+              "Какую сумку вы предпочитаете?"
+            ]
+          ],
+          "s": "The jacket ___ I liked was blue.",
+          "sru": "который; какой о предмете",
+          "hard": true,
+          "examplesType": "usage",
+          "pronunciationType": "приблизительная русская запись",
+          "rep": 0
+        },
+        {
+          "en": "who",
+          "ru": "кто; который о человеке",
+          "pr": "ху",
+          "lessons": [
+            "10"
+          ],
+          "g": "pron",
+          "ex": "The assistant who helped me was polite.",
+          "exru": "Продавец, который помог мне, был вежлив.",
+          "ex2": "Who sent this photo?",
+          "ex2ru": "Кто отправил эту фотографию?",
+          "note": "Урок 10. Учебные примеры; произношение приблизительное.",
+          "collocations": [
+            [
+              "The assistant who helped me was polite.",
+              "Продавец, который помог мне, был вежлив."
+            ],
+            [
+              "Who sent this photo?",
+              "Кто отправил эту фотографию?"
+            ]
+          ],
+          "s": "The assistant ___ helped me was polite.",
+          "sru": "кто; который о человеке",
+          "hard": true,
+          "examplesType": "usage",
+          "pronunciationType": "приблизительная русская запись",
+          "rep": 0
+        },
+        {
+          "en": "that",
+          "ru": "тот; который",
+          "pr": "зэт",
+          "lessons": [
+            "10"
+          ],
+          "g": "pron",
+          "ex": "The item that I bought was damaged.",
+          "exru": "Вещь, которую я купил, была повреждена.",
+          "ex2": "That jacket is mine.",
+          "ex2ru": "Та куртка моя.",
+          "note": "Урок 10. Учебные примеры; произношение приблизительное.",
+          "collocations": [
+            [
+              "The item that I bought was damaged.",
+              "Вещь, которую я купил, была повреждена."
+            ],
+            [
+              "That jacket is mine.",
+              "Та куртка моя."
+            ]
+          ],
+          "s": "The item ___ I bought was damaged.",
+          "sru": "тот; который",
+          "hard": true,
+          "examplesType": "usage",
+          "pronunciationType": "приблизительная русская запись",
+          "rep": 0
+        }
+      ]
     }
   ],
   "entries": [
