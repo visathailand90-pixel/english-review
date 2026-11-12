@@ -37,5 +37,8 @@ The owner confirmed bonus credits, no purchased balance/card/auto-recharge, and 
 Lesson 10 source was not found in inbox or the upgrade package. Do not invent or publish it without supplied materials.
 
 ## Continuation 2026-11-12
-Lesson10 materials are now present in the private lesson10-20261112 package. Public lesson 10 is an append-only Shops grammar/error review; the prior missing-source note is historical. Its 18 new vocabulary entries use stable pack ID lesson10-shops; existing vocabulary only gains lesson10 references. New lesson IDs must also be added to backend/contracts.mjs validation.
+Lesson10 materials are now present in the private lesson10-20261112 package. Public lesson 10 is an append-only Shops grammar/error review; the prior missing-source note is historical. Its 17 new vocabulary entries use stable pack ID lesson10-shops; existing vocabulary only gains lesson10 references. New lesson IDs must also be added to backend/contracts.mjs validation.
 The bonus cutoff 2026-11-11T17:45:26Z has expired. Do not extend it without current verified bonus expiry/balance. Payment/card/auto-recharge confirmation from the owner persists; do not repeat those questions. Owner session API reports the expired window accurately. Validate fresh generation only after the bonus validity is established; no hidden reset of quotas or paid fallback.
+
+## Bonus confirmation, 2026-11-12 (supersedes expired-window hold)
+Owner confirmed an active promotional grant expiring December 1, 2026, no card/purchased balance/auto-recharge. Authorized one bounded real generation test and enabling the existing Worker. Automatic cutoff: 2026-11-29T21:00:00Z (November 30 00:00 Moscow), with a full calendar-day margin. Preserve 3/hour and 8/day, existing authentication and permanent shutdown after provider 429; no automatic paid fallback or automatic credit replenishment. Do not disclose the key or repeat infrastructure setup.
