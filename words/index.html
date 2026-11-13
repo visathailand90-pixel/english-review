@@ -355,6 +355,7 @@ function verbNorm(x){return String(x).toLowerCase().replace(/\bpracticed\b/g,'pr
 function verbQuestions(kind,stage){const all=kind==='irregular'?window.ENGLISH_WORD_BANK.irregularVerbs:window.ENGLISH_WORD_BANK.pastVerbs;return all.slice(stage*10,stage*10+10).flatMap(v=>kind==='irregular'?[{key:v.v1+':v2',prompt:'V2 для '+v.v1+' — '+v.ru,answers:[v.v2,...v.v2.split('/')],example:v.example,ru:v.exampleRu,rule:'Past Simple: '+v.v1+' → '+v.v2},{key:v.v1+':v3',prompt:'V3 для '+v.v1+' — '+v.ru,answers:[v.v3,...v.v3.split('/')],example:v.example,ru:v.exampleRu,rule:'V1 / V2 / V3: '+v.v1+' / '+v.v2+' / '+v.v3}]:v.practice.map((r,i)=>{const frame=v.v1==='be'?['I ___ at home yesterday.','I ___ not at home yesterday.','___ you at home yesterday?','They ___ at home yesterday.'][i]:i===0?'I ___ '+v.tail+' yesterday.':i===1?"I didn't ___ "+v.tail+' yesterday.':'Did you ___ '+v.tail+' yesterday?';return {key:v.v1+':'+i,prompt:'Вставь форму ('+v.v1+' — '+v.ru+'): '+frame,answers:v.v1==='be'?[i<2?'was':'were']:i===0?v.v2.split('/'):[v.v1],example:v.example,ru:v.exampleRu,rule:r.rule};}));}
 function renderVerbs(){
  const kind=mode,all=kind==='irregular'?window.ENGLISH_WORD_BANK.irregularVerbs:window.ENGLISH_WORD_BANK.pastVerbs;
+ document.getElementById('ttl').textContent=kind==='irregular'?'Неправильные глаголы':'Past Simple';document.getElementById('pk').textContent=all.length+' глаголов · по 10 на этапе';
  verbStage=store.get('verbs:'+kind+':stage',0);const key='verbs:'+kind+':'+verbStage;let st=store.get(key,{i:0,typed:'',checked:false,answers:[],history:[],mistakes:{},streak:0});const qs=verbQuestions(kind,verbStage);if(kind==='past')qs.push({key:'sequence',prompt:'Вставь форму send: I took photos and ___ them.',answers:['sent'],example:'I bought a coat and paid by card.',ru:'Я купил пальто и заплатил картой.',rule:'Два завершённых действия: took и sent, оба в V2.'});const q=qs[st.i];
  const rows=all.slice(verbStage*10,verbStage*10+10).map(v=>'<p><b>'+html(v.v1)+' → '+html(v.v2)+' → '+html(v.v3)+'</b><br>'+html(v.ru)+' · ['+html(v.pron)+']<br>'+html(v.example)+'<br>'+html(v.exampleRu)+'</p>').join('');
  const done=st.i>=qs.length;const correct=st.answers.filter(Boolean).length;
@@ -367,7 +368,7 @@ function renderVerbs(){
 }
 
 function render(){
-  renderPacks();
+  renderPacks();document.getElementById("packs").hidden=["irregular","past"].includes(mode);
   renderChips();
   if(["irregular","past"].includes(mode))renderVerbs(); else if(mode==="phr")renderPhr();
   else if(mode==="cards")renderCards(); else if(Q && Q.done)renderResult(); else renderQ();

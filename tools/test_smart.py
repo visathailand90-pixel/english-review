@@ -49,7 +49,7 @@ try:
    assert 'Пропущено' in page.evaluate("spellingDiff('decision','decison')")
    assert 'Лишняя' in page.evaluate("spellingDiff('decision','decisiion')")
    assert page.evaluate("norm('jewellery')===norm('jewelry')")
-   last=page.evaluate('__wordsDebug.packs.length-1');page.locator('[data-pack="'+str(last)+'"]').click();assert page.evaluate('W.length')==15
+   page.locator('[data-mode="cards"]').click();last=page.evaluate('__wordsDebug.packs.length-1');page.locator('[data-pack="'+str(last)+'"]').click();assert page.evaluate('W.length')==15
    assert page.evaluate('W.filter(w=>w.rep).length')==3
    page.locator('[data-mode="r5"]').click();assert not re.search('[a-z]',page.locator('.qprompt').inner_text(),re.I)
    page.locator('#win').fill('fit');page.reload();assert page.locator('#win').input_value()=='fit'

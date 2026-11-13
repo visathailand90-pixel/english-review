@@ -65,7 +65,7 @@ assert.deepEqual(absentPhrase.phrases.map(p=>p.p),["buy apples"]);
 sql.prepare("DELETE FROM quota").run();sql.prepare("DELETE FROM flags").run();
 r=await handle(request("/api/login",{password:"test-owner-passphrase"}),env,mock);cookie=r.headers.get("set-cookie").split(";")[0];csrf=(await r.json()).csrf;
 const assessment={requestId:"batch1",items:[{id:"q1",question:"She is a smart girl.",reference:"She is a smart girl.",answer:"She is smart girl."}]};
-const evaluation={results:[{id:"q1",verdict:"incorrect",correction:"She is a smart girl.",errorPart:"a",explanation:"Missing article",rule:"a + adjective + noun",category:"articles",example:"He is a good teacher.",exampleRu:"Example translation"}]};let assessments=0;
+const evaluation={results:[{id:"q1",verdict:"incorrect",correction:"She is a smart girl.",errorPart:"a",explanation:"Пропущен артикль",rule:"Схема: a + adjective + noun",category:"articles",example:"He is a good teacher.",exampleRu:"Он хороший учитель."}]};let assessments=0;
 const assessMock=async()=>{assessments++;return Response.json({status:"completed",output:[{content:[{type:"output_text",text:JSON.stringify(evaluation)}]}]});};
 assert.equal((await handle(request("/api/check",assessment,{"X-CSRF":"bad"}),env,assessMock)).status,403);
 r=await handle(request("/api/check",assessment),env,assessMock);assert.equal(r.status,200);assert.equal((await r.json()).results[0].category,"articles");
@@ -77,3 +77,7 @@ assert.equal((await handle(request("/api/check",{...assessment,requestId:"stoppe
 console.log("PASS assessment auth, CSRF, cache no extra call, bonus expiry, malformed response and credit stop");
 
 const {portal:portalHtml}=await import("../backend/portal.mjs");const {Script}=await import("node:vm");new Script(portalHtml("https://owner.example").match(/<script>([\s\S]*?)<\/script>/)[1]);console.log("PASS portal embedded script syntax");
+
+const {validateAssessment}=await import("../backend/contracts.mjs");assert.throws(()=>validateAssessment({results:[{...evaluation.results[0],explanation:"An English explanation only"}]},assessment),/invalid_response/);console.log("PASS Russian explanation required");
+
+assert.throws(()=>validateAssessment({results:[{...evaluation.results[0],errorPart:""}]},assessment),/invalid_response/);
