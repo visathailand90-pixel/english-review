@@ -75,3 +75,5 @@ await assert.rejects(()=>handle(request("/api/check",{...assessment,requestId:"b
 const exhausted=await handle(request("/api/check",{...assessment,requestId:"exhausted"}),env,async()=>Response.json({error:{code:"credit_balance_exhausted"}},{status:402}));assert.equal(exhausted.status,429);
 assert.equal((await handle(request("/api/check",{...assessment,requestId:"stopped"}),env,assessMock)).status,503);
 console.log("PASS assessment auth, CSRF, cache no extra call, bonus expiry, malformed response and credit stop");
+
+const {portal:portalHtml}=await import("../backend/portal.mjs");const {Script}=await import("node:vm");new Script(portalHtml("https://owner.example").match(/<script>([\s\S]*?)<\/script>/)[1]);console.log("PASS portal embedded script syntax");

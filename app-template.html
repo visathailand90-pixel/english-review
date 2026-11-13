@@ -229,14 +229,14 @@ let reviewPopup=null,reviewRequest=null;
 function requestSmartCheck(B){
  const items=B.items.filter(q=>grade(q,B)===null).map(q=>({id:q.key,question:q.prompt+(q.sub?' · '+q.sub:''),reference:q.correct,answer:snapshotAnswer(q,B)}));
  if(!items.length){finish(B);persist();render();return;}
- reviewRequest={requestId:B.id,items};B.aiStatus='Ответы сохранены. В защищённом окне войдите и нажмите «Проверить блок ответов». Лимит API общий с читалкой: 3/час, 8/сутки.';
+ reviewRequest={requestId:B.id,items};B.aiStatus='Ответы сохранены. В защищённом окне войдите как владелец. Блок проверится автоматически. Лимит API общий с читалкой: 3/час, 8/сутки.';
  persist();reviewPopup=window.open(REVIEW_SERVICE+'/portal','english-review-owner');if(!reviewPopup){B.aiStatus='Ответы сохранены. Разрешите открытие защищённого окна и повторите проверку.';persist();}render();
 }
 window.addEventListener('message',e=>{
  if(e.origin!==REVIEW_SERVICE||e.source!==reviewPopup)return;
  if(e.data?.type==='english-reader-ready'&&reviewRequest){reviewPopup.postMessage({type:'english-review-request',request:reviewRequest},REVIEW_SERVICE);return;}
  const B=Object.values(state.drafts).find(b=>b.id===e.data?.requestId);if(!B||B.completed)return;
- if(e.data.type==='english-review-error'){B.aiStatus='Проверка не завершена ('+String(e.data.error||'service_unavailable').slice(0,80)+'). Ответы сохранены; неподтверждённые ошибки не записаны. Повторите позже.';persist();render();return;}
+ if(e.data.type==='english-review-error'){const messages={rate_limited:'Достигнут общий лимит AI. Повторите позже.',generation_disabled:'AI-проверка сейчас отключена.',credits_or_limit_exhausted:'Бонусные кредиты или лимит исчерпаны; AI остановлен.',unauthorized:'Войдите как владелец в защищённом окне.',check_in_progress:'Этот блок уже проверяется. Дождитесь результата.'};B.aiStatus=(messages[e.data.error]||'Сервис проверки временно недоступен.')+' Ответы сохранены; неподтверждённые ошибки не записаны.';persist();render();return;}
  if(e.data.type!=='english-review-results'||!Array.isArray(e.data.results)||!reviewRequest)return;
  const expected=new Map(reviewRequest.items.map(q=>[q.id,q]));if(e.data.results.length!==expected.size||new Set(e.data.results.map(r=>r.id)).size!==expected.size)return;
  for(const r of e.data.results){const q=B.items.find(q=>q.key===r.id);if(!q||!expected.has(r.id)||snapshotAnswer(q,B)!==expected.get(r.id).answer||!['correct','incorrect','uncertain'].includes(r.verdict)||['correction','errorPart','explanation','rule','example','exampleRu'].some(k=>typeof r[k]!=='string'||r[k].length>1600)||!(r.category in categoryNames))return;}
