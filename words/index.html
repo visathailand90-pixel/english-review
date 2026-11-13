@@ -339,7 +339,7 @@ document.getElementById("chips").addEventListener("click",e=>{
 });
 
 function renderPhr(){
-  const ex=P.expr||{};
+  const ex=P.expr||Object.fromEntries(W.map(w=>[w.en,w.collocations?.length?w.collocations:[[w.ex,w.exru],[w.ex2,w.ex2ru]].filter(p=>p[0]&&p[1])]));
   const items=W.filter(w=>ex[w.en]);
   document.getElementById("app").innerHTML=`
   <div class="phl">
