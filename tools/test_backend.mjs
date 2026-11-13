@@ -60,3 +60,18 @@ console.log("PASS owner authentication, CSRF/origin, bonus guard, schema validat
 
 const absentPhrase=validateStory({...story,phrases:[{p:"not in the story",ru:"unused"},{p:"buy apples",ru:"valid"}]});
 assert.deepEqual(absentPhrase.phrases.map(p=>p.p),["buy apples"]);
+
+// Assessment uses the SAME owner session, expiry and quota, with cached delivery.
+sql.prepare("DELETE FROM quota").run();sql.prepare("DELETE FROM flags").run();
+r=await handle(request("/api/login",{password:"test-owner-passphrase"}),env,mock);cookie=r.headers.get("set-cookie").split(";")[0];csrf=(await r.json()).csrf;
+const assessment={requestId:"batch1",items:[{id:"q1",question:"She is a smart girl.",reference:"She is a smart girl.",answer:"She is smart girl."}]};
+const evaluation={results:[{id:"q1",verdict:"incorrect",correction:"She is a smart girl.",errorPart:"a",explanation:"Missing article",rule:"a + adjective + noun",category:"articles",example:"He is a good teacher.",exampleRu:"Example translation"}]};let assessments=0;
+const assessMock=async()=>{assessments++;return Response.json({status:"completed",output:[{content:[{type:"output_text",text:JSON.stringify(evaluation)}]}]});};
+assert.equal((await handle(request("/api/check",assessment,{"X-CSRF":"bad"}),env,assessMock)).status,403);
+r=await handle(request("/api/check",assessment),env,assessMock);assert.equal(r.status,200);assert.equal((await r.json()).results[0].category,"articles");
+assert.equal((await handle(request("/api/check",assessment),env,assessMock)).status,200);assert.equal(assessments,1);
+assert.equal((await handle(request("/api/check",{...assessment,requestId:"expired"}),{...env,BONUS_EXPIRES_AT:"2000-01-01"},assessMock)).status,503);
+await assert.rejects(()=>handle(request("/api/check",{...assessment,requestId:"bad-result"}),env,async()=>Response.json({output:[{content:[{type:"output_text",text:'{"results":[]}'}]}]})),/invalid_response/);
+const exhausted=await handle(request("/api/check",{...assessment,requestId:"exhausted"}),env,async()=>Response.json({error:{code:"credit_balance_exhausted"}},{status:402}));assert.equal(exhausted.status,429);
+assert.equal((await handle(request("/api/check",{...assessment,requestId:"stopped"}),env,assessMock)).status,503);
+console.log("PASS assessment auth, CSRF, cache no extra call, bonus expiry, malformed response and credit stop");

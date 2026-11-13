@@ -369,6 +369,34 @@
         "q": "Выбери: The shop is (convenient / conveniently). I cannot (afford / affordable) it.",
         "a": "convenient; afford."
       }
+    },
+    {
+      "h": "At / in / on / from: место и источник",
+      "text": [
+        "**at** — точка/мероприятие: at a market; **in** — внутри/страна/город: in a shop, in London; **on** — поверхность/сайт: on the table, on the website.",
+        "**from** — источник: from a shop. Способы оплаты учим отдельно: by card / in cash."
+      ],
+      "ex": [
+        [
+          "I bought it at a street market.",
+          "Я купил это на уличном рынке."
+        ],
+        [
+          "I found it on the website.",
+          "Я нашёл это на сайте."
+        ],
+        [
+          "It came from a second-hand shop.",
+          "Это из магазина подержанных вещей."
+        ]
+      ],
+      "warn": [
+        "in the website → on the website."
+      ],
+      "practice": {
+        "q": "I paid ___ cash and found the offer ___ the website.",
+        "a": "in; on."
+      }
     }
   ],
   "vocab": [

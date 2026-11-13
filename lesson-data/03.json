@@ -261,6 +261,64 @@
         "q": "Переведи: Вчера ему пришлось работать допоздна.",
         "a": "He had to work late yesterday."
       }
+    },
+    {
+      "h": "Simple или Continuous: выбираем смысл",
+      "text": [
+        "Обычно/регулярно: **I work; she works; do/does + V1**. Сейчас/временно: **am/is/are + V-ing**.",
+        "Не добавляй be к обычному глаголу в Simple. Для местонахождения, наоборот, be нужен: I am at home."
+      ],
+      "ex": [
+        [
+          "I compare prices every week.",
+          "Я сравниваю цены каждую неделю."
+        ],
+        [
+          "I’m comparing prices now.",
+          "Я сейчас сравниваю цены."
+        ],
+        [
+          "She works at home.",
+          "Она работает дома."
+        ]
+      ],
+      "warn": [
+        "She working → She is working (сейчас) / She works (обычно)."
+      ],
+      "practice": {
+        "q": "She ___ (work) every day, but now she ___ (rest).",
+        "a": "works; is resting."
+      }
+    },
+    {
+      "h": "Have to / has to / had to: обязанность без двойного времени",
+      "text": [
+        "Настоящее: **I/you/we/they have to + V1; he/she/it has to + V1**.",
+        "Вопрос/отрицание: **Does she have to? She does not have to**. Does уже показывает третье лицо.",
+        "Прошедшее: **had to + V1**. Отрицание: **did not have to + V1** — не было необходимости; это не запрет."
+      ],
+      "ex": [
+        [
+          "She has to check the order.",
+          "Ей нужно проверить заказ."
+        ],
+        [
+          "Does she have to work today?",
+          "Ей нужно работать сегодня?"
+        ],
+        [
+          "I had to take a taxi.",
+          "Мне пришлось взять такси."
+        ]
+      ],
+      "warn": [
+        "had to took → had to take.",
+        "does she has to → does she have to."
+      ],
+      "practice": {
+        "q": "Yesterday she had to ___ (send) the photo.",
+        "a": "send: после to начальная форма, had уже задаёт прошедшее."
+      }
     }
   ],
   "vocab": [

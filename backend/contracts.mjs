@@ -37,3 +37,16 @@ export function validateRequest(b){
 export function ready(env){
  return env.GENERATION_ENABLED==="true"&&env.BONUS_ONLY_CONFIRMED==="true"&&Date.parse(env.BONUS_EXPIRES_AT)>Date.now()&&!!env.OPENAI_MODEL&&!!env.OPENAI_API_KEY;
 }
+
+export const assessmentSchema={type:"object",additionalProperties:false,properties:{results:{type:"array",minItems:1,maxItems:10,items:{type:"object",additionalProperties:false,properties:{id:{type:"string"},verdict:{type:"string",enum:["correct","incorrect","uncertain"]},correction:{type:"string"},errorPart:{type:"string"},explanation:{type:"string"},rule:{type:"string"},category:{type:"string",enum:["articles","tenses","prepositions","endings","word_order","collocations","meaning","other"]},example:{type:"string"},exampleRu:{type:"string"}},required:["id","verdict","correction","errorPart","explanation","rule","category","example","exampleRu"]}}},required:["results"]};
+export function validateAssessmentRequest(b){
+ if(!b||typeof b.requestId!=="string"||b.requestId.length>100||!Array.isArray(b.items)||!b.items.length||b.items.length>10)throw Error("invalid_request");
+ const ids=new Set();const items=b.items.map(q=>{if(!q||["id","question","reference","answer"].some(k=>typeof q[k]!=="string"||!q[k].trim()||q[k].length>1000)||ids.has(q.id)||q.id.length>80)throw Error("invalid_request");ids.add(q.id);return {id:q.id,question:q.question,reference:q.reference,answer:q.answer};});
+ return {requestId:b.requestId,items};
+}
+export function validateAssessment(r,b){
+ if(!r||!Array.isArray(r.results)||r.results.length!==b.items.length)throw Error("invalid_response");
+ const ids=new Set(b.items.map(q=>q.id)),seen=new Set();
+ for(const q of r.results){if(!q||!ids.has(q.id)||seen.has(q.id)||!["correct","incorrect","uncertain"].includes(q.verdict)||!["articles","tenses","prepositions","endings","word_order","collocations","meaning","other"].includes(q.category))throw Error("invalid_response");seen.add(q.id);for(const k of ["correction","errorPart","explanation","rule","example","exampleRu"])if(typeof q[k]!=="string"||q[k].length>1600)throw Error("invalid_response");if(q.verdict!=="uncertain"&&["correction","explanation","rule","example","exampleRu"].some(k=>!q[k].trim()))throw Error("invalid_response");}
+ return {requestId:b.requestId,results:r.results};
+}

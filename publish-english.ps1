@@ -12,6 +12,7 @@ Invoke-Checked python @('tools/build.py')
 Invoke-Checked python @('tools/test_apps.py')
 Invoke-Checked python @('tools/validate.py')
 Invoke-Checked python @('tools/test_upgrade.py')
+Invoke-Checked python @('tools/test_smart.py')
 Invoke-Checked node @('tools/test_backend.mjs')
 Invoke-Checked git @('diff','--check')
 git status --short
@@ -20,7 +21,7 @@ if(-not $Publish){Write-Host 'Checks passed; no commit or push performed.'; retu
 if($Files.Count -eq 0){throw 'Supply explicit reviewed -Files; blanket staging is forbidden'}
 foreach($f in $Files){
  if($f -match '(^|/|\\)(inbox|private|archive|reports|tasks|staging|\.git)(/|\\|$)' -or $f -match '(\.env|\.(zip|mp3|mp4|wav|m4a|txt|docx|pdf)$)' -or $f -match '(^[/\\]|\.\.)'){throw "Forbidden path: $f"}
- if($f -notmatch '^(index\.html|app-template\.html|sw\.js|README\.md|AGENTS\.md|\.gitignore|publish-english\.ps1|icon(-192)?\.png|manifest\.webmanifest|lesson-data/[a-zA-Z0-9]+\.json|(reader|words)/(index\.html|manifest\.webmanifest|bank\.json|bank\.js|context\.js)|tools/(build|test_apps|test_upgrade|validate)\.py|tools/test_backend\.mjs|backend/(worker\.mjs|portal\.mjs|contracts\.mjs|glossary\.mjs|schema\.sql|wrangler\.example\.toml|README\.md))$'){throw "Path outside public allowlist: $f"}
+ if($f -notmatch '^(index\.html|app-template\.html|sw\.js|README\.md|AGENTS\.md|\.gitignore|publish-english\.ps1|icon(-192)?\.png|manifest\.webmanifest|lesson-data/[a-zA-Z0-9]+\.json|(reader|words)/(index\.html|manifest\.webmanifest|bank\.json|bank\.js|context\.js)|tools/(build|test_apps|test_upgrade|test_smart|validate)\.py|tools/test_backend\.mjs|backend/(worker\.mjs|portal\.mjs|contracts\.mjs|glossary\.mjs|schema\.sql|wrangler\.example\.toml|README\.md))$'){throw "Path outside public allowlist: $f"}
  if(-not (Test-Path -LiteralPath $f -PathType Leaf)){throw "Missing file: $f"}
 }
 $Files | ForEach-Object {Write-Host "Publish: $_"}

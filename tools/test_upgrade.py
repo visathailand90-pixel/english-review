@@ -38,8 +38,8 @@ try:
    page.reload();assert page.evaluate("JSON.parse(localStorage.getItem('work2:best')).r1")==23
    for path in ['/','/words/','/reader/']:
     page.goto(url+path);assert page.evaluate('document.documentElement.scrollWidth<=innerWidth'),(engine.name,path)
-   page.goto(url+'/words/');assert page.evaluate('__wordsDebug.packs.at(-1).id')=='lesson10-shops'
-   n=page.evaluate('__wordsDebug.packs.length-1');page.locator('[data-pack="'+str(n)+'"]').click();page.locator('[data-mode="copy"]').click()
+   page.goto(url+'/words/');assert page.evaluate('__wordsDebug.packs.some(p=>p.id==="lesson10-shops")')
+   n=page.evaluate('__wordsDebug.packs.findIndex(p=>p.id==="lesson10-shops")');page.locator('[data-pack="'+str(n)+'"]').click();page.locator('[data-mode="copy"]').click()
    page.evaluate('Q.order=[0];Q.i=0;renderQ()');assert page.evaluate('W[0].en')=='honest'
    page.locator('#win').fill('honest');page.locator('#check').click();page.reload();assert page.evaluate('__wordsDebug.getRound().answered')
    page.goto(url+'/');page.locator('#lesson-select').select_option('03');page.locator('#view-nav [data-tab="l3"]').click()
@@ -112,7 +112,7 @@ current=json.loads((R/'words/bank.json').read_text(encoding='utf-8'))
 for old,now in zip(prior['packs'],current['packs']):
  assert old['id']==now['id']
  assert [w['en'] for w in old['words']]==[w['en'] for w in now['words']]
-assert len(current['packs'][-1]['words'])==17
+assert len(next(p for p in current['packs'] if p['id']=='lesson10-shops')['words'])==17
 print('PASS lesson10 counts, alternative answers, old vocabulary IDs/order')
 
 legacySource=(R/'words/index.html').read_text(encoding='utf-8')

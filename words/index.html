@@ -1,5 +1,7 @@
 <!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}@media(max-width:560px){body{font-size:16px}.rule{font-size:14px}.chip{font-size:14px}.opt{font-size:16px}input[type=text]{font-size:16px}}
-#win{box-sizing:border-box;max-width:100%}.face.back{overflow-y:auto;overflow-wrap:anywhere}.card .exru{overflow-wrap:anywhere}</style><title>Тренажёр английских слов</title><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-title" content="English Words"><meta name="theme-color" content="#f4f6fa"><link rel="manifest" href="./manifest.webmanifest"><link rel="apple-touch-icon" href="../icon-192.png"></head><body>
+#win{box-sizing:border-box;max-width:100%}.face.back{overflow-y:auto;overflow-wrap:anywhere}.card .exru{overflow-wrap:anywhere}
+#win{font-size:20px;min-height:52px}
+</style><title>Тренажёр английских слов</title><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-title" content="English Words"><meta name="theme-color" content="#f4f6fa"><link rel="manifest" href="./manifest.webmanifest"><link rel="apple-touch-icon" href="../icon-192.png"></head><body>
 <title>Тренажёр слов</title>
 <meta name="claude:viewport-fit-sides" content="cover">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -236,16 +238,19 @@ const PACKS = [
  {id:"work2",n:2,title:"Работа и время",words:PACK2,expr:EXPR2}
 ];
 PACKS.push(...window.ENGLISH_WORD_BANK.packs);
+const canonicalWords=new Map(PACKS.flatMap(p=>p.words).map(w=>[w.en.toLowerCase(),w]));
+for(const pack of PACKS){for(const en of pack.wordRefs||[]){const w=canonicalWords.get(en);if(w)pack.words.push({...w,rep:1,canonicalRef:en});}for(const w of pack.words){if((window.ENGLISH_WORD_BANK.reinforce||[]).includes(w.en.toLowerCase())){w.hard=true;w.reinforce=true;}}}
+
 let P = PACKS[1], W = P.words;
 const MODES = [
  {id:"cards",label:"Карточки"},
  {id:"r1",label:"1 · EN → RU",title:"Круг 1 · английский → русский"},
  {id:"r2",label:"2 · RU → EN",title:"Круг 2 · русский → английский"},
- {id:"copy",label:"Копирую",title:"Перепиши слово вручную"},
+ {id:"copy",label:"Переписываю",title:"Перепиши слово вручную"},
  {id:"r3",label:"3 · Предложения",title:"Круг 3 · вставь слово"},
  {id:"r4",label:"4 · По букве",title:"Круг 4 · напиши по первой букве"},
- {id:"r5",label:"Вспоминаю написание",title:"Круг 5 · напиши без подсказки"},
- {id:"phr",label:"Выражения"}
+ {id:"r5",label:"Пишу по памяти",title:"Круг 5 · напиши без подсказки"},
+ {id:"phr",label:"Выражения"}, {id:"irregular",label:"50 неправильных глаголов"}, {id:"past",label:"Past Simple · 100 глаголов"}
 ];
 const passMark = n => Math.ceil(n * .8);
 const SPK = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M11 5 6 9H3v6h3l5 4z"/><path d="M15.5 8.5a5 5 0 0 1 0 7"/><path d="M18.5 5.5a9 9 0 0 1 0 13"/></svg>';
@@ -259,7 +264,7 @@ let autoSay = store.get("clothes1:autosay",true);
 function setPack(i){
   saveRound(); P=PACKS[i]; W=P.words; best=store.get(P.id+":best",{});
   mode="cards"; cardOrder=W.map((x,k)=>k); cardI=0; flipped=false; cardShuffled=false; Q=store.get(P.id+":draft",null); if(Q)mode=Q.mode;
-  store.set("pack",i); render();
+  store.set('words:activeMode',mode);store.set("pack",i); render();
 }
 function renderPacks(){
   document.getElementById("packs").innerHTML = PACKS.map((p,i)=>
@@ -309,9 +314,10 @@ function distractors(idx,n=3){
   if(pool.length<n)pool=pool.concat(shuffle(W.map((x,i)=>i).filter(i=>i!==idx&&!pool.includes(i))));
   return pool.slice(0,n);
 }
-const norm=s=>String(s).toLowerCase().normalize('NFKC').replace(/[’‘]/g,"'").replace(/[‐‑–—-]/g," ").replace(/\s+/g," ").trim();
+const norm=s=>String(s).toLowerCase().replace(/\bjewellery\b/g,'jewelry').replace(/\bcolour\b/g,'color').replace(/\bcentre\b/g,'center').normalize('NFKC').replace(/[’‘]/g,"'").replace(/[‐‑–—-]/g," ").replace(/[.,!?]/g,"").replace(/\s+/g," ").trim();
 const html=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-function spellingDiff(w,typed){const a=String(typed),b=w;let i=0;while(i<Math.min(a.length,b.length)&&a[i].toLowerCase()===b[i].toLowerCase())i++;return 'С позиции '+(i+1)+': введено «'+(a.slice(i)||'∅')+'», нужно «'+(b.slice(i)||'∅')+'». Полностью: '+b;}
+function spellingDiff(w,typed){const a=String(typed).slice(0,200),b=String(w);let first=0;while(first<Math.min(a.length,b.length)&&a[first].toLowerCase()===b[first].toLowerCase())first++;const d=Array.from({length:a.length+1},()=>Array(b.length+1).fill(0));for(let i=0;i<=a.length;i++)d[i][0]=i;for(let j=0;j<=b.length;j++)d[0][j]=j;for(let i=1;i<=a.length;i++)for(let j=1;j<=b.length;j++)d[i][j]=Math.min(d[i-1][j]+1,d[i][j-1]+1,d[i-1][j-1]+(a[i-1].toLowerCase()===b[j-1].toLowerCase()?0:1));let i=a.length,j=b.length,edits=[];while(i||j){if(i&&j&&a[i-1].toLowerCase()===b[j-1].toLowerCase()){i--;j--;}else if(i&&j&&d[i][j]===d[i-1][j-1]+1){edits.push('Неверно «'+a[i-1]+'», нужно «'+b[j-1]+'» (позиция '+j+')');i--;j--;}else if(j&&d[i][j]===d[i][j-1]+1){edits.push('Пропущено «'+b[j-1]+'» (позиция '+j+')');j--;}else{edits.push('Лишняя «'+a[i-1]+'» (позиция '+i+')');i--;}}return 'С позиции '+(first+1)+': '+edits.reverse().join('; ')+'. Полностью: '+b;}
+
 function saveRound(){store.set(P.id+':draft',Q);}
 function wordState(){return store.get(P.id+':learning',{mistakes:{},history:[],streaks:{}});}
 
@@ -329,7 +335,7 @@ function renderChips(){
 }
 document.getElementById("chips").addEventListener("click",e=>{
   const c=e.target.closest("[data-mode]"); if(!c)return;
-  mode=c.dataset.mode; if(mode!=="cards"&&mode!=="phr")startRound(mode); render();
+  mode=c.dataset.mode;store.set('words:activeMode',mode); if(!["cards","phr","irregular","past"].includes(mode))startRound(mode); render();
 });
 
 function renderPhr(){
@@ -344,10 +350,26 @@ function renderPhr(){
   </div>`;
 }
 
+let verbStage=0;
+function verbNorm(x){return String(x).toLowerCase().replace(/\bpracticed\b/g,'practised').replace(/\bpractice\b/g,'practise').replace(/\btraveled\b/g,'travelled').replace(/[’]/g,"'").replace(/didn't/g,'did not').replace(/wasn't/g,'was not').replace(/weren't/g,'were not').replace(/[.,!?]/g,'').replace(/\s+/g,' ').trim();}
+function verbQuestions(kind,stage){const all=kind==='irregular'?window.ENGLISH_WORD_BANK.irregularVerbs:window.ENGLISH_WORD_BANK.pastVerbs;return all.slice(stage*10,stage*10+10).flatMap(v=>kind==='irregular'?[{key:v.v1+':v2',prompt:'V2 для '+v.v1+' — '+v.ru,answers:[v.v2,...v.v2.split('/')],example:v.example,ru:v.exampleRu,rule:'Past Simple: '+v.v1+' → '+v.v2},{key:v.v1+':v3',prompt:'V3 для '+v.v1+' — '+v.ru,answers:[v.v3,...v.v3.split('/')],example:v.example,ru:v.exampleRu,rule:'V1 / V2 / V3: '+v.v1+' / '+v.v2+' / '+v.v3}]:v.practice.map((r,i)=>{const frame=v.v1==='be'?['I ___ at home yesterday.','I ___ not at home yesterday.','___ you at home yesterday?','They ___ at home yesterday.'][i]:i===0?'I ___ '+v.tail+' yesterday.':i===1?"I didn't ___ "+v.tail+' yesterday.':'Did you ___ '+v.tail+' yesterday?';return {key:v.v1+':'+i,prompt:'Вставь форму ('+v.v1+' — '+v.ru+'): '+frame,answers:v.v1==='be'?[i<2?'was':'were']:i===0?v.v2.split('/'):[v.v1],example:v.example,ru:v.exampleRu,rule:r.rule};}));}
+function renderVerbs(){
+ const kind=mode,all=kind==='irregular'?window.ENGLISH_WORD_BANK.irregularVerbs:window.ENGLISH_WORD_BANK.pastVerbs;
+ verbStage=store.get('verbs:'+kind+':stage',0);const key='verbs:'+kind+':'+verbStage;let st=store.get(key,{i:0,typed:'',checked:false,answers:[],history:[],mistakes:{},streak:0});const qs=verbQuestions(kind,verbStage);if(kind==='past')qs.push({key:'sequence',prompt:'Вставь форму send: I took photos and ___ them.',answers:['sent'],example:'I bought a coat and paid by card.',ru:'Я купил пальто и заплатил картой.',rule:'Два завершённых действия: took и sent, оба в V2.'});const q=qs[st.i];
+ const rows=all.slice(verbStage*10,verbStage*10+10).map(v=>'<p><b>'+html(v.v1)+' → '+html(v.v2)+' → '+html(v.v3)+'</b><br>'+html(v.ru)+' · ['+html(v.pron)+']<br>'+html(v.example)+'<br>'+html(v.exampleRu)+'</p>').join('');
+ const done=st.i>=qs.length;const correct=st.answers.filter(Boolean).length;
+ document.getElementById('app').innerHTML='<section class="q"><h2>'+ (kind==='irregular'?'Неправильные глаголы · V1/V2/V3':'Past Simple · утверждения, отрицания, вопросы')+'</h2><label>Этап <select id="verb-stage">'+Array.from({length:Math.ceil(all.length/10)},(_,i)=>'<option value="'+i+'" '+(i===verbStage?'selected':'')+'>'+(i+1)+' · '+(i*10+1)+'–'+Math.min(all.length,i*10+10)+'</option>').join('')+'</select></label><details><summary>Таблица и произношение · 10 глаголов</summary>'+rows+'</details><p>Порог 80%, две успешные попытки подряд. Ошибки снимаются после двух верных ответов подряд. Этапы переключаются только вручную.</p>'+(done?'<h3>'+correct+'/'+qs.length+' · серия '+st.streak+'/2</h3><button class="btn" id="verb-again">Повторить этап</button>':'<p>'+(st.i+1)+'/'+qs.length+'</p><h3>'+html(q.prompt)+'</h3><input id="verb-input" type="text" maxlength="200" style="width:100%;font-size:20px;padding:14px;box-sizing:border-box" autocomplete="off" autocapitalize="off" value="'+html(st.typed)+'" '+(st.checked?'disabled':'')+'><button class="btn primary" id="verb-check" '+(st.checked?'disabled':'')+'>Проверить</button>'+(st.checked?'<p class="fb">'+(st.answers[st.i]?'✓ Правильно':'✕ '+html(spellingDiff(q.answers[0],st.typed)))+'<br><b>'+html(q.answers.join(' / '))+'</b><br>'+html(q.rule)+'<br>'+html(q.example)+' — '+html(q.ru)+'</p><button class="btn" id="verb-next">Далее</button>':''))+'<details><summary>История: '+st.history.length+' попыток</summary>'+st.history.slice(-10).map(h=>'<p>'+html(h.at)+' · '+h.score+'/'+h.n+'</p>'+(h.responses||[]).map(r=>'<p>Мой ответ: '+html(r.answer)+' · '+(r.ok?'✓':'✕')+'<br>Правильно: '+html(r.correct)+'<br>'+html(r.rule)+'</p>').join('')).join('')+'</details></section>';
+ document.getElementById('verb-stage').onchange=e=>{store.set('verbs:'+kind+':stage',Number(e.target.value));renderVerbs();};
+ const input=document.getElementById('verb-input');if(input)input.oninput=()=>{st.typed=input.value;store.set(key,st);};
+ const check=document.getElementById('verb-check');if(check)check.onclick=()=>{if(!st.typed.trim())return;const ok=q.answers.some(a=>verbNorm(a)===verbNorm(st.typed));st.answers[st.i]=ok;st.responses=st.responses||[];st.responses[st.i]={answer:st.typed,correct:q.answers[0],ok,rule:q.rule};st.checked=true;const m=st.mistakes[q.key];if(ok&&m){m.streak++;if(m.streak>=2)delete st.mistakes[q.key];}else if(!ok)st.mistakes[q.key]={streak:0,last:st.typed};store.set(key,st);renderVerbs();};
+ const next=document.getElementById('verb-next');if(next)next.onclick=()=>{st.i++;st.checked=false;st.typed='';if(st.i===qs.length){const score=st.answers.filter(Boolean).length;st.streak=score/qs.length>=.8?st.streak+1:0;st.history.push({at:new Date().toISOString(),score,n:qs.length,answers:st.answers,responses:st.responses||[]});}store.set(key,st);renderVerbs();};
+ const again=document.getElementById('verb-again');if(again)again.onclick=()=>{st.i=0;st.typed='';st.checked=false;st.answers=[];st.responses=[];store.set(key,st);renderVerbs();};
+}
+
 function render(){
   renderPacks();
   renderChips();
-  if(mode==="phr")renderPhr();
+  if(["irregular","past"].includes(mode))renderVerbs(); else if(mode==="phr")renderPhr();
   else if(mode==="cards")renderCards(); else if(Q && Q.done)renderResult(); else renderQ();
 }
 
@@ -412,7 +434,7 @@ document.addEventListener("keydown",e=>{
 /* ---------- rounds ---------- */
 function startRound(m,subset){
   const ids=subset||W.map((x,i)=>i);
-  Q={mode:m,order:shuffle(ids),i:0,score:0,wrong:[],answered:false,full:!subset,opts:null,last:null,done:false}; saveRound();
+  Q={mode:m,order:[...shuffle(ids.filter(i=>W[i].reinforce)),...shuffle(ids.filter(i=>!W[i].reinforce))],i:0,score:0,wrong:[],answered:false,full:!subset,opts:null,last:null,done:false}; saveRound();
 }
 function renderQ(){
   const app=document.getElementById("app");
@@ -431,8 +453,8 @@ function renderQ(){
     body=optsHtml(i=>W[i].en);
   } else {
     const hint = Q.mode==="copy" ? '<div class="word">'+html(w.en)+'</div><div class="pron">['+html(w.pr)+']</div><div>Перепиши вручную</div>' : Q.mode==="r4" ? `<div class="letter">${w.en[0]}${"_".repeat(Math.max(w.en.length-1,0))}</div><div class="exru">${w.en.length} букв${w.en.includes(" ")?" (с пробелом)":w.en.includes("-")?" (с дефисом)":""}</div>` : "";
-    prompt=`<div class="ru">${w.ru}</div>${hint}`;
-    body=`<form id="wf" autocomplete="off"><input type="text" id="win" autocapitalize="off" autocorrect="off" spellcheck="false" placeholder="пиши по-английски" ${Q.answered?"disabled":""} value="${Q.answered?Q.last.typed.replace(/"/g,"&quot;"):""}"></form>
+    prompt=`<div class="ru">${Q.mode==="r5"?html(w.ru.replace(/[a-z]+/gi,"")):w.ru}</div>${Q.mode==="r5"?`<div class="exru">${html((w.exru||w.sru||"Переведи на английский").replace(/[a-z]+/gi,""))}</div>`:""}${hint}`;
+    body=`<form id="wf" autocomplete="off"><input type="text" id="win" maxlength="120" autocapitalize="off" autocorrect="off" spellcheck="false" placeholder="пиши по-английски" ${Q.answered?"disabled":""} value="${html(Q.answered?Q.last.typed:Q.typed||"")}"></form>
       ${Q.answered?"":`<button class="btn primary" type="button" id="check">Проверить</button>`}`;
   }
   app.innerHTML=`
@@ -449,7 +471,7 @@ function renderQ(){
   if(["r1","r2","r3"].includes(Q.mode)){
     app.querySelectorAll(".opt").forEach(b=>b.onclick=()=>answer(+b.dataset.i));
   } else if(!Q.answered){
-    const inp=document.getElementById("win"); inp.focus(); if(Q.mode==='copy'){inp.onpaste=e=>{e.preventDefault();toast('Введи слово вручную')};inp.ondrop=e=>e.preventDefault();}
+    const inp=document.getElementById("win");inp.oninput=()=>{Q.typed=inp.value;saveRound();}; inp.focus(); if(Q.mode==='copy'){inp.onpaste=e=>{e.preventDefault();toast('Введи слово вручную')};inp.ondrop=e=>e.preventDefault();}
     document.getElementById("wf").onsubmit=e=>{e.preventDefault();answerTyped(inp.value)};
     document.getElementById("check").onclick=()=>answerTyped(inp.value);
   }
@@ -466,23 +488,24 @@ function fbHtml(w){
   return `<div class="fb ${ok?"ok":"no"}">
     <strong>${ok?"✅ Верно":"❌ Ошибка"}</strong>
     <div class="line"><span class="ans"><b>${w.en}</b> [${w.pr}] — ${w.ru}</span>${sayBtn(w.en,"small")}</div>
-    ${!ok&&Q.last.typed?'<div class="note">'+html(spellingDiff(w.en,Q.last.typed))+'</div>':""}${!ok&&w.note?`<div class="note">${w.note}</div>`:""}
+    <div class="note">${html(w.ex||"")} — ${html(w.exru||"")}</div>${!ok&&Q.last.typed?'<div class="note">'+html(spellingDiff(w.en,Q.last.typed))+'</div>':""}${!ok&&w.note?`<div class="note">${w.note}</div>`:""}
   </div>`;
 }
 function answer(pick){
   if(Q.answered)return;
   const idx=Q.order[Q.i], ok=pick===idx;
-  record(ok,idx); Q.last={pick,ok}; Q.answered=true; saveRound(); renderQ();
+  record(ok,idx,Q.mode==="r1"?W[pick].ru:W[pick].en); Q.last={pick,ok}; Q.answered=true; saveRound(); renderQ();
   if(autoSay)say(W[idx].en);
 }
 function answerTyped(v){
   if(Q.answered)return;
   if(!v.trim()){toast("Напиши слово");return;}
   const idx=Q.order[Q.i], ok=[W[idx].en,...(W[idx].accept||[])].some(x=>norm(v)===norm(x));
-  record(ok,idx); Q.last={typed:v.trim(),ok}; Q.answered=true; saveRound(); renderQ();
+  record(ok,idx,v); Q.last={typed:v,ok}; Q.answered=true; saveRound(); renderQ();
   if(autoSay)say(W[idx].en);
 }
-function record(ok,idx){
+function record(ok,idx,raw){
+ Q.responses=Q.responses||[];Q.responses.push({word:W[idx].en,answer:raw===undefined?String(idx):raw,ok,explanation:ok?"Верно с учётом допустимых вариантов":["copy","r4","r5"].includes(Q.mode)&&raw?spellingDiff(W[idx].en,raw):"Целевое значение: "+W[idx].ru,example:W[idx].ex,exampleRu:W[idx].exru});
  if(ok)Q.score++;else if(!Q.wrong.includes(idx))Q.wrong.push(idx);
  const st=wordState(), key=String(idx);
  if(!ok)st.mistakes[key]={streak:0,word:W[idx].en};
@@ -494,12 +517,12 @@ function nextQ(){
     Q.done=true;
     const st=wordState();const pass=Q.score>=passMark(Q.order.length);
     if(Q.full)st.streaks[Q.mode]=pass?(st.streaks[Q.mode]||0)+1:0;
-    st.history.push({at:new Date().toISOString(),mode:Q.mode,n:Q.order.length,score:Q.score,full:Q.full});
+    st.history.push({at:new Date().toISOString(),mode:Q.mode,n:Q.order.length,score:Q.score,full:Q.full,responses:Q.responses||[]});
     store.set(P.id+':learning',st);saveRound();
     if(Q.full){ if(best[Q.mode]==null||Q.score>best[Q.mode]){best[Q.mode]=Q.score;store.set(P.id+":best",best);} }
     render(); return;
   }
-  Q.i++; Q.answered=false; Q.opts=null; Q.last=null; saveRound(); renderQ();
+  Q.i++;Q.typed=''; Q.answered=false; Q.opts=null; Q.last=null; saveRound(); renderQ();
 }
 function renderResult(){
   const m=MODES.find(x=>x.id===Q.mode), tot=Q.order.length;
@@ -536,12 +559,13 @@ function selectCopy(){const r=document.createRange();r.selectNodeContents(docume
 
 { const sp=store.get("pack",1); if(PACKS[sp]){P=PACKS[sp];W=P.words;best=store.get(P.id+":best",{});cardOrder=W.map((x,k)=>k);} }
 if(store.get(P.id+':draft',null)){Q=store.get(P.id+':draft',null);mode=Q.mode;}
-const knownKeys=['pack','clothes1:autosay','words:import-conflicts',...PACKS.flatMap(p=>[p.id+':best',p.id+':learning',p.id+':draft'])];
+if(['irregular','past'].includes(store.get('words:activeMode','')))mode=store.get('words:activeMode','');
+const knownKeys=['words:activeMode',...['irregular','past'].flatMap(k=>['verbs:'+k+':stage',...Array.from({length:10},(_,i)=>'verbs:'+k+':'+i)]),'pack','clothes1:autosay','words:import-conflicts',...PACKS.flatMap(p=>[p.id+':best',p.id+':learning',p.id+':draft'])];
 document.getElementById('word-export').onclick=()=>{const data={};knownKeys.forEach(k=>{const v=localStorage.getItem(k);if(v!==null)data[k]=JSON.parse(v)});const u=URL.createObjectURL(new Blob([JSON.stringify({format:'english-words-v1',data},null,2)],{type:'application/json'}));const a=document.createElement('a');a.href=u;a.download='english-words-progress.json';a.click();setTimeout(()=>URL.revokeObjectURL(u),1000);};
 document.getElementById('word-import').onchange=async e=>{try{const o=JSON.parse(await e.target.files[0].text());if(o.format!=='english-words-v1'||!o.data)throw Error('Неверный формат');for(const k of Object.keys(o.data)){if(!knownKeys.includes(k))throw Error('Неизвестный ключ');}
 if(!confirm('Импорт дополнит отсутствующие данные. Отличающиеся локальные данные сохранятся; конфликтующие значения будут сохранены отдельно. Продолжить?'))return;
 for(const [k,v]of Object.entries(o.data)){if(localStorage.getItem(k)===null)store.set(k,v);else if(JSON.stringify(store.get(k,null))!==JSON.stringify(v))store.set('words:import-conflicts',{...store.get('words:import-conflicts',{}),[k]:v});}location.reload();}catch(err){toast('Импорт не выполнен: '+err.message)}};
-function drawHistory(){document.getElementById('word-history').innerHTML=PACKS.map(p=>{const st=store.get(p.id+':learning',{history:[]});return '<p><b>'+html(p.title)+'</b>: '+st.history.length+' попыток</p>'+st.history.slice(-5).map(h=>'<p>'+html(h.at)+' '+html(h.mode)+': '+h.score+'/'+h.n+'</p>').join('');}).join('');}
+function drawHistory(){document.getElementById('word-history').innerHTML=PACKS.map(p=>{const st=store.get(p.id+':learning',{history:[]});return '<p><b>'+html(p.title)+'</b>: '+st.history.length+' попыток</p>'+st.history.slice(-5).map(h=>'<p>'+html(h.at)+' '+html(h.mode)+': '+h.score+'/'+h.n+'</p>'+(h.responses||[]).map(r=>'<p>Мой ответ: '+html(r.answer)+' · '+(r.ok?'✓':'✕')+'<br>'+html(r.explanation)+'</p>').join('')).join('');}).join('');}
 document.querySelector('details.wrap').addEventListener('toggle',drawHistory);
 window.__wordsDebug={packs:PACKS,getRound:()=>Q,getLearning:wordState};
 render();

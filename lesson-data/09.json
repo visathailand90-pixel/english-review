@@ -350,6 +350,34 @@
         "q": "Вставь: Have you got ___ apples? Could I have ___ tea, please?",
         "a": "any; some — естественно в просьбе."
       }
+    },
+    {
+      "h": "Make / do / take: учим целые сочетания",
+      "text": [
+        "**make a decision** — принять решение; **do research/homework** — изучать вопрос/делать домашнее задание; **take photos** — фотографировать.",
+        "Прошедшие формы: made, did, took. Не переводим русское «делать» одним и тем же глаголом."
+      ],
+      "ex": [
+        [
+          "She made a decision yesterday.",
+          "Она приняла решение вчера."
+        ],
+        [
+          "I did research before buying.",
+          "Я изучил вопрос перед покупкой."
+        ],
+        [
+          "I took photos of the item.",
+          "Я сфотографировал вещь."
+        ]
+      ],
+      "warn": [
+        "do a decision → make a decision."
+      ],
+      "practice": {
+        "q": "Yesterday I ___ photos and ___ a decision.",
+        "a": "took; made."
+      }
     }
   ],
   "vocab": [

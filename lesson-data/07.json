@@ -335,6 +335,130 @@
         "q": "Поставь в прошлое: What is it? Are they at home?",
         "a": "What was it? Were they at home?"
       }
+    },
+    {
+      "h": "Артикли: звук, известность и количество",
+      "text": [
+        "Новый один предмет: **a/an + adjective + noun**. Выбор a/an зависит от первого звука, не буквы. Прилагательное не отменяет артикль.",
+        "Уже известный предмет — the. Перед my/this/that артикль обычно не нужен.",
+        "Общие множественные/неисчисляемые: clothes, advice, jewellery без a/an."
+      ],
+      "ex": [
+        [
+          "She is a smart girl.",
+          "Она умная девушка."
+        ],
+        [
+          "An honest person works at a university.",
+          "Честный человек работает в университете."
+        ],
+        [
+          "I bought a coat. The coat was warm.",
+          "Я купил пальто. Это пальто было тёплым."
+        ]
+      ],
+      "warn": [
+        "She is smart girl → She is a smart girl.",
+        "a clothes → some clothes."
+      ],
+      "practice": {
+        "q": "She is ___ honest person.",
+        "a": "an: honest начинается с гласного звука."
+      }
+    },
+    {
+      "h": "Like, enjoy, ask: не все глаголы требуют to",
+      "text": [
+        "**like + V-ing / to + V1** — обе формы допустимы в подходящем контексте.",
+        "**enjoy + V-ing**; **ask somebody + to + V1**. Управление зависит от глагола, универсального to между любыми глаголами нет."
+      ],
+      "ex": [
+        [
+          "I like buying clothes.",
+          "Я люблю покупать одежду."
+        ],
+        [
+          "I like to buy clothes.",
+          "Я люблю покупать одежду."
+        ],
+        [
+          "I enjoy buying clothes.",
+          "Мне нравится покупать одежду."
+        ],
+        [
+          "I asked her to help.",
+          "Я попросил её помочь."
+        ]
+      ],
+      "warn": [
+        "enjoy to buy → enjoy buying."
+      ],
+      "practice": {
+        "q": "I enjoy ___ (read). I asked him ___ (help).",
+        "a": "reading; to help."
+      }
+    },
+    {
+      "h": "At / in / on / from: место и источник",
+      "text": [
+        "**at** — точка/мероприятие: at a market; **in** — внутри/страна/город: in a shop, in London; **on** — поверхность/сайт: on the table, on the website.",
+        "**from** — источник: from a shop. Способы оплаты учим отдельно: by card / in cash."
+      ],
+      "ex": [
+        [
+          "I bought it at a street market.",
+          "Я купил это на уличном рынке."
+        ],
+        [
+          "I found it on the website.",
+          "Я нашёл это на сайте."
+        ],
+        [
+          "It came from a second-hand shop.",
+          "Это из магазина подержанных вещей."
+        ]
+      ],
+      "warn": [
+        "in the website → on the website."
+      ],
+      "practice": {
+        "q": "I paid ___ cash and found the offer ___ the website.",
+        "a": "in; on."
+      }
+    },
+    {
+      "h": "A pair of / a piece of и разные части речи",
+      "text": [
+        "**a pair of jeans/trainers; two pairs of socks** — считаем пары. **a piece of advice/jewellery** — считаем отдельные единицы неисчисляемого.",
+        "Convenience — удобство (существительное); convenient — удобный (прилагательное); conveniently — удобно (наречие).",
+        "Afford — глагол: can afford something / to do. Affordable — прилагательное: an affordable price."
+      ],
+      "ex": [
+        [
+          "I need a pair of jeans.",
+          "Мне нужна пара джинсов."
+        ],
+        [
+          "She gave me a piece of advice.",
+          "Она дала мне один совет."
+        ],
+        [
+          "The shop is conveniently located.",
+          "Магазин удобно расположен."
+        ],
+        [
+          "I can afford to buy an affordable coat.",
+          "Я могу позволить себе купить недорогое пальто."
+        ]
+      ],
+      "warn": [
+        "a jewellery → a piece of jewellery.",
+        "It is convenience → It is convenient."
+      ],
+      "practice": {
+        "q": "I can ___ to buy it. The price is ___.",
+        "a": "afford; affordable."
+      }
     }
   ],
   "vocab": [
@@ -512,6 +636,31 @@
       "en": "uncomfortable",
       "pron": "анкАмфтэбл",
       "ru": "неудобный"
+    },
+    {
+      "en": "fits best",
+      "ru": "подходит лучше всего",
+      "pron": "фитс бэст"
+    },
+    {
+      "en": "part",
+      "ru": "часть; деталь",
+      "pron": "паат"
+    },
+    {
+      "en": "affordable",
+      "ru": "доступный по цене",
+      "pron": "эфодэбэл"
+    },
+    {
+      "en": "take photos",
+      "ru": "фотографировать",
+      "pron": "тэйк фоутоуз"
+    },
+    {
+      "en": "like buying",
+      "ru": "любить покупать; возможен like to buy",
+      "pron": "лайк байинг"
     }
   ],
   "l2": [

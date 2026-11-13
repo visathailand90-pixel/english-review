@@ -251,6 +251,34 @@
         "q": "Выбери: I (know / am knowing) the address.",
         "a": "I know the address: состояние знания."
       }
+    },
+    {
+      "h": "Simple или Continuous: выбираем смысл",
+      "text": [
+        "Обычно/регулярно: **I work; she works; do/does + V1**. Сейчас/временно: **am/is/are + V-ing**.",
+        "Не добавляй be к обычному глаголу в Simple. Для местонахождения, наоборот, be нужен: I am at home."
+      ],
+      "ex": [
+        [
+          "I compare prices every week.",
+          "Я сравниваю цены каждую неделю."
+        ],
+        [
+          "I’m comparing prices now.",
+          "Я сейчас сравниваю цены."
+        ],
+        [
+          "She works at home.",
+          "Она работает дома."
+        ]
+      ],
+      "warn": [
+        "She working → She is working (сейчас) / She works (обычно)."
+      ],
+      "practice": {
+        "q": "She ___ (work) every day, but now she ___ (rest).",
+        "a": "works; is resting."
+      }
     }
   ],
   "vocab": [

@@ -288,6 +288,36 @@
         "q": "Вставь: We got there ___ time to see the start.",
         "a": "in time — успели до начала."
       }
+    },
+    {
+      "h": "Have to / has to / had to: обязанность без двойного времени",
+      "text": [
+        "Настоящее: **I/you/we/they have to + V1; he/she/it has to + V1**.",
+        "Вопрос/отрицание: **Does she have to? She does not have to**. Does уже показывает третье лицо.",
+        "Прошедшее: **had to + V1**. Отрицание: **did not have to + V1** — не было необходимости; это не запрет."
+      ],
+      "ex": [
+        [
+          "She has to check the order.",
+          "Ей нужно проверить заказ."
+        ],
+        [
+          "Does she have to work today?",
+          "Ей нужно работать сегодня?"
+        ],
+        [
+          "I had to take a taxi.",
+          "Мне пришлось взять такси."
+        ]
+      ],
+      "warn": [
+        "had to took → had to take.",
+        "does she has to → does she have to."
+      ],
+      "practice": {
+        "q": "Yesterday she had to ___ (send) the photo.",
+        "a": "send: после to начальная форма, had уже задаёт прошедшее."
+      }
     }
   ],
   "vocab": [

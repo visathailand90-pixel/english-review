@@ -245,6 +245,191 @@
         "a pairs → a pair / two pairs.",
         "a jewellery / an advice → a piece of jewellery / a piece of advice."
       ]
+    },
+    {
+      "h": "Past Simple: утверждение, отрицание, вопрос",
+      "text": [
+        "Утверждение: **подлежащее + V2 / V-ed**. Отрицание: **did not + V1**. Вопрос: **Did + подлежащее + V1?**",
+        "Be отдельно: I/he/she/it was; you/we/they were; was not/were not и Was/Were…? Без did.",
+        "В последовательности законченных прошлых действий каждый смысловой глагол в прошлом."
+      ],
+      "ex": [
+        [
+          "I bought a coat and paid by card.",
+          "Я купил пальто и заплатил картой."
+        ],
+        [
+          "I didn’t buy the coat.",
+          "Я не купил пальто."
+        ],
+        [
+          "Did you send the photos?",
+          "Ты отправил фотографии?"
+        ]
+      ],
+      "warn": [
+        "Did you sent → Did you send.",
+        "I took photos and send them → I took photos and sent them."
+      ],
+      "practice": {
+        "q": "They ___ (be) at home yesterday.",
+        "a": "were: they were, не they was."
+      }
+    },
+    {
+      "h": "Неправильные глаголы: V1, V2, V3 и -ed",
+      "text": [
+        "V1 — начальная форма; V2 — Past Simple; V3 — причастие, это не замена V2 в простом прошедшем.",
+        "Нужные формы: send–sent–sent, pay–paid–paid, make–made–made, take–took–taken, buy–bought–bought.",
+        "Правильные: ask–asked, study–studied. -ed: после /t,d/ — /ɪd/ (wanted, needed); после остальных глухих — /t/ (asked); после остальных звонких — /d/ (studied, called)."
+      ],
+      "ex": [
+        [
+          "I sent the photo yesterday.",
+          "Я отправил фотографию вчера."
+        ],
+        [
+          "She studied at university.",
+          "Она училась в университете."
+        ],
+        [
+          "We asked for help.",
+          "Мы попросили помощи."
+        ]
+      ],
+      "warn": [
+        "I have went не исправляет Past Simple: для «я сходил вчера» нужно I went yesterday."
+      ],
+      "practice": {
+        "q": "Вчера: I ___ (make) a decision and ___ (take) a photo.",
+        "a": "made; took. Обе законченные формы — V2."
+      }
+    },
+    {
+      "h": "Like, enjoy, ask: не все глаголы требуют to",
+      "text": [
+        "**like + V-ing / to + V1** — обе формы допустимы в подходящем контексте.",
+        "**enjoy + V-ing**; **ask somebody + to + V1**. Управление зависит от глагола, универсального to между любыми глаголами нет."
+      ],
+      "ex": [
+        [
+          "I like buying clothes.",
+          "Я люблю покупать одежду."
+        ],
+        [
+          "I like to buy clothes.",
+          "Я люблю покупать одежду."
+        ],
+        [
+          "I enjoy buying clothes.",
+          "Мне нравится покупать одежду."
+        ],
+        [
+          "I asked her to help.",
+          "Я попросил её помочь."
+        ]
+      ],
+      "warn": [
+        "enjoy to buy → enjoy buying."
+      ],
+      "practice": {
+        "q": "I enjoy ___ (read). I asked him ___ (help).",
+        "a": "reading; to help."
+      }
+    },
+    {
+      "h": "Make / do / take: учим целые сочетания",
+      "text": [
+        "**make a decision** — принять решение; **do research/homework** — изучать вопрос/делать домашнее задание; **take photos** — фотографировать.",
+        "Прошедшие формы: made, did, took. Не переводим русское «делать» одним и тем же глаголом."
+      ],
+      "ex": [
+        [
+          "She made a decision yesterday.",
+          "Она приняла решение вчера."
+        ],
+        [
+          "I did research before buying.",
+          "Я изучил вопрос перед покупкой."
+        ],
+        [
+          "I took photos of the item.",
+          "Я сфотографировал вещь."
+        ]
+      ],
+      "warn": [
+        "do a decision → make a decision."
+      ],
+      "practice": {
+        "q": "Yesterday I ___ photos and ___ a decision.",
+        "a": "took; made."
+      }
+    },
+    {
+      "h": "Who / which / that / what: есть ли существительное перед ними?",
+      "text": [
+        "Человек + **who/that**; предмет + **which/that** в определительном придаточном без запятых.",
+        "**what** = то, что, без отдельного названного существительного перед ним. Which и that в этих примерах нельзя объявлять взаимно ошибочными."
+      ],
+      "ex": [
+        [
+          "The assistant who helped me was polite.",
+          "Продавец, который мне помог, был вежлив."
+        ],
+        [
+          "The jacket that I bought is blue.",
+          "Куртка, которую я купил, синяя."
+        ],
+        [
+          "The jacket which I bought is blue.",
+          "Куртка, которую я купил, синяя."
+        ],
+        [
+          "I know what I like.",
+          "Я знаю, что мне нравится."
+        ]
+      ],
+      "warn": [
+        "the jacket what I bought → the jacket that/which I bought."
+      ],
+      "practice": {
+        "q": "The coat ___ I bought was cheap.",
+        "a": "which / that: оба варианта допустимы."
+      }
+    },
+    {
+      "h": "A pair of / a piece of и разные части речи",
+      "text": [
+        "**a pair of jeans/trainers; two pairs of socks** — считаем пары. **a piece of advice/jewellery** — считаем отдельные единицы неисчисляемого.",
+        "Convenience — удобство (существительное); convenient — удобный (прилагательное); conveniently — удобно (наречие).",
+        "Afford — глагол: can afford something / to do. Affordable — прилагательное: an affordable price."
+      ],
+      "ex": [
+        [
+          "I need a pair of jeans.",
+          "Мне нужна пара джинсов."
+        ],
+        [
+          "She gave me a piece of advice.",
+          "Она дала мне один совет."
+        ],
+        [
+          "The shop is conveniently located.",
+          "Магазин удобно расположен."
+        ],
+        [
+          "I can afford to buy an affordable coat.",
+          "Я могу позволить себе купить недорогое пальто."
+        ]
+      ],
+      "warn": [
+        "a jewellery → a piece of jewellery.",
+        "It is convenience → It is convenient."
+      ],
+      "practice": {
+        "q": "I can ___ to buy it. The price is ___.",
+        "a": "afford; affordable."
+      }
     }
   ],
   "vocab": [
@@ -397,6 +582,41 @@
       "en": "that",
       "ru": "тот; который",
       "pron": "зэт"
+    },
+    {
+      "en": "stalls selling fruit",
+      "ru": "прилавки, где продают фрукты",
+      "pron": "столз сэлинг фрут"
+    },
+    {
+      "en": "at a bargain price",
+      "ru": "по выгодной цене",
+      "pron": "эт э баагин прайс"
+    },
+    {
+      "en": "each",
+      "ru": "каждый из рассматриваемых",
+      "pron": "ич"
+    },
+    {
+      "en": "yet",
+      "ru": "ещё; уже в вопросах и отрицаниях",
+      "pron": "йэт"
+    },
+    {
+      "en": "what was it",
+      "ru": "что это было",
+      "pron": "уот уоз ит"
+    },
+    {
+      "en": "what was excellent",
+      "ru": "что было отличным",
+      "pron": "уот уоз эксэлэнт"
+    },
+    {
+      "en": "ask them to give me my money back",
+      "ru": "попросить их вернуть мне деньги",
+      "pron": "ааск зэм тэ гив ми май мани бэк"
     }
   ],
   "l2": [

@@ -337,6 +337,66 @@
         "q": "Вставь: She is ___ engineer. She gave me ___ useful advice.",
         "a": "an; без артикля перед useful advice."
       }
+    },
+    {
+      "h": "Артикли: звук, известность и количество",
+      "text": [
+        "Новый один предмет: **a/an + adjective + noun**. Выбор a/an зависит от первого звука, не буквы. Прилагательное не отменяет артикль.",
+        "Уже известный предмет — the. Перед my/this/that артикль обычно не нужен.",
+        "Общие множественные/неисчисляемые: clothes, advice, jewellery без a/an."
+      ],
+      "ex": [
+        [
+          "She is a smart girl.",
+          "Она умная девушка."
+        ],
+        [
+          "An honest person works at a university.",
+          "Честный человек работает в университете."
+        ],
+        [
+          "I bought a coat. The coat was warm.",
+          "Я купил пальто. Это пальто было тёплым."
+        ]
+      ],
+      "warn": [
+        "She is smart girl → She is a smart girl.",
+        "a clothes → some clothes."
+      ],
+      "practice": {
+        "q": "She is ___ honest person.",
+        "a": "an: honest начинается с гласного звука."
+      }
+    },
+    {
+      "h": "Past Simple: утверждение, отрицание, вопрос",
+      "text": [
+        "Утверждение: **подлежащее + V2 / V-ed**. Отрицание: **did not + V1**. Вопрос: **Did + подлежащее + V1?**",
+        "Be отдельно: I/he/she/it was; you/we/they were; was not/were not и Was/Were…? Без did.",
+        "В последовательности законченных прошлых действий каждый смысловой глагол в прошлом."
+      ],
+      "ex": [
+        [
+          "I bought a coat and paid by card.",
+          "Я купил пальто и заплатил картой."
+        ],
+        [
+          "I didn’t buy the coat.",
+          "Я не купил пальто."
+        ],
+        [
+          "Did you send the photos?",
+          "Ты отправил фотографии?"
+        ]
+      ],
+      "warn": [
+        "Did you sent → Did you send.",
+        "I took photos and send them → I took photos and sent them."
+      ],
+      "practice": {
+        "q": "They ___ (be) at home yesterday.",
+        "a": "were: they were, не they was."
+      }
     }
   ],
   "vocab": [
