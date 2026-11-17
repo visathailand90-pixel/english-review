@@ -147,7 +147,7 @@ textarea.fallback{width:100%;box-sizing:border-box;min-height:140px;font:13px/1.
       <h2>Новый текст по уроку</h2>
       <label>Урок<select id="genLesson"></select></label>
       <label>Формат<select id="genFormat"><option value="story">История</option><option value="dialogue">Диалог</option><option value="article">Небольшая статья</option><option value="posts">Посты</option></select></label>
-      <label>Тема<select id="genTopic"><option>Повседневная жизнь</option><option>Покупки</option><option>Спорт</option><option>Путешествия</option><option>Работа</option><option>Отношения</option><option>Еда</option></select></label>
+      <label>Тема<select id="genTopic"><option>Повседневная жизнь</option><option>Покупки</option><option>Спорт</option><option>Путешествия</option><optgroup label="Урок 12 · транспорт и город"><option>Getting to work at rush hour</option><option>The wrong turn in a new town</option><option>A day without the metro</option><option>Finding a museum</option><option>Different ways to travel</option><option>An accessible city</option></optgroup><option>Работа</option><option>Отношения</option><option>Еда</option></select></label>
       <input id="customTopic" maxlength="200" placeholder="Своя тема (без личных данных)">
       <label>Сложность<select id="genLevel"><option>A2</option><option>A2+</option></select></label>
       <label>Размер<select id="genLength"><option value="120">Около 120 слов</option><option value="180" selected>150–220 слов</option><option value="250">Около 250 слов</option></select></label>
@@ -1028,7 +1028,7 @@ function requestForReader(){
  const lesson=document.getElementById('genLesson').value;
  const selected=window.ENGLISH_READING_CONTEXT.find(l=>l.id===lesson);
  const learned=Array.from(document.querySelectorAll('[data-learned]:checked')).map(x=>x.value);
- const context=window.ENGLISH_READING_CONTEXT.filter(l=>l.id===lesson||learned.includes(l.id)).map(l=>({lesson:l.id,grammar:l.grammar.slice(-3),vocab:l.vocab.slice(0,16)}));
+ const context=window.ENGLISH_READING_CONTEXT.filter(l=>l.id===lesson||learned.includes(l.id)).map(l=>({lesson:l.id,grammar:(l.readerGrammar||l.grammar.slice(-3)),vocab:l.vocab.slice(0,16)}));
  const permitted=[];
  if(document.getElementById('allowPatterns').checked)permitted.push('Practise third-person -s, did + base form, be in questions, prepositions, and adjective/adverb distinction. These are neutral practice patterns; no personal answers are transmitted.');
  const words=saved.slice(-15).map(w=>String(w.k).slice(0,60));

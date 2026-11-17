@@ -570,6 +570,7 @@ function drawHistory(){document.getElementById('word-history').innerHTML=PACKS.m
 document.querySelector('details.wrap').addEventListener('toggle',drawHistory);
 window.__wordsDebug={packs:PACKS,getRound:()=>Q,getLearning:wordState};
 render();
+if(window.ENGLISH_WORD_BANK.transportReference){const reference=document.createElement('details');reference.className='wrap';const heading=document.createElement('summary');heading.textContent='Транспорт: расширенный справочник (не обязательная пачка)';reference.append(heading);const note=document.createElement('p');note.textContent='Редкие слова с доски. Не считаются изученными и не входят в обязательные круги урока 12.';reference.append(note);for(const w of window.ENGLISH_WORD_BANK.transportReference){const p=document.createElement('p');p.textContent=w.en+' — '+w.ru;reference.append(p);}document.querySelector('main').append(reference);}
 </script>
 
 </body></html>

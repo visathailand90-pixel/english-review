@@ -1,0 +1,1686 @@
+{
+  "id": "12",
+  "num": "12",
+  "title": "Getting there — транспорт и город",
+  "date": "17.11",
+  "summary": "Где что находится, как добраться и какой транспорт выбрать. Авторские учебные примеры по изученному материалу. Аудирование и самостоятельные маршруты по карте отложены; их прохождение здесь не отмечается.",
+  "theory": [
+    {
+      "h": "There is / There are: что-то где-то есть",
+      "text": [
+        "Когда сообщаем о наличии предмета, русскому «есть» соответствует **there is / there are**. There здесь служебное слово, а не обязательное «там». Порядок: **есть → что → где**. Не нужно отдельное have.",
+        "**Один предмет: There is + a/an + существительное + место. Несколько: There are + число/some + множественное число + место.** Some означает некоторое количество: some buses. Нельзя a buses.",
+        "**Отрицание: There isn't a bridge; There aren't any buses. Вопрос: Is there a bridge? Are there any buses?** Переставляем is/are перед there; do/does не добавляем. Коротко: Yes, there is / No, there aren't.",
+        "**Неисчисляемое: There is some traffic.** Traffic — поток транспорта, не отдельные машины. People, cars, thoughts считаем во множественном числе: There are a lot of people. Traffic lights — множественное, хотя по-русски можно сказать «светофор».",
+        "В простом утверждении обычно some, в отрицании и нейтральном вопросе any. Это базовый ориентир, не весь курс количественных слов. There's = there is; в этой тренировке с множественным числом используем полную форму there are."
+      ],
+      "ex": [
+        [
+          "There is a crossing near the school.",
+          "Возле школы есть переход."
+        ],
+        [
+          "There are some buses outside.",
+          "Снаружи есть несколько автобусов."
+        ],
+        [
+          "There isn't a bridge here.",
+          "Здесь нет моста."
+        ],
+        [
+          "Are there any traffic lights on this road?",
+          "На этой дороге есть светофоры?"
+        ],
+        [
+          "There is a lot of traffic at rush hour.",
+          "В час пик большой поток транспорта."
+        ],
+        [
+          "There are many thoughts in my head.",
+          "У меня в голове много мыслей."
+        ]
+      ],
+      "warn": [
+        "There is two buses → There are two buses: два предмета требуют are.",
+        "There are many traffic → There is a lot of traffic: traffic неисчисляемое. Many thought → many thoughts: отдельные мысли требуют -s."
+      ],
+      "practice": {
+        "q": "1. ___ a park here. 2. ___ two bridges. 3. ___ any buses? 4. Здесь нет церкви. 5. ___ some traffic. 6. Many thought или many thoughts?",
+        "a": "1. There is. 2. There are. 3. Are there. 4. There isn't a church here. 5. There is. 6. Many thoughts: исчисляемое множественное."
+      }
+    },
+    {
+      "h": "There is, They are и I have: три разных смысла",
+      "text": [
+        "Сначала выбирай смысл. **There is/are + предмет** сообщает, что предмет существует в месте. **They are + действие-ing** означает «они сейчас делают». **I have + предмет** означает «у меня есть», владение/доступ.",
+        "Сравни существительное building «здание» и действие building «строят»: There is a building — есть здание; They are building a bridge — они строят мост. В последнем случае нужен деятель they, а не there.",
+        "Отрицание существования: There isn't a bridge. Отрицание действия: They aren't building a bridge. Отрицание владения: I don't have a bike. Вопросы: Is there a bridge? Are they building a bridge? Do you have a bike?",
+        "Если стадион просто расположен рядом, ты не заявляешь, что владеешь стадионом. Скажи There's a stadium near my house. I have a bike подходит для твоего велосипеда."
+      ],
+      "ex": [
+        [
+          "There is a bridge over the river.",
+          "Через реку есть мост."
+        ],
+        [
+          "They are building a bridge over the river.",
+          "Они строят мост через реку."
+        ],
+        [
+          "I have a bike, but I don't have a car.",
+          "У меня есть велосипед, но нет машины."
+        ],
+        [
+          "Are they building a new road?",
+          "Они строят новую дорогу?"
+        ],
+        [
+          "Do you have a bike?",
+          "У тебя есть велосипед?"
+        ]
+      ],
+      "warn": [
+        "There are building a bridge → They are building a bridge: речь о людях, выполняющих действие.",
+        "I have a stadium near my house не выражает простое «рядом есть стадион»: have меняет смысл на владение/доступ."
+      ],
+      "practice": {
+        "q": "1. «Они строят»: There / They? 2. «Есть мост»: There / They? 3. «У меня велосипед»: I have / There have? 4. Отрицание I have a car. 5. Вопрос They are building a road.",
+        "a": "1. They are building. 2. There is a bridge. 3. I have a bike. 4. I don't have a car. 5. Are they building a road?"
+      }
+    },
+    {
+      "h": "Артикль + прилагательное + существительное",
+      "text": [
+        "Первое упоминание одной исчисляемой вещи: **a/an + adjective + singular noun**. Прилагательное не отменяет артикль: a small town, a good option. Выбирай a/an по следующему звуку: a nice bridge, an old church.",
+        "Уже понятный собеседникам объект: **the + noun**. Сначала There is a church, затем The church is old. В вопросе и отрицании принцип тот же: Is there an old church? There isn't a good option.",
+        "Во множественном числе a/an нет: cars, some cars. С my/this второй определитель не нужен: my car, this bridge. Само прилагательное -s не получает: electric cars, не electrics cars.",
+        "Car sharing — название сервиса/способа использования машин, обычно без a. Если считаем сервисы, меняем главное слово: a car-sharing service / two car-sharing services."
+      ],
+      "ex": [
+        [
+          "I live in a small town.",
+          "Я живу в небольшом городе."
+        ],
+        [
+          "There is an old church near the park.",
+          "Возле парка есть старая церковь."
+        ],
+        [
+          "The church is open today.",
+          "Эта церковь сегодня открыта."
+        ],
+        [
+          "Is this a good option for you?",
+          "Это хороший вариант для тебя?"
+        ],
+        [
+          "There are electric cars outside.",
+          "Снаружи стоят электромобили."
+        ],
+        [
+          "We use a car-sharing service.",
+          "Мы пользуемся каршеринговым сервисом."
+        ]
+      ],
+      "warn": [
+        "I live in small town → in a small town: town — один исчисляемый город; артикль перед small.",
+        "a cars → cars или a car: нельзя одновременно один и множественное. a old church → an old church: old начинается с гласного звука."
+      ],
+      "practice": {
+        "q": "1. ___ good option. 2. ___ old church. 3. ___ small town. 4. a cars — исправь. 5. Сначала a church, затем ___ church. 6. a my car — исправь.",
+        "a": "1. a. 2. an. 3. a. 4. cars / a car. 5. the. 6. my car."
+      }
+    },
+    {
+      "h": "Предлоги места: где и куда",
+      "text": [
+        "**Предмет + is/are + предлог + ориентир**: The café is near the station. Отрицание: The café isn't near the station. Вопрос: Is the café near the station? Предлог остаётся перед ориентиром.",
+        "**near** — недалеко от, без with; **next to** — непосредственно рядом; **opposite / across from** — напротив. **between A and B** — между двумя ориентирами; нужен and.",
+        "**in** — внутри/в пределах: in a town, in a building. **on** — на улице/дороге или поверхности: on the main road. **at** — точка/место события: at the station, at the traffic lights. **to** — цель движения: go to the station. Место at и движение to не взаимозаменяемы.",
+        "В обычной поездке говорят **on the train/bus**. In the train возможно с буквальным акцентом «внутри», поэтому не объявляем его невозможным. Для небольшой машины обычно in the car. Справа от вас — on your right; напротив объекта — opposite the bank."
+      ],
+      "ex": [
+        [
+          "The stadium is near my house.",
+          "Стадион недалеко от моего дома."
+        ],
+        [
+          "The café is next to the station.",
+          "Кафе непосредственно рядом со станцией."
+        ],
+        [
+          "The bank is between the museum and the shop.",
+          "Банк между музеем и магазином."
+        ],
+        [
+          "The church is opposite the town hall.",
+          "Церковь напротив мэрии."
+        ],
+        [
+          "The crossing is on the main road.",
+          "Переход на главной дороге."
+        ],
+        [
+          "There are many people on the train.",
+          "В поезде много людей."
+        ]
+      ],
+      "warn": [
+        "near with my house → near my house: near уже связывает предмет с ориентиром.",
+        "opposite your right → on your right: right здесь сторона, а не объект напротив. Go at the station → go to the station: движение к цели."
+      ],
+      "practice": {
+        "q": "1. Рядом с домом: near ___ my house? 2. Между A ___ B. 3. Напротив банка. 4. На главной дороге. 5. К станции. 6. Справа от вас.",
+        "a": "1. Без дополнительного предлога: near my house. 2. and. 3. opposite / across from the bank. 4. on the main road. 5. to the station. 6. on your right."
+      }
+    },
+    {
+      "h": "Как вежливо спросить дорогу",
+      "text": [
+        "Начни с **Excuse me** — привлекаем внимание. **Is there + a/an + место + near here?** спрашивает о наличии поблизости. Если место уже определённое, спроси путь: **Do you know the way to + the + место?**",
+        "**How do I get to + место?** — как мне добраться. Вежливая готовая рамка: **Could you tell me how to get to + место?** После how to идёт начальная форма get. Не переносим второй вопрос внутрь: не how do I get внутри Could you tell me how to get.",
+        "Чтобы ответить отрицательно, можно сказать **Sorry, I don't know this area very well / I'm not from around here**. В отрицании know требует don't; be требует am not. Можно помочь коротко: Yes, there's a station nearby.",
+        "Excuse me обычно до вопроса, Sorry — когда извиняешься, например не можешь помочь. Это разговорные ориентиры, не запрет других вежливых форм."
+      ],
+      "ex": [
+        [
+          "Excuse me, is there a bank near here?",
+          "Извините, поблизости есть банк?"
+        ],
+        [
+          "Do you know the way to the town hall?",
+          "Вы знаете дорогу до мэрии?"
+        ],
+        [
+          "How do I get to the museum?",
+          "Как мне добраться до музея?"
+        ],
+        [
+          "Could you tell me how to get to the station?",
+          "Не подскажете, как добраться до станции?"
+        ],
+        [
+          "Sorry, I'm not from around here.",
+          "Извините, я не местный."
+        ],
+        [
+          "Sorry, I don't know this area very well.",
+          "Извините, я плохо знаю этот район."
+        ]
+      ],
+      "warn": [
+        "Is there are a bank? → Is there a bank?: один глагол is перед there, are лишнее.",
+        "Do you know the way the station? → the way to the station: to указывает цель. I not know → I don't know: отрицание обычного глагола с don't."
+      ],
+      "practice": {
+        "q": "1. «Есть банк поблизости?» — начни Is. 2. the way ___ the museum. 3. how ___ get to. 4. «Я не местный». 5. «Я плохо знаю район» — отрицание know.",
+        "a": "1. Is there a bank near here? 2. to. 3. to. 4. I'm not from around here. 5. I don't know this area very well."
+      }
+    },
+    {
+      "h": "Как объяснить путь: шаг и ориентир",
+      "text": [
+        "Инструкция начинается с **глагола без подлежащего**: Go, Turn, Cross, Take. Запрет: Don't turn left. Проверить понимание можно вопросом Do I turn left here? Это не описание привычки I turn.",
+        "**Go along / down this road** — идти по дороге; down не обязательно вниз по склону. **Go straight on** — прямо. **Go past** — мимо, не внутрь. **Go through** — через пространство внутри (парк, подземный переход). **Go across the road / Cross the road** — на другую сторону; cross уже глагол, предлог across после него не нужен.",
+        "**Go over a bridge** — перейти по мосту. Для обычного перехода дороги лучше cross / go across, чем универсальное go over. **Turn left/right at + ориентир** — место поворота. **Take the second road on the right** — выбираем вторую улицу справа, не просто второй объект.",
+        "Закончи положением: **It's on your right, opposite the bank. You can't miss it.** Здесь can't miss = точно заметите. Ниже только управляемая практика с заданными ориентирами. Самостоятельные маршруты по учебной карте и аудирование ещё не пройдены."
+      ],
+      "ex": [
+        [
+          "Go straight on, then turn right.",
+          "Идите прямо, затем поверните направо."
+        ],
+        [
+          "Walk past the monument.",
+          "Пройдите мимо памятника."
+        ],
+        [
+          "Go through the underpass.",
+          "Пройдите через подземный переход."
+        ],
+        [
+          "Cross the road at the crossing.",
+          "Перейдите дорогу по переходу."
+        ],
+        [
+          "Take the second road on the right.",
+          "Поверните на вторую улицу справа."
+        ],
+        [
+          "Turn left at the traffic lights.",
+          "Поверните налево у светофора."
+        ]
+      ],
+      "warn": [
+        "Turn left on the lights → at the traffic lights: светофор — точка поворота, не поверхность.",
+        "Cross across the road → Cross the road / Go across the road: выбираем глагол cross или go + across. Past не означает through: мимо ≠ внутри."
+      ],
+      "practice": {
+        "q": "1. Мимо памятника: past / through? 2. Внутри перехода: through / past? 3. На другую сторону дороги: across / along? 4. Go down обязательно вниз? 5. Поверните у светофора. 6. Вторая улица справа.",
+        "a": "1. past. 2. through. 3. across. 4. Нет, может быть просто по дороге. 5. Turn at the traffic lights. 6. Take the second road on the right."
+      }
+    },
+    {
+      "h": "Транспорт и доступный город",
+      "text": [
+        "Способ поездки: **by + транспорт без a/the**: by bus, by taxi, by car, by bike. Исключение для пешком: **on foot**. Конкретный рейс/транспорт: take a bus / take the bus, take the metro. Привычка: I take the bus; отрицание I don't take the bus; вопрос Do you take the bus?",
+        "Посадка/высадка: **get on/off a bus/train**. Для машины: **get in / get out of a car**. Не делаем из буквального in the train запрет: для поездки привычнее on.",
+        "**Rush hour** — час пик; a crowd — одна толпа, crowds — толпы; traffic — транспортный поток. **There are a lot of people**, но **there is a lot of traffic**. Лишнее количество людей — too many people; не very more people.",
+        "Доступность: people with disabilities — люди с инвалидностью; the elderly / older people — пожилые люди; facilities — удобства/оборудование по контексту (например лифты и пандусы). Не делаем выводов обо всех людях: говорим о конкретной доступности станции.",
+        "**Subway**: в США обычно метро, в британском дорожном задании может быть подземный пешеходный переход. Чтобы избежать двусмысленности, для перехода используй underpass, для станции subway station. Car sharing — сервис; одна машина a car, один сервис a car-sharing service."
+      ],
+      "ex": [
+        [
+          "I go to work by bus.",
+          "Я езжу на работу на автобусе."
+        ],
+        [
+          "We go to the park on foot.",
+          "Мы ходим в парк пешком."
+        ],
+        [
+          "Get off the train at the next station.",
+          "Выйдите из поезда на следующей станции."
+        ],
+        [
+          "Please get in the car.",
+          "Пожалуйста, садитесь в машину."
+        ],
+        [
+          "This station has facilities for people with disabilities.",
+          "На этой станции есть удобства для людей с инвалидностью."
+        ],
+        [
+          "There are crowds at rush hour.",
+          "В час пик там толпы людей."
+        ]
+      ],
+      "warn": [
+        "by a bus → by bus: называем способ без артикля. Пешком on foot, не by foot.",
+        "There has very more people → There are a lot of people: наличие + множественное, more требует сравнения, very more неверно."
+      ],
+      "practice": {
+        "q": "1. На автобусе: by ___ bus? 2. Пешком. 3. Сесть в поезд: get on/in? 4. Выйти из машины. 5. Traffic: is/are? 6. Британский subway всегда метро?",
+        "a": "1. Без артикля: by bus. 2. on foot. 3. get on a train. 4. get out of a car. 5. is. 6. Нет, может означать underpass."
+      }
+    },
+    {
+      "h": "Коротко о сравнениях и предпочтениях",
+      "text": [
+        "Сравниваем два варианта: **A + is + faster/better + than + B**. Fast → faster, good → better (не gooder). Отрицание: A taxi isn't always faster. Вопрос: Is a taxi faster than a bus? Than — чем; then — затем.",
+        "Количество неисчисляемого: **little → less → the least**: мало → меньше → меньше всего. There is less traffic today. Считать отдельные машины — другая задача; не заменяем любую форму слова «меньше» на less.",
+        "О личном предпочтении: **I like + занятие + the most / the least**. Здесь the most/least означает больше/меньше всего нравится, а не количество предметов. I like walking the most.",
+        "Это повторение сравнений, затронутых в разговоре, а не весь будущий блок much/many/a few/a little/plenty of."
+      ],
+      "ex": [
+        [
+          "A taxi is faster than a bus today.",
+          "Сегодня такси быстрее автобуса."
+        ],
+        [
+          "This route is better for me.",
+          "Этот маршрут лучше для меня."
+        ],
+        [
+          "There is little traffic here.",
+          "Здесь мало транспорта."
+        ],
+        [
+          "There is less traffic today.",
+          "Сегодня поток транспорта меньше."
+        ],
+        [
+          "I like travelling by car the most.",
+          "Больше всего мне нравится ездить на машине."
+        ],
+        [
+          "I like crowded buses the least.",
+          "Меньше всего мне нравятся переполненные автобусы."
+        ]
+      ],
+      "warn": [
+        "gooder → better: особая сравнительная форма good. Faster then a bus → faster than a bus: сравнение с than.",
+        "Very more people не означает «много людей»: a lot of people; too many people — слишком много, more people — больше, чем раньше/где-то."
+      ],
+      "practice": {
+        "q": "1. fast → ? 2. good → ? 3. «меньше транспорта». 4. «чем автобус»: than/then? 5. «меньше всего нравится»: the most/least?",
+        "a": "1. faster. 2. better. 3. less traffic. 4. than. 5. the least."
+      }
+    },
+    {
+      "h": "Be late for work и work late",
+      "text": [
+        "**Be late for work** — прийти/приехать позже нужного времени. Формула: **I am / he is / they are + late for work**. Late — характеристика, поэтому требуется be. Отрицание: I'm not late; вопрос: Are you late for work?",
+        "**Work late** — работать допоздна. Work — обычный глагол: I work late / She works late. Отрицание I don't work late; вопрос Do you work late? Здесь be не нужно.",
+        "Для опоздания на работу основной устойчивый вариант — **late for work**. В разговорной речи встречается late to work; это не делаем обязательным шаблоном и не выдаём уточнение за дословные слова преподавателя. Work здесь без the.",
+        "Это различение двух выражений в настоящем времени. Рассказ об оправданиях в Past Continuous оставлен на следующее занятие."
+      ],
+      "ex": [
+        [
+          "I am late for work today.",
+          "Я сегодня опаздываю на работу."
+        ],
+        [
+          "She isn't late for work.",
+          "Она не опаздывает на работу."
+        ],
+        [
+          "Are you late for work?",
+          "Ты опаздываешь на работу?"
+        ],
+        [
+          "I often work late.",
+          "Я часто работаю допоздна."
+        ],
+        [
+          "He doesn't work late on Fridays.",
+          "Он не работает допоздна по пятницам."
+        ],
+        [
+          "Do you work late every day?",
+          "Ты каждый день работаешь допоздна?"
+        ]
+      ],
+      "warn": [
+        "I late for work → I am late for work: с характеристикой late нужен be.",
+        "I am work late → I work late: обычная привычка с work без am. Work late не значит опаздывать."
+      ],
+      "practice": {
+        "q": "1. «Он опаздывает»: He ___ late for work. 2. «Я работаю допоздна». 3. Отрицание I work late. 4. Вопрос You are late. 5. Стандартный предлог late ___ work.",
+        "a": "1. is. 2. I work late. 3. I don't work late. 4. Are you late? 5. for."
+      }
+    },
+    {
+      "h": "Мнение о поездке: привычка + причина",
+      "text": [
+        "Спросить отношение: **How do you feel about + предмет?** Ответ строим по шагам: способ → частота → причина. **I rarely take the metro because I don't like crowds.** Rarely стоит перед обычным глаголом take; после be: It is rarely quiet.",
+        "**I prefer + предмет / действие-ing**: I prefer taxis / I prefer walking. Для короткой причины: because + подлежащее + глагол. Отрицание I don't like crowds; вопрос Do you like crowds? После don't используем like без -s.",
+        "О зависимости: **It depends on + условие**. It требует depends с -s, после depends нужен on. Вопрос Does it depend on the time? — после does уже depend без -s. Можно уточнить It depends on whether it is rush hour; это готовая реплика, а не новый большой грамматический блок.",
+        "Об удобстве говори как о своём предпочтении, не как об универсальной истине: A taxi is often faster, but it depends on the traffic. После can/can't глагол без to: I can't get on the train."
+      ],
+      "ex": [
+        [
+          "How do you feel about the metro?",
+          "Как ты относишься к метро?"
+        ],
+        [
+          "I rarely take the metro because I don't like crowds.",
+          "Я редко езжу на метро, потому что не люблю толпы."
+        ],
+        [
+          "I prefer walking when the weather is good.",
+          "Я предпочитаю ходить пешком, когда хорошая погода."
+        ],
+        [
+          "A taxi is often faster, but it depends on the traffic.",
+          "Такси часто быстрее, но это зависит от дорожного движения."
+        ],
+        [
+          "Does it depend on the time of day?",
+          "Это зависит от времени суток?"
+        ],
+        [
+          "I can't get on the train because it is full.",
+          "Я не могу сесть в поезд, потому что он переполнен."
+        ]
+      ],
+      "warn": [
+        "It depend on → It depends on: в утверждении it + глагол с -s. Does it depends? → Does it depend?: -s уже учтено в does.",
+        "I can't to get on → I can't get on: после can/can't без to. I rarely to take → I rarely take: rarely — наречие, не глагол, требующий to."
+      ],
+      "practice": {
+        "q": "1. Rarely перед или после обычного take? 2. It depend — исправь. 3. depends ___ traffic. 4. can to go — исправь. 5. Как спросить отношение к метро?",
+        "a": "1. Перед: I rarely take. 2. It depends. 3. on. 4. can go. 5. How do you feel about the metro?"
+      }
+    }
+  ],
+  "vocab": [
+    {
+      "en": "public transport",
+      "ru": "общественный транспорт",
+      "pron": "паблик трэнспорт",
+      "why": "public transport — общественный транспорт. Пример: I use public transport every day. — Я пользуюсь общественным транспортом каждый день."
+    },
+    {
+      "en": "rush hour",
+      "ru": "час пик",
+      "pron": "раш ауэ",
+      "why": "rush hour — час пик. Пример: The roads are busy at rush hour. — В час пик дороги загружены."
+    },
+    {
+      "en": "traffic",
+      "ru": "транспортное движение, пробки",
+      "pron": "трэфик",
+      "why": "traffic — транспортное движение, пробки. Пример: There is a lot of traffic today. — Сегодня большой поток транспорта."
+    },
+    {
+      "en": "crowd",
+      "ru": "толпа",
+      "pron": "крауд",
+      "why": "crowd — толпа. Пример: There is a crowd near the entrance. — Возле входа толпа."
+    },
+    {
+      "en": "playground",
+      "ru": "детская площадка",
+      "pron": "плэйграунд",
+      "why": "playground — детская площадка. Пример: There is a playground in the park. — В парке есть детская площадка."
+    },
+    {
+      "en": "town hall",
+      "ru": "мэрия",
+      "pron": "таун хол",
+      "why": "town hall — мэрия. Пример: The town hall is opposite the church. — Мэрия напротив церкви."
+    },
+    {
+      "en": "church",
+      "ru": "церковь",
+      "pron": "чёч",
+      "why": "church — церковь. Пример: There is an old church here. — Здесь есть старая церковь."
+    },
+    {
+      "en": "police station",
+      "ru": "полицейский участок",
+      "pron": "пэлис стэйшн",
+      "why": "police station — полицейский участок. Пример: Is there a police station near here? — Поблизости есть полицейский участок?"
+    },
+    {
+      "en": "traffic lights",
+      "ru": "светофор/светофоры",
+      "pron": "трэфик лайтс",
+      "why": "traffic lights — светофор/светофоры. Пример: Turn left at the traffic lights. — Поверните налево у светофора."
+    },
+    {
+      "en": "bridge",
+      "ru": "мост",
+      "pron": "бридж",
+      "why": "bridge — мост. Пример: There is a bridge over the river. — Через реку есть мост."
+    },
+    {
+      "en": "underpass",
+      "ru": "подземный пешеходный переход",
+      "pron": "андэпаас",
+      "why": "underpass — подземный пешеходный переход. Пример: Go through the underpass. — Пройдите через подземный переход."
+    },
+    {
+      "en": "roundabout",
+      "ru": "кольцевая развязка",
+      "pron": "раундэбаут",
+      "why": "roundabout — кольцевая развязка. Пример: Take the second exit at the roundabout. — На кольцевой развязке выберите второй съезд."
+    },
+    {
+      "en": "monument",
+      "ru": "памятник",
+      "pron": "моньюмэнт",
+      "why": "monument — памятник. Пример: Walk past the monument. — Пройдите мимо памятника."
+    },
+    {
+      "en": "crossroads",
+      "ru": "перекрёсток",
+      "pron": "кросроудз",
+      "why": "crossroads — перекрёсток. Пример: Turn right at the crossroads. — Поверните направо на перекрёстке."
+    },
+    {
+      "en": "crossing",
+      "ru": "переход",
+      "pron": "кросинг",
+      "why": "crossing — переход. Пример: Use the crossing near the school. — Воспользуйтесь переходом возле школы."
+    },
+    {
+      "en": "stadium",
+      "ru": "стадион",
+      "pron": "стэйдиэм",
+      "why": "stadium — стадион. Пример: There is a stadium near my house. — Рядом с моим домом есть стадион."
+    },
+    {
+      "en": "on foot",
+      "ru": "пешком",
+      "pron": "он фут",
+      "why": "on foot — пешком. Пример: I go to the shop on foot. — Я хожу в магазин пешком."
+    },
+    {
+      "en": "by bus",
+      "ru": "на автобусе",
+      "pron": "бай бас",
+      "why": "by bus — на автобусе. Пример: I go to school by bus. — Я езжу в школу на автобусе."
+    },
+    {
+      "en": "get on a train",
+      "ru": "сесть в поезд",
+      "pron": "гэт он э трэйн",
+      "why": "get on a train — сесть в поезд. Пример: You can get on a train here. — Здесь можно сесть в поезд."
+    },
+    {
+      "en": "get off a train",
+      "ru": "выйти из поезда",
+      "pron": "гэт оф э трэйн",
+      "why": "get off a train — выйти из поезда. Пример: You can get off a train at this station. — На этой станции можно выйти из поезда."
+    },
+    {
+      "en": "near",
+      "ru": "рядом, недалеко от",
+      "pron": "ниэ",
+      "why": "near — рядом, недалеко от. Пример: The stadium is near my house. — Стадион недалеко от моего дома."
+    },
+    {
+      "en": "next to",
+      "ru": "вплотную рядом с",
+      "pron": "нэкст ту",
+      "why": "next to — вплотную рядом с. Пример: The shop is next to the bank. — Магазин непосредственно рядом с банком."
+    },
+    {
+      "en": "opposite",
+      "ru": "напротив",
+      "pron": "опэзит",
+      "why": "opposite — напротив. Пример: The museum is opposite the park. — Музей напротив парка."
+    },
+    {
+      "en": "between",
+      "ru": "между",
+      "pron": "битуин",
+      "why": "between — между. Пример: The bank is between the café and the shop. — Банк между кафе и магазином."
+    },
+    {
+      "en": "go past",
+      "ru": "пройти мимо",
+      "pron": "гоу пааст",
+      "why": "go past — пройти мимо. Пример: Go past the town hall. — Пройдите мимо мэрии."
+    },
+    {
+      "en": "go through",
+      "ru": "пройти сквозь, внутри",
+      "pron": "гоу сру",
+      "why": "go through — пройти сквозь, внутри. Пример: Go through the underpass. — Пройдите через подземный переход."
+    },
+    {
+      "en": "go across",
+      "ru": "перейти на другую сторону",
+      "pron": "гоу экрос",
+      "why": "go across — перейти на другую сторону. Пример: Go across the road at the crossing. — Перейдите дорогу по переходу."
+    },
+    {
+      "en": "go straight on",
+      "ru": "идти прямо",
+      "pron": "гоу стрэйт он",
+      "why": "go straight on — идти прямо. Пример: Go straight on to the park. — Идите прямо до парка."
+    },
+    {
+      "en": "facilities",
+      "ru": "условия, удобства; инфраструктура",
+      "pron": "фэсилитиз",
+      "why": "facilities — условия, удобства; инфраструктура. Пример: The station has good facilities. — На станции хорошие удобства."
+    },
+    {
+      "en": "on your right",
+      "ru": "справа от тебя",
+      "pron": "он ё райт",
+      "why": "on your right — справа от тебя. Пример: The museum is on your right. — Музей справа от вас."
+    }
+  ],
+  "l2": [
+    {
+      "q": "There ___ a bridge near the park.",
+      "o": [
+        "is",
+        "are",
+        "have"
+      ],
+      "a": 0,
+      "why": "Один мост: There is + a + noun. Ещё пример: I have a bicycle. — У меня есть велосипед."
+    },
+    {
+      "q": "There ___ two bus stops here.",
+      "o": [
+        "is",
+        "has",
+        "are"
+      ],
+      "a": 2,
+      "why": "Два предмета: There are + множественное. Ещё пример: I live in a small town. — Я живу в небольшом городе."
+    },
+    {
+      "q": "There ___ some traffic today.",
+      "o": [
+        "do",
+        "is",
+        "are"
+      ],
+      "a": 1,
+      "why": "Traffic неисчисляемое, поэтому is. Ещё пример: There is an old church here. — Здесь есть старая церковь."
+    },
+    {
+      "q": "There aren't ___ buses here.",
+      "o": [
+        "any",
+        "a",
+        "an"
+      ],
+      "a": 0,
+      "why": "Нейтральное отрицание во множественном: aren't any. Ещё пример: This is a good option. — Это хороший вариант."
+    },
+    {
+      "q": "___ there a church near here?",
+      "o": [
+        "Are",
+        "Does",
+        "Is"
+      ],
+      "a": 2,
+      "why": "Вопрос об одном объекте: Is there + a noun? Ещё пример: The church is old. — Эта церковь старая (уже упомянута)."
+    },
+    {
+      "q": "___ there any traffic lights here?",
+      "o": [
+        "Do",
+        "Are",
+        "Is"
+      ],
+      "a": 1,
+      "why": "Traffic lights — множественное число, вопрос Are there? Ещё пример: The stadium is near my house. — Стадион недалеко от моего дома."
+    },
+    {
+      "q": "___ are building a new bridge.",
+      "o": [
+        "They",
+        "There",
+        "Their"
+      ],
+      "a": 0,
+      "why": "Есть деятель они и действие building: They are, не There are. Ещё пример: The café is next to the station. — Кафе непосредственно рядом со станцией."
+    },
+    {
+      "q": "I ___ a bicycle.",
+      "o": [
+        "am",
+        "there",
+        "have"
+      ],
+      "a": 2,
+      "why": "Владение: I have + предмет; there is сообщает о наличии в месте. Ещё пример: The bank is between the shop and the museum. — Банк между магазином и музеем."
+    },
+    {
+      "q": "I live in ___ small town.",
+      "o": [
+        "the a",
+        "a",
+        "an"
+      ],
+      "a": 1,
+      "why": "Один город впервые: a + small + town. Ещё пример: The town hall is opposite the church. — Мэрия напротив церкви."
+    },
+    {
+      "q": "There is ___ old church here.",
+      "o": [
+        "an",
+        "a",
+        "any"
+      ],
+      "a": 0,
+      "why": "Old начинается с гласного звука: an + old church. Ещё пример: The crossing is on the main road. — Переход на главной дороге."
+    },
+    {
+      "q": "This is ___ good option.",
+      "o": [
+        "an",
+        "some",
+        "a"
+      ],
+      "a": 2,
+      "why": "Артикль перед прилагательным: a good option. Ещё пример: Turn left at the traffic lights. — Поверните налево у светофора."
+    },
+    {
+      "q": "___ church is old. (Уже упомянута.)",
+      "o": [
+        "An",
+        "The",
+        "A"
+      ],
+      "a": 1,
+      "why": "Об уже известной церкви: the church. Ещё пример: Go to the town hall. — Идите к мэрии."
+    },
+    {
+      "q": "The stadium is ___ my house.",
+      "o": [
+        "near",
+        "near with",
+        "between"
+      ],
+      "a": 0,
+      "why": "Near уже значит рядом с; with после него не нужен. Ещё пример: Walk past the monument. — Пройдите мимо памятника."
+    },
+    {
+      "q": "The café is next ___ the station.",
+      "o": [
+        "at",
+        "on",
+        "to"
+      ],
+      "a": 2,
+      "why": "Устойчивое next to: непосредственно рядом с. Ещё пример: Go through the underpass. — Пройдите через подземный переход."
+    },
+    {
+      "q": "The bank is ___ the shop and the museum.",
+      "o": [
+        "through",
+        "between",
+        "opposite"
+      ],
+      "a": 1,
+      "why": "Between A and B связывает два ориентира. Ещё пример: Go across the road. — Перейдите на другую сторону дороги."
+    },
+    {
+      "q": "The town hall is ___ the church. (Напротив.)",
+      "o": [
+        "opposite",
+        "along",
+        "through"
+      ],
+      "a": 0,
+      "why": "Opposite / across from означает напротив другого объекта. Ещё пример: Walk along the river. — Идите вдоль реки."
+    },
+    {
+      "q": "The crossing is ___ the main road.",
+      "o": [
+        "to",
+        "through",
+        "on"
+      ],
+      "a": 2,
+      "why": "Расположение на улице/дороге: on the road. Ещё пример: The museum is on your right. — Музей справа от вас."
+    },
+    {
+      "q": "Turn left ___ the traffic lights.",
+      "o": [
+        "in",
+        "at",
+        "on"
+      ],
+      "a": 1,
+      "why": "At отмечает точку поворота; on был бы поверхностью. Ещё пример: I go to work by bus. — Я езжу на работу на автобусе."
+    },
+    {
+      "q": "Go ___ the town hall.",
+      "o": [
+        "to",
+        "at",
+        "on"
+      ],
+      "a": 0,
+      "why": "Движение к цели: go to; at описывает место. Ещё пример: We go to the park on foot. — Мы ходим в парк пешком."
+    },
+    {
+      "q": "Walk ___ the monument. (Мимо.)",
+      "o": [
+        "through",
+        "between",
+        "past"
+      ],
+      "a": 2,
+      "why": "Past — мимо, не проход внутрь. Ещё пример: Get off the train here. — Выйдите из поезда здесь."
+    },
+    {
+      "q": "Go ___ the underpass. (Внутри.)",
+      "o": [
+        "along",
+        "through",
+        "past"
+      ],
+      "a": 1,
+      "why": "Through: движение внутри пространства. Ещё пример: A taxi is faster than a bus. — Такси быстрее автобуса."
+    },
+    {
+      "q": "Go ___ the road. (На другую сторону.)",
+      "o": [
+        "across",
+        "along",
+        "between"
+      ],
+      "a": 0,
+      "why": "Go across / cross — пересечь дорогу, along — вдоль. Ещё пример: I am late for work. — Я опаздываю на работу."
+    },
+    {
+      "q": "Walk ___ the river. (Вдоль.)",
+      "o": [
+        "across",
+        "opposite",
+        "along"
+      ],
+      "a": 2,
+      "why": "Along — вдоль линии реки; across — поперёк. Ещё пример: It depends on the traffic. — Это зависит от движения транспорта."
+    },
+    {
+      "q": "The museum is ___ your right.",
+      "o": [
+        "at",
+        "on",
+        "opposite"
+      ],
+      "a": 1,
+      "why": "Сторона относительно человека: on your right. Ещё пример: There is a bridge near the park. — Возле парка есть мост."
+    },
+    {
+      "q": "I go to work ___ bus.",
+      "o": [
+        "by",
+        "on",
+        "with"
+      ],
+      "a": 0,
+      "why": "By + вид транспорта без артикля. Ещё пример: There are two bus stops here. — Здесь две автобусные остановки."
+    },
+    {
+      "q": "We go to the park ___ foot.",
+      "o": [
+        "by",
+        "in",
+        "on"
+      ],
+      "a": 2,
+      "why": "Пешком — on foot, исключение из by + транспорт. Ещё пример: There is some traffic today. — Сегодня есть транспортное движение."
+    },
+    {
+      "q": "Get ___ the train here. (Выйдите.)",
+      "o": [
+        "in",
+        "off",
+        "on"
+      ],
+      "a": 1,
+      "why": "Get off — выйти из поезда; get on — сесть. Ещё пример: There aren't any buses here. — Здесь нет автобусов."
+    },
+    {
+      "q": "A taxi is faster ___ a bus.",
+      "o": [
+        "than",
+        "then",
+        "that"
+      ],
+      "a": 0,
+      "why": "Сравнение с than; then означает затем. Ещё пример: Is there a church near here? — Поблизости есть церковь?"
+    },
+    {
+      "q": "I am late ___ work.",
+      "o": [
+        "on",
+        "in",
+        "for"
+      ],
+      "a": 2,
+      "why": "Be late for work — опаздывать; work late — работать допоздна. Ещё пример: Are there any traffic lights here? — Здесь есть светофоры?"
+    },
+    {
+      "q": "It ___ on the traffic.",
+      "o": [
+        "depending",
+        "depends",
+        "depend"
+      ],
+      "a": 1,
+      "why": "It + depends в утверждении, depend после does. Ещё пример: They are building a new bridge. — Они строят новый мост."
+    }
+  ],
+  "l3": [
+    {
+      "q": "There ___ a bridge near the park.",
+      "hint": "Впиши пропущенное слово.",
+      "a": [
+        "is"
+      ],
+      "why": "Один мост: There is + a + noun. Ещё пример: I have a bicycle. — У меня есть велосипед."
+    },
+    {
+      "q": "There ___ two bus stops here.",
+      "hint": "Впиши пропущенное слово.",
+      "a": [
+        "are"
+      ],
+      "why": "Два предмета: There are + множественное. Ещё пример: I live in a small town. — Я живу в небольшом городе."
+    },
+    {
+      "q": "There ___ some traffic today.",
+      "hint": "Впиши пропущенное слово.",
+      "a": [
+        "is"
+      ],
+      "why": "Traffic неисчисляемое, поэтому is. Ещё пример: There is an old church here. — Здесь есть старая церковь."
+    },
+    {
+      "q": "There aren't ___ buses here.",
+      "hint": "Впиши пропущенное слово.",
+      "a": [
+        "any"
+      ],
+      "why": "Нейтральное отрицание во множественном: aren't any. Ещё пример: This is a good option. — Это хороший вариант."
+    },
+    {
+      "q": "___ there a church near here?",
+      "hint": "Впиши пропущенное слово.",
+      "a": [
+        "Is"
+      ],
+      "why": "Вопрос об одном объекте: Is there + a noun? Ещё пример: The church is old. — Эта церковь старая (уже упомянута)."
+    },
+    {
+      "q": "___ there any traffic lights here?",
+      "hint": "Впиши пропущенное слово.",
+      "a": [
+        "Are"
+      ],
+      "why": "Traffic lights — множественное число, вопрос Are there? Ещё пример: The stadium is near my house. — Стадион недалеко от моего дома."
+    },
+    {
+      "q": "___ are building a new bridge.",
+      "hint": "Впиши пропущенное слово.",
+      "a": [
+        "They"
+      ],
+      "why": "Есть деятель они и действие building: They are, не There are. Ещё пример: The café is next to the station. — Кафе непосредственно рядом со станцией."
+    },
+    {
+      "q": "I ___ a bicycle.",
+      "hint": "Впиши пропущенное слово.",
+      "a": [
+        "have"
+      ],
+      "why": "Владение: I have + предмет; there is сообщает о наличии в месте. Ещё пример: The bank is between the shop and the museum. — Банк между магазином и музеем."
+    },
+    {
+      "q": "I live in ___ small town.",
+      "hint": "Впиши пропущенное слово.",
+      "a": [
+        "a"
+      ],
+      "why": "Один город впервые: a + small + town. Ещё пример: The town hall is opposite the church. — Мэрия напротив церкви."
+    },
+    {
+      "q": "There is ___ old church here.",
+      "hint": "Впиши пропущенное слово.",
+      "a": [
+        "an"
+      ],
+      "why": "Old начинается с гласного звука: an + old church. Ещё пример: The crossing is on the main road. — Переход на главной дороге."
+    },
+    {
+      "q": "This is ___ good option.",
+      "hint": "Впиши пропущенное слово.",
+      "a": [
+        "a"
+      ],
+      "why": "Артикль перед прилагательным: a good option. Ещё пример: Turn left at the traffic lights. — Поверните налево у светофора."
+    },
+    {
+      "q": "___ church is old. (Уже упомянута.)",
+      "hint": "Впиши пропущенное слово.",
+      "a": [
+        "The"
+      ],
+      "why": "Об уже известной церкви: the church. Ещё пример: Go to the town hall. — Идите к мэрии."
+    },
+    {
+      "q": "The stadium is ___ my house.",
+      "hint": "Впиши пропущенное слово.",
+      "a": [
+        "near"
+      ],
+      "why": "Near уже значит рядом с; with после него не нужен. Ещё пример: Walk past the monument. — Пройдите мимо памятника."
+    },
+    {
+      "q": "The café is next ___ the station.",
+      "hint": "Впиши пропущенное слово.",
+      "a": [
+        "to"
+      ],
+      "why": "Устойчивое next to: непосредственно рядом с. Ещё пример: Go through the underpass. — Пройдите через подземный переход."
+    },
+    {
+      "q": "The bank is ___ the shop and the museum.",
+      "hint": "Впиши пропущенное слово.",
+      "a": [
+        "between"
+      ],
+      "why": "Between A and B связывает два ориентира. Ещё пример: Go across the road. — Перейдите на другую сторону дороги."
+    },
+    {
+      "q": "The town hall is ___ the church. (Напротив.)",
+      "hint": "Впиши пропущенное слово.",
+      "a": [
+        "opposite",
+        "across from"
+      ],
+      "why": "Opposite / across from означает напротив другого объекта. Ещё пример: Walk along the river. — Идите вдоль реки."
+    },
+    {
+      "q": "The crossing is ___ the main road.",
+      "hint": "Впиши пропущенное слово.",
+      "a": [
+        "on"
+      ],
+      "why": "Расположение на улице/дороге: on the road. Ещё пример: The museum is on your right. — Музей справа от вас."
+    },
+    {
+      "q": "Turn left ___ the traffic lights.",
+      "hint": "Впиши пропущенное слово.",
+      "a": [
+        "at"
+      ],
+      "why": "At отмечает точку поворота; on был бы поверхностью. Ещё пример: I go to work by bus. — Я езжу на работу на автобусе."
+    },
+    {
+      "q": "Go ___ the town hall.",
+      "hint": "Впиши пропущенное слово.",
+      "a": [
+        "to"
+      ],
+      "why": "Движение к цели: go to; at описывает место. Ещё пример: We go to the park on foot. — Мы ходим в парк пешком."
+    },
+    {
+      "q": "Walk ___ the monument. (Мимо.)",
+      "hint": "Впиши пропущенное слово.",
+      "a": [
+        "past"
+      ],
+      "why": "Past — мимо, не проход внутрь. Ещё пример: Get off the train here. — Выйдите из поезда здесь."
+    },
+    {
+      "q": "Go ___ the underpass. (Внутри.)",
+      "hint": "Впиши пропущенное слово.",
+      "a": [
+        "through"
+      ],
+      "why": "Through: движение внутри пространства. Ещё пример: A taxi is faster than a bus. — Такси быстрее автобуса."
+    },
+    {
+      "q": "Go ___ the road. (На другую сторону.)",
+      "hint": "Впиши пропущенное слово.",
+      "a": [
+        "across"
+      ],
+      "why": "Go across / cross — пересечь дорогу, along — вдоль. Ещё пример: I am late for work. — Я опаздываю на работу."
+    },
+    {
+      "q": "Walk ___ the river. (Вдоль.)",
+      "hint": "Впиши пропущенное слово.",
+      "a": [
+        "along"
+      ],
+      "why": "Along — вдоль линии реки; across — поперёк. Ещё пример: It depends on the traffic. — Это зависит от движения транспорта."
+    },
+    {
+      "q": "The museum is ___ your right.",
+      "hint": "Впиши пропущенное слово.",
+      "a": [
+        "on"
+      ],
+      "why": "Сторона относительно человека: on your right. Ещё пример: There is a bridge near the park. — Возле парка есть мост."
+    },
+    {
+      "q": "I go to work ___ bus.",
+      "hint": "Впиши пропущенное слово.",
+      "a": [
+        "by"
+      ],
+      "why": "By + вид транспорта без артикля. Ещё пример: There are two bus stops here. — Здесь две автобусные остановки."
+    },
+    {
+      "q": "We go to the park ___ foot.",
+      "hint": "Впиши пропущенное слово.",
+      "a": [
+        "on"
+      ],
+      "why": "Пешком — on foot, исключение из by + транспорт. Ещё пример: There is some traffic today. — Сегодня есть транспортное движение."
+    }
+  ],
+  "l4": [
+    {
+      "ru": "Возле парка есть мост.",
+      "en": "There is a bridge near the park.",
+      "why": "Один мост: There is + a + noun. Ещё пример: I have a bicycle. — У меня есть велосипед."
+    },
+    {
+      "ru": "Здесь две автобусные остановки.",
+      "en": "There are two bus stops here.",
+      "why": "Два предмета: There are + множественное. Ещё пример: I live in a small town. — Я живу в небольшом городе."
+    },
+    {
+      "ru": "Здесь нет автобусов.",
+      "en": "There aren't any buses here.",
+      "why": "Нейтральное отрицание во множественном: aren't any. Ещё пример: This is a good option. — Это хороший вариант."
+    },
+    {
+      "ru": "Поблизости есть церковь?",
+      "en": "Is there a church near here?",
+      "why": "Вопрос об одном объекте: Is there + a noun? Ещё пример: The church is old. — Эта церковь старая (уже упомянута)."
+    },
+    {
+      "ru": "Здесь есть светофоры?",
+      "en": "Are there any traffic lights here?",
+      "why": "Traffic lights — множественное число, вопрос Are there? Ещё пример: The stadium is near my house. — Стадион недалеко от моего дома."
+    },
+    {
+      "ru": "Они строят новый мост.",
+      "en": "They are building a new bridge.",
+      "why": "Есть деятель они и действие building: They are, не There are. Ещё пример: The café is next to the station. — Кафе непосредственно рядом со станцией."
+    },
+    {
+      "ru": "У меня есть велосипед.",
+      "en": "I have a bicycle.",
+      "why": "Владение: I have + предмет; there is сообщает о наличии в месте. Ещё пример: The bank is between the shop and the museum. — Банк между магазином и музеем."
+    },
+    {
+      "ru": "Я живу в небольшом городе.",
+      "en": "I live in a small town.",
+      "why": "Один город впервые: a + small + town. Ещё пример: The town hall is opposite the church. — Мэрия напротив церкви."
+    },
+    {
+      "ru": "Здесь есть старая церковь.",
+      "en": "There is an old church here.",
+      "why": "Old начинается с гласного звука: an + old church. Ещё пример: The crossing is on the main road. — Переход на главной дороге."
+    },
+    {
+      "ru": "Стадион недалеко от моего дома.",
+      "en": "The stadium is near my house.",
+      "why": "Near уже значит рядом с; with после него не нужен. Ещё пример: Walk past the monument. — Пройдите мимо памятника."
+    },
+    {
+      "ru": "Кафе непосредственно рядом со станцией.",
+      "en": "The café is next to the station.",
+      "why": "Устойчивое next to: непосредственно рядом с. Ещё пример: Go through the underpass. — Пройдите через подземный переход."
+    },
+    {
+      "ru": "Банк между магазином и музеем.",
+      "en": "The bank is between the shop and the museum.",
+      "why": "Between A and B связывает два ориентира. Ещё пример: Go across the road. — Перейдите на другую сторону дороги."
+    },
+    {
+      "ru": "Переход на главной дороге.",
+      "en": "The crossing is on the main road.",
+      "why": "Расположение на улице/дороге: on the road. Ещё пример: The museum is on your right. — Музей справа от вас."
+    },
+    {
+      "ru": "Поверните налево у светофора.",
+      "en": "Turn left at the traffic lights.",
+      "why": "At отмечает точку поворота; on был бы поверхностью. Ещё пример: I go to work by bus. — Я езжу на работу на автобусе."
+    },
+    {
+      "ru": "Идите к мэрии.",
+      "en": "Go to the town hall.",
+      "why": "Движение к цели: go to; at описывает место. Ещё пример: We go to the park on foot. — Мы ходим в парк пешком."
+    },
+    {
+      "ru": "Пройдите мимо памятника.",
+      "en": "Walk past the monument.",
+      "why": "Past — мимо, не проход внутрь. Ещё пример: Get off the train here. — Выйдите из поезда здесь."
+    },
+    {
+      "ru": "Пройдите через подземный переход.",
+      "en": "Go through the underpass.",
+      "why": "Through: движение внутри пространства. Ещё пример: A taxi is faster than a bus. — Такси быстрее автобуса."
+    },
+    {
+      "ru": "Перейдите на другую сторону дороги.",
+      "en": "Go across the road.",
+      "why": "Go across / cross — пересечь дорогу, along — вдоль. Ещё пример: I am late for work. — Я опаздываю на работу."
+    },
+    {
+      "ru": "Музей справа от вас.",
+      "en": "The museum is on your right.",
+      "why": "Сторона относительно человека: on your right. Ещё пример: There is a bridge near the park. — Возле парка есть мост."
+    },
+    {
+      "ru": "Я езжу на работу на автобусе.",
+      "en": "I go to work by bus.",
+      "why": "By + вид транспорта без артикля. Ещё пример: There are two bus stops here. — Здесь две автобусные остановки."
+    }
+  ],
+  "l5": [
+    {
+      "ru": "Возле парка есть мост.",
+      "a": [
+        "There is a bridge near the park.",
+        "There is a bridge close to the park."
+      ],
+      "why": "Один мост: There is + a + noun. Ещё пример: I have a bicycle. — У меня есть велосипед."
+    },
+    {
+      "ru": "Здесь две автобусные остановки.",
+      "a": [
+        "There are two bus stops here."
+      ],
+      "why": "Два предмета: There are + множественное. Ещё пример: I live in a small town. — Я живу в небольшом городе."
+    },
+    {
+      "ru": "Здесь нет автобусов.",
+      "a": [
+        "There aren't any buses here."
+      ],
+      "why": "Нейтральное отрицание во множественном: aren't any. Ещё пример: This is a good option. — Это хороший вариант."
+    },
+    {
+      "ru": "Поблизости есть церковь?",
+      "a": [
+        "Is there a church near here?",
+        "Is there a church close to here?"
+      ],
+      "why": "Вопрос об одном объекте: Is there + a noun? Ещё пример: The church is old. — Эта церковь старая (уже упомянута)."
+    },
+    {
+      "ru": "Здесь есть светофоры?",
+      "a": [
+        "Are there any traffic lights here?"
+      ],
+      "why": "Traffic lights — множественное число, вопрос Are there? Ещё пример: The stadium is near my house. — Стадион недалеко от моего дома."
+    },
+    {
+      "ru": "Они строят новый мост.",
+      "a": [
+        "They are building a new bridge."
+      ],
+      "why": "Есть деятель они и действие building: They are, не There are. Ещё пример: The café is next to the station. — Кафе непосредственно рядом со станцией."
+    },
+    {
+      "ru": "У меня есть велосипед.",
+      "a": [
+        "I have a bicycle."
+      ],
+      "why": "Владение: I have + предмет; there is сообщает о наличии в месте. Ещё пример: The bank is between the shop and the museum. — Банк между магазином и музеем."
+    },
+    {
+      "ru": "Я живу в небольшом городе.",
+      "a": [
+        "I live in a small town."
+      ],
+      "why": "Один город впервые: a + small + town. Ещё пример: The town hall is opposite the church. — Мэрия напротив церкви."
+    },
+    {
+      "ru": "Здесь есть старая церковь.",
+      "a": [
+        "There is an old church here."
+      ],
+      "why": "Old начинается с гласного звука: an + old church. Ещё пример: The crossing is on the main road. — Переход на главной дороге."
+    },
+    {
+      "ru": "Это хороший вариант.",
+      "a": [
+        "This is a good option."
+      ],
+      "why": "Артикль перед прилагательным: a good option. Ещё пример: Turn left at the traffic lights. — Поверните налево у светофора."
+    },
+    {
+      "ru": "Стадион недалеко от моего дома.",
+      "a": [
+        "The stadium is near my house.",
+        "There is a stadium near my house.",
+        "The stadium is close to my house."
+      ],
+      "why": "Near уже значит рядом с; with после него не нужен. Ещё пример: Walk past the monument. — Пройдите мимо памятника."
+    },
+    {
+      "ru": "Банк между магазином и музеем.",
+      "a": [
+        "The bank is between the shop and the museum."
+      ],
+      "why": "Between A and B связывает два ориентира. Ещё пример: Go across the road. — Перейдите на другую сторону дороги."
+    },
+    {
+      "ru": "Мэрия напротив церкви.",
+      "a": [
+        "The town hall is opposite the church.",
+        "The town hall is across from the church."
+      ],
+      "why": "Opposite / across from означает напротив другого объекта. Ещё пример: Walk along the river. — Идите вдоль реки."
+    },
+    {
+      "ru": "Поверните налево у светофора.",
+      "a": [
+        "Turn left at the traffic lights."
+      ],
+      "why": "At отмечает точку поворота; on был бы поверхностью. Ещё пример: I go to work by bus. — Я езжу на работу на автобусе."
+    },
+    {
+      "ru": "Пройдите мимо памятника.",
+      "a": [
+        "Walk past the monument."
+      ],
+      "why": "Past — мимо, не проход внутрь. Ещё пример: Get off the train here. — Выйдите из поезда здесь."
+    },
+    {
+      "ru": "Пройдите через подземный переход.",
+      "a": [
+        "Go through the underpass."
+      ],
+      "why": "Through: движение внутри пространства. Ещё пример: A taxi is faster than a bus. — Такси быстрее автобуса."
+    },
+    {
+      "ru": "Музей справа от вас.",
+      "a": [
+        "The museum is on your right."
+      ],
+      "why": "Сторона относительно человека: on your right. Ещё пример: There is a bridge near the park. — Возле парка есть мост."
+    },
+    {
+      "ru": "Я опаздываю на работу.",
+      "a": [
+        "I am late for work."
+      ],
+      "why": "Be late for work — опаздывать; work late — работать допоздна. Ещё пример: Are there any traffic lights here? — Здесь есть светофоры?"
+    }
+  ],
+  "l6": [
+    {
+      "q": "How do you get to work?",
+      "ru": "Назови транспорт и частоту.",
+      "start": "I usually go",
+      "starts": [
+        "I usually go",
+        "I rarely take",
+        "I prefer"
+      ],
+      "model": "I usually go to work by bus, but I sometimes walk."
+    },
+    {
+      "q": "How do you feel about the metro?",
+      "ru": "Мнение и одна причина.",
+      "start": "I like",
+      "starts": [
+        "I like",
+        "I don't like",
+        "I rarely take"
+      ],
+      "model": "I rarely take the metro because I don't like crowds."
+    },
+    {
+      "q": "What is near the park?",
+      "ru": "Назови два городских объекта в вымышленном районе.",
+      "start": "There is",
+      "starts": [
+        "There is",
+        "There are",
+        "Near the park"
+      ],
+      "model": "There is a church near the park. There are two bus stops there."
+    },
+    {
+      "q": "Is there a police station near here?",
+      "ru": "Вымышленная ситуация: участок рядом с мэрией.",
+      "start": "Yes, there is",
+      "starts": [
+        "Yes, there is",
+        "It is next to",
+        "You can"
+      ],
+      "model": "Yes, there is. It is next to the town hall."
+    },
+    {
+      "q": "How do I get to the museum?",
+      "ru": "Дано: прямо, налево у светофора, музей справа. Это управляемая практика.",
+      "start": "Go straight on",
+      "starts": [
+        "Go straight on",
+        "Turn left at",
+        "It is on"
+      ],
+      "model": "Go straight on and turn left at the traffic lights. The museum is on your right."
+    },
+    {
+      "q": "What do you have, and what is near your home?",
+      "ru": "Раздели владение велосипедом и расположение стадиона.",
+      "start": "I have",
+      "starts": [
+        "I have",
+        "There is",
+        "I don't have"
+      ],
+      "model": "I have a bike. There is a stadium near my house."
+    },
+    {
+      "q": "Which is faster, a taxi or a bus?",
+      "ru": "Сравни и назови условие.",
+      "start": "A taxi is often",
+      "starts": [
+        "A taxi is often",
+        "It depends on",
+        "At rush hour"
+      ],
+      "model": "A taxi is often faster, but it depends on the traffic."
+    },
+    {
+      "q": "What facilities does a station need?",
+      "ru": "Назови конкретные удобства, без обобщений о людях.",
+      "start": "The station needs",
+      "starts": [
+        "The station needs",
+        "There should be",
+        "It is important"
+      ],
+      "model": "The station needs lifts for people with disabilities and older people."
+    },
+    {
+      "q": "Do you work late, or are you late for work?",
+      "ru": "Покажи разницу выражений, можешь придумать пример.",
+      "start": "I often work late",
+      "starts": [
+        "I often work late",
+        "I am not late",
+        "Sometimes I"
+      ],
+      "model": "I often work late, but I am not usually late for work."
+    },
+    {
+      "q": "Can you help a visitor if you don't know the area?",
+      "ru": "Вежливо скажи, что ты не местный.",
+      "start": "Sorry",
+      "starts": [
+        "Sorry",
+        "I'm not",
+        "I don't know"
+      ],
+      "model": "Sorry, I'm not from around here. I don't know this area very well."
+    }
+  ],
+  "fix": [
+    {
+      "wrong": "I can't to get on the train.",
+      "a": [
+        "I can't get on the train."
+      ],
+      "ru": "Я не могу сесть в поезд.",
+      "why": "Can/can't + V1 без to. Ещё пример: Is there a church near here? — Поблизости есть церковь?"
+    },
+    {
+      "wrong": "Inside the train has a lot of people.",
+      "a": [
+        "There are a lot of people on the train."
+      ],
+      "ru": "В поезде много людей.",
+      "why": "Наличие людей: There are; has означало бы владение. On the train обычно при поездке. Ещё пример: Are there any traffic lights here? — Здесь есть светофоры?"
+    },
+    {
+      "wrong": "There are very more people on the train.",
+      "a": [
+        "There are too many people on the train.",
+        "There are a lot of people on the train."
+      ],
+      "ru": "В поезде слишком много людей.",
+      "why": "Too many + люди; very more неверно. A lot of people означает просто много. Ещё пример: They are building a new bridge. — Они строят новый мост."
+    },
+    {
+      "wrong": "I live in a place when there is a river.",
+      "a": [
+        "I live in a place where there is a river."
+      ],
+      "ru": "Я живу в месте, где есть река.",
+      "why": "Where связывает с местом; when — со временем. Ещё пример: I have a bicycle. — У меня есть велосипед."
+    },
+    {
+      "wrong": "I try rarely use metro.",
+      "a": [
+        "I rarely take the metro."
+      ],
+      "ru": "Я редко езжу на метро.",
+      "why": "Для описания привычки: I rarely take the metro. Rarely стоит перед take; try to use означает пытаться использовать и меняет акцент. Ещё пример: I rarely take a taxi. — Я редко езжу на такси."
+    },
+    {
+      "wrong": "There are a cars here.",
+      "a": [
+        "There are cars here."
+      ],
+      "ru": "Здесь есть машины.",
+      "why": "A/an только с единственным числом; cars множественное. Ещё пример: There is an old church here. — Здесь есть старая церковь."
+    },
+    {
+      "wrong": "I live in small town.",
+      "a": [
+        "I live in a small town."
+      ],
+      "ru": "Я живу в небольшом городе.",
+      "why": "A + small + town; прилагательное не заменяет артикль. Ещё пример: This is a good option. — Это хороший вариант."
+    },
+    {
+      "wrong": "It depend on the traffic.",
+      "a": [
+        "It depends on the traffic."
+      ],
+      "ru": "Это зависит от движения транспорта.",
+      "why": "В утверждении с it добавляется -s. В записи есть последующая самокоррекция. Ещё пример: The church is old. — Эта церковь старая (уже упомянута)."
+    },
+    {
+      "wrong": "There are a lot of electric car.",
+      "a": [
+        "There are a lot of electric cars."
+      ],
+      "ru": "Здесь много электромобилей.",
+      "why": "Отдельные машины исчисляемы: cars после a lot of. Ещё пример: The stadium is near my house. — Стадион недалеко от моего дома."
+    },
+    {
+      "wrong": "There are building a new bridge.",
+      "a": [
+        "They are building a new bridge."
+      ],
+      "ru": "Они строят новый мост.",
+      "why": "Они = they; are building — действие сейчас. There are сообщает о наличии. Ещё пример: The café is next to the station. — Кафе непосредственно рядом со станцией."
+    },
+    {
+      "wrong": "Is there are a police station near here?",
+      "a": [
+        "Is there a police station near here?"
+      ],
+      "ru": "Поблизости есть полицейский участок?",
+      "why": "Is there + a + noun: are лишнее, два be здесь не нужны. Ещё пример: The bank is between the shop and the museum. — Банк между магазином и музеем."
+    },
+    {
+      "wrong": "There is a stadium near with my house.",
+      "a": [
+        "There is a stadium near my house.",
+        "There is a stadium close to my house."
+      ],
+      "ru": "Рядом с домом есть стадион.",
+      "why": "Near уже значит рядом с; with не добавляем. Ещё пример: The town hall is opposite the church. — Мэрия напротив церкви."
+    },
+    {
+      "wrong": "I have a stadium near my house.",
+      "a": [
+        "There is a stadium near my house."
+      ],
+      "ru": "Рядом с моим домом есть стадион (не мой).",
+      "why": "There is говорит о расположении, I have меняет смысл на владение/доступ. Ещё пример: The crossing is on the main road. — Переход на главной дороге."
+    },
+    {
+      "wrong": "Turn left on the lights.",
+      "a": [
+        "Turn left at the traffic lights."
+      ],
+      "ru": "Поверните налево у светофора.",
+      "why": "Место поворота — at; traffic lights — светофор, не просто освещение. Ещё пример: Turn left at the traffic lights. — Поверните налево у светофора."
+    },
+    {
+      "wrong": "The museum is opposite your right.",
+      "a": [
+        "The museum is on your right."
+      ],
+      "ru": "Музей справа от вас.",
+      "why": "On your right — сторона; opposite требует объект напротив. Ещё пример: Go to the town hall. — Идите к мэрии."
+    },
+    {
+      "wrong": "My town easy to drive in.",
+      "a": [
+        "My town is easy to drive in."
+      ],
+      "ru": "По моему городу легко ездить на машине.",
+      "why": "Перед характеристикой easy нужен be: my town is easy. Ещё пример: Walk past the monument. — Пройдите мимо памятника."
+    }
+  ],
+  "townContexts": [
+    {
+      "place": "playground",
+      "en": "There is a playground in the park.",
+      "ru": "В парке есть детская площадка."
+    },
+    {
+      "place": "town hall",
+      "en": "The town hall is opposite the church.",
+      "ru": "Мэрия напротив церкви."
+    },
+    {
+      "place": "church",
+      "en": "There is an old church here.",
+      "ru": "Здесь есть старая церковь."
+    },
+    {
+      "place": "police station",
+      "en": "Is there a police station near here?",
+      "ru": "Поблизости есть полицейский участок?"
+    },
+    {
+      "place": "traffic lights",
+      "en": "Turn left at the traffic lights.",
+      "ru": "Поверните налево у светофора."
+    },
+    {
+      "place": "bridge",
+      "en": "There is a bridge over the river.",
+      "ru": "Через реку есть мост."
+    },
+    {
+      "place": "underpass",
+      "en": "Go through the underpass.",
+      "ru": "Пройдите через подземный переход."
+    },
+    {
+      "place": "roundabout",
+      "en": "Take the second exit at the roundabout.",
+      "ru": "На кольцевой развязке выберите второй съезд."
+    },
+    {
+      "place": "monument",
+      "en": "Walk past the monument.",
+      "ru": "Пройдите мимо памятника."
+    },
+    {
+      "place": "crossroads",
+      "en": "Turn right at the crossroads.",
+      "ru": "Поверните направо на перекрёстке."
+    },
+    {
+      "place": "crossing",
+      "en": "Use the crossing near the school.",
+      "ru": "Воспользуйтесь переходом возле школы."
+    },
+    {
+      "place": "stadium",
+      "en": "There is a stadium near my house.",
+      "ru": "Рядом с моим домом есть стадион."
+    }
+  ],
+  "readerTopics": [
+    "Getting to work at rush hour",
+    "The wrong turn in a new town",
+    "A day without the metro",
+    "Finding a museum",
+    "Different ways to travel",
+    "An accessible city"
+  ],
+  "readerGrammar": [
+    "There is/are vs they are; a/an + adjective + noun; some/any at basic level",
+    "Place and movement: near (no with), opposite, at the lights, along, past, through, across",
+    "Public transport, asking directions, simple instructions, preferences and accessibility; no deferred listening or map tasks"
+  ]
+}

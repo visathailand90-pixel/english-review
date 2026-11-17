@@ -1,7 +1,7 @@
 import assert from "node:assert/strict";
 import {DatabaseSync} from "node:sqlite";
 import {handle} from "../backend/worker.mjs";
-import {validateStory} from "../backend/contracts.mjs";
+import {validateStory,validateRequest} from "../backend/contracts.mjs";
 const sql=new DatabaseSync(":memory:");
 sql.exec("CREATE TABLE sessions(token TEXT PRIMARY KEY,csrf TEXT,expires INTEGER);CREATE TABLE quota(key TEXT PRIMARY KEY,n INTEGER);CREATE TABLE flags(key TEXT PRIMARY KEY,value TEXT);CREATE TABLE texts(id TEXT PRIMARY KEY,data TEXT,created INTEGER)");
 const DB={prepare(q){let args=[];return {bind(...a){args=a;return this;},async first(){return sql.prepare(q).get(...args)||null;},async all(){return {results:sql.prepare(q).all(...args)};},async run(){return sql.prepare(q).run(...args);}};}};
@@ -81,3 +81,7 @@ const {portal:portalHtml}=await import("../backend/portal.mjs");const {Script}=a
 const {validateAssessment}=await import("../backend/contracts.mjs");assert.throws(()=>validateAssessment({results:[{...evaluation.results[0],explanation:"An English explanation only"}]},assessment),/invalid_response/);console.log("PASS Russian explanation required");
 
 assert.throws(()=>validateAssessment({results:[{...evaluation.results[0],errorPart:""}]},assessment),/invalid_response/);
+
+assert.equal(validateRequest({...b,lesson:"12"}).lesson,"12");
+assert.throws(()=>validateRequest({...b,lesson:"11"}),/invalid_request/);
+console.log("PASS lesson12 accepted without inventing lesson11");

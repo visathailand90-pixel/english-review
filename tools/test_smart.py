@@ -49,7 +49,7 @@ try:
    assert 'Пропущено' in page.evaluate("spellingDiff('decision','decison')")
    assert 'Лишняя' in page.evaluate("spellingDiff('decision','decisiion')")
    assert page.evaluate("norm('jewellery')===norm('jewelry')")
-   page.locator('[data-mode="cards"]').click();last=page.evaluate('__wordsDebug.packs.length-1');page.locator('[data-pack="'+str(last)+'"]').click();assert page.evaluate('W.length')==15
+   page.locator('[data-mode="cards"]').click();last=page.evaluate("__wordsDebug.packs.findIndex(p=>p.id==='personal-20261113-1')");page.locator('[data-pack="'+str(last)+'"]').click();assert page.evaluate('W.length')==15
    assert page.evaluate('W.filter(w=>w.rep).length')==3
    page.locator('[data-mode="phr"]').click();assert page.locator('.ph').count()==15;assert page.locator('.ph').first.locator('.pi').count()>=2
    page.locator('[data-mode="r5"]').click();assert not re.search('[a-z]',page.locator('.qprompt').inner_text(),re.I)
@@ -60,7 +60,7 @@ try:
 finally:server.shutdown()
 # Canonical additions contain no duplicate of any previously existing word.
 prior=json.loads(subprocess.check_output(['git','show','1e0066f:words/bank.json'],cwd=R).decode('utf-8'));current=json.loads((R/'words/bank.json').read_text(encoding='utf-8'))
-old={w['en'] for p in prior['packs'] for w in p['words']};new=[w['en'] for p in current['packs'][len(prior['packs']):] for w in p['words']]
+old={w['en'] for p in prior['packs'] for w in p['words']};new=[w['en'] for p in current['packs'] if p['id']=='personal-20261113-1' for w in p['words']]
 assert len(new)==12 and len(set(new))==12 and not old.intersection(new)
 for before,after in zip(prior['packs'],current['packs']):assert [w['en'] for w in before['words']]==[w['en'] for w in after['words']]
 print('PASS canonical vocabulary additions and existing order')

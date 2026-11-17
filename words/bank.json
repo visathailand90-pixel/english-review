@@ -14982,6 +14982,2520 @@
         "bargain",
         "jewellery"
       ]
+    },
+    {
+      "id": "lesson12-getting-there-1",
+      "n": 23,
+      "title": "Урок 12 — Getting there · 1/5",
+      "words": [
+        {
+          "en": "public transport",
+          "ru": "общественный транспорт",
+          "pr": "паблик трэнспорт",
+          "g": "phrase",
+          "lessons": [
+            "12"
+          ],
+          "ex": "I use public transport every day.",
+          "exru": "Я пользуюсь общественным транспортом каждый день.",
+          "ex2": "Public transport is busy at rush hour.",
+          "ex2ru": "В час пик в общественном транспорте много людей.",
+          "collocations": [
+            [
+              "I use public transport every day.",
+              "Я пользуюсь общественным транспортом каждый день."
+            ],
+            [
+              "Public transport is busy at rush hour.",
+              "В час пик в общественном транспорте много людей."
+            ]
+          ],
+          "s": "I use ___ every day.",
+          "sru": "общественный транспорт",
+          "note": "Авторские учебные примеры. Русская запись произношения приблизительная, не IPA.",
+          "hard": false,
+          "rep": 0,
+          "examplesType": "usage",
+          "pronunciationType": "приблизительная русская запись"
+        },
+        {
+          "en": "bus",
+          "ru": "автобус",
+          "pr": "бас",
+          "g": "n",
+          "lessons": [
+            "12"
+          ],
+          "ex": "The bus stops near the park.",
+          "exru": "Автобус останавливается возле парка.",
+          "ex2": "There are two buses outside.",
+          "ex2ru": "Снаружи стоят два автобуса.",
+          "collocations": [
+            [
+              "The bus stops near the park.",
+              "Автобус останавливается возле парка."
+            ],
+            [
+              "There are two buses outside.",
+              "Снаружи стоят два автобуса."
+            ]
+          ],
+          "s": "The ___ stops near the park.",
+          "sru": "автобус",
+          "note": "Авторские учебные примеры. Русская запись произношения приблизительная, не IPA.",
+          "hard": false,
+          "rep": 0,
+          "examplesType": "usage",
+          "pronunciationType": "приблизительная русская запись"
+        },
+        {
+          "en": "train",
+          "ru": "поезд",
+          "pr": "трэйн",
+          "g": "n",
+          "lessons": [
+            "12"
+          ],
+          "ex": "The train is full today.",
+          "exru": "Сегодня поезд переполнен.",
+          "ex2": "We take the train to the city.",
+          "ex2ru": "Мы едем в город на поезде.",
+          "collocations": [
+            [
+              "The train is full today.",
+              "Сегодня поезд переполнен."
+            ],
+            [
+              "We take the train to the city.",
+              "Мы едем в город на поезде."
+            ]
+          ],
+          "s": "The ___ is full today.",
+          "sru": "поезд",
+          "note": "Авторские учебные примеры. Русская запись произношения приблизительная, не IPA.",
+          "hard": false,
+          "rep": 0,
+          "examplesType": "usage",
+          "pronunciationType": "приблизительная русская запись"
+        },
+        {
+          "en": "metro",
+          "ru": "метро",
+          "pr": "мэтроу",
+          "g": "n",
+          "lessons": [
+            "12"
+          ],
+          "ex": "I rarely take the metro.",
+          "exru": "Я редко езжу на метро.",
+          "ex2": "The metro is fast in this city.",
+          "ex2ru": "В этом городе метро быстрое.",
+          "collocations": [
+            [
+              "I rarely take the metro.",
+              "Я редко езжу на метро."
+            ],
+            [
+              "The metro is fast in this city.",
+              "В этом городе метро быстрое."
+            ]
+          ],
+          "s": "I rarely take the ___.",
+          "sru": "метро",
+          "note": "Авторские учебные примеры. Русская запись произношения приблизительная, не IPA.",
+          "hard": false,
+          "rep": 0,
+          "examplesType": "usage",
+          "pronunciationType": "приблизительная русская запись",
+          "forms": [
+            "the underground"
+          ]
+        },
+        {
+          "en": "subway",
+          "ru": "метро (амер.); подземный пешеходный переход (брит., по контексту)",
+          "pr": "сабуэй",
+          "g": "n",
+          "lessons": [
+            "12"
+          ],
+          "ex": "In New York, we take the subway.",
+          "exru": "В Нью-Йорке мы ездим на метро.",
+          "ex2": "In this British road guide, subway means underpass.",
+          "ex2ru": "В этом британском дорожном справочнике subway означает подземный переход.",
+          "collocations": [
+            [
+              "In New York, we take the subway.",
+              "В Нью-Йорке мы ездим на метро."
+            ],
+            [
+              "In this British road guide, subway means underpass.",
+              "В этом британском дорожном справочнике subway означает подземный переход."
+            ]
+          ],
+          "s": "In New York, we take the ___.",
+          "sru": "метро (амер.); подземный пешеходный переход (брит., по контексту)",
+          "note": "Авторские учебные примеры. Русская запись произношения приблизительная, не IPA. US: метро. UK: также подземный пешеходный переход; смотри контекст.",
+          "hard": false,
+          "rep": 0,
+          "examplesType": "usage",
+          "pronunciationType": "приблизительная русская запись"
+        },
+        {
+          "en": "car",
+          "ru": "автомобиль",
+          "pr": "каа",
+          "g": "n",
+          "lessons": [
+            "12"
+          ],
+          "ex": "My car is near the bridge.",
+          "exru": "Моя машина возле моста.",
+          "ex2": "There are electric cars here.",
+          "ex2ru": "Здесь есть электромобили.",
+          "collocations": [
+            [
+              "My car is near the bridge.",
+              "Моя машина возле моста."
+            ],
+            [
+              "There are electric cars here.",
+              "Здесь есть электромобили."
+            ]
+          ],
+          "s": "My ___ is near the bridge.",
+          "sru": "автомобиль",
+          "note": "Авторские учебные примеры. Русская запись произношения приблизительная, не IPA.",
+          "hard": false,
+          "rep": 0,
+          "examplesType": "usage",
+          "pronunciationType": "приблизительная русская запись"
+        },
+        {
+          "en": "taxi",
+          "ru": "такси",
+          "pr": "тэкси",
+          "g": "n",
+          "lessons": [
+            "12"
+          ],
+          "ex": "Let's take a taxi to the station.",
+          "exru": "Давай поедем на такси до станции.",
+          "ex2": "A taxi can be faster than a bus.",
+          "ex2ru": "Такси может быть быстрее автобуса.",
+          "collocations": [
+            [
+              "Let's take a taxi to the station.",
+              "Давай поедем на такси до станции."
+            ],
+            [
+              "A taxi can be faster than a bus.",
+              "Такси может быть быстрее автобуса."
+            ]
+          ],
+          "s": "Let's take a ___ to the station.",
+          "sru": "такси",
+          "note": "Авторские учебные примеры. Русская запись произношения приблизительная, не IPA.",
+          "hard": false,
+          "rep": 0,
+          "examplesType": "usage",
+          "pronunciationType": "приблизительная русская запись",
+          "forms": [
+            "cab"
+          ]
+        },
+        {
+          "en": "bicycle",
+          "ru": "велосипед",
+          "pr": "байсикл",
+          "g": "n",
+          "lessons": [
+            "12"
+          ],
+          "ex": "I have a bicycle.",
+          "exru": "У меня есть велосипед.",
+          "ex2": "My bicycle is next to the gate.",
+          "ex2ru": "Мой велосипед рядом с воротами.",
+          "collocations": [
+            [
+              "I have a bicycle.",
+              "У меня есть велосипед."
+            ],
+            [
+              "My bicycle is next to the gate.",
+              "Мой велосипед рядом с воротами."
+            ]
+          ],
+          "s": "I have a ___.",
+          "sru": "велосипед",
+          "note": "Авторские учебные примеры. Русская запись произношения приблизительная, не IPA.",
+          "hard": false,
+          "rep": 0,
+          "examplesType": "usage",
+          "pronunciationType": "приблизительная русская запись",
+          "forms": [
+            "bike"
+          ]
+        },
+        {
+          "en": "scooter",
+          "ru": "скутер; самокат (по контексту)",
+          "pr": "скутэ",
+          "g": "n",
+          "lessons": [
+            "12"
+          ],
+          "ex": "This scooter is electric.",
+          "exru": "Этот самокат электрический.",
+          "ex2": "She rides a scooter to the park.",
+          "ex2ru": "Она ездит в парк на самокате.",
+          "collocations": [
+            [
+              "This scooter is electric.",
+              "Этот самокат электрический."
+            ],
+            [
+              "She rides a scooter to the park.",
+              "Она ездит в парк на самокате."
+            ]
+          ],
+          "s": "This ___ is electric.",
+          "sru": "скутер; самокат (по контексту)",
+          "note": "Авторские учебные примеры. Русская запись произношения приблизительная, не IPA.",
+          "hard": false,
+          "rep": 0,
+          "examplesType": "usage",
+          "pronunciationType": "приблизительная русская запись"
+        },
+        {
+          "en": "kick scooter",
+          "ru": "самокат без двигателя",
+          "pr": "кик скутэ",
+          "g": "phrase",
+          "lessons": [
+            "12"
+          ],
+          "ex": "This kick scooter has no motor.",
+          "exru": "У этого самоката нет двигателя.",
+          "ex2": "I carry my kick scooter on the train.",
+          "ex2ru": "Я везу самокат в поезде.",
+          "collocations": [
+            [
+              "This kick scooter has no motor.",
+              "У этого самоката нет двигателя."
+            ],
+            [
+              "I carry my kick scooter on the train.",
+              "Я везу самокат в поезде."
+            ]
+          ],
+          "s": "This ___ has no motor.",
+          "sru": "самокат без двигателя",
+          "note": "Авторские учебные примеры. Русская запись произношения приблизительная, не IPA.",
+          "hard": false,
+          "rep": 0,
+          "examplesType": "usage",
+          "pronunciationType": "приблизительная русская запись"
+        },
+        {
+          "en": "tram",
+          "ru": "трамвай",
+          "pr": "трэм",
+          "g": "n",
+          "lessons": [
+            "12"
+          ],
+          "ex": "The tram goes past the museum.",
+          "exru": "Трамвай проезжает мимо музея.",
+          "ex2": "There is a tram stop near here.",
+          "ex2ru": "Поблизости есть трамвайная остановка.",
+          "collocations": [
+            [
+              "The tram goes past the museum.",
+              "Трамвай проезжает мимо музея."
+            ],
+            [
+              "There is a tram stop near here.",
+              "Поблизости есть трамвайная остановка."
+            ]
+          ],
+          "s": "The ___ goes past the museum.",
+          "sru": "трамвай",
+          "note": "Авторские учебные примеры. Русская запись произношения приблизительная, не IPA.",
+          "hard": false,
+          "rep": 0,
+          "examplesType": "usage",
+          "pronunciationType": "приблизительная русская запись"
+        },
+        {
+          "en": "trolleybus",
+          "ru": "троллейбус",
+          "pr": "тролибас",
+          "g": "n",
+          "lessons": [
+            "12"
+          ],
+          "ex": "The trolleybus stops at the lights.",
+          "exru": "Троллейбус останавливается у светофора.",
+          "ex2": "We go to the stadium by trolleybus.",
+          "ex2ru": "Мы едем на стадион на троллейбусе.",
+          "collocations": [
+            [
+              "The trolleybus stops at the lights.",
+              "Троллейбус останавливается у светофора."
+            ],
+            [
+              "We go to the stadium by trolleybus.",
+              "Мы едем на стадион на троллейбусе."
+            ]
+          ],
+          "s": "The ___ stops at the lights.",
+          "sru": "троллейбус",
+          "note": "Авторские учебные примеры. Русская запись произношения приблизительная, не IPA.",
+          "hard": false,
+          "rep": 0,
+          "examplesType": "usage",
+          "pronunciationType": "приблизительная русская запись"
+        },
+        {
+          "en": "motorcycle",
+          "ru": "мотоцикл",
+          "pr": "моутэсайкл",
+          "g": "n",
+          "lessons": [
+            "12"
+          ],
+          "ex": "He has a red motorcycle.",
+          "exru": "У него красный мотоцикл.",
+          "ex2": "There is a motorcycle outside the café.",
+          "ex2ru": "Снаружи кафе стоит мотоцикл.",
+          "collocations": [
+            [
+              "He has a red motorcycle.",
+              "У него красный мотоцикл."
+            ],
+            [
+              "There is a motorcycle outside the café.",
+              "Снаружи кафе стоит мотоцикл."
+            ]
+          ],
+          "s": "He has a red ___.",
+          "sru": "мотоцикл",
+          "note": "Авторские учебные примеры. Русская запись произношения приблизительная, не IPA.",
+          "hard": false,
+          "rep": 0,
+          "examplesType": "usage",
+          "pronunciationType": "приблизительная русская запись",
+          "forms": [
+            "motorbike"
+          ]
+        },
+        {
+          "en": "car sharing",
+          "ru": "каршеринг",
+          "pr": "каа шээринг",
+          "g": "phrase",
+          "lessons": [
+            "12"
+          ],
+          "ex": "Car sharing is useful in our town.",
+          "exru": "В нашем городе каршеринг полезен.",
+          "ex2": "I prefer car sharing to owning a car.",
+          "ex2ru": "Я предпочитаю каршеринг владению машиной.",
+          "collocations": [
+            [
+              "Car sharing is useful in our town.",
+              "В нашем городе каршеринг полезен."
+            ],
+            [
+              "I prefer car sharing to owning a car.",
+              "Я предпочитаю каршеринг владению машиной."
+            ]
+          ],
+          "s": "___ is useful in our town.",
+          "sru": "каршеринг",
+          "note": "Авторские учебные примеры. Русская запись произношения приблизительная, не IPA.",
+          "hard": false,
+          "rep": 0,
+          "examplesType": "usage",
+          "pronunciationType": "приблизительная русская запись"
+        },
+        {
+          "en": "by bus",
+          "ru": "на автобусе",
+          "pr": "бай бас",
+          "g": "phrase",
+          "lessons": [
+            "12"
+          ],
+          "ex": "I go to school by bus.",
+          "exru": "Я езжу в школу на автобусе.",
+          "ex2": "You can get there by bus.",
+          "ex2ru": "Туда можно добраться на автобусе.",
+          "collocations": [
+            [
+              "I go to school by bus.",
+              "Я езжу в школу на автобусе."
+            ],
+            [
+              "You can get there by bus.",
+              "Туда можно добраться на автобусе."
+            ]
+          ],
+          "s": "I go to school ___.",
+          "sru": "на автобусе",
+          "note": "Авторские учебные примеры. Русская запись произношения приблизительная, не IPA.",
+          "hard": false,
+          "rep": 0,
+          "examplesType": "usage",
+          "pronunciationType": "приблизительная русская запись"
+        },
+        {
+          "en": "by car",
+          "ru": "на машине",
+          "pr": "бай каа",
+          "g": "phrase",
+          "lessons": [
+            "12"
+          ],
+          "ex": "We travel by car.",
+          "exru": "Мы путешествуем на машине.",
+          "ex2": "Do you go to work by car?",
+          "ex2ru": "Ты ездишь на работу на машине?",
+          "collocations": [
+            [
+              "We travel by car.",
+              "Мы путешествуем на машине."
+            ],
+            [
+              "Do you go to work by car?",
+              "Ты ездишь на работу на машине?"
+            ]
+          ],
+          "s": "We travel ___.",
+          "sru": "на машине",
+          "note": "Авторские учебные примеры. Русская запись произношения приблизительная, не IPA.",
+          "hard": false,
+          "rep": 0,
+          "examplesType": "usage",
+          "pronunciationType": "приблизительная русская запись"
+        }
+      ],
+      "wordRefs": [
+        "rarely",
+        "be late for work",
+        "it depends on"
+      ]
+    },
+    {
+      "id": "lesson12-getting-there-2",
+      "n": 24,
+      "title": "Урок 12 — Getting there · 2/5",
+      "words": [
+        {
+          "en": "by bike",
+          "ru": "на велосипеде",
+          "pr": "бай байк",
+          "g": "phrase",
+          "lessons": [
+            "12"
+          ],
+          "ex": "I go to the park by bike.",
+          "exru": "Я езжу в парк на велосипеде.",
+          "ex2": "It is easy to get there by bike.",
+          "ex2ru": "Туда легко добраться на велосипеде.",
+          "collocations": [
+            [
+              "I go to the park by bike.",
+              "Я езжу в парк на велосипеде."
+            ],
+            [
+              "It is easy to get there by bike.",
+              "Туда легко добраться на велосипеде."
+            ]
+          ],
+          "s": "I go to the park ___.",
+          "sru": "на велосипеде",
+          "note": "Авторские учебные примеры. Русская запись произношения приблизительная, не IPA.",
+          "hard": false,
+          "rep": 0,
+          "examplesType": "usage",
+          "pronunciationType": "приблизительная русская запись"
+        },
+        {
+          "en": "by taxi",
+          "ru": "на такси",
+          "pr": "бай тэкси",
+          "g": "phrase",
+          "lessons": [
+            "12"
+          ],
+          "ex": "They go to the hotel by taxi.",
+          "exru": "Они едут в гостиницу на такси.",
+          "ex2": "Can we get to the station by taxi?",
+          "ex2ru": "Мы можем добраться до станции на такси?",
+          "collocations": [
+            [
+              "They go to the hotel by taxi.",
+              "Они едут в гостиницу на такси."
+            ],
+            [
+              "Can we get to the station by taxi?",
+              "Мы можем добраться до станции на такси?"
+            ]
+          ],
+          "s": "They go to the hotel ___.",
+          "sru": "на такси",
+          "note": "Авторские учебные примеры. Русская запись произношения приблизительная, не IPA.",
+          "hard": false,
+          "rep": 0,
+          "examplesType": "usage",
+          "pronunciationType": "приблизительная русская запись"
+        },
+        {
+          "en": "on foot",
+          "ru": "пешком",
+          "pr": "он фут",
+          "g": "phrase",
+          "lessons": [
+            "12"
+          ],
+          "ex": "I go to the shop on foot.",
+          "exru": "Я хожу в магазин пешком.",
+          "ex2": "The museum is ten minutes away on foot.",
+          "ex2ru": "До музея десять минут пешком.",
+          "collocations": [
+            [
+              "I go to the shop on foot.",
+              "Я хожу в магазин пешком."
+            ],
+            [
+              "The museum is ten minutes away on foot.",
+              "До музея десять минут пешком."
+            ]
+          ],
+          "s": "I go to the shop ___.",
+          "sru": "пешком",
+          "note": "Авторские учебные примеры. Русская запись произношения приблизительная, не IPA.",
+          "hard": false,
+          "rep": 0,
+          "examplesType": "usage",
+          "pronunciationType": "приблизительная русская запись"
+        },
+        {
+          "en": "take the metro",
+          "ru": "ехать на метро",
+          "pr": "тэйк зэ мэтроу",
+          "g": "v",
+          "lessons": [
+            "12"
+          ],
+          "ex": "I take the metro on Mondays.",
+          "exru": "По понедельникам я езжу на метро.",
+          "ex2": "We don't take the metro at rush hour.",
+          "ex2ru": "Мы не ездим на метро в час пик.",
+          "collocations": [
+            [
+              "I take the metro on Mondays.",
+              "По понедельникам я езжу на метро."
+            ],
+            [
+              "We don't take the metro at rush hour.",
+              "Мы не ездим на метро в час пик."
+            ]
+          ],
+          "s": "I ___ on Mondays.",
+          "sru": "ехать на метро",
+          "note": "Авторские учебные примеры. Русская запись произношения приблизительная, не IPA.",
+          "hard": false,
+          "rep": 0,
+          "examplesType": "usage",
+          "pronunciationType": "приблизительная русская запись"
+        },
+        {
+          "en": "get on a train",
+          "ru": "сесть в поезд",
+          "pr": "гэт он э трэйн",
+          "g": "v",
+          "lessons": [
+            "12"
+          ],
+          "ex": "You can get on a train here.",
+          "exru": "Здесь можно сесть в поезд.",
+          "ex2": "I want to get on a train to the city.",
+          "ex2ru": "Я хочу сесть в поезд до города.",
+          "collocations": [
+            [
+              "You can get on a train here.",
+              "Здесь можно сесть в поезд."
+            ],
+            [
+              "I want to get on a train to the city.",
+              "Я хочу сесть в поезд до города."
+            ]
+          ],
+          "s": "You can ___ here.",
+          "sru": "сесть в поезд",
+          "note": "Авторские учебные примеры. Русская запись произношения приблизительная, не IPA.",
+          "hard": false,
+          "rep": 0,
+          "examplesType": "usage",
+          "pronunciationType": "приблизительная русская запись"
+        },
+        {
+          "en": "get off a train",
+          "ru": "выйти из поезда",
+          "pr": "гэт оф э трэйн",
+          "g": "v",
+          "lessons": [
+            "12"
+          ],
+          "ex": "You can get off a train at this station.",
+          "exru": "На этой станции можно выйти из поезда.",
+          "ex2": "It is easy to get off a train here.",
+          "ex2ru": "Здесь легко выйти из поезда.",
+          "collocations": [
+            [
+              "You can get off a train at this station.",
+              "На этой станции можно выйти из поезда."
+            ],
+            [
+              "It is easy to get off a train here.",
+              "Здесь легко выйти из поезда."
+            ]
+          ],
+          "s": "You can ___ at this station.",
+          "sru": "выйти из поезда",
+          "note": "Авторские учебные примеры. Русская запись произношения приблизительная, не IPA.",
+          "hard": false,
+          "rep": 0,
+          "examplesType": "usage",
+          "pronunciationType": "приблизительная русская запись"
+        },
+        {
+          "en": "rush hour",
+          "ru": "час пик",
+          "pr": "раш ауэ",
+          "g": "phrase",
+          "lessons": [
+            "12"
+          ],
+          "ex": "The roads are busy at rush hour.",
+          "exru": "В час пик дороги загружены.",
+          "ex2": "I avoid the metro during rush hour.",
+          "ex2ru": "Я избегаю метро в час пик.",
+          "collocations": [
+            [
+              "The roads are busy at rush hour.",
+              "В час пик дороги загружены."
+            ],
+            [
+              "I avoid the metro during rush hour.",
+              "Я избегаю метро в час пик."
+            ]
+          ],
+          "s": "The roads are busy at ___.",
+          "sru": "час пик",
+          "note": "Авторские учебные примеры. Русская запись произношения приблизительная, не IPA.",
+          "hard": false,
+          "rep": 0,
+          "examplesType": "usage",
+          "pronunciationType": "приблизительная русская запись"
+        },
+        {
+          "en": "crowd",
+          "ru": "толпа",
+          "pr": "крауд",
+          "g": "n",
+          "lessons": [
+            "12"
+          ],
+          "ex": "There is a crowd near the entrance.",
+          "exru": "Возле входа толпа.",
+          "ex2": "I don't like crowds on trains.",
+          "ex2ru": "Я не люблю толпы в поездах.",
+          "collocations": [
+            [
+              "There is a crowd near the entrance.",
+              "Возле входа толпа."
+            ],
+            [
+              "I don't like crowds on trains.",
+              "Я не люблю толпы в поездах."
+            ]
+          ],
+          "s": "There is a ___ near the entrance.",
+          "sru": "толпа",
+          "note": "Авторские учебные примеры. Русская запись произношения приблизительная, не IPA.",
+          "hard": false,
+          "rep": 0,
+          "examplesType": "usage",
+          "pronunciationType": "приблизительная русская запись"
+        },
+        {
+          "en": "traffic",
+          "ru": "транспортное движение, пробки",
+          "pr": "трэфик",
+          "g": "n",
+          "lessons": [
+            "12"
+          ],
+          "ex": "There is a lot of traffic today.",
+          "exru": "Сегодня большой поток транспорта.",
+          "ex2": "This road has less traffic at night.",
+          "ex2ru": "Ночью на этой дороге меньше транспорта.",
+          "collocations": [
+            [
+              "There is a lot of traffic today.",
+              "Сегодня большой поток транспорта."
+            ],
+            [
+              "This road has less traffic at night.",
+              "Ночью на этой дороге меньше транспорта."
+            ]
+          ],
+          "s": "There is a lot of ___ today.",
+          "sru": "транспортное движение, пробки",
+          "note": "Авторские учебные примеры. Русская запись произношения приблизительная, не IPA.",
+          "hard": false,
+          "rep": 0,
+          "examplesType": "usage",
+          "pronunciationType": "приблизительная русская запись"
+        },
+        {
+          "en": "a lot of people",
+          "ru": "много людей",
+          "pr": "э лот ов пипл",
+          "g": "phrase",
+          "lessons": [
+            "12"
+          ],
+          "ex": "There are a lot of people here.",
+          "exru": "Здесь много людей.",
+          "ex2": "A lot of people take the bus.",
+          "ex2ru": "Много людей ездят на автобусе.",
+          "collocations": [
+            [
+              "There are a lot of people here.",
+              "Здесь много людей."
+            ],
+            [
+              "A lot of people take the bus.",
+              "Много людей ездят на автобусе."
+            ]
+          ],
+          "s": "There are ___ here.",
+          "sru": "много людей",
+          "note": "Авторские учебные примеры. Русская запись произношения приблизительная, не IPA.",
+          "hard": false,
+          "rep": 0,
+          "examplesType": "usage",
+          "pronunciationType": "приблизительная русская запись"
+        },
+        {
+          "en": "too many people",
+          "ru": "слишком много людей",
+          "pr": "ту мэни пипл",
+          "g": "phrase",
+          "lessons": [
+            "12"
+          ],
+          "ex": "There are too many people on this bus.",
+          "exru": "В этом автобусе слишком много людей.",
+          "ex2": "Too many people are waiting by the door.",
+          "ex2ru": "У двери ждёт слишком много людей.",
+          "collocations": [
+            [
+              "There are too many people on this bus.",
+              "В этом автобусе слишком много людей."
+            ],
+            [
+              "Too many people are waiting by the door.",
+              "У двери ждёт слишком много людей."
+            ]
+          ],
+          "s": "There are ___ on this bus.",
+          "sru": "слишком много людей",
+          "note": "Авторские учебные примеры. Русская запись произношения приблизительная, не IPA.",
+          "hard": false,
+          "rep": 0,
+          "examplesType": "usage",
+          "pronunciationType": "приблизительная русская запись"
+        },
+        {
+          "en": "driver's licence",
+          "ru": "водительские права (амер.)",
+          "pr": "драйвэз лайсэнс",
+          "g": "phrase",
+          "lessons": [
+            "12"
+          ],
+          "ex": "I have a driver's licence.",
+          "exru": "У меня есть водительские права.",
+          "ex2": "You need a driver's licence to drive.",
+          "ex2ru": "Чтобы водить машину, нужны водительские права.",
+          "collocations": [
+            [
+              "I have a driver's licence.",
+              "У меня есть водительские права."
+            ],
+            [
+              "You need a driver's licence to drive.",
+              "Чтобы водить машину, нужны водительские права."
+            ]
+          ],
+          "s": "I have a ___.",
+          "sru": "водительские права (амер.)",
+          "note": "Авторские учебные примеры. Русская запись произношения приблизительная, не IPA.",
+          "hard": false,
+          "rep": 0,
+          "examplesType": "usage",
+          "pronunciationType": "приблизительная русская запись",
+          "forms": [
+            "driver's license"
+          ]
+        },
+        {
+          "en": "people with disabilities",
+          "ru": "люди с инвалидностью",
+          "pr": "пипл уиз дисэбилитиз",
+          "g": "phrase",
+          "lessons": [
+            "12"
+          ],
+          "ex": "The station has lifts for people with disabilities.",
+          "exru": "На станции есть лифты для людей с инвалидностью.",
+          "ex2": "These facilities help people with disabilities.",
+          "ex2ru": "Эти удобства помогают людям с инвалидностью.",
+          "collocations": [
+            [
+              "The station has lifts for people with disabilities.",
+              "На станции есть лифты для людей с инвалидностью."
+            ],
+            [
+              "These facilities help people with disabilities.",
+              "Эти удобства помогают людям с инвалидностью."
+            ]
+          ],
+          "s": "The station has lifts for ___.",
+          "sru": "люди с инвалидностью",
+          "note": "Авторские учебные примеры. Русская запись произношения приблизительная, не IPA.",
+          "hard": false,
+          "rep": 0,
+          "examplesType": "usage",
+          "pronunciationType": "приблизительная русская запись"
+        },
+        {
+          "en": "the elderly",
+          "ru": "пожилые люди",
+          "pr": "зи элдэли",
+          "g": "phrase",
+          "lessons": [
+            "12"
+          ],
+          "ex": "These seats are for the elderly.",
+          "exru": "Эти места предназначены для пожилых людей.",
+          "ex2": "The elderly need safe crossings too.",
+          "ex2ru": "Пожилым людям тоже нужны безопасные переходы.",
+          "collocations": [
+            [
+              "These seats are for the elderly.",
+              "Эти места предназначены для пожилых людей."
+            ],
+            [
+              "The elderly need safe crossings too.",
+              "Пожилым людям тоже нужны безопасные переходы."
+            ]
+          ],
+          "s": "These seats are for ___.",
+          "sru": "пожилые люди",
+          "note": "Авторские учебные примеры. Русская запись произношения приблизительная, не IPA.",
+          "hard": false,
+          "rep": 0,
+          "examplesType": "usage",
+          "pronunciationType": "приблизительная русская запись"
+        },
+        {
+          "en": "facilities",
+          "ru": "условия, удобства; инфраструктура",
+          "pr": "фэсилитиз",
+          "g": "n",
+          "lessons": [
+            "12"
+          ],
+          "ex": "The station has good facilities.",
+          "exru": "На станции хорошие удобства.",
+          "ex2": "What facilities are there for parents with babies?",
+          "ex2ru": "Какие там есть удобства для родителей с малышами?",
+          "collocations": [
+            [
+              "The station has good facilities.",
+              "На станции хорошие удобства."
+            ],
+            [
+              "What facilities are there for parents with babies?",
+              "Какие там есть удобства для родителей с малышами?"
+            ]
+          ],
+          "s": "The station has good ___.",
+          "sru": "условия, удобства; инфраструктура",
+          "note": "Авторские учебные примеры. Русская запись произношения приблизительная, не IPA.",
+          "hard": false,
+          "rep": 0,
+          "examplesType": "usage",
+          "pronunciationType": "приблизительная русская запись"
+        },
+        {
+          "en": "parking space",
+          "ru": "место для парковки",
+          "pr": "паакинг спэйс",
+          "g": "phrase",
+          "lessons": [
+            "12"
+          ],
+          "ex": "There is a parking space near the shop.",
+          "exru": "Возле магазина есть парковочное место.",
+          "ex2": "I can't find a parking space.",
+          "ex2ru": "Я не могу найти место для парковки.",
+          "collocations": [
+            [
+              "There is a parking space near the shop.",
+              "Возле магазина есть парковочное место."
+            ],
+            [
+              "I can't find a parking space.",
+              "Я не могу найти место для парковки."
+            ]
+          ],
+          "s": "There is a ___ near the shop.",
+          "sru": "место для парковки",
+          "note": "Авторские учебные примеры. Русская запись произношения приблизительная, не IPA.",
+          "hard": false,
+          "rep": 0,
+          "examplesType": "usage",
+          "pronunciationType": "приблизительная русская запись"
+        }
+      ],
+      "wordRefs": [
+        "rarely",
+        "be late for work",
+        "it depends on"
+      ]
+    },
+    {
+      "id": "lesson12-getting-there-3",
+      "n": 25,
+      "title": "Урок 12 — Getting there · 3/5",
+      "words": [
+        {
+          "en": "playground",
+          "ru": "детская площадка",
+          "pr": "плэйграунд",
+          "g": "n",
+          "lessons": [
+            "12"
+          ],
+          "ex": "There is a playground in the park.",
+          "exru": "В парке есть детская площадка.",
+          "ex2": "The playground is next to the river.",
+          "ex2ru": "Площадка рядом с рекой.",
+          "collocations": [
+            [
+              "There is a playground in the park.",
+              "В парке есть детская площадка."
+            ],
+            [
+              "The playground is next to the river.",
+              "Площадка рядом с рекой."
+            ]
+          ],
+          "s": "There is a ___ in the park.",
+          "sru": "детская площадка",
+          "note": "Авторские учебные примеры. Русская запись произношения приблизительная, не IPA.",
+          "hard": false,
+          "rep": 0,
+          "examplesType": "usage",
+          "pronunciationType": "приблизительная русская запись"
+        },
+        {
+          "en": "town hall",
+          "ru": "мэрия",
+          "pr": "таун хол",
+          "g": "phrase",
+          "lessons": [
+            "12"
+          ],
+          "ex": "The town hall is opposite the church.",
+          "exru": "Мэрия напротив церкви.",
+          "ex2": "How do I get to the town hall?",
+          "ex2ru": "Как мне добраться до мэрии?",
+          "collocations": [
+            [
+              "The town hall is opposite the church.",
+              "Мэрия напротив церкви."
+            ],
+            [
+              "How do I get to the town hall?",
+              "Как мне добраться до мэрии?"
+            ]
+          ],
+          "s": "The ___ is opposite the church.",
+          "sru": "мэрия",
+          "note": "Авторские учебные примеры. Русская запись произношения приблизительная, не IPA.",
+          "hard": false,
+          "rep": 0,
+          "examplesType": "usage",
+          "pronunciationType": "приблизительная русская запись"
+        },
+        {
+          "en": "church",
+          "ru": "церковь",
+          "pr": "чёч",
+          "g": "n",
+          "lessons": [
+            "12"
+          ],
+          "ex": "There is an old church here.",
+          "exru": "Здесь есть старая церковь.",
+          "ex2": "Walk past the church.",
+          "ex2ru": "Пройдите мимо церкви.",
+          "collocations": [
+            [
+              "There is an old church here.",
+              "Здесь есть старая церковь."
+            ],
+            [
+              "Walk past the church.",
+              "Пройдите мимо церкви."
+            ]
+          ],
+          "s": "There is an old ___ here.",
+          "sru": "церковь",
+          "note": "Авторские учебные примеры. Русская запись произношения приблизительная, не IPA.",
+          "hard": false,
+          "rep": 0,
+          "examplesType": "usage",
+          "pronunciationType": "приблизительная русская запись"
+        },
+        {
+          "en": "police station",
+          "ru": "полицейский участок",
+          "pr": "пэлис стэйшн",
+          "g": "phrase",
+          "lessons": [
+            "12"
+          ],
+          "ex": "Is there a police station near here?",
+          "exru": "Поблизости есть полицейский участок?",
+          "ex2": "The police station is next to the bank.",
+          "ex2ru": "Полицейский участок рядом с банком.",
+          "collocations": [
+            [
+              "Is there a police station near here?",
+              "Поблизости есть полицейский участок?"
+            ],
+            [
+              "The police station is next to the bank.",
+              "Полицейский участок рядом с банком."
+            ]
+          ],
+          "s": "Is there a ___ near here?",
+          "sru": "полицейский участок",
+          "note": "Авторские учебные примеры. Русская запись произношения приблизительная, не IPA.",
+          "hard": false,
+          "rep": 0,
+          "examplesType": "usage",
+          "pronunciationType": "приблизительная русская запись"
+        },
+        {
+          "en": "traffic lights",
+          "ru": "светофор/светофоры",
+          "pr": "трэфик лайтс",
+          "g": "phrase",
+          "lessons": [
+            "12"
+          ],
+          "ex": "Turn left at the traffic lights.",
+          "exru": "Поверните налево у светофора.",
+          "ex2": "The traffic lights aren't working.",
+          "ex2ru": "Светофоры не работают.",
+          "collocations": [
+            [
+              "Turn left at the traffic lights.",
+              "Поверните налево у светофора."
+            ],
+            [
+              "The traffic lights aren't working.",
+              "Светофоры не работают."
+            ]
+          ],
+          "s": "Turn left at the ___.",
+          "sru": "светофор/светофоры",
+          "note": "Авторские учебные примеры. Русская запись произношения приблизительная, не IPA.",
+          "hard": false,
+          "rep": 0,
+          "examplesType": "usage",
+          "pronunciationType": "приблизительная русская запись"
+        },
+        {
+          "en": "bridge",
+          "ru": "мост",
+          "pr": "бридж",
+          "g": "n",
+          "lessons": [
+            "12"
+          ],
+          "ex": "There is a bridge over the river.",
+          "exru": "Через реку есть мост.",
+          "ex2": "Walk over the bridge to the park.",
+          "ex2ru": "Перейдите по мосту к парку.",
+          "collocations": [
+            [
+              "There is a bridge over the river.",
+              "Через реку есть мост."
+            ],
+            [
+              "Walk over the bridge to the park.",
+              "Перейдите по мосту к парку."
+            ]
+          ],
+          "s": "There is a ___ over the river.",
+          "sru": "мост",
+          "note": "Авторские учебные примеры. Русская запись произношения приблизительная, не IPA.",
+          "hard": false,
+          "rep": 0,
+          "examplesType": "usage",
+          "pronunciationType": "приблизительная русская запись"
+        },
+        {
+          "en": "underpass",
+          "ru": "подземный пешеходный переход",
+          "pr": "андэпаас",
+          "g": "n",
+          "lessons": [
+            "12"
+          ],
+          "ex": "Go through the underpass.",
+          "exru": "Пройдите через подземный переход.",
+          "ex2": "The underpass is near the crossing.",
+          "ex2ru": "Подземный переход возле перехода через дорогу.",
+          "collocations": [
+            [
+              "Go through the underpass.",
+              "Пройдите через подземный переход."
+            ],
+            [
+              "The underpass is near the crossing.",
+              "Подземный переход возле перехода через дорогу."
+            ]
+          ],
+          "s": "Go through the ___.",
+          "sru": "подземный пешеходный переход",
+          "note": "Авторские учебные примеры. Русская запись произношения приблизительная, не IPA.",
+          "hard": false,
+          "rep": 0,
+          "examplesType": "usage",
+          "pronunciationType": "приблизительная русская запись"
+        },
+        {
+          "en": "roundabout",
+          "ru": "кольцевая развязка",
+          "pr": "раундэбаут",
+          "g": "n",
+          "lessons": [
+            "12"
+          ],
+          "ex": "Take the second exit at the roundabout.",
+          "exru": "На кольцевой развязке выберите второй съезд.",
+          "ex2": "There is a roundabout near the stadium.",
+          "ex2ru": "Возле стадиона есть кольцевая развязка.",
+          "collocations": [
+            [
+              "Take the second exit at the roundabout.",
+              "На кольцевой развязке выберите второй съезд."
+            ],
+            [
+              "There is a roundabout near the stadium.",
+              "Возле стадиона есть кольцевая развязка."
+            ]
+          ],
+          "s": "Take the second exit at the ___.",
+          "sru": "кольцевая развязка",
+          "note": "Авторские учебные примеры. Русская запись произношения приблизительная, не IPA.",
+          "hard": false,
+          "rep": 0,
+          "examplesType": "usage",
+          "pronunciationType": "приблизительная русская запись"
+        },
+        {
+          "en": "monument",
+          "ru": "памятник",
+          "pr": "моньюмэнт",
+          "g": "n",
+          "lessons": [
+            "12"
+          ],
+          "ex": "Walk past the monument.",
+          "exru": "Пройдите мимо памятника.",
+          "ex2": "The monument is in the park.",
+          "ex2ru": "Памятник находится в парке.",
+          "collocations": [
+            [
+              "Walk past the monument.",
+              "Пройдите мимо памятника."
+            ],
+            [
+              "The monument is in the park.",
+              "Памятник находится в парке."
+            ]
+          ],
+          "s": "Walk past the ___.",
+          "sru": "памятник",
+          "note": "Авторские учебные примеры. Русская запись произношения приблизительная, не IPA.",
+          "hard": false,
+          "rep": 0,
+          "examplesType": "usage",
+          "pronunciationType": "приблизительная русская запись"
+        },
+        {
+          "en": "crossroads",
+          "ru": "перекрёсток",
+          "pr": "кросроудз",
+          "g": "n",
+          "lessons": [
+            "12"
+          ],
+          "ex": "Turn right at the crossroads.",
+          "exru": "Поверните направо на перекрёстке.",
+          "ex2": "There is a shop at the crossroads.",
+          "ex2ru": "На перекрёстке есть магазин.",
+          "collocations": [
+            [
+              "Turn right at the crossroads.",
+              "Поверните направо на перекрёстке."
+            ],
+            [
+              "There is a shop at the crossroads.",
+              "На перекрёстке есть магазин."
+            ]
+          ],
+          "s": "Turn right at the ___.",
+          "sru": "перекрёсток",
+          "note": "Авторские учебные примеры. Русская запись произношения приблизительная, не IPA.",
+          "hard": false,
+          "rep": 0,
+          "examplesType": "usage",
+          "pronunciationType": "приблизительная русская запись"
+        },
+        {
+          "en": "crossing",
+          "ru": "переход",
+          "pr": "кросинг",
+          "g": "n",
+          "lessons": [
+            "12"
+          ],
+          "ex": "Use the crossing near the school.",
+          "exru": "Воспользуйтесь переходом возле школы.",
+          "ex2": "The crossing is on the main road.",
+          "ex2ru": "Переход на главной дороге.",
+          "collocations": [
+            [
+              "Use the crossing near the school.",
+              "Воспользуйтесь переходом возле школы."
+            ],
+            [
+              "The crossing is on the main road.",
+              "Переход на главной дороге."
+            ]
+          ],
+          "s": "Use the ___ near the school.",
+          "sru": "переход",
+          "note": "Авторские учебные примеры. Русская запись произношения приблизительная, не IPA.",
+          "hard": false,
+          "rep": 0,
+          "examplesType": "usage",
+          "pronunciationType": "приблизительная русская запись"
+        },
+        {
+          "en": "stadium",
+          "ru": "стадион",
+          "pr": "стэйдиэм",
+          "g": "n",
+          "lessons": [
+            "12"
+          ],
+          "ex": "There is a stadium near my house.",
+          "exru": "Рядом с моим домом есть стадион.",
+          "ex2": "The stadium is busy on match days.",
+          "ex2ru": "В дни матчей на стадионе много людей.",
+          "collocations": [
+            [
+              "There is a stadium near my house.",
+              "Рядом с моим домом есть стадион."
+            ],
+            [
+              "The stadium is busy on match days.",
+              "В дни матчей на стадионе много людей."
+            ]
+          ],
+          "s": "There is a ___ near my house.",
+          "sru": "стадион",
+          "note": "Авторские учебные примеры. Русская запись произношения приблизительная, не IPA.",
+          "hard": false,
+          "rep": 0,
+          "examplesType": "usage",
+          "pronunciationType": "приблизительная русская запись"
+        },
+        {
+          "en": "main road",
+          "ru": "главная дорога",
+          "pr": "мэйн роуд",
+          "g": "phrase",
+          "lessons": [
+            "12"
+          ],
+          "ex": "The bus stop is on the main road.",
+          "exru": "Автобусная остановка на главной дороге.",
+          "ex2": "Cross the main road at the lights.",
+          "ex2ru": "Перейдите главную дорогу у светофора.",
+          "collocations": [
+            [
+              "The bus stop is on the main road.",
+              "Автобусная остановка на главной дороге."
+            ],
+            [
+              "Cross the main road at the lights.",
+              "Перейдите главную дорогу у светофора."
+            ]
+          ],
+          "s": "The bus stop is on the ___.",
+          "sru": "главная дорога",
+          "note": "Авторские учебные примеры. Русская запись произношения приблизительная, не IPA.",
+          "hard": false,
+          "rep": 0,
+          "examplesType": "usage",
+          "pronunciationType": "приблизительная русская запись"
+        },
+        {
+          "en": "river",
+          "ru": "река",
+          "pr": "ривэ",
+          "g": "n",
+          "lessons": [
+            "12"
+          ],
+          "ex": "Walk along the river.",
+          "exru": "Идите вдоль реки.",
+          "ex2": "There are two bridges over the river.",
+          "ex2ru": "Через реку есть два моста.",
+          "collocations": [
+            [
+              "Walk along the river.",
+              "Идите вдоль реки."
+            ],
+            [
+              "There are two bridges over the river.",
+              "Через реку есть два моста."
+            ]
+          ],
+          "s": "Walk along the ___.",
+          "sru": "река",
+          "note": "Авторские учебные примеры. Русская запись произношения приблизительная, не IPA.",
+          "hard": false,
+          "rep": 0,
+          "examplesType": "usage",
+          "pronunciationType": "приблизительная русская запись"
+        },
+        {
+          "en": "the edge of the park",
+          "ru": "край парка",
+          "pr": "зи эдж ов зэ паак",
+          "g": "phrase",
+          "lessons": [
+            "12"
+          ],
+          "ex": "Walk along the edge of the park.",
+          "exru": "Идите вдоль края парка.",
+          "ex2": "The café is at the edge of the park.",
+          "ex2ru": "Кафе у края парка.",
+          "collocations": [
+            [
+              "Walk along the edge of the park.",
+              "Идите вдоль края парка."
+            ],
+            [
+              "The café is at the edge of the park.",
+              "Кафе у края парка."
+            ]
+          ],
+          "s": "Walk along ___.",
+          "sru": "край парка",
+          "note": "Авторские учебные примеры. Русская запись произношения приблизительная, не IPA.",
+          "hard": false,
+          "rep": 0,
+          "examplesType": "usage",
+          "pronunciationType": "приблизительная русская запись"
+        },
+        {
+          "en": "report a crime",
+          "ru": "сообщить о преступлении",
+          "pr": "рипот э крайм",
+          "g": "v",
+          "lessons": [
+            "12"
+          ],
+          "ex": "You can report a crime at the police station.",
+          "exru": "В полицейском участке можно сообщить о преступлении.",
+          "ex2": "I need to report a crime.",
+          "ex2ru": "Мне нужно сообщить о преступлении.",
+          "collocations": [
+            [
+              "You can report a crime at the police station.",
+              "В полицейском участке можно сообщить о преступлении."
+            ],
+            [
+              "I need to report a crime.",
+              "Мне нужно сообщить о преступлении."
+            ]
+          ],
+          "s": "You can ___ at the police station.",
+          "sru": "сообщить о преступлении",
+          "note": "Авторские учебные примеры. Русская запись произношения приблизительная, не IPA.",
+          "hard": false,
+          "rep": 0,
+          "examplesType": "usage",
+          "pronunciationType": "приблизительная русская запись"
+        }
+      ],
+      "wordRefs": [
+        "rarely",
+        "be late for work",
+        "it depends on"
+      ]
+    },
+    {
+      "id": "lesson12-getting-there-4",
+      "n": 26,
+      "title": "Урок 12 — Getting there · 4/5",
+      "words": [
+        {
+          "en": "bus stop",
+          "ru": "автобусная остановка",
+          "pr": "бас стоп",
+          "g": "phrase",
+          "lessons": [
+            "12"
+          ],
+          "ex": "The bus stop is opposite the bank.",
+          "exru": "Автобусная остановка напротив банка.",
+          "ex2": "There are two bus stops on this road.",
+          "ex2ru": "На этой дороге две автобусные остановки.",
+          "collocations": [
+            [
+              "The bus stop is opposite the bank.",
+              "Автобусная остановка напротив банка."
+            ],
+            [
+              "There are two bus stops on this road.",
+              "На этой дороге две автобусные остановки."
+            ]
+          ],
+          "s": "The ___ is opposite the bank.",
+          "sru": "автобусная остановка",
+          "note": "Авторские учебные примеры. Русская запись произношения приблизительная, не IPA.",
+          "hard": false,
+          "rep": 0,
+          "examplesType": "usage",
+          "pronunciationType": "приблизительная русская запись"
+        },
+        {
+          "en": "car park",
+          "ru": "парковка",
+          "pr": "каа паак",
+          "g": "phrase",
+          "lessons": [
+            "12"
+          ],
+          "ex": "The car park is behind the museum.",
+          "exru": "Парковка позади музея.",
+          "ex2": "Is there a car park near here?",
+          "ex2ru": "Поблизости есть парковка?",
+          "collocations": [
+            [
+              "The car park is behind the museum.",
+              "Парковка позади музея."
+            ],
+            [
+              "Is there a car park near here?",
+              "Поблизости есть парковка?"
+            ]
+          ],
+          "s": "The ___ is behind the museum.",
+          "sru": "парковка",
+          "note": "Авторские учебные примеры. Русская запись произношения приблизительная, не IPA.",
+          "hard": false,
+          "rep": 0,
+          "examplesType": "usage",
+          "pronunciationType": "приблизительная русская запись"
+        },
+        {
+          "en": "ask for directions",
+          "ru": "спросить дорогу",
+          "pr": "ааск фо дирэкшнз",
+          "g": "v",
+          "lessons": [
+            "12"
+          ],
+          "ex": "You can ask for directions at the station.",
+          "exru": "На станции можно спросить дорогу.",
+          "ex2": "I need to ask for directions.",
+          "ex2ru": "Мне нужно спросить дорогу.",
+          "collocations": [
+            [
+              "You can ask for directions at the station.",
+              "На станции можно спросить дорогу."
+            ],
+            [
+              "I need to ask for directions.",
+              "Мне нужно спросить дорогу."
+            ]
+          ],
+          "s": "You can ___ at the station.",
+          "sru": "спросить дорогу",
+          "note": "Авторские учебные примеры. Русская запись произношения приблизительная, не IPA.",
+          "hard": false,
+          "rep": 0,
+          "examplesType": "usage",
+          "pronunciationType": "приблизительная русская запись"
+        },
+        {
+          "en": "give directions",
+          "ru": "объяснить дорогу",
+          "pr": "гив дирэкшнз",
+          "g": "v",
+          "lessons": [
+            "12"
+          ],
+          "ex": "Can you give directions to the museum?",
+          "exru": "Ты можешь объяснить дорогу до музея?",
+          "ex2": "I can give directions to the park.",
+          "ex2ru": "Я могу объяснить дорогу до парка.",
+          "collocations": [
+            [
+              "Can you give directions to the museum?",
+              "Ты можешь объяснить дорогу до музея?"
+            ],
+            [
+              "I can give directions to the park.",
+              "Я могу объяснить дорогу до парка."
+            ]
+          ],
+          "s": "Can you ___ to the museum?",
+          "sru": "объяснить дорогу",
+          "note": "Авторские учебные примеры. Русская запись произношения приблизительная, не IPA.",
+          "hard": false,
+          "rep": 0,
+          "examplesType": "usage",
+          "pronunciationType": "приблизительная русская запись"
+        },
+        {
+          "en": "go along",
+          "ru": "идти вдоль",
+          "pr": "гоу элонг",
+          "g": "v",
+          "lessons": [
+            "12"
+          ],
+          "ex": "Go along this road.",
+          "exru": "Идите вдоль этой дороги.",
+          "ex2": "You can go along the river.",
+          "ex2ru": "Можно идти вдоль реки.",
+          "collocations": [
+            [
+              "Go along this road.",
+              "Идите вдоль этой дороги."
+            ],
+            [
+              "You can go along the river.",
+              "Можно идти вдоль реки."
+            ]
+          ],
+          "s": "___ this road.",
+          "sru": "идти вдоль",
+          "note": "Авторские учебные примеры. Русская запись произношения приблизительная, не IPA.",
+          "hard": false,
+          "rep": 0,
+          "examplesType": "usage",
+          "pronunciationType": "приблизительная русская запись"
+        },
+        {
+          "en": "go down this road",
+          "ru": "идти по этой дороге",
+          "pr": "гоу даун зис роуд",
+          "g": "v",
+          "lessons": [
+            "12"
+          ],
+          "ex": "Go down this road to the bridge.",
+          "exru": "Идите по этой дороге до моста.",
+          "ex2": "You need to go down this road.",
+          "ex2ru": "Вам нужно идти по этой дороге.",
+          "collocations": [
+            [
+              "Go down this road to the bridge.",
+              "Идите по этой дороге до моста."
+            ],
+            [
+              "You need to go down this road.",
+              "Вам нужно идти по этой дороге."
+            ]
+          ],
+          "s": "___ to the bridge.",
+          "sru": "идти по этой дороге",
+          "note": "Авторские учебные примеры. Русская запись произношения приблизительная, не IPA.",
+          "hard": false,
+          "rep": 0,
+          "examplesType": "usage",
+          "pronunciationType": "приблизительная русская запись"
+        },
+        {
+          "en": "go straight on",
+          "ru": "идти прямо",
+          "pr": "гоу стрэйт он",
+          "g": "v",
+          "lessons": [
+            "12"
+          ],
+          "ex": "Go straight on to the park.",
+          "exru": "Идите прямо до парка.",
+          "ex2": "You can go straight on here.",
+          "ex2ru": "Здесь можно идти прямо.",
+          "collocations": [
+            [
+              "Go straight on to the park.",
+              "Идите прямо до парка."
+            ],
+            [
+              "You can go straight on here.",
+              "Здесь можно идти прямо."
+            ]
+          ],
+          "s": "___ to the park.",
+          "sru": "идти прямо",
+          "note": "Авторские учебные примеры. Русская запись произношения приблизительная, не IPA.",
+          "hard": false,
+          "rep": 0,
+          "examplesType": "usage",
+          "pronunciationType": "приблизительная русская запись"
+        },
+        {
+          "en": "take the second road on the right",
+          "ru": "повернуть на вторую улицу направо",
+          "pr": "тэйк зэ сэкэнд роуд он зэ райт",
+          "g": "v",
+          "lessons": [
+            "12"
+          ],
+          "ex": "Take the second road on the right.",
+          "exru": "Поверните на вторую улицу справа.",
+          "ex2": "You need to take the second road on the right.",
+          "ex2ru": "Вам нужно повернуть на вторую улицу справа.",
+          "collocations": [
+            [
+              "Take the second road on the right.",
+              "Поверните на вторую улицу справа."
+            ],
+            [
+              "You need to take the second road on the right.",
+              "Вам нужно повернуть на вторую улицу справа."
+            ]
+          ],
+          "s": "___.",
+          "sru": "повернуть на вторую улицу направо",
+          "note": "Авторские учебные примеры. Русская запись произношения приблизительная, не IPA.",
+          "hard": false,
+          "rep": 0,
+          "examplesType": "usage",
+          "pronunciationType": "приблизительная русская запись"
+        },
+        {
+          "en": "turn left at the traffic lights",
+          "ru": "повернуть налево у светофора",
+          "pr": "тён лэфт эт зэ трэфик лайтс",
+          "g": "v",
+          "lessons": [
+            "12"
+          ],
+          "ex": "Turn left at the traffic lights.",
+          "exru": "Поверните налево у светофора.",
+          "ex2": "You can turn left at the traffic lights.",
+          "ex2ru": "Вы можете повернуть налево у светофора.",
+          "collocations": [
+            [
+              "Turn left at the traffic lights.",
+              "Поверните налево у светофора."
+            ],
+            [
+              "You can turn left at the traffic lights.",
+              "Вы можете повернуть налево у светофора."
+            ]
+          ],
+          "s": "___.",
+          "sru": "повернуть налево у светофора",
+          "note": "Авторские учебные примеры. Русская запись произношения приблизительная, не IPA.",
+          "hard": false,
+          "rep": 0,
+          "examplesType": "usage",
+          "pronunciationType": "приблизительная русская запись"
+        },
+        {
+          "en": "turn right",
+          "ru": "повернуть направо",
+          "pr": "тён райт",
+          "g": "v",
+          "lessons": [
+            "12"
+          ],
+          "ex": "Turn right at the church.",
+          "exru": "Поверните направо у церкви.",
+          "ex2": "Don't turn right here.",
+          "ex2ru": "Здесь не поворачивайте направо.",
+          "collocations": [
+            [
+              "Turn right at the church.",
+              "Поверните направо у церкви."
+            ],
+            [
+              "Don't turn right here.",
+              "Здесь не поворачивайте направо."
+            ]
+          ],
+          "s": "___ at the church.",
+          "sru": "повернуть направо",
+          "note": "Авторские учебные примеры. Русская запись произношения приблизительная, не IPA.",
+          "hard": false,
+          "rep": 0,
+          "examplesType": "usage",
+          "pronunciationType": "приблизительная русская запись"
+        },
+        {
+          "en": "go past",
+          "ru": "пройти мимо",
+          "pr": "гоу пааст",
+          "g": "v",
+          "lessons": [
+            "12"
+          ],
+          "ex": "Go past the town hall.",
+          "exru": "Пройдите мимо мэрии.",
+          "ex2": "You need to go past the monument.",
+          "ex2ru": "Вам нужно пройти мимо памятника.",
+          "collocations": [
+            [
+              "Go past the town hall.",
+              "Пройдите мимо мэрии."
+            ],
+            [
+              "You need to go past the monument.",
+              "Вам нужно пройти мимо памятника."
+            ]
+          ],
+          "s": "___ the town hall.",
+          "sru": "пройти мимо",
+          "note": "Авторские учебные примеры. Русская запись произношения приблизительная, не IPA.",
+          "hard": false,
+          "rep": 0,
+          "examplesType": "usage",
+          "pronunciationType": "приблизительная русская запись"
+        },
+        {
+          "en": "go through",
+          "ru": "пройти сквозь, внутри",
+          "pr": "гоу сру",
+          "g": "v",
+          "lessons": [
+            "12"
+          ],
+          "ex": "Go through the underpass.",
+          "exru": "Пройдите через подземный переход.",
+          "ex2": "We can go through the park.",
+          "ex2ru": "Мы можем пройти через парк.",
+          "collocations": [
+            [
+              "Go through the underpass.",
+              "Пройдите через подземный переход."
+            ],
+            [
+              "We can go through the park.",
+              "Мы можем пройти через парк."
+            ]
+          ],
+          "s": "___ the underpass.",
+          "sru": "пройти сквозь, внутри",
+          "note": "Авторские учебные примеры. Русская запись произношения приблизительная, не IPA.",
+          "hard": false,
+          "rep": 0,
+          "examplesType": "usage",
+          "pronunciationType": "приблизительная русская запись"
+        },
+        {
+          "en": "go across",
+          "ru": "перейти на другую сторону",
+          "pr": "гоу экрос",
+          "g": "v",
+          "lessons": [
+            "12"
+          ],
+          "ex": "Go across the road at the crossing.",
+          "exru": "Перейдите дорогу по переходу.",
+          "ex2": "You can go across the bridge.",
+          "ex2ru": "Вы можете перейти на другую сторону по мосту.",
+          "collocations": [
+            [
+              "Go across the road at the crossing.",
+              "Перейдите дорогу по переходу."
+            ],
+            [
+              "You can go across the bridge.",
+              "Вы можете перейти на другую сторону по мосту."
+            ]
+          ],
+          "s": "___ the road at the crossing.",
+          "sru": "перейти на другую сторону",
+          "note": "Авторские учебные примеры. Русская запись произношения приблизительная, не IPA.",
+          "hard": false,
+          "rep": 0,
+          "examplesType": "usage",
+          "pronunciationType": "приблизительная русская запись"
+        },
+        {
+          "en": "cross the road",
+          "ru": "перейти дорогу",
+          "pr": "крос зэ роуд",
+          "g": "v",
+          "lessons": [
+            "12"
+          ],
+          "ex": "Cross the road near the lights.",
+          "exru": "Перейдите дорогу возле светофора.",
+          "ex2": "Don't cross the road here.",
+          "ex2ru": "Здесь не переходите дорогу.",
+          "collocations": [
+            [
+              "Cross the road near the lights.",
+              "Перейдите дорогу возле светофора."
+            ],
+            [
+              "Don't cross the road here.",
+              "Здесь не переходите дорогу."
+            ]
+          ],
+          "s": "___ near the lights.",
+          "sru": "перейти дорогу",
+          "note": "Авторские учебные примеры. Русская запись произношения приблизительная, не IPA.",
+          "hard": false,
+          "rep": 0,
+          "examplesType": "usage",
+          "pronunciationType": "приблизительная русская запись"
+        },
+        {
+          "en": "go over a bridge",
+          "ru": "перейти мост",
+          "pr": "гоу оувэ э бридж",
+          "g": "v",
+          "lessons": [
+            "12"
+          ],
+          "ex": "We need to go over a bridge.",
+          "exru": "Нам нужно перейти по мосту.",
+          "ex2": "You can go over a bridge to reach the park.",
+          "ex2ru": "До парка можно добраться по мосту.",
+          "collocations": [
+            [
+              "We need to go over a bridge.",
+              "Нам нужно перейти по мосту."
+            ],
+            [
+              "You can go over a bridge to reach the park.",
+              "До парка можно добраться по мосту."
+            ]
+          ],
+          "s": "We need to ___.",
+          "sru": "перейти мост",
+          "note": "Авторские учебные примеры. Русская запись произношения приблизительная, не IPA.",
+          "hard": false,
+          "rep": 0,
+          "examplesType": "usage",
+          "pronunciationType": "приблизительная русская запись"
+        },
+        {
+          "en": "near",
+          "ru": "рядом, недалеко от",
+          "pr": "ниэ",
+          "g": "prep",
+          "lessons": [
+            "12"
+          ],
+          "ex": "The stadium is near my house.",
+          "exru": "Стадион недалеко от моего дома.",
+          "ex2": "Is there a café near the station?",
+          "ex2ru": "Возле станции есть кафе?",
+          "collocations": [
+            [
+              "The stadium is near my house.",
+              "Стадион недалеко от моего дома."
+            ],
+            [
+              "Is there a café near the station?",
+              "Возле станции есть кафе?"
+            ]
+          ],
+          "s": "The stadium is ___ my house.",
+          "sru": "рядом, недалеко от",
+          "note": "Авторские учебные примеры. Русская запись произношения приблизительная, не IPA.",
+          "hard": false,
+          "rep": 0,
+          "examplesType": "usage",
+          "pronunciationType": "приблизительная русская запись"
+        }
+      ],
+      "wordRefs": [
+        "rarely",
+        "be late for work",
+        "it depends on"
+      ]
+    },
+    {
+      "id": "lesson12-getting-there-5",
+      "n": 27,
+      "title": "Урок 12 — Getting there · 5/5",
+      "words": [
+        {
+          "en": "next to",
+          "ru": "вплотную рядом с",
+          "pr": "нэкст ту",
+          "g": "phrase",
+          "lessons": [
+            "12"
+          ],
+          "ex": "The shop is next to the bank.",
+          "exru": "Магазин непосредственно рядом с банком.",
+          "ex2": "I am next to the bus stop.",
+          "ex2ru": "Я рядом с автобусной остановкой.",
+          "collocations": [
+            [
+              "The shop is next to the bank.",
+              "Магазин непосредственно рядом с банком."
+            ],
+            [
+              "I am next to the bus stop.",
+              "Я рядом с автобусной остановкой."
+            ]
+          ],
+          "s": "The shop is ___ the bank.",
+          "sru": "вплотную рядом с",
+          "note": "Авторские учебные примеры. Русская запись произношения приблизительная, не IPA.",
+          "hard": false,
+          "rep": 0,
+          "examplesType": "usage",
+          "pronunciationType": "приблизительная русская запись"
+        },
+        {
+          "en": "opposite",
+          "ru": "напротив",
+          "pr": "опэзит",
+          "g": "prep",
+          "lessons": [
+            "12"
+          ],
+          "ex": "The museum is opposite the park.",
+          "exru": "Музей напротив парка.",
+          "ex2": "Wait opposite the town hall.",
+          "ex2ru": "Подождите напротив мэрии.",
+          "collocations": [
+            [
+              "The museum is opposite the park.",
+              "Музей напротив парка."
+            ],
+            [
+              "Wait opposite the town hall.",
+              "Подождите напротив мэрии."
+            ]
+          ],
+          "s": "The museum is ___ the park.",
+          "sru": "напротив",
+          "note": "Авторские учебные примеры. Русская запись произношения приблизительная, не IPA.",
+          "hard": false,
+          "rep": 0,
+          "examplesType": "usage",
+          "pronunciationType": "приблизительная русская запись"
+        },
+        {
+          "en": "across from",
+          "ru": "напротив (часто амер.)",
+          "pr": "экрос фром",
+          "g": "phrase",
+          "lessons": [
+            "12"
+          ],
+          "ex": "The café is across from the church.",
+          "exru": "Кафе напротив церкви.",
+          "ex2": "There is a bank across from the station.",
+          "ex2ru": "Напротив станции есть банк.",
+          "collocations": [
+            [
+              "The café is across from the church.",
+              "Кафе напротив церкви."
+            ],
+            [
+              "There is a bank across from the station.",
+              "Напротив станции есть банк."
+            ]
+          ],
+          "s": "The café is ___ the church.",
+          "sru": "напротив (часто амер.)",
+          "note": "Авторские учебные примеры. Русская запись произношения приблизительная, не IPA.",
+          "hard": false,
+          "rep": 0,
+          "examplesType": "usage",
+          "pronunciationType": "приблизительная русская запись"
+        },
+        {
+          "en": "between",
+          "ru": "между",
+          "pr": "битуин",
+          "g": "prep",
+          "lessons": [
+            "12"
+          ],
+          "ex": "The bank is between the café and the shop.",
+          "exru": "Банк между кафе и магазином.",
+          "ex2": "Wait between the two doors.",
+          "ex2ru": "Подождите между двумя дверями.",
+          "collocations": [
+            [
+              "The bank is between the café and the shop.",
+              "Банк между кафе и магазином."
+            ],
+            [
+              "Wait between the two doors.",
+              "Подождите между двумя дверями."
+            ]
+          ],
+          "s": "The bank is ___ the café and the shop.",
+          "sru": "между",
+          "note": "Авторские учебные примеры. Русская запись произношения приблизительная, не IPA.",
+          "hard": false,
+          "rep": 0,
+          "examplesType": "usage",
+          "pronunciationType": "приблизительная русская запись"
+        },
+        {
+          "en": "on your right",
+          "ru": "справа от тебя",
+          "pr": "он ё райт",
+          "g": "phrase",
+          "lessons": [
+            "12"
+          ],
+          "ex": "The museum is on your right.",
+          "exru": "Музей справа от вас.",
+          "ex2": "There is a church on your right.",
+          "ex2ru": "Справа от вас есть церковь.",
+          "collocations": [
+            [
+              "The museum is on your right.",
+              "Музей справа от вас."
+            ],
+            [
+              "There is a church on your right.",
+              "Справа от вас есть церковь."
+            ]
+          ],
+          "s": "The museum is ___.",
+          "sru": "справа от тебя",
+          "note": "Авторские учебные примеры. Русская запись произношения приблизительная, не IPA.",
+          "hard": false,
+          "rep": 0,
+          "examplesType": "usage",
+          "pronunciationType": "приблизительная русская запись"
+        },
+        {
+          "en": "on your left",
+          "ru": "слева от тебя",
+          "pr": "он ё лэфт",
+          "g": "phrase",
+          "lessons": [
+            "12"
+          ],
+          "ex": "The park is on your left.",
+          "exru": "Парк слева от вас.",
+          "ex2": "You can see a bank on your left.",
+          "ex2ru": "Вы можете увидеть банк слева от вас.",
+          "collocations": [
+            [
+              "The park is on your left.",
+              "Парк слева от вас."
+            ],
+            [
+              "You can see a bank on your left.",
+              "Вы можете увидеть банк слева от вас."
+            ]
+          ],
+          "s": "The park is ___.",
+          "sru": "слева от тебя",
+          "note": "Авторские учебные примеры. Русская запись произношения приблизительная, не IPA.",
+          "hard": false,
+          "rep": 0,
+          "examplesType": "usage",
+          "pronunciationType": "приблизительная русская запись"
+        },
+        {
+          "en": "directly opposite",
+          "ru": "прямо напротив",
+          "pr": "дирэктли опэзит",
+          "g": "phrase",
+          "lessons": [
+            "12"
+          ],
+          "ex": "The shop is directly opposite the station.",
+          "exru": "Магазин прямо напротив станции.",
+          "ex2": "Wait directly opposite the bank.",
+          "ex2ru": "Подождите прямо напротив банка.",
+          "collocations": [
+            [
+              "The shop is directly opposite the station.",
+              "Магазин прямо напротив станции."
+            ],
+            [
+              "Wait directly opposite the bank.",
+              "Подождите прямо напротив банка."
+            ]
+          ],
+          "s": "The shop is ___ the station.",
+          "sru": "прямо напротив",
+          "note": "Авторские учебные примеры. Русская запись произношения приблизительная, не IPA.",
+          "hard": false,
+          "rep": 0,
+          "examplesType": "usage",
+          "pronunciationType": "приблизительная русская запись"
+        },
+        {
+          "en": "you can't miss it",
+          "ru": "точно заметишь; не пропустишь",
+          "pr": "ю каант мис ит",
+          "g": "phrase",
+          "lessons": [
+            "12"
+          ],
+          "ex": "The museum is on your left. You can't miss it.",
+          "exru": "Музей слева от вас. Вы его точно заметите.",
+          "ex2": "Look for the big clock. You can't miss it.",
+          "ex2ru": "Ищите большие часы. Вы их точно заметите.",
+          "collocations": [
+            [
+              "The museum is on your left. You can't miss it.",
+              "Музей слева от вас. Вы его точно заметите."
+            ],
+            [
+              "Look for the big clock. You can't miss it.",
+              "Ищите большие часы. Вы их точно заметите."
+            ]
+          ],
+          "s": "The museum is on your left. ___.",
+          "sru": "точно заметишь; не пропустишь",
+          "note": "Авторские учебные примеры. Русская запись произношения приблизительная, не IPA.",
+          "hard": false,
+          "rep": 0,
+          "examplesType": "usage",
+          "pronunciationType": "приблизительная русская запись"
+        },
+        {
+          "en": "i'm not from around here",
+          "ru": "я не местный",
+          "pr": "айм нот фром эраунд хиэ",
+          "g": "phrase",
+          "lessons": [
+            "12"
+          ],
+          "ex": "Sorry, I'm not from around here.",
+          "exru": "Извините, я не местный.",
+          "ex2": "I'm not from around here, so I need a map.",
+          "ex2ru": "Я не местный, поэтому мне нужна карта.",
+          "collocations": [
+            [
+              "Sorry, I'm not from around here.",
+              "Извините, я не местный."
+            ],
+            [
+              "I'm not from around here, so I need a map.",
+              "Я не местный, поэтому мне нужна карта."
+            ]
+          ],
+          "s": "Sorry, ___.",
+          "sru": "я не местный",
+          "note": "Авторские учебные примеры. Русская запись произношения приблизительная, не IPA.",
+          "hard": false,
+          "rep": 0,
+          "examplesType": "usage",
+          "pronunciationType": "приблизительная русская запись"
+        },
+        {
+          "en": "feel about",
+          "ru": "относиться к чему-то, испытывать чувства по поводу",
+          "pr": "фил эбаут",
+          "g": "v",
+          "lessons": [
+            "12"
+          ],
+          "ex": "How do you feel about the metro?",
+          "exru": "Как ты относишься к метро?",
+          "ex2": "How do they feel about public transport?",
+          "ex2ru": "Как они относятся к общественному транспорту?",
+          "collocations": [
+            [
+              "How do you feel about the metro?",
+              "Как ты относишься к метро?"
+            ],
+            [
+              "How do they feel about public transport?",
+              "Как они относятся к общественному транспорту?"
+            ]
+          ],
+          "s": "How do you ___ the metro?",
+          "sru": "относиться к чему-то, испытывать чувства по поводу",
+          "note": "Авторские учебные примеры. Русская запись произношения приблизительная, не IPA.",
+          "hard": false,
+          "rep": 0,
+          "examplesType": "usage",
+          "pronunciationType": "приблизительная русская запись"
+        },
+        {
+          "en": "fast",
+          "ru": "быстрый",
+          "pr": "фааст",
+          "g": "adj",
+          "lessons": [
+            "12"
+          ],
+          "ex": "This train is fast.",
+          "exru": "Этот поезд быстрый.",
+          "ex2": "A taxi is sometimes faster than a bus.",
+          "ex2ru": "Такси иногда быстрее автобуса.",
+          "collocations": [
+            [
+              "This train is fast.",
+              "Этот поезд быстрый."
+            ],
+            [
+              "A taxi is sometimes faster than a bus.",
+              "Такси иногда быстрее автобуса."
+            ]
+          ],
+          "s": "This train is ___.",
+          "sru": "быстрый",
+          "note": "Авторские учебные примеры. Русская запись произношения приблизительная, не IPA.",
+          "hard": false,
+          "rep": 0,
+          "examplesType": "usage",
+          "pronunciationType": "приблизительная русская запись",
+          "forms": [
+            "faster"
+          ]
+        },
+        {
+          "en": "good",
+          "ru": "хороший",
+          "pr": "гуд",
+          "g": "adj",
+          "lessons": [
+            "12"
+          ],
+          "ex": "This is a good route.",
+          "exru": "Это хороший маршрут.",
+          "ex2": "This route is better for me.",
+          "ex2ru": "Этот маршрут лучше для меня.",
+          "collocations": [
+            [
+              "This is a good route.",
+              "Это хороший маршрут."
+            ],
+            [
+              "This route is better for me.",
+              "Этот маршрут лучше для меня."
+            ]
+          ],
+          "s": "This is a ___ route.",
+          "sru": "хороший",
+          "note": "Авторские учебные примеры. Русская запись произношения приблизительная, не IPA.",
+          "hard": false,
+          "rep": 0,
+          "examplesType": "usage",
+          "pronunciationType": "приблизительная русская запись",
+          "forms": [
+            "better"
+          ]
+        },
+        {
+          "en": "little",
+          "ru": "мало (неисчисл.)",
+          "pr": "литл",
+          "g": "adj",
+          "lessons": [
+            "12"
+          ],
+          "ex": "There is little traffic here.",
+          "exru": "Здесь мало транспорта.",
+          "ex2": "There is less traffic at night.",
+          "ex2ru": "Ночью транспорта меньше.",
+          "collocations": [
+            [
+              "There is little traffic here.",
+              "Здесь мало транспорта."
+            ],
+            [
+              "There is less traffic at night.",
+              "Ночью транспорта меньше."
+            ]
+          ],
+          "s": "There is ___ traffic here.",
+          "sru": "мало (неисчисл.)",
+          "note": "Авторские учебные примеры. Русская запись произношения приблизительная, не IPA.",
+          "hard": false,
+          "rep": 0,
+          "examplesType": "usage",
+          "pronunciationType": "приблизительная русская запись",
+          "forms": [
+            "less"
+          ]
+        },
+        {
+          "en": "the least",
+          "ru": "меньше всего",
+          "pr": "зэ лист",
+          "g": "phrase",
+          "lessons": [
+            "12"
+          ],
+          "ex": "I like crowded buses the least.",
+          "exru": "Меньше всего мне нравятся переполненные автобусы.",
+          "ex2": "This road has the least traffic.",
+          "ex2ru": "На этой дороге меньше всего транспорта.",
+          "collocations": [
+            [
+              "I like crowded buses the least.",
+              "Меньше всего мне нравятся переполненные автобусы."
+            ],
+            [
+              "This road has the least traffic.",
+              "На этой дороге меньше всего транспорта."
+            ]
+          ],
+          "s": "I like crowded buses ___.",
+          "sru": "меньше всего",
+          "note": "Авторские учебные примеры. Русская запись произношения приблизительная, не IPA.",
+          "hard": false,
+          "rep": 0,
+          "examplesType": "usage",
+          "pronunciationType": "приблизительная русская запись"
+        },
+        {
+          "en": "the most",
+          "ru": "больше всего",
+          "pr": "зэ моуст",
+          "g": "phrase",
+          "lessons": [
+            "12"
+          ],
+          "ex": "I like travelling by car the most.",
+          "exru": "Больше всего мне нравится ездить на машине.",
+          "ex2": "She likes walking the most.",
+          "ex2ru": "Больше всего ей нравится ходить пешком.",
+          "collocations": [
+            [
+              "I like travelling by car the most.",
+              "Больше всего мне нравится ездить на машине."
+            ],
+            [
+              "She likes walking the most.",
+              "Больше всего ей нравится ходить пешком."
+            ]
+          ],
+          "s": "I like travelling by car ___.",
+          "sru": "больше всего",
+          "note": "Авторские учебные примеры. Русская запись произношения приблизительная, не IPA.",
+          "hard": false,
+          "rep": 0,
+          "examplesType": "usage",
+          "pronunciationType": "приблизительная русская запись"
+        },
+        {
+          "en": "good option",
+          "ru": "хороший вариант",
+          "pr": "гуд опшн",
+          "g": "phrase",
+          "lessons": [
+            "12"
+          ],
+          "ex": "This is a good option.",
+          "exru": "Это хороший вариант.",
+          "ex2": "A taxi is a good option today.",
+          "ex2ru": "Сегодня такси — хороший вариант.",
+          "collocations": [
+            [
+              "This is a good option.",
+              "Это хороший вариант."
+            ],
+            [
+              "A taxi is a good option today.",
+              "Сегодня такси — хороший вариант."
+            ]
+          ],
+          "s": "This is a ___.",
+          "sru": "хороший вариант",
+          "note": "Авторские учебные примеры. Русская запись произношения приблизительная, не IPA.",
+          "hard": false,
+          "rep": 0,
+          "examplesType": "usage",
+          "pronunciationType": "приблизительная русская запись"
+        },
+        {
+          "en": "small town",
+          "ru": "небольшой город",
+          "pr": "смол таун",
+          "g": "phrase",
+          "lessons": [
+            "12"
+          ],
+          "ex": "I live in a small town.",
+          "exru": "Я живу в небольшом городе.",
+          "ex2": "There is a park in this small town.",
+          "ex2ru": "В этом небольшом городе есть парк.",
+          "collocations": [
+            [
+              "I live in a small town.",
+              "Я живу в небольшом городе."
+            ],
+            [
+              "There is a park in this small town.",
+              "В этом небольшом городе есть парк."
+            ]
+          ],
+          "s": "I live in a ___.",
+          "sru": "небольшой город",
+          "note": "Авторские учебные примеры. Русская запись произношения приблизительная, не IPA.",
+          "hard": false,
+          "rep": 0,
+          "examplesType": "usage",
+          "pronunciationType": "приблизительная русская запись"
+        }
+      ],
+      "wordRefs": [
+        "rarely",
+        "be late for work",
+        "it depends on"
+      ]
     }
   ],
   "entries": [
@@ -30524,5 +33038,142 @@
     "make a decision",
     "ask them to give me my money back",
     "like buying"
+  ],
+  "transportReference": [
+    {
+      "en": "boat",
+      "ru": "лодка",
+      "status": "Справочно; не отмечено изученным"
+    },
+    {
+      "en": "ship",
+      "ru": "корабль",
+      "status": "Справочно; не отмечено изученным"
+    },
+    {
+      "en": "ferry",
+      "ru": "паром",
+      "status": "Справочно; не отмечено изученным"
+    },
+    {
+      "en": "lorry",
+      "ru": "грузовик (брит.)",
+      "status": "Справочно; не отмечено изученным"
+    },
+    {
+      "en": "truck",
+      "ru": "грузовик (амер.)",
+      "status": "Справочно; не отмечено изученным"
+    },
+    {
+      "en": "van",
+      "ru": "фургон",
+      "status": "Справочно; не отмечено изученным"
+    },
+    {
+      "en": "helicopter",
+      "ru": "вертолёт",
+      "status": "Справочно; не отмечено изученным"
+    },
+    {
+      "en": "airplane",
+      "ru": "самолёт",
+      "status": "Справочно; не отмечено изученным"
+    },
+    {
+      "en": "plane",
+      "ru": "самолёт",
+      "status": "Справочно; не отмечено изученным"
+    },
+    {
+      "en": "jet",
+      "ru": "реактивный самолёт",
+      "status": "Справочно; не отмечено изученным"
+    },
+    {
+      "en": "yacht",
+      "ru": "яхта",
+      "status": "Справочно; не отмечено изученным"
+    },
+    {
+      "en": "airship",
+      "ru": "дирижабль",
+      "status": "Справочно; не отмечено изученным"
+    },
+    {
+      "en": "balloon",
+      "ru": "воздушный шар",
+      "status": "Справочно; не отмечено изученным"
+    },
+    {
+      "en": "submarine",
+      "ru": "подводная лодка",
+      "status": "Справочно; не отмечено изученным"
+    },
+    {
+      "en": "canoe",
+      "ru": "каноэ",
+      "status": "Справочно; не отмечено изученным"
+    },
+    {
+      "en": "snowmobile",
+      "ru": "снегоход",
+      "status": "Справочно; не отмечено изученным"
+    },
+    {
+      "en": "sledge",
+      "ru": "сани",
+      "status": "Справочно; не отмечено изученным"
+    },
+    {
+      "en": "steam locomotive",
+      "ru": "паровоз",
+      "status": "Справочно; не отмечено изученным"
+    },
+    {
+      "en": "locomotive",
+      "ru": "локомотив",
+      "status": "Справочно; не отмечено изученным"
+    },
+    {
+      "en": "motor ship",
+      "ru": "теплоход",
+      "status": "Справочно; не отмечено изученным"
+    },
+    {
+      "en": "vessel",
+      "ru": "судно",
+      "status": "Справочно; не отмечено изученным"
+    },
+    {
+      "en": "carriage",
+      "ru": "карета",
+      "status": "Справочно; не отмечено изученным"
+    },
+    {
+      "en": "segway",
+      "ru": "сегвей",
+      "status": "Справочно; не отмечено изученным"
+    },
+    {
+      "en": "hang glider",
+      "ru": "дельтаплан",
+      "status": "Справочно; не отмечено изученным"
+    },
+    {
+      "en": "tractor",
+      "ru": "трактор",
+      "status": "Справочно; не отмечено изученным"
+    },
+    {
+      "en": "rocket",
+      "ru": "ракета",
+      "status": "Справочно; не отмечено изученным"
+    },
+    {
+      "en": "cutter",
+      "ru": "катер (одно из значений)",
+      "status": "Справочно; не отмечено изученным"
+    }
   ]
 }

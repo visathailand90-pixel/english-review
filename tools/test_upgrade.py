@@ -45,7 +45,8 @@ try:
    page.goto(url+'/');page.locator('#lesson-select').select_option('03');page.locator('#view-nav [data-tab="l3"]').click()
    previous=page.evaluate("__reviewDebug.getState().drafts['03/l3']")
    page.locator('#lesson-select').select_option('10')
-   assert page.locator('#lesson-select option').count()==11
+   assert page.locator('#lesson-select option').count()>=11
+   assert page.locator('#lesson-select option[value="10"]').count()==1
    for mode in ['l1','l2','l3','l4','l5','fix']:
     page.locator('#view-nav [data-tab="'+mode+'"]').click();assert page.locator('.qcard').count()==4
     block=page.evaluate("__reviewDebug.getState().drafts['10/"+('l1:en' if mode=='l1' else mode)+"']")
