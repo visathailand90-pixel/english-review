@@ -41,12 +41,13 @@ try:
    text=Path(d.value.path()).read_text(encoding='utf-8');assert 'My own sentence 7' in text and 'Start at the park' in text and 'Cross over the road at the crossing.' not in text
    for i in range(5):page.locator('#map-ask').click()
    assert page.locator('#map-ask').is_disabled()
+   page.goto(url+'/#homework13')
    for mode in ['h1','h2','h3','h4','h5']:
     page.locator('#body [data-tab="'+mode+'"]').click();assert page.locator('.qcard').count()==4
     key='13/'+mode
     page.evaluate('''k=>{const s=__reviewDebug.getState(),b=s.drafts[k];for(const q of b.items)b.answers[q.key]=q.kind==='choice'?q.correctIndex:q.kind==='build'?Array.from({length:q.correctTokenCount},(_,i)=>i):q.accept[0];localStorage.setItem('english-review:v4',JSON.stringify(s));}''',key)
-    # Strip hash before reload so the same unfinished exercise, rather than the direct-homework entry, is restored.
-    page.evaluate("history.replaceState(null,'',location.pathname)");page.reload();page.locator('#check-btn').click()
+    assert page.evaluate('location.hash')!='#homework13'
+    page.reload();assert page.evaluate('__reviewDebug.getState().tab')==mode;page.locator('#check-btn').click()
     assert page.evaluate('(k)=>__reviewDebug.getState().drafts[k].completed',key)
     assert page.evaluate('(k)=>__reviewDebug.getState().drafts[k].percentage',key)==100
     page.locator('#view-nav [data-tab="homework"]').click()
