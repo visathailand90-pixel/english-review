@@ -12089,7 +12089,8 @@
   },
   "12/l4:17": {
     "accept": [
-      "Go across the road."
+      "Go across the road.",
+      "Go across over the road."
     ],
     "bad": [],
     "closed": false,
@@ -12097,7 +12098,8 @@
   },
   "12/l4:18": {
     "accept": [
-      "The museum is on your right."
+      "The museum is on your right.",
+      "The museum is on the right."
     ],
     "bad": [],
     "closed": false,
@@ -12304,7 +12306,8 @@
   },
   "12/l5:16": {
     "accept": [
-      "The museum is on your right."
+      "The museum is on your right.",
+      "The museum is on the right."
     ],
     "bad": [],
     "closed": false,
@@ -12573,7 +12576,8 @@
   },
   "12/fix:14": {
     "accept": [
-      "The museum is on your right."
+      "The museum is on your right.",
+      "The museum is on the right."
     ],
     "bad": [
       {
@@ -13681,7 +13685,8 @@
   },
   "13/l5:8": {
     "accept": [
-      "The café is on your right."
+      "The café is on your right.",
+      "The café is on the right."
     ],
     "bad": [],
     "closed": false,
@@ -14228,7 +14233,8 @@
   },
   "13/h4:0": {
     "accept": [
-      "Cross over the road at the crossing."
+      "Cross over the road at the crossing.",
+      "Cross the road at the crossing."
     ],
     "bad": [],
     "closed": false,
@@ -14236,7 +14242,8 @@
   },
   "13/h4:1": {
     "accept": [
-      "Go through the subway to the library."
+      "Go through the subway to the library.",
+      "Go through the underpass to the library."
     ],
     "bad": [],
     "closed": false,
@@ -14276,7 +14283,8 @@
   },
   "13/h4:6": {
     "accept": [
-      "The library is on your right."
+      "The library is on your right.",
+      "The library is on the right."
     ],
     "bad": [],
     "closed": false,
@@ -14293,7 +14301,8 @@
   },
   "13/h5:0": {
     "accept": [
-      "You can cross the road here."
+      "You can cross the road here.",
+      "You can cross over the road here."
     ],
     "bad": [],
     "closed": false,
@@ -14341,11 +14350,17 @@
   },
   "13/h5:6": {
     "accept": [
-      "There is a café on the right."
+      "There is a café on the right.",
+      "There is a café on your right."
     ],
     "bad": [
       {
         "answer": "There is café on the right.",
+        "why": "Пропущен артикль a. Предмет + is + on your/the right. Это положение, не команда повернуть. Is it on your right? / It isn't on your right. Your — относительно направления взгляда. Пример: There is a café on the right. — Справа есть кафе.",
+        "part": "Пропущено: a"
+      },
+      {
+        "answer": "There is café on your right.",
         "why": "Пропущен артикль a. Предмет + is + on your/the right. Это положение, не команда повернуть. Is it on your right? / It isn't on your right. Your — относительно направления взгляда. Пример: There is a café on the right. — Справа есть кафе.",
         "part": "Пропущено: a"
       }
