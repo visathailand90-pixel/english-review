@@ -8,14 +8,15 @@ R=Path(__file__).resolve().parent.parent
 baseline='418171bee8f690ff6f9ef4c5c6b995374b0d36b5'
 def prior(file):return json.loads(subprocess.check_output(['git','show',baseline+':'+file],cwd=R).decode('utf-8'))
 index=json.loads((R/'lesson-data/index.json').read_text(encoding='utf-8'))
-assert index[:-1]==prior('lesson-data/index.json') and index[-1]['id']=='12'
+oldindex=prior('lesson-data/index.json')
+assert index[:len(oldindex)]==oldindex and any(x['id']=='12' for x in index)
 assert '11' not in [x['id'] for x in index]
-for row in index[:-1]:assert json.loads((R/f"lesson-data/{row['id']}.json").read_text(encoding='utf-8'))==prior(f"lesson-data/{row['id']}.json")
+for row in oldindex:assert json.loads((R/f"lesson-data/{row['id']}.json").read_text(encoding='utf-8'))==prior(f"lesson-data/{row['id']}.json")
 old=prior('words/bank.json');bank=json.loads((R/'words/bank.json').read_text(encoding='utf-8'))
 assert bank['packs'][:len(old['packs'])]==old['packs']
 for k in old:
  if k!='packs':assert bank[k]==old[k],k
-new=bank['packs'][len(old['packs']):];assert len(new)==5
+new=[p for p in bank['packs'] if p['id'].startswith('lesson12-')];assert len(new)==5
 canonical=[w['en'] for p in bank['packs'] for w in p['words']]
 added=[w['en'] for p in new for w in p['words']]
 previous={w['en'] for p in old['packs'] for w in p['words']}
@@ -98,7 +99,7 @@ try:
     page.locator('#win').fill('draft');page.reload();assert page.locator('#win').input_value()=='draft'
     assert page.evaluate('document.documentElement.scrollWidth<=innerWidth')
    page.goto(url+'/reader/');assert page.locator('#genLesson option[value="12"]').count()==1
-   assert page.locator('#genTopic optgroup option').count()==6
+   assert page.locator('#genTopic optgroup[label="Урок 12 · транспорт и город"] option').count()==6
    page.locator('#genLesson').select_option('12');page.locator('#genTopic').select_option(label='An accessible city')
    req=page.evaluate('requestForReader()');assert req['lesson']=='12' and req['topic']=='An accessible city'
    context=json.loads(req['context']);selected=next(x for x in context['selected'] if x['lesson']=='12')

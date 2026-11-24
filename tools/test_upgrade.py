@@ -60,16 +60,14 @@ try:
    # Old generated texts survive; JSON export includes them; no endpoint => no API request.
    old={'id':'legacy-reading','title':'Old saved text','topic':'Local','paragraphs':['We buy apples.'],'dict':{'we':{'l':'we','ru':'мы','ipa':''}},'phr':{}}
    page.evaluate('(t)=>localStorage.setItem("chitalka.gen",JSON.stringify([t]))',old);page.reload()
-   page.locator('#ownerEndpoint').evaluate('(el)=>el.value=""');page.locator('#genBtn').click();assert 'не подключён' in page.locator('#genStatus').inner_text()
+   assert page.locator('input[type="password"],#ownerEndpoint').count()==0
    assert page.locator('#textList .card').count()>1
    with page.expect_download() as info:page.locator('#readerExport').click()
    saved=json.loads(Path(info.value.path()).read_text(encoding='utf-8'))
    assert saved['generated'][0]['id']=='legacy-reading'
    # A mock popup uses exactly the production postMessage handshake; no real provider.
    portal='''<script>const source=window.opener;source.postMessage({type:'english-reader-ready'},'*');addEventListener('message',e=>{if(e.data.type==='english-reader-request'){window.req=e.data.request;}});</script>'''
-   context.route('https://mock-reader.workers.dev/portal',lambda route:route.fulfill(body=portal,content_type='text/html'))
-   page.locator('details').filter(has=page.locator('#ownerEndpoint')).locator('summary').click()
-   page.locator('#ownerEndpoint').fill('https://mock-reader.workers.dev/')
+   context.route('https://english-reader-owner.english-fc53e115b617.workers.dev/portal',lambda route:route.fulfill(body=portal,content_type='text/html'))
    with page.expect_popup() as popup:page.locator('#genBtn').click()
    pop=popup.value;pop.wait_for_function('window.req')
    assert pop.evaluate('req.lesson')=='03'

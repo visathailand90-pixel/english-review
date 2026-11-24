@@ -1,0 +1,2240 @@
+{
+  "id": "13",
+  "num": "13",
+  "title": "Getting there — часть 2",
+  "date": "24.11",
+  "summary": "Вопросы на карте, маршрут, инструкции и нужные формы прошлого. Домашняя работа доступна сразу отдельной кнопкой. Примеры авторские, личные истории не публикуются.",
+  "theory": [
+    {
+      "h": "Общие вопросы: выбираем помощника",
+      "text": [
+        "С be меняем порядок: It is near → Is it near? Отрицание It is not near. С обычным действием нужен do/does: You know → Do you know? She knows → Does she know? После does основная форма без -s. С can: Can you help? Без do и без to. С there: Are there any trees? Краткий ответ сохраняет помощника: Yes, it is / No, it is not; Yes, there are / No, there are not."
+      ],
+      "ex": [
+        [
+          "Is it near the stadium?",
+          "Это возле стадиона?"
+        ],
+        [
+          "Are there any trees nearby?",
+          "Поблизости есть деревья?"
+        ],
+        [
+          "Do you know the way to the museum?",
+          "Вы знаете дорогу до музея?"
+        ],
+        [
+          "Can you help me?",
+          "Вы можете мне помочь?"
+        ]
+      ],
+      "warn": [
+        "It is near stadium? → Is it near the stadium?: инверсия и конкретный стадион.",
+        "Does she knows? → Does she know?: окончание уже в does."
+      ],
+      "practice": {
+        "q": "Сделай вопрос: He knows the way. Затем спроси, есть ли деревья поблизости.",
+        "a": "Does he know the way? Are there any trees nearby? После does — know; trees — множественное are."
+      }
+    },
+    {
+      "h": "Прямой и косвенный вопрос",
+      "text": [
+        "Прямой: Where is the museum? Внутри вежливой рамки Do you know + where + подлежащее + глагол: Do you know where the museum is? Инверсия только в главной части Do you know. Для пути How do I get to...? или Could you tell me how to get to...? Отрицание I do not know where it is. Это готовые полезные рамки, а не повод менять смысл ответа."
+      ],
+      "ex": [
+        [
+          "Where is the station?",
+          "Где станция?"
+        ],
+        [
+          "Do you know where the station is?",
+          "Вы знаете, где станция?"
+        ],
+        [
+          "I do not know where the museum is.",
+          "Я не знаю, где музей."
+        ],
+        [
+          "Could you tell me how to get to the park?",
+          "Не подскажете, как добраться до парка?"
+        ]
+      ],
+      "warn": [
+        "Do you know where is it? → where it is: внутри обычный порядок.",
+        "How is going? → How is it going?: в этой фразе нужен it."
+      ],
+      "practice": {
+        "q": "Где правильный порядок: Do you know where is the bank / where the bank is?",
+        "a": "Do you know where the bank is? Внутри косвенного вопроса подлежащее перед is."
+      }
+    },
+    {
+      "h": "Near, nearby и ориентиры",
+      "text": [
+        "Near + объект, close to + объект — возле. Nearby обычно само: There is a shop nearby, или перед существительным: a nearby shop. Far from — далеко от. Next to — непосредственно рядом, opposite — напротив, in front of — перед, between A and B — между. Upper part of the picture — верхняя часть изображения. Is it near the park? / It is not near the park. География на нашей схеме задана явно; по исходной учебной картинке новых фактов не придумываем."
+      ],
+      "ex": [
+        [
+          "The café is near the park.",
+          "Кафе возле парка."
+        ],
+        [
+          "There is a shop nearby.",
+          "Поблизости есть магазин."
+        ],
+        [
+          "The station is far from the park.",
+          "Станция далеко от парка."
+        ],
+        [
+          "The bank is between the café and the school.",
+          "Банк между кафе и школой."
+        ]
+      ],
+      "warn": [
+        "Near with → near: with не нужен.",
+        "Nearby the park → near the park: с объектом используем near."
+      ],
+      "practice": {
+        "q": "Исправь near with the park и nearby the park. Чем отличается a nearby shop?",
+        "a": "Near the park в обоих случаях. Nearby без следующего объекта или перед noun: a nearby shop — соседний магазин."
+      }
+    },
+    {
+      "h": "Маршрут: действие, путь, ориентир",
+      "text": [
+        "Инструкция: глагол без подлежащего + ориентир. Вопрос Do I turn here? Отрицание Don’t turn here. To — цель, through — внутри, along — вдоль, past — мимо, across — на другую сторону, at — точка, on your right — положение. Keep going until you come to... — продолжайте, пока не дойдёте. Восемь блоков домашней работы подробно разобраны в отдельной домашке. Get to — добраться до; go down this road — идти по дороге, не обязательно вниз. Take the second road on the right — вторая улица справа."
+      ],
+      "ex": [
+        [
+          "Go down this road and turn right.",
+          "Идите по этой дороге и поверните направо."
+        ],
+        [
+          "Keep going until you come to a bridge.",
+          "Идите дальше, пока не дойдёте до моста."
+        ],
+        [
+          "Take the second road on the right.",
+          "Поверните на вторую улицу справа."
+        ],
+        [
+          "The museum is on your right.",
+          "Музей справа от вас."
+        ]
+      ],
+      "warn": [
+        "Past и through не взаимозаменяемы: мимо и внутри.",
+        "Turn left on the lights → at the lights: точка поворота."
+      ],
+      "practice": {
+        "q": "Выбери предлог: мимо здания, внутри перехода, вдоль берега; где повернуть у светофора?",
+        "a": "Past the building; through the underpass; along the edge; turn at the lights. Это разные пространственные отношения."
+      }
+    },
+    {
+      "h": "Автобус, остановка и понимание диалога",
+      "text": [
+        "Get on/off the bus — сесть/выйти. At the wrong stop — не на той остановке. Bus stop — остановка на маршруте; bus station — автостанция, не любая остановка. Take a bus, go on foot. На занятии герои искали музей, ехали на автобусе67 и шли пешком; их прибытие не показано. По записи подтверждены ответы b,c,c,b,a; спорную ASR-фразу про стадион не превращаем в вопрос. Оригинального аудио нет. Наш короткий диалог — авторская аналогия, озвучка браузера синтетическая, это не запись занятия."
+      ],
+      "ex": [
+        [
+          "Get off the bus at the next stop.",
+          "Выйдите из автобуса на следующей остановке."
+        ],
+        [
+          "This bus goes in the wrong direction.",
+          "Этот автобус едет не в ту сторону."
+        ],
+        [
+          "We can go there on foot.",
+          "Мы можем пойти туда пешком."
+        ],
+        [
+          "Is this the right bus stop?",
+          "Это нужная автобусная остановка?"
+        ]
+      ],
+      "warn": [
+        "Leave to bus → get off the bus: устойчивое выражение выхода.",
+        "Получили указания не означает прибыли: не делаем вывод без свидетельства."
+      ],
+      "practice": {
+        "q": "Чем отличается bus stop от bus station? Доказывает ли получение маршрута прибытие?",
+        "a": "Bus stop — остановка, bus station — автостанция. Нет: в записи прибытие не показано, поэтому нельзя утверждать, что герои добрались."
+      }
+    },
+    {
+      "h": "Нужные формы прошлого: короткое повторение",
+      "text": [
+        "В базе уже есть прошлое, но на занятии ученик сказал, что не изучал его уверенно. Поэтому это поддерживающее повторение нужных форм, а не объявление всего Past Simple освоенным. Утверждение I asked / I found / they told. Отрицание I did not ask; вопрос Did you find? После did/didn’t — V1. Be отдельно: I/he was, you/we/they were; Was it...? It wasn’t... Could/couldn’t + V1. Try/tried to + V1, даже в прошлом после to остаётся find. Remember/recall — помнить/вспомнить; recall in the memory не обязательная фраза."
+      ],
+      "ex": [
+        [
+          "When I was in a new town, I asked for directions.",
+          "Когда я был в новом городе, я спросил дорогу."
+        ],
+        [
+          "I tried to find a café.",
+          "Я пытался найти кафе."
+        ],
+        [
+          "They told me the way.",
+          "Они объяснили мне дорогу."
+        ],
+        [
+          "I could not find the entrance.",
+          "Я не мог найти вход."
+        ],
+        [
+          "Did you find the museum?",
+          "Ты нашёл музей?"
+        ]
+      ],
+      "warn": [
+        "I tried to found → tried to find: после to начальная форма.",
+        "I didn’t found → didn’t find: прошлое уже в did."
+      ],
+      "practice": {
+        "q": "Исправь: I tried to found it. Did you found it? I couldn’t found it.",
+        "a": "I tried to find it. Did you find it? I couldn’t find it. После to/did/could — начальная форма."
+      }
+    },
+    {
+      "h": "Знакомство, работа и хобби",
+      "text": [
+        "Профессия: work as a/an + профессия; work in + сфера/компания. I work as a marketer. Like + -ing или to + V1: I like boxing / I like to box. Привычка I train; не I training без be. Отрицание I don’t travel a lot; вопрос Do you travel a lot? Play billiards без in; spend time with friends. Ни один авторский пример не добавляет новых личных фактов об ученике."
+      ],
+      "ex": [
+        [
+          "I work as a marketer.",
+          "Я работаю маркетологом."
+        ],
+        [
+          "I like boxing.",
+          "Мне нравится бокс."
+        ],
+        [
+          "I train with other people.",
+          "Я тренируюсь с другими людьми."
+        ],
+        [
+          "I like playing billiards.",
+          "Мне нравится играть в бильярд."
+        ],
+        [
+          "I spend time with my friends.",
+          "Я провожу время с друзьями."
+        ]
+      ],
+      "warn": [
+        "I like play in billiard → I like playing billiards: like + -ing, без in.",
+        "No travel a lot → I don’t travel a lot: подлежащее и don’t."
+      ],
+      "practice": {
+        "q": "Скажи: мне нравится играть в бильярд; я тренируюсь с другими людьми.",
+        "a": "I like playing billiards / I like to play billiards. I train with other people. Play без in; привычка train без am."
+      }
+    },
+    {
+      "h": "Инструкции: сначала понять задачу",
+      "text": [
+        "Read in advance — прочитайте заранее; choose the right answer — выберите правильный ответ; listen again — послушайте ещё раз; check your answers — проверьте ответы; form a full sentence — составьте полное предложение. Guess — предположите, repeat — повторите, move on — перейдите дальше, on the spot — сразу, на месте. Эти рамки помогают уточнить задание, дополнительные фразы не выдаются за цитаты ученика."
+      ],
+      "ex": [
+        [
+          "Could you repeat that, please?",
+          "Не могли бы вы повторить это?"
+        ],
+        [
+          "What does this word mean?",
+          "Что означает это слово?"
+        ],
+        [
+          "Could you speak more slowly?",
+          "Не могли бы вы говорить медленнее?"
+        ],
+        [
+          "Is everything clear?",
+          "Всё понятно?"
+        ],
+        [
+          "Please read the questions in advance.",
+          "Пожалуйста, прочитайте вопросы заранее."
+        ]
+      ],
+      "warn": [
+        "Full sentence — полное предложение, не отдельное слово.",
+        "Clear в инструкции значит понятно, а close to значит близко, не закрыто."
+      ],
+      "practice": {
+        "q": "Как попросить повторить и говорить медленнее? Что значит full sentence?",
+        "a": "Could you repeat that, please? Could you speak more slowly? Full sentence — полное предложение."
+      }
+    }
+  ],
+  "vocab": [
+    {
+      "en": "nearby",
+      "ru": "поблизости",
+      "pron": "ниэбай"
+    },
+    {
+      "en": "close to",
+      "ru": "близко к",
+      "pron": "клоус ту"
+    },
+    {
+      "en": "far from",
+      "ru": "далеко от",
+      "pron": "фаа фром"
+    },
+    {
+      "en": "clear",
+      "ru": "понятный; ясный",
+      "pron": "клиэ"
+    },
+    {
+      "en": "edge",
+      "ru": "край",
+      "pron": "эдж"
+    },
+    {
+      "en": "route",
+      "ru": "маршрут",
+      "pron": "рут"
+    },
+    {
+      "en": "wrong stop",
+      "ru": "не та остановка",
+      "pron": "ронг стоп"
+    },
+    {
+      "en": "bus station",
+      "ru": "автостанция",
+      "pron": "бас стэйшн"
+    },
+    {
+      "en": "landscape",
+      "ru": "пейзаж",
+      "pron": "лэндскэйп"
+    },
+    {
+      "en": "fitness equipment",
+      "ru": "оборудование для фитнеса",
+      "pron": "фитнэс иквипмэнт"
+    },
+    {
+      "en": "taken apart",
+      "ru": "разобранный на детали",
+      "pron": "тэйкэн эпаат"
+    },
+    {
+      "en": "recall",
+      "ru": "вспомнить; припомнить",
+      "pron": "рикол"
+    },
+    {
+      "en": "paper map",
+      "ru": "бумажная карта",
+      "pron": "пэйпэ мэп"
+    },
+    {
+      "en": "sights",
+      "ru": "достопримечательности",
+      "pron": "сайтс"
+    },
+    {
+      "en": "guess",
+      "ru": "угадать; предположить",
+      "pron": "гэс"
+    },
+    {
+      "en": "hint",
+      "ru": "подсказка",
+      "pron": "хинт"
+    },
+    {
+      "en": "in advance",
+      "ru": "заранее",
+      "pron": "ин эдваанс"
+    },
+    {
+      "en": "full sentence",
+      "ru": "полное предложение",
+      "pron": "фул сэнтэнс"
+    },
+    {
+      "en": "choose",
+      "ru": "выбирать",
+      "pron": "чуз"
+    },
+    {
+      "en": "forget",
+      "ru": "забывать",
+      "pron": "фэгэт"
+    },
+    {
+      "en": "find",
+      "ru": "находить",
+      "pron": "файнд"
+    },
+    {
+      "en": "tell",
+      "ru": "рассказывать; сказать",
+      "pron": "тэл"
+    },
+    {
+      "en": "try",
+      "ru": "пытаться; пробовать",
+      "pron": "трай"
+    },
+    {
+      "en": "repeat",
+      "ru": "повторять",
+      "pron": "рипит"
+    },
+    {
+      "en": "move on",
+      "ru": "переходить дальше",
+      "pron": "мув он"
+    },
+    {
+      "en": "keep going",
+      "ru": "продолжать идти",
+      "pron": "кип гоуинг"
+    },
+    {
+      "en": "until",
+      "ru": "до тех пор пока; до",
+      "pron": "энтил"
+    },
+    {
+      "en": "on the spot",
+      "ru": "сразу; на месте",
+      "pron": "он зэ спот"
+    }
+  ],
+  "l2": [
+    {
+      "q": "___ it near the stadium?",
+      "o": [
+        "Is",
+        "Does",
+        "Do"
+      ],
+      "a": 0,
+      "why": "Be перед подлежащим в вопросе. Пример: Are there any trees nearby? — Поблизости есть деревья?"
+    },
+    {
+      "q": "___ there any trees nearby?",
+      "o": [
+        "Is",
+        "Do",
+        "Are"
+      ],
+      "a": 2,
+      "why": "Trees во множественном числе: Are there? Пример: Do you know the way to the museum? — Вы знаете дорогу до музея?"
+    },
+    {
+      "q": "___ you know the way to the museum?",
+      "o": [
+        "Is",
+        "Do",
+        "Are"
+      ],
+      "a": 1,
+      "why": "Know обычный глагол, вопрос с do. Пример: Can you help me? — Вы можете мне помочь?"
+    },
+    {
+      "q": "___ you help me?",
+      "o": [
+        "Can",
+        "Are",
+        "Is"
+      ],
+      "a": 0,
+      "why": "Can перед подлежащим, без do. Пример: Does she know the way? — Она знает дорогу?"
+    },
+    {
+      "q": "Does she ___ the way?",
+      "o": [
+        "knows",
+        "knowing",
+        "know"
+      ],
+      "a": 2,
+      "why": "После does начальная форма. Пример: Do you know where the bank is? — Вы знаете, где банк?"
+    },
+    {
+      "q": "Do you know where the bank ___?",
+      "o": [
+        "be",
+        "is",
+        "does"
+      ],
+      "a": 1,
+      "why": "В косвенном вопросе подлежащее перед is. Пример: Is it far from the bridge? — Это далеко от моста?"
+    },
+    {
+      "q": "Is it far ___ the bridge?",
+      "o": [
+        "from",
+        "to",
+        "with"
+      ],
+      "a": 0,
+      "why": "Far from — далеко от. Пример: There is a shop nearby. — Поблизости есть магазин."
+    },
+    {
+      "q": "There is a shop ___.",
+      "o": [
+        "near with",
+        "far to",
+        "nearby"
+      ],
+      "a": 2,
+      "why": "Nearby самостоятельно, без объекта после него. Пример: The café is close to the park. — Кафе близко к парку."
+    },
+    {
+      "q": "The café is close ___ the park.",
+      "o": [
+        "from",
+        "to",
+        "with"
+      ],
+      "a": 1,
+      "why": "Close to + объект. Пример: The museum is opposite the bookshop. — Музей напротив книжного магазина."
+    },
+    {
+      "q": "The museum is ___ the bookshop. (Напротив.)",
+      "o": [
+        "opposite",
+        "through",
+        "along"
+      ],
+      "a": 0,
+      "why": "Opposite + объект, без to. Пример: The bank is between the café and the school. — Банк между кафе и школой."
+    },
+    {
+      "q": "The bank is ___ the café and the school.",
+      "o": [
+        "nearby",
+        "through",
+        "between"
+      ],
+      "a": 2,
+      "why": "Between A and B — между. Пример: The bus stop is in front of the school. — Остановка перед школой."
+    },
+    {
+      "q": "The bus stop is in ___ of the school.",
+      "o": [
+        "opposite",
+        "front",
+        "past"
+      ],
+      "a": 1,
+      "why": "In front of — перед объектом. Пример: Walk along the edge of the park. — Идите вдоль края парка."
+    },
+    {
+      "q": "Walk ___ the edge of the park.",
+      "o": [
+        "along",
+        "across",
+        "opposite"
+      ],
+      "a": 0,
+      "why": "Along вдоль линии. Пример: Go through the underpass. — Пройдите через подземный переход."
+    },
+    {
+      "q": "Go ___ the underpass.",
+      "o": [
+        "past",
+        "at",
+        "through"
+      ],
+      "a": 2,
+      "why": "Через пространство внутри: through. Пример: Walk past the bakery. — Пройдите мимо пекарни."
+    },
+    {
+      "q": "Walk ___ the bakery. (Мимо.)",
+      "o": [
+        "between",
+        "past",
+        "through"
+      ],
+      "a": 1,
+      "why": "Past — мимо, не входя. Пример: Come to some traffic lights. — Дойдите до светофоров."
+    },
+    {
+      "q": "Come ___ some traffic lights.",
+      "o": [
+        "to",
+        "on",
+        "past"
+      ],
+      "a": 0,
+      "why": "To — цель движения. Пример: Turn left at the lights. — Поверните налево у светофора."
+    },
+    {
+      "q": "Turn left ___ the lights.",
+      "o": [
+        "on",
+        "in",
+        "at"
+      ],
+      "a": 2,
+      "why": "At отмечает точку поворота. Пример: The café is on your right. — Кафе справа от вас."
+    },
+    {
+      "q": "The café is ___ your right.",
+      "o": [
+        "to",
+        "on",
+        "opposite"
+      ],
+      "a": 1,
+      "why": "On your right — положение справа. Пример: Get off the bus at the next stop. — Выйдите из автобуса на следующей остановке."
+    },
+    {
+      "q": "Get ___ the bus at the next stop.",
+      "o": [
+        "off",
+        "on",
+        "in"
+      ],
+      "a": 0,
+      "why": "Get off — выйти, get on — сесть. Пример: I got off at the wrong stop. — Я вышел не на той остановке."
+    },
+    {
+      "q": "I got off ___ the wrong stop.",
+      "o": [
+        "on",
+        "to",
+        "at"
+      ],
+      "a": 2,
+      "why": "At + остановка. Пример: We can go there on foot. — Мы можем пойти туда пешком."
+    },
+    {
+      "q": "We can go there ___ foot.",
+      "o": [
+        "in",
+        "on",
+        "by"
+      ],
+      "a": 1,
+      "why": "On foot — пешком. Пример: Can they get to the museum? — Они могут добраться до музея?"
+    },
+    {
+      "q": "Can they ___ to the museum?",
+      "o": [
+        "get",
+        "to get",
+        "got"
+      ],
+      "a": 0,
+      "why": "После can глагол без to. Пример: When I was in a new town, I asked for directions. — Когда я был в новом городе, я спросил дорогу."
+    },
+    {
+      "q": "When I ___ in a new town, I asked for directions.",
+      "o": [
+        "be",
+        "am",
+        "was"
+      ],
+      "a": 2,
+      "why": "Be в прошлом с I: was. Пример: I tried to find a café. — Я пытался найти кафе."
+    },
+    {
+      "q": "I tried to ___ a café.",
+      "o": [
+        "finding",
+        "find",
+        "found"
+      ],
+      "a": 1,
+      "why": "После tried to — начальная форма find. Пример: They told me the way. — Они объяснили мне дорогу."
+    },
+    {
+      "q": "Yesterday they ___ me the way.",
+      "o": [
+        "told",
+        "tell",
+        "tells"
+      ],
+      "a": 0,
+      "why": "В прошлом tell → told. Пример: I could not find the entrance. — Я не мог найти вход."
+    },
+    {
+      "q": "I could not ___ the entrance.",
+      "o": [
+        "found",
+        "to find",
+        "find"
+      ],
+      "a": 2,
+      "why": "После could not — V1. Пример: Did you find the museum? — Ты нашёл музей?"
+    },
+    {
+      "q": "Did you ___ the museum?",
+      "o": [
+        "finds",
+        "find",
+        "found"
+      ],
+      "a": 1,
+      "why": "Did уже выражает прошлое. Пример: I did not ask anyone. — Я никого не спрашивал."
+    },
+    {
+      "q": "I did not ___ anyone.",
+      "o": [
+        "ask",
+        "asked",
+        "asking"
+      ],
+      "a": 0,
+      "why": "После did not — ask. Пример: I was in the right place. — Я был в нужном месте."
+    },
+    {
+      "q": "I was ___ the right place.",
+      "o": [
+        "on",
+        "to",
+        "in"
+      ],
+      "a": 2,
+      "why": "In the right place — в нужном месте. Пример: I asked young people who live here. — Я спросил молодых людей, которые здесь живут."
+    },
+    {
+      "q": "I asked young people who ___ here.",
+      "o": [
+        "living",
+        "live",
+        "lives"
+      ],
+      "a": 1,
+      "why": "People множественное, live без -s; asked в прошлом. Пример: I chose the right answer yesterday. — Вчера я выбрал правильный ответ."
+    },
+    {
+      "q": "I ___ the right answer yesterday.",
+      "o": [
+        "chose",
+        "choice",
+        "choose"
+      ],
+      "a": 0,
+      "why": "Choose → chose в прошлом. Пример: I like playing billiards. — Мне нравится играть в бильярд."
+    },
+    {
+      "q": "I like ___ billiards.",
+      "o": [
+        "play in",
+        "played",
+        "playing"
+      ],
+      "a": 2,
+      "why": "Like + -ing или to play; без in. Пример: I do not travel a lot. — Я не очень много путешествую."
+    },
+    {
+      "q": "I ___ not travel a lot.",
+      "o": [
+        "is",
+        "do",
+        "am"
+      ],
+      "a": 1,
+      "why": "Отрицание обычной привычки: do not. Пример: I train with other people. — Я тренируюсь с другими людьми."
+    },
+    {
+      "q": "I ___ with other people.",
+      "o": [
+        "train",
+        "training",
+        "am train"
+      ],
+      "a": 0,
+      "why": "Привычка в Present Simple без be. Пример: Do you travel a lot? — Ты много путешествуешь?"
+    },
+    {
+      "q": "___ you travel a lot?",
+      "o": [
+        "Are",
+        "Is",
+        "Do"
+      ],
+      "a": 2,
+      "why": "Travel обычный глагол, вопрос с do. Пример: Are you in the right place? — Ты в нужном месте?"
+    },
+    {
+      "q": "___ you in the right place?",
+      "o": [
+        "Does",
+        "Are",
+        "Do"
+      ],
+      "a": 1,
+      "why": "Место с be: Are you...? Пример: Is there a bus station here? — Здесь есть автостанция?"
+    },
+    {
+      "q": "___ there a bus station here?",
+      "o": [
+        "Is",
+        "Are",
+        "Do"
+      ],
+      "a": 0,
+      "why": "Один объект: Is there? Пример: Does he work as a teacher? — Он работает учителем?"
+    },
+    {
+      "q": "___ he work as a teacher?",
+      "o": [
+        "Do",
+        "Is",
+        "Does"
+      ],
+      "a": 2,
+      "why": "He + does в вопросе. Пример: Can I get on this bus? — Я могу сесть в этот автобус?"
+    },
+    {
+      "q": "___ I get on this bus?",
+      "o": [
+        "Am",
+        "Can",
+        "Do"
+      ],
+      "a": 1,
+      "why": "Can I + V1 — возможность. Пример: Are they near the monument? — Они возле памятника?"
+    },
+    {
+      "q": "___ they near the monument?",
+      "o": [
+        "Are",
+        "Is",
+        "Does"
+      ],
+      "a": 0,
+      "why": "They во множественном с be. Пример: Please read the questions in advance. — Пожалуйста, прочитайте вопросы заранее."
+    },
+    {
+      "q": "Read the questions in ___.",
+      "o": [
+        "spot",
+        "edge",
+        "advance"
+      ],
+      "a": 2,
+      "why": "In advance — заранее. Пример: Choose the right answer. — Выберите правильный ответ."
+    },
+    {
+      "q": "___ the right answer.",
+      "o": [
+        "Chose",
+        "Choose",
+        "Choice"
+      ],
+      "a": 1,
+      "why": "В инструкции глагол V1. Пример: Listen again. — Послушайте ещё раз."
+    },
+    {
+      "q": "Listen ___.",
+      "o": [
+        "again",
+        "along",
+        "apart"
+      ],
+      "a": 0,
+      "why": "Again — ещё раз. Пример: Check your answers. — Проверьте свои ответы."
+    },
+    {
+      "q": "___ your answers.",
+      "o": [
+        "Choose",
+        "Cross",
+        "Check"
+      ],
+      "a": 2,
+      "why": "Check — проверить, не выбрать. Пример: Form a full sentence. — Составьте полное предложение."
+    },
+    {
+      "q": "Form a ___ sentence.",
+      "o": [
+        "lost",
+        "full",
+        "wrong"
+      ],
+      "a": 1,
+      "why": "Full sentence — предложение целиком. Пример: Could you repeat that, please? — Не могли бы вы повторить это?"
+    },
+    {
+      "q": "Could you ___ that, please?",
+      "o": [
+        "repeat",
+        "repeated",
+        "to repeat"
+      ],
+      "a": 0,
+      "why": "Could + V1, repeat — повторить. Пример: What does this word mean? — Что значит это слово?"
+    },
+    {
+      "q": "What does this word ___?",
+      "o": [
+        "means",
+        "meaning",
+        "mean"
+      ],
+      "a": 2,
+      "why": "После does — mean без -s. Пример: Could you speak more slowly? — Не могли бы вы говорить медленнее?"
+    },
+    {
+      "q": "Could you speak more ___?",
+      "o": [
+        "slowerest",
+        "slowly",
+        "slow"
+      ],
+      "a": 1,
+      "why": "Slowly относится к speak: медленнее. Пример: Is it near the stadium? — Это возле стадиона?"
+    },
+    {
+      "q": "___ it on your right?",
+      "o": [
+        "Is",
+        "Does",
+        "Do"
+      ],
+      "a": 0,
+      "why": "Is + it + место: вопрос с be. Пример: Is it on your left? — Это слева от вас?"
+    }
+  ],
+  "l3": [
+    {
+      "q": "___ it near the stadium?",
+      "hint": "Впиши нужное слово или выражение.",
+      "a": [
+        "Is"
+      ],
+      "why": "Be перед подлежащим в вопросе. Пример: Are there any trees nearby? — Поблизости есть деревья?"
+    },
+    {
+      "q": "___ there any trees nearby?",
+      "hint": "Впиши нужное слово или выражение.",
+      "a": [
+        "Are"
+      ],
+      "why": "Trees во множественном числе: Are there? Пример: Do you know the way to the museum? — Вы знаете дорогу до музея?"
+    },
+    {
+      "q": "___ you know the way to the museum?",
+      "hint": "Впиши нужное слово или выражение.",
+      "a": [
+        "Do"
+      ],
+      "why": "Know обычный глагол, вопрос с do. Пример: Can you help me? — Вы можете мне помочь?"
+    },
+    {
+      "q": "___ you help me?",
+      "hint": "Впиши нужное слово или выражение.",
+      "a": [
+        "Can"
+      ],
+      "why": "Can перед подлежащим, без do. Пример: Does she know the way? — Она знает дорогу?"
+    },
+    {
+      "q": "Does she ___ the way?",
+      "hint": "Впиши нужное слово или выражение.",
+      "a": [
+        "know"
+      ],
+      "why": "После does начальная форма. Пример: Do you know where the bank is? — Вы знаете, где банк?"
+    },
+    {
+      "q": "Do you know where the bank ___?",
+      "hint": "Впиши нужное слово или выражение.",
+      "a": [
+        "is"
+      ],
+      "why": "В косвенном вопросе подлежащее перед is. Пример: Is it far from the bridge? — Это далеко от моста?"
+    },
+    {
+      "q": "Is it far ___ the bridge?",
+      "hint": "Впиши нужное слово или выражение.",
+      "a": [
+        "from"
+      ],
+      "why": "Far from — далеко от. Пример: There is a shop nearby. — Поблизости есть магазин."
+    },
+    {
+      "q": "There is a shop ___.",
+      "hint": "Впиши нужное слово или выражение.",
+      "a": [
+        "nearby"
+      ],
+      "why": "Nearby самостоятельно, без объекта после него. Пример: The café is close to the park. — Кафе близко к парку."
+    },
+    {
+      "q": "The café is close ___ the park.",
+      "hint": "Впиши нужное слово или выражение.",
+      "a": [
+        "to"
+      ],
+      "why": "Close to + объект. Пример: The museum is opposite the bookshop. — Музей напротив книжного магазина."
+    },
+    {
+      "q": "The museum is ___ the bookshop. (Напротив.)",
+      "hint": "Впиши нужное слово или выражение.",
+      "a": [
+        "opposite",
+        "across from"
+      ],
+      "why": "Opposite + объект, без to. Пример: The bank is between the café and the school. — Банк между кафе и школой."
+    },
+    {
+      "q": "The bank is ___ the café and the school.",
+      "hint": "Впиши нужное слово или выражение.",
+      "a": [
+        "between"
+      ],
+      "why": "Between A and B — между. Пример: The bus stop is in front of the school. — Остановка перед школой."
+    },
+    {
+      "q": "The bus stop is in ___ of the school.",
+      "hint": "Впиши нужное слово или выражение.",
+      "a": [
+        "front"
+      ],
+      "why": "In front of — перед объектом. Пример: Walk along the edge of the park. — Идите вдоль края парка."
+    },
+    {
+      "q": "Walk ___ the edge of the park.",
+      "hint": "Впиши нужное слово или выражение.",
+      "a": [
+        "along"
+      ],
+      "why": "Along вдоль линии. Пример: Go through the underpass. — Пройдите через подземный переход."
+    },
+    {
+      "q": "Go ___ the underpass.",
+      "hint": "Впиши нужное слово или выражение.",
+      "a": [
+        "through"
+      ],
+      "why": "Через пространство внутри: through. Пример: Walk past the bakery. — Пройдите мимо пекарни."
+    },
+    {
+      "q": "Walk ___ the bakery. (Мимо.)",
+      "hint": "Впиши нужное слово или выражение.",
+      "a": [
+        "past"
+      ],
+      "why": "Past — мимо, не входя. Пример: Come to some traffic lights. — Дойдите до светофоров."
+    },
+    {
+      "q": "Come ___ some traffic lights.",
+      "hint": "Впиши нужное слово или выражение.",
+      "a": [
+        "to"
+      ],
+      "why": "To — цель движения. Пример: Turn left at the lights. — Поверните налево у светофора."
+    },
+    {
+      "q": "Turn left ___ the lights.",
+      "hint": "Впиши нужное слово или выражение.",
+      "a": [
+        "at"
+      ],
+      "why": "At отмечает точку поворота. Пример: The café is on your right. — Кафе справа от вас."
+    },
+    {
+      "q": "The café is ___ your right.",
+      "hint": "Впиши нужное слово или выражение.",
+      "a": [
+        "on"
+      ],
+      "why": "On your right — положение справа. Пример: Get off the bus at the next stop. — Выйдите из автобуса на следующей остановке."
+    },
+    {
+      "q": "Get ___ the bus at the next stop.",
+      "hint": "Впиши нужное слово или выражение.",
+      "a": [
+        "off"
+      ],
+      "why": "Get off — выйти, get on — сесть. Пример: I got off at the wrong stop. — Я вышел не на той остановке."
+    },
+    {
+      "q": "I got off ___ the wrong stop.",
+      "hint": "Впиши нужное слово или выражение.",
+      "a": [
+        "at"
+      ],
+      "why": "At + остановка. Пример: We can go there on foot. — Мы можем пойти туда пешком."
+    },
+    {
+      "q": "We can go there ___ foot.",
+      "hint": "Впиши нужное слово или выражение.",
+      "a": [
+        "on"
+      ],
+      "why": "On foot — пешком. Пример: Can they get to the museum? — Они могут добраться до музея?"
+    },
+    {
+      "q": "Can they ___ to the museum?",
+      "hint": "Впиши нужное слово или выражение.",
+      "a": [
+        "get"
+      ],
+      "why": "После can глагол без to. Пример: When I was in a new town, I asked for directions. — Когда я был в новом городе, я спросил дорогу."
+    },
+    {
+      "q": "When I ___ in a new town, I asked for directions.",
+      "hint": "Впиши нужное слово или выражение.",
+      "a": [
+        "was"
+      ],
+      "why": "Be в прошлом с I: was. Пример: I tried to find a café. — Я пытался найти кафе."
+    },
+    {
+      "q": "I tried to ___ a café.",
+      "hint": "Впиши нужное слово или выражение.",
+      "a": [
+        "find"
+      ],
+      "why": "После tried to — начальная форма find. Пример: They told me the way. — Они объяснили мне дорогу."
+    },
+    {
+      "q": "Yesterday they ___ me the way.",
+      "hint": "Впиши нужное слово или выражение.",
+      "a": [
+        "told"
+      ],
+      "why": "В прошлом tell → told. Пример: I could not find the entrance. — Я не мог найти вход."
+    },
+    {
+      "q": "I could not ___ the entrance.",
+      "hint": "Впиши нужное слово или выражение.",
+      "a": [
+        "find"
+      ],
+      "why": "После could not — V1. Пример: Did you find the museum? — Ты нашёл музей?"
+    },
+    {
+      "q": "Did you ___ the museum?",
+      "hint": "Впиши нужное слово или выражение.",
+      "a": [
+        "find"
+      ],
+      "why": "Did уже выражает прошлое. Пример: I did not ask anyone. — Я никого не спрашивал."
+    },
+    {
+      "q": "I did not ___ anyone.",
+      "hint": "Впиши нужное слово или выражение.",
+      "a": [
+        "ask"
+      ],
+      "why": "После did not — ask. Пример: I was in the right place. — Я был в нужном месте."
+    },
+    {
+      "q": "I was ___ the right place.",
+      "hint": "Впиши нужное слово или выражение.",
+      "a": [
+        "in"
+      ],
+      "why": "In the right place — в нужном месте. Пример: I asked young people who live here. — Я спросил молодых людей, которые здесь живут."
+    },
+    {
+      "q": "I asked young people who ___ here.",
+      "hint": "Впиши нужное слово или выражение.",
+      "a": [
+        "live"
+      ],
+      "why": "People множественное, live без -s; asked в прошлом. Пример: I chose the right answer yesterday. — Вчера я выбрал правильный ответ."
+    },
+    {
+      "q": "I ___ the right answer yesterday.",
+      "hint": "Впиши нужное слово или выражение.",
+      "a": [
+        "chose"
+      ],
+      "why": "Choose → chose в прошлом. Пример: I like playing billiards. — Мне нравится играть в бильярд."
+    },
+    {
+      "q": "I like ___ billiards.",
+      "hint": "Впиши нужное слово или выражение.",
+      "a": [
+        "playing",
+        "to play"
+      ],
+      "why": "Like + -ing или to play; без in. Пример: I do not travel a lot. — Я не очень много путешествую."
+    },
+    {
+      "q": "I ___ not travel a lot.",
+      "hint": "Впиши нужное слово или выражение.",
+      "a": [
+        "do"
+      ],
+      "why": "Отрицание обычной привычки: do not. Пример: I train with other people. — Я тренируюсь с другими людьми."
+    },
+    {
+      "q": "I ___ with other people.",
+      "hint": "Впиши нужное слово или выражение.",
+      "a": [
+        "train"
+      ],
+      "why": "Привычка в Present Simple без be. Пример: Do you travel a lot? — Ты много путешествуешь?"
+    },
+    {
+      "q": "___ you travel a lot?",
+      "hint": "Впиши нужное слово или выражение.",
+      "a": [
+        "Do"
+      ],
+      "why": "Travel обычный глагол, вопрос с do. Пример: Are you in the right place? — Ты в нужном месте?"
+    },
+    {
+      "q": "___ you in the right place?",
+      "hint": "Впиши нужное слово или выражение.",
+      "a": [
+        "Are"
+      ],
+      "why": "Место с be: Are you...? Пример: Is there a bus station here? — Здесь есть автостанция?"
+    },
+    {
+      "q": "___ there a bus station here?",
+      "hint": "Впиши нужное слово или выражение.",
+      "a": [
+        "Is"
+      ],
+      "why": "Один объект: Is there? Пример: Does he work as a teacher? — Он работает учителем?"
+    },
+    {
+      "q": "___ he work as a teacher?",
+      "hint": "Впиши нужное слово или выражение.",
+      "a": [
+        "Does"
+      ],
+      "why": "He + does в вопросе. Пример: Can I get on this bus? — Я могу сесть в этот автобус?"
+    },
+    {
+      "q": "___ I get on this bus?",
+      "hint": "Впиши нужное слово или выражение.",
+      "a": [
+        "Can"
+      ],
+      "why": "Can I + V1 — возможность. Пример: Are they near the monument? — Они возле памятника?"
+    },
+    {
+      "q": "___ they near the monument?",
+      "hint": "Впиши нужное слово или выражение.",
+      "a": [
+        "Are"
+      ],
+      "why": "They во множественном с be. Пример: Please read the questions in advance. — Пожалуйста, прочитайте вопросы заранее."
+    },
+    {
+      "q": "Read the questions in ___.",
+      "hint": "Впиши нужное слово или выражение.",
+      "a": [
+        "advance"
+      ],
+      "why": "In advance — заранее. Пример: Choose the right answer. — Выберите правильный ответ."
+    },
+    {
+      "q": "___ the right answer.",
+      "hint": "Впиши нужное слово или выражение.",
+      "a": [
+        "Choose"
+      ],
+      "why": "В инструкции глагол V1. Пример: Listen again. — Послушайте ещё раз."
+    },
+    {
+      "q": "Listen ___.",
+      "hint": "Впиши нужное слово или выражение.",
+      "a": [
+        "again"
+      ],
+      "why": "Again — ещё раз. Пример: Check your answers. — Проверьте свои ответы."
+    },
+    {
+      "q": "___ your answers.",
+      "hint": "Впиши нужное слово или выражение.",
+      "a": [
+        "Check"
+      ],
+      "why": "Check — проверить, не выбрать. Пример: Form a full sentence. — Составьте полное предложение."
+    },
+    {
+      "q": "Form a ___ sentence.",
+      "hint": "Впиши нужное слово или выражение.",
+      "a": [
+        "full"
+      ],
+      "why": "Full sentence — предложение целиком. Пример: Could you repeat that, please? — Не могли бы вы повторить это?"
+    },
+    {
+      "q": "Could you ___ that, please?",
+      "hint": "Впиши нужное слово или выражение.",
+      "a": [
+        "repeat"
+      ],
+      "why": "Could + V1, repeat — повторить. Пример: What does this word mean? — Что значит это слово?"
+    },
+    {
+      "q": "What does this word ___?",
+      "hint": "Впиши нужное слово или выражение.",
+      "a": [
+        "mean"
+      ],
+      "why": "После does — mean без -s. Пример: Could you speak more slowly? — Не могли бы вы говорить медленнее?"
+    },
+    {
+      "q": "Could you speak more ___?",
+      "hint": "Впиши нужное слово или выражение.",
+      "a": [
+        "slowly"
+      ],
+      "why": "Slowly относится к speak: медленнее. Пример: Is it near the stadium? — Это возле стадиона?"
+    },
+    {
+      "q": "___ it on your right?",
+      "hint": "Вопрос с be.",
+      "a": [
+        "Is"
+      ],
+      "why": "Is + it + место: вопрос с be. Пример: Is it on your left? — Это слева от вас?"
+    }
+  ],
+  "l4": [
+    {
+      "ru": "Это возле стадиона?",
+      "en": "Is it near the stadium?",
+      "why": "Be перед подлежащим в вопросе. Пример: Are there any trees nearby? — Поблизости есть деревья?"
+    },
+    {
+      "ru": "Вы знаете дорогу до музея?",
+      "en": "Do you know the way to the museum?",
+      "why": "Know обычный глагол, вопрос с do. Пример: Can you help me? — Вы можете мне помочь?"
+    },
+    {
+      "ru": "Она знает дорогу?",
+      "en": "Does she know the way?",
+      "why": "После does начальная форма. Пример: Do you know where the bank is? — Вы знаете, где банк?"
+    },
+    {
+      "ru": "Это далеко от моста?",
+      "en": "Is it far from the bridge?",
+      "why": "Far from — далеко от. Пример: There is a shop nearby. — Поблизости есть магазин."
+    },
+    {
+      "ru": "Кафе близко к парку.",
+      "en": "The café is close to the park.",
+      "why": "Close to + объект. Пример: The museum is opposite the bookshop. — Музей напротив книжного магазина."
+    },
+    {
+      "ru": "Банк между кафе и школой.",
+      "en": "The bank is between the café and the school.",
+      "why": "Between A and B — между. Пример: The bus stop is in front of the school. — Остановка перед школой."
+    },
+    {
+      "ru": "Идите вдоль края парка.",
+      "en": "Walk along the edge of the park.",
+      "why": "Along вдоль линии. Пример: Go through the underpass. — Пройдите через подземный переход."
+    },
+    {
+      "ru": "Пройдите мимо пекарни.",
+      "en": "Walk past the bakery.",
+      "why": "Past — мимо, не входя. Пример: Come to some traffic lights. — Дойдите до светофоров."
+    },
+    {
+      "ru": "Поверните налево у светофора.",
+      "en": "Turn left at the lights.",
+      "why": "At отмечает точку поворота. Пример: The café is on your right. — Кафе справа от вас."
+    },
+    {
+      "ru": "Выйдите из автобуса на следующей остановке.",
+      "en": "Get off the bus at the next stop.",
+      "why": "Get off — выйти, get on — сесть. Пример: I got off at the wrong stop. — Я вышел не на той остановке."
+    },
+    {
+      "ru": "Мы можем пойти туда пешком.",
+      "en": "We can go there on foot.",
+      "why": "On foot — пешком. Пример: Can they get to the museum? — Они могут добраться до музея?"
+    },
+    {
+      "ru": "Когда я был в новом городе, я спросил дорогу.",
+      "en": "When I was in a new town, I asked for directions.",
+      "why": "Be в прошлом с I: was. Пример: I tried to find a café. — Я пытался найти кафе."
+    },
+    {
+      "ru": "Они объяснили мне дорогу.",
+      "en": "They told me the way.",
+      "why": "В прошлом tell → told. Пример: I could not find the entrance. — Я не мог найти вход."
+    },
+    {
+      "ru": "Ты нашёл музей?",
+      "en": "Did you find the museum?",
+      "why": "Did уже выражает прошлое. Пример: I did not ask anyone. — Я никого не спрашивал."
+    },
+    {
+      "ru": "Я был в нужном месте.",
+      "en": "I was in the right place.",
+      "why": "In the right place — в нужном месте. Пример: I asked young people who live here. — Я спросил молодых людей, которые здесь живут."
+    },
+    {
+      "ru": "Вчера я выбрал правильный ответ.",
+      "en": "I chose the right answer yesterday.",
+      "why": "Choose → chose в прошлом. Пример: I like playing billiards. — Мне нравится играть в бильярд."
+    },
+    {
+      "ru": "Я не очень много путешествую.",
+      "en": "I do not travel a lot.",
+      "why": "Отрицание обычной привычки: do not. Пример: I train with other people. — Я тренируюсь с другими людьми."
+    },
+    {
+      "ru": "Ты много путешествуешь?",
+      "en": "Do you travel a lot?",
+      "why": "Travel обычный глагол, вопрос с do. Пример: Are you in the right place? — Ты в нужном месте?"
+    },
+    {
+      "ru": "Здесь есть автостанция?",
+      "en": "Is there a bus station here?",
+      "why": "Один объект: Is there? Пример: Does he work as a teacher? — Он работает учителем?"
+    },
+    {
+      "ru": "Я могу сесть в этот автобус?",
+      "en": "Can I get on this bus?",
+      "why": "Can I + V1 — возможность. Пример: Are they near the monument? — Они возле памятника?"
+    },
+    {
+      "ru": "Пожалуйста, прочитайте вопросы заранее.",
+      "en": "Please read the questions in advance.",
+      "why": "In advance — заранее. Пример: Choose the right answer. — Выберите правильный ответ."
+    },
+    {
+      "ru": "Послушайте ещё раз.",
+      "en": "Listen again.",
+      "why": "Again — ещё раз. Пример: Check your answers. — Проверьте свои ответы."
+    },
+    {
+      "ru": "Составьте полное предложение.",
+      "en": "Form a full sentence.",
+      "why": "Full sentence — предложение целиком. Пример: Could you repeat that, please? — Не могли бы вы повторить это?"
+    },
+    {
+      "ru": "Что значит это слово?",
+      "en": "What does this word mean?",
+      "why": "После does — mean без -s. Пример: Could you speak more slowly? — Не могли бы вы говорить медленнее?"
+    }
+  ],
+  "l5": [
+    {
+      "ru": "Поблизости есть деревья?",
+      "a": [
+        "Are there any trees nearby?"
+      ],
+      "why": "Trees во множественном числе: Are there? Пример: Do you know the way to the museum? — Вы знаете дорогу до музея?"
+    },
+    {
+      "ru": "Вы можете мне помочь?",
+      "a": [
+        "Can you help me?"
+      ],
+      "why": "Can перед подлежащим, без do. Пример: Does she know the way? — Она знает дорогу?"
+    },
+    {
+      "ru": "Вы знаете, где банк?",
+      "a": [
+        "Do you know where the bank is?"
+      ],
+      "why": "В косвенном вопросе подлежащее перед is. Пример: Is it far from the bridge? — Это далеко от моста?"
+    },
+    {
+      "ru": "Поблизости есть магазин.",
+      "a": [
+        "There is a shop nearby."
+      ],
+      "why": "Nearby самостоятельно, без объекта после него. Пример: The café is close to the park. — Кафе близко к парку."
+    },
+    {
+      "ru": "Музей напротив книжного магазина.",
+      "a": [
+        "The museum is opposite the bookshop."
+      ],
+      "why": "Opposite + объект, без to. Пример: The bank is between the café and the school. — Банк между кафе и школой."
+    },
+    {
+      "ru": "Остановка перед школой.",
+      "a": [
+        "The bus stop is in front of the school."
+      ],
+      "why": "In front of — перед объектом. Пример: Walk along the edge of the park. — Идите вдоль края парка."
+    },
+    {
+      "ru": "Пройдите через подземный переход.",
+      "a": [
+        "Go through the underpass."
+      ],
+      "why": "Через пространство внутри: through. Пример: Walk past the bakery. — Пройдите мимо пекарни."
+    },
+    {
+      "ru": "Дойдите до светофоров.",
+      "a": [
+        "Come to some traffic lights."
+      ],
+      "why": "To — цель движения. Пример: Turn left at the lights. — Поверните налево у светофора."
+    },
+    {
+      "ru": "Кафе справа от вас.",
+      "a": [
+        "The café is on your right."
+      ],
+      "why": "On your right — положение справа. Пример: Get off the bus at the next stop. — Выйдите из автобуса на следующей остановке."
+    },
+    {
+      "ru": "Я вышел не на той остановке.",
+      "a": [
+        "I got off at the wrong stop."
+      ],
+      "why": "At + остановка. Пример: We can go there on foot. — Мы можем пойти туда пешком."
+    },
+    {
+      "ru": "Они могут добраться до музея?",
+      "a": [
+        "Can they get to the museum?"
+      ],
+      "why": "После can глагол без to. Пример: When I was in a new town, I asked for directions. — Когда я был в новом городе, я спросил дорогу."
+    },
+    {
+      "ru": "Я пытался найти кафе.",
+      "a": [
+        "I tried to find a café."
+      ],
+      "why": "После tried to — начальная форма find. Пример: They told me the way. — Они объяснили мне дорогу."
+    },
+    {
+      "ru": "Я не мог найти вход.",
+      "a": [
+        "I could not find the entrance."
+      ],
+      "why": "После could not — V1. Пример: Did you find the museum? — Ты нашёл музей?"
+    },
+    {
+      "ru": "Я никого не спрашивал.",
+      "a": [
+        "I did not ask anyone."
+      ],
+      "why": "После did not — ask. Пример: I was in the right place. — Я был в нужном месте."
+    },
+    {
+      "ru": "Я спросил молодых людей, которые здесь живут.",
+      "a": [
+        "I asked young people who live here."
+      ],
+      "why": "People множественное, live без -s; asked в прошлом. Пример: I chose the right answer yesterday. — Вчера я выбрал правильный ответ."
+    },
+    {
+      "ru": "Мне нравится играть в бильярд.",
+      "a": [
+        "I like playing billiards.",
+        "I like to play billiards."
+      ],
+      "why": "Like + -ing или to play; без in. Пример: I do not travel a lot. — Я не очень много путешествую."
+    },
+    {
+      "ru": "Я тренируюсь с другими людьми.",
+      "a": [
+        "I train with other people."
+      ],
+      "why": "Привычка в Present Simple без be. Пример: Do you travel a lot? — Ты много путешествуешь?"
+    },
+    {
+      "ru": "Ты в нужном месте?",
+      "a": [
+        "Are you in the right place?"
+      ],
+      "why": "Место с be: Are you...? Пример: Is there a bus station here? — Здесь есть автостанция?"
+    },
+    {
+      "ru": "Он работает учителем?",
+      "a": [
+        "Does he work as a teacher?"
+      ],
+      "why": "He + does в вопросе. Пример: Can I get on this bus? — Я могу сесть в этот автобус?"
+    },
+    {
+      "ru": "Они возле памятника?",
+      "a": [
+        "Are they near the monument?"
+      ],
+      "why": "They во множественном с be. Пример: Please read the questions in advance. — Пожалуйста, прочитайте вопросы заранее."
+    },
+    {
+      "ru": "Выберите правильный ответ.",
+      "a": [
+        "Choose the right answer."
+      ],
+      "why": "В инструкции глагол V1. Пример: Listen again. — Послушайте ещё раз."
+    },
+    {
+      "ru": "Проверьте свои ответы.",
+      "a": [
+        "Check your answers."
+      ],
+      "why": "Check — проверить, не выбрать. Пример: Form a full sentence. — Составьте полное предложение."
+    },
+    {
+      "ru": "Не могли бы вы повторить это?",
+      "a": [
+        "Could you repeat that, please?"
+      ],
+      "why": "Could + V1, repeat — повторить. Пример: What does this word mean? — Что значит это слово?"
+    },
+    {
+      "ru": "Не могли бы вы говорить медленнее?",
+      "a": [
+        "Could you speak more slowly?"
+      ],
+      "why": "Slowly относится к speak: медленнее. Пример: Is it near the stadium? — Это возле стадиона?"
+    },
+    {
+      "ru": "Я принял решение.",
+      "a": [
+        "I made a decision."
+      ],
+      "why": "Make a decision: decision исчисляемое единственное, нужен a; made — прошедшее make. Пример: She made a decision. — Она приняла решение."
+    },
+    {
+      "ru": "Она умная девушка.",
+      "a": [
+        "She is a smart girl."
+      ],
+      "why": "Артикль перед прилагательным: a + smart + girl. Пример: He is a good teacher. — Он хороший учитель."
+    }
+  ],
+  "l6": [
+    {
+      "q": "How do I get to the park?",
+      "ru": "Опиши путь своими словами; черновик маршрута находится в домашней работе.",
+      "start": "Go",
+      "model": "Go straight on and turn left at the lights."
+    }
+  ],
+  "fix": [
+    {
+      "wrong": "It's near with stadium?",
+      "a": [
+        "Is it near the stadium?"
+      ],
+      "ru": "Это возле стадиона?",
+      "why": "Вопрос с be: Is it + near + конкретный объект, без with. Пример: Is it near the stadium? — Это возле стадиона?"
+    },
+    {
+      "wrong": "Is it far from bridge?",
+      "a": [
+        "Is it far from the bridge?"
+      ],
+      "ru": "Это далеко от конкретного моста на карте?",
+      "why": "Конкретный известный мост: the bridge. Пример: Are there any trees nearby? — Поблизости есть деревья?"
+    },
+    {
+      "wrong": "They can to get to the museum.",
+      "a": [
+        "They can get to the museum."
+      ],
+      "ru": "Они могут добраться до музея.",
+      "why": "После can — V1 без to. Пример: Do you know the way to the museum? — Вы знаете дорогу до музея?"
+    },
+    {
+      "wrong": "They try to get to museum.",
+      "a": [
+        "They are trying to get to the museum."
+      ],
+      "ru": "Они сейчас пытаются добраться до музея.",
+      "why": "Процесс в диалоге: are trying; известный музей the museum. Пример: Can you help me? — Вы можете мне помочь?"
+    },
+    {
+      "wrong": "I tried to found a café.",
+      "a": [
+        "I tried to find a café."
+      ],
+      "ru": "Я пытался найти кафе.",
+      "why": "После tried to — V1 find, не V2 found. Пример: Does she know the way? — Она знает дорогу?"
+    },
+    {
+      "wrong": "When I be in a new town, I ask for directions.",
+      "a": [
+        "When I was in a new town, I asked for directions."
+      ],
+      "ru": "Когда я был в новом городе, я спросил дорогу.",
+      "why": "Прошлая история: was, asked. Это нормализованный учебный пример. Пример: Do you know where the bank is? — Вы знаете, где банк?"
+    },
+    {
+      "wrong": "I be on the right place.",
+      "a": [
+        "I was in the right place."
+      ],
+      "ru": "Я был в нужном месте.",
+      "why": "Прошедшее be = was; устойчивое in the right place. Пример: Is it far from the bridge? — Это далеко от моста?"
+    },
+    {
+      "wrong": "This guy tell me the way.",
+      "a": [
+        "This guy told me the way."
+      ],
+      "ru": "Этот человек объяснил мне дорогу (в прошлом).",
+      "why": "Утверждение о прошлом: tell → told. Пример: There is a shop nearby. — Поблизости есть магазин."
+    },
+    {
+      "wrong": "I choice C.",
+      "a": [
+        "I choose C."
+      ],
+      "ru": "Я выбираю вариант C сейчас.",
+      "why": "Choice — существительное, choose — глагол. Вчера: chose. Пример: The café is close to the park. — Кафе близко к парку."
+    },
+    {
+      "wrong": "I see photos this place.",
+      "a": [
+        "I see photos of this place."
+      ],
+      "ru": "Я вижу фотографии этого места.",
+      "why": "Photos of + объект — фотографии чего. Пример: The museum is opposite the bookshop. — Музей напротив книжного магазина."
+    },
+    {
+      "wrong": "No travel a lot.",
+      "a": [
+        "I don't travel a lot."
+      ],
+      "ru": "Я не очень много путешествую.",
+      "why": "Нужно подлежащее I и do not перед travel. Пример: The bank is between the café and the school. — Банк между кафе и школой."
+    },
+    {
+      "wrong": "I like play in billiard.",
+      "a": [
+        "I like playing billiards.",
+        "I like to play billiards."
+      ],
+      "ru": "Мне нравится играть в бильярд.",
+      "why": "Like + -ing / to + V1, play billiards без in. Пример: The bus stop is in front of the school. — Остановка перед школой."
+    }
+  ],
+  "homework": [
+    {
+      "en": "cross over",
+      "pr": "крос оувэ",
+      "ru": "пересечь дорогу",
+      "ex": "Cross over the road at the crossing.",
+      "exru": "Перейдите дорогу по переходу.",
+      "ex2": "You can cross the road here.",
+      "ex2ru": "Здесь можно перейти дорогу.",
+      "rule": "Cross (over) + объект. Cross уже означает пересечь; over допустимо, но не обязательно. Don't cross here — не переходите здесь.",
+      "warn": "cross along не значит пересечь: along — вдоль. Не путай cross over с go over a bridge.",
+      "gap": "Cross ___ the road.",
+      "answer": "over"
+    },
+    {
+      "en": "go through the subway",
+      "pr": "гоу сру зэ сабуэй",
+      "ru": "пройти через подземный переход",
+      "ex": "Go through the subway to the library.",
+      "exru": "Пройдите через подземный переход к библиотеке.",
+      "ex2": "Walk through the underpass to the café.",
+      "ex2ru": "Пройдите через подземный переход к кафе.",
+      "rule": "Go through + пространство — пройти внутри и выйти с другой стороны. Go to — только подойти к цели. Subway в британском дорожном задании — underpass; в США обычно метро.",
+      "warn": "Go to не заменяет through, если надо пересечь под дорогой. Это не поездка на метро.",
+      "gap": "Go ___ the subway under the road.",
+      "answer": "through"
+    },
+    {
+      "en": "walk along the edge",
+      "pr": "уок элонг зи эдж",
+      "ru": "идти вдоль края",
+      "ex": "Walk along the edge of the garden.",
+      "exru": "Идите вдоль края сада.",
+      "ex2": "We walk along the edge of the lake.",
+      "ex2ru": "Мы идём вдоль берега озера.",
+      "rule": "Walk along + линия/край + of + место. Edge — край; угол — corner. Глагол walk в инструкции без подлежащего; запрет Don't walk there.",
+      "warn": "Edge не eagle (орёл). Along не across: вдоль линии, не поперёк.",
+      "gap": "Walk ___ the edge of the garden.",
+      "answer": "along"
+    },
+    {
+      "en": "go past",
+      "pr": "гоу пааст",
+      "ru": "пройти мимо",
+      "ex": "Go past the bakery.",
+      "exru": "Пройдите мимо пекарни.",
+      "ex2": "Walk past the school and turn right.",
+      "ex2ru": "Пройдите мимо школы и поверните направо.",
+      "rule": "Go/walk past + объект — миновать его, не входя внутрь. Past здесь предлог. Pass — самостоятельный глагол: Pass the bakery.",
+      "warn": "Go through означало бы путь внутри. Нельзя go pass в значении пройти мимо.",
+      "gap": "Walk ___ the bakery.",
+      "answer": "past"
+    },
+    {
+      "en": "come to some traffic lights",
+      "pr": "кам ту сам трэфик лайтс",
+      "ru": "дойти до светофоров",
+      "ex": "Keep going until you come to some traffic lights.",
+      "exru": "Идите дальше, пока не дойдёте до светофоров.",
+      "ex2": "When you come to the lights, stop.",
+      "ex2ru": "Когда дойдёте до светофора, остановитесь.",
+      "rule": "Come to + ориентир — дойти до него. Some traffic lights — впервые упомянутый светофор. Keep going until + подлежащее + глагол — продолжать, пока не наступит момент.",
+      "warn": "Come past означает миновать, а не дойти до. Traffic lights — множественное, не traffic lines.",
+      "gap": "Come ___ some traffic lights.",
+      "answer": "to"
+    },
+    {
+      "en": "turn left at the lights",
+      "pr": "тён лэфт эт зэ лайтс",
+      "ru": "повернуть налево у светофора",
+      "ex": "Turn left at the lights near the café.",
+      "exru": "Поверните налево у светофора возле кафе.",
+      "ex2": "Don't turn left at these lights.",
+      "ex2ru": "Не поворачивайте налево у этого светофора.",
+      "rule": "Turn left/right at + точка поворота. At отмечает место. Lights после первого traffic lights — тот же светофор. Do I turn left here? — здесь повернуть налево?",
+      "warn": "On the lights означало бы на поверхности. Фраза не говорит ждать зелёного; безопасный переход — отдельное условие.",
+      "gap": "Turn left ___ the lights.",
+      "answer": "at"
+    },
+    {
+      "en": "on your right",
+      "pr": "он ё райт",
+      "ru": "справа от вас",
+      "ex": "The library is on your right.",
+      "exru": "Библиотека справа от вас.",
+      "ex2": "There is a café on the right.",
+      "ex2ru": "Справа есть кафе.",
+      "rule": "Предмет + is + on your/the right. Это положение, не команда повернуть. Is it on your right? / It isn't on your right. Your — относительно направления взгляда.",
+      "warn": "Turn right — поверни направо, не расположен справа. Opposite your right неверно: opposite требует ориентир.",
+      "gap": "The library is ___ your right.",
+      "answer": "on"
+    },
+    {
+      "en": "opposite",
+      "pr": "опэзит",
+      "ru": "напротив",
+      "ex": "The library is opposite the bakery.",
+      "exru": "Библиотека напротив пекарни.",
+      "ex2": "The café is directly opposite the school.",
+      "ex2ru": "Кафе прямо напротив школы.",
+      "rule": "Предмет + is + (directly) opposite + ориентир. Across from — допустимый синоним. Is the café opposite the school? / It isn't opposite the school.",
+      "warn": "Не добавляй to после opposite в этой конструкции. Next to значит рядом, а не напротив.",
+      "gap": "The library is ___ the bakery. (Напротив.)",
+      "answer": "opposite"
+    }
+  ],
+  "readerGrammar": [
+    "General questions with be, do/does, can; indirect where + subject + verb",
+    "Routes: through, along, past, to, at, on your right, opposite; nearby vs near",
+    "Supportive review only: was/were, asked, told, found, tried to find, did + V1; do not claim full Past Simple mastery"
+  ],
+  "readerTopics": [
+    "Asking for directions politely",
+    "A paper map in a new town",
+    "Finding an outdoor workout area",
+    "The wrong bus stop"
+  ],
+  "dialogue": [
+    [
+      "Visitor",
+      "Excuse me, how do I get to the library?"
+    ],
+    [
+      "Local",
+      "Take bus twenty-four. The stop is opposite the bakery."
+    ],
+    [
+      "Visitor",
+      "Do I get off at the park?"
+    ],
+    [
+      "Local",
+      "No. Get off at the next stop after the park. Then walk past the café. The library is on your left."
+    ],
+    [
+      "Visitor",
+      "Thank you. I will look for the café."
+    ]
+  ],
+  "dialogueQuestions": [
+    {
+      "q": "Куда хочет попасть посетитель?",
+      "o": [
+        "В библиотеку",
+        "В музей",
+        "На стадион"
+      ],
+      "a": 0
+    },
+    {
+      "q": "Какой автобус указан?",
+      "o": [
+        "67",
+        "24",
+        "42"
+      ],
+      "a": 1
+    },
+    {
+      "q": "Где остановка?",
+      "o": [
+        "Рядом с парком",
+        "За кафе",
+        "Напротив пекарни"
+      ],
+      "a": 2
+    },
+    {
+      "q": "Где надо выйти?",
+      "o": [
+        "На остановке после парка",
+        "В парке",
+        "Перед парком"
+      ],
+      "a": 0
+    },
+    {
+      "q": "Что нужно пройти мимо?",
+      "o": [
+        "Церковь",
+        "Кафе",
+        "Мост"
+      ],
+      "a": 1
+    }
+  ],
+  "homeworkPractice": {
+    "h1": [
+      {
+        "q": "cross over",
+        "o": [
+          "пересечь дорогу",
+          "идти вдоль края",
+          "дойти до светофоров"
+        ],
+        "a": 0,
+        "why": "Cross (over) + объект. Cross уже означает пересечь; over допустимо, но не обязательно. Don't cross here — не переходите здесь. Пример: You can cross the road here. — Здесь можно перейти дорогу."
+      },
+      {
+        "q": "go through the subway",
+        "o": [
+          "пройти мимо",
+          "повернуть налево у светофора",
+          "пройти через подземный переход"
+        ],
+        "a": 2,
+        "why": "Go through + пространство — пройти внутри и выйти с другой стороны. Go to — только подойти к цели. Subway в британском дорожном задании — underpass; в США обычно метро. Пример: Walk through the underpass to the café. — Пройдите через подземный переход к кафе."
+      },
+      {
+        "q": "walk along the edge",
+        "o": [
+          "справа от вас",
+          "идти вдоль края",
+          "дойти до светофоров"
+        ],
+        "a": 1,
+        "why": "Walk along + линия/край + of + место. Edge — край; угол — corner. Глагол walk в инструкции без подлежащего; запрет Don't walk there. Пример: We walk along the edge of the lake. — Мы идём вдоль берега озера."
+      },
+      {
+        "q": "go past",
+        "o": [
+          "пройти мимо",
+          "повернуть налево у светофора",
+          "напротив"
+        ],
+        "a": 0,
+        "why": "Go/walk past + объект — миновать его, не входя внутрь. Past здесь предлог. Pass — самостоятельный глагол: Pass the bakery. Пример: Walk past the school and turn right. — Пройдите мимо школы и поверните направо."
+      },
+      {
+        "q": "come to some traffic lights",
+        "o": [
+          "справа от вас",
+          "пересечь дорогу",
+          "дойти до светофоров"
+        ],
+        "a": 2,
+        "why": "Come to + ориентир — дойти до него. Some traffic lights — впервые упомянутый светофор. Keep going until + подлежащее + глагол — продолжать, пока не наступит момент. Пример: When you come to the lights, stop. — Когда дойдёте до светофора, остановитесь."
+      },
+      {
+        "q": "turn left at the lights",
+        "o": [
+          "пройти через подземный переход",
+          "повернуть налево у светофора",
+          "напротив"
+        ],
+        "a": 1,
+        "why": "Turn left/right at + точка поворота. At отмечает место. Lights после первого traffic lights — тот же светофор. Do I turn left here? — здесь повернуть налево? Пример: Don't turn left at these lights. — Не поворачивайте налево у этого светофора."
+      },
+      {
+        "q": "on your right",
+        "o": [
+          "справа от вас",
+          "пересечь дорогу",
+          "идти вдоль края"
+        ],
+        "a": 0,
+        "why": "Предмет + is + on your/the right. Это положение, не команда повернуть. Is it on your right? / It isn't on your right. Your — относительно направления взгляда. Пример: There is a café on the right. — Справа есть кафе."
+      },
+      {
+        "q": "opposite",
+        "o": [
+          "пройти через подземный переход",
+          "пройти мимо",
+          "напротив"
+        ],
+        "a": 2,
+        "why": "Предмет + is + (directly) opposite + ориентир. Across from — допустимый синоним. Is the café opposite the school? / It isn't opposite the school. Пример: The café is directly opposite the school. — Кафе прямо напротив школы."
+      }
+    ],
+    "h2": [
+      {
+        "q": "Cross ___ the road.",
+        "o": [
+          "over",
+          "through",
+          "along"
+        ],
+        "a": 0,
+        "why": "Cross (over) + объект. Cross уже означает пересечь; over допустимо, но не обязательно. Don't cross here — не переходите здесь. Пример: You can cross the road here. — Здесь можно перейти дорогу."
+      },
+      {
+        "q": "Go ___ the subway under the road.",
+        "o": [
+          "along",
+          "past",
+          "through"
+        ],
+        "a": 2,
+        "why": "Go through + пространство — пройти внутри и выйти с другой стороны. Go to — только подойти к цели. Subway в британском дорожном задании — underpass; в США обычно метро. Пример: Walk through the underpass to the café. — Пройдите через подземный переход к кафе."
+      },
+      {
+        "q": "Walk ___ the edge of the garden.",
+        "o": [
+          "to",
+          "along",
+          "past"
+        ],
+        "a": 1,
+        "why": "Walk along + линия/край + of + место. Edge — край; угол — corner. Глагол walk в инструкции без подлежащего; запрет Don't walk there. Пример: We walk along the edge of the lake. — Мы идём вдоль берега озера."
+      },
+      {
+        "q": "Walk ___ the bakery.",
+        "o": [
+          "past",
+          "to",
+          "at"
+        ],
+        "a": 0,
+        "why": "Go/walk past + объект — миновать его, не входя внутрь. Past здесь предлог. Pass — самостоятельный глагол: Pass the bakery. Пример: Walk past the school and turn right. — Пройдите мимо школы и поверните направо."
+      },
+      {
+        "q": "Come ___ some traffic lights.",
+        "o": [
+          "at",
+          "on",
+          "to"
+        ],
+        "a": 2,
+        "why": "Come to + ориентир — дойти до него. Some traffic lights — впервые упомянутый светофор. Keep going until + подлежащее + глагол — продолжать, пока не наступит момент. Пример: When you come to the lights, stop. — Когда дойдёте до светофора, остановитесь."
+      },
+      {
+        "q": "Turn left ___ the lights.",
+        "o": [
+          "opposite",
+          "at",
+          "on"
+        ],
+        "a": 1,
+        "why": "Turn left/right at + точка поворота. At отмечает место. Lights после первого traffic lights — тот же светофор. Do I turn left here? — здесь повернуть налево? Пример: Don't turn left at these lights. — Не поворачивайте налево у этого светофора."
+      },
+      {
+        "q": "The library is ___ your right.",
+        "o": [
+          "on",
+          "opposite",
+          "over"
+        ],
+        "a": 0,
+        "why": "Предмет + is + on your/the right. Это положение, не команда повернуть. Is it on your right? / It isn't on your right. Your — относительно направления взгляда. Пример: There is a café on the right. — Справа есть кафе."
+      },
+      {
+        "q": "The library is ___ the bakery. (Напротив.)",
+        "o": [
+          "over",
+          "through",
+          "opposite"
+        ],
+        "a": 2,
+        "why": "Предмет + is + (directly) opposite + ориентир. Across from — допустимый синоним. Is the café opposite the school? / It isn't opposite the school. Пример: The café is directly opposite the school. — Кафе прямо напротив школы."
+      }
+    ],
+    "h3": [
+      {
+        "q": "Cross ___ the road.",
+        "hint": "Нужен предлог маршрута.",
+        "a": [
+          "over"
+        ],
+        "why": "Cross (over) + объект. Cross уже означает пересечь; over допустимо, но не обязательно. Don't cross here — не переходите здесь. Пример: You can cross the road here. — Здесь можно перейти дорогу."
+      },
+      {
+        "q": "Go ___ the subway under the road.",
+        "hint": "Нужен предлог маршрута.",
+        "a": [
+          "through"
+        ],
+        "why": "Go through + пространство — пройти внутри и выйти с другой стороны. Go to — только подойти к цели. Subway в британском дорожном задании — underpass; в США обычно метро. Пример: Walk through the underpass to the café. — Пройдите через подземный переход к кафе."
+      },
+      {
+        "q": "Walk ___ the edge of the garden.",
+        "hint": "Нужен предлог маршрута.",
+        "a": [
+          "along"
+        ],
+        "why": "Walk along + линия/край + of + место. Edge — край; угол — corner. Глагол walk в инструкции без подлежащего; запрет Don't walk there. Пример: We walk along the edge of the lake. — Мы идём вдоль берега озера."
+      },
+      {
+        "q": "Walk ___ the bakery.",
+        "hint": "Нужен предлог маршрута.",
+        "a": [
+          "past"
+        ],
+        "why": "Go/walk past + объект — миновать его, не входя внутрь. Past здесь предлог. Pass — самостоятельный глагол: Pass the bakery. Пример: Walk past the school and turn right. — Пройдите мимо школы и поверните направо."
+      },
+      {
+        "q": "Come ___ some traffic lights.",
+        "hint": "Нужен предлог маршрута.",
+        "a": [
+          "to"
+        ],
+        "why": "Come to + ориентир — дойти до него. Some traffic lights — впервые упомянутый светофор. Keep going until + подлежащее + глагол — продолжать, пока не наступит момент. Пример: When you come to the lights, stop. — Когда дойдёте до светофора, остановитесь."
+      },
+      {
+        "q": "Turn left ___ the lights.",
+        "hint": "Нужен предлог маршрута.",
+        "a": [
+          "at"
+        ],
+        "why": "Turn left/right at + точка поворота. At отмечает место. Lights после первого traffic lights — тот же светофор. Do I turn left here? — здесь повернуть налево? Пример: Don't turn left at these lights. — Не поворачивайте налево у этого светофора."
+      },
+      {
+        "q": "The library is ___ your right.",
+        "hint": "Нужен предлог маршрута.",
+        "a": [
+          "on"
+        ],
+        "why": "Предмет + is + on your/the right. Это положение, не команда повернуть. Is it on your right? / It isn't on your right. Your — относительно направления взгляда. Пример: There is a café on the right. — Справа есть кафе."
+      },
+      {
+        "q": "The library is ___ the bakery. (Напротив.)",
+        "hint": "Нужен предлог маршрута.",
+        "a": [
+          "opposite",
+          "across from"
+        ],
+        "why": "Предмет + is + (directly) opposite + ориентир. Across from — допустимый синоним. Is the café opposite the school? / It isn't opposite the school. Пример: The café is directly opposite the school. — Кафе прямо напротив школы."
+      }
+    ],
+    "h4": [
+      {
+        "ru": "Перейдите дорогу по переходу.",
+        "en": "Cross over the road at the crossing.",
+        "why": "Cross (over) + объект. Cross уже означает пересечь; over допустимо, но не обязательно. Don't cross here — не переходите здесь. Пример: You can cross the road here. — Здесь можно перейти дорогу."
+      },
+      {
+        "ru": "Пройдите через подземный переход к библиотеке.",
+        "en": "Go through the subway to the library.",
+        "why": "Go through + пространство — пройти внутри и выйти с другой стороны. Go to — только подойти к цели. Subway в британском дорожном задании — underpass; в США обычно метро. Пример: Walk through the underpass to the café. — Пройдите через подземный переход к кафе."
+      },
+      {
+        "ru": "Идите вдоль края сада.",
+        "en": "Walk along the edge of the garden.",
+        "why": "Walk along + линия/край + of + место. Edge — край; угол — corner. Глагол walk в инструкции без подлежащего; запрет Don't walk there. Пример: We walk along the edge of the lake. — Мы идём вдоль берега озера."
+      },
+      {
+        "ru": "Пройдите мимо пекарни.",
+        "en": "Go past the bakery.",
+        "why": "Go/walk past + объект — миновать его, не входя внутрь. Past здесь предлог. Pass — самостоятельный глагол: Pass the bakery. Пример: Walk past the school and turn right. — Пройдите мимо школы и поверните направо."
+      },
+      {
+        "ru": "Идите дальше, пока не дойдёте до светофоров.",
+        "en": "Keep going until you come to some traffic lights.",
+        "why": "Come to + ориентир — дойти до него. Some traffic lights — впервые упомянутый светофор. Keep going until + подлежащее + глагол — продолжать, пока не наступит момент. Пример: When you come to the lights, stop. — Когда дойдёте до светофора, остановитесь."
+      },
+      {
+        "ru": "Поверните налево у светофора возле кафе.",
+        "en": "Turn left at the lights near the café.",
+        "why": "Turn left/right at + точка поворота. At отмечает место. Lights после первого traffic lights — тот же светофор. Do I turn left here? — здесь повернуть налево? Пример: Don't turn left at these lights. — Не поворачивайте налево у этого светофора."
+      },
+      {
+        "ru": "Библиотека справа от вас.",
+        "en": "The library is on your right.",
+        "why": "Предмет + is + on your/the right. Это положение, не команда повернуть. Is it on your right? / It isn't on your right. Your — относительно направления взгляда. Пример: There is a café on the right. — Справа есть кафе."
+      },
+      {
+        "ru": "Библиотека напротив пекарни.",
+        "en": "The library is opposite the bakery.",
+        "why": "Предмет + is + (directly) opposite + ориентир. Across from — допустимый синоним. Is the café opposite the school? / It isn't opposite the school. Пример: The café is directly opposite the school. — Кафе прямо напротив школы."
+      }
+    ],
+    "h5": [
+      {
+        "ru": "Здесь можно перейти дорогу.",
+        "a": [
+          "You can cross the road here."
+        ],
+        "why": "Cross (over) + объект. Cross уже означает пересечь; over допустимо, но не обязательно. Don't cross here — не переходите здесь. Пример: You can cross the road here. — Здесь можно перейти дорогу."
+      },
+      {
+        "ru": "Пройдите через подземный переход к кафе.",
+        "a": [
+          "Walk through the underpass to the café."
+        ],
+        "why": "Go through + пространство — пройти внутри и выйти с другой стороны. Go to — только подойти к цели. Subway в британском дорожном задании — underpass; в США обычно метро. Пример: Walk through the underpass to the café. — Пройдите через подземный переход к кафе."
+      },
+      {
+        "ru": "Мы идём вдоль берега озера.",
+        "a": [
+          "We walk along the edge of the lake."
+        ],
+        "why": "Walk along + линия/край + of + место. Edge — край; угол — corner. Глагол walk в инструкции без подлежащего; запрет Don't walk there. Пример: We walk along the edge of the lake. — Мы идём вдоль берега озера."
+      },
+      {
+        "ru": "Пройдите мимо школы и поверните направо.",
+        "a": [
+          "Walk past the school and turn right."
+        ],
+        "why": "Go/walk past + объект — миновать его, не входя внутрь. Past здесь предлог. Pass — самостоятельный глагол: Pass the bakery. Пример: Walk past the school and turn right. — Пройдите мимо школы и поверните направо."
+      },
+      {
+        "ru": "Когда дойдёте до светофора, остановитесь.",
+        "a": [
+          "When you come to the lights, stop."
+        ],
+        "why": "Come to + ориентир — дойти до него. Some traffic lights — впервые упомянутый светофор. Keep going until + подлежащее + глагол — продолжать, пока не наступит момент. Пример: When you come to the lights, stop. — Когда дойдёте до светофора, остановитесь."
+      },
+      {
+        "ru": "Не поворачивайте налево у этого светофора.",
+        "a": [
+          "Don't turn left at these lights."
+        ],
+        "why": "Turn left/right at + точка поворота. At отмечает место. Lights после первого traffic lights — тот же светофор. Do I turn left here? — здесь повернуть налево? Пример: Don't turn left at these lights. — Не поворачивайте налево у этого светофора."
+      },
+      {
+        "ru": "Справа есть кафе.",
+        "a": [
+          "There is a café on the right."
+        ],
+        "why": "Предмет + is + on your/the right. Это положение, не команда повернуть. Is it on your right? / It isn't on your right. Your — относительно направления взгляда. Пример: There is a café on the right. — Справа есть кафе."
+      },
+      {
+        "ru": "Кафе прямо напротив школы.",
+        "a": [
+          "The café is directly opposite the school."
+        ],
+        "why": "Предмет + is + (directly) opposite + ориентир. Across from — допустимый синоним. Is the café opposite the school? / It isn't opposite the school. Пример: The café is directly opposite the school. — Кафе прямо напротив школы."
+      }
+    ]
+  }
+}

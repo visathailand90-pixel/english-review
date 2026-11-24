@@ -85,3 +85,7 @@ assert.throws(()=>validateAssessment({results:[{...evaluation.results[0],errorPa
 assert.equal(validateRequest({...b,lesson:"12"}).lesson,"12");
 assert.throws(()=>validateRequest({...b,lesson:"11"}),/invalid_request/);
 console.log("PASS lesson12 accepted without inventing lesson11");
+
+assert.equal(validateRequest({...b,lesson:"13"}).lesson,"13");
+assert.ok(!/<form|type=["']password|api\/login/i.test(portalHtml("https://owner.example")));
+console.log("PASS lesson13 contract and credential-free portal, protected API retained");

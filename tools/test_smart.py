@@ -18,7 +18,8 @@ try:
     page.goto(url);page.locator('#lesson-select').select_option('03');page.locator('#view-nav [data-tab="l5"]').click()
     page.evaluate("([items,answers])=>{const s=__reviewDebug.getState();let b=s.drafts['03/l5'];b.items=items;b.answers={};b.checked=false;b.completed=false;b.assessments={};s.progress={};s.drafts['09/l3']={sentinel:'preserve'};localStorage.setItem('english-review:v4',JSON.stringify(s));}",[fixtures,answers]);page.reload()
     for i,a in enumerate(answers):page.locator('[data-answer-text="l5:'+str(i)+'"]').fill(a)
-    with page.expect_popup() as popped:page.locator('#check-btn').click()
+    page.locator('#check-btn').click()
+    with page.expect_popup() as popped:page.locator('#smart-retry').click()
     pop=popped.value;pop.wait_for_function('window.batch');assert pop.evaluate('batch.items.length')==2
     if scenario=='success':
      page.wait_for_function("__reviewDebug.getState().drafts['03/l5'].completed")

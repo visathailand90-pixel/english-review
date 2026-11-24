@@ -147,12 +147,12 @@ textarea.fallback{width:100%;box-sizing:border-box;min-height:140px;font:13px/1.
       <h2>Новый текст по уроку</h2>
       <label>Урок<select id="genLesson"></select></label>
       <label>Формат<select id="genFormat"><option value="story">История</option><option value="dialogue">Диалог</option><option value="article">Небольшая статья</option><option value="posts">Посты</option></select></label>
-      <label>Тема<select id="genTopic"><option>Повседневная жизнь</option><option>Покупки</option><option>Спорт</option><option>Путешествия</option><optgroup label="Урок 12 · транспорт и город"><option>Getting to work at rush hour</option><option>The wrong turn in a new town</option><option>A day without the metro</option><option>Finding a museum</option><option>Different ways to travel</option><option>An accessible city</option></optgroup><option>Работа</option><option>Отношения</option><option>Еда</option></select></label>
+      <label>Тема<select id="genTopic"><option>Повседневная жизнь</option><option>Покупки</option><option>Спорт</option><option>Путешествия</option><optgroup label="Урок 12 · транспорт и город"><option>Getting to work at rush hour</option><option>The wrong turn in a new town</option><option>A day without the metro</option><option>Finding a museum</option><option>Different ways to travel</option><option>An accessible city</option></optgroup><optgroup label="Урок 13"><option>Asking for directions politely</option><option>A paper map in a new town</option><option>Finding an outdoor workout area</option><option>The wrong bus stop</option></optgroup><option>Работа</option><option>Отношения</option><option>Еда</option></select></label>
       <input id="customTopic" maxlength="200" placeholder="Своя тема (без личных данных)">
       <label>Сложность<select id="genLevel"><option>A2</option><option>A2+</option></select></label>
       <label>Размер<select id="genLength"><option value="120">Около 120 слов</option><option value="180" selected>150–220 слов</option><option value="250">Около 250 слов</option></select></label>
       <details><summary>Пройденные уроки и персонализация</summary><div id="learnedLessons"></div><label><input type="checkbox" id="allowPatterns"> Добавлять нейтральную практику грамматических трудностей</label><p>Передаются выбранные темы уроков и до 15 сохранённых слов. Личные ответы и исходники не передаются.</p></details>
-      <details><summary>Подключение личного сервиса</summary><p>До подтверждения бонуса генерация отключена. Ключ OpenAI вводится только в секреты сервера, никогда здесь.</p><input id="ownerEndpoint" type="url" placeholder="https://имя-сервиса.workers.dev/"></details>
+      <p class="hint">AI использует только уже подтверждённую сессию устройства. Без неё генерация недоступна; старые тексты и словарь работают. Ввод учётных данных не требуется.</p>
       <div class="genrow"><button class="btn" id="genBtn">Создать текст</button><button class="btn ghost" id="stopBtn" hidden>Стоп</button></div>
       <div class="status" id="genStatus" role="status">Онлайн-генерация требует подключения бесплатного личного сервиса. Готовые тексты доступны ниже.</div>
       <button class="btn ghost" id="readerExport">Экспорт библиотеки</button>
@@ -1036,12 +1036,12 @@ function requestForReader(){
 }
 let ownerWindow=null,pendingRequest=null;
 function generate(){
- const value=document.getElementById('ownerEndpoint').value.trim();
+ const value='https://english-reader-owner.english-fc53e115b617.workers.dev';
  let url;try{url=new URL(value);if(url.protocol!=='https:'||url.username||url.password||url.pathname!=='/'||!url.hostname.endsWith('.workers.dev'))throw Error();}catch{document.getElementById('genStatus').textContent='Онлайн-сервис ещё не подключён. Нужны подтверждение бесплатных кредитов и защищённый адрес владельца. Старые тексты доступны ниже.';return;}
  store.set('chitalka.ownerEndpoint',url.origin);
  pendingRequest=requestForReader();
  ownerWindow=window.open(url.origin+'/portal','english-reader-owner');
- document.getElementById('genStatus').textContent=ownerWindow?'Открыто защищённое окно. Войдите и нажмите «Создать текст» там.':'Разрешите открытие окна для личного сервиса.';
+ document.getElementById('genStatus').textContent=ownerWindow?'Проверяется сохранённая сессия устройства. Если она доступна, нажмите «Создать текст». Если нет — старые тексты остаются доступны.':'Разрешите открытие окна для личного сервиса.';
 }
 function validateReaderStory(r){
  if(!r||typeof r.title!=='string'||r.title.length>150||!Array.isArray(r.paragraphs)||!r.paragraphs.length||r.paragraphs.length>12||r.paragraphs.some(p=>typeof p!=='string'||p.length>4000)||!Array.isArray(r.glossary)||r.glossary.length>500)throw Error('Неверный текст');
@@ -1066,7 +1066,7 @@ window.addEventListener('message',e=>{
  if(e.data?.type==='english-reader-ready')ownerWindow.postMessage({type:'english-reader-request',request:pendingRequest},e.origin);
  if(e.data?.type==='english-reader-story'){const id=addStory(e.data.story,e.data.id,e.data.lesson);openText(id);document.getElementById('genStatus').textContent='Текст сохранён на этом устройстве.';}
  if(e.data?.type==='english-reader-sync'){for(const t of e.data.texts||[])addStory(t,t.id,'');document.getElementById('genStatus').textContent='Облачные тексты добавлены без замены локальных.';}
- if(e.data?.type==='english-reader-error'){const m={unauthorized:'Войдите в личный сервис.',rate_limited:'Достигнут лимит запросов.',credits_or_limit_exhausted:'Кредиты или лимит исчерпаны. Генерация остановлена.',timeout:'Время ожидания истекло.',generation_disabled:'Генерация ещё не включена: нужны бесплатный бонус и серверная настройка.'};document.getElementById('genStatus').textContent=m[e.data.error]||'Сервис недоступен. Старые тексты сохранены.';}
+ if(e.data?.type==='english-reader-error'){const m={unauthorized:'AI недоступен: на устройстве нет подтверждённой сессии. Старые тексты доступны; вводить учётные данные не нужно.',rate_limited:'Достигнут лимит запросов.',credits_or_limit_exhausted:'Кредиты или лимит исчерпаны. Генерация остановлена.',timeout:'Время ожидания истекло.',generation_disabled:'Генерация ещё не включена: нужны бесплатный бонус и серверная настройка.'};document.getElementById('genStatus').textContent=m[e.data.error]||'Сервис недоступен. Старые тексты сохранены.';}
  }catch{document.getElementById('genStatus').textContent='Новый текст не прошёл проверку. Старая библиотека сохранена.';}
 });
 /* ---------- wiring ---------- */
@@ -1091,7 +1091,7 @@ if (canSpeak) { try { speechSynthesis.getVoices(); speechSynthesis.onvoiceschang
 const options=window.ENGLISH_READING_CONTEXT.map(l=>'<option value="'+l.id+'">'+l.id+' · '+esc(l.title)+'</option>').join('');
 $('#genLesson').innerHTML=options;$('#genLesson').value='03';
 $('#learnedLessons').innerHTML=window.ENGLISH_READING_CONTEXT.map(l=>'<label style="display:block"><input type="checkbox" data-learned value="'+l.id+'"> '+esc(l.title)+'</label>').join('');
-$('#ownerEndpoint').value=store.get('chitalka.ownerEndpoint','https://english-reader-owner.english-fc53e115b617.workers.dev');
+
 $('#readerExport').onclick=()=>{const data={format:'english-reader-v1',generated,saved,EXTRA};const u=URL.createObjectURL(new Blob([JSON.stringify(data,null,2)],{type:'application/json'}));const a=document.createElement('a');a.href=u;a.download='english-reader-library.json';a.click();setTimeout(()=>URL.revokeObjectURL(u),1000);};
 $('#readerImport').onchange=async e=>{try{const o=JSON.parse(await e.target.files[0].text());if(o.format!=='english-reader-v1'||!Array.isArray(o.generated)||!Array.isArray(o.saved))throw Error();
 for(const t of o.generated){if(!t||typeof t.id!=='string'||typeof t.title!=='string'||!Array.isArray(t.paragraphs)||t.paragraphs.some(p=>typeof p!=='string')||t.paragraphs.join(' ').length>15000)throw Error();}

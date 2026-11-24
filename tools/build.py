@@ -12,7 +12,7 @@ word_bank=json.loads((ROOT/'words/bank.json').read_text(encoding='utf-8'))
 
 index=json.loads((SRC/'index.json').read_text(encoding='utf-8'))
 assert isinstance(index,list) and index,'Empty index'
-all_data={'index':index}
+all_data={'index':index,'answerRules':json.loads((SRC/'answerrules.json').read_text(encoding='utf-8'))}
 seen=set()
 for row in index:
   lesson_id=row['id']
