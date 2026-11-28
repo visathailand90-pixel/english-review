@@ -15,10 +15,14 @@ assert len(rules)-len(previous)==241 and all(k.startswith('14/') for k in rules.
 bank=load('words/bank.json');ob=old('words/bank.json');assert bank['packs'][:len(ob['packs'])]==ob['packs']
 assert {k:v for k,v in bank.items() if k!='packs'}=={k:v for k,v in ob.items() if k!='packs'}
 new=bank['packs'][len(ob['packs']):];assert [p['id'] for p in new]==['lesson14-1','lesson14-2','lesson14-3']
-nw=[w for p in new for w in p['words']];assert len(nw)==39 and len({w['en'] for w in nw})==39
+all_context=[w for p in new for w in p['words']];nw=[w for w in all_context if w.get('entryType')!='reference'];assert len(nw)==35 and len({w['en'] for w in nw})==35
+inline=[w for w in all_context if w.get('entryType')=='reference'];assert [w['en'] for w in inline]==['stand','lose','cut','fall']
+for w in inline:
+ ds,en=w['canonicalRef'].split(':');assert any(v['v1']==en for v in bank[ds]);assert w['rep']==1 and w['hard']
 assert not {w['en'].lower() for w in nw}&{w['en'].lower() for p in ob['packs'] for w in p['words']}
 assert [len(p['words'])+len(p['wordRefs']) for p in new]==[18,18,15]
 assert len({w for p in new for w in p['wordRefs']})==7
+assert len({w for p in new for w in p['wordRefs']}|{w['en'] for w in inline})==11
 L=load('lesson-data/14.json');assert len(L['theory'])==20 and len(L['homework'])==15
 assert sum(len(L[k]) for k in ['l2','l3','l4','l5','fix'])==166
 assert len(L['vocab'])==46 and [len(v) for v in L['homeworkPractice'].values()]==[15]*5
@@ -74,4 +78,4 @@ try:
     ctx.close();print('PASS lesson14 mobile homework, drafts, export, old13, no API',engine.name,width,flush=True)
    browser.close()
 finally:server.shutdown();server.server_close()
-print('PASS baseline6078192 preserved; new39 words, 241 exercises, 3 original reader texts')
+print('PASS baseline6078192 preserved; new35 words and 11 linked review words, 241 exercises, 3 original reader texts')

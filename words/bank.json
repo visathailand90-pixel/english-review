@@ -19432,13 +19432,15 @@
               "стоять у входа"
             ]
           ],
-          "note": "stand–stood; сейчас стою: I am standing. Stay — оставаться.",
+          "note": "stand–stood; сейчас стою: I am standing. Stay — оставаться.; повтор из отдельного справочника глаголов, не новое каноническое слово",
           "s": "Please ___ near the entrance.",
           "sru": "Пожалуйста, встаньте возле входа.",
           "hard": true,
-          "rep": 0,
+          "rep": 1,
           "examplesType": "original lesson14 educational examples",
-          "pronunciationType": "приблизительная запись, не IPA"
+          "pronunciationType": "приблизительная запись, не IPA",
+          "entryType": "reference",
+          "canonicalRef": "irregularVerbs:stand"
         },
         {
           "en": "stay",
@@ -19815,13 +19817,15 @@
               "терять — потерял"
             ]
           ],
-          "note": "lose–lost; lost также встречается в get/be lost.",
+          "note": "lose–lost; lost также встречается в get/be lost.; повтор из отдельного справочника глаголов, не новое каноническое слово",
           "s": "Do not ___ your wallet.",
           "sru": "Не потеряй кошелёк.",
           "hard": true,
-          "rep": 0,
+          "rep": 1,
           "examplesType": "original lesson14 educational examples",
-          "pronunciationType": "приблизительная запись, не IPA"
+          "pronunciationType": "приблизительная запись, не IPA",
+          "entryType": "reference",
+          "canonicalRef": "irregularVerbs:lose"
         },
         {
           "en": "wake up",
@@ -19935,13 +19939,15 @@
               "одинаковая форма"
             ]
           ],
-          "note": "В учебном примере cut — порезать, а не просто удариться. Все три формы cut.",
+          "note": "В учебном примере cut — порезать, а не просто удариться. Все три формы cut.; повтор из отдельного справочника глаголов, не новое каноническое слово",
           "s": "He fell over and ___ his head.",
           "sru": "Он упал и порезал голову.",
           "hard": true,
-          "rep": 0,
+          "rep": 1,
           "examplesType": "original lesson14 educational examples",
-          "pronunciationType": "приблизительная запись, не IPA"
+          "pronunciationType": "приблизительная запись, не IPA",
+          "entryType": "reference",
+          "canonicalRef": "irregularVerbs:cut"
         },
         {
           "en": "fall",
@@ -19965,13 +19971,15 @@
               "падать — упал"
             ]
           ],
-          "note": "fall–fell–fallen; не путать с fail и foul.",
+          "note": "fall–fell–fallen; не путать с fail и foul.; повтор из отдельного справочника глаголов, не новое каноническое слово",
           "s": "Be careful not to ___.",
           "sru": "Осторожно, не упади.",
           "hard": true,
-          "rep": 0,
+          "rep": 1,
           "examplesType": "original lesson14 educational examples",
-          "pronunciationType": "приблизительная запись, не IPA"
+          "pronunciationType": "приблизительная запись, не IPA",
+          "entryType": "reference",
+          "canonicalRef": "irregularVerbs:fall"
         }
       ],
       "wordRefs": [

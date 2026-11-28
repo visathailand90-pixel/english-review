@@ -607,7 +607,8 @@
       "en": "stand",
       "ru": "стоять",
       "pron": "стэнд",
-      "why": "stand–stood; сейчас стою: I am standing. Stay — оставаться."
+      "why": "stand–stood; сейчас стою: I am standing. Stay — оставаться.; повтор из справочника глаголов",
+      "repeat": true
     },
     {
       "en": "stay",
@@ -679,7 +680,8 @@
       "en": "lose",
       "ru": "терять",
       "pron": "луз",
-      "why": "lose–lost; lost также встречается в get/be lost."
+      "why": "lose–lost; lost также встречается в get/be lost.; повтор из справочника глаголов",
+      "repeat": true
     },
     {
       "en": "wake up",
@@ -703,13 +705,15 @@
       "en": "cut",
       "ru": "порезать; резать",
       "pron": "кат",
-      "why": "В учебном примере cut — порезать, а не просто удариться. Все три формы cut."
+      "why": "В учебном примере cut — порезать, а не просто удариться. Все три формы cut.; повтор из справочника глаголов",
+      "repeat": true
     },
     {
       "en": "fall",
       "ru": "падать",
       "pron": "фол",
-      "why": "fall–fell–fallen; не путать с fail и foul."
+      "why": "fall–fell–fallen; не путать с fail и foul.; повтор из справочника глаголов",
+      "repeat": true
     },
     {
       "en": "catch a cold",
