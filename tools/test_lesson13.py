@@ -7,7 +7,11 @@ basecommit='4323bf254b85e44ecf715ec362e909e8e18f352b'
 def previous(f):return json.loads(subprocess.check_output(['git','show',basecommit+':'+f],cwd=R).decode('utf-8'))
 index=json.loads((R/'lesson-data/index.json').read_text(encoding='utf-8'));oldindex=previous('lesson-data/index.json')
 assert index[:len(oldindex)]==oldindex and index[-1]['id']=='13'
-for row in oldindex:assert json.loads((R/f"lesson-data/{row['id']}.json").read_text(encoding='utf-8'))==previous(f"lesson-data/{row['id']}.json")
+for row in oldindex:
+ before=previous(f"lesson-data/{row['id']}.json");after=json.loads((R/f"lesson-data/{row['id']}.json").read_text(encoding='utf-8'))
+ if row['id']=='05':
+  before['l4'][11]['ru']='Если мне скучно, я слушаю подкаст.';before['l4'][5]['en']='If I am tired, I lie down.'
+ assert after==before, row['id']
 bank=json.loads((R/'words/bank.json').read_text(encoding='utf-8'));old=previous('words/bank.json');assert bank['packs'][:len(old['packs'])]==old['packs']
 new=bank['packs'][len(old['packs']):];words=[w['en'] for p in new for w in p['words']];assert len(words)==49 and len(set(words))==49
 assert not {w['en'] for p in old['packs'] for w in p['words']}.intersection(words)
@@ -84,7 +88,7 @@ try:
    page.locator('#view-nav [data-tab="homework"]').click();ctx.set_offline(True);page.locator('[data-homework-answer="0"]').fill('Offline own sentence');assert page.evaluate("__reviewDebug.getState().drafts['13/homework'].answers['0']")=='Offline own sentence';ctx.set_offline(False);page.reload();assert page.locator('[data-homework-answer="0"]').input_value()=='Offline own sentence'
    page.screenshot(path=str(R.parent/'reports'/f'lesson13-{engine.name}-{width}.png'))
    assert page.evaluate('document.documentElement.scrollWidth<=innerWidth');assert not errors,errors
-   page.goto(url+'/reader/');assert page.locator('form,input[type="password"],#ownerEndpoint').count()==0;assert page.locator('#genLesson option[value="13"]').count()==1
+   page.goto(url+'/reader/');page.locator('#genBox > summary').click();assert page.locator('form,input[type="password"],#ownerEndpoint').count()==0;assert page.locator('#genLesson option[value="13"]').count()==1
    # With an already confirmed session, the real portal script can generate without any form.
    provider_mock_calls=[]
    story={'title':'Synthetic saved library test','paragraphs':['We walk to the library.'],'glossary':[{'f':'we','l':'we','ru':'мы'},{'f':'walk','l':'walk','ru':'идти'},{'f':'to','l':'to','ru':'к'},{'f':'the','l':'the','ru':'артикль'},{'f':'library','l':'library','ru':'библиотека'}],'phrases':[]}

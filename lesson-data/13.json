@@ -1759,11 +1759,11 @@
       "answer": "along"
     },
     {
-      "en": "go past",
-      "pr": "гоу пааст",
-      "ru": "пройти мимо",
-      "ex": "Go past the bakery.",
-      "exru": "Пройдите мимо пекарни.",
+      "en": "go past an old church",
+      "pr": "гоу пааст эн оулд чёч",
+      "ru": "пройти мимо старой церкви",
+      "ex": "Go past an old church.",
+      "exru": "Пройдите мимо старой церкви.",
       "ex2": "Walk past the school and turn right.",
       "ex2ru": "Пройдите мимо школы и поверните направо.",
       "rule": "Go/walk past + объект — миновать его, не входя внутрь. Past здесь предлог. Pass — самостоятельный глагол: Pass the bakery.",
@@ -1811,11 +1811,11 @@
       "answer": "on"
     },
     {
-      "en": "opposite",
-      "pr": "опэзит",
-      "ru": "напротив",
-      "ex": "The library is opposite the bakery.",
-      "exru": "Библиотека напротив пекарни.",
+      "en": "opposite a big bookshop",
+      "pr": "опэзит э биг букшоп",
+      "ru": "напротив большого книжного магазина",
+      "ex": "The library is opposite a big bookshop.",
+      "exru": "Библиотека находится напротив большого книжного магазина.",
       "ex2": "The café is directly opposite the school.",
       "ex2ru": "Кафе прямо напротив школы.",
       "rule": "Предмет + is + (directly) opposite + ориентир. Across from — допустимый синоним. Is the café opposite the school? / It isn't opposite the school.",

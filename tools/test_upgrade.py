@@ -50,13 +50,13 @@ try:
    for mode in ['l1','l2','l3','l4','l5','fix']:
     page.locator('#view-nav [data-tab="'+mode+'"]').click();assert page.locator('.qcard').count()==4
     block=page.evaluate("__reviewDebug.getState().drafts['10/"+('l1:en' if mode=='l1' else mode)+"']")
-    if mode=='l4':assert all(len(q['tokens'])==q['correctTokenCount']+3 for q in block['items'])
+    if mode=='l4':assert all(len(q['tokens'])==q['correctTokenCount']+q.get('alternativeTokenCount',0)+3 for q in block['items'])
     if mode in ['l2','l3']:
      page.evaluate("(key)=>{const s=__reviewDebug.getState();const b=s.drafts[key];for(const q of b.items)b.answers[q.key]=q.kind==='choice'?q.correctIndex:q.accept[0];localStorage.setItem('english-review:v4',JSON.stringify(s));}",'10/'+mode)
      page.reload();page.locator('#check-btn').click();assert page.locator('.explanation').count()==4
    page.reload();assert page.evaluate("__reviewDebug.getState().drafts['03/l3']")==previous
    assert page.evaluate('document.documentElement.scrollWidth<=innerWidth')
-   page.goto(url+'/reader/');assert page.locator('#genLesson option[value="10"]').count()==1
+   page.goto(url+'/reader/');page.locator('#genBox > summary').click();assert page.locator('#genLesson option[value="10"]').count()==1
    # Old generated texts survive; JSON export includes them; no endpoint => no API request.
    old={'id':'legacy-reading','title':'Old saved text','topic':'Local','paragraphs':['We buy apples.'],'dict':{'we':{'l':'we','ru':'мы','ipa':''}},'phr':{}}
    page.evaluate('(t)=>localStorage.setItem("chitalka.gen",JSON.stringify([t]))',old);page.reload()
@@ -68,6 +68,7 @@ try:
    # A mock popup uses exactly the production postMessage handshake; no real provider.
    portal='''<script>const source=window.opener;source.postMessage({type:'english-reader-ready'},'*');addEventListener('message',e=>{if(e.data.type==='english-reader-request'){window.req=e.data.request;}});</script>'''
    context.route('https://english-reader-owner.english-fc53e115b617.workers.dev/portal',lambda route:route.fulfill(body=portal,content_type='text/html'))
+   page.locator('#genBox > summary').click()
    with page.expect_popup() as popup:page.locator('#genBtn').click()
    pop=popup.value;pop.wait_for_function('window.req')
    assert pop.evaluate('req.lesson')=='03'
@@ -95,6 +96,8 @@ for f in [R/'lesson-data'/n for n in ['index.json','01.json','01p.json']+[f'{i:0
  after=json.loads(f.read_text(encoding='utf-8'))
  if f.stem=='index':assert after[:len(before)]==before
  else:
+  if f.stem=='05':
+   before['l4'][11]['ru']='Если мне скучно, я слушаю подкаст.';before['l4'][5]['en']='If I am tired, I lie down.'
   for k in ['vocab','l2','l3','l4','l5','l6','fix','theory']:assert after[k][:len(before[k])]==before[k],(f.name,k)
 old=subprocess.check_output(['git','show',baseline+':words/index.html'],cwd=R).decode('utf-8')
 new=(R/'words/index.html').read_text(encoding='utf-8')

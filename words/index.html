@@ -1,6 +1,11 @@
 <!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}@media(max-width:560px){body{font-size:16px}.rule{font-size:14px}.chip{font-size:14px}.opt{font-size:16px}input[type=text]{font-size:16px}}
 #win{box-sizing:border-box;max-width:100%}.face.back{overflow-y:auto;overflow-wrap:anywhere}.card .exru{overflow-wrap:anywhere}
 #win{font-size:20px;min-height:52px}
+
+/* Mobile geometry: preserve theme and let content determine height. */
+*,*::before,*::after{box-sizing:border-box}html,body{max-width:100%;min-height:100dvh}body{height:auto;overflow-wrap:anywhere;padding-bottom:calc(28px + env(safe-area-inset-bottom,0px))}button,input,textarea,select{min-width:0;max-width:100%;font:inherit}button{white-space:normal;overflow-wrap:anywhere}input,textarea{font-size:20px}button,.btn{min-height:44px;line-height:1.4}.wrap,.q,.ph,.text,.in{min-width:0}.chips{scrollbar-width:thin;overscroll-behavior-x:contain}.chips::-webkit-scrollbar{display:block;height:4px}.chips::-webkit-scrollbar-thumb{background:var(--line);border-radius:4px}
+.card{height:clamp(390px,65dvh,540px)}.face{justify-content:flex-start;padding:54px 16px 48px;overflow-y:auto;overflow-wrap:anywhere}.face .word{font-size:clamp(24px,7vw,36px)}.face .hint{position:static;margin-top:auto}.face .tag{top:14px}.nav{grid-template-columns:minmax(0,1fr) auto minmax(0,1fr)}.nav .btn{padding:12px 8px}header{flex-wrap:wrap}.qhead{gap:8px;flex-wrap:wrap}.pi{flex-wrap:wrap}.opt{align-items:flex-start}.ph h3{font-size:16px}
+
 </style><title>Тренажёр английских слов</title><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-title" content="English Words"><meta name="theme-color" content="#f4f6fa"><link rel="manifest" href="./manifest.webmanifest"><link rel="apple-touch-icon" href="../icon-192.png"></head><body>
 <title>Тренажёр слов</title>
 <meta name="claude:viewport-fit-sides" content="cover">

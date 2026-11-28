@@ -7,6 +7,11 @@ from pathlib import Path
 import json,re,sys,hashlib
 ROOT=Path(__file__).resolve().parent.parent
 SRC=ROOT/'lesson-data'
+texts=json.loads((ROOT/'reader/texts.json').read_text(encoding='utf-8'))
+assert texts and len({t['id'] for t in texts})==len(texts)
+for t in texts:
+ assert all(k in t for k in ['id','title','topic','paragraphs']) and t['paragraphs']
+(ROOT/'reader/texts.js').write_text('window.ENGLISH_STATIC_TEXTS='+json.dumps(texts,ensure_ascii=False).replace('<','\\u003c')+';'+chr(10),encoding='utf-8')
 word_bank=json.loads((ROOT/'words/bank.json').read_text(encoding='utf-8'))
 (ROOT/'words/bank.js').write_text('window.ENGLISH_WORD_BANK='+json.dumps(word_bank,ensure_ascii=False).replace('<','\\u003c')+';'+chr(10),encoding='utf-8')
 
@@ -28,7 +33,7 @@ assert source.count('__LESSONS_JSON__')==1
 # Cache version follows bundle bytes so clients pick up published lesson revisions.
 sw=ROOT/'sw.js'
 text=sw.read_text(encoding='utf-8')
-short=hashlib.sha256((source+raw+(ROOT/'reader'/'index.html').read_text(encoding='utf-8')+(ROOT/'words'/'index.html').read_text(encoding='utf-8')+(ROOT/'words/bank.js').read_text(encoding='utf-8')).encode()).hexdigest()[:9]
+short=hashlib.sha256((source+raw+(ROOT/'reader'/'index.html').read_text(encoding='utf-8')+(ROOT/'words'/'index.html').read_text(encoding='utf-8')+(ROOT/'words/bank.js').read_text(encoding='utf-8')+(ROOT/'reader/texts.js').read_text(encoding='utf-8')).encode()).hexdigest()[:9]
 text=re.sub(r"english-review-v5-[A-Za-z0-9]+",'english-review-v5-'+short,text)
 sw.write_text(text,encoding='utf-8')
 print('Built index.html with',len(index),'sections, cache',short)

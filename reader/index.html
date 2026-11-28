@@ -1,5 +1,10 @@
 <!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}@media(max-width:560px){body{font-size:16px}.hint{font-size:14px}.chip{font-size:15px}}
-select{font:inherit;max-width:100%;width:100%;padding:12px;border:1px solid #ccd6e5;border-radius:10px;background:white;color:inherit;margin:6px 0 12px}input[type=checkbox]{width:auto} .gen label{display:block} </style><title>Английская читалка</title><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-title" content="English Reader"><meta name="theme-color" content="#f4f6fa"><link rel="manifest" href="./manifest.webmanifest"><link rel="apple-touch-icon" href="../icon-192.png"></head><body>
+select{font:inherit;max-width:100%;width:100%;padding:12px;border:1px solid #ccd6e5;border-radius:10px;background:white;color:inherit;margin:6px 0 12px}input[type=checkbox]{width:auto} .gen label{display:block}
+/* Mobile geometry: preserve theme and let content determine height. */
+*,*::before,*::after{box-sizing:border-box}html,body{max-width:100%;min-height:100dvh}body{height:auto;overflow-wrap:anywhere;padding-bottom:calc(28px + env(safe-area-inset-bottom,0px))}button,input,textarea,select{min-width:0;max-width:100%;font:inherit}button{white-space:normal;overflow-wrap:anywhere}input,textarea{font-size:20px}button,.btn{min-height:44px;line-height:1.4}.wrap,.q,.ph,.text,.in{min-width:0}.chips{scrollbar-width:thin;overscroll-behavior-x:contain}.chips::-webkit-scrollbar{display:block;height:4px}.chips::-webkit-scrollbar-thumb{background:var(--line);border-radius:4px}
+.top .row{flex-wrap:wrap}.brand{white-space:normal;flex:1 1 120px}.genrow{flex-wrap:wrap}.genrow>*{flex:1 1 140px}.sheet{max-height:85dvh;overflow-y:auto;padding-bottom:env(safe-area-inset-bottom,0px)}.sheet .in{max-width:100%}.sheet .whead{flex-wrap:wrap}.wbig{overflow-wrap:anywhere}.selbar .in{min-width:0}.selbar{max-height:50dvh;overflow-y:auto}.text{overflow-wrap:anywhere}.gen>summary{cursor:pointer;font-weight:600}.gen:not([open])>*:not(summary){display:none}.gen[open]{display:grid}
+
+</style><title>Английская читалка</title><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-title" content="English Reader"><meta name="theme-color" content="#f4f6fa"><link rel="manifest" href="./manifest.webmanifest"><link rel="apple-touch-icon" href="../icon-192.png"></head><body>
 <title>Английская читалка</title>
 <meta name="claude:viewport-fit-sides" content="cover">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -143,8 +148,8 @@ textarea.fallback{width:100%;box-sizing:border-box;min-height:140px;font:13px/1.
   <section id="library">
     <p class="lead">Тексты строятся на лексике и грамматике твоих уроков. Выбери текст и читай вслух. Нажми на незнакомое слово: увидишь перевод, транскрипцию и сможешь добавить его в изучение. В конце скопируй список слов.</p>
 
-    <div class="gen" id="genBox">
-      <h2>Новый текст по уроку</h2>
+    <details class="gen" id="genBox"><summary>Дополнительный AI · необязательно</summary>
+      <h2>Дополнительная AI-генерация</h2>
       <label>Урок<select id="genLesson"></select></label>
       <label>Формат<select id="genFormat"><option value="story">История</option><option value="dialogue">Диалог</option><option value="article">Небольшая статья</option><option value="posts">Посты</option></select></label>
       <label>Тема<select id="genTopic"><option>Повседневная жизнь</option><option>Покупки</option><option>Спорт</option><option>Путешествия</option><optgroup label="Урок 12 · транспорт и город"><option>Getting to work at rush hour</option><option>The wrong turn in a new town</option><option>A day without the metro</option><option>Finding a museum</option><option>Different ways to travel</option><option>An accessible city</option></optgroup><optgroup label="Урок 13"><option>Asking for directions politely</option><option>A paper map in a new town</option><option>Finding an outdoor workout area</option><option>The wrong bus stop</option></optgroup><option>Работа</option><option>Отношения</option><option>Еда</option></select></label>
@@ -154,12 +159,13 @@ textarea.fallback{width:100%;box-sizing:border-box;min-height:140px;font:13px/1.
       <details><summary>Пройденные уроки и персонализация</summary><div id="learnedLessons"></div><label><input type="checkbox" id="allowPatterns"> Добавлять нейтральную практику грамматических трудностей</label><p>Передаются выбранные темы уроков и до 15 сохранённых слов. Личные ответы и исходники не передаются.</p></details>
       <p class="hint">AI использует только уже подтверждённую сессию устройства. Без неё генерация недоступна; старые тексты и словарь работают. Ввод учётных данных не требуется.</p>
       <div class="genrow"><button class="btn" id="genBtn">Создать текст</button><button class="btn ghost" id="stopBtn" hidden>Стоп</button></div>
-      <div class="status" id="genStatus" role="status">Онлайн-генерация требует подключения бесплатного личного сервиса. Готовые тексты доступны ниже.</div>
-      <button class="btn ghost" id="readerExport">Экспорт библиотеки</button>
-      <label class="btn ghost">Импорт библиотеки<input id="readerImport" type="file" accept=".json" hidden></label>
-    </div>
+      <div class="status" id="genStatus" role="status">Готовые тексты ниже доступны без API. Дополнительный AI ограничен существующим сроком бонуса и сессией.</div>
 
-    <div class="label" style="margin-bottom:10px">Тексты</div>
+    </details>
+<div class="genrow library-backup">      <button class="btn ghost" id="readerExport">Экспорт библиотеки</button>
+      <label class="btn ghost">Импорт библиотеки<input id="readerImport" type="file" accept=".json" hidden></label></div>
+
+    <div class="label" style="margin-bottom:10px">Готовые тексты · без API</div>
     <div class="list" id="textList"></div>
   </section>
 
@@ -189,6 +195,7 @@ textarea.fallback{width:100%;box-sizing:border-box;min-height:140px;font:13px/1.
 <div class="sheet" id="sheet" hidden role="dialog" aria-modal="true"><div class="in" id="sheetIn"></div></div>
 
 <script src="./context.js"></script>
+<script src="./texts.js"></script>
 <script>
 /* ---------- built-in dictionary: lemma|перевод|IPA|forms ---------- */
 const RAW = `the|определённый артикль (этот, тот самый)|ðə
@@ -575,36 +582,7 @@ const LESSONS = [
 ];
 
 /* ---------- built-in texts ---------- */
-const BUILTIN = [
-  { id: "l3a", topic: "Урок 3 · работа из дома", title: "Max Works for Himself", paragraphs: [
-    "Max is a marketer. Two years ago, he left his office job and applied for jobs at big companies. There was so much competition! Luckily, a friend said: \"Why don't you work for yourself?\"",
-    "Now Max works for himself. He works from home, and his flat is his safe space. Every Sunday he plans his whole week and sets time for each task. He starts work at nine in the morning and has six tasks a day.",
-    "His workspace is simple: a laptop, headphones and a wireless mouse. He is often on calls with clients. Sometimes he forgets to turn on his microphone, and a client says: \"Max, you're muted!\"",
-    "Working from home isn't always easy. Max doesn't have to go to the office, so he hardly moves. He has to remind himself to move around. Sometimes he looks out of the window and says: \"Oh, when did the sun go down?\" His plants are his only co-workers.",
-    "Now he has a flexible schedule. He works out twice a week and takes time off when he needs it. He doesn't earn a lot of money yet, but he is grateful. \"It suits me,\" he says. \"Sorry, I'm on a call in five. Wish me luck!\""
-  ], dict: L3DICT(), phr: L3PHR() },
-  { id: "b1", topic: "Маркетинг", title: "What Is a Target Audience?", paragraphs: [
-    "Every business wants to sell its products. But who will buy them? This is the main question of marketing. The answer is the target audience.",
-    "A target audience is a group of people who need your product. They have similar problems, interests and habits. For example, a fitness club in the city center wants young people who work in offices. They are busy, so they need short workouts before or after work.",
-    "Why is this important? If you try to sell to everyone, you sell to no one. Your message becomes weak and boring. When you know your audience, you can speak their language. You can choose the right words, the right pictures and the right channels.",
-    "How can you find your audience? First, look at your current customers. Who are they? How old are they? Where do they live? Second, ask them questions. Small surveys are cheap and useful. Third, check your competitors. Who do they talk to?",
-    "Good marketers never stop learning about their audience. People change, and the market changes too. So update your research every few months."
-  ]},
-  { id: "b2", topic: "История", title: "The Lost Phone", paragraphs: [
-    "Anna lives in a small flat near the river. Every morning she takes the bus to work. One Monday, the bus was very crowded. Anna was tired, and she was listening to music.",
-    "When she got off the bus, she put her hand in her pocket. Her phone wasn't there! She felt cold. All her photos, contacts and work notes were on that phone.",
-    "She ran back to the bus stop, but the bus was already gone. Anna didn't know what to do. Then she remembered the number of the bus company. She went into a café and asked the waiter for help. He kindly gave her his phone.",
-    "A woman from the company answered. \"Don't worry,\" she said. \"The driver found a phone ten minutes ago. You can pick it up at the main station after five o'clock.\"",
-    "In the evening, Anna got her phone back. The driver smiled and said, \"Be careful next time!\" Anna thanked him and bought him a coffee. Since that day, she always keeps her phone in her bag."
-  ]},
-  { id: "b3", topic: "Маркетинг", title: "Why Reviews Matter", paragraphs: [
-    "Before people buy something online, they usually read reviews. A review is an opinion of a real customer. It can be good or bad.",
-    "Reviews help new customers trust a brand. Imagine two shops sell the same shoes at the same price. The first shop has two hundred positive reviews. The second shop has none. Which one will you choose? Most people choose the first one.",
-    "Bad reviews are not always a disaster. They show that the reviews are honest. What matters is how the company reacts. A polite and fast answer can turn an angry customer into a loyal one.",
-    "How can a small business get more reviews? It is simple: ask. Send a short message after the purchase. Thank the customer and give a link. Some companies offer a small discount for a review, but be careful: in some countries this is against the rules.",
-    "Remember: people trust other people more than advertising."
-  ]}
-];
+const BUILTIN = window.ENGLISH_STATIC_TEXTS;
 
 /* ---------- storage ---------- */
 const store = {

@@ -11,7 +11,11 @@ index=json.loads((R/'lesson-data/index.json').read_text(encoding='utf-8'))
 oldindex=prior('lesson-data/index.json')
 assert index[:len(oldindex)]==oldindex and any(x['id']=='12' for x in index)
 assert '11' not in [x['id'] for x in index]
-for row in oldindex:assert json.loads((R/f"lesson-data/{row['id']}.json").read_text(encoding='utf-8'))==prior(f"lesson-data/{row['id']}.json")
+for row in oldindex:
+ before=prior(f"lesson-data/{row['id']}.json");after=json.loads((R/f"lesson-data/{row['id']}.json").read_text(encoding='utf-8'))
+ if row['id']=='05':
+  before['l4'][11]['ru']='Если мне скучно, я слушаю подкаст.';before['l4'][5]['en']='If I am tired, I lie down.'
+ assert after==before, row['id']
 old=prior('words/bank.json');bank=json.loads((R/'words/bank.json').read_text(encoding='utf-8'))
 assert bank['packs'][:len(old['packs'])]==old['packs']
 for k in old:
@@ -60,7 +64,7 @@ try:
     key='12/'+('l1:en' if mode=='l1' else mode)
     if mode=='l4':
      block=page.evaluate('(k)=>__reviewDebug.getState().drafts[k]',key)
-     assert all(len(q['tokens'])==q['correctTokenCount']+3 for q in block['items'])
+     assert all(len(q['tokens'])==q['correctTokenCount']+q.get('alternativeTokenCount',0)+3 for q in block['items'])
     # Correct known answers are entirely local, including sentence-build token selection.
     page.evaluate('''key=>{const s=__reviewDebug.getState(),b=s.drafts[key];for(const q of b.items)b.answers[q.key]=q.kind==='choice'?q.correctIndex:q.kind==='build'?Array.from({length:q.correctTokenCount},(_,i)=>i):q.accept[0];localStorage.setItem('english-review:v4',JSON.stringify(s));}''',key)
     page.reload();page.locator('#check-btn').click()
@@ -98,7 +102,7 @@ try:
     assert not re.search('[a-z]',page.locator('.qprompt').inner_text(),re.I)
     page.locator('#win').fill('draft');page.reload();assert page.locator('#win').input_value()=='draft'
     assert page.evaluate('document.documentElement.scrollWidth<=innerWidth')
-   page.goto(url+'/reader/');assert page.locator('#genLesson option[value="12"]').count()==1
+   page.goto(url+'/reader/');page.locator('#genBox > summary').click();assert page.locator('#genLesson option[value="12"]').count()==1
    assert page.locator('#genTopic optgroup[label="Урок 12 · транспорт и город"] option').count()==6
    page.locator('#genLesson').select_option('12');page.locator('#genTopic').select_option(label='An accessible city')
    req=page.evaluate('requestForReader()');assert req['lesson']=='12' and req['topic']=='An accessible city'

@@ -44,7 +44,7 @@ try:
    assert len(state['drafts']['03/l1:en']['answers'])>0
    page.locator('#view-nav [data-tab="l4"]').click()
    block=page.evaluate("window.__reviewDebug.getState().drafts['03/l4']")
-   assert all(len(q['tokens'])==q['correctTokenCount']+3 for q in block['items'])
+   assert all(len(q['tokens'])==q['correctTokenCount']+q.get('alternativeTokenCount',0)+3 for q in block['items'])
    page.reload(); assert page.evaluate("window.__reviewDebug.getState().progress['03'].attempts.length")==2
    # Real v4 state migration, preserving history, drafts, mistakes and unlock data.
    legacy={'version':4,'lesson':'03','tab':'theory','prefs':{'pageSize':2},'progress':state['progress'],'drafts':state['drafts']}
