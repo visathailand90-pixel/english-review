@@ -6,14 +6,14 @@ R=Path(__file__).resolve().parent.parent
 basecommit='4323bf254b85e44ecf715ec362e909e8e18f352b'
 def previous(f):return json.loads(subprocess.check_output(['git','show',basecommit+':'+f],cwd=R).decode('utf-8'))
 index=json.loads((R/'lesson-data/index.json').read_text(encoding='utf-8'));oldindex=previous('lesson-data/index.json')
-assert index[:len(oldindex)]==oldindex and index[-1]['id']=='13'
+assert index[:len(oldindex)]==oldindex and index[len(oldindex)]['id']=='13'
 for row in oldindex:
  before=previous(f"lesson-data/{row['id']}.json");after=json.loads((R/f"lesson-data/{row['id']}.json").read_text(encoding='utf-8'))
  if row['id']=='05':
   before['l4'][11]['ru']='Если мне скучно, я слушаю подкаст.';before['l4'][5]['en']='If I am tired, I lie down.'
  assert after==before, row['id']
 bank=json.loads((R/'words/bank.json').read_text(encoding='utf-8'));old=previous('words/bank.json');assert bank['packs'][:len(old['packs'])]==old['packs']
-new=bank['packs'][len(old['packs']):];words=[w['en'] for p in new for w in p['words']];assert len(words)==49 and len(set(words))==49
+new=[p for p in bank['packs'][len(old['packs']):] if p['id'].startswith('lesson13-')];words=[w['en'] for p in new for w in p['words']];assert len(words)==49 and len(set(words))==49
 assert not {w['en'] for p in old['packs'] for w in p['words']}.intersection(words)
 assert new[0]['id']=='lesson13-homework'
 for pack in new:assert 10<=len(pack['words'])+len(pack.get('wordRefs',[]))<=15

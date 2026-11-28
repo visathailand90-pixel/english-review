@@ -529,5 +529,1204 @@
       "How can a small business get more reviews? It is simple: ask. Send a short message after the purchase. Thank the customer and give a link. Some companies offer a small discount for a review, but be careful: in some countries this is against the rules.",
       "Remember: people trust other people more than advertising."
     ]
+  },
+  {
+    "id": "lesson14-route",
+    "topic": "Урок 14 · авторский текст A2 · маршрут",
+    "title": "A Visitor and the Right Turn",
+    "paragraphs": [
+      "Maya is a visitor in a small town. She wants to find a bookshop, but she does not know the area. She is near a supermarket. A man is standing near the door, so she asks him for help.",
+      "“Excuse me, can you help me? How can I get to the bookshop?” Maya asks. “Of course,” he says. “First, go down this road. Go past the mosque. When you reach the crossroads, turn right. There is a school on your left. Go straight until you see a small bridge. Cross the road at the crossing. The bookshop is opposite the café.”",
+      "Maya repeats the route slowly. “Do I take the first right turn?” she asks. “Yes. Do not take the turning near the supermarket.” She thanks him and starts to walk. Finally, she sees the bookshop. This time, she does not get lost. A few clear questions make a new place easier to understand."
+    ],
+    "dict": {
+      "maya": {
+        "l": "Maya",
+        "ru": "Майя — имя",
+        "ipa": ""
+      },
+      "standing": {
+        "l": "stand",
+        "ru": "стоит",
+        "ipa": ""
+      },
+      "visitor": {
+        "l": "visitor",
+        "ru": "приезжий; посетитель",
+        "ipa": ""
+      },
+      "area": {
+        "l": "area",
+        "ru": "район; местность",
+        "ipa": ""
+      },
+      "repeats": {
+        "l": "repeat",
+        "ru": "повторяет",
+        "ipa": ""
+      },
+      "route": {
+        "l": "route",
+        "ru": "маршрут",
+        "ipa": ""
+      },
+      "mosque": {
+        "l": "mosque",
+        "ru": "мечеть",
+        "ipa": ""
+      },
+      "reach": {
+        "l": "reach",
+        "ru": "достичь; дойти до",
+        "ipa": ""
+      },
+      "crossroads": {
+        "l": "crossroads",
+        "ru": "перекрёсток",
+        "ipa": ""
+      },
+      "turning": {
+        "l": "turning",
+        "ru": "поворот",
+        "ipa": ""
+      },
+      "right": {
+        "l": "right",
+        "ru": "правый; направо; правильный — по контексту",
+        "ipa": ""
+      },
+      "first": {
+        "l": "first",
+        "ru": "первый; сначала",
+        "ipa": ""
+      },
+      "finally": {
+        "l": "finally",
+        "ru": "наконец",
+        "ipa": ""
+      },
+      "lost": {
+        "l": "lost",
+        "ru": "потерявшийся; заблудившийся",
+        "ipa": ""
+      },
+      "turn": {
+        "l": "turn",
+        "ru": "повернуть; поворот",
+        "ipa": ""
+      },
+      "starts": {
+        "l": "start",
+        "ru": "начинает",
+        "ipa": ""
+      },
+      "clear": {
+        "l": "clear",
+        "ru": "понятный; ясный",
+        "ipa": ""
+      },
+      "understand": {
+        "l": "understand",
+        "ru": "понимать",
+        "ipa": ""
+      },
+      "slowly": {
+        "l": "slowly",
+        "ru": "медленно",
+        "ipa": ""
+      },
+      "easier": {
+        "l": "easy",
+        "ru": "легче",
+        "ipa": ""
+      },
+      "cross": {
+        "l": "cross",
+        "ru": "перейти; пересечь",
+        "ipa": ""
+      },
+      "excuse": {
+        "l": "excuse",
+        "ru": "извинить; Excuse me — извините",
+        "ipa": ""
+      },
+      "yes": {
+        "l": "yes",
+        "ru": "да",
+        "ipa": ""
+      },
+      "bookshop": {
+        "l": "bookshop",
+        "ru": "книжный магазин",
+        "ipa": ""
+      },
+      "bridge": {
+        "l": "bridge",
+        "ru": "мост",
+        "ipa": ""
+      },
+      "café": {
+        "l": "café",
+        "ru": "кафе",
+        "ipa": ""
+      },
+      "cafe": {
+        "l": "café",
+        "ru": "кафе",
+        "ipa": ""
+      },
+      "course": {
+        "l": "course",
+        "ru": "of course — конечно",
+        "ipa": ""
+      },
+      "crossing": {
+        "l": "crossing",
+        "ru": "пешеходный переход",
+        "ipa": ""
+      },
+      "door": {
+        "l": "door",
+        "ru": "дверь",
+        "ipa": ""
+      },
+      "down": {
+        "l": "down",
+        "ru": "вниз; go down the road — идти по дороге",
+        "ipa": ""
+      },
+      "left": {
+        "l": "left",
+        "ru": "левый; слева; налево",
+        "ipa": ""
+      },
+      "make": {
+        "l": "make",
+        "ru": "делать",
+        "ipa": ""
+      },
+      "man": {
+        "l": "man",
+        "ru": "мужчина",
+        "ipa": ""
+      },
+      "opposite": {
+        "l": "opposite",
+        "ru": "напротив",
+        "ipa": ""
+      },
+      "past": {
+        "l": "past",
+        "ru": "мимо",
+        "ipa": ""
+      },
+      "place": {
+        "l": "place",
+        "ru": "место",
+        "ipa": ""
+      },
+      "road": {
+        "l": "road",
+        "ru": "дорога",
+        "ipa": ""
+      },
+      "school": {
+        "l": "school",
+        "ru": "школа",
+        "ipa": ""
+      },
+      "see": {
+        "l": "see",
+        "ru": "видеть",
+        "ipa": ""
+      },
+      "sees": {
+        "l": "see",
+        "ru": "видит",
+        "ipa": ""
+      },
+      "straight": {
+        "l": "straight",
+        "ru": "прямо",
+        "ipa": ""
+      },
+      "supermarket": {
+        "l": "supermarket",
+        "ru": "супермаркет",
+        "ipa": ""
+      },
+      "town": {
+        "l": "town",
+        "ru": "город; небольшой город",
+        "ipa": ""
+      },
+      "until": {
+        "l": "until",
+        "ru": "до; пока не",
+        "ipa": ""
+      },
+      "walk": {
+        "l": "walk",
+        "ru": "идти пешком",
+        "ipa": ""
+      },
+      "better": {
+        "l": "good",
+        "ru": "лучше",
+        "ipa": ""
+      },
+      "home": {
+        "l": "home",
+        "ru": "дом; дома; домой",
+        "ipa": ""
+      },
+      "hour": {
+        "l": "hour",
+        "ru": "час",
+        "ipa": ""
+      },
+      "late": {
+        "l": "late",
+        "ru": "поздно; опоздавший",
+        "ipa": ""
+      },
+      "room": {
+        "l": "room",
+        "ru": "комната",
+        "ipa": ""
+      },
+      "sorry": {
+        "l": "sorry",
+        "ru": "извини; сожалеющий",
+        "ipa": ""
+      },
+      "way": {
+        "l": "way",
+        "ru": "дорога; путь",
+        "ipa": ""
+      },
+      "these": {
+        "l": "these",
+        "ru": "эти",
+        "ipa": ""
+      },
+      "today": {
+        "l": "today",
+        "ru": "сегодня",
+        "ipa": ""
+      },
+      "would": {
+        "l": "would",
+        "ru": "would you like — вы хотели бы",
+        "ipa": ""
+      },
+      "calls": {
+        "l": "call",
+        "ru": "звонит",
+        "ipa": ""
+      },
+      "explains": {
+        "l": "explain",
+        "ru": "объясняет",
+        "ipa": ""
+      },
+      "happy": {
+        "l": "happy",
+        "ru": "довольный; счастливый",
+        "ipa": ""
+      },
+      "later": {
+        "l": "later",
+        "ru": "позже",
+        "ipa": ""
+      },
+      "lights": {
+        "l": "light",
+        "ru": "traffic lights — светофор",
+        "ipa": ""
+      },
+      "like": {
+        "l": "like",
+        "ru": "нравиться; would like — хотел бы",
+        "ipa": ""
+      },
+      "mean": {
+        "l": "mean",
+        "ru": "значить",
+        "ipa": ""
+      },
+      "opens": {
+        "l": "open",
+        "ru": "открывает",
+        "ipa": ""
+      }
+    },
+    "phr": {
+      "get lost": {
+        "lemma": "get lost",
+        "disp": "get lost",
+        "ru": "заблудиться",
+        "ipa": ""
+      },
+      "on your left": {
+        "lemma": "on your left",
+        "disp": "on your left",
+        "ru": "слева от вас",
+        "ipa": ""
+      },
+      "of course": {
+        "lemma": "of course",
+        "disp": "of course",
+        "ru": "конечно",
+        "ipa": ""
+      }
+    }
+  },
+  {
+    "id": "lesson14-late",
+    "topic": "Урок 14 · авторский текст A2 · причины опоздания",
+    "title": "A Late Start and a Better Plan",
+    "paragraphs": [
+      "Leo had an important meeting on Monday. His alarm did not go off, so he woke up late. He looked at the time and got ready quickly. He did not have breakfast, but he checked his bag before he left home. His wallet and phone were there.",
+      "At the bus stop, Leo waited for ten minutes. The bus was delayed. When it arrived, he asked the driver about the station. The driver explained the route. Leo got off near the station, but he took a wrong turning. He had to turn around and walk the rest of the way.",
+      "Leo arrived half an hour late. He said, “I am sorry. My alarm did not go off, and I took a wrong turning near the station.” His colleague listened and showed him the meeting room. That evening, Leo set two alarms and checked the route. He could not change that morning, but he could prepare better for the next day."
+    ],
+    "dict": {
+      "leo": {
+        "l": "Leo",
+        "ru": "Лео — имя",
+        "ipa": ""
+      },
+      "route": {
+        "l": "route",
+        "ru": "маршрут",
+        "ipa": ""
+      },
+      "turning": {
+        "l": "turning",
+        "ru": "поворот",
+        "ipa": ""
+      },
+      "alarm": {
+        "l": "alarm",
+        "ru": "будильник",
+        "ipa": ""
+      },
+      "alarms": {
+        "l": "alarm",
+        "ru": "будильники",
+        "ipa": ""
+      },
+      "off": {
+        "l": "off",
+        "ru": "часть go off — прозвенеть",
+        "ipa": ""
+      },
+      "woke": {
+        "l": "wake",
+        "ru": "проснулся",
+        "ipa": ""
+      },
+      "important": {
+        "l": "important",
+        "ru": "важный",
+        "ipa": ""
+      },
+      "checked": {
+        "l": "check",
+        "ru": "проверил",
+        "ipa": ""
+      },
+      "wallet": {
+        "l": "wallet",
+        "ru": "кошелёк",
+        "ipa": ""
+      },
+      "waited": {
+        "l": "wait",
+        "ru": "ждал",
+        "ipa": ""
+      },
+      "delayed": {
+        "l": "delay",
+        "ru": "задержали; задерживался",
+        "ipa": ""
+      },
+      "arrived": {
+        "l": "arrive",
+        "ru": "прибыл",
+        "ipa": ""
+      },
+      "explained": {
+        "l": "explain",
+        "ru": "объяснил",
+        "ipa": ""
+      },
+      "driver": {
+        "l": "driver",
+        "ru": "водитель",
+        "ipa": ""
+      },
+      "wrong": {
+        "l": "wrong",
+        "ru": "неправильный",
+        "ipa": ""
+      },
+      "turn": {
+        "l": "turn",
+        "ru": "повернуть; поворот",
+        "ipa": ""
+      },
+      "around": {
+        "l": "around",
+        "ru": "часть turn around — развернуться",
+        "ipa": ""
+      },
+      "rest": {
+        "l": "rest",
+        "ru": "оставшаяся часть",
+        "ipa": ""
+      },
+      "half": {
+        "l": "half",
+        "ru": "половина",
+        "ipa": ""
+      },
+      "colleague": {
+        "l": "colleague",
+        "ru": "коллега",
+        "ipa": ""
+      },
+      "listened": {
+        "l": "listen",
+        "ru": "слушал",
+        "ipa": ""
+      },
+      "showed": {
+        "l": "show",
+        "ru": "показал",
+        "ipa": ""
+      },
+      "set": {
+        "l": "set",
+        "ru": "установил; поставил",
+        "ipa": ""
+      },
+      "could": {
+        "l": "can",
+        "ru": "мог",
+        "ipa": ""
+      },
+      "change": {
+        "l": "change",
+        "ru": "изменить",
+        "ipa": ""
+      },
+      "prepare": {
+        "l": "prepare",
+        "ru": "подготовиться",
+        "ipa": ""
+      },
+      "meeting": {
+        "l": "meeting",
+        "ru": "встреча",
+        "ipa": ""
+      },
+      "quickly": {
+        "l": "quickly",
+        "ru": "быстро",
+        "ipa": ""
+      },
+      "ready": {
+        "l": "ready",
+        "ru": "готовый",
+        "ipa": ""
+      },
+      "breakfast": {
+        "l": "breakfast",
+        "ru": "завтрак",
+        "ipa": ""
+      },
+      "cross": {
+        "l": "cross",
+        "ru": "перейти; пересечь",
+        "ipa": ""
+      },
+      "excuse": {
+        "l": "excuse",
+        "ru": "извинить; Excuse me — извините",
+        "ipa": ""
+      },
+      "yes": {
+        "l": "yes",
+        "ru": "да",
+        "ipa": ""
+      },
+      "bookshop": {
+        "l": "bookshop",
+        "ru": "книжный магазин",
+        "ipa": ""
+      },
+      "bridge": {
+        "l": "bridge",
+        "ru": "мост",
+        "ipa": ""
+      },
+      "café": {
+        "l": "café",
+        "ru": "кафе",
+        "ipa": ""
+      },
+      "cafe": {
+        "l": "café",
+        "ru": "кафе",
+        "ipa": ""
+      },
+      "course": {
+        "l": "course",
+        "ru": "of course — конечно",
+        "ipa": ""
+      },
+      "crossing": {
+        "l": "crossing",
+        "ru": "пешеходный переход",
+        "ipa": ""
+      },
+      "door": {
+        "l": "door",
+        "ru": "дверь",
+        "ipa": ""
+      },
+      "down": {
+        "l": "down",
+        "ru": "вниз; go down the road — идти по дороге",
+        "ipa": ""
+      },
+      "left": {
+        "l": "leave",
+        "ru": "ушёл; вышел",
+        "ipa": ""
+      },
+      "make": {
+        "l": "make",
+        "ru": "делать",
+        "ipa": ""
+      },
+      "man": {
+        "l": "man",
+        "ru": "мужчина",
+        "ipa": ""
+      },
+      "opposite": {
+        "l": "opposite",
+        "ru": "напротив",
+        "ipa": ""
+      },
+      "past": {
+        "l": "past",
+        "ru": "мимо",
+        "ipa": ""
+      },
+      "place": {
+        "l": "place",
+        "ru": "место",
+        "ipa": ""
+      },
+      "road": {
+        "l": "road",
+        "ru": "дорога",
+        "ipa": ""
+      },
+      "school": {
+        "l": "school",
+        "ru": "школа",
+        "ipa": ""
+      },
+      "see": {
+        "l": "see",
+        "ru": "видеть",
+        "ipa": ""
+      },
+      "sees": {
+        "l": "see",
+        "ru": "видит",
+        "ipa": ""
+      },
+      "straight": {
+        "l": "straight",
+        "ru": "прямо",
+        "ipa": ""
+      },
+      "supermarket": {
+        "l": "supermarket",
+        "ru": "супермаркет",
+        "ipa": ""
+      },
+      "town": {
+        "l": "town",
+        "ru": "город; небольшой город",
+        "ipa": ""
+      },
+      "until": {
+        "l": "until",
+        "ru": "до; пока не",
+        "ipa": ""
+      },
+      "walk": {
+        "l": "walk",
+        "ru": "идти пешком",
+        "ipa": ""
+      },
+      "better": {
+        "l": "good",
+        "ru": "лучше",
+        "ipa": ""
+      },
+      "home": {
+        "l": "home",
+        "ru": "дом; дома; домой",
+        "ipa": ""
+      },
+      "hour": {
+        "l": "hour",
+        "ru": "час",
+        "ipa": ""
+      },
+      "late": {
+        "l": "late",
+        "ru": "поздно; опоздавший",
+        "ipa": ""
+      },
+      "room": {
+        "l": "room",
+        "ru": "комната",
+        "ipa": ""
+      },
+      "sorry": {
+        "l": "sorry",
+        "ru": "извини; сожалеющий",
+        "ipa": ""
+      },
+      "way": {
+        "l": "way",
+        "ru": "дорога; путь",
+        "ipa": ""
+      },
+      "these": {
+        "l": "these",
+        "ru": "эти",
+        "ipa": ""
+      },
+      "today": {
+        "l": "today",
+        "ru": "сегодня",
+        "ipa": ""
+      },
+      "would": {
+        "l": "would",
+        "ru": "would you like — вы хотели бы",
+        "ipa": ""
+      },
+      "calls": {
+        "l": "call",
+        "ru": "звонит",
+        "ipa": ""
+      },
+      "explains": {
+        "l": "explain",
+        "ru": "объясняет",
+        "ipa": ""
+      },
+      "happy": {
+        "l": "happy",
+        "ru": "довольный; счастливый",
+        "ipa": ""
+      },
+      "later": {
+        "l": "later",
+        "ru": "позже",
+        "ipa": ""
+      },
+      "lights": {
+        "l": "light",
+        "ru": "traffic lights — светофор",
+        "ipa": ""
+      },
+      "like": {
+        "l": "like",
+        "ru": "нравиться; would like — хотел бы",
+        "ipa": ""
+      },
+      "mean": {
+        "l": "mean",
+        "ru": "значить",
+        "ipa": ""
+      },
+      "opens": {
+        "l": "open",
+        "ru": "открывает",
+        "ipa": ""
+      }
+    },
+    "phr": {
+      "go off": {
+        "lemma": "go off",
+        "disp": "go off",
+        "ru": "сработать; прозвенеть — о будильнике",
+        "ipa": ""
+      },
+      "woke up late": {
+        "lemma": "woke up late",
+        "disp": "woke up late",
+        "ru": "поздно проснулся",
+        "ipa": ""
+      },
+      "turn around": {
+        "lemma": "turn around",
+        "disp": "turn around",
+        "ru": "развернуться",
+        "ipa": ""
+      },
+      "the rest of the way": {
+        "lemma": "the rest of the way",
+        "disp": "the rest of the way",
+        "ru": "оставшаяся часть пути",
+        "ipa": ""
+      },
+      "half an hour late": {
+        "lemma": "half an hour late",
+        "disp": "half an hour late",
+        "ru": "на полчаса позже",
+        "ipa": ""
+      },
+      "wrong turning": {
+        "lemma": "wrong turning",
+        "disp": "wrong turning",
+        "ru": "неправильный поворот",
+        "ipa": ""
+      },
+      "of course": {
+        "lemma": "of course",
+        "disp": "of course",
+        "ru": "конечно",
+        "ipa": ""
+      }
+    }
+  },
+  {
+    "id": "lesson14-questions",
+    "topic": "Урок 14 · авторский текст A2 · вопросы и работа",
+    "title": "Questions Before a New Meeting",
+    "paragraphs": [
+      "Nina works in marketing. Today she has a meeting with a new team. Before the meeting, she opens her notes and practises a few questions. “Where is the office? How do I get there? Can you send me the address?” These questions help her prepare.",
+      "Her colleague Sam calls. “Did you manage to read the additional materials?” he asks. “Yes,” Nina says. “I know the main phrases, but some words are new.” Sam answers, “We can practise together, if you do not mind.” Nina is happy to have a little help.",
+      "They practise one short dialogue. Sam is a visitor, and Nina explains the way to the office. First, he needs to go past a supermarket. Then he has to turn left at the lights. The office is on his right.",
+      "“Would you like to ask one more question?” Sam asks. Nina smiles. “Yes. What does obligatory mean?” Sam gives a simple example. They finish on time and save the new word for later."
+    ],
+    "dict": {
+      "nina": {
+        "l": "Nina",
+        "ru": "Нина — имя",
+        "ipa": ""
+      },
+      "sam": {
+        "l": "Sam",
+        "ru": "Сэм — имя",
+        "ipa": ""
+      },
+      "visitor": {
+        "l": "visitor",
+        "ru": "приезжий; посетитель",
+        "ipa": ""
+      },
+      "right": {
+        "l": "right",
+        "ru": "правый; направо; правильный — по контексту",
+        "ipa": ""
+      },
+      "first": {
+        "l": "first",
+        "ru": "первый; сначала",
+        "ipa": ""
+      },
+      "off": {
+        "l": "off",
+        "ru": "часть go off — прозвенеть",
+        "ipa": ""
+      },
+      "turn": {
+        "l": "turn",
+        "ru": "повернуть; поворот",
+        "ipa": ""
+      },
+      "colleague": {
+        "l": "colleague",
+        "ru": "коллега",
+        "ipa": ""
+      },
+      "prepare": {
+        "l": "prepare",
+        "ru": "подготовиться",
+        "ipa": ""
+      },
+      "marketing": {
+        "l": "marketing",
+        "ru": "маркетинг",
+        "ipa": ""
+      },
+      "practises": {
+        "l": "practise",
+        "ru": "тренирует; практикует",
+        "ipa": ""
+      },
+      "practise": {
+        "l": "practise",
+        "ru": "тренировать; практиковать",
+        "ipa": ""
+      },
+      "manage": {
+        "l": "manage",
+        "ru": "суметь; справиться",
+        "ipa": ""
+      },
+      "additional": {
+        "l": "additional",
+        "ru": "дополнительный",
+        "ipa": ""
+      },
+      "materials": {
+        "l": "material",
+        "ru": "материалы",
+        "ipa": ""
+      },
+      "phrases": {
+        "l": "phrase",
+        "ru": "фразы; выражения",
+        "ipa": ""
+      },
+      "together": {
+        "l": "together",
+        "ru": "вместе",
+        "ipa": ""
+      },
+      "mind": {
+        "l": "mind",
+        "ru": "быть против; возражать",
+        "ipa": ""
+      },
+      "dialogue": {
+        "l": "dialogue",
+        "ru": "диалог",
+        "ipa": ""
+      },
+      "obligatory": {
+        "l": "obligatory",
+        "ru": "обязательный",
+        "ipa": ""
+      },
+      "smiles": {
+        "l": "smile",
+        "ru": "улыбается",
+        "ipa": ""
+      },
+      "finish": {
+        "l": "finish",
+        "ru": "заканчивать",
+        "ipa": ""
+      },
+      "save": {
+        "l": "save",
+        "ru": "сохранить",
+        "ipa": ""
+      },
+      "meeting": {
+        "l": "meeting",
+        "ru": "встреча",
+        "ipa": ""
+      },
+      "team": {
+        "l": "team",
+        "ru": "команда",
+        "ipa": ""
+      },
+      "notes": {
+        "l": "note",
+        "ru": "заметки",
+        "ipa": ""
+      },
+      "little": {
+        "l": "little",
+        "ru": "немного; маленький",
+        "ipa": ""
+      },
+      "needs": {
+        "l": "need",
+        "ru": "нужно",
+        "ipa": ""
+      },
+      "address": {
+        "l": "address",
+        "ru": "адрес",
+        "ipa": ""
+      },
+      "cross": {
+        "l": "cross",
+        "ru": "перейти; пересечь",
+        "ipa": ""
+      },
+      "excuse": {
+        "l": "excuse",
+        "ru": "извинить; Excuse me — извините",
+        "ipa": ""
+      },
+      "yes": {
+        "l": "yes",
+        "ru": "да",
+        "ipa": ""
+      },
+      "bookshop": {
+        "l": "bookshop",
+        "ru": "книжный магазин",
+        "ipa": ""
+      },
+      "bridge": {
+        "l": "bridge",
+        "ru": "мост",
+        "ipa": ""
+      },
+      "café": {
+        "l": "café",
+        "ru": "кафе",
+        "ipa": ""
+      },
+      "cafe": {
+        "l": "café",
+        "ru": "кафе",
+        "ipa": ""
+      },
+      "course": {
+        "l": "course",
+        "ru": "of course — конечно",
+        "ipa": ""
+      },
+      "crossing": {
+        "l": "crossing",
+        "ru": "пешеходный переход",
+        "ipa": ""
+      },
+      "door": {
+        "l": "door",
+        "ru": "дверь",
+        "ipa": ""
+      },
+      "down": {
+        "l": "down",
+        "ru": "вниз; go down the road — идти по дороге",
+        "ipa": ""
+      },
+      "left": {
+        "l": "left",
+        "ru": "левый; слева; налево",
+        "ipa": ""
+      },
+      "make": {
+        "l": "make",
+        "ru": "делать",
+        "ipa": ""
+      },
+      "man": {
+        "l": "man",
+        "ru": "мужчина",
+        "ipa": ""
+      },
+      "opposite": {
+        "l": "opposite",
+        "ru": "напротив",
+        "ipa": ""
+      },
+      "past": {
+        "l": "past",
+        "ru": "мимо",
+        "ipa": ""
+      },
+      "place": {
+        "l": "place",
+        "ru": "место",
+        "ipa": ""
+      },
+      "road": {
+        "l": "road",
+        "ru": "дорога",
+        "ipa": ""
+      },
+      "school": {
+        "l": "school",
+        "ru": "школа",
+        "ipa": ""
+      },
+      "see": {
+        "l": "see",
+        "ru": "видеть",
+        "ipa": ""
+      },
+      "sees": {
+        "l": "see",
+        "ru": "видит",
+        "ipa": ""
+      },
+      "straight": {
+        "l": "straight",
+        "ru": "прямо",
+        "ipa": ""
+      },
+      "supermarket": {
+        "l": "supermarket",
+        "ru": "супермаркет",
+        "ipa": ""
+      },
+      "town": {
+        "l": "town",
+        "ru": "город; небольшой город",
+        "ipa": ""
+      },
+      "until": {
+        "l": "until",
+        "ru": "до; пока не",
+        "ipa": ""
+      },
+      "walk": {
+        "l": "walk",
+        "ru": "идти пешком",
+        "ipa": ""
+      },
+      "better": {
+        "l": "good",
+        "ru": "лучше",
+        "ipa": ""
+      },
+      "home": {
+        "l": "home",
+        "ru": "дом; дома; домой",
+        "ipa": ""
+      },
+      "hour": {
+        "l": "hour",
+        "ru": "час",
+        "ipa": ""
+      },
+      "late": {
+        "l": "late",
+        "ru": "поздно; опоздавший",
+        "ipa": ""
+      },
+      "room": {
+        "l": "room",
+        "ru": "комната",
+        "ipa": ""
+      },
+      "sorry": {
+        "l": "sorry",
+        "ru": "извини; сожалеющий",
+        "ipa": ""
+      },
+      "way": {
+        "l": "way",
+        "ru": "дорога; путь",
+        "ipa": ""
+      },
+      "these": {
+        "l": "these",
+        "ru": "эти",
+        "ipa": ""
+      },
+      "today": {
+        "l": "today",
+        "ru": "сегодня",
+        "ipa": ""
+      },
+      "would": {
+        "l": "would",
+        "ru": "would you like — вы хотели бы",
+        "ipa": ""
+      },
+      "calls": {
+        "l": "call",
+        "ru": "звонит",
+        "ipa": ""
+      },
+      "explains": {
+        "l": "explain",
+        "ru": "объясняет",
+        "ipa": ""
+      },
+      "happy": {
+        "l": "happy",
+        "ru": "довольный; счастливый",
+        "ipa": ""
+      },
+      "later": {
+        "l": "later",
+        "ru": "позже",
+        "ipa": ""
+      },
+      "lights": {
+        "l": "light",
+        "ru": "traffic lights — светофор",
+        "ipa": ""
+      },
+      "like": {
+        "l": "like",
+        "ru": "нравиться; would like — хотел бы",
+        "ipa": ""
+      },
+      "mean": {
+        "l": "mean",
+        "ru": "значить",
+        "ipa": ""
+      },
+      "opens": {
+        "l": "open",
+        "ru": "открывает",
+        "ipa": ""
+      }
+    },
+    "phr": {
+      "on his right": {
+        "lemma": "on his right",
+        "disp": "on his right",
+        "ru": "справа от него",
+        "ipa": ""
+      },
+      "manage to": {
+        "lemma": "manage to",
+        "disp": "manage to",
+        "ru": "суметь что-то сделать",
+        "ipa": ""
+      },
+      "if you do not mind": {
+        "lemma": "if you do not mind",
+        "disp": "if you do not mind",
+        "ru": "если вы не против",
+        "ipa": ""
+      },
+      "would you like": {
+        "lemma": "would you like",
+        "disp": "would you like",
+        "ru": "вы хотели бы",
+        "ipa": ""
+      },
+      "additional materials": {
+        "lemma": "additional materials",
+        "disp": "additional materials",
+        "ru": "дополнительные материалы",
+        "ipa": ""
+      },
+      "of course": {
+        "lemma": "of course",
+        "disp": "of course",
+        "ru": "конечно",
+        "ipa": ""
+      }
+    }
   }
 ]

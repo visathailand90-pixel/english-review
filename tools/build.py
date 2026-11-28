@@ -42,5 +42,5 @@ print('Built index.html with',len(index),'sections, cache',short)
 context=[]
 for row in index:
     L=all_data[row['id']]
-    context.append({'id':row['id'],'title':L['title'],'grammar':[s['h'] for s in L['theory']], 'vocab':[v['en'].lower() for v in L['vocab']],**({'readerGrammar':L['readerGrammar'],'topics':L['readerTopics']} if 'readerGrammar' in L else {})})
+    context.append({'id':row['id'],'title':L['title'],'grammar':[s['h'] for s in L['theory']], 'vocab':[v['en'].lower() for v in L['vocab']],**({'readerGeneration':L['readerGeneration']} if 'readerGeneration' in L else {}),**({'readerGrammar':L['readerGrammar'],'topics':L['readerTopics']} if 'readerGrammar' in L else {})})
 (ROOT/'reader/context.js').write_text('window.ENGLISH_READING_CONTEXT='+json.dumps(context,ensure_ascii=False).replace('<','\\\\u003c')+';'+chr(10),encoding='utf-8')

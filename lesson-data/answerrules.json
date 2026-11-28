@@ -26005,5 +26005,4254 @@
       "ru": "Банк между кафе и школой.",
       "source": "existing-bilingual-example"
     }
+  },
+  "14/l2:0": {
+    "accept": [
+      "Can"
+    ],
+    "bad": [],
+    "closed": true,
+    "why": "Модальный глагол в начале вопроса.",
+    "example": {
+      "en": "Can you help me?",
+      "ru": "Можете мне помочь?",
+      "source": "14/curated-context"
+    }
+  },
+  "14/l2:1": {
+    "accept": [
+      "is"
+    ],
+    "bad": [],
+    "closed": true,
+    "why": "Be — глагол; supermarket в единственном числе.",
+    "example": {
+      "en": "Where is the supermarket?",
+      "ru": "Где находится супермаркет?",
+      "source": "14/curated-context"
+    }
+  },
+  "14/l2:2": {
+    "accept": [
+      "does"
+    ],
+    "bad": [],
+    "closed": true,
+    "why": "Вопрос о привычке: does + she + V1.",
+    "example": {
+      "en": "How does she get to work?",
+      "ru": "Как она добирается до работы?",
+      "source": "14/curated-context"
+    }
+  },
+  "14/l2:3": {
+    "accept": [
+      "to"
+    ],
+    "bad": [],
+    "closed": true,
+    "why": "Need to + начальная форма.",
+    "example": {
+      "en": "You need to turn left.",
+      "ru": "Тебе нужно повернуть налево.",
+      "source": "14/curated-context"
+    }
+  },
+  "14/l2:4": {
+    "accept": [
+      "at"
+    ],
+    "bad": [],
+    "closed": true,
+    "why": "At указывает точку поворота.",
+    "example": {
+      "en": "Turn left at the lights.",
+      "ru": "Поверните налево у светофора.",
+      "source": "14/curated-context"
+    }
+  },
+  "14/l2:5": {
+    "accept": [
+      "on"
+    ],
+    "bad": [],
+    "closed": true,
+    "why": "Положение — on your left.",
+    "example": {
+      "en": "The bookshop is on your left.",
+      "ru": "Книжный магазин слева от вас.",
+      "source": "14/curated-context"
+    }
+  },
+  "14/l2:6": {
+    "accept": [
+      "reach"
+    ],
+    "bad": [],
+    "closed": true,
+    "why": "Reach + место без to.",
+    "example": {
+      "en": "Go straight until you reach the station.",
+      "ru": "Идите прямо, пока не дойдёте до станции.",
+      "source": "14/curated-context"
+    }
+  },
+  "14/l2:7": {
+    "accept": [
+      "to"
+    ],
+    "bad": [],
+    "closed": true,
+    "why": "Get to — добраться до места.",
+    "example": {
+      "en": "Walk until you get to the crossroads.",
+      "ru": "Идите, пока не дойдёте до перекрёстка.",
+      "source": "14/curated-context"
+    }
+  },
+  "14/l2:8": {
+    "accept": [
+      "until"
+    ],
+    "bad": [],
+    "closed": true,
+    "why": "Until/till + обозначение времени.",
+    "example": {
+      "en": "Wait here until Monday.",
+      "ru": "Подождите здесь до понедельника.",
+      "source": "14/curated-context"
+    }
+  },
+  "14/l2:9": {
+    "accept": [
+      "First"
+    ],
+    "bad": [],
+    "closed": true,
+    "why": "First — последовательность инструкций.",
+    "example": {
+      "en": "First, go down the road. Then turn left.",
+      "ru": "Сначала идите по дороге. Затем поверните налево.",
+      "source": "14/curated-context"
+    }
+  },
+  "14/l2:10": {
+    "accept": [
+      "to"
+    ],
+    "bad": [],
+    "closed": true,
+    "why": "Close to + объект.",
+    "example": {
+      "en": "The bank is close to the museum.",
+      "ru": "Банк рядом с музеем.",
+      "source": "14/curated-context"
+    }
+  },
+  "14/l2:11": {
+    "accept": [
+      "am"
+    ],
+    "bad": [],
+    "closed": true,
+    "why": "В английском для состояния/места нужен be.",
+    "example": {
+      "en": "I am near the supermarket.",
+      "ru": "Я возле супермаркета.",
+      "source": "14/curated-context"
+    }
+  },
+  "14/l2:12": {
+    "accept": [
+      "go"
+    ],
+    "bad": [],
+    "closed": true,
+    "why": "После did not нужен V1 go, не went.",
+    "example": {
+      "en": "My alarm did not go off.",
+      "ru": "Мой будильник не прозвенел.",
+      "source": "14/curated-context"
+    }
+  },
+  "14/l2:13": {
+    "accept": [
+      "woke"
+    ],
+    "bad": [],
+    "closed": true,
+    "why": "Wake → woke в Past Simple.",
+    "example": {
+      "en": "I woke up late yesterday.",
+      "ru": "Вчера я поздно проснулся.",
+      "source": "14/curated-context"
+    }
+  },
+  "14/l2:14": {
+    "accept": [
+      "connection"
+    ],
+    "bad": [],
+    "closed": true,
+    "why": "Connection — пересадка/стыковочный транспорт.",
+    "example": {
+      "en": "The first train was late, so I missed my connection.",
+      "ru": "Первый поезд опоздал, поэтому я не успел на пересадку.",
+      "source": "14/curated-context"
+    }
+  },
+  "14/l2:15": {
+    "accept": [
+      "lost"
+    ],
+    "bad": [],
+    "closed": true,
+    "why": "Lose → lost.",
+    "example": {
+      "en": "I lost my wallet yesterday.",
+      "ru": "Вчера я потерял кошелёк.",
+      "source": "14/curated-context"
+    }
+  },
+  "14/l2:16": {
+    "accept": [
+      "cancel"
+    ],
+    "bad": [],
+    "closed": true,
+    "why": "Had to + V1; cancel cards в контексте банка.",
+    "example": {
+      "en": "I had to cancel my cards.",
+      "ru": "Мне пришлось заблокировать мои карты.",
+      "source": "14/curated-context"
+    }
+  },
+  "14/l2:17": {
+    "accept": [
+      "emergency"
+    ],
+    "bad": [],
+    "closed": true,
+    "why": "A family emergency — экстренная семейная ситуация.",
+    "example": {
+      "en": "I had a family emergency.",
+      "ru": "У меня случилась экстренная семейная ситуация.",
+      "source": "14/curated-context"
+    }
+  },
+  "14/l2:18": {
+    "accept": [
+      "fell"
+    ],
+    "bad": [],
+    "closed": true,
+    "why": "Fall → fell; fail и foul — другие слова.",
+    "example": {
+      "en": "He fell over yesterday.",
+      "ru": "Вчера он упал.",
+      "source": "14/curated-context"
+    }
+  },
+  "14/l2:19": {
+    "accept": [
+      "cut"
+    ],
+    "bad": [],
+    "closed": true,
+    "why": "Cut имеет ту же форму в прошлом.",
+    "example": {
+      "en": "He cut his head when he fell.",
+      "ru": "Он порезал голову, когда упал.",
+      "source": "14/curated-context"
+    }
+  },
+  "14/l2:20": {
+    "accept": [
+      "broke"
+    ],
+    "bad": [],
+    "closed": true,
+    "why": "Break → broke.",
+    "example": {
+      "en": "The bus broke down yesterday.",
+      "ru": "Вчера автобус сломался.",
+      "source": "14/curated-context"
+    }
+  },
+  "14/l2:21": {
+    "accept": [
+      "of"
+    ],
+    "bad": [],
+    "closed": true,
+    "why": "The rest of — оставшаяся часть.",
+    "example": {
+      "en": "I walked the rest of the way.",
+      "ru": "Я прошёл оставшуюся часть пути пешком.",
+      "source": "14/curated-context"
+    }
+  },
+  "14/l2:22": {
+    "accept": [
+      "got"
+    ],
+    "bad": [],
+    "closed": true,
+    "why": "Get lost → got lost.",
+    "example": {
+      "en": "I got lost yesterday.",
+      "ru": "Вчера я заблудился.",
+      "source": "14/curated-context"
+    }
+  },
+  "14/l2:23": {
+    "accept": [
+      "turning"
+    ],
+    "bad": [],
+    "closed": true,
+    "why": "A wrong turning/turn — неправильный поворот.",
+    "example": {
+      "en": "I took a wrong turning.",
+      "ru": "Я свернул не туда.",
+      "source": "14/curated-context"
+    }
+  },
+  "14/l2:24": {
+    "accept": [
+      "was"
+    ],
+    "bad": [],
+    "closed": true,
+    "why": "Was delayed — готовое сочетание в прошлом.",
+    "example": {
+      "en": "My train was delayed yesterday.",
+      "ru": "Вчера мой поезд задержали.",
+      "source": "14/curated-context"
+    }
+  },
+  "14/l2:25": {
+    "accept": [
+      "an"
+    ],
+    "bad": [],
+    "closed": true,
+    "why": "An перед hour, так как h не произносится.",
+    "example": {
+      "en": "I arrived half an hour late.",
+      "ru": "Я прибыл с опозданием на полчаса.",
+      "source": "14/curated-context"
+    }
+  },
+  "14/l2:26": {
+    "accept": [
+      "notice"
+    ],
+    "bad": [],
+    "closed": true,
+    "why": "Did not + V1, не noticed.",
+    "example": {
+      "en": "I did not notice the time.",
+      "ru": "Я не заметил, сколько времени прошло.",
+      "source": "14/curated-context"
+    }
+  },
+  "14/l2:27": {
+    "accept": [
+      "lose"
+    ],
+    "bad": [],
+    "closed": true,
+    "why": "Did уже обозначает прошлое; нужен lose.",
+    "example": {
+      "en": "Did she lose her wallet?",
+      "ru": "Она потеряла кошелёк?",
+      "source": "14/curated-context"
+    }
+  },
+  "14/l2:28": {
+    "accept": [
+      "were"
+    ],
+    "bad": [],
+    "closed": true,
+    "why": "С you прошедшая форма be — were.",
+    "example": {
+      "en": "Why were you late?",
+      "ru": "Почему ты опоздал?",
+      "source": "14/curated-context"
+    }
+  },
+  "14/l2:29": {
+    "accept": [
+      "caught"
+    ],
+    "bad": [],
+    "closed": true,
+    "why": "Catch a cold → caught a cold.",
+    "example": {
+      "en": "I caught a cold last week.",
+      "ru": "На прошлой неделе я простудился.",
+      "source": "14/curated-context"
+    }
+  },
+  "14/l2:30": {
+    "accept": [
+      "have"
+    ],
+    "bad": [],
+    "closed": true,
+    "why": "Have a cold — быть простуженным; am cold — мёрзнуть.",
+    "example": {
+      "en": "I have a cold now.",
+      "ru": "Сейчас у меня простуда.",
+      "source": "14/curated-context"
+    }
+  },
+  "14/l2:31": {
+    "accept": [
+      "find"
+    ],
+    "bad": [],
+    "closed": true,
+    "why": "Can + V1 find; found — форма прошлого в значении найти.",
+    "example": {
+      "en": "Can you find the bookshop?",
+      "ru": "Можете найти книжный магазин?",
+      "source": "14/curated-context"
+    }
+  },
+  "14/l2:32": {
+    "accept": [
+      "to"
+    ],
+    "bad": [],
+    "closed": true,
+    "why": "Would like to + V1.",
+    "example": {
+      "en": "Would you like to walk?",
+      "ru": "Вы хотели бы пойти пешком?",
+      "source": "14/curated-context"
+    }
+  },
+  "14/l2:33": {
+    "accept": [
+      "to"
+    ],
+    "bad": [],
+    "closed": true,
+    "why": "Manage to + V1.",
+    "example": {
+      "en": "Did you manage to do the homework?",
+      "ru": "Ты сумел сделать домашнее задание?",
+      "source": "14/curated-context"
+    }
+  },
+  "14/l2:34": {
+    "accept": [
+      "lot"
+    ],
+    "bad": [],
+    "closed": true,
+    "why": "A lot of — много; more — больше, требует сравнения.",
+    "example": {
+      "en": "There are a lot of new words.",
+      "ru": "Здесь много новых слов.",
+      "source": "14/curated-context"
+    }
+  },
+  "14/l2:35": {
+    "accept": [
+      "standing"
+    ],
+    "bad": [],
+    "closed": true,
+    "why": "Stand — стоять; сейчас standing.",
+    "example": {
+      "en": "She is standing near the station now.",
+      "ru": "Сейчас она стоит возле станции.",
+      "source": "14/curated-context"
+    }
+  },
+  "14/l3:0": {
+    "accept": [
+      "Can"
+    ],
+    "bad": [],
+    "closed": true,
+    "why": "Модальный глагол в начале вопроса.",
+    "example": {
+      "en": "Can you help me?",
+      "ru": "Можете мне помочь?",
+      "source": "14/curated-context"
+    }
+  },
+  "14/l3:1": {
+    "accept": [
+      "is"
+    ],
+    "bad": [],
+    "closed": true,
+    "why": "Be — глагол; supermarket в единственном числе.",
+    "example": {
+      "en": "Where is the supermarket?",
+      "ru": "Где находится супермаркет?",
+      "source": "14/curated-context"
+    }
+  },
+  "14/l3:2": {
+    "accept": [
+      "does"
+    ],
+    "bad": [],
+    "closed": true,
+    "why": "Вопрос о привычке: does + she + V1.",
+    "example": {
+      "en": "How does she get to work?",
+      "ru": "Как она добирается до работы?",
+      "source": "14/curated-context"
+    }
+  },
+  "14/l3:3": {
+    "accept": [
+      "to"
+    ],
+    "bad": [],
+    "closed": true,
+    "why": "Need to + начальная форма.",
+    "example": {
+      "en": "You need to turn left.",
+      "ru": "Тебе нужно повернуть налево.",
+      "source": "14/curated-context"
+    }
+  },
+  "14/l3:4": {
+    "accept": [
+      "at"
+    ],
+    "bad": [],
+    "closed": true,
+    "why": "At указывает точку поворота.",
+    "example": {
+      "en": "Turn left at the lights.",
+      "ru": "Поверните налево у светофора.",
+      "source": "14/curated-context"
+    }
+  },
+  "14/l3:5": {
+    "accept": [
+      "on"
+    ],
+    "bad": [],
+    "closed": true,
+    "why": "Положение — on your left.",
+    "example": {
+      "en": "The bookshop is on your left.",
+      "ru": "Книжный магазин слева от вас.",
+      "source": "14/curated-context"
+    }
+  },
+  "14/l3:6": {
+    "accept": [
+      "reach"
+    ],
+    "bad": [],
+    "closed": true,
+    "why": "Reach + место без to.",
+    "example": {
+      "en": "Go straight until you reach the station.",
+      "ru": "Идите прямо, пока не дойдёте до станции.",
+      "source": "14/curated-context"
+    }
+  },
+  "14/l3:7": {
+    "accept": [
+      "to"
+    ],
+    "bad": [],
+    "closed": true,
+    "why": "Get to — добраться до места.",
+    "example": {
+      "en": "Walk until you get to the crossroads.",
+      "ru": "Идите, пока не дойдёте до перекрёстка.",
+      "source": "14/curated-context"
+    }
+  },
+  "14/l3:8": {
+    "accept": [
+      "until",
+      "till"
+    ],
+    "bad": [],
+    "closed": true,
+    "why": "Until/till + обозначение времени.",
+    "example": {
+      "en": "Wait here until Monday.",
+      "ru": "Подождите здесь до понедельника.",
+      "source": "14/curated-context"
+    }
+  },
+  "14/l3:9": {
+    "accept": [
+      "First"
+    ],
+    "bad": [],
+    "closed": true,
+    "why": "First — последовательность инструкций.",
+    "example": {
+      "en": "First, go down the road. Then turn left.",
+      "ru": "Сначала идите по дороге. Затем поверните налево.",
+      "source": "14/curated-context"
+    }
+  },
+  "14/l3:10": {
+    "accept": [
+      "to"
+    ],
+    "bad": [],
+    "closed": true,
+    "why": "Close to + объект.",
+    "example": {
+      "en": "The bank is close to the museum.",
+      "ru": "Банк рядом с музеем.",
+      "source": "14/curated-context"
+    }
+  },
+  "14/l3:11": {
+    "accept": [
+      "am"
+    ],
+    "bad": [],
+    "closed": true,
+    "why": "В английском для состояния/места нужен be.",
+    "example": {
+      "en": "I am near the supermarket.",
+      "ru": "Я возле супермаркета.",
+      "source": "14/curated-context"
+    }
+  },
+  "14/l3:12": {
+    "accept": [
+      "go"
+    ],
+    "bad": [],
+    "closed": true,
+    "why": "После did not нужен V1 go, не went.",
+    "example": {
+      "en": "My alarm did not go off.",
+      "ru": "Мой будильник не прозвенел.",
+      "source": "14/curated-context"
+    }
+  },
+  "14/l3:13": {
+    "accept": [
+      "woke"
+    ],
+    "bad": [],
+    "closed": true,
+    "why": "Wake → woke в Past Simple.",
+    "example": {
+      "en": "I woke up late yesterday.",
+      "ru": "Вчера я поздно проснулся.",
+      "source": "14/curated-context"
+    }
+  },
+  "14/l3:14": {
+    "accept": [
+      "connection"
+    ],
+    "bad": [],
+    "closed": true,
+    "why": "Connection — пересадка/стыковочный транспорт.",
+    "example": {
+      "en": "The first train was late, so I missed my connection.",
+      "ru": "Первый поезд опоздал, поэтому я не успел на пересадку.",
+      "source": "14/curated-context"
+    }
+  },
+  "14/l3:15": {
+    "accept": [
+      "lost"
+    ],
+    "bad": [],
+    "closed": true,
+    "why": "Lose → lost.",
+    "example": {
+      "en": "I lost my wallet yesterday.",
+      "ru": "Вчера я потерял кошелёк.",
+      "source": "14/curated-context"
+    }
+  },
+  "14/l3:16": {
+    "accept": [
+      "cancel"
+    ],
+    "bad": [],
+    "closed": true,
+    "why": "Had to + V1; cancel cards в контексте банка.",
+    "example": {
+      "en": "I had to cancel my cards.",
+      "ru": "Мне пришлось заблокировать мои карты.",
+      "source": "14/curated-context"
+    }
+  },
+  "14/l3:17": {
+    "accept": [
+      "emergency"
+    ],
+    "bad": [],
+    "closed": true,
+    "why": "A family emergency — экстренная семейная ситуация.",
+    "example": {
+      "en": "I had a family emergency.",
+      "ru": "У меня случилась экстренная семейная ситуация.",
+      "source": "14/curated-context"
+    }
+  },
+  "14/l3:18": {
+    "accept": [
+      "fell"
+    ],
+    "bad": [],
+    "closed": true,
+    "why": "Fall → fell; fail и foul — другие слова.",
+    "example": {
+      "en": "He fell over yesterday.",
+      "ru": "Вчера он упал.",
+      "source": "14/curated-context"
+    }
+  },
+  "14/l3:19": {
+    "accept": [
+      "cut"
+    ],
+    "bad": [],
+    "closed": true,
+    "why": "Cut имеет ту же форму в прошлом.",
+    "example": {
+      "en": "He cut his head when he fell.",
+      "ru": "Он порезал голову, когда упал.",
+      "source": "14/curated-context"
+    }
+  },
+  "14/l3:20": {
+    "accept": [
+      "broke"
+    ],
+    "bad": [],
+    "closed": true,
+    "why": "Break → broke.",
+    "example": {
+      "en": "The bus broke down yesterday.",
+      "ru": "Вчера автобус сломался.",
+      "source": "14/curated-context"
+    }
+  },
+  "14/l3:21": {
+    "accept": [
+      "of"
+    ],
+    "bad": [],
+    "closed": true,
+    "why": "The rest of — оставшаяся часть.",
+    "example": {
+      "en": "I walked the rest of the way.",
+      "ru": "Я прошёл оставшуюся часть пути пешком.",
+      "source": "14/curated-context"
+    }
+  },
+  "14/l3:22": {
+    "accept": [
+      "got"
+    ],
+    "bad": [],
+    "closed": true,
+    "why": "Get lost → got lost.",
+    "example": {
+      "en": "I got lost yesterday.",
+      "ru": "Вчера я заблудился.",
+      "source": "14/curated-context"
+    }
+  },
+  "14/l3:23": {
+    "accept": [
+      "turning",
+      "turn"
+    ],
+    "bad": [],
+    "closed": true,
+    "why": "A wrong turning/turn — неправильный поворот.",
+    "example": {
+      "en": "I took a wrong turning.",
+      "ru": "Я свернул не туда.",
+      "source": "14/curated-context"
+    }
+  },
+  "14/l3:24": {
+    "accept": [
+      "was"
+    ],
+    "bad": [],
+    "closed": true,
+    "why": "Was delayed — готовое сочетание в прошлом.",
+    "example": {
+      "en": "My train was delayed yesterday.",
+      "ru": "Вчера мой поезд задержали.",
+      "source": "14/curated-context"
+    }
+  },
+  "14/l3:25": {
+    "accept": [
+      "an"
+    ],
+    "bad": [],
+    "closed": true,
+    "why": "An перед hour, так как h не произносится.",
+    "example": {
+      "en": "I arrived half an hour late.",
+      "ru": "Я прибыл с опозданием на полчаса.",
+      "source": "14/curated-context"
+    }
+  },
+  "14/l3:26": {
+    "accept": [
+      "notice"
+    ],
+    "bad": [],
+    "closed": true,
+    "why": "Did not + V1, не noticed.",
+    "example": {
+      "en": "I did not notice the time.",
+      "ru": "Я не заметил, сколько времени прошло.",
+      "source": "14/curated-context"
+    }
+  },
+  "14/l3:27": {
+    "accept": [
+      "lose"
+    ],
+    "bad": [],
+    "closed": true,
+    "why": "Did уже обозначает прошлое; нужен lose.",
+    "example": {
+      "en": "Did she lose her wallet?",
+      "ru": "Она потеряла кошелёк?",
+      "source": "14/curated-context"
+    }
+  },
+  "14/l3:28": {
+    "accept": [
+      "were"
+    ],
+    "bad": [],
+    "closed": true,
+    "why": "С you прошедшая форма be — were.",
+    "example": {
+      "en": "Why were you late?",
+      "ru": "Почему ты опоздал?",
+      "source": "14/curated-context"
+    }
+  },
+  "14/l3:29": {
+    "accept": [
+      "caught"
+    ],
+    "bad": [],
+    "closed": true,
+    "why": "Catch a cold → caught a cold.",
+    "example": {
+      "en": "I caught a cold last week.",
+      "ru": "На прошлой неделе я простудился.",
+      "source": "14/curated-context"
+    }
+  },
+  "14/l3:30": {
+    "accept": [
+      "have"
+    ],
+    "bad": [],
+    "closed": true,
+    "why": "Have a cold — быть простуженным; am cold — мёрзнуть.",
+    "example": {
+      "en": "I have a cold now.",
+      "ru": "Сейчас у меня простуда.",
+      "source": "14/curated-context"
+    }
+  },
+  "14/l3:31": {
+    "accept": [
+      "find"
+    ],
+    "bad": [],
+    "closed": true,
+    "why": "Can + V1 find; found — форма прошлого в значении найти.",
+    "example": {
+      "en": "Can you find the bookshop?",
+      "ru": "Можете найти книжный магазин?",
+      "source": "14/curated-context"
+    }
+  },
+  "14/l3:32": {
+    "accept": [
+      "to"
+    ],
+    "bad": [],
+    "closed": true,
+    "why": "Would like to + V1.",
+    "example": {
+      "en": "Would you like to walk?",
+      "ru": "Вы хотели бы пойти пешком?",
+      "source": "14/curated-context"
+    }
+  },
+  "14/l3:33": {
+    "accept": [
+      "to"
+    ],
+    "bad": [],
+    "closed": true,
+    "why": "Manage to + V1.",
+    "example": {
+      "en": "Did you manage to do the homework?",
+      "ru": "Ты сумел сделать домашнее задание?",
+      "source": "14/curated-context"
+    }
+  },
+  "14/l3:34": {
+    "accept": [
+      "lot"
+    ],
+    "bad": [],
+    "closed": true,
+    "why": "A lot of — много; more — больше, требует сравнения.",
+    "example": {
+      "en": "There are a lot of new words.",
+      "ru": "Здесь много новых слов.",
+      "source": "14/curated-context"
+    }
+  },
+  "14/l3:35": {
+    "accept": [
+      "standing"
+    ],
+    "bad": [],
+    "closed": true,
+    "why": "Stand — стоять; сейчас standing.",
+    "example": {
+      "en": "She is standing near the station now.",
+      "ru": "Сейчас она стоит возле станции.",
+      "source": "14/curated-context"
+    }
+  },
+  "14/l4:0": {
+    "accept": [
+      "Can you help me?"
+    ],
+    "bad": [],
+    "closed": true,
+    "why": "Can + you + help: вопрос с модальным глаголом, без to.",
+    "example": {
+      "en": "You can help me. Can you help me?",
+      "ru": "Ты можешь мне помочь. Можешь мне помочь?",
+      "source": "14/related-original-example"
+    },
+    "wordBank": {
+      "required": [
+        "Can",
+        "you",
+        "help",
+        "me"
+      ],
+      "alternatives": [],
+      "distractors": [
+        "is",
+        "are",
+        "am"
+      ]
+    },
+    "translation": "Можете мне помочь?",
+    "prompt": "Можете мне помочь?"
+  },
+  "14/l4:1": {
+    "accept": [
+      "How can I get to the museum?"
+    ],
+    "bad": [],
+    "closed": true,
+    "why": "How + can + I + get to; для направления get to, не get on.",
+    "example": {
+      "en": "How can I find the museum?",
+      "ru": "Как мне найти музей?",
+      "source": "14/related-original-example"
+    },
+    "wordBank": {
+      "required": [
+        "How",
+        "can",
+        "I",
+        "get",
+        "to",
+        "the",
+        "museum"
+      ],
+      "alternatives": [],
+      "distractors": [
+        "is",
+        "are",
+        "am"
+      ]
+    },
+    "translation": "Как мне добраться до музея?",
+    "prompt": "Как мне добраться до музея?"
+  },
+  "14/l4:2": {
+    "accept": [
+      "Where is the bookshop?",
+      "Where's the bookshop?"
+    ],
+    "bad": [],
+    "closed": true,
+    "why": "Where + is + подлежащее; be — глагол, отдельный do не нужен.",
+    "example": {
+      "en": "The museum is opposite the bookshop.",
+      "ru": "Музей напротив книжного магазина.",
+      "source": "14/related-original-example"
+    },
+    "wordBank": {
+      "required": [
+        "Where",
+        "is",
+        "the",
+        "bookshop"
+      ],
+      "alternatives": [
+        "Where's"
+      ],
+      "distractors": [
+        "are",
+        "am",
+        "have"
+      ]
+    },
+    "translation": "Где находится книжный магазин?",
+    "prompt": "Где находится книжный магазин?"
+  },
+  "14/l4:3": {
+    "accept": [
+      "Does she know this area?"
+    ],
+    "bad": [],
+    "closed": true,
+    "why": "Does + she + know: после does начальная форма.",
+    "example": {
+      "en": "I do not know this area.",
+      "ru": "Я не знаю этот район.",
+      "source": "14/related-original-example"
+    },
+    "wordBank": {
+      "required": [
+        "Does",
+        "she",
+        "know",
+        "this",
+        "area"
+      ],
+      "alternatives": [],
+      "distractors": [
+        "is",
+        "are",
+        "am"
+      ]
+    },
+    "translation": "Она знает этот район?",
+    "prompt": "Она знает этот район?"
+  },
+  "14/l4:4": {
+    "accept": [
+      "You need to turn left."
+    ],
+    "bad": [],
+    "closed": true,
+    "why": "Need to + V1; turn left без on.",
+    "example": {
+      "en": "First, go straight. Then turn left.",
+      "ru": "Сначала идите прямо. Затем поверните налево.",
+      "source": "14/related-original-example"
+    },
+    "wordBank": {
+      "required": [
+        "You",
+        "need",
+        "to",
+        "turn",
+        "left"
+      ],
+      "alternatives": [],
+      "distractors": [
+        "is",
+        "are",
+        "am"
+      ]
+    },
+    "translation": "Тебе нужно повернуть налево.",
+    "prompt": "Тебе нужно повернуть налево."
+  },
+  "14/l4:5": {
+    "accept": [
+      "The mosque is on your right.",
+      "The mosque is on the right."
+    ],
+    "bad": [],
+    "closed": true,
+    "why": "Положение: is on your right. Turn right — действие, не положение.",
+    "example": {
+      "en": "Take the next right turn.",
+      "ru": "Сверните на следующем повороте направо.",
+      "source": "14/related-original-example"
+    },
+    "wordBank": {
+      "required": [
+        "The",
+        "mosque",
+        "is",
+        "on",
+        "your",
+        "right"
+      ],
+      "alternatives": [
+        "the"
+      ],
+      "distractors": [
+        "are",
+        "am",
+        "have"
+      ]
+    },
+    "translation": "Мечеть справа от вас.",
+    "prompt": "Мечеть справа от вас."
+  },
+  "14/l4:6": {
+    "accept": [
+      "Take the next right turn."
+    ],
+    "bad": [],
+    "closed": true,
+    "why": "Right turn — существительное «поворот направо».",
+    "example": {
+      "en": "Take a left turn after the bridge.",
+      "ru": "Поверните налево после моста.",
+      "source": "14/related-original-example"
+    },
+    "wordBank": {
+      "required": [
+        "Take",
+        "the",
+        "next",
+        "right",
+        "turn"
+      ],
+      "alternatives": [],
+      "distractors": [
+        "is",
+        "are",
+        "am"
+      ]
+    },
+    "translation": "Сверните на следующем повороте направо.",
+    "prompt": "Сверните на следующем повороте направо."
+  },
+  "14/l4:7": {
+    "accept": [
+      "Turn around and go down the road."
+    ],
+    "bad": [],
+    "closed": true,
+    "why": "Turn around — развернуться; go down не обязательно «спуститься».",
+    "example": {
+      "en": "Turn around and go back.",
+      "ru": "Развернитесь и идите обратно.",
+      "source": "14/related-original-example"
+    },
+    "wordBank": {
+      "required": [
+        "Turn",
+        "around",
+        "and",
+        "go",
+        "down",
+        "the",
+        "road"
+      ],
+      "alternatives": [],
+      "distractors": [
+        "is",
+        "are",
+        "am"
+      ]
+    },
+    "translation": "Развернитесь и идите по дороге.",
+    "prompt": "Развернитесь и идите по дороге."
+  },
+  "14/l4:8": {
+    "accept": [
+      "Go past the old church."
+    ],
+    "bad": [],
+    "closed": true,
+    "why": "Go past + ориентир: мимо, не внутрь.",
+    "example": {
+      "en": "Go past the mosque.",
+      "ru": "Пройдите мимо мечети.",
+      "source": "14/related-original-example"
+    },
+    "wordBank": {
+      "required": [
+        "Go",
+        "past",
+        "the",
+        "old",
+        "church"
+      ],
+      "alternatives": [],
+      "distractors": [
+        "is",
+        "are",
+        "am"
+      ]
+    },
+    "translation": "Пройдите мимо старой церкви.",
+    "prompt": "Пройдите мимо старой церкви."
+  },
+  "14/l4:9": {
+    "accept": [
+      "Cross the road at the crossing.",
+      "Cross over the road at the crossing."
+    ],
+    "bad": [],
+    "closed": true,
+    "why": "Cross (over) the road; at the crossing — у перехода/по переходу.",
+    "example": {
+      "en": "Turn around and cross the road at the crossing.",
+      "ru": "Развернитесь и перейдите дорогу по переходу.",
+      "source": "14/related-original-example"
+    },
+    "wordBank": {
+      "required": [
+        "Cross",
+        "the",
+        "road",
+        "at",
+        "the",
+        "crossing"
+      ],
+      "alternatives": [
+        "over"
+      ],
+      "distractors": [
+        "is",
+        "are",
+        "am"
+      ]
+    },
+    "translation": "Перейдите дорогу по переходу.",
+    "prompt": "Перейдите дорогу по переходу."
+  },
+  "14/l4:10": {
+    "accept": [
+      "Walk until you get to the crossroads.",
+      "Walk until you reach the crossroads.",
+      "Walk to the crossroads."
+    ],
+    "bad": [],
+    "closed": true,
+    "why": "Until you get to + место; get on не выражает добраться до места.",
+    "example": {
+      "en": "How can I get to the museum?",
+      "ru": "Как мне добраться до музея?",
+      "source": "14/related-original-example"
+    },
+    "wordBank": {
+      "required": [
+        "Walk",
+        "until",
+        "you",
+        "get",
+        "to",
+        "the",
+        "crossroads"
+      ],
+      "alternatives": [
+        "reach"
+      ],
+      "distractors": [
+        "is",
+        "are",
+        "am"
+      ]
+    },
+    "translation": "Идите, пока не дойдёте до перекрёстка.",
+    "prompt": "Идите, пока не дойдёте до перекрёстка."
+  },
+  "14/l4:11": {
+    "accept": [
+      "Go straight until you reach the station.",
+      "Go straight until you get to the station."
+    ],
+    "bad": [],
+    "closed": true,
+    "why": "Reach + место без to.",
+    "example": {
+      "en": "Go straight until you reach the bridge.",
+      "ru": "Идите прямо, пока не дойдёте до моста.",
+      "source": "14/related-original-example"
+    },
+    "wordBank": {
+      "required": [
+        "Go",
+        "straight",
+        "until",
+        "you",
+        "reach",
+        "the",
+        "station"
+      ],
+      "alternatives": [
+        "get",
+        "to"
+      ],
+      "distractors": [
+        "is",
+        "are",
+        "am"
+      ]
+    },
+    "translation": "Идите прямо, пока не дойдёте до станции.",
+    "prompt": "Идите прямо, пока не дойдёте до станции."
+  },
+  "14/l4:12": {
+    "accept": [
+      "Wait here until five o’clock.",
+      "Wait here until five o'clock."
+    ],
+    "bad": [],
+    "closed": true,
+    "why": "Until + время: после until не всегда нужен глагол.",
+    "example": {
+      "en": "Walk until you get to the crossroads.",
+      "ru": "Идите, пока не дойдёте до перекрёстка.",
+      "source": "14/related-original-example"
+    },
+    "wordBank": {
+      "required": [
+        "Wait",
+        "here",
+        "until",
+        "five",
+        "o'clock"
+      ],
+      "alternatives": [],
+      "distractors": [
+        "is",
+        "are",
+        "am"
+      ]
+    },
+    "translation": "Подождите здесь до пяти часов.",
+    "prompt": "Подождите здесь до пяти часов."
+  },
+  "14/l4:13": {
+    "accept": [
+      "I am near the supermarket.",
+      "I'm near the supermarket."
+    ],
+    "bad": [],
+    "closed": true,
+    "why": "Для местоположения нужен am; near + место, без with.",
+    "example": {
+      "en": "Where are you? I am near the supermarket.",
+      "ru": "Где ты? Я возле супермаркета.",
+      "source": "14/related-original-example"
+    },
+    "wordBank": {
+      "required": [
+        "I",
+        "am",
+        "near",
+        "the",
+        "supermarket"
+      ],
+      "alternatives": [
+        "I'm"
+      ],
+      "distractors": [
+        "is",
+        "are",
+        "have"
+      ]
+    },
+    "translation": "Я возле супермаркета.",
+    "prompt": "Я возле супермаркета."
+  },
+  "14/l4:14": {
+    "accept": [
+      "The bank is close to the station."
+    ],
+    "bad": [],
+    "closed": true,
+    "why": "Close to + объект; to здесь обязательно.",
+    "example": {
+      "en": "Go straight until you reach the station.",
+      "ru": "Идите прямо, пока не дойдёте до станции.",
+      "source": "14/related-original-example"
+    },
+    "wordBank": {
+      "required": [
+        "The",
+        "bank",
+        "is",
+        "close",
+        "to",
+        "the",
+        "station"
+      ],
+      "alternatives": [],
+      "distractors": [
+        "are",
+        "am",
+        "have"
+      ]
+    },
+    "translation": "Банк рядом со станцией.",
+    "prompt": "Банк рядом со станцией."
+  },
+  "14/l4:15": {
+    "accept": [
+      "There is a café nearby.",
+      "There's a café nearby."
+    ],
+    "bad": [],
+    "closed": true,
+    "why": "Nearby — поблизости; a café — один объект.",
+    "example": {
+      "en": "There is a right turn after the school.",
+      "ru": "После школы есть поворот направо.",
+      "source": "14/related-original-example"
+    },
+    "wordBank": {
+      "required": [
+        "There",
+        "is",
+        "a",
+        "café",
+        "nearby"
+      ],
+      "alternatives": [
+        "There's"
+      ],
+      "distractors": [
+        "are",
+        "am",
+        "have"
+      ]
+    },
+    "translation": "Поблизости есть кафе.",
+    "prompt": "Поблизости есть кафе."
+  },
+  "14/l4:16": {
+    "accept": [
+      "The museum is opposite the bookshop."
+    ],
+    "bad": [],
+    "closed": true,
+    "why": "Opposite + ориентир, без to в этой конструкции.",
+    "example": {
+      "en": "How can I get to the museum?",
+      "ru": "Как мне добраться до музея?",
+      "source": "14/related-original-example"
+    },
+    "wordBank": {
+      "required": [
+        "The",
+        "museum",
+        "is",
+        "opposite",
+        "the",
+        "bookshop"
+      ],
+      "alternatives": [],
+      "distractors": [
+        "are",
+        "am",
+        "have"
+      ]
+    },
+    "translation": "Музей напротив книжного магазина.",
+    "prompt": "Музей напротив книжного магазина."
+  },
+  "14/l4:17": {
+    "accept": [
+      "First, go straight. Then turn left."
+    ],
+    "bad": [],
+    "closed": true,
+    "why": "First и then — порядок инструкций; at first — исходная ситуация перед изменением.",
+    "example": {
+      "en": "First, go down the road. Then turn right.",
+      "ru": "Сначала идите по дороге. Затем поверните направо.",
+      "source": "14/related-original-example"
+    },
+    "wordBank": {
+      "required": [
+        "First",
+        "go",
+        "straight",
+        "Then",
+        "turn",
+        "left"
+      ],
+      "alternatives": [],
+      "distractors": [
+        "is",
+        "are",
+        "am"
+      ]
+    },
+    "translation": "Сначала идите прямо. Затем поверните налево.",
+    "prompt": "Сначала идите прямо. Затем поверните налево."
+  },
+  "14/l4:18": {
+    "accept": [
+      "Would you like to walk?"
+    ],
+    "bad": [],
+    "closed": true,
+    "why": "Would you like to + V1 — вежливый вопрос о желании.",
+    "example": {
+      "en": "Would you like some tea?",
+      "ru": "Хотите чаю?",
+      "source": "14/related-original-example"
+    },
+    "wordBank": {
+      "required": [
+        "Would",
+        "you",
+        "like",
+        "to",
+        "walk"
+      ],
+      "alternatives": [],
+      "distractors": [
+        "is",
+        "are",
+        "am"
+      ]
+    },
+    "translation": "Вы хотели бы пойти пешком?",
+    "prompt": "Вы хотели бы пойти пешком?"
+  },
+  "14/l4:19": {
+    "accept": [
+      "Why were you late?"
+    ],
+    "bad": [],
+    "closed": true,
+    "why": "Why + were + you; be строит вопрос без did.",
+    "example": {
+      "en": "I woke up late.",
+      "ru": "Я поздно проснулся.",
+      "source": "14/related-original-example"
+    },
+    "wordBank": {
+      "required": [
+        "Why",
+        "were",
+        "you",
+        "late"
+      ],
+      "alternatives": [],
+      "distractors": [
+        "is",
+        "are",
+        "am"
+      ]
+    },
+    "translation": "Почему ты опоздал?",
+    "prompt": "Почему ты опоздал?"
+  },
+  "14/l4:20": {
+    "accept": [
+      "Did you lose your wallet?"
+    ],
+    "bad": [],
+    "closed": true,
+    "why": "Did + you + lose, не lost.",
+    "example": {
+      "en": "Do not lose your wallet.",
+      "ru": "Не потеряй кошелёк.",
+      "source": "14/related-original-example"
+    },
+    "wordBank": {
+      "required": [
+        "Did",
+        "you",
+        "lose",
+        "your",
+        "wallet"
+      ],
+      "alternatives": [],
+      "distractors": [
+        "is",
+        "are",
+        "am"
+      ]
+    },
+    "translation": "Ты потерял кошелёк?",
+    "prompt": "Ты потерял кошелёк?"
+  },
+  "14/l4:21": {
+    "accept": [
+      "I have a cold.",
+      "I've got a cold.",
+      "I have got a cold."
+    ],
+    "bad": [],
+    "closed": true,
+    "why": "Have a cold — состояние; be cold — мёрзнуть.",
+    "example": {
+      "en": "I caught a cold last week. I have a cold now.",
+      "ru": "Я простудился на прошлой неделе. Сейчас у меня простуда.",
+      "source": "14/related-original-example"
+    },
+    "wordBank": {
+      "required": [
+        "I",
+        "have",
+        "a",
+        "cold"
+      ],
+      "alternatives": [
+        "I've",
+        "got"
+      ],
+      "distractors": [
+        "is",
+        "are",
+        "am"
+      ]
+    },
+    "translation": "У меня простуда.",
+    "prompt": "У меня простуда."
+  },
+  "14/l4:22": {
+    "accept": [
+      "I caught a cold last week."
+    ],
+    "bad": [],
+    "closed": true,
+    "why": "Catch → caught; a cold — одна простуда.",
+    "example": {
+      "en": "He caught a cold last week.",
+      "ru": "Он простудился на прошлой неделе.",
+      "source": "14/related-original-example"
+    },
+    "wordBank": {
+      "required": [
+        "I",
+        "caught",
+        "a",
+        "cold",
+        "last",
+        "week"
+      ],
+      "alternatives": [],
+      "distractors": [
+        "is",
+        "are",
+        "am"
+      ]
+    },
+    "translation": "Я простудился на прошлой неделе.",
+    "prompt": "Я простудился на прошлой неделе."
+  },
+  "14/l4:23": {
+    "accept": [
+      "I am ill today.",
+      "I'm ill today."
+    ],
+    "bad": [],
+    "closed": true,
+    "why": "Be + прилагательное ill, без a.",
+    "example": {
+      "en": "I am ill today, but I am not cold.",
+      "ru": "Сегодня я болею, но мне не холодно.",
+      "source": "14/related-original-example"
+    },
+    "wordBank": {
+      "required": [
+        "I",
+        "am",
+        "ill",
+        "today"
+      ],
+      "alternatives": [
+        "I'm"
+      ],
+      "distractors": [
+        "is",
+        "are",
+        "have"
+      ]
+    },
+    "translation": "Сегодня я болею.",
+    "prompt": "Сегодня я болею."
+  },
+  "14/l4:24": {
+    "accept": [
+      "My alarm did not go off.",
+      "My alarm didn't go off."
+    ],
+    "bad": [],
+    "closed": true,
+    "why": "go off — сработать; did not + V1, без прошедшего went.",
+    "example": {
+      "en": "The alarm did not go off this morning.",
+      "ru": "Сегодня утром будильник не прозвенел.",
+      "source": "14/related-original-example"
+    },
+    "wordBank": {
+      "required": [
+        "My",
+        "alarm",
+        "did",
+        "not",
+        "go",
+        "off"
+      ],
+      "alternatives": [
+        "didn't"
+      ],
+      "distractors": [
+        "is",
+        "are",
+        "am"
+      ]
+    },
+    "translation": "Мой будильник не прозвенел.",
+    "prompt": "Мой будильник не прозвенел."
+  },
+  "14/l4:25": {
+    "accept": [
+      "I woke up late."
+    ],
+    "bad": [],
+    "closed": true,
+    "why": "wake → woke; up сохраняется в wake up.",
+    "example": {
+      "en": "I woke up late yesterday.",
+      "ru": "Вчера я поздно проснулся.",
+      "source": "14/related-original-example"
+    },
+    "wordBank": {
+      "required": [
+        "I",
+        "woke",
+        "up",
+        "late"
+      ],
+      "alternatives": [],
+      "distractors": [
+        "is",
+        "are",
+        "am"
+      ]
+    },
+    "translation": "Я поздно проснулся.",
+    "prompt": "Я поздно проснулся."
+  },
+  "14/l4:26": {
+    "accept": [
+      "I missed my connection."
+    ],
+    "bad": [],
+    "closed": true,
+    "why": "missed my connection — не успел на стыковочный транспорт; my перед существительным.",
+    "example": {
+      "en": "The first train was late, so I missed my connection.",
+      "ru": "Первый поезд опоздал, поэтому я не успел на стыковочный поезд.",
+      "source": "14/related-original-example"
+    },
+    "wordBank": {
+      "required": [
+        "I",
+        "missed",
+        "my",
+        "connection"
+      ],
+      "alternatives": [],
+      "distractors": [
+        "is",
+        "are",
+        "am"
+      ]
+    },
+    "translation": "Я не успел на пересадку.",
+    "prompt": "Я не успел на пересадку."
+  },
+  "14/l4:27": {
+    "accept": [
+      "I lost my wallet."
+    ],
+    "bad": [],
+    "closed": true,
+    "why": "lose → lost; wallet — кошелёк.",
+    "example": {
+      "en": "I lost my wallet yesterday.",
+      "ru": "Вчера я потерял кошелёк.",
+      "source": "14/related-original-example"
+    },
+    "wordBank": {
+      "required": [
+        "I",
+        "lost",
+        "my",
+        "wallet"
+      ],
+      "alternatives": [],
+      "distractors": [
+        "is",
+        "are",
+        "am"
+      ]
+    },
+    "translation": "Я потерял кошелёк.",
+    "prompt": "Я потерял кошелёк."
+  },
+  "14/l4:28": {
+    "accept": [
+      "I had to cancel my cards."
+    ],
+    "bad": [],
+    "closed": true,
+    "why": "had to + V1 cancel; в контексте банка cancel cards — отменить/заблокировать карты.",
+    "example": {
+      "en": "I had a family emergency.",
+      "ru": "У меня случилась экстренная семейная ситуация.",
+      "source": "14/related-original-example"
+    },
+    "wordBank": {
+      "required": [
+        "I",
+        "had",
+        "to",
+        "cancel",
+        "my",
+        "cards"
+      ],
+      "alternatives": [],
+      "distractors": [
+        "is",
+        "are",
+        "am"
+      ]
+    },
+    "translation": "Мне пришлось заблокировать мои банковские карты.",
+    "prompt": "Мне пришлось заблокировать мои банковские карты."
+  },
+  "14/l4:29": {
+    "accept": [
+      "I had a family emergency."
+    ],
+    "bad": [],
+    "closed": true,
+    "why": "had — прошедшее have; a family emergency — одно событие, а не «я глава семьи».",
+    "example": {
+      "en": "I had to cancel my cards.",
+      "ru": "Мне пришлось заблокировать мои банковские карты.",
+      "source": "14/related-original-example"
+    },
+    "wordBank": {
+      "required": [
+        "I",
+        "had",
+        "a",
+        "family",
+        "emergency"
+      ],
+      "alternatives": [],
+      "distractors": [
+        "is",
+        "are",
+        "am"
+      ]
+    },
+    "translation": "У меня случилась экстренная семейная ситуация.",
+    "prompt": "У меня случилась экстренная семейная ситуация."
+  },
+  "14/l4:30": {
+    "accept": [
+      "He fell over."
+    ],
+    "bad": [],
+    "closed": true,
+    "why": "fall → fell; fell over — упал.",
+    "example": {
+      "en": "He fell over and cut his head.",
+      "ru": "Он упал и порезал голову.",
+      "source": "14/related-original-example"
+    },
+    "wordBank": {
+      "required": [
+        "He",
+        "fell",
+        "over"
+      ],
+      "alternatives": [],
+      "distractors": [
+        "is",
+        "are",
+        "am"
+      ]
+    },
+    "translation": "Он упал.",
+    "prompt": "Он упал."
+  },
+  "14/l4:31": {
+    "accept": [
+      "He cut his head."
+    ],
+    "bad": [],
+    "closed": true,
+    "why": "Прошедшая форма cut тоже cut; his head, без a перед his.",
+    "example": {
+      "en": "He fell over and cut his head.",
+      "ru": "Он упал и порезал голову.",
+      "source": "14/related-original-example"
+    },
+    "wordBank": {
+      "required": [
+        "He",
+        "cut",
+        "his",
+        "head"
+      ],
+      "alternatives": [],
+      "distractors": [
+        "is",
+        "are",
+        "am"
+      ]
+    },
+    "translation": "Он порезал голову.",
+    "prompt": "Он порезал голову."
+  },
+  "14/l4:32": {
+    "accept": [
+      "The bus broke down."
+    ],
+    "bad": [],
+    "closed": true,
+    "why": "break down → broke down; the bus — конкретный автобус.",
+    "example": {
+      "en": "The bus broke down near the bridge.",
+      "ru": "Автобус сломался возле моста.",
+      "source": "14/related-original-example"
+    },
+    "wordBank": {
+      "required": [
+        "The",
+        "bus",
+        "broke",
+        "down"
+      ],
+      "alternatives": [],
+      "distractors": [
+        "is",
+        "are",
+        "am"
+      ]
+    },
+    "translation": "Автобус сломался.",
+    "prompt": "Автобус сломался."
+  },
+  "14/l4:33": {
+    "accept": [
+      "I walked the rest of the way."
+    ],
+    "bad": [],
+    "closed": true,
+    "why": "walked + the rest of the way; обязательно of, не on.",
+    "example": {
+      "en": "We had to walk the rest of the way home.",
+      "ru": "Нам пришлось пройти оставшийся путь домой пешком.",
+      "source": "14/related-original-example"
+    },
+    "wordBank": {
+      "required": [
+        "I",
+        "walked",
+        "the",
+        "rest",
+        "of",
+        "the",
+        "way"
+      ],
+      "alternatives": [],
+      "distractors": [
+        "is",
+        "are",
+        "am"
+      ]
+    },
+    "translation": "Я прошёл оставшийся путь пешком.",
+    "prompt": "Я прошёл оставшийся путь пешком."
+  },
+  "14/l4:34": {
+    "accept": [
+      "I got lost."
+    ],
+    "bad": [],
+    "closed": true,
+    "why": "get lost → got lost; это изменение состояния.",
+    "example": {
+      "en": "I lost my wallet.",
+      "ru": "Я потерял кошелёк.",
+      "source": "14/related-original-example"
+    },
+    "wordBank": {
+      "required": [
+        "I",
+        "got",
+        "lost"
+      ],
+      "alternatives": [],
+      "distractors": [
+        "is",
+        "are",
+        "am"
+      ]
+    },
+    "translation": "Я заблудился.",
+    "prompt": "Я заблудился."
+  },
+  "14/l4:35": {
+    "accept": [
+      "I took a wrong turning.",
+      "I took a wrong turn."
+    ],
+    "bad": [],
+    "closed": true,
+    "why": "take → took; a wrong turning — существительное с артиклем.",
+    "example": {
+      "en": "The journey took half an hour.",
+      "ru": "Поездка заняла полчаса.",
+      "source": "14/related-original-example"
+    },
+    "wordBank": {
+      "required": [
+        "I",
+        "took",
+        "a",
+        "wrong",
+        "turning"
+      ],
+      "alternatives": [
+        "turn"
+      ],
+      "distractors": [
+        "is",
+        "are",
+        "am"
+      ]
+    },
+    "translation": "Я свернул не туда.",
+    "prompt": "Я свернул не туда."
+  },
+  "14/l4:36": {
+    "accept": [
+      "My train was delayed.",
+      "My train got delayed."
+    ],
+    "bad": [],
+    "closed": true,
+    "why": "was delayed — готовое сочетание с be; не добавляй did перед was.",
+    "example": {
+      "en": "The traffic delayed us.",
+      "ru": "Дорожное движение задержало нас.",
+      "source": "14/related-original-example"
+    },
+    "wordBank": {
+      "required": [
+        "My",
+        "train",
+        "was",
+        "delayed"
+      ],
+      "alternatives": [
+        "got"
+      ],
+      "distractors": [
+        "is",
+        "are",
+        "am"
+      ]
+    },
+    "translation": "Мой поезд задержали.",
+    "prompt": "Мой поезд задержали."
+  },
+  "14/l4:37": {
+    "accept": [
+      "I arrived half an hour late.",
+      "I arrived thirty minutes late."
+    ],
+    "bad": [],
+    "closed": true,
+    "why": "arrived — прошлое arrive; half an hour late — на полчаса позже.",
+    "example": {
+      "en": "The journey took half an hour.",
+      "ru": "Поездка заняла полчаса.",
+      "source": "14/related-original-example"
+    },
+    "wordBank": {
+      "required": [
+        "I",
+        "arrived",
+        "half",
+        "an",
+        "hour",
+        "late"
+      ],
+      "alternatives": [
+        "thirty",
+        "minutes"
+      ],
+      "distractors": [
+        "is",
+        "are",
+        "am"
+      ]
+    },
+    "translation": "Я прибыл с опозданием на полчаса.",
+    "prompt": "Я прибыл с опозданием на полчаса."
+  },
+  "14/l4:38": {
+    "accept": [
+      "I did not notice the time.",
+      "I didn't notice the time."
+    ],
+    "bad": [],
+    "closed": true,
+    "why": "did not + notice в начальной форме; notice the time — обратить внимание на время.",
+    "example": {
+      "en": "Finally, I noticed the time.",
+      "ru": "Наконец я обратил внимание на время.",
+      "source": "14/related-original-example"
+    },
+    "wordBank": {
+      "required": [
+        "I",
+        "did",
+        "not",
+        "notice",
+        "the",
+        "time"
+      ],
+      "alternatives": [
+        "didn't"
+      ],
+      "distractors": [
+        "is",
+        "are",
+        "am"
+      ]
+    },
+    "translation": "Я не заметил, сколько времени прошло.",
+    "prompt": "Я не заметил, сколько времени прошло."
+  },
+  "14/l5:0": {
+    "accept": [
+      "Can you help me?"
+    ],
+    "bad": [],
+    "closed": false,
+    "why": "Can + you + help: вопрос с модальным глаголом, без to.",
+    "example": {
+      "en": "You can help me. Can you help me?",
+      "ru": "Ты можешь мне помочь. Можешь мне помочь?",
+      "source": "14/related-original-example"
+    }
+  },
+  "14/l5:1": {
+    "accept": [
+      "How can I get to the museum?"
+    ],
+    "bad": [],
+    "closed": false,
+    "why": "How + can + I + get to; для направления get to, не get on.",
+    "example": {
+      "en": "How can I find the museum?",
+      "ru": "Как мне найти музей?",
+      "source": "14/related-original-example"
+    }
+  },
+  "14/l5:2": {
+    "accept": [
+      "Where is the bookshop?",
+      "Where's the bookshop?"
+    ],
+    "bad": [],
+    "closed": false,
+    "why": "Where + is + подлежащее; be — глагол, отдельный do не нужен.",
+    "example": {
+      "en": "The museum is opposite the bookshop.",
+      "ru": "Музей напротив книжного магазина.",
+      "source": "14/related-original-example"
+    }
+  },
+  "14/l5:3": {
+    "accept": [
+      "Does she know this area?"
+    ],
+    "bad": [],
+    "closed": false,
+    "why": "Does + she + know: после does начальная форма.",
+    "example": {
+      "en": "I do not know this area.",
+      "ru": "Я не знаю этот район.",
+      "source": "14/related-original-example"
+    }
+  },
+  "14/l5:4": {
+    "accept": [
+      "You need to turn left."
+    ],
+    "bad": [],
+    "closed": false,
+    "why": "Need to + V1; turn left без on.",
+    "example": {
+      "en": "First, go straight. Then turn left.",
+      "ru": "Сначала идите прямо. Затем поверните налево.",
+      "source": "14/related-original-example"
+    }
+  },
+  "14/l5:5": {
+    "accept": [
+      "The mosque is on your right.",
+      "The mosque is on the right."
+    ],
+    "bad": [],
+    "closed": false,
+    "why": "Положение: is on your right. Turn right — действие, не положение.",
+    "example": {
+      "en": "Take the next right turn.",
+      "ru": "Сверните на следующем повороте направо.",
+      "source": "14/related-original-example"
+    }
+  },
+  "14/l5:6": {
+    "accept": [
+      "Take the next right turn."
+    ],
+    "bad": [],
+    "closed": false,
+    "why": "Right turn — существительное «поворот направо».",
+    "example": {
+      "en": "Take a left turn after the bridge.",
+      "ru": "Поверните налево после моста.",
+      "source": "14/related-original-example"
+    }
+  },
+  "14/l5:7": {
+    "accept": [
+      "Turn around and go down the road."
+    ],
+    "bad": [],
+    "closed": false,
+    "why": "Turn around — развернуться; go down не обязательно «спуститься».",
+    "example": {
+      "en": "Turn around and go back.",
+      "ru": "Развернитесь и идите обратно.",
+      "source": "14/related-original-example"
+    }
+  },
+  "14/l5:8": {
+    "accept": [
+      "Go past the old church."
+    ],
+    "bad": [],
+    "closed": false,
+    "why": "Go past + ориентир: мимо, не внутрь.",
+    "example": {
+      "en": "Go past the mosque.",
+      "ru": "Пройдите мимо мечети.",
+      "source": "14/related-original-example"
+    }
+  },
+  "14/l5:9": {
+    "accept": [
+      "Cross the road at the crossing.",
+      "Cross over the road at the crossing."
+    ],
+    "bad": [],
+    "closed": false,
+    "why": "Cross (over) the road; at the crossing — у перехода/по переходу.",
+    "example": {
+      "en": "Turn around and cross the road at the crossing.",
+      "ru": "Развернитесь и перейдите дорогу по переходу.",
+      "source": "14/related-original-example"
+    }
+  },
+  "14/l5:10": {
+    "accept": [
+      "Walk until you get to the crossroads.",
+      "Walk until you reach the crossroads.",
+      "Walk to the crossroads."
+    ],
+    "bad": [],
+    "closed": false,
+    "why": "Until you get to + место; get on не выражает добраться до места.",
+    "example": {
+      "en": "How can I get to the museum?",
+      "ru": "Как мне добраться до музея?",
+      "source": "14/related-original-example"
+    }
+  },
+  "14/l5:11": {
+    "accept": [
+      "Go straight until you reach the station.",
+      "Go straight until you get to the station."
+    ],
+    "bad": [],
+    "closed": false,
+    "why": "Reach + место без to.",
+    "example": {
+      "en": "Go straight until you reach the bridge.",
+      "ru": "Идите прямо, пока не дойдёте до моста.",
+      "source": "14/related-original-example"
+    }
+  },
+  "14/l5:12": {
+    "accept": [
+      "Wait here until five o’clock.",
+      "Wait here until five o'clock."
+    ],
+    "bad": [],
+    "closed": false,
+    "why": "Until + время: после until не всегда нужен глагол.",
+    "example": {
+      "en": "Walk until you get to the crossroads.",
+      "ru": "Идите, пока не дойдёте до перекрёстка.",
+      "source": "14/related-original-example"
+    }
+  },
+  "14/l5:13": {
+    "accept": [
+      "I am near the supermarket.",
+      "I'm near the supermarket."
+    ],
+    "bad": [],
+    "closed": false,
+    "why": "Для местоположения нужен am; near + место, без with.",
+    "example": {
+      "en": "Where are you? I am near the supermarket.",
+      "ru": "Где ты? Я возле супермаркета.",
+      "source": "14/related-original-example"
+    }
+  },
+  "14/l5:14": {
+    "accept": [
+      "The bank is close to the station."
+    ],
+    "bad": [],
+    "closed": false,
+    "why": "Close to + объект; to здесь обязательно.",
+    "example": {
+      "en": "Go straight until you reach the station.",
+      "ru": "Идите прямо, пока не дойдёте до станции.",
+      "source": "14/related-original-example"
+    }
+  },
+  "14/l5:15": {
+    "accept": [
+      "There is a café nearby.",
+      "There's a café nearby."
+    ],
+    "bad": [],
+    "closed": false,
+    "why": "Nearby — поблизости; a café — один объект.",
+    "example": {
+      "en": "There is a right turn after the school.",
+      "ru": "После школы есть поворот направо.",
+      "source": "14/related-original-example"
+    }
+  },
+  "14/l5:16": {
+    "accept": [
+      "The museum is opposite the bookshop."
+    ],
+    "bad": [],
+    "closed": false,
+    "why": "Opposite + ориентир, без to в этой конструкции.",
+    "example": {
+      "en": "How can I get to the museum?",
+      "ru": "Как мне добраться до музея?",
+      "source": "14/related-original-example"
+    }
+  },
+  "14/l5:17": {
+    "accept": [
+      "First, go straight. Then turn left."
+    ],
+    "bad": [],
+    "closed": false,
+    "why": "First и then — порядок инструкций; at first — исходная ситуация перед изменением.",
+    "example": {
+      "en": "First, go down the road. Then turn right.",
+      "ru": "Сначала идите по дороге. Затем поверните направо.",
+      "source": "14/related-original-example"
+    }
+  },
+  "14/l5:18": {
+    "accept": [
+      "Would you like to walk?"
+    ],
+    "bad": [],
+    "closed": false,
+    "why": "Would you like to + V1 — вежливый вопрос о желании.",
+    "example": {
+      "en": "Would you like some tea?",
+      "ru": "Хотите чаю?",
+      "source": "14/related-original-example"
+    }
+  },
+  "14/l5:19": {
+    "accept": [
+      "Why were you late?"
+    ],
+    "bad": [],
+    "closed": false,
+    "why": "Why + were + you; be строит вопрос без did.",
+    "example": {
+      "en": "I woke up late.",
+      "ru": "Я поздно проснулся.",
+      "source": "14/related-original-example"
+    }
+  },
+  "14/l5:20": {
+    "accept": [
+      "Did you lose your wallet?"
+    ],
+    "bad": [],
+    "closed": false,
+    "why": "Did + you + lose, не lost.",
+    "example": {
+      "en": "Do not lose your wallet.",
+      "ru": "Не потеряй кошелёк.",
+      "source": "14/related-original-example"
+    }
+  },
+  "14/l5:21": {
+    "accept": [
+      "I have a cold.",
+      "I've got a cold.",
+      "I have got a cold."
+    ],
+    "bad": [],
+    "closed": false,
+    "why": "Have a cold — состояние; be cold — мёрзнуть.",
+    "example": {
+      "en": "I caught a cold last week. I have a cold now.",
+      "ru": "Я простудился на прошлой неделе. Сейчас у меня простуда.",
+      "source": "14/related-original-example"
+    }
+  },
+  "14/l5:22": {
+    "accept": [
+      "I caught a cold last week."
+    ],
+    "bad": [],
+    "closed": false,
+    "why": "Catch → caught; a cold — одна простуда.",
+    "example": {
+      "en": "He caught a cold last week.",
+      "ru": "Он простудился на прошлой неделе.",
+      "source": "14/related-original-example"
+    }
+  },
+  "14/l5:23": {
+    "accept": [
+      "I am ill today.",
+      "I'm ill today."
+    ],
+    "bad": [],
+    "closed": false,
+    "why": "Be + прилагательное ill, без a.",
+    "example": {
+      "en": "I am ill today, but I am not cold.",
+      "ru": "Сегодня я болею, но мне не холодно.",
+      "source": "14/related-original-example"
+    }
+  },
+  "14/l5:24": {
+    "accept": [
+      "My alarm did not go off.",
+      "My alarm didn't go off."
+    ],
+    "bad": [],
+    "closed": false,
+    "why": "go off — сработать; did not + V1, без прошедшего went.",
+    "example": {
+      "en": "The alarm did not go off this morning.",
+      "ru": "Сегодня утром будильник не прозвенел.",
+      "source": "14/related-original-example"
+    }
+  },
+  "14/l5:25": {
+    "accept": [
+      "I woke up late."
+    ],
+    "bad": [],
+    "closed": false,
+    "why": "wake → woke; up сохраняется в wake up.",
+    "example": {
+      "en": "I woke up late yesterday.",
+      "ru": "Вчера я поздно проснулся.",
+      "source": "14/related-original-example"
+    }
+  },
+  "14/l5:26": {
+    "accept": [
+      "I missed my connection."
+    ],
+    "bad": [],
+    "closed": false,
+    "why": "missed my connection — не успел на стыковочный транспорт; my перед существительным.",
+    "example": {
+      "en": "The first train was late, so I missed my connection.",
+      "ru": "Первый поезд опоздал, поэтому я не успел на стыковочный поезд.",
+      "source": "14/related-original-example"
+    }
+  },
+  "14/l5:27": {
+    "accept": [
+      "I lost my wallet."
+    ],
+    "bad": [],
+    "closed": false,
+    "why": "lose → lost; wallet — кошелёк.",
+    "example": {
+      "en": "I lost my wallet yesterday.",
+      "ru": "Вчера я потерял кошелёк.",
+      "source": "14/related-original-example"
+    }
+  },
+  "14/l5:28": {
+    "accept": [
+      "I had to cancel my cards."
+    ],
+    "bad": [],
+    "closed": false,
+    "why": "had to + V1 cancel; в контексте банка cancel cards — отменить/заблокировать карты.",
+    "example": {
+      "en": "I had a family emergency.",
+      "ru": "У меня случилась экстренная семейная ситуация.",
+      "source": "14/related-original-example"
+    }
+  },
+  "14/l5:29": {
+    "accept": [
+      "I had a family emergency."
+    ],
+    "bad": [],
+    "closed": false,
+    "why": "had — прошедшее have; a family emergency — одно событие, а не «я глава семьи».",
+    "example": {
+      "en": "I had to cancel my cards.",
+      "ru": "Мне пришлось заблокировать мои банковские карты.",
+      "source": "14/related-original-example"
+    }
+  },
+  "14/l5:30": {
+    "accept": [
+      "He fell over."
+    ],
+    "bad": [],
+    "closed": false,
+    "why": "fall → fell; fell over — упал.",
+    "example": {
+      "en": "He fell over and cut his head.",
+      "ru": "Он упал и порезал голову.",
+      "source": "14/related-original-example"
+    }
+  },
+  "14/l5:31": {
+    "accept": [
+      "He cut his head."
+    ],
+    "bad": [],
+    "closed": false,
+    "why": "Прошедшая форма cut тоже cut; his head, без a перед his.",
+    "example": {
+      "en": "He fell over and cut his head.",
+      "ru": "Он упал и порезал голову.",
+      "source": "14/related-original-example"
+    }
+  },
+  "14/l5:32": {
+    "accept": [
+      "The bus broke down."
+    ],
+    "bad": [],
+    "closed": false,
+    "why": "break down → broke down; the bus — конкретный автобус.",
+    "example": {
+      "en": "The bus broke down near the bridge.",
+      "ru": "Автобус сломался возле моста.",
+      "source": "14/related-original-example"
+    }
+  },
+  "14/l5:33": {
+    "accept": [
+      "I walked the rest of the way."
+    ],
+    "bad": [],
+    "closed": false,
+    "why": "walked + the rest of the way; обязательно of, не on.",
+    "example": {
+      "en": "We had to walk the rest of the way home.",
+      "ru": "Нам пришлось пройти оставшийся путь домой пешком.",
+      "source": "14/related-original-example"
+    }
+  },
+  "14/l5:34": {
+    "accept": [
+      "I got lost."
+    ],
+    "bad": [],
+    "closed": false,
+    "why": "get lost → got lost; это изменение состояния.",
+    "example": {
+      "en": "I lost my wallet.",
+      "ru": "Я потерял кошелёк.",
+      "source": "14/related-original-example"
+    }
+  },
+  "14/l5:35": {
+    "accept": [
+      "I took a wrong turning.",
+      "I took a wrong turn."
+    ],
+    "bad": [],
+    "closed": false,
+    "why": "take → took; a wrong turning — существительное с артиклем.",
+    "example": {
+      "en": "The journey took half an hour.",
+      "ru": "Поездка заняла полчаса.",
+      "source": "14/related-original-example"
+    }
+  },
+  "14/l5:36": {
+    "accept": [
+      "My train was delayed.",
+      "My train got delayed."
+    ],
+    "bad": [],
+    "closed": false,
+    "why": "was delayed — готовое сочетание с be; не добавляй did перед was.",
+    "example": {
+      "en": "The traffic delayed us.",
+      "ru": "Дорожное движение задержало нас.",
+      "source": "14/related-original-example"
+    }
+  },
+  "14/l5:37": {
+    "accept": [
+      "I arrived half an hour late.",
+      "I arrived thirty minutes late."
+    ],
+    "bad": [],
+    "closed": false,
+    "why": "arrived — прошлое arrive; half an hour late — на полчаса позже.",
+    "example": {
+      "en": "The journey took half an hour.",
+      "ru": "Поездка заняла полчаса.",
+      "source": "14/related-original-example"
+    }
+  },
+  "14/l5:38": {
+    "accept": [
+      "I did not notice the time.",
+      "I didn't notice the time."
+    ],
+    "bad": [],
+    "closed": false,
+    "why": "did not + notice в начальной форме; notice the time — обратить внимание на время.",
+    "example": {
+      "en": "Finally, I noticed the time.",
+      "ru": "Наконец я обратил внимание на время.",
+      "source": "14/related-original-example"
+    }
+  },
+  "14/fix:0": {
+    "accept": [
+      "How is it going?"
+    ],
+    "bad": [
+      {
+        "answer": "How is going?",
+        "why": "Нужно подлежащее it: How + is + it + going?",
+        "part": "Исправь: How is going? → How is it going?"
+      }
+    ],
+    "closed": false,
+    "why": "Нужно подлежащее it: How + is + it + going?",
+    "example": {
+      "en": "How is your work going?",
+      "ru": "Как идут дела у тебя на работе?",
+      "source": "14/curated-error-example"
+    }
+  },
+  "14/fix:1": {
+    "accept": [
+      "I have a cold.",
+      "I've got a cold.",
+      "I have got a cold."
+    ],
+    "bad": [
+      {
+        "answer": "I'm a cold.",
+        "why": "Cold как простуда — существительное: have a cold. I am cold означает «мне холодно».",
+        "part": "Исправь: I'm a cold. → I have a cold."
+      }
+    ],
+    "closed": false,
+    "why": "Cold как простуда — существительное: have a cold. I am cold означает «мне холодно».",
+    "example": {
+      "en": "She has a cold today.",
+      "ru": "Сегодня у неё простуда.",
+      "source": "14/curated-error-example"
+    }
+  },
+  "14/fix:2": {
+    "accept": [
+      "You need to turn left."
+    ],
+    "bad": [
+      {
+        "answer": "You need turn left.",
+        "why": "После need перед действием ставим to.",
+        "part": "Исправь: You need turn left. → You need to turn left."
+      }
+    ],
+    "closed": false,
+    "why": "После need перед действием ставим to.",
+    "example": {
+      "en": "We need to cross the road.",
+      "ru": "Нам нужно перейти дорогу.",
+      "source": "14/curated-error-example"
+    }
+  },
+  "14/fix:3": {
+    "accept": [
+      "Turn left."
+    ],
+    "bad": [
+      {
+        "answer": "Turn on the left.",
+        "why": "Команда turn left без on; on your left — положение.",
+        "part": "Исправь: Turn on the left. → Turn left."
+      }
+    ],
+    "closed": false,
+    "why": "Команда turn left без on; on your left — положение.",
+    "example": {
+      "en": "Turn right at the lights.",
+      "ru": "Поверните направо у светофора.",
+      "source": "14/curated-error-example"
+    }
+  },
+  "14/fix:4": {
+    "accept": [
+      "I am near the supermarket.",
+      "I'm near the supermarket."
+    ],
+    "bad": [
+      {
+        "answer": "I stay on the supermarket.",
+        "why": "Для местоположения — be near; stay значит оставаться, stand — стоять. On не выражает «возле».",
+        "part": "Исправь: I stay on the supermarket. → I am near the supermarket."
+      }
+    ],
+    "closed": false,
+    "why": "Для местоположения — be near; stay значит оставаться, stand — стоять. On не выражает «возле».",
+    "example": {
+      "en": "I am standing near the bank.",
+      "ru": "Я стою возле банка.",
+      "source": "14/curated-error-example"
+    }
+  },
+  "14/fix:5": {
+    "accept": [
+      "I am near the supermarket.",
+      "I'm near the supermarket."
+    ],
+    "bad": [
+      {
+        "answer": "I near with supermarket.",
+        "why": "Нужны am и the; near не требует with.",
+        "part": "Исправь: I near with supermarket. → I am near the supermarket."
+      }
+    ],
+    "closed": false,
+    "why": "Нужны am и the; near не требует with.",
+    "example": {
+      "en": "She is near the station.",
+      "ru": "Она возле станции.",
+      "source": "14/curated-error-example"
+    }
+  },
+  "14/fix:6": {
+    "accept": [
+      "How can I find it?",
+      "How can I find the way?"
+    ],
+    "bad": [
+      {
+        "answer": "How I can to found?",
+        "why": "В прямом вопросе How + can + I; после can — find без to. Found — форма прошлого для «найти».",
+        "part": "Исправь: How I can to found? → How can I find it?"
+      },
+      {
+        "answer": "How I can to found?",
+        "why": "В прямом вопросе How + can + I; после can — find без to. Found — форма прошлого для «найти».",
+        "part": "How can I find it?"
+      }
+    ],
+    "closed": false,
+    "why": "В прямом вопросе How + can + I; после can — find без to. Found — форма прошлого для «найти».",
+    "example": {
+      "en": "How can I find the station?",
+      "ru": "Как мне найти станцию?",
+      "source": "14/curated-error-example"
+    }
+  },
+  "14/fix:7": {
+    "accept": [
+      "Can find.",
+      "can find"
+    ],
+    "bad": [
+      {
+        "answer": "Can to find.",
+        "why": "Can + начальная форма без to. Это фрагмент, не полное предложение.",
+        "part": "Исправь: Can to find. → Can find."
+      }
+    ],
+    "closed": false,
+    "why": "Can + начальная форма без to. Это фрагмент, не полное предложение.",
+    "example": {
+      "en": "I can find the bookshop.",
+      "ru": "Я могу найти книжный магазин.",
+      "source": "14/curated-error-example"
+    }
+  },
+  "14/fix:8": {
+    "accept": [
+      "Until you get to the crossroads."
+    ],
+    "bad": [
+      {
+        "answer": "Until you get on the crossroads.",
+        "why": "Get to — добраться; get on используется с транспортом и другими значениями.",
+        "part": "Исправь: Until you get on the crossroads. → Until you get to the crossroads."
+      }
+    ],
+    "closed": false,
+    "why": "Get to — добраться; get on используется с транспортом и другими значениями.",
+    "example": {
+      "en": "Walk until you get to the bridge.",
+      "ru": "Идите, пока не дойдёте до моста.",
+      "source": "14/curated-error-example"
+    }
+  },
+  "14/fix:9": {
+    "accept": [
+      "The bus didn't break down."
+    ],
+    "bad": [
+      {
+        "answer": "The bus didn't broke down.",
+        "why": "Did not / didn’t + V1. После did не используем broke.",
+        "part": "Исправь: The bus didn't broke down. → The bus didn't break down."
+      }
+    ],
+    "closed": false,
+    "why": "Did not / didn’t + V1. После did не используем broke.",
+    "example": {
+      "en": "Did the car break down?",
+      "ru": "Машина сломалась?",
+      "source": "14/curated-error-example"
+    }
+  },
+  "14/fix:10": {
+    "accept": [
+      "The train didn't delay us."
+    ],
+    "bad": [
+      {
+        "answer": "The train didn't delayed us.",
+        "why": "Если delay — смысловой глагол, после didn’t нужна форма delay. Для «поезд задержали» — was delayed.",
+        "part": "Исправь: The train didn't delayed us. → The train didn't delay us."
+      }
+    ],
+    "closed": false,
+    "why": "Если delay — смысловой глагол, после didn’t нужна форма delay. Для «поезд задержали» — was delayed.",
+    "example": {
+      "en": "The traffic did not delay us.",
+      "ru": "Дорожное движение не задержало нас.",
+      "source": "14/curated-error-example"
+    }
+  },
+  "14/fix:11": {
+    "accept": [
+      "A lot of new words."
+    ],
+    "bad": [
+      {
+        "answer": "Very more new words.",
+        "why": "A lot of — много; too many — слишком много; more — больше. Не смешивай very и more.",
+        "part": "Исправь: Very more new words. → A lot of new words."
+      }
+    ],
+    "closed": false,
+    "why": "A lot of — много; too many — слишком много; more — больше. Не смешивай very и more.",
+    "example": {
+      "en": "There are a lot of new phrases.",
+      "ru": "Есть много новых выражений.",
+      "source": "14/curated-error-example"
+    }
+  },
+  "14/fix:12": {
+    "accept": [
+      "I had to walk."
+    ],
+    "bad": [
+      {
+        "answer": "I had to walked.",
+        "why": "Прошлое уже выражено had; после to нужен V1.",
+        "part": "Исправь: I had to walked. → I had to walk."
+      }
+    ],
+    "closed": false,
+    "why": "Прошлое уже выражено had; после to нужен V1.",
+    "example": {
+      "en": "She had to call the bank.",
+      "ru": "Ей пришлось позвонить в банк.",
+      "source": "14/curated-error-example"
+    }
+  },
+  "14/fix:13": {
+    "accept": [
+      "I walked the rest of the way."
+    ],
+    "bad": [
+      {
+        "answer": "I walked the rest on the way.",
+        "why": "Устойчивое сочетание the rest of the way, не on.",
+        "part": "Исправь: I walked the rest on the way. → I walked the rest of the way."
+      }
+    ],
+    "closed": false,
+    "why": "Устойчивое сочетание the rest of the way, не on.",
+    "example": {
+      "en": "We walked the rest of the way home.",
+      "ru": "Мы прошли оставшийся путь домой пешком.",
+      "source": "14/curated-error-example"
+    }
+  },
+  "14/fix:14": {
+    "accept": [
+      "Did you find your wallet?"
+    ],
+    "bad": [
+      {
+        "answer": "Did you found your wallet?",
+        "why": "Did + подлежащее + find. Found используется без did в утверждении.",
+        "part": "Исправь: Did you found your wallet? → Did you find your wallet?"
+      }
+    ],
+    "closed": false,
+    "why": "Did + подлежащее + find. Found используется без did в утверждении.",
+    "example": {
+      "en": "I found my wallet yesterday.",
+      "ru": "Вчера я нашёл кошелёк.",
+      "source": "14/curated-error-example"
+    }
+  },
+  "14/fix:15": {
+    "accept": [
+      "Reach the station."
+    ],
+    "bad": [
+      {
+        "answer": "Reach to the station.",
+        "why": "Reach + прямое дополнение без to; get to + место.",
+        "part": "Исправь: Reach to the station. → Reach the station."
+      }
+    ],
+    "closed": false,
+    "why": "Reach + прямое дополнение без to; get to + место.",
+    "example": {
+      "en": "We reached the museum at noon.",
+      "ru": "Мы добрались до музея в полдень.",
+      "source": "14/curated-error-example"
+    }
+  },
+  "14/h1:0": {
+    "accept": [
+      "мой будильник не прозвенел"
+    ],
+    "bad": [],
+    "closed": true,
+    "why": "didn’t + V1 go; значение go off — сработать.",
+    "example": {
+      "en": "My alarm did not go off, so I woke up late.",
+      "ru": "Мой будильник не прозвенел, поэтому я поздно проснулся.",
+      "source": "14/homework"
+    }
+  },
+  "14/h1:1": {
+    "accept": [
+      "поздно проснуться"
+    ],
+    "bad": [],
+    "closed": true,
+    "why": "В прошлом: woke up late.",
+    "example": {
+      "en": "She woke up late on Monday.",
+      "ru": "В понедельник она поздно проснулась.",
+      "source": "14/homework"
+    }
+  },
+  "14/h1:2": {
+    "accept": [
+      "не успеть на пересадку"
+    ],
+    "bad": [],
+    "closed": true,
+    "why": "В прошлом: missed my connection; connection — стыковочный транспорт.",
+    "example": {
+      "en": "He missed his connection because the first train was late.",
+      "ru": "Он не успел на пересадку, потому что первый поезд опоздал.",
+      "source": "14/homework"
+    }
+  },
+  "14/h1:3": {
+    "accept": [
+      "потерять кошелёк"
+    ],
+    "bad": [],
+    "closed": true,
+    "why": "lose → lost; my wallet, не a my wallet.",
+    "example": {
+      "en": "She lost her wallet near the station.",
+      "ru": "Она потеряла кошелёк возле станции.",
+      "source": "14/homework"
+    }
+  },
+  "14/h1:4": {
+    "accept": [
+      "заблокировать / отменить мои банковские карты"
+    ],
+    "bad": [],
+    "closed": true,
+    "why": "После had to — cancel; cancelled/canceled — прошлые формы.",
+    "example": {
+      "en": "He called the bank to cancel his cards.",
+      "ru": "Он позвонил в банк, чтобы заблокировать свои карты.",
+      "source": "14/homework"
+    }
+  },
+  "14/h1:5": {
+    "accept": [
+      "столкнуться с экстренной семейной ситуацией"
+    ],
+    "bad": [],
+    "closed": true,
+    "why": "have → had; это учебная причина, не утверждение о вашей семье.",
+    "example": {
+      "en": "She had a family emergency and stayed at home.",
+      "ru": "У неё случилась экстренная семейная ситуация, и она осталась дома.",
+      "source": "14/homework"
+    }
+  },
+  "14/h1:6": {
+    "accept": [
+      "упасть"
+    ],
+    "bad": [],
+    "closed": true,
+    "why": "fall → fell. Не fail и не foul.",
+    "example": {
+      "en": "He fell over near the entrance.",
+      "ru": "Он упал возле входа.",
+      "source": "14/homework"
+    }
+  },
+  "14/h1:7": {
+    "accept": [
+      "порезать голову"
+    ],
+    "bad": [],
+    "closed": true,
+    "why": "В конкретной фразе his/her/my head; V1/V2/V3 = cut.",
+    "example": {
+      "en": "She fell over and cut her head.",
+      "ru": "Она упала и порезала голову.",
+      "source": "14/homework"
+    }
+  },
+  "14/h1:8": {
+    "accept": [
+      "сломаться"
+    ],
+    "bad": [],
+    "closed": true,
+    "why": "break → broke; did not break down.",
+    "example": {
+      "en": "The bus broke down outside the town.",
+      "ru": "Автобус сломался за городом.",
+      "source": "14/homework"
+    }
+  },
+  "14/h1:9": {
+    "accept": [
+      "пройти оставшийся путь пешком"
+    ],
+    "bad": [],
+    "closed": true,
+    "why": "Прошлое walked; устойчивое the rest of the way.",
+    "example": {
+      "en": "We had to walk the rest of the way.",
+      "ru": "Нам пришлось пройти оставшийся путь пешком.",
+      "source": "14/homework"
+    }
+  },
+  "14/h1:10": {
+    "accept": [
+      "заблудиться"
+    ],
+    "bad": [],
+    "closed": true,
+    "why": "get → got; I am lost — я потерялся/не понимаю, где нахожусь.",
+    "example": {
+      "en": "He got lost near the museum.",
+      "ru": "Он заблудился возле музея.",
+      "source": "14/homework"
+    }
+  },
+  "14/h1:11": {
+    "accept": [
+      "свернуть не туда"
+    ],
+    "bad": [],
+    "closed": true,
+    "why": "take → took; turning — существительное с a. Wrong turn — допустимый вариант.",
+    "example": {
+      "en": "She took a wrong turning after the bridge.",
+      "ru": "Она свернула не туда после моста.",
+      "source": "14/homework"
+    }
+  },
+  "14/h1:12": {
+    "accept": [
+      "задержаться; быть задержанным"
+    ],
+    "bad": [],
+    "closed": true,
+    "why": "В прошлом: was/were delayed. Здесь изучается готовое сочетание.",
+    "example": {
+      "en": "Our train was delayed for ten minutes.",
+      "ru": "Наш поезд задержали на десять минут.",
+      "source": "14/homework"
+    }
+  },
+  "14/h1:13": {
+    "accept": [
+      "прибыть с опозданием на полчаса"
+    ],
+    "bad": [],
+    "closed": true,
+    "why": "arrive → arrived; half an hour, не whole an hour.",
+    "example": {
+      "en": "They arrived half an hour late.",
+      "ru": "Они прибыли с опозданием на полчаса.",
+      "source": "14/homework"
+    }
+  },
+  "14/h1:14": {
+    "accept": [
+      "обратить внимание на время"
+    ],
+    "bad": [],
+    "closed": true,
+    "why": "didn’t notice; noticed без did.",
+    "example": {
+      "en": "I did not notice the time during the film.",
+      "ru": "Во время фильма я не заметил, сколько времени прошло.",
+      "source": "14/homework"
+    }
+  },
+  "14/h2:0": {
+    "accept": [
+      "go"
+    ],
+    "bad": [],
+    "closed": true,
+    "why": "После did not нужен V1 go, не went.",
+    "example": {
+      "en": "My alarm did not go off.",
+      "ru": "Мой будильник не прозвенел.",
+      "source": "14/curated-context"
+    }
+  },
+  "14/h2:1": {
+    "accept": [
+      "woke"
+    ],
+    "bad": [],
+    "closed": true,
+    "why": "Wake → woke в Past Simple.",
+    "example": {
+      "en": "I woke up late yesterday.",
+      "ru": "Вчера я поздно проснулся.",
+      "source": "14/curated-context"
+    }
+  },
+  "14/h2:2": {
+    "accept": [
+      "connection"
+    ],
+    "bad": [],
+    "closed": true,
+    "why": "Connection — пересадка/стыковочный транспорт.",
+    "example": {
+      "en": "The first train was late, so I missed my connection.",
+      "ru": "Первый поезд опоздал, поэтому я не успел на пересадку.",
+      "source": "14/curated-context"
+    }
+  },
+  "14/h2:3": {
+    "accept": [
+      "lost"
+    ],
+    "bad": [],
+    "closed": true,
+    "why": "Lose → lost.",
+    "example": {
+      "en": "I lost my wallet yesterday.",
+      "ru": "Вчера я потерял кошелёк.",
+      "source": "14/curated-context"
+    }
+  },
+  "14/h2:4": {
+    "accept": [
+      "cancel"
+    ],
+    "bad": [],
+    "closed": true,
+    "why": "Had to + V1; cancel cards в контексте банка.",
+    "example": {
+      "en": "I had to cancel my cards.",
+      "ru": "Мне пришлось заблокировать мои карты.",
+      "source": "14/curated-context"
+    }
+  },
+  "14/h2:5": {
+    "accept": [
+      "emergency"
+    ],
+    "bad": [],
+    "closed": true,
+    "why": "A family emergency — экстренная семейная ситуация.",
+    "example": {
+      "en": "I had a family emergency.",
+      "ru": "У меня случилась экстренная семейная ситуация.",
+      "source": "14/curated-context"
+    }
+  },
+  "14/h2:6": {
+    "accept": [
+      "fell"
+    ],
+    "bad": [],
+    "closed": true,
+    "why": "Fall → fell; fail и foul — другие слова.",
+    "example": {
+      "en": "He fell over yesterday.",
+      "ru": "Вчера он упал.",
+      "source": "14/curated-context"
+    }
+  },
+  "14/h2:7": {
+    "accept": [
+      "cut"
+    ],
+    "bad": [],
+    "closed": true,
+    "why": "Cut имеет ту же форму в прошлом.",
+    "example": {
+      "en": "He cut his head when he fell.",
+      "ru": "Он порезал голову, когда упал.",
+      "source": "14/curated-context"
+    }
+  },
+  "14/h2:8": {
+    "accept": [
+      "broke"
+    ],
+    "bad": [],
+    "closed": true,
+    "why": "Break → broke.",
+    "example": {
+      "en": "The bus broke down yesterday.",
+      "ru": "Вчера автобус сломался.",
+      "source": "14/curated-context"
+    }
+  },
+  "14/h2:9": {
+    "accept": [
+      "of"
+    ],
+    "bad": [],
+    "closed": true,
+    "why": "The rest of — оставшаяся часть.",
+    "example": {
+      "en": "I walked the rest of the way.",
+      "ru": "Я прошёл оставшуюся часть пути пешком.",
+      "source": "14/curated-context"
+    }
+  },
+  "14/h2:10": {
+    "accept": [
+      "got"
+    ],
+    "bad": [],
+    "closed": true,
+    "why": "Get lost → got lost.",
+    "example": {
+      "en": "I got lost yesterday.",
+      "ru": "Вчера я заблудился.",
+      "source": "14/curated-context"
+    }
+  },
+  "14/h2:11": {
+    "accept": [
+      "turning"
+    ],
+    "bad": [],
+    "closed": true,
+    "why": "A wrong turning/turn — неправильный поворот.",
+    "example": {
+      "en": "I took a wrong turning.",
+      "ru": "Я свернул не туда.",
+      "source": "14/curated-context"
+    }
+  },
+  "14/h2:12": {
+    "accept": [
+      "was"
+    ],
+    "bad": [],
+    "closed": true,
+    "why": "Was delayed — готовое сочетание в прошлом.",
+    "example": {
+      "en": "My train was delayed yesterday.",
+      "ru": "Вчера мой поезд задержали.",
+      "source": "14/curated-context"
+    }
+  },
+  "14/h2:13": {
+    "accept": [
+      "an"
+    ],
+    "bad": [],
+    "closed": true,
+    "why": "An перед hour, так как h не произносится.",
+    "example": {
+      "en": "I arrived half an hour late.",
+      "ru": "Я прибыл с опозданием на полчаса.",
+      "source": "14/curated-context"
+    }
+  },
+  "14/h2:14": {
+    "accept": [
+      "notice"
+    ],
+    "bad": [],
+    "closed": true,
+    "why": "Did not + V1, не noticed.",
+    "example": {
+      "en": "I did not notice the time.",
+      "ru": "Я не заметил, сколько времени прошло.",
+      "source": "14/curated-context"
+    }
+  },
+  "14/h3:0": {
+    "accept": [
+      "go"
+    ],
+    "bad": [],
+    "closed": true,
+    "why": "После did not нужен V1 go, не went.",
+    "example": {
+      "en": "My alarm did not go off.",
+      "ru": "Мой будильник не прозвенел.",
+      "source": "14/curated-context"
+    }
+  },
+  "14/h3:1": {
+    "accept": [
+      "woke"
+    ],
+    "bad": [],
+    "closed": true,
+    "why": "Wake → woke в Past Simple.",
+    "example": {
+      "en": "I woke up late yesterday.",
+      "ru": "Вчера я поздно проснулся.",
+      "source": "14/curated-context"
+    }
+  },
+  "14/h3:2": {
+    "accept": [
+      "connection"
+    ],
+    "bad": [],
+    "closed": true,
+    "why": "Connection — пересадка/стыковочный транспорт.",
+    "example": {
+      "en": "The first train was late, so I missed my connection.",
+      "ru": "Первый поезд опоздал, поэтому я не успел на пересадку.",
+      "source": "14/curated-context"
+    }
+  },
+  "14/h3:3": {
+    "accept": [
+      "lost"
+    ],
+    "bad": [],
+    "closed": true,
+    "why": "Lose → lost.",
+    "example": {
+      "en": "I lost my wallet yesterday.",
+      "ru": "Вчера я потерял кошелёк.",
+      "source": "14/curated-context"
+    }
+  },
+  "14/h3:4": {
+    "accept": [
+      "cancel"
+    ],
+    "bad": [],
+    "closed": true,
+    "why": "Had to + V1; cancel cards в контексте банка.",
+    "example": {
+      "en": "I had to cancel my cards.",
+      "ru": "Мне пришлось заблокировать мои карты.",
+      "source": "14/curated-context"
+    }
+  },
+  "14/h3:5": {
+    "accept": [
+      "emergency"
+    ],
+    "bad": [],
+    "closed": true,
+    "why": "A family emergency — экстренная семейная ситуация.",
+    "example": {
+      "en": "I had a family emergency.",
+      "ru": "У меня случилась экстренная семейная ситуация.",
+      "source": "14/curated-context"
+    }
+  },
+  "14/h3:6": {
+    "accept": [
+      "fell"
+    ],
+    "bad": [],
+    "closed": true,
+    "why": "Fall → fell; fail и foul — другие слова.",
+    "example": {
+      "en": "He fell over yesterday.",
+      "ru": "Вчера он упал.",
+      "source": "14/curated-context"
+    }
+  },
+  "14/h3:7": {
+    "accept": [
+      "cut"
+    ],
+    "bad": [],
+    "closed": true,
+    "why": "Cut имеет ту же форму в прошлом.",
+    "example": {
+      "en": "He cut his head when he fell.",
+      "ru": "Он порезал голову, когда упал.",
+      "source": "14/curated-context"
+    }
+  },
+  "14/h3:8": {
+    "accept": [
+      "broke"
+    ],
+    "bad": [],
+    "closed": true,
+    "why": "Break → broke.",
+    "example": {
+      "en": "The bus broke down yesterday.",
+      "ru": "Вчера автобус сломался.",
+      "source": "14/curated-context"
+    }
+  },
+  "14/h3:9": {
+    "accept": [
+      "of"
+    ],
+    "bad": [],
+    "closed": true,
+    "why": "The rest of — оставшаяся часть.",
+    "example": {
+      "en": "I walked the rest of the way.",
+      "ru": "Я прошёл оставшуюся часть пути пешком.",
+      "source": "14/curated-context"
+    }
+  },
+  "14/h3:10": {
+    "accept": [
+      "got"
+    ],
+    "bad": [],
+    "closed": true,
+    "why": "Get lost → got lost.",
+    "example": {
+      "en": "I got lost yesterday.",
+      "ru": "Вчера я заблудился.",
+      "source": "14/curated-context"
+    }
+  },
+  "14/h3:11": {
+    "accept": [
+      "turning",
+      "turn"
+    ],
+    "bad": [],
+    "closed": true,
+    "why": "A wrong turning/turn — неправильный поворот.",
+    "example": {
+      "en": "I took a wrong turning.",
+      "ru": "Я свернул не туда.",
+      "source": "14/curated-context"
+    }
+  },
+  "14/h3:12": {
+    "accept": [
+      "was"
+    ],
+    "bad": [],
+    "closed": true,
+    "why": "Was delayed — готовое сочетание в прошлом.",
+    "example": {
+      "en": "My train was delayed yesterday.",
+      "ru": "Вчера мой поезд задержали.",
+      "source": "14/curated-context"
+    }
+  },
+  "14/h3:13": {
+    "accept": [
+      "an"
+    ],
+    "bad": [],
+    "closed": true,
+    "why": "An перед hour, так как h не произносится.",
+    "example": {
+      "en": "I arrived half an hour late.",
+      "ru": "Я прибыл с опозданием на полчаса.",
+      "source": "14/curated-context"
+    }
+  },
+  "14/h3:14": {
+    "accept": [
+      "notice"
+    ],
+    "bad": [],
+    "closed": true,
+    "why": "Did not + V1, не noticed.",
+    "example": {
+      "en": "I did not notice the time.",
+      "ru": "Я не заметил, сколько времени прошло.",
+      "source": "14/curated-context"
+    }
+  },
+  "14/h4:0": {
+    "accept": [
+      "My alarm did not go off.",
+      "My alarm didn't go off."
+    ],
+    "bad": [],
+    "closed": true,
+    "why": "go off — сработать; did not + V1, без прошедшего went.",
+    "example": {
+      "en": "The alarm did not go off this morning.",
+      "ru": "Сегодня утром будильник не прозвенел.",
+      "source": "14/related-original-example"
+    },
+    "wordBank": {
+      "required": [
+        "My",
+        "alarm",
+        "did",
+        "not",
+        "go",
+        "off"
+      ],
+      "alternatives": [
+        "didn't"
+      ],
+      "distractors": [
+        "is",
+        "are",
+        "am"
+      ]
+    },
+    "translation": "Мой будильник не прозвенел.",
+    "prompt": "Мой будильник не прозвенел."
+  },
+  "14/h4:1": {
+    "accept": [
+      "I woke up late."
+    ],
+    "bad": [],
+    "closed": true,
+    "why": "wake → woke; up сохраняется в wake up.",
+    "example": {
+      "en": "I woke up late yesterday.",
+      "ru": "Вчера я поздно проснулся.",
+      "source": "14/related-original-example"
+    },
+    "wordBank": {
+      "required": [
+        "I",
+        "woke",
+        "up",
+        "late"
+      ],
+      "alternatives": [],
+      "distractors": [
+        "is",
+        "are",
+        "am"
+      ]
+    },
+    "translation": "Я поздно проснулся.",
+    "prompt": "Я поздно проснулся."
+  },
+  "14/h4:2": {
+    "accept": [
+      "I missed my connection."
+    ],
+    "bad": [],
+    "closed": true,
+    "why": "missed my connection — не успел на стыковочный транспорт; my перед существительным.",
+    "example": {
+      "en": "The first train was late, so I missed my connection.",
+      "ru": "Первый поезд опоздал, поэтому я не успел на стыковочный поезд.",
+      "source": "14/related-original-example"
+    },
+    "wordBank": {
+      "required": [
+        "I",
+        "missed",
+        "my",
+        "connection"
+      ],
+      "alternatives": [],
+      "distractors": [
+        "is",
+        "are",
+        "am"
+      ]
+    },
+    "translation": "Я не успел на пересадку.",
+    "prompt": "Я не успел на пересадку."
+  },
+  "14/h4:3": {
+    "accept": [
+      "I lost my wallet."
+    ],
+    "bad": [],
+    "closed": true,
+    "why": "lose → lost; wallet — кошелёк.",
+    "example": {
+      "en": "I lost my wallet yesterday.",
+      "ru": "Вчера я потерял кошелёк.",
+      "source": "14/related-original-example"
+    },
+    "wordBank": {
+      "required": [
+        "I",
+        "lost",
+        "my",
+        "wallet"
+      ],
+      "alternatives": [],
+      "distractors": [
+        "is",
+        "are",
+        "am"
+      ]
+    },
+    "translation": "Я потерял кошелёк.",
+    "prompt": "Я потерял кошелёк."
+  },
+  "14/h4:4": {
+    "accept": [
+      "I had to cancel my cards."
+    ],
+    "bad": [],
+    "closed": true,
+    "why": "had to + V1 cancel; в контексте банка cancel cards — отменить/заблокировать карты.",
+    "example": {
+      "en": "I had a family emergency.",
+      "ru": "У меня случилась экстренная семейная ситуация.",
+      "source": "14/related-original-example"
+    },
+    "wordBank": {
+      "required": [
+        "I",
+        "had",
+        "to",
+        "cancel",
+        "my",
+        "cards"
+      ],
+      "alternatives": [],
+      "distractors": [
+        "is",
+        "are",
+        "am"
+      ]
+    },
+    "translation": "Мне пришлось заблокировать мои банковские карты.",
+    "prompt": "Мне пришлось заблокировать мои банковские карты."
+  },
+  "14/h4:5": {
+    "accept": [
+      "I had a family emergency."
+    ],
+    "bad": [],
+    "closed": true,
+    "why": "had — прошедшее have; a family emergency — одно событие, а не «я глава семьи».",
+    "example": {
+      "en": "I had to cancel my cards.",
+      "ru": "Мне пришлось заблокировать мои банковские карты.",
+      "source": "14/related-original-example"
+    },
+    "wordBank": {
+      "required": [
+        "I",
+        "had",
+        "a",
+        "family",
+        "emergency"
+      ],
+      "alternatives": [],
+      "distractors": [
+        "is",
+        "are",
+        "am"
+      ]
+    },
+    "translation": "У меня случилась экстренная семейная ситуация.",
+    "prompt": "У меня случилась экстренная семейная ситуация."
+  },
+  "14/h4:6": {
+    "accept": [
+      "He fell over."
+    ],
+    "bad": [],
+    "closed": true,
+    "why": "fall → fell; fell over — упал.",
+    "example": {
+      "en": "He fell over and cut his head.",
+      "ru": "Он упал и порезал голову.",
+      "source": "14/related-original-example"
+    },
+    "wordBank": {
+      "required": [
+        "He",
+        "fell",
+        "over"
+      ],
+      "alternatives": [],
+      "distractors": [
+        "is",
+        "are",
+        "am"
+      ]
+    },
+    "translation": "Он упал.",
+    "prompt": "Он упал."
+  },
+  "14/h4:7": {
+    "accept": [
+      "He cut his head."
+    ],
+    "bad": [],
+    "closed": true,
+    "why": "Прошедшая форма cut тоже cut; his head, без a перед his.",
+    "example": {
+      "en": "He fell over and cut his head.",
+      "ru": "Он упал и порезал голову.",
+      "source": "14/related-original-example"
+    },
+    "wordBank": {
+      "required": [
+        "He",
+        "cut",
+        "his",
+        "head"
+      ],
+      "alternatives": [],
+      "distractors": [
+        "is",
+        "are",
+        "am"
+      ]
+    },
+    "translation": "Он порезал голову.",
+    "prompt": "Он порезал голову."
+  },
+  "14/h4:8": {
+    "accept": [
+      "The bus broke down."
+    ],
+    "bad": [],
+    "closed": true,
+    "why": "break down → broke down; the bus — конкретный автобус.",
+    "example": {
+      "en": "The bus broke down near the bridge.",
+      "ru": "Автобус сломался возле моста.",
+      "source": "14/related-original-example"
+    },
+    "wordBank": {
+      "required": [
+        "The",
+        "bus",
+        "broke",
+        "down"
+      ],
+      "alternatives": [],
+      "distractors": [
+        "is",
+        "are",
+        "am"
+      ]
+    },
+    "translation": "Автобус сломался.",
+    "prompt": "Автобус сломался."
+  },
+  "14/h4:9": {
+    "accept": [
+      "I walked the rest of the way."
+    ],
+    "bad": [],
+    "closed": true,
+    "why": "walked + the rest of the way; обязательно of, не on.",
+    "example": {
+      "en": "We had to walk the rest of the way home.",
+      "ru": "Нам пришлось пройти оставшийся путь домой пешком.",
+      "source": "14/related-original-example"
+    },
+    "wordBank": {
+      "required": [
+        "I",
+        "walked",
+        "the",
+        "rest",
+        "of",
+        "the",
+        "way"
+      ],
+      "alternatives": [],
+      "distractors": [
+        "is",
+        "are",
+        "am"
+      ]
+    },
+    "translation": "Я прошёл оставшийся путь пешком.",
+    "prompt": "Я прошёл оставшийся путь пешком."
+  },
+  "14/h4:10": {
+    "accept": [
+      "I got lost."
+    ],
+    "bad": [],
+    "closed": true,
+    "why": "get lost → got lost; это изменение состояния.",
+    "example": {
+      "en": "I lost my wallet.",
+      "ru": "Я потерял кошелёк.",
+      "source": "14/related-original-example"
+    },
+    "wordBank": {
+      "required": [
+        "I",
+        "got",
+        "lost"
+      ],
+      "alternatives": [],
+      "distractors": [
+        "is",
+        "are",
+        "am"
+      ]
+    },
+    "translation": "Я заблудился.",
+    "prompt": "Я заблудился."
+  },
+  "14/h4:11": {
+    "accept": [
+      "I took a wrong turning.",
+      "I took a wrong turn."
+    ],
+    "bad": [],
+    "closed": true,
+    "why": "take → took; a wrong turning — существительное с артиклем.",
+    "example": {
+      "en": "The journey took half an hour.",
+      "ru": "Поездка заняла полчаса.",
+      "source": "14/related-original-example"
+    },
+    "wordBank": {
+      "required": [
+        "I",
+        "took",
+        "a",
+        "wrong",
+        "turning"
+      ],
+      "alternatives": [
+        "turn"
+      ],
+      "distractors": [
+        "is",
+        "are",
+        "am"
+      ]
+    },
+    "translation": "Я свернул не туда.",
+    "prompt": "Я свернул не туда."
+  },
+  "14/h4:12": {
+    "accept": [
+      "My train was delayed.",
+      "My train got delayed."
+    ],
+    "bad": [],
+    "closed": true,
+    "why": "was delayed — готовое сочетание с be; не добавляй did перед was.",
+    "example": {
+      "en": "The traffic delayed us.",
+      "ru": "Дорожное движение задержало нас.",
+      "source": "14/related-original-example"
+    },
+    "wordBank": {
+      "required": [
+        "My",
+        "train",
+        "was",
+        "delayed"
+      ],
+      "alternatives": [
+        "got"
+      ],
+      "distractors": [
+        "is",
+        "are",
+        "am"
+      ]
+    },
+    "translation": "Мой поезд задержали.",
+    "prompt": "Мой поезд задержали."
+  },
+  "14/h4:13": {
+    "accept": [
+      "I arrived half an hour late.",
+      "I arrived thirty minutes late."
+    ],
+    "bad": [],
+    "closed": true,
+    "why": "arrived — прошлое arrive; half an hour late — на полчаса позже.",
+    "example": {
+      "en": "The journey took half an hour.",
+      "ru": "Поездка заняла полчаса.",
+      "source": "14/related-original-example"
+    },
+    "wordBank": {
+      "required": [
+        "I",
+        "arrived",
+        "half",
+        "an",
+        "hour",
+        "late"
+      ],
+      "alternatives": [
+        "thirty",
+        "minutes"
+      ],
+      "distractors": [
+        "is",
+        "are",
+        "am"
+      ]
+    },
+    "translation": "Я прибыл с опозданием на полчаса.",
+    "prompt": "Я прибыл с опозданием на полчаса."
+  },
+  "14/h4:14": {
+    "accept": [
+      "I did not notice the time.",
+      "I didn't notice the time."
+    ],
+    "bad": [],
+    "closed": true,
+    "why": "did not + notice в начальной форме; notice the time — обратить внимание на время.",
+    "example": {
+      "en": "Finally, I noticed the time.",
+      "ru": "Наконец я обратил внимание на время.",
+      "source": "14/related-original-example"
+    },
+    "wordBank": {
+      "required": [
+        "I",
+        "did",
+        "not",
+        "notice",
+        "the",
+        "time"
+      ],
+      "alternatives": [
+        "didn't"
+      ],
+      "distractors": [
+        "is",
+        "are",
+        "am"
+      ]
+    },
+    "translation": "Я не заметил, сколько времени прошло.",
+    "prompt": "Я не заметил, сколько времени прошло."
+  },
+  "14/h5:0": {
+    "accept": [
+      "My alarm did not go off.",
+      "My alarm didn't go off."
+    ],
+    "bad": [],
+    "closed": false,
+    "why": "go off — сработать; did not + V1, без прошедшего went.",
+    "example": {
+      "en": "The alarm did not go off this morning.",
+      "ru": "Сегодня утром будильник не прозвенел.",
+      "source": "14/related-original-example"
+    }
+  },
+  "14/h5:1": {
+    "accept": [
+      "I woke up late."
+    ],
+    "bad": [],
+    "closed": false,
+    "why": "wake → woke; up сохраняется в wake up.",
+    "example": {
+      "en": "I woke up late yesterday.",
+      "ru": "Вчера я поздно проснулся.",
+      "source": "14/related-original-example"
+    }
+  },
+  "14/h5:2": {
+    "accept": [
+      "I missed my connection."
+    ],
+    "bad": [],
+    "closed": false,
+    "why": "missed my connection — не успел на стыковочный транспорт; my перед существительным.",
+    "example": {
+      "en": "The first train was late, so I missed my connection.",
+      "ru": "Первый поезд опоздал, поэтому я не успел на стыковочный поезд.",
+      "source": "14/related-original-example"
+    }
+  },
+  "14/h5:3": {
+    "accept": [
+      "I lost my wallet."
+    ],
+    "bad": [],
+    "closed": false,
+    "why": "lose → lost; wallet — кошелёк.",
+    "example": {
+      "en": "I lost my wallet yesterday.",
+      "ru": "Вчера я потерял кошелёк.",
+      "source": "14/related-original-example"
+    }
+  },
+  "14/h5:4": {
+    "accept": [
+      "I had to cancel my cards."
+    ],
+    "bad": [],
+    "closed": false,
+    "why": "had to + V1 cancel; в контексте банка cancel cards — отменить/заблокировать карты.",
+    "example": {
+      "en": "I had a family emergency.",
+      "ru": "У меня случилась экстренная семейная ситуация.",
+      "source": "14/related-original-example"
+    }
+  },
+  "14/h5:5": {
+    "accept": [
+      "I had a family emergency."
+    ],
+    "bad": [],
+    "closed": false,
+    "why": "had — прошедшее have; a family emergency — одно событие, а не «я глава семьи».",
+    "example": {
+      "en": "I had to cancel my cards.",
+      "ru": "Мне пришлось заблокировать мои банковские карты.",
+      "source": "14/related-original-example"
+    }
+  },
+  "14/h5:6": {
+    "accept": [
+      "He fell over."
+    ],
+    "bad": [],
+    "closed": false,
+    "why": "fall → fell; fell over — упал.",
+    "example": {
+      "en": "He fell over and cut his head.",
+      "ru": "Он упал и порезал голову.",
+      "source": "14/related-original-example"
+    }
+  },
+  "14/h5:7": {
+    "accept": [
+      "He cut his head."
+    ],
+    "bad": [],
+    "closed": false,
+    "why": "Прошедшая форма cut тоже cut; his head, без a перед his.",
+    "example": {
+      "en": "He fell over and cut his head.",
+      "ru": "Он упал и порезал голову.",
+      "source": "14/related-original-example"
+    }
+  },
+  "14/h5:8": {
+    "accept": [
+      "The bus broke down."
+    ],
+    "bad": [],
+    "closed": false,
+    "why": "break down → broke down; the bus — конкретный автобус.",
+    "example": {
+      "en": "The bus broke down near the bridge.",
+      "ru": "Автобус сломался возле моста.",
+      "source": "14/related-original-example"
+    }
+  },
+  "14/h5:9": {
+    "accept": [
+      "I walked the rest of the way."
+    ],
+    "bad": [],
+    "closed": false,
+    "why": "walked + the rest of the way; обязательно of, не on.",
+    "example": {
+      "en": "We had to walk the rest of the way home.",
+      "ru": "Нам пришлось пройти оставшийся путь домой пешком.",
+      "source": "14/related-original-example"
+    }
+  },
+  "14/h5:10": {
+    "accept": [
+      "I got lost."
+    ],
+    "bad": [],
+    "closed": false,
+    "why": "get lost → got lost; это изменение состояния.",
+    "example": {
+      "en": "I lost my wallet.",
+      "ru": "Я потерял кошелёк.",
+      "source": "14/related-original-example"
+    }
+  },
+  "14/h5:11": {
+    "accept": [
+      "I took a wrong turning.",
+      "I took a wrong turn."
+    ],
+    "bad": [],
+    "closed": false,
+    "why": "take → took; a wrong turning — существительное с артиклем.",
+    "example": {
+      "en": "The journey took half an hour.",
+      "ru": "Поездка заняла полчаса.",
+      "source": "14/related-original-example"
+    }
+  },
+  "14/h5:12": {
+    "accept": [
+      "My train was delayed.",
+      "My train got delayed."
+    ],
+    "bad": [],
+    "closed": false,
+    "why": "was delayed — готовое сочетание с be; не добавляй did перед was.",
+    "example": {
+      "en": "The traffic delayed us.",
+      "ru": "Дорожное движение задержало нас.",
+      "source": "14/related-original-example"
+    }
+  },
+  "14/h5:13": {
+    "accept": [
+      "I arrived half an hour late.",
+      "I arrived thirty minutes late."
+    ],
+    "bad": [],
+    "closed": false,
+    "why": "arrived — прошлое arrive; half an hour late — на полчаса позже.",
+    "example": {
+      "en": "The journey took half an hour.",
+      "ru": "Поездка заняла полчаса.",
+      "source": "14/related-original-example"
+    }
+  },
+  "14/h5:14": {
+    "accept": [
+      "I did not notice the time.",
+      "I didn't notice the time."
+    ],
+    "bad": [],
+    "closed": false,
+    "why": "did not + notice в начальной форме; notice the time — обратить внимание на время.",
+    "example": {
+      "en": "Finally, I noticed the time.",
+      "ru": "Наконец я обратил внимание на время.",
+      "source": "14/related-original-example"
+    }
   }
 }

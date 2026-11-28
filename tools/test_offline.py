@@ -30,7 +30,7 @@ try:
   browser=p.chromium.launch();context=browser.new_context(service_workers='block');page=context.new_page()
   page.route(url+'/',lambda r:r.fulfill(body=html,content_type='text/html'));page.goto(url)
   result=page.evaluate('''()=>{const T=__offlineTest;let references=0,builds=0,recognition=0;
-   for(const row of ENGLISH_LESSONS.index)for(const mode of ['l2','l3','l4','l5','fix',...(row.id==='13'?['h1','h2','h3','h4','h5']:[])])for(const q of T.poolFor(ENGLISH_LESSONS[row.id],mode)){
+   for(const row of ENGLISH_LESSONS.index)for(const mode of ['l2','l3','l4','l5','fix',...Object.keys(ENGLISH_LESSONS[row.id].homeworkPractice||{})])for(const q of T.poolFor(ENGLISH_LESSONS[row.id],mode)){
     const rule=ENGLISH_LESSONS.answerRules[row.id+'/'+q.key],B={checked:true,lesson:row.id,answers:{}};
     if(q.kind==='choice'){B.answers[q.key]=q.correctIndex;if(T.grade(q,B)!==true)throw Error(row.id+q.key);references++;continue;}
     for(const a of rule.accept){B.answers[q.key]=a;if(T.grade({...q,kind:'text'},B)!==true)throw Error(row.id+q.key+a);references++;

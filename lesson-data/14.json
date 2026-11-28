@@ -1,0 +1,2931 @@
+{
+  "id": "14",
+  "num": "14",
+  "title": "Getting there — закрепление / Sorry, I'm late",
+  "date": "28.11",
+  "summary": "Вопросы с do/does, be, can и did; объяснение маршрута; первые связные рассказы о причинах опоздания в Past Simple. Отдельные конструкции need to, have/had to и would you like. Это закрепление и начало следующего блока, не весь курс модальных глаголов и не Past Continuous.",
+  "theory": [
+    {
+      "h": "Вопросы с do и does",
+      "text": [
+        "Для привычек и обычных действий в Present Simple нужен помощник do/does. В специальном вопросе перед ним ставим where/how/what.",
+        "**Формула:** (Where/How/What) + do/does + кто + V1?",
+        "**Граница темы:** Практика и закрепление урока 14"
+      ],
+      "ex": [
+        [
+          "Where do you work?",
+          "Где ты работаешь?"
+        ],
+        [
+          "How does she get to work?",
+          "Как она добирается на работу?"
+        ]
+      ],
+      "warn": [
+        "Does she works? → Does she work? Does уже показывает третье лицо.",
+        "Do you live here? — вопрос; You live here. — утверждение."
+      ],
+      "practice": {
+        "q": "Спроси: где он живёт?",
+        "a": "Where does he live?"
+      }
+    },
+    {
+      "h": "Be — тоже глагол: am, is, are",
+      "text": [
+        "Be связывает человека/предмет с состоянием, профессией или местом. В She is a doctor глагол — is. В Are you waiting? be помогает построить Continuous. Не говорим «здесь нет глагола».",
+        "**Формула:** Кто + am/is/are + описание; вопрос: (Where/How/What) + am/is/are + кто + описание?",
+        "**Граница темы:** Практика и закрепление урока 14"
+      ],
+      "ex": [
+        [
+          "She is a doctor. Is she a doctor?",
+          "Она врач. Она врач?"
+        ],
+        [
+          "Where are you? I am near the supermarket.",
+          "Где ты? Я возле супермаркета."
+        ]
+      ],
+      "warn": [
+        "I near the supermarket. → I am near the supermarket.",
+        "Do you are late? → Are you late? Для be отдельный do не нужен."
+      ],
+      "practice": {
+        "q": "Спроси: ты опаздываешь?",
+        "a": "Are you late?"
+      }
+    },
+    {
+      "h": "Be в прошлом: was и were",
+      "text": [
+        "Для состояния или места в прошлом используем was/were. I/he/she/it — was; you/we/they — were. Вопрос меняет их местами с подлежащим.",
+        "**Формула:** Кто + was/were; (Why/Where) + was/were + кто?",
+        "**Граница темы:** Нужные формы прошлого; отдельная тренировка, не оценка освоения всего Past Simple"
+      ],
+      "ex": [
+        [
+          "Why were you late?",
+          "Почему ты опоздал?"
+        ],
+        [
+          "Was the train late? It was late.",
+          "Поезд опоздал? Он опоздал."
+        ]
+      ],
+      "warn": [
+        "Did you be late? → Were you late?",
+        "They was at the station. → They were at the station."
+      ],
+      "practice": {
+        "q": "Скажи: нас вчера не было дома.",
+        "a": "We were not at home yesterday. / We weren’t at home yesterday."
+      }
+    },
+    {
+      "h": "Can you help me? и You can help me",
+      "text": [
+        "Can — модальный глагол. После него нужен смысловой глагол в начальной форме без to. В вопросе can идёт перед подлежащим.",
+        "**Формула:** Кто + can + V1; Can + кто + V1?; How can + кто + V1?",
+        "**Граница темы:** Разобрана can-конструкция; may/might/must упомянуты, но полный курс модальных глаголов не пройден"
+      ],
+      "ex": [
+        [
+          "You can help me. Can you help me?",
+          "Ты можешь мне помочь. Можешь мне помочь?"
+        ],
+        [
+          "How can I find the museum?",
+          "Как мне найти музей?"
+        ]
+      ],
+      "warn": [
+        "Can to find → can find.",
+        "How I can find it? → How can I find it? В прямом вопросе меняем порядок."
+      ],
+      "practice": {
+        "q": "Спроси: могу я здесь перейти дорогу?",
+        "a": "Can I cross the road here?"
+      }
+    },
+    {
+      "h": "Прямой вопрос и вежливая рамка",
+      "text": [
+        "В прямом вопросе can идёт перед I. Внутри Can you tell me … порядок обычный: I can. Это два разных уровня предложения.",
+        "**Формула:** How can I get to …? / Can you tell me how I can get to …?",
+        "**Граница темы:** Практика и закрепление урока 14"
+      ],
+      "ex": [
+        [
+          "How can I get to the bookshop?",
+          "Как мне добраться до книжного магазина?"
+        ],
+        [
+          "Can you tell me where the station is?",
+          "Можете сказать, где находится станция?"
+        ]
+      ],
+      "warn": [
+        "Can you tell me where is the station? → … where the station is?",
+        "Tell me how I can find it — внутри how I can правильно; лишние to и форма found после can не нужны."
+      ],
+      "practice": {
+        "q": "Спроси вежливо, где музей.",
+        "a": "Can you tell me where the museum is?"
+      }
+    },
+    {
+      "h": "Need to, have to и had to",
+      "text": [
+        "Need to — нужно; have/has to — необходимость; had to — пришлось в прошлом. Need/have в этих конструкциях ведут себя как обычные глаголы. Они не равны can.",
+        "**Формула:** need to + V1; have/has to + V1; had to + V1",
+        "**Граница темы:** Отдельные конструкции необходимости; не объявляем всю тему модальных глаголов пройденной"
+      ],
+      "ex": [
+        [
+          "You need to turn left.",
+          "Тебе нужно повернуть налево."
+        ],
+        [
+          "I had to walk the rest of the way.",
+          "Мне пришлось пройти оставшийся путь пешком."
+        ]
+      ],
+      "warn": [
+        "You need turn left. → You need to turn left.",
+        "I had to walked. → I had to walk. Прошлое уже обозначено had."
+      ],
+      "practice": {
+        "q": "Спроси: тебе нужно идти пешком?",
+        "a": "Do you need to walk?"
+      }
+    },
+    {
+      "h": "Would you like — вежливо о желании",
+      "text": [
+        "Would you like …? — вежливое предложение или вопрос о предпочтении. С существительным to не нужно; перед действием — to + V1. Do you want …? тоже грамматически правильно, но прямее по тону.",
+        "**Формула:** Would you like + предмет? / Would you like to + V1?",
+        "**Граница темы:** Практика и закрепление урока 14"
+      ],
+      "ex": [
+        [
+          "Would you like some tea?",
+          "Хотите чаю?"
+        ],
+        [
+          "Which bookshop would you like to find?",
+          "Какой книжный магазин вы хотели бы найти?"
+        ]
+      ],
+      "warn": [
+        "Would you like find it? → Would you like to find it?",
+        "Не называем всякий вопрос с want грубой или грамматически неверной фразой."
+      ],
+      "practice": {
+        "q": "Предложи собеседнику пойти пешком.",
+        "a": "Would you like to walk?"
+      }
+    },
+    {
+      "h": "Повернуть, находиться справа и сам поворот",
+      "text": [
+        "Turn left/right — действие. On your left/right — местоположение относительно человека. A left/right turn и a turning — существительные в дорожном контексте.",
+        "**Формула:** Turn left/right; предмет + be + on your left/right; take a left/right turn",
+        "**Граница темы:** Практика и закрепление урока 14"
+      ],
+      "ex": [
+        [
+          "Turn left at the lights. The bank is on your right.",
+          "Поверните налево у светофора. Банк справа от вас."
+        ],
+        [
+          "I took a wrong turning.",
+          "Я свернул не туда."
+        ]
+      ],
+      "warn": [
+        "Turn on the left. → Turn left. On your left отвечает на вопрос «где?».",
+        "В take a wrong turning слово turning — существительное «поворот», а не автоматически глагол из-за -ing."
+      ],
+      "practice": {
+        "q": "Переведи: «поверните направо» и «кафе справа от вас».",
+        "a": "Turn right. / The café is on your right."
+      }
+    },
+    {
+      "h": "Маршрут: движение и ориентиры",
+      "text": [
+        "Go down the road — идите по дороге; это не обязательно спуск вниз. Go past — минуйте ориентир. Cross (over) the road — пересеките дорогу. Turn around — развернитесь.",
+        "**Формула:** go down + дорога; go past + ориентир; cross (over) + дорога; turn around",
+        "**Граница темы:** Практика и закрепление урока 14"
+      ],
+      "ex": [
+        [
+          "Go down the road and go past the mosque.",
+          "Идите по дороге и пройдите мимо мечети."
+        ],
+        [
+          "Turn around and cross the road at the crossing.",
+          "Развернитесь и перейдите дорогу по переходу."
+        ]
+      ],
+      "warn": [
+        "Go past не значит пройти сквозь здание; through — внутри/насквозь.",
+        "Право и лево в инструкции — относительно направления движения слушателя. Геометрию отсутствующей исходной карты не выдумываем."
+      ],
+      "practice": {
+        "q": "Объясни: пройдите мимо церкви и развернитесь.",
+        "a": "Go past the church and turn around."
+      }
+    },
+    {
+      "h": "Get to, reach и until",
+      "text": [
+        "Get to the station и reach the station — добраться до станции; после reach предлог to не нужен. До события используем until you see/get to/reach. Until также бывает предлогом времени: until Monday, until five o’clock.",
+        "**Формула:** get to + место; reach + место; until + кто + глагол; until + время",
+        "**Граница темы:** Практика и закрепление урока 14"
+      ],
+      "ex": [
+        [
+          "Walk until you get to the crossroads.",
+          "Идите, пока не дойдёте до перекрёстка."
+        ],
+        [
+          "Wait here until five o’clock.",
+          "Подождите здесь до пяти часов."
+        ],
+        [
+          "Go straight until you reach the station.",
+          "Идите прямо, пока не дойдёте до станции."
+        ]
+      ],
+      "warn": [
+        "Get on the crossroads → get to the crossroads. Get on — сесть на транспорт или встать на поверхность.",
+        "Reach to the station → reach the station. Для расстояния до места проще go to / as far as; правило «после until всегда глагол» неверно."
+      ],
+      "practice": {
+        "q": "Вставь: walk until you ___ the station; wait here until ___.",
+        "a": "reach / five o’clock"
+      }
+    },
+    {
+      "h": "Near, close to, nearby и opposite",
+      "text": [
+        "Near + место и close to + место — рядом с. Nearby — поблизости, часто без названного объекта. Opposite + ориентир — напротив. Для положения человеку нужен be.",
+        "**Формула:** be near + место; be close to + место; be nearby; be opposite + место",
+        "**Граница темы:** Практика и закрепление урока 14"
+      ],
+      "ex": [
+        [
+          "I am near the supermarket. The bank is nearby.",
+          "Я возле супермаркета. Банк поблизости."
+        ],
+        [
+          "The museum is opposite the bookshop.",
+          "Музей напротив книжного магазина."
+        ]
+      ],
+      "warn": [
+        "I near with supermarket. → I am near the supermarket. Near не требует with.",
+        "Close the station → close to the station. Здесь to относится к close to."
+      ],
+      "practice": {
+        "q": "Скажи двумя способами: кафе рядом со станцией.",
+        "a": "The café is near the station. / The café is close to the station."
+      }
+    },
+    {
+      "h": "First, then, after that и at first",
+      "text": [
+        "First начинает последовательность инструкций. Then и after that добавляют следующие шаги. At first описывает начальное положение дел, которое затем изменилось.",
+        "**Формула:** First, действие. Then / After that, следующее действие. / At first …, but then …",
+        "**Граница темы:** Практика и закрепление урока 14"
+      ],
+      "ex": [
+        [
+          "First, go down the road. Then turn right.",
+          "Сначала идите по дороге. Затем поверните направо."
+        ],
+        [
+          "At first, I was lost, but then I found the station.",
+          "Сначала я заблудился, но потом нашёл станцию."
+        ]
+      ],
+      "warn": [
+        "At first не используем как стандартный номер первого шага маршрута.",
+        "After that — после этого; after + существительное, например after the meeting."
+      ],
+      "practice": {
+        "q": "Начни маршрут словами «сначала…, потом…».",
+        "a": "First, go straight. Then turn left."
+      }
+    },
+    {
+      "h": "Past Simple: законченные действия",
+      "text": [
+        "Когда рассказываем о завершённой причине опоздания, ставим смысловой глагол в прошлом. Правильные глаголы обычно получают -ed; неправильные имеют отдельную форму.",
+        "**Формула:** Кто + V2 / V-ed; yesterday, this morning, then",
+        "**Граница темы:** Начато применение Past Simple в рассказе; Past Continuous на этом занятии не разобран"
+      ],
+      "ex": [
+        [
+          "I lost my wallet and called the bank.",
+          "Я потерял кошелёк и позвонил в банк."
+        ],
+        [
+          "I woke up late and missed my train.",
+          "Я поздно проснулся и опоздал на поезд."
+        ]
+      ],
+      "warn": [
+        "Yesterday I lose my wallet. → Yesterday I lost my wallet.",
+        "После -ed произношение бывает /t/, /d/, /ɪd/; не читаем все окончания одинаково."
+      ],
+      "practice": {
+        "q": "Назови прошлые формы wake, lose, miss, notice.",
+        "a": "woke, lost, missed, noticed"
+      }
+    },
+    {
+      "h": "Did и didn’t: прошедшее только один раз",
+      "text": [
+        "В отрицании и вопросе did уже показывает прошлое. Следующий смысловой глагол — V1. Be в was/were строит вопрос самостоятельно.",
+        "**Формула:** Кто + did not / didn’t + V1; Did + кто + V1?",
+        "**Граница темы:** Практика и закрепление урока 14"
+      ],
+      "ex": [
+        [
+          "My alarm did not go off.",
+          "Мой будильник не прозвенел."
+        ],
+        [
+          "Did the bus break down? No, it did not break down.",
+          "Автобус сломался? Нет, он не сломался."
+        ]
+      ],
+      "warn": [
+        "Didn’t broke down → didn’t break down.",
+        "Didn’t delayed → didn’t delay (если delay — смысловой глагол). В «поезд задержали» обычно The train was delayed."
+      ],
+      "practice": {
+        "q": "Исправь: Did you lost your wallet?",
+        "a": "Did you lose your wallet?"
+      }
+    },
+    {
+      "h": "Причины опоздания: was late, missed, had to",
+      "text": [
+        "Be late for work — опоздать/опаздывать на работу. Miss a bus/train — не успеть на автобус/поезд. Miss a connection — не успеть на стыковочный транспорт. Had to + V1 объясняет вынужденное действие.",
+        "**Формула:** was/were late for + событие; missed + транспорт; had to + V1",
+        "**Граница темы:** Практика и закрепление урока 14"
+      ],
+      "ex": [
+        [
+          "The first train was late, so I missed my connection.",
+          "Первый поезд опоздал, поэтому я не успел на пересадку."
+        ],
+        [
+          "The bus broke down, so I had to walk the rest of the way.",
+          "Автобус сломался, поэтому мне пришлось пройти оставшийся путь пешком."
+        ]
+      ],
+      "warn": [
+        "I late for work. → I am late for work. / I was late for work.",
+        "Half an hour — полчаса; an hour — час. Arrived half an hour late — прибыл с опозданием на полчаса."
+      ],
+      "practice": {
+        "q": "Скажи: я прибыл на полчаса позже.",
+        "a": "I arrived half an hour late."
+      }
+    },
+    {
+      "h": "Простуда: catch, have и be",
+      "text": [
+        "Catch a cold — простудиться, событие. Have a cold — быть простуженным, состояние. Be sick/ill — болеть. Be cold — мёрзнуть, а не «быть простудой».",
+        "**Формула:** catch/caught a cold; have/has a cold; am/is/are sick or ill",
+        "**Граница темы:** Практика и закрепление урока 14"
+      ],
+      "ex": [
+        [
+          "I caught a cold last week. I have a cold now.",
+          "Я простудился на прошлой неделе. Сейчас у меня простуда."
+        ],
+        [
+          "I am ill today, but I am not cold.",
+          "Сегодня я болею, но мне не холодно."
+        ]
+      ],
+      "warn": [
+        "I’m a cold. → I have a cold. Существительное cold здесь требует have a cold.",
+        "I am cold — мне холодно; это другая мысль. Не считать её переводом «я простудился»."
+      ],
+      "practice": {
+        "q": "Переведи отдельно: «мне холодно» и «у меня простуда».",
+        "a": "I am cold. / I have a cold."
+      }
+    },
+    {
+      "h": "Stay, stand и be near",
+      "text": [
+        "Stay — оставаться или временно жить. Stand — стоять. Be near — находиться рядом; не говорит, стоит человек или сидит. Предлог зависит от смысла места.",
+        "**Формула:** stay at/in + место; stand near + место; be near + место",
+        "**Граница темы:** Практика и закрепление урока 14"
+      ],
+      "ex": [
+        [
+          "I am standing near the supermarket.",
+          "Я стою возле супермаркета."
+        ],
+        [
+          "We stayed at a hotel near the station.",
+          "Мы остановились в отеле возле станции."
+        ]
+      ],
+      "warn": [
+        "I stay on the supermarket не передаёт «я возле супермаркета».",
+        "I am near the supermarket — корректно; лишний with не нужен."
+      ],
+      "practice": {
+        "q": "Скажи: я сейчас возле магазина.",
+        "a": "I am near the shop."
+      }
+    },
+    {
+      "h": "Find, found; fall, fell; fail, foul",
+      "text": [
+        "Find → found — находить → нашёл. Fall → fell — падать → упал. Fail — не справиться; foul — нарушение в спорте. Это разные слова, а не варианты одной формы.",
+        "**Формула:** find–found; fall–fell; fail–failed; a foul",
+        "**Граница темы:** Практика и закрепление урока 14"
+      ],
+      "ex": [
+        [
+          "I found my wallet near the door.",
+          "Я нашёл кошелёк возле двери."
+        ],
+        [
+          "He fell over, but he did not cut his head.",
+          "Он упал, но не порезал голову."
+        ]
+      ],
+      "warn": [
+        "Can found → can find, если речь о «найти». Отдельный found = основывать существует, но не выражает этот смысл.",
+        "Fell — прошлое fall; fail и foul не являются прошедшими формами fall."
+      ],
+      "practice": {
+        "q": "Выбери прошлую форму fall: fell, fail или foul.",
+        "a": "fell"
+      }
+    },
+    {
+      "h": "Miss, alarm и phrasal verbs",
+      "text": [
+        "У miss несколько значений: miss someone — скучать; miss a bus/connection — не успеть. Alarm goes off — будильник звонит/срабатывает. Значение go off учим целиком; здесь off не значит «выключить».",
+        "**Формула:** miss + человек/транспорт; alarm + goes/went off; break/broke down",
+        "**Граница темы:** Практика и закрепление урока 14"
+      ],
+      "ex": [
+        [
+          "I miss my friend, but I did not miss my bus.",
+          "Я скучаю по другу, но на автобус я успел."
+        ],
+        [
+          "My alarm went off at seven.",
+          "Мой будильник прозвенел в семь."
+        ]
+      ],
+      "warn": [
+        "Connection здесь — пересадка/стыковочный транспорт, а не только интернет-соединение.",
+        "My alarm didn’t go off — не прозвенел; the bus broke down — автобус сломался. Это разные причины."
+      ],
+      "practice": {
+        "q": "Что означает My alarm didn’t go off?",
+        "a": "Мой будильник не прозвенел / не сработал."
+      }
+    },
+    {
+      "h": "Из фраз — в свой короткий рассказ",
+      "text": [
+        "Свяжи причину и результат с so, затем выстрой события с first/then/after that/finally. Можно выбрать одну настоящую или вымышленную причину; не нужно соединять все бедствия в один рассказ.",
+        "**Формула:** Причина в прошлом + so + результат. Затем ещё 1–2 шага.",
+        "**Граница темы:** Практика и закрепление урока 14"
+      ],
+      "ex": [
+        [
+          "I missed the bus, so I walked to work.",
+          "Я опоздал на автобус, поэтому пошёл на работу пешком."
+        ],
+        [
+          "Finally, I noticed the time.",
+          "Наконец я обратил внимание на время."
+        ]
+      ],
+      "warn": [
+        "Very more new words → a lot of new words; too many new words — слишком много новых слов.",
+        "Не выдавай учебный пример про family emergency за событие из своей жизни, если этого не было."
+      ],
+      "practice": {
+        "q": "Назови одну свою или вымышленную причину опоздания.",
+        "a": "Ответ собственный. Проверь V2, didn’t + V1 и be в was/were; готовая история за ученика не записывается."
+      }
+    }
+  ],
+  "vocab": [
+    {
+      "en": "area",
+      "ru": "район; местность; область",
+      "pron": "э́эриэ",
+      "why": "in this area — в этом районе"
+    },
+    {
+      "en": "phrase",
+      "ru": "фраза; выражение",
+      "pron": "фрэйз",
+      "why": "a useful phrase — полезная фраза"
+    },
+    {
+      "en": "certain",
+      "ru": "определённый; некоторый; уверенный — по контексту",
+      "pron": "сё́тэн",
+      "why": "certain phrases — определённые фразы"
+    },
+    {
+      "en": "mosque",
+      "ru": "мечеть",
+      "pron": "моск",
+      "why": "near the mosque — возле мечети"
+    },
+    {
+      "en": "turn around",
+      "ru": "развернуться; обернуться",
+      "pron": "тён эра́унд",
+      "why": "turn around here — развернуться здесь"
+    },
+    {
+      "en": "reach",
+      "ru": "достичь; добраться до",
+      "pron": "рич",
+      "why": "Reach + объект без to; reached — прошедшее."
+    },
+    {
+      "en": "left turn",
+      "ru": "поворот налево",
+      "pron": "лэфт тён",
+      "why": "take a left turn — повернуть налево"
+    },
+    {
+      "en": "right turn",
+      "ru": "поворот направо",
+      "pron": "райт тён",
+      "why": "the next right turn — следующий поворот направо"
+    },
+    {
+      "en": "eventually",
+      "ru": "в конце концов, после времени или трудностей",
+      "pron": "ивэ́нчуэли",
+      "why": "Не обязательно «возможно»: это ложное сходство с русскими словами."
+    },
+    {
+      "en": "finally",
+      "ru": "наконец; в завершение",
+      "pron": "фа́йнэли",
+      "why": "finally arrive — наконец прибыть"
+    },
+    {
+      "en": "visitor",
+      "ru": "посетитель; приезжий",
+      "pron": "ви́зитэ",
+      "why": "a visitor to the town — приезжий в городе"
+    },
+    {
+      "en": "obligatory",
+      "ru": "обязательный",
+      "pron": "эбли́гэтори",
+      "why": "an obligatory task — обязательное задание"
+    },
+    {
+      "en": "stand",
+      "ru": "стоять",
+      "pron": "стэнд",
+      "why": "stand–stood; сейчас стою: I am standing. Stay — оставаться."
+    },
+    {
+      "en": "stay",
+      "ru": "оставаться; временно проживать",
+      "pron": "стэй",
+      "why": "stay–stayed; не переводить автоматически как «стоять»."
+    },
+    {
+      "en": "turning",
+      "ru": "поворот; дорога, на которую сворачивают",
+      "pron": "тё́нинг",
+      "why": "В take a wrong turning это исчисляемое существительное. В She is turning слово работает как форма глагола."
+    },
+    {
+      "en": "emergency",
+      "ru": "чрезвычайная; экстренная ситуация",
+      "pron": "имё́джэнси",
+      "why": "Учебные примеры, не утверждение о семье ученика."
+    },
+    {
+      "en": "alarm",
+      "ru": "будильник; сигнал тревоги",
+      "pron": "эла́м",
+      "why": "set an alarm — поставить будильник"
+    },
+    {
+      "en": "connection",
+      "ru": "пересадка; стыковочный транспорт; соединение",
+      "pron": "кэнэ́кшэн",
+      "why": "miss a connection — не успеть на пересадку"
+    },
+    {
+      "en": "notice",
+      "ru": "замечать; обращать внимание",
+      "pron": "но́утис",
+      "why": "noticed — прошлое. A notice как существительное может значить объявление, уведомление."
+    },
+    {
+      "en": "wallet",
+      "ru": "кошелёк",
+      "pron": "во́лит",
+      "why": "lose a wallet — потерять кошелёк"
+    },
+    {
+      "en": "go off",
+      "ru": "сработать; прозвенеть — о будильнике",
+      "pron": "гоу оф",
+      "why": "go–went; здесь off не означает «выключить»."
+    },
+    {
+      "en": "break down",
+      "ru": "сломаться — о транспорте или механизме",
+      "pron": "брэйк да́ун",
+      "why": "break–broke; did/didn’t break down, не broke."
+    },
+    {
+      "en": "the rest of the way",
+      "ru": "оставшаяся часть пути",
+      "pron": "зэ рэст ов зэ уэй",
+      "why": "В сочетании rest of, не rest on."
+    },
+    {
+      "en": "half an hour",
+      "ru": "полчаса",
+      "pron": "хаф эн а́уэ",
+      "why": "Hour начинается с гласного звука; an hour, half an hour."
+    },
+    {
+      "en": "lose",
+      "ru": "терять",
+      "pron": "луз",
+      "why": "lose–lost; lost также встречается в get/be lost."
+    },
+    {
+      "en": "wake up",
+      "ru": "просыпаться; будить",
+      "pron": "уэйк ап",
+      "why": "wake up late — поздно проснуться"
+    },
+    {
+      "en": "miss",
+      "ru": "скучать; пропустить; не успеть",
+      "pron": "мис",
+      "why": "missed — прошлое; значение выбирается по дополнению."
+    },
+    {
+      "en": "delay",
+      "ru": "задерживать; задержка",
+      "pron": "дилэ́й",
+      "why": "delayed — форма и прилагательное; be delayed изучается как готовое сочетание, не как полный курс пассива."
+    },
+    {
+      "en": "cut",
+      "ru": "порезать; резать",
+      "pron": "кат",
+      "why": "В учебном примере cut — порезать, а не просто удариться. Все три формы cut."
+    },
+    {
+      "en": "fall",
+      "ru": "падать",
+      "pron": "фол",
+      "why": "fall–fell–fallen; не путать с fail и foul."
+    },
+    {
+      "en": "catch a cold",
+      "ru": "простудиться",
+      "pron": "кэч э ко́улд",
+      "why": "Catch — событие; have a cold — состояние. I am cold — мне холодно."
+    },
+    {
+      "en": "sick",
+      "ru": "больной; плохо себя чувствующий",
+      "pron": "сик",
+      "why": "be sick — болеть; тошнить — по контексту"
+    },
+    {
+      "en": "ill",
+      "ru": "больной; нездоровый",
+      "pron": "ил",
+      "why": "be ill — болеть"
+    },
+    {
+      "en": "manage to",
+      "ru": "суметь; справиться с действием",
+      "pron": "мэ́нидж ту",
+      "why": "manage to do — суметь сделать"
+    },
+    {
+      "en": "if you don't mind",
+      "ru": "если вы не против",
+      "pron": "иф ю до́унт ма́йнд",
+      "why": "if you don’t mind — если вы не против"
+    },
+    {
+      "en": "additional materials",
+      "ru": "дополнительные материалы",
+      "pron": "эди́шэнэл мэти́эриэлз",
+      "why": "additional learning materials — дополнительные учебные материалы"
+    },
+    {
+      "en": "collocation",
+      "ru": "устойчивое сочетание слов",
+      "pron": "колэкэ́йшэн",
+      "why": "learn a collocation — выучить сочетание"
+    },
+    {
+      "en": "fail",
+      "ru": "не справиться; провалиться",
+      "pron": "фэйл",
+      "why": "fail–failed; не прошедшая форма fall."
+    },
+    {
+      "en": "foul",
+      "ru": "нарушение правил в спорте",
+      "pron": "фаул",
+      "why": "Foul /faʊl/, fall /fɔːl/, fail /feɪl/ — разные слова."
+    },
+    {
+      "en": "route",
+      "ru": "маршрут",
+      "pron": "рут",
+      "why": "Авторские учебные примеры; произношение приблизительное."
+    },
+    {
+      "en": "crossroads",
+      "ru": "перекрёсток",
+      "pron": "кросроудз",
+      "why": "Авторские учебные примеры. Русская запись произношения приблизительная, не IPA."
+    },
+    {
+      "en": "until",
+      "ru": "до тех пор пока; до",
+      "pron": "энтил",
+      "why": "Авторские учебные примеры; произношение приблизительное."
+    },
+    {
+      "en": "cancel",
+      "ru": "отменять; аннулировать; блокировать карту в контексте",
+      "pron": "кэ́нсэл",
+      "why": "Повтор существующей cancelled: cancel — V1, cancelled/canceled — V2/V3; отдельный канонический дубль не создан."
+    },
+    {
+      "en": "get lost",
+      "ru": "заблудиться",
+      "pron": "гет лост",
+      "why": "Новый контекст существующей lost; каноническая запись и старый ID сохранены."
+    },
+    {
+      "en": "find",
+      "ru": "находить",
+      "pron": "файнд",
+      "why": "Авторские учебные примеры; произношение приблизительное."
+    },
+    {
+      "en": "be late for work",
+      "ru": "опаздывать на работу",
+      "pron": "би лЭйт фо уёк",
+      "why": "Уроки: 01p; учебный словарь"
+    }
+  ],
+  "l2": [
+    {
+      "q": "___ you help me?",
+      "o": [
+        "Can",
+        "Do",
+        "Are"
+      ],
+      "a": 0,
+      "why": "Модальный глагол в начале вопроса.",
+      "hint": "Смысл: Можете мне помочь?"
+    },
+    {
+      "q": "Where ___ the supermarket?",
+      "o": [
+        "do",
+        "are",
+        "is"
+      ],
+      "a": 2,
+      "why": "Be — глагол; supermarket в единственном числе.",
+      "hint": "Смысл: Где находится супермаркет?"
+    },
+    {
+      "q": "How ___ she get to work?",
+      "o": [
+        "is",
+        "does",
+        "do"
+      ],
+      "a": 1,
+      "why": "Вопрос о привычке: does + she + V1.",
+      "hint": "Смысл: Как она добирается до работы?"
+    },
+    {
+      "q": "You need ___ turn left.",
+      "o": [
+        "to",
+        "on",
+        "with"
+      ],
+      "a": 0,
+      "why": "Need to + начальная форма.",
+      "hint": "Смысл: Тебе нужно повернуть налево."
+    },
+    {
+      "q": "Turn left ___ the lights.",
+      "o": [
+        "on",
+        "with",
+        "at"
+      ],
+      "a": 2,
+      "why": "At указывает точку поворота.",
+      "hint": "Смысл: Поверните налево у светофора."
+    },
+    {
+      "q": "The bookshop is ___ your left.",
+      "o": [
+        "with",
+        "on",
+        "to"
+      ],
+      "a": 1,
+      "why": "Положение — on your left.",
+      "hint": "Смысл: Книжный магазин слева от вас."
+    },
+    {
+      "q": "Go straight until you ___ the station.",
+      "o": [
+        "reach",
+        "reach to",
+        "get on"
+      ],
+      "a": 0,
+      "why": "Reach + место без to.",
+      "hint": "Смысл: Идите прямо, пока не дойдёте до станции."
+    },
+    {
+      "q": "Walk until you get ___ the crossroads.",
+      "o": [
+        "on",
+        "with",
+        "to"
+      ],
+      "a": 2,
+      "why": "Get to — добраться до места.",
+      "hint": "Смысл: Идите, пока не дойдёте до перекрёстка."
+    },
+    {
+      "q": "Wait here ___ Monday.",
+      "o": [
+        "on",
+        "until",
+        "to"
+      ],
+      "a": 1,
+      "why": "Until/till + обозначение времени.",
+      "hint": "Смысл: Подождите здесь до понедельника."
+    },
+    {
+      "q": "___, go down the road. Then turn left.",
+      "o": [
+        "First",
+        "At first",
+        "The first"
+      ],
+      "a": 0,
+      "why": "First — последовательность инструкций.",
+      "hint": "Смысл: Сначала идите по дороге. Затем поверните налево."
+    },
+    {
+      "q": "The bank is close ___ the museum.",
+      "o": [
+        "on",
+        "with",
+        "to"
+      ],
+      "a": 2,
+      "why": "Close to + объект.",
+      "hint": "Смысл: Банк рядом с музеем."
+    },
+    {
+      "q": "I ___ near the supermarket.",
+      "o": [
+        "do",
+        "am",
+        "is"
+      ],
+      "a": 1,
+      "why": "В английском для состояния/места нужен be.",
+      "hint": "Смысл: Я возле супермаркета."
+    },
+    {
+      "q": "My alarm did not ___ off.",
+      "o": [
+        "go",
+        "went",
+        "going"
+      ],
+      "a": 0,
+      "why": "После did not нужен V1 go, не went.",
+      "hint": "Смысл: Мой будильник не прозвенел."
+    },
+    {
+      "q": "I ___ up late yesterday.",
+      "o": [
+        "wake",
+        "waked",
+        "woke"
+      ],
+      "a": 2,
+      "why": "Wake → woke в Past Simple.",
+      "hint": "Смысл: Вчера я поздно проснулся."
+    },
+    {
+      "q": "The first train was late, so I missed my ___.",
+      "o": [
+        "wallet",
+        "connection",
+        "emergency"
+      ],
+      "a": 1,
+      "why": "Connection — пересадка/стыковочный транспорт.",
+      "hint": "Смысл: Первый поезд опоздал, поэтому я не успел на пересадку."
+    },
+    {
+      "q": "I ___ my wallet yesterday.",
+      "o": [
+        "lost",
+        "lose",
+        "losing"
+      ],
+      "a": 0,
+      "why": "Lose → lost.",
+      "hint": "Смысл: Вчера я потерял кошелёк."
+    },
+    {
+      "q": "I had to ___ my cards.",
+      "o": [
+        "cancelled",
+        "cancelling",
+        "cancel"
+      ],
+      "a": 2,
+      "why": "Had to + V1; cancel cards в контексте банка.",
+      "hint": "Смысл: Мне пришлось заблокировать мои карты."
+    },
+    {
+      "q": "I had a family ___.",
+      "o": [
+        "alarm",
+        "emergency",
+        "connection"
+      ],
+      "a": 1,
+      "why": "A family emergency — экстренная семейная ситуация.",
+      "hint": "Смысл: У меня случилась экстренная семейная ситуация."
+    },
+    {
+      "q": "He ___ over yesterday.",
+      "o": [
+        "fell",
+        "fail",
+        "foul"
+      ],
+      "a": 0,
+      "why": "Fall → fell; fail и foul — другие слова.",
+      "hint": "Смысл: Вчера он упал."
+    },
+    {
+      "q": "He ___ his head when he fell.",
+      "o": [
+        "cutted",
+        "cutting",
+        "cut"
+      ],
+      "a": 2,
+      "why": "Cut имеет ту же форму в прошлом.",
+      "hint": "Смысл: Он порезал голову, когда упал."
+    },
+    {
+      "q": "The bus ___ down yesterday.",
+      "o": [
+        "broken",
+        "broke",
+        "break"
+      ],
+      "a": 1,
+      "why": "Break → broke.",
+      "hint": "Смысл: Вчера автобус сломался."
+    },
+    {
+      "q": "I walked the rest ___ the way.",
+      "o": [
+        "of",
+        "on",
+        "at"
+      ],
+      "a": 0,
+      "why": "The rest of — оставшаяся часть.",
+      "hint": "Смысл: Я прошёл оставшуюся часть пути пешком."
+    },
+    {
+      "q": "I ___ lost yesterday.",
+      "o": [
+        "get",
+        "getting",
+        "got"
+      ],
+      "a": 2,
+      "why": "Get lost → got lost.",
+      "hint": "Смысл: Вчера я заблудился."
+    },
+    {
+      "q": "I took a wrong ___.",
+      "o": [
+        "to turn",
+        "turning",
+        "turned"
+      ],
+      "a": 1,
+      "why": "A wrong turning/turn — неправильный поворот.",
+      "hint": "Смысл: Я свернул не туда."
+    },
+    {
+      "q": "My train ___ delayed yesterday.",
+      "o": [
+        "was",
+        "were",
+        "did"
+      ],
+      "a": 0,
+      "why": "Was delayed — готовое сочетание в прошлом.",
+      "hint": "Смысл: Вчера мой поезд задержали."
+    },
+    {
+      "q": "I arrived half ___ hour late.",
+      "o": [
+        "a",
+        "the",
+        "an"
+      ],
+      "a": 2,
+      "why": "An перед hour, так как h не произносится.",
+      "hint": "Смысл: Я прибыл с опозданием на полчаса."
+    },
+    {
+      "q": "I did not ___ the time.",
+      "o": [
+        "noticing",
+        "notice",
+        "noticed"
+      ],
+      "a": 1,
+      "why": "Did not + V1, не noticed.",
+      "hint": "Смысл: Я не заметил, сколько времени прошло."
+    },
+    {
+      "q": "Did she ___ her wallet?",
+      "o": [
+        "lose",
+        "lost",
+        "losing"
+      ],
+      "a": 0,
+      "why": "Did уже обозначает прошлое; нужен lose.",
+      "hint": "Смысл: Она потеряла кошелёк?"
+    },
+    {
+      "q": "Why ___ you late?",
+      "o": [
+        "was",
+        "did",
+        "were"
+      ],
+      "a": 2,
+      "why": "С you прошедшая форма be — were.",
+      "hint": "Смысл: Почему ты опоздал?"
+    },
+    {
+      "q": "I ___ a cold last week.",
+      "o": [
+        "catched",
+        "caught",
+        "catch"
+      ],
+      "a": 1,
+      "why": "Catch a cold → caught a cold.",
+      "hint": "Смысл: На прошлой неделе я простудился."
+    },
+    {
+      "q": "I ___ a cold now.",
+      "o": [
+        "have",
+        "am",
+        "has"
+      ],
+      "a": 0,
+      "why": "Have a cold — быть простуженным; am cold — мёрзнуть.",
+      "hint": "Смысл: Сейчас у меня простуда."
+    },
+    {
+      "q": "Can you ___ the bookshop?",
+      "o": [
+        "found",
+        "to find",
+        "find"
+      ],
+      "a": 2,
+      "why": "Can + V1 find; found — форма прошлого в значении найти.",
+      "hint": "Смысл: Можете найти книжный магазин?"
+    },
+    {
+      "q": "Would you like ___ walk?",
+      "o": [
+        "with",
+        "to",
+        "on"
+      ],
+      "a": 1,
+      "why": "Would like to + V1.",
+      "hint": "Смысл: Вы хотели бы пойти пешком?"
+    },
+    {
+      "q": "Did you manage ___ do the homework?",
+      "o": [
+        "to",
+        "on",
+        "with"
+      ],
+      "a": 0,
+      "why": "Manage to + V1.",
+      "hint": "Смысл: Ты сумел сделать домашнее задание?"
+    },
+    {
+      "q": "There are a ___ of new words.",
+      "o": [
+        "more",
+        "very",
+        "lot"
+      ],
+      "a": 2,
+      "why": "A lot of — много; more — больше, требует сравнения.",
+      "hint": "Смысл: Здесь много новых слов."
+    },
+    {
+      "q": "She is ___ near the station now.",
+      "o": [
+        "stand",
+        "standing",
+        "staying"
+      ],
+      "a": 1,
+      "why": "Stand — стоять; сейчас standing.",
+      "hint": "Смысл: Сейчас она стоит возле станции."
+    }
+  ],
+  "l3": [
+    {
+      "q": "___ you help me?",
+      "a": [
+        "Can"
+      ],
+      "hint": "Смысл: Можете мне помочь?",
+      "why": "Модальный глагол в начале вопроса."
+    },
+    {
+      "q": "Where ___ the supermarket?",
+      "a": [
+        "is"
+      ],
+      "hint": "Смысл: Где находится супермаркет?",
+      "why": "Be — глагол; supermarket в единственном числе."
+    },
+    {
+      "q": "How ___ she get to work?",
+      "a": [
+        "does"
+      ],
+      "hint": "Смысл: Как она добирается до работы?",
+      "why": "Вопрос о привычке: does + she + V1."
+    },
+    {
+      "q": "You need ___ turn left.",
+      "a": [
+        "to"
+      ],
+      "hint": "Смысл: Тебе нужно повернуть налево.",
+      "why": "Need to + начальная форма."
+    },
+    {
+      "q": "Turn left ___ the lights.",
+      "a": [
+        "at"
+      ],
+      "hint": "Смысл: Поверните налево у светофора.",
+      "why": "At указывает точку поворота."
+    },
+    {
+      "q": "The bookshop is ___ your left.",
+      "a": [
+        "on"
+      ],
+      "hint": "Смысл: Книжный магазин слева от вас.",
+      "why": "Положение — on your left."
+    },
+    {
+      "q": "Go straight until you ___ the station.",
+      "a": [
+        "reach"
+      ],
+      "hint": "Смысл: Идите прямо, пока не дойдёте до станции.",
+      "why": "Reach + место без to."
+    },
+    {
+      "q": "Walk until you get ___ the crossroads.",
+      "a": [
+        "to"
+      ],
+      "hint": "Смысл: Идите, пока не дойдёте до перекрёстка.",
+      "why": "Get to — добраться до места."
+    },
+    {
+      "q": "Wait here ___ Monday.",
+      "a": [
+        "until",
+        "till"
+      ],
+      "hint": "Смысл: Подождите здесь до понедельника.",
+      "why": "Until/till + обозначение времени."
+    },
+    {
+      "q": "___, go down the road. Then turn left.",
+      "a": [
+        "First"
+      ],
+      "hint": "Смысл: Сначала идите по дороге. Затем поверните налево.",
+      "why": "First — последовательность инструкций."
+    },
+    {
+      "q": "The bank is close ___ the museum.",
+      "a": [
+        "to"
+      ],
+      "hint": "Смысл: Банк рядом с музеем.",
+      "why": "Close to + объект."
+    },
+    {
+      "q": "I ___ near the supermarket.",
+      "a": [
+        "am"
+      ],
+      "hint": "Смысл: Я возле супермаркета.",
+      "why": "В английском для состояния/места нужен be."
+    },
+    {
+      "q": "My alarm did not ___ off.",
+      "a": [
+        "go"
+      ],
+      "hint": "Смысл: Мой будильник не прозвенел.",
+      "why": "После did not нужен V1 go, не went."
+    },
+    {
+      "q": "I ___ up late yesterday.",
+      "a": [
+        "woke"
+      ],
+      "hint": "Смысл: Вчера я поздно проснулся.",
+      "why": "Wake → woke в Past Simple."
+    },
+    {
+      "q": "The first train was late, so I missed my ___.",
+      "a": [
+        "connection"
+      ],
+      "hint": "Смысл: Первый поезд опоздал, поэтому я не успел на пересадку.",
+      "why": "Connection — пересадка/стыковочный транспорт."
+    },
+    {
+      "q": "I ___ my wallet yesterday.",
+      "a": [
+        "lost"
+      ],
+      "hint": "Смысл: Вчера я потерял кошелёк.",
+      "why": "Lose → lost."
+    },
+    {
+      "q": "I had to ___ my cards.",
+      "a": [
+        "cancel"
+      ],
+      "hint": "Смысл: Мне пришлось заблокировать мои карты.",
+      "why": "Had to + V1; cancel cards в контексте банка."
+    },
+    {
+      "q": "I had a family ___.",
+      "a": [
+        "emergency"
+      ],
+      "hint": "Смысл: У меня случилась экстренная семейная ситуация.",
+      "why": "A family emergency — экстренная семейная ситуация."
+    },
+    {
+      "q": "He ___ over yesterday.",
+      "a": [
+        "fell"
+      ],
+      "hint": "Смысл: Вчера он упал.",
+      "why": "Fall → fell; fail и foul — другие слова."
+    },
+    {
+      "q": "He ___ his head when he fell.",
+      "a": [
+        "cut"
+      ],
+      "hint": "Смысл: Он порезал голову, когда упал.",
+      "why": "Cut имеет ту же форму в прошлом."
+    },
+    {
+      "q": "The bus ___ down yesterday.",
+      "a": [
+        "broke"
+      ],
+      "hint": "Смысл: Вчера автобус сломался.",
+      "why": "Break → broke."
+    },
+    {
+      "q": "I walked the rest ___ the way.",
+      "a": [
+        "of"
+      ],
+      "hint": "Смысл: Я прошёл оставшуюся часть пути пешком.",
+      "why": "The rest of — оставшаяся часть."
+    },
+    {
+      "q": "I ___ lost yesterday.",
+      "a": [
+        "got"
+      ],
+      "hint": "Смысл: Вчера я заблудился.",
+      "why": "Get lost → got lost."
+    },
+    {
+      "q": "I took a wrong ___.",
+      "a": [
+        "turning",
+        "turn"
+      ],
+      "hint": "Смысл: Я свернул не туда.",
+      "why": "A wrong turning/turn — неправильный поворот."
+    },
+    {
+      "q": "My train ___ delayed yesterday.",
+      "a": [
+        "was"
+      ],
+      "hint": "Смысл: Вчера мой поезд задержали.",
+      "why": "Was delayed — готовое сочетание в прошлом."
+    },
+    {
+      "q": "I arrived half ___ hour late.",
+      "a": [
+        "an"
+      ],
+      "hint": "Смысл: Я прибыл с опозданием на полчаса.",
+      "why": "An перед hour, так как h не произносится."
+    },
+    {
+      "q": "I did not ___ the time.",
+      "a": [
+        "notice"
+      ],
+      "hint": "Смысл: Я не заметил, сколько времени прошло.",
+      "why": "Did not + V1, не noticed."
+    },
+    {
+      "q": "Did she ___ her wallet?",
+      "a": [
+        "lose"
+      ],
+      "hint": "Смысл: Она потеряла кошелёк?",
+      "why": "Did уже обозначает прошлое; нужен lose."
+    },
+    {
+      "q": "Why ___ you late?",
+      "a": [
+        "were"
+      ],
+      "hint": "Смысл: Почему ты опоздал?",
+      "why": "С you прошедшая форма be — were."
+    },
+    {
+      "q": "I ___ a cold last week.",
+      "a": [
+        "caught"
+      ],
+      "hint": "Смысл: На прошлой неделе я простудился.",
+      "why": "Catch a cold → caught a cold."
+    },
+    {
+      "q": "I ___ a cold now.",
+      "a": [
+        "have"
+      ],
+      "hint": "Смысл: Сейчас у меня простуда.",
+      "why": "Have a cold — быть простуженным; am cold — мёрзнуть."
+    },
+    {
+      "q": "Can you ___ the bookshop?",
+      "a": [
+        "find"
+      ],
+      "hint": "Смысл: Можете найти книжный магазин?",
+      "why": "Can + V1 find; found — форма прошлого в значении найти."
+    },
+    {
+      "q": "Would you like ___ walk?",
+      "a": [
+        "to"
+      ],
+      "hint": "Смысл: Вы хотели бы пойти пешком?",
+      "why": "Would like to + V1."
+    },
+    {
+      "q": "Did you manage ___ do the homework?",
+      "a": [
+        "to"
+      ],
+      "hint": "Смысл: Ты сумел сделать домашнее задание?",
+      "why": "Manage to + V1."
+    },
+    {
+      "q": "There are a ___ of new words.",
+      "a": [
+        "lot"
+      ],
+      "hint": "Смысл: Здесь много новых слов.",
+      "why": "A lot of — много; more — больше, требует сравнения."
+    },
+    {
+      "q": "She is ___ near the station now.",
+      "a": [
+        "standing"
+      ],
+      "hint": "Смысл: Сейчас она стоит возле станции.",
+      "why": "Stand — стоять; сейчас standing."
+    }
+  ],
+  "l4": [
+    {
+      "en": "Can you help me?",
+      "ru": "Можете мне помочь?",
+      "why": "Can + you + help: вопрос с модальным глаголом, без to."
+    },
+    {
+      "en": "How can I get to the museum?",
+      "ru": "Как мне добраться до музея?",
+      "why": "How + can + I + get to; для направления get to, не get on."
+    },
+    {
+      "en": "Where is the bookshop?",
+      "ru": "Где находится книжный магазин?",
+      "why": "Where + is + подлежащее; be — глагол, отдельный do не нужен."
+    },
+    {
+      "en": "Does she know this area?",
+      "ru": "Она знает этот район?",
+      "why": "Does + she + know: после does начальная форма."
+    },
+    {
+      "en": "You need to turn left.",
+      "ru": "Тебе нужно повернуть налево.",
+      "why": "Need to + V1; turn left без on."
+    },
+    {
+      "en": "The mosque is on your right.",
+      "ru": "Мечеть справа от вас.",
+      "why": "Положение: is on your right. Turn right — действие, не положение."
+    },
+    {
+      "en": "Take the next right turn.",
+      "ru": "Сверните на следующем повороте направо.",
+      "why": "Right turn — существительное «поворот направо»."
+    },
+    {
+      "en": "Turn around and go down the road.",
+      "ru": "Развернитесь и идите по дороге.",
+      "why": "Turn around — развернуться; go down не обязательно «спуститься»."
+    },
+    {
+      "en": "Go past the old church.",
+      "ru": "Пройдите мимо старой церкви.",
+      "why": "Go past + ориентир: мимо, не внутрь."
+    },
+    {
+      "en": "Cross the road at the crossing.",
+      "ru": "Перейдите дорогу по переходу.",
+      "why": "Cross (over) the road; at the crossing — у перехода/по переходу."
+    },
+    {
+      "en": "Walk until you get to the crossroads.",
+      "ru": "Идите, пока не дойдёте до перекрёстка.",
+      "why": "Until you get to + место; get on не выражает добраться до места."
+    },
+    {
+      "en": "Go straight until you reach the station.",
+      "ru": "Идите прямо, пока не дойдёте до станции.",
+      "why": "Reach + место без to."
+    },
+    {
+      "en": "Wait here until five o’clock.",
+      "ru": "Подождите здесь до пяти часов.",
+      "why": "Until + время: после until не всегда нужен глагол."
+    },
+    {
+      "en": "I am near the supermarket.",
+      "ru": "Я возле супермаркета.",
+      "why": "Для местоположения нужен am; near + место, без with."
+    },
+    {
+      "en": "The bank is close to the station.",
+      "ru": "Банк рядом со станцией.",
+      "why": "Close to + объект; to здесь обязательно."
+    },
+    {
+      "en": "There is a café nearby.",
+      "ru": "Поблизости есть кафе.",
+      "why": "Nearby — поблизости; a café — один объект."
+    },
+    {
+      "en": "The museum is opposite the bookshop.",
+      "ru": "Музей напротив книжного магазина.",
+      "why": "Opposite + ориентир, без to в этой конструкции."
+    },
+    {
+      "en": "First, go straight. Then turn left.",
+      "ru": "Сначала идите прямо. Затем поверните налево.",
+      "why": "First и then — порядок инструкций; at first — исходная ситуация перед изменением."
+    },
+    {
+      "en": "Would you like to walk?",
+      "ru": "Вы хотели бы пойти пешком?",
+      "why": "Would you like to + V1 — вежливый вопрос о желании."
+    },
+    {
+      "en": "Why were you late?",
+      "ru": "Почему ты опоздал?",
+      "why": "Why + were + you; be строит вопрос без did."
+    },
+    {
+      "en": "Did you lose your wallet?",
+      "ru": "Ты потерял кошелёк?",
+      "why": "Did + you + lose, не lost."
+    },
+    {
+      "en": "I have a cold.",
+      "ru": "У меня простуда.",
+      "why": "Have a cold — состояние; be cold — мёрзнуть."
+    },
+    {
+      "en": "I caught a cold last week.",
+      "ru": "Я простудился на прошлой неделе.",
+      "why": "Catch → caught; a cold — одна простуда."
+    },
+    {
+      "en": "I am ill today.",
+      "ru": "Сегодня я болею.",
+      "why": "Be + прилагательное ill, без a."
+    },
+    {
+      "en": "My alarm did not go off.",
+      "ru": "Мой будильник не прозвенел.",
+      "why": "go off — сработать; did not + V1, без прошедшего went."
+    },
+    {
+      "en": "I woke up late.",
+      "ru": "Я поздно проснулся.",
+      "why": "wake → woke; up сохраняется в wake up."
+    },
+    {
+      "en": "I missed my connection.",
+      "ru": "Я не успел на пересадку.",
+      "why": "missed my connection — не успел на стыковочный транспорт; my перед существительным."
+    },
+    {
+      "en": "I lost my wallet.",
+      "ru": "Я потерял кошелёк.",
+      "why": "lose → lost; wallet — кошелёк."
+    },
+    {
+      "en": "I had to cancel my cards.",
+      "ru": "Мне пришлось заблокировать мои банковские карты.",
+      "why": "had to + V1 cancel; в контексте банка cancel cards — отменить/заблокировать карты."
+    },
+    {
+      "en": "I had a family emergency.",
+      "ru": "У меня случилась экстренная семейная ситуация.",
+      "why": "had — прошедшее have; a family emergency — одно событие, а не «я глава семьи»."
+    },
+    {
+      "en": "He fell over.",
+      "ru": "Он упал.",
+      "why": "fall → fell; fell over — упал."
+    },
+    {
+      "en": "He cut his head.",
+      "ru": "Он порезал голову.",
+      "why": "Прошедшая форма cut тоже cut; his head, без a перед his."
+    },
+    {
+      "en": "The bus broke down.",
+      "ru": "Автобус сломался.",
+      "why": "break down → broke down; the bus — конкретный автобус."
+    },
+    {
+      "en": "I walked the rest of the way.",
+      "ru": "Я прошёл оставшийся путь пешком.",
+      "why": "walked + the rest of the way; обязательно of, не on."
+    },
+    {
+      "en": "I got lost.",
+      "ru": "Я заблудился.",
+      "why": "get lost → got lost; это изменение состояния."
+    },
+    {
+      "en": "I took a wrong turning.",
+      "ru": "Я свернул не туда.",
+      "why": "take → took; a wrong turning — существительное с артиклем."
+    },
+    {
+      "en": "My train was delayed.",
+      "ru": "Мой поезд задержали.",
+      "why": "was delayed — готовое сочетание с be; не добавляй did перед was."
+    },
+    {
+      "en": "I arrived half an hour late.",
+      "ru": "Я прибыл с опозданием на полчаса.",
+      "why": "arrived — прошлое arrive; half an hour late — на полчаса позже."
+    },
+    {
+      "en": "I did not notice the time.",
+      "ru": "Я не заметил, сколько времени прошло.",
+      "why": "did not + notice в начальной форме; notice the time — обратить внимание на время."
+    }
+  ],
+  "l5": [
+    {
+      "ru": "Можете мне помочь?",
+      "a": [
+        "Can you help me?"
+      ],
+      "why": "Can + you + help: вопрос с модальным глаголом, без to."
+    },
+    {
+      "ru": "Как мне добраться до музея?",
+      "a": [
+        "How can I get to the museum?"
+      ],
+      "why": "How + can + I + get to; для направления get to, не get on."
+    },
+    {
+      "ru": "Где находится книжный магазин?",
+      "a": [
+        "Where is the bookshop?"
+      ],
+      "why": "Where + is + подлежащее; be — глагол, отдельный do не нужен."
+    },
+    {
+      "ru": "Она знает этот район?",
+      "a": [
+        "Does she know this area?"
+      ],
+      "why": "Does + she + know: после does начальная форма."
+    },
+    {
+      "ru": "Тебе нужно повернуть налево.",
+      "a": [
+        "You need to turn left."
+      ],
+      "why": "Need to + V1; turn left без on."
+    },
+    {
+      "ru": "Мечеть справа от вас.",
+      "a": [
+        "The mosque is on your right."
+      ],
+      "why": "Положение: is on your right. Turn right — действие, не положение."
+    },
+    {
+      "ru": "Сверните на следующем повороте направо.",
+      "a": [
+        "Take the next right turn."
+      ],
+      "why": "Right turn — существительное «поворот направо»."
+    },
+    {
+      "ru": "Развернитесь и идите по дороге.",
+      "a": [
+        "Turn around and go down the road."
+      ],
+      "why": "Turn around — развернуться; go down не обязательно «спуститься»."
+    },
+    {
+      "ru": "Пройдите мимо старой церкви.",
+      "a": [
+        "Go past the old church."
+      ],
+      "why": "Go past + ориентир: мимо, не внутрь."
+    },
+    {
+      "ru": "Перейдите дорогу по переходу.",
+      "a": [
+        "Cross the road at the crossing."
+      ],
+      "why": "Cross (over) the road; at the crossing — у перехода/по переходу."
+    },
+    {
+      "ru": "Идите, пока не дойдёте до перекрёстка.",
+      "a": [
+        "Walk until you get to the crossroads."
+      ],
+      "why": "Until you get to + место; get on не выражает добраться до места."
+    },
+    {
+      "ru": "Идите прямо, пока не дойдёте до станции.",
+      "a": [
+        "Go straight until you reach the station."
+      ],
+      "why": "Reach + место без to."
+    },
+    {
+      "ru": "Подождите здесь до пяти часов.",
+      "a": [
+        "Wait here until five o’clock."
+      ],
+      "why": "Until + время: после until не всегда нужен глагол."
+    },
+    {
+      "ru": "Я возле супермаркета.",
+      "a": [
+        "I am near the supermarket."
+      ],
+      "why": "Для местоположения нужен am; near + место, без with."
+    },
+    {
+      "ru": "Банк рядом со станцией.",
+      "a": [
+        "The bank is close to the station."
+      ],
+      "why": "Close to + объект; to здесь обязательно."
+    },
+    {
+      "ru": "Поблизости есть кафе.",
+      "a": [
+        "There is a café nearby."
+      ],
+      "why": "Nearby — поблизости; a café — один объект."
+    },
+    {
+      "ru": "Музей напротив книжного магазина.",
+      "a": [
+        "The museum is opposite the bookshop."
+      ],
+      "why": "Opposite + ориентир, без to в этой конструкции."
+    },
+    {
+      "ru": "Сначала идите прямо. Затем поверните налево.",
+      "a": [
+        "First, go straight. Then turn left."
+      ],
+      "why": "First и then — порядок инструкций; at first — исходная ситуация перед изменением."
+    },
+    {
+      "ru": "Вы хотели бы пойти пешком?",
+      "a": [
+        "Would you like to walk?"
+      ],
+      "why": "Would you like to + V1 — вежливый вопрос о желании."
+    },
+    {
+      "ru": "Почему ты опоздал?",
+      "a": [
+        "Why were you late?"
+      ],
+      "why": "Why + were + you; be строит вопрос без did."
+    },
+    {
+      "ru": "Ты потерял кошелёк?",
+      "a": [
+        "Did you lose your wallet?"
+      ],
+      "why": "Did + you + lose, не lost."
+    },
+    {
+      "ru": "У меня простуда.",
+      "a": [
+        "I have a cold."
+      ],
+      "why": "Have a cold — состояние; be cold — мёрзнуть."
+    },
+    {
+      "ru": "Я простудился на прошлой неделе.",
+      "a": [
+        "I caught a cold last week."
+      ],
+      "why": "Catch → caught; a cold — одна простуда."
+    },
+    {
+      "ru": "Сегодня я болею.",
+      "a": [
+        "I am ill today."
+      ],
+      "why": "Be + прилагательное ill, без a."
+    },
+    {
+      "ru": "Мой будильник не прозвенел.",
+      "a": [
+        "My alarm did not go off."
+      ],
+      "why": "go off — сработать; did not + V1, без прошедшего went."
+    },
+    {
+      "ru": "Я поздно проснулся.",
+      "a": [
+        "I woke up late."
+      ],
+      "why": "wake → woke; up сохраняется в wake up."
+    },
+    {
+      "ru": "Я не успел на пересадку.",
+      "a": [
+        "I missed my connection."
+      ],
+      "why": "missed my connection — не успел на стыковочный транспорт; my перед существительным."
+    },
+    {
+      "ru": "Я потерял кошелёк.",
+      "a": [
+        "I lost my wallet."
+      ],
+      "why": "lose → lost; wallet — кошелёк."
+    },
+    {
+      "ru": "Мне пришлось заблокировать мои банковские карты.",
+      "a": [
+        "I had to cancel my cards."
+      ],
+      "why": "had to + V1 cancel; в контексте банка cancel cards — отменить/заблокировать карты."
+    },
+    {
+      "ru": "У меня случилась экстренная семейная ситуация.",
+      "a": [
+        "I had a family emergency."
+      ],
+      "why": "had — прошедшее have; a family emergency — одно событие, а не «я глава семьи»."
+    },
+    {
+      "ru": "Он упал.",
+      "a": [
+        "He fell over."
+      ],
+      "why": "fall → fell; fell over — упал."
+    },
+    {
+      "ru": "Он порезал голову.",
+      "a": [
+        "He cut his head."
+      ],
+      "why": "Прошедшая форма cut тоже cut; his head, без a перед his."
+    },
+    {
+      "ru": "Автобус сломался.",
+      "a": [
+        "The bus broke down."
+      ],
+      "why": "break down → broke down; the bus — конкретный автобус."
+    },
+    {
+      "ru": "Я прошёл оставшийся путь пешком.",
+      "a": [
+        "I walked the rest of the way."
+      ],
+      "why": "walked + the rest of the way; обязательно of, не on."
+    },
+    {
+      "ru": "Я заблудился.",
+      "a": [
+        "I got lost."
+      ],
+      "why": "get lost → got lost; это изменение состояния."
+    },
+    {
+      "ru": "Я свернул не туда.",
+      "a": [
+        "I took a wrong turning."
+      ],
+      "why": "take → took; a wrong turning — существительное с артиклем."
+    },
+    {
+      "ru": "Мой поезд задержали.",
+      "a": [
+        "My train was delayed."
+      ],
+      "why": "was delayed — готовое сочетание с be; не добавляй did перед was."
+    },
+    {
+      "ru": "Я прибыл с опозданием на полчаса.",
+      "a": [
+        "I arrived half an hour late."
+      ],
+      "why": "arrived — прошлое arrive; half an hour late — на полчаса позже."
+    },
+    {
+      "ru": "Я не заметил, сколько времени прошло.",
+      "a": [
+        "I did not notice the time."
+      ],
+      "why": "did not + notice в начальной форме; notice the time — обратить внимание на время."
+    }
+  ],
+  "l6": [
+    {
+      "q": "Can you help a visitor find a bookshop?",
+      "ru": "Объясни дорогу до книжного магазина.",
+      "start": "First, …",
+      "model": "First, go straight. Then turn right at the lights."
+    },
+    {
+      "q": "Why were you late?",
+      "ru": "Назови свою или вымышленную причину опоздания.",
+      "start": "I was late because …",
+      "model": "I was late because I missed the bus."
+    },
+    {
+      "q": "What happened after you missed the bus?",
+      "ru": "Что произошло после пропущенного автобуса?",
+      "start": "Then I …",
+      "model": "Then I walked to the station."
+    },
+    {
+      "q": "What do you do when you get lost?",
+      "ru": "Что ты делаешь, когда теряешь дорогу?",
+      "start": "I usually …",
+      "model": "I usually ask someone for directions."
+    },
+    {
+      "q": "Which phrases were difficult today?",
+      "ru": "Какие фразы сегодня были трудными?",
+      "start": "I need to practise …",
+      "model": "I need to practise get to and reach."
+    }
+  ],
+  "fix": [
+    {
+      "wrong": "How is going?",
+      "ru": "Как дела?",
+      "a": [
+        "How is it going?"
+      ],
+      "why": "Нужно подлежащее it: How + is + it + going?",
+      "sourceNote": "Учебная фраза по разобранному паттерну; личное происхождение и точность цитаты хранятся только локально."
+    },
+    {
+      "wrong": "I'm a cold.",
+      "ru": "У меня простуда.",
+      "a": [
+        "I have a cold."
+      ],
+      "why": "Cold как простуда — существительное: have a cold. I am cold означает «мне холодно».",
+      "sourceNote": "Учебная фраза по разобранному паттерну; личное происхождение и точность цитаты хранятся только локально."
+    },
+    {
+      "wrong": "You need turn left.",
+      "ru": "Тебе нужно повернуть налево.",
+      "a": [
+        "You need to turn left."
+      ],
+      "why": "После need перед действием ставим to.",
+      "sourceNote": "Учебная фраза по разобранному паттерну; личное происхождение и точность цитаты хранятся только локально."
+    },
+    {
+      "wrong": "Turn on the left.",
+      "ru": "Поверните налево.",
+      "a": [
+        "Turn left."
+      ],
+      "why": "Команда turn left без on; on your left — положение.",
+      "sourceNote": "Учебная фраза по разобранному паттерну; личное происхождение и точность цитаты хранятся только локально."
+    },
+    {
+      "wrong": "I stay on the supermarket.",
+      "ru": "Я возле супермаркета.",
+      "a": [
+        "I am near the supermarket."
+      ],
+      "why": "Для местоположения — be near; stay значит оставаться, stand — стоять. On не выражает «возле».",
+      "sourceNote": "Учебная фраза по разобранному паттерну; личное происхождение и точность цитаты хранятся только локально."
+    },
+    {
+      "wrong": "I near with supermarket.",
+      "ru": "Я возле супермаркета.",
+      "a": [
+        "I am near the supermarket."
+      ],
+      "why": "Нужны am и the; near не требует with.",
+      "sourceNote": "Учебная фраза по разобранному паттерну; личное происхождение и точность цитаты хранятся только локально."
+    },
+    {
+      "wrong": "How I can to found?",
+      "ru": "Как мне это найти?",
+      "a": [
+        "How can I find it?"
+      ],
+      "why": "В прямом вопросе How + can + I; после can — find без to. Found — форма прошлого для «найти».",
+      "sourceNote": "Учебная фраза по разобранному паттерну; личное происхождение и точность цитаты хранятся только локально."
+    },
+    {
+      "wrong": "Can to find.",
+      "ru": "Может найти: исправь фрагмент.",
+      "a": [
+        "Can find."
+      ],
+      "why": "Can + начальная форма без to. Это фрагмент, не полное предложение.",
+      "sourceNote": "Учебная фраза по разобранному паттерну; личное происхождение и точность цитаты хранятся только локально."
+    },
+    {
+      "wrong": "Until you get on the crossroads.",
+      "ru": "Пока не дойдёте до перекрёстка: исправь фрагмент.",
+      "a": [
+        "Until you get to the crossroads."
+      ],
+      "why": "Get to — добраться; get on используется с транспортом и другими значениями.",
+      "sourceNote": "Учебная фраза по разобранному паттерну; личное происхождение и точность цитаты хранятся только локально."
+    },
+    {
+      "wrong": "The bus didn't broke down.",
+      "ru": "Автобус не сломался.",
+      "a": [
+        "The bus didn't break down."
+      ],
+      "why": "Did not / didn’t + V1. После did не используем broke.",
+      "sourceNote": "Учебная фраза по разобранному паттерну; личное происхождение и точность цитаты хранятся только локально."
+    },
+    {
+      "wrong": "The train didn't delayed us.",
+      "ru": "Поезд не задержал нас.",
+      "a": [
+        "The train didn't delay us."
+      ],
+      "why": "Если delay — смысловой глагол, после didn’t нужна форма delay. Для «поезд задержали» — was delayed.",
+      "sourceNote": "Учебная фраза по разобранному паттерну; личное происхождение и точность цитаты хранятся только локально."
+    },
+    {
+      "wrong": "Very more new words.",
+      "ru": "Много новых слов: исправь фрагмент.",
+      "a": [
+        "A lot of new words."
+      ],
+      "why": "A lot of — много; too many — слишком много; more — больше. Не смешивай very и more.",
+      "sourceNote": "Учебная фраза по разобранному паттерну; личное происхождение и точность цитаты хранятся только локально."
+    },
+    {
+      "wrong": "I had to walked.",
+      "ru": "Мне пришлось идти пешком.",
+      "a": [
+        "I had to walk."
+      ],
+      "why": "Прошлое уже выражено had; после to нужен V1.",
+      "sourceNote": "Учебная фраза по разобранному паттерну; личное происхождение и точность цитаты хранятся только локально."
+    },
+    {
+      "wrong": "I walked the rest on the way.",
+      "ru": "Я прошёл оставшийся путь пешком.",
+      "a": [
+        "I walked the rest of the way."
+      ],
+      "why": "Устойчивое сочетание the rest of the way, не on.",
+      "sourceNote": "Учебная фраза по разобранному паттерну; личное происхождение и точность цитаты хранятся только локально."
+    },
+    {
+      "wrong": "Did you found your wallet?",
+      "ru": "Ты нашёл кошелёк?",
+      "a": [
+        "Did you find your wallet?"
+      ],
+      "why": "Did + подлежащее + find. Found используется без did в утверждении.",
+      "sourceNote": "Учебная фраза по разобранному паттерну; личное происхождение и точность цитаты хранятся только локально."
+    },
+    {
+      "wrong": "Reach to the station.",
+      "ru": "Доберитесь до станции.",
+      "a": [
+        "Reach the station."
+      ],
+      "why": "Reach + прямое дополнение без to; get to + место.",
+      "sourceNote": "Учебная фраза по разобранному паттерну; личное происхождение и точность цитаты хранятся только локально."
+    }
+  ],
+  "readerGrammar": [
+    "Questions: do/does, am/is/are, was/were, can, did; be is a verb",
+    "Directions: turn vs on your right, get to/reach, until + clause or time",
+    "Past Simple reasons for being late: did not + V1, was/were, had to",
+    "Only selected modal constructions; Past Continuous not covered"
+  ],
+  "readerTopics": [
+    "A wrong turning on the way to a meeting",
+    "An alarm that did not go off",
+    "Finding the right route together"
+  ],
+  "homework": [
+    {
+      "en": "my alarm didn't go off",
+      "ru": "мой будильник не прозвенел",
+      "pr": "эла́м ди́дэнт гоу оф",
+      "rule": "didn’t + V1 go; значение go off — сработать.",
+      "ex": "My alarm did not go off, so I woke up late.",
+      "exru": "Мой будильник не прозвенел, поэтому я поздно проснулся."
+    },
+    {
+      "en": "wake up late",
+      "ru": "поздно проснуться",
+      "pr": "уэйк ап лэйт",
+      "rule": "В прошлом: woke up late.",
+      "ex": "She woke up late on Monday.",
+      "exru": "В понедельник она поздно проснулась."
+    },
+    {
+      "en": "miss my connection",
+      "ru": "не успеть на пересадку",
+      "pr": "мис май кэнэ́кшэн",
+      "rule": "В прошлом: missed my connection; connection — стыковочный транспорт.",
+      "ex": "He missed his connection because the first train was late.",
+      "exru": "Он не успел на пересадку, потому что первый поезд опоздал."
+    },
+    {
+      "en": "lose my wallet",
+      "ru": "потерять кошелёк",
+      "pr": "луз май во́лит",
+      "rule": "lose → lost; my wallet, не a my wallet.",
+      "ex": "She lost her wallet near the station.",
+      "exru": "Она потеряла кошелёк возле станции."
+    },
+    {
+      "en": "cancel my cards",
+      "ru": "заблокировать / отменить мои банковские карты",
+      "pr": "кэ́нсэл май ка́дз",
+      "rule": "После had to — cancel; cancelled/canceled — прошлые формы.",
+      "ex": "He called the bank to cancel his cards.",
+      "exru": "Он позвонил в банк, чтобы заблокировать свои карты."
+    },
+    {
+      "en": "have a family emergency",
+      "ru": "столкнуться с экстренной семейной ситуацией",
+      "pr": "хэв э фэ́мили имё́джэнси",
+      "rule": "have → had; это учебная причина, не утверждение о вашей семье.",
+      "ex": "She had a family emergency and stayed at home.",
+      "exru": "У неё случилась экстренная семейная ситуация, и она осталась дома."
+    },
+    {
+      "en": "fall over",
+      "ru": "упасть",
+      "pr": "фол о́увэ",
+      "rule": "fall → fell. Не fail и не foul.",
+      "ex": "He fell over near the entrance.",
+      "exru": "Он упал возле входа."
+    },
+    {
+      "en": "cut one's head",
+      "ru": "порезать голову",
+      "pr": "кат уанз хэд",
+      "rule": "В конкретной фразе his/her/my head; V1/V2/V3 = cut.",
+      "ex": "She fell over and cut her head.",
+      "exru": "Она упала и порезала голову."
+    },
+    {
+      "en": "break down",
+      "ru": "сломаться",
+      "pr": "брэйк да́ун",
+      "rule": "break → broke; did not break down.",
+      "ex": "The bus broke down outside the town.",
+      "exru": "Автобус сломался за городом."
+    },
+    {
+      "en": "walk the rest of the way",
+      "ru": "пройти оставшийся путь пешком",
+      "pr": "уок зэ рэст ов зэ уэй",
+      "rule": "Прошлое walked; устойчивое the rest of the way.",
+      "ex": "We had to walk the rest of the way.",
+      "exru": "Нам пришлось пройти оставшийся путь пешком."
+    },
+    {
+      "en": "get lost",
+      "ru": "заблудиться",
+      "pr": "гет лост",
+      "rule": "get → got; I am lost — я потерялся/не понимаю, где нахожусь.",
+      "ex": "He got lost near the museum.",
+      "exru": "Он заблудился возле музея."
+    },
+    {
+      "en": "take a wrong turning",
+      "ru": "свернуть не туда",
+      "pr": "тэйк э рон тё́нинг",
+      "rule": "take → took; turning — существительное с a. Wrong turn — допустимый вариант.",
+      "ex": "She took a wrong turning after the bridge.",
+      "exru": "Она свернула не туда после моста."
+    },
+    {
+      "en": "be delayed",
+      "ru": "задержаться; быть задержанным",
+      "pr": "би дилэ́йд",
+      "rule": "В прошлом: was/were delayed. Здесь изучается готовое сочетание.",
+      "ex": "Our train was delayed for ten minutes.",
+      "exru": "Наш поезд задержали на десять минут."
+    },
+    {
+      "en": "arrive half an hour late",
+      "ru": "прибыть с опозданием на полчаса",
+      "pr": "эра́йв хаф эн а́уэ лэйт",
+      "rule": "arrive → arrived; half an hour, не whole an hour.",
+      "ex": "They arrived half an hour late.",
+      "exru": "Они прибыли с опозданием на полчаса."
+    },
+    {
+      "en": "notice the time",
+      "ru": "обратить внимание на время",
+      "pr": "но́утис зэ тайм",
+      "rule": "didn’t notice; noticed без did.",
+      "ex": "I did not notice the time during the film.",
+      "exru": "Во время фильма я не заметил, сколько времени прошло."
+    }
+  ],
+  "homeworkInstructions": {
+    "title": "Домашняя работа — урок 14",
+    "source": "Задание преподавателя в конце занятия от 28.11.2026: составить предложения или одну/несколько историй о причинах опоздания с новой лексикой; можно из своей жизни.",
+    "steps": [
+      "Разбери 15 выражений и примеры ниже.",
+      "Пройди узнавание → выбор → пропуски → сборку → короткий перевод.",
+      "Напиши свои предложения ИЛИ одну историю. Пустые поля допустимы; все события не обязаны происходить в одной истории.",
+      "Проверь V2, did/didn’t + V1, was/were, had to + V1 и связки first/then/after that/finally.",
+      "Экспортируй только свой написанный текст для преподавателя."
+    ],
+    "prompts": [
+      "Why were you late?",
+      "What happened first?",
+      "What did you do next?",
+      "Did you have to change your plans?",
+      "How late did you arrive?"
+    ]
+  },
+  "homeworkPractice": {
+    "h1": [
+      {
+        "q": "my alarm didn't go off",
+        "o": [
+          "мой будильник не прозвенел",
+          "заблокировать / отменить мои банковские карты",
+          "сломаться"
+        ],
+        "a": 0,
+        "why": "didn’t + V1 go; значение go off — сработать."
+      },
+      {
+        "q": "wake up late",
+        "o": [
+          "столкнуться с экстренной семейной ситуацией",
+          "пройти оставшийся путь пешком",
+          "поздно проснуться"
+        ],
+        "a": 2,
+        "why": "В прошлом: woke up late."
+      },
+      {
+        "q": "miss my connection",
+        "o": [
+          "заблудиться",
+          "не успеть на пересадку",
+          "упасть"
+        ],
+        "a": 1,
+        "why": "В прошлом: missed my connection; connection — стыковочный транспорт."
+      },
+      {
+        "q": "lose my wallet",
+        "o": [
+          "потерять кошелёк",
+          "порезать голову",
+          "свернуть не туда"
+        ],
+        "a": 0,
+        "why": "lose → lost; my wallet, не a my wallet."
+      },
+      {
+        "q": "cancel my cards",
+        "o": [
+          "сломаться",
+          "задержаться; быть задержанным",
+          "заблокировать / отменить мои банковские карты"
+        ],
+        "a": 2,
+        "why": "После had to — cancel; cancelled/canceled — прошлые формы."
+      },
+      {
+        "q": "have a family emergency",
+        "o": [
+          "прибыть с опозданием на полчаса",
+          "столкнуться с экстренной семейной ситуацией",
+          "пройти оставшийся путь пешком"
+        ],
+        "a": 1,
+        "why": "have → had; это учебная причина, не утверждение о вашей семье."
+      },
+      {
+        "q": "fall over",
+        "o": [
+          "упасть",
+          "заблудиться",
+          "обратить внимание на время"
+        ],
+        "a": 0,
+        "why": "fall → fell. Не fail и не foul."
+      },
+      {
+        "q": "cut one's head",
+        "o": [
+          "свернуть не туда",
+          "мой будильник не прозвенел",
+          "порезать голову"
+        ],
+        "a": 2,
+        "why": "В конкретной фразе his/her/my head; V1/V2/V3 = cut."
+      },
+      {
+        "q": "break down",
+        "o": [
+          "поздно проснуться",
+          "сломаться",
+          "задержаться; быть задержанным"
+        ],
+        "a": 1,
+        "why": "break → broke; did not break down."
+      },
+      {
+        "q": "walk the rest of the way",
+        "o": [
+          "пройти оставшийся путь пешком",
+          "прибыть с опозданием на полчаса",
+          "не успеть на пересадку"
+        ],
+        "a": 0,
+        "why": "Прошлое walked; устойчивое the rest of the way."
+      },
+      {
+        "q": "get lost",
+        "o": [
+          "обратить внимание на время",
+          "потерять кошелёк",
+          "заблудиться"
+        ],
+        "a": 2,
+        "why": "get → got; I am lost — я потерялся/не понимаю, где нахожусь."
+      },
+      {
+        "q": "take a wrong turning",
+        "o": [
+          "заблокировать / отменить мои банковские карты",
+          "свернуть не туда",
+          "мой будильник не прозвенел"
+        ],
+        "a": 1,
+        "why": "take → took; turning — существительное с a. Wrong turn — допустимый вариант."
+      },
+      {
+        "q": "be delayed",
+        "o": [
+          "задержаться; быть задержанным",
+          "поздно проснуться",
+          "столкнуться с экстренной семейной ситуацией"
+        ],
+        "a": 0,
+        "why": "В прошлом: was/were delayed. Здесь изучается готовое сочетание."
+      },
+      {
+        "q": "arrive half an hour late",
+        "o": [
+          "не успеть на пересадку",
+          "упасть",
+          "прибыть с опозданием на полчаса"
+        ],
+        "a": 2,
+        "why": "arrive → arrived; half an hour, не whole an hour."
+      },
+      {
+        "q": "notice the time",
+        "o": [
+          "порезать голову",
+          "обратить внимание на время",
+          "потерять кошелёк"
+        ],
+        "a": 1,
+        "why": "didn’t notice; noticed без did."
+      }
+    ],
+    "h2": [
+      {
+        "q": "My alarm did not ___ off.",
+        "o": [
+          "go",
+          "went",
+          "going"
+        ],
+        "a": 0,
+        "why": "После did not нужен V1 go, не went.",
+        "hint": "Смысл: Мой будильник не прозвенел."
+      },
+      {
+        "q": "I ___ up late yesterday.",
+        "o": [
+          "wake",
+          "waked",
+          "woke"
+        ],
+        "a": 2,
+        "why": "Wake → woke в Past Simple.",
+        "hint": "Смысл: Вчера я поздно проснулся."
+      },
+      {
+        "q": "The first train was late, so I missed my ___.",
+        "o": [
+          "wallet",
+          "connection",
+          "emergency"
+        ],
+        "a": 1,
+        "why": "Connection — пересадка/стыковочный транспорт.",
+        "hint": "Смысл: Первый поезд опоздал, поэтому я не успел на пересадку."
+      },
+      {
+        "q": "I ___ my wallet yesterday.",
+        "o": [
+          "lost",
+          "lose",
+          "losing"
+        ],
+        "a": 0,
+        "why": "Lose → lost.",
+        "hint": "Смысл: Вчера я потерял кошелёк."
+      },
+      {
+        "q": "I had to ___ my cards.",
+        "o": [
+          "cancelled",
+          "cancelling",
+          "cancel"
+        ],
+        "a": 2,
+        "why": "Had to + V1; cancel cards в контексте банка.",
+        "hint": "Смысл: Мне пришлось заблокировать мои карты."
+      },
+      {
+        "q": "I had a family ___.",
+        "o": [
+          "alarm",
+          "emergency",
+          "connection"
+        ],
+        "a": 1,
+        "why": "A family emergency — экстренная семейная ситуация.",
+        "hint": "Смысл: У меня случилась экстренная семейная ситуация."
+      },
+      {
+        "q": "He ___ over yesterday.",
+        "o": [
+          "fell",
+          "fail",
+          "foul"
+        ],
+        "a": 0,
+        "why": "Fall → fell; fail и foul — другие слова.",
+        "hint": "Смысл: Вчера он упал."
+      },
+      {
+        "q": "He ___ his head when he fell.",
+        "o": [
+          "cutted",
+          "cutting",
+          "cut"
+        ],
+        "a": 2,
+        "why": "Cut имеет ту же форму в прошлом.",
+        "hint": "Смысл: Он порезал голову, когда упал."
+      },
+      {
+        "q": "The bus ___ down yesterday.",
+        "o": [
+          "broken",
+          "broke",
+          "break"
+        ],
+        "a": 1,
+        "why": "Break → broke.",
+        "hint": "Смысл: Вчера автобус сломался."
+      },
+      {
+        "q": "I walked the rest ___ the way.",
+        "o": [
+          "of",
+          "on",
+          "at"
+        ],
+        "a": 0,
+        "why": "The rest of — оставшаяся часть.",
+        "hint": "Смысл: Я прошёл оставшуюся часть пути пешком."
+      },
+      {
+        "q": "I ___ lost yesterday.",
+        "o": [
+          "get",
+          "getting",
+          "got"
+        ],
+        "a": 2,
+        "why": "Get lost → got lost.",
+        "hint": "Смысл: Вчера я заблудился."
+      },
+      {
+        "q": "I took a wrong ___.",
+        "o": [
+          "to turn",
+          "turning",
+          "turned"
+        ],
+        "a": 1,
+        "why": "A wrong turning/turn — неправильный поворот.",
+        "hint": "Смысл: Я свернул не туда."
+      },
+      {
+        "q": "My train ___ delayed yesterday.",
+        "o": [
+          "was",
+          "were",
+          "did"
+        ],
+        "a": 0,
+        "why": "Was delayed — готовое сочетание в прошлом.",
+        "hint": "Смысл: Вчера мой поезд задержали."
+      },
+      {
+        "q": "I arrived half ___ hour late.",
+        "o": [
+          "a",
+          "the",
+          "an"
+        ],
+        "a": 2,
+        "why": "An перед hour, так как h не произносится.",
+        "hint": "Смысл: Я прибыл с опозданием на полчаса."
+      },
+      {
+        "q": "I did not ___ the time.",
+        "o": [
+          "noticing",
+          "notice",
+          "noticed"
+        ],
+        "a": 1,
+        "why": "Did not + V1, не noticed.",
+        "hint": "Смысл: Я не заметил, сколько времени прошло."
+      }
+    ],
+    "h3": [
+      {
+        "q": "My alarm did not ___ off.",
+        "a": [
+          "go"
+        ],
+        "hint": "Смысл: Мой будильник не прозвенел.",
+        "why": "После did not нужен V1 go, не went."
+      },
+      {
+        "q": "I ___ up late yesterday.",
+        "a": [
+          "woke"
+        ],
+        "hint": "Смысл: Вчера я поздно проснулся.",
+        "why": "Wake → woke в Past Simple."
+      },
+      {
+        "q": "The first train was late, so I missed my ___.",
+        "a": [
+          "connection"
+        ],
+        "hint": "Смысл: Первый поезд опоздал, поэтому я не успел на пересадку.",
+        "why": "Connection — пересадка/стыковочный транспорт."
+      },
+      {
+        "q": "I ___ my wallet yesterday.",
+        "a": [
+          "lost"
+        ],
+        "hint": "Смысл: Вчера я потерял кошелёк.",
+        "why": "Lose → lost."
+      },
+      {
+        "q": "I had to ___ my cards.",
+        "a": [
+          "cancel"
+        ],
+        "hint": "Смысл: Мне пришлось заблокировать мои карты.",
+        "why": "Had to + V1; cancel cards в контексте банка."
+      },
+      {
+        "q": "I had a family ___.",
+        "a": [
+          "emergency"
+        ],
+        "hint": "Смысл: У меня случилась экстренная семейная ситуация.",
+        "why": "A family emergency — экстренная семейная ситуация."
+      },
+      {
+        "q": "He ___ over yesterday.",
+        "a": [
+          "fell"
+        ],
+        "hint": "Смысл: Вчера он упал.",
+        "why": "Fall → fell; fail и foul — другие слова."
+      },
+      {
+        "q": "He ___ his head when he fell.",
+        "a": [
+          "cut"
+        ],
+        "hint": "Смысл: Он порезал голову, когда упал.",
+        "why": "Cut имеет ту же форму в прошлом."
+      },
+      {
+        "q": "The bus ___ down yesterday.",
+        "a": [
+          "broke"
+        ],
+        "hint": "Смысл: Вчера автобус сломался.",
+        "why": "Break → broke."
+      },
+      {
+        "q": "I walked the rest ___ the way.",
+        "a": [
+          "of"
+        ],
+        "hint": "Смысл: Я прошёл оставшуюся часть пути пешком.",
+        "why": "The rest of — оставшаяся часть."
+      },
+      {
+        "q": "I ___ lost yesterday.",
+        "a": [
+          "got"
+        ],
+        "hint": "Смысл: Вчера я заблудился.",
+        "why": "Get lost → got lost."
+      },
+      {
+        "q": "I took a wrong ___.",
+        "a": [
+          "turning",
+          "turn"
+        ],
+        "hint": "Смысл: Я свернул не туда.",
+        "why": "A wrong turning/turn — неправильный поворот."
+      },
+      {
+        "q": "My train ___ delayed yesterday.",
+        "a": [
+          "was"
+        ],
+        "hint": "Смысл: Вчера мой поезд задержали.",
+        "why": "Was delayed — готовое сочетание в прошлом."
+      },
+      {
+        "q": "I arrived half ___ hour late.",
+        "a": [
+          "an"
+        ],
+        "hint": "Смысл: Я прибыл с опозданием на полчаса.",
+        "why": "An перед hour, так как h не произносится."
+      },
+      {
+        "q": "I did not ___ the time.",
+        "a": [
+          "notice"
+        ],
+        "hint": "Смысл: Я не заметил, сколько времени прошло.",
+        "why": "Did not + V1, не noticed."
+      }
+    ],
+    "h4": [
+      {
+        "en": "My alarm did not go off.",
+        "ru": "Мой будильник не прозвенел.",
+        "why": "go off — сработать; did not + V1, без прошедшего went."
+      },
+      {
+        "en": "I woke up late.",
+        "ru": "Я поздно проснулся.",
+        "why": "wake → woke; up сохраняется в wake up."
+      },
+      {
+        "en": "I missed my connection.",
+        "ru": "Я не успел на пересадку.",
+        "why": "missed my connection — не успел на стыковочный транспорт; my перед существительным."
+      },
+      {
+        "en": "I lost my wallet.",
+        "ru": "Я потерял кошелёк.",
+        "why": "lose → lost; wallet — кошелёк."
+      },
+      {
+        "en": "I had to cancel my cards.",
+        "ru": "Мне пришлось заблокировать мои банковские карты.",
+        "why": "had to + V1 cancel; в контексте банка cancel cards — отменить/заблокировать карты."
+      },
+      {
+        "en": "I had a family emergency.",
+        "ru": "У меня случилась экстренная семейная ситуация.",
+        "why": "had — прошедшее have; a family emergency — одно событие, а не «я глава семьи»."
+      },
+      {
+        "en": "He fell over.",
+        "ru": "Он упал.",
+        "why": "fall → fell; fell over — упал."
+      },
+      {
+        "en": "He cut his head.",
+        "ru": "Он порезал голову.",
+        "why": "Прошедшая форма cut тоже cut; his head, без a перед his."
+      },
+      {
+        "en": "The bus broke down.",
+        "ru": "Автобус сломался.",
+        "why": "break down → broke down; the bus — конкретный автобус."
+      },
+      {
+        "en": "I walked the rest of the way.",
+        "ru": "Я прошёл оставшийся путь пешком.",
+        "why": "walked + the rest of the way; обязательно of, не on."
+      },
+      {
+        "en": "I got lost.",
+        "ru": "Я заблудился.",
+        "why": "get lost → got lost; это изменение состояния."
+      },
+      {
+        "en": "I took a wrong turning.",
+        "ru": "Я свернул не туда.",
+        "why": "take → took; a wrong turning — существительное с артиклем."
+      },
+      {
+        "en": "My train was delayed.",
+        "ru": "Мой поезд задержали.",
+        "why": "was delayed — готовое сочетание с be; не добавляй did перед was."
+      },
+      {
+        "en": "I arrived half an hour late.",
+        "ru": "Я прибыл с опозданием на полчаса.",
+        "why": "arrived — прошлое arrive; half an hour late — на полчаса позже."
+      },
+      {
+        "en": "I did not notice the time.",
+        "ru": "Я не заметил, сколько времени прошло.",
+        "why": "did not + notice в начальной форме; notice the time — обратить внимание на время."
+      }
+    ],
+    "h5": [
+      {
+        "ru": "Мой будильник не прозвенел.",
+        "a": [
+          "My alarm did not go off."
+        ],
+        "why": "go off — сработать; did not + V1, без прошедшего went."
+      },
+      {
+        "ru": "Я поздно проснулся.",
+        "a": [
+          "I woke up late."
+        ],
+        "why": "wake → woke; up сохраняется в wake up."
+      },
+      {
+        "ru": "Я не успел на пересадку.",
+        "a": [
+          "I missed my connection."
+        ],
+        "why": "missed my connection — не успел на стыковочный транспорт; my перед существительным."
+      },
+      {
+        "ru": "Я потерял кошелёк.",
+        "a": [
+          "I lost my wallet."
+        ],
+        "why": "lose → lost; wallet — кошелёк."
+      },
+      {
+        "ru": "Мне пришлось заблокировать мои банковские карты.",
+        "a": [
+          "I had to cancel my cards."
+        ],
+        "why": "had to + V1 cancel; в контексте банка cancel cards — отменить/заблокировать карты."
+      },
+      {
+        "ru": "У меня случилась экстренная семейная ситуация.",
+        "a": [
+          "I had a family emergency."
+        ],
+        "why": "had — прошедшее have; a family emergency — одно событие, а не «я глава семьи»."
+      },
+      {
+        "ru": "Он упал.",
+        "a": [
+          "He fell over."
+        ],
+        "why": "fall → fell; fell over — упал."
+      },
+      {
+        "ru": "Он порезал голову.",
+        "a": [
+          "He cut his head."
+        ],
+        "why": "Прошедшая форма cut тоже cut; his head, без a перед his."
+      },
+      {
+        "ru": "Автобус сломался.",
+        "a": [
+          "The bus broke down."
+        ],
+        "why": "break down → broke down; the bus — конкретный автобус."
+      },
+      {
+        "ru": "Я прошёл оставшийся путь пешком.",
+        "a": [
+          "I walked the rest of the way."
+        ],
+        "why": "walked + the rest of the way; обязательно of, не on."
+      },
+      {
+        "ru": "Я заблудился.",
+        "a": [
+          "I got lost."
+        ],
+        "why": "get lost → got lost; это изменение состояния."
+      },
+      {
+        "ru": "Я свернул не туда.",
+        "a": [
+          "I took a wrong turning."
+        ],
+        "why": "take → took; a wrong turning — существительное с артиклем."
+      },
+      {
+        "ru": "Мой поезд задержали.",
+        "a": [
+          "My train was delayed."
+        ],
+        "why": "was delayed — готовое сочетание с be; не добавляй did перед was."
+      },
+      {
+        "ru": "Я прибыл с опозданием на полчаса.",
+        "a": [
+          "I arrived half an hour late."
+        ],
+        "why": "arrived — прошлое arrive; half an hour late — на полчаса позже."
+      },
+      {
+        "ru": "Я не заметил, сколько времени прошло.",
+        "a": [
+          "I did not notice the time."
+        ],
+        "why": "did not + notice в начальной форме; notice the time — обратить внимание на время."
+      }
+    ]
+  },
+  "readerGeneration": false
+}

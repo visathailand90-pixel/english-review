@@ -244,7 +244,7 @@ const PACKS = [
 ];
 PACKS.push(...window.ENGLISH_WORD_BANK.packs);
 const canonicalWords=new Map(PACKS.flatMap(p=>p.words).map(w=>[w.en.toLowerCase(),w]));
-for(const pack of PACKS){for(const en of pack.wordRefs||[]){const w=canonicalWords.get(en);if(w)pack.words.push({...w,rep:1,canonicalRef:en});}for(const w of pack.words){if((window.ENGLISH_WORD_BANK.reinforce||[]).includes(w.en.toLowerCase())){w.hard=true;w.reinforce=true;}}}
+for(const pack of PACKS){for(const en of pack.wordRefs||[]){const w=canonicalWords.get(en);if(w)pack.words.push({...w,...(pack.wordNotes?.[en]||{}),rep:1,canonicalRef:en});}for(const w of pack.words){if((window.ENGLISH_WORD_BANK.reinforce||[]).includes(w.en.toLowerCase())){w.hard=true;w.reinforce=true;}}}
 
 let P = PACKS[1], W = P.words;
 const MODES = [

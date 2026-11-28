@@ -19044,6 +19044,1361 @@
         "town hall",
         "crossroads"
       ]
+    },
+    {
+      "id": "lesson14-1",
+      "n": 33,
+      "title": "Урок 14 · Маршруты и вопросы",
+      "words": [
+        {
+          "en": "area",
+          "ru": "район; местность; область",
+          "pr": "э́эриэ",
+          "g": "n",
+          "lessons": [
+            "14"
+          ],
+          "ex": "I do not know this area.",
+          "exru": "Я не знаю этот район.",
+          "ex2": "Is there a bank in this area?",
+          "ex2ru": "В этом районе есть банк?",
+          "collocations": [
+            [
+              "in this area",
+              "в этом районе"
+            ],
+            [
+              "know the area",
+              "знать местность"
+            ]
+          ],
+          "note": "",
+          "s": "I do not know this ___.",
+          "sru": "Я не знаю этот район.",
+          "hard": true,
+          "rep": 0,
+          "examplesType": "original lesson14 educational examples",
+          "pronunciationType": "приблизительная запись, не IPA"
+        },
+        {
+          "en": "phrase",
+          "ru": "фраза; выражение",
+          "pr": "фрэйз",
+          "g": "n",
+          "lessons": [
+            "14"
+          ],
+          "ex": "Please read this phrase.",
+          "exru": "Пожалуйста, прочитай эту фразу.",
+          "ex2": "This phrase is useful for giving directions.",
+          "ex2ru": "Эта фраза полезна для объяснения дороги.",
+          "collocations": [
+            [
+              "a useful phrase",
+              "полезная фраза"
+            ],
+            [
+              "repeat a phrase",
+              "повторить фразу"
+            ]
+          ],
+          "note": "",
+          "s": "Please read this ___.",
+          "sru": "Пожалуйста, прочитай эту фразу.",
+          "hard": true,
+          "rep": 0,
+          "examplesType": "original lesson14 educational examples",
+          "pronunciationType": "приблизительная запись, не IPA"
+        },
+        {
+          "en": "certain",
+          "ru": "определённый; некоторый; уверенный — по контексту",
+          "pr": "сё́тэн",
+          "g": "adj",
+          "lessons": [
+            "14"
+          ],
+          "ex": "We use certain phrases to ask for directions.",
+          "exru": "Мы используем определённые фразы, чтобы спросить дорогу.",
+          "ex2": "I am not certain about the route.",
+          "ex2ru": "Я не уверен насчёт маршрута.",
+          "collocations": [
+            [
+              "certain phrases",
+              "определённые фразы"
+            ],
+            [
+              "be certain about",
+              "быть уверенным в"
+            ]
+          ],
+          "note": "",
+          "s": "We use ___ phrases to ask for directions.",
+          "sru": "Мы используем определённые фразы, чтобы спросить дорогу.",
+          "hard": true,
+          "rep": 0,
+          "examplesType": "original lesson14 educational examples",
+          "pronunciationType": "приблизительная запись, не IPA"
+        },
+        {
+          "en": "mosque",
+          "ru": "мечеть",
+          "pr": "моск",
+          "g": "n",
+          "lessons": [
+            "14"
+          ],
+          "ex": "Go past the mosque.",
+          "exru": "Пройдите мимо мечети.",
+          "ex2": "The mosque is near the museum.",
+          "ex2ru": "Мечеть находится возле музея.",
+          "collocations": [
+            [
+              "near the mosque",
+              "возле мечети"
+            ],
+            [
+              "go past a mosque",
+              "пройти мимо мечети"
+            ]
+          ],
+          "note": "",
+          "s": "Go past the ___.",
+          "sru": "Пройдите мимо мечети.",
+          "hard": true,
+          "rep": 0,
+          "examplesType": "original lesson14 educational examples",
+          "pronunciationType": "приблизительная запись, не IPA"
+        },
+        {
+          "en": "turn around",
+          "ru": "развернуться; обернуться",
+          "pr": "тён эра́унд",
+          "g": "v",
+          "lessons": [
+            "14"
+          ],
+          "ex": "Turn around and go back.",
+          "exru": "Развернитесь и идите обратно.",
+          "ex2": "I turned around near the station.",
+          "ex2ru": "Я развернулся возле станции.",
+          "collocations": [
+            [
+              "turn around here",
+              "развернуться здесь"
+            ],
+            [
+              "turn around and go back",
+              "развернуться и пойти обратно"
+            ]
+          ],
+          "note": "",
+          "s": "___ and go back.",
+          "sru": "Развернитесь и идите обратно.",
+          "hard": true,
+          "rep": 0,
+          "examplesType": "original lesson14 educational examples",
+          "pronunciationType": "приблизительная запись, не IPA"
+        },
+        {
+          "en": "reach",
+          "ru": "достичь; добраться до",
+          "pr": "рич",
+          "g": "v",
+          "lessons": [
+            "14"
+          ],
+          "ex": "Go straight until you reach the bridge.",
+          "exru": "Идите прямо, пока не дойдёте до моста.",
+          "ex2": "We reached the station at nine.",
+          "ex2ru": "Мы добрались до станции в девять.",
+          "collocations": [
+            [
+              "reach the station",
+              "добраться до станции"
+            ],
+            [
+              "reach a place",
+              "достичь места"
+            ]
+          ],
+          "note": "Reach + объект без to; reached — прошедшее.",
+          "s": "Go straight until you ___ the bridge.",
+          "sru": "Идите прямо, пока не дойдёте до моста.",
+          "hard": true,
+          "rep": 0,
+          "examplesType": "original lesson14 educational examples",
+          "pronunciationType": "приблизительная запись, не IPA"
+        },
+        {
+          "en": "left turn",
+          "ru": "поворот налево",
+          "pr": "лэфт тён",
+          "g": "n",
+          "lessons": [
+            "14"
+          ],
+          "ex": "Take a left turn after the bridge.",
+          "exru": "Поверните налево после моста.",
+          "ex2": "I missed the left turn.",
+          "ex2ru": "Я пропустил поворот налево.",
+          "collocations": [
+            [
+              "take a left turn",
+              "повернуть налево"
+            ],
+            [
+              "miss a left turn",
+              "пропустить поворот налево"
+            ]
+          ],
+          "note": "",
+          "s": "Take a ___ after the bridge.",
+          "sru": "Поверните налево после моста.",
+          "hard": true,
+          "rep": 0,
+          "examplesType": "original lesson14 educational examples",
+          "pronunciationType": "приблизительная запись, не IPA"
+        },
+        {
+          "en": "right turn",
+          "ru": "поворот направо",
+          "pr": "райт тён",
+          "g": "n",
+          "lessons": [
+            "14"
+          ],
+          "ex": "There is a right turn after the school.",
+          "exru": "После школы есть поворот направо.",
+          "ex2": "Take the next right turn.",
+          "ex2ru": "Сверните на следующем повороте направо.",
+          "collocations": [
+            [
+              "the next right turn",
+              "следующий поворот направо"
+            ],
+            [
+              "take a right turn",
+              "повернуть направо"
+            ]
+          ],
+          "note": "",
+          "s": "Take the next ___.",
+          "sru": "Сверните на следующем повороте направо.",
+          "hard": true,
+          "rep": 0,
+          "examplesType": "original lesson14 educational examples",
+          "pronunciationType": "приблизительная запись, не IPA"
+        },
+        {
+          "en": "eventually",
+          "ru": "в конце концов, после времени или трудностей",
+          "pr": "ивэ́нчуэли",
+          "g": "adv",
+          "lessons": [
+            "14"
+          ],
+          "ex": "We eventually found the right road.",
+          "exru": "В конце концов мы нашли нужную дорогу.",
+          "ex2": "The delayed bus eventually arrived.",
+          "ex2ru": "Задержавшийся автобус в конце концов приехал.",
+          "collocations": [
+            [
+              "eventually find",
+              "в конце концов найти"
+            ],
+            [
+              "eventually arrive",
+              "в конце концов прибыть"
+            ]
+          ],
+          "note": "Не обязательно «возможно»: это ложное сходство с русскими словами.",
+          "s": "We ___ found the right road.",
+          "sru": "В конце концов мы нашли нужную дорогу.",
+          "hard": true,
+          "rep": 0,
+          "examplesType": "original lesson14 educational examples",
+          "pronunciationType": "приблизительная запись, не IPA"
+        },
+        {
+          "en": "finally",
+          "ru": "наконец; в завершение",
+          "pr": "фа́йнэли",
+          "g": "adv",
+          "lessons": [
+            "14"
+          ],
+          "ex": "Finally, turn left at the lights.",
+          "exru": "В завершение поверните налево у светофора.",
+          "ex2": "I finally found my wallet.",
+          "ex2ru": "Я наконец нашёл кошелёк.",
+          "collocations": [
+            [
+              "finally arrive",
+              "наконец прибыть"
+            ],
+            [
+              "finally find",
+              "наконец найти"
+            ]
+          ],
+          "note": "",
+          "s": "___, turn left at the lights.",
+          "sru": "В завершение поверните налево у светофора.",
+          "hard": true,
+          "rep": 0,
+          "examplesType": "original lesson14 educational examples",
+          "pronunciationType": "приблизительная запись, не IPA"
+        },
+        {
+          "en": "visitor",
+          "ru": "посетитель; приезжий",
+          "pr": "ви́зитэ",
+          "g": "n",
+          "lessons": [
+            "14"
+          ],
+          "ex": "A visitor asked me for directions.",
+          "exru": "Приезжий спросил у меня дорогу.",
+          "ex2": "The museum has many visitors.",
+          "ex2ru": "В музее много посетителей.",
+          "collocations": [
+            [
+              "a visitor to the town",
+              "приезжий в городе"
+            ],
+            [
+              "museum visitors",
+              "посетители музея"
+            ]
+          ],
+          "note": "",
+          "s": "A ___ asked me for directions.",
+          "sru": "Приезжий спросил у меня дорогу.",
+          "hard": true,
+          "rep": 0,
+          "examplesType": "original lesson14 educational examples",
+          "pronunciationType": "приблизительная запись, не IPA"
+        },
+        {
+          "en": "obligatory",
+          "ru": "обязательный",
+          "pr": "эбли́гэтори",
+          "g": "adj",
+          "lessons": [
+            "14"
+          ],
+          "ex": "This exercise is not obligatory.",
+          "exru": "Это упражнение не обязательное.",
+          "ex2": "Is this task obligatory?",
+          "ex2ru": "Это задание обязательное?",
+          "collocations": [
+            [
+              "an obligatory task",
+              "обязательное задание"
+            ],
+            [
+              "not obligatory",
+              "необязательный"
+            ]
+          ],
+          "note": "",
+          "s": "Is this task ___?",
+          "sru": "Это задание обязательное?",
+          "hard": true,
+          "rep": 0,
+          "examplesType": "original lesson14 educational examples",
+          "pronunciationType": "приблизительная запись, не IPA"
+        },
+        {
+          "en": "stand",
+          "ru": "стоять",
+          "pr": "стэнд",
+          "g": "v",
+          "lessons": [
+            "14"
+          ],
+          "ex": "I stand near the door when the bus is full.",
+          "exru": "Когда автобус заполнен, я стою возле двери.",
+          "ex2": "Please stand near the entrance.",
+          "ex2ru": "Пожалуйста, встаньте возле входа.",
+          "collocations": [
+            [
+              "stand near",
+              "стоять возле"
+            ],
+            [
+              "stand at the entrance",
+              "стоять у входа"
+            ]
+          ],
+          "note": "stand–stood; сейчас стою: I am standing. Stay — оставаться.",
+          "s": "Please ___ near the entrance.",
+          "sru": "Пожалуйста, встаньте возле входа.",
+          "hard": true,
+          "rep": 0,
+          "examplesType": "original lesson14 educational examples",
+          "pronunciationType": "приблизительная запись, не IPA"
+        },
+        {
+          "en": "stay",
+          "ru": "оставаться; временно проживать",
+          "pr": "стэй",
+          "g": "v",
+          "lessons": [
+            "14"
+          ],
+          "ex": "We stay at a small hotel.",
+          "exru": "Мы останавливаемся в маленьком отеле.",
+          "ex2": "I stayed at home yesterday.",
+          "ex2ru": "Вчера я остался дома.",
+          "collocations": [
+            [
+              "stay at home",
+              "остаться дома"
+            ],
+            [
+              "stay at a hotel",
+              "остановиться в отеле"
+            ]
+          ],
+          "note": "stay–stayed; не переводить автоматически как «стоять».",
+          "s": "We ___ at a small hotel.",
+          "sru": "Мы останавливаемся в маленьком отеле.",
+          "hard": true,
+          "rep": 0,
+          "examplesType": "original lesson14 educational examples",
+          "pronunciationType": "приблизительная запись, не IPA"
+        },
+        {
+          "en": "turning",
+          "ru": "поворот; дорога, на которую сворачивают",
+          "pr": "тё́нинг",
+          "g": "n",
+          "lessons": [
+            "14"
+          ],
+          "ex": "I took a wrong turning.",
+          "exru": "Я свернул не туда.",
+          "ex2": "Take the second turning on the left.",
+          "ex2ru": "Сверните во второй поворот налево.",
+          "collocations": [
+            [
+              "take a wrong turning",
+              "свернуть не туда"
+            ],
+            [
+              "the next turning",
+              "следующий поворот"
+            ]
+          ],
+          "note": "В take a wrong turning это исчисляемое существительное. В She is turning слово работает как форма глагола.",
+          "s": "I took a wrong ___.",
+          "sru": "Я свернул не туда.",
+          "hard": true,
+          "rep": 0,
+          "examplesType": "original lesson14 educational examples",
+          "pronunciationType": "приблизительная запись, не IPA"
+        }
+      ],
+      "wordRefs": [
+        "route",
+        "crossroads",
+        "until"
+      ],
+      "wordNotes": {
+        "route": {
+          "hard": true
+        },
+        "crossroads": {
+          "hard": true
+        },
+        "until": {
+          "hard": true
+        }
+      }
+    },
+    {
+      "id": "lesson14-2",
+      "n": 34,
+      "title": "Урок 14 · Причины опоздания",
+      "words": [
+        {
+          "en": "emergency",
+          "ru": "чрезвычайная; экстренная ситуация",
+          "pr": "имё́джэнси",
+          "g": "n",
+          "lessons": [
+            "14"
+          ],
+          "ex": "I had a family emergency.",
+          "exru": "У меня случилась экстренная семейная ситуация.",
+          "ex2": "They left because of an emergency.",
+          "ex2ru": "Они ушли из-за экстренной ситуации.",
+          "collocations": [
+            [
+              "a family emergency",
+              "экстренная ситуация в семье"
+            ],
+            [
+              "in an emergency",
+              "в экстренной ситуации"
+            ]
+          ],
+          "note": "Учебные примеры, не утверждение о семье ученика.",
+          "s": "I had a family ___.",
+          "sru": "У меня случилась экстренная семейная ситуация.",
+          "hard": true,
+          "rep": 0,
+          "examplesType": "original lesson14 educational examples",
+          "pronunciationType": "приблизительная запись, не IPA"
+        },
+        {
+          "en": "alarm",
+          "ru": "будильник; сигнал тревоги",
+          "pr": "эла́м",
+          "g": "n",
+          "lessons": [
+            "14"
+          ],
+          "ex": "My alarm did not go off.",
+          "exru": "Мой будильник не прозвенел.",
+          "ex2": "I set my alarm for seven.",
+          "ex2ru": "Я поставил будильник на семь.",
+          "collocations": [
+            [
+              "set an alarm",
+              "поставить будильник"
+            ],
+            [
+              "an alarm goes off",
+              "будильник срабатывает"
+            ]
+          ],
+          "note": "",
+          "s": "My ___ did not go off.",
+          "sru": "Мой будильник не прозвенел.",
+          "hard": true,
+          "rep": 0,
+          "examplesType": "original lesson14 educational examples",
+          "pronunciationType": "приблизительная запись, не IPA"
+        },
+        {
+          "en": "connection",
+          "ru": "пересадка; стыковочный транспорт; соединение",
+          "pr": "кэнэ́кшэн",
+          "g": "n",
+          "lessons": [
+            "14"
+          ],
+          "ex": "I missed my connection.",
+          "exru": "Я не успел на пересадку.",
+          "ex2": "The first train was late, so I missed my connection.",
+          "ex2ru": "Первый поезд опоздал, поэтому я не успел на стыковочный поезд.",
+          "collocations": [
+            [
+              "miss a connection",
+              "не успеть на пересадку"
+            ],
+            [
+              "a train connection",
+              "железнодорожная пересадка"
+            ]
+          ],
+          "note": "",
+          "s": "I missed my ___.",
+          "sru": "Я не успел на пересадку.",
+          "hard": true,
+          "rep": 0,
+          "examplesType": "original lesson14 educational examples",
+          "pronunciationType": "приблизительная запись, не IPA"
+        },
+        {
+          "en": "notice",
+          "ru": "замечать; обращать внимание",
+          "pr": "но́утис",
+          "g": "v",
+          "lessons": [
+            "14"
+          ],
+          "ex": "I did not notice the time.",
+          "exru": "Я не заметил, сколько времени прошло.",
+          "ex2": "She noticed a bookshop on her left.",
+          "ex2ru": "Она заметила книжный магазин слева от себя.",
+          "collocations": [
+            [
+              "notice the time",
+              "обратить внимание на время"
+            ],
+            [
+              "notice a mistake",
+              "заметить ошибку"
+            ]
+          ],
+          "note": "noticed — прошлое. A notice как существительное может значить объявление, уведомление.",
+          "s": "I did not ___ the time.",
+          "sru": "Я не заметил, сколько времени прошло.",
+          "hard": true,
+          "rep": 0,
+          "examplesType": "original lesson14 educational examples",
+          "pronunciationType": "приблизительная запись, не IPA"
+        },
+        {
+          "en": "wallet",
+          "ru": "кошелёк",
+          "pr": "во́лит",
+          "g": "n",
+          "lessons": [
+            "14"
+          ],
+          "ex": "I lost my wallet yesterday.",
+          "exru": "Вчера я потерял кошелёк.",
+          "ex2": "My wallet was in my bag.",
+          "ex2ru": "Мой кошелёк был в сумке.",
+          "collocations": [
+            [
+              "lose a wallet",
+              "потерять кошелёк"
+            ],
+            [
+              "find a wallet",
+              "найти кошелёк"
+            ]
+          ],
+          "note": "",
+          "s": "My ___ was in my bag.",
+          "sru": "Мой кошелёк был в сумке.",
+          "hard": true,
+          "rep": 0,
+          "examplesType": "original lesson14 educational examples",
+          "pronunciationType": "приблизительная запись, не IPA"
+        },
+        {
+          "en": "go off",
+          "ru": "сработать; прозвенеть — о будильнике",
+          "pr": "гоу оф",
+          "g": "v",
+          "lessons": [
+            "14"
+          ],
+          "ex": "The alarm did not go off this morning.",
+          "exru": "Сегодня утром будильник не прозвенел.",
+          "ex2": "My alarm went off at six.",
+          "ex2ru": "Мой будильник прозвенел в шесть.",
+          "collocations": [
+            [
+              "an alarm goes off",
+              "будильник звонит"
+            ],
+            [
+              "did not go off",
+              "не сработал"
+            ]
+          ],
+          "note": "go–went; здесь off не означает «выключить».",
+          "s": "The alarm did not ___ this morning.",
+          "sru": "Сегодня утром будильник не прозвенел.",
+          "hard": true,
+          "rep": 0,
+          "examplesType": "original lesson14 educational examples",
+          "pronunciationType": "приблизительная запись, не IPA"
+        },
+        {
+          "en": "break down",
+          "ru": "сломаться — о транспорте или механизме",
+          "pr": "брэйк да́ун",
+          "g": "v",
+          "lessons": [
+            "14"
+          ],
+          "ex": "The bus broke down near the bridge.",
+          "exru": "Автобус сломался возле моста.",
+          "ex2": "Did your car break down?",
+          "ex2ru": "Твоя машина сломалась?",
+          "collocations": [
+            [
+              "a bus breaks down",
+              "автобус ломается"
+            ],
+            [
+              "broke down",
+              "сломался"
+            ]
+          ],
+          "note": "break–broke; did/didn’t break down, не broke.",
+          "s": "Did your car ___?",
+          "sru": "Твоя машина сломалась?",
+          "hard": true,
+          "rep": 0,
+          "examplesType": "original lesson14 educational examples",
+          "pronunciationType": "приблизительная запись, не IPA"
+        },
+        {
+          "en": "the rest of the way",
+          "ru": "оставшаяся часть пути",
+          "pr": "зэ рэст ов зэ уэй",
+          "g": "phrase",
+          "lessons": [
+            "14"
+          ],
+          "ex": "I walked the rest of the way.",
+          "exru": "Я прошёл оставшуюся часть пути пешком.",
+          "ex2": "We had to walk the rest of the way home.",
+          "ex2ru": "Нам пришлось пройти оставшийся путь домой пешком.",
+          "collocations": [
+            [
+              "walk the rest of the way",
+              "пройти оставшийся путь пешком"
+            ],
+            [
+              "the rest of the way home",
+              "оставшийся путь домой"
+            ]
+          ],
+          "note": "В сочетании rest of, не rest on.",
+          "s": "I walked ___.",
+          "sru": "Я прошёл оставшуюся часть пути пешком.",
+          "hard": true,
+          "rep": 0,
+          "examplesType": "original lesson14 educational examples",
+          "pronunciationType": "приблизительная запись, не IPA"
+        },
+        {
+          "en": "half an hour",
+          "ru": "полчаса",
+          "pr": "хаф эн а́уэ",
+          "g": "phrase",
+          "lessons": [
+            "14"
+          ],
+          "ex": "The journey took half an hour.",
+          "exru": "Поездка заняла полчаса.",
+          "ex2": "I arrived half an hour late.",
+          "ex2ru": "Я прибыл с опозданием на полчаса.",
+          "collocations": [
+            [
+              "half an hour late",
+              "на полчаса позже"
+            ],
+            [
+              "wait half an hour",
+              "ждать полчаса"
+            ]
+          ],
+          "note": "Hour начинается с гласного звука; an hour, half an hour.",
+          "s": "I arrived ___ late.",
+          "sru": "Я прибыл с опозданием на полчаса.",
+          "hard": true,
+          "rep": 0,
+          "examplesType": "original lesson14 educational examples",
+          "pronunciationType": "приблизительная запись, не IPA"
+        },
+        {
+          "en": "lose",
+          "ru": "терять",
+          "pr": "луз",
+          "g": "v",
+          "lessons": [
+            "14"
+          ],
+          "ex": "Do not lose your wallet.",
+          "exru": "Не потеряй кошелёк.",
+          "ex2": "I lost my wallet, but I found it later.",
+          "ex2ru": "Я потерял кошелёк, но позже нашёл его.",
+          "collocations": [
+            [
+              "lose a wallet",
+              "потерять кошелёк"
+            ],
+            [
+              "lose–lost",
+              "терять — потерял"
+            ]
+          ],
+          "note": "lose–lost; lost также встречается в get/be lost.",
+          "s": "Do not ___ your wallet.",
+          "sru": "Не потеряй кошелёк.",
+          "hard": true,
+          "rep": 0,
+          "examplesType": "original lesson14 educational examples",
+          "pronunciationType": "приблизительная запись, не IPA"
+        },
+        {
+          "en": "wake up",
+          "ru": "просыпаться; будить",
+          "pr": "уэйк ап",
+          "g": "v",
+          "lessons": [
+            "14"
+          ],
+          "ex": "I wake up at seven.",
+          "exru": "Я просыпаюсь в семь.",
+          "ex2": "I woke up late yesterday.",
+          "ex2ru": "Вчера я поздно проснулся.",
+          "collocations": [
+            [
+              "wake up late",
+              "поздно проснуться"
+            ],
+            [
+              "wake–woke",
+              "просыпаться — проснулся"
+            ]
+          ],
+          "note": "",
+          "s": "I ___ at seven.",
+          "sru": "Я просыпаюсь в семь.",
+          "hard": true,
+          "rep": 0,
+          "examplesType": "original lesson14 educational examples",
+          "pronunciationType": "приблизительная запись, не IPA"
+        },
+        {
+          "en": "miss",
+          "ru": "скучать; пропустить; не успеть",
+          "pr": "мис",
+          "g": "v",
+          "lessons": [
+            "14"
+          ],
+          "ex": "I miss my friend.",
+          "exru": "Я скучаю по другу.",
+          "ex2": "I missed my bus this morning.",
+          "ex2ru": "Сегодня утром я опоздал на автобус.",
+          "collocations": [
+            [
+              "miss someone",
+              "скучать по кому-либо"
+            ],
+            [
+              "miss a bus or connection",
+              "не успеть на автобус или пересадку"
+            ]
+          ],
+          "note": "missed — прошлое; значение выбирается по дополнению.",
+          "s": "I ___ my friend.",
+          "sru": "Я скучаю по другу.",
+          "hard": true,
+          "rep": 0,
+          "examplesType": "original lesson14 educational examples",
+          "pronunciationType": "приблизительная запись, не IPA"
+        },
+        {
+          "en": "delay",
+          "ru": "задерживать; задержка",
+          "pr": "дилэ́й",
+          "g": "v",
+          "lessons": [
+            "14"
+          ],
+          "ex": "The traffic delayed us.",
+          "exru": "Дорожное движение задержало нас.",
+          "ex2": "My train was delayed.",
+          "ex2ru": "Мой поезд задержали.",
+          "collocations": [
+            [
+              "be delayed",
+              "задерживаться; быть задержанным"
+            ],
+            [
+              "a train delay",
+              "задержка поезда"
+            ]
+          ],
+          "note": "delayed — форма и прилагательное; be delayed изучается как готовое сочетание, не как полный курс пассива.",
+          "s": "Do not ___ the meeting.",
+          "sru": "Не задерживайте встречу.",
+          "hard": true,
+          "rep": 0,
+          "examplesType": "original lesson14 educational examples",
+          "pronunciationType": "приблизительная запись, не IPA"
+        },
+        {
+          "en": "cut",
+          "ru": "порезать; резать",
+          "pr": "кат",
+          "g": "v",
+          "lessons": [
+            "14"
+          ],
+          "ex": "He fell over and cut his head.",
+          "exru": "Он упал и порезал голову.",
+          "ex2": "I cut my finger yesterday.",
+          "ex2ru": "Вчера я порезал палец.",
+          "collocations": [
+            [
+              "cut a finger",
+              "порезать палец"
+            ],
+            [
+              "cut–cut–cut",
+              "одинаковая форма"
+            ]
+          ],
+          "note": "В учебном примере cut — порезать, а не просто удариться. Все три формы cut.",
+          "s": "He fell over and ___ his head.",
+          "sru": "Он упал и порезал голову.",
+          "hard": true,
+          "rep": 0,
+          "examplesType": "original lesson14 educational examples",
+          "pronunciationType": "приблизительная запись, не IPA"
+        },
+        {
+          "en": "fall",
+          "ru": "падать",
+          "pr": "фол",
+          "g": "v",
+          "lessons": [
+            "14"
+          ],
+          "ex": "Be careful not to fall.",
+          "exru": "Осторожно, не упади.",
+          "ex2": "She fell over near the door.",
+          "ex2ru": "Она упала возле двери.",
+          "collocations": [
+            [
+              "fall over",
+              "упасть"
+            ],
+            [
+              "fall–fell",
+              "падать — упал"
+            ]
+          ],
+          "note": "fall–fell–fallen; не путать с fail и foul.",
+          "s": "Be careful not to ___.",
+          "sru": "Осторожно, не упади.",
+          "hard": true,
+          "rep": 0,
+          "examplesType": "original lesson14 educational examples",
+          "pronunciationType": "приблизительная запись, не IPA"
+        }
+      ],
+      "wordRefs": [
+        "cancelled",
+        "lost",
+        "be late for work"
+      ],
+      "wordNotes": {
+        "cancelled": {
+          "en": "cancel",
+          "ru": "отменять; аннулировать; блокировать карту в контексте",
+          "pr": "кэ́нсэл",
+          "g": "v",
+          "ex": "I had to cancel my cards.",
+          "exru": "Мне пришлось заблокировать мои карты.",
+          "ex2": "The bank cancelled my card.",
+          "ex2ru": "Банк аннулировал мою карту.",
+          "collocations": [
+            [
+              "cancel my cards",
+              "заблокировать мои карты"
+            ],
+            [
+              "cancel a meeting",
+              "отменить встречу"
+            ]
+          ],
+          "s": "I had to ___ my cards.",
+          "sru": "Мне пришлось заблокировать мои карты.",
+          "note": "Повтор существующей cancelled: cancel — V1, cancelled/canceled — V2/V3; отдельный канонический дубль не создан.",
+          "lessons": [
+            "14"
+          ],
+          "examplesType": "original lesson14 educational examples",
+          "pronunciationType": "приблизительная запись, не IPA",
+          "hard": true
+        },
+        "lost": {
+          "en": "get lost",
+          "ru": "заблудиться",
+          "pr": "гет лост",
+          "g": "phrase",
+          "ex": "I got lost near the museum.",
+          "exru": "Я заблудился возле музея.",
+          "ex2": "It is easy to get lost in a new city.",
+          "ex2ru": "В новом городе легко заблудиться.",
+          "collocations": [
+            [
+              "get–got lost",
+              "заблудиться — заблудился"
+            ],
+            [
+              "be lost",
+              "не знать, где находишься"
+            ]
+          ],
+          "s": "It is easy to ___ in a new city.",
+          "sru": "В новом городе легко заблудиться.",
+          "note": "Новый контекст существующей lost; каноническая запись и старый ID сохранены.",
+          "lessons": [
+            "14"
+          ],
+          "examplesType": "original lesson14 educational examples",
+          "pronunciationType": "приблизительная запись, не IPA",
+          "hard": true
+        },
+        "be late for work": {
+          "hard": true
+        }
+      }
+    },
+    {
+      "id": "lesson14-3",
+      "n": 35,
+      "title": "Урок 14 · Разговор и точные слова",
+      "words": [
+        {
+          "en": "catch a cold",
+          "ru": "простудиться",
+          "pr": "кэч э ко́улд",
+          "g": "v",
+          "lessons": [
+            "14"
+          ],
+          "ex": "I do not want to catch a cold.",
+          "exru": "Я не хочу простудиться.",
+          "ex2": "He caught a cold last week.",
+          "ex2ru": "Он простудился на прошлой неделе.",
+          "collocations": [
+            [
+              "catch–caught",
+              "подхватить — подхватил"
+            ],
+            [
+              "have a cold",
+              "быть простуженным"
+            ]
+          ],
+          "note": "Catch — событие; have a cold — состояние. I am cold — мне холодно.",
+          "s": "I do not want to ___.",
+          "sru": "Я не хочу простудиться.",
+          "hard": true,
+          "rep": 0,
+          "examplesType": "original lesson14 educational examples",
+          "pronunciationType": "приблизительная запись, не IPA"
+        },
+        {
+          "en": "sick",
+          "ru": "больной; плохо себя чувствующий",
+          "pr": "сик",
+          "g": "adj",
+          "lessons": [
+            "14"
+          ],
+          "ex": "I am sick today.",
+          "exru": "Сегодня я болею.",
+          "ex2": "She felt sick on the bus.",
+          "ex2ru": "В автобусе её тошнило.",
+          "collocations": [
+            [
+              "be sick",
+              "болеть; тошнить — по контексту"
+            ],
+            [
+              "feel sick",
+              "плохо себя чувствовать; испытывать тошноту"
+            ]
+          ],
+          "note": "",
+          "s": "I am ___ today.",
+          "sru": "Сегодня я болею.",
+          "hard": true,
+          "rep": 0,
+          "examplesType": "original lesson14 educational examples",
+          "pronunciationType": "приблизительная запись, не IPA"
+        },
+        {
+          "en": "ill",
+          "ru": "больной; нездоровый",
+          "pr": "ил",
+          "g": "adj",
+          "lessons": [
+            "14"
+          ],
+          "ex": "I am ill at the moment.",
+          "exru": "Сейчас я болею.",
+          "ex2": "He was ill yesterday.",
+          "ex2ru": "Вчера он болел.",
+          "collocations": [
+            [
+              "be ill",
+              "болеть"
+            ],
+            [
+              "feel ill",
+              "чувствовать себя нездоровым"
+            ]
+          ],
+          "note": "",
+          "s": "I am ___ at the moment.",
+          "sru": "Сейчас я болею.",
+          "hard": true,
+          "rep": 0,
+          "examplesType": "original lesson14 educational examples",
+          "pronunciationType": "приблизительная запись, не IPA"
+        },
+        {
+          "en": "manage to",
+          "ru": "суметь; справиться с действием",
+          "pr": "мэ́нидж ту",
+          "g": "v",
+          "lessons": [
+            "14"
+          ],
+          "ex": "Did you manage to do the homework?",
+          "exru": "Ты сумел сделать домашнее задание?",
+          "ex2": "I managed to find the station.",
+          "ex2ru": "Мне удалось найти станцию.",
+          "collocations": [
+            [
+              "manage to do",
+              "суметь сделать"
+            ],
+            [
+              "manage to find",
+              "суметь найти"
+            ]
+          ],
+          "note": "",
+          "s": "Did you ___ do the homework?",
+          "sru": "Ты сумел сделать домашнее задание?",
+          "hard": true,
+          "rep": 0,
+          "examplesType": "original lesson14 educational examples",
+          "pronunciationType": "приблизительная запись, не IPA"
+        },
+        {
+          "en": "if you don't mind",
+          "ru": "если вы не против",
+          "pr": "иф ю до́унт ма́йнд",
+          "g": "phrase",
+          "lessons": [
+            "14"
+          ],
+          "ex": "We can practise together, if you don't mind.",
+          "exru": "Мы можем потренироваться вместе, если вы не против.",
+          "ex2": "I will ask one more question, if you don't mind.",
+          "ex2ru": "Я задам ещё один вопрос, если вы не против.",
+          "collocations": [
+            [
+              "if you don’t mind",
+              "если вы не против"
+            ],
+            [
+              "one more question",
+              "ещё один вопрос"
+            ]
+          ],
+          "note": "",
+          "s": "We can practise together, ___.",
+          "sru": "Мы можем потренироваться вместе, если вы не против.",
+          "hard": true,
+          "rep": 0,
+          "examplesType": "original lesson14 educational examples",
+          "pronunciationType": "приблизительная запись, не IPA"
+        },
+        {
+          "en": "additional materials",
+          "ru": "дополнительные материалы",
+          "pr": "эди́шэнэл мэти́эриэлз",
+          "g": "phrase",
+          "lessons": [
+            "14"
+          ],
+          "ex": "The teacher sent additional materials.",
+          "exru": "Преподаватель прислал дополнительные материалы.",
+          "ex2": "I use additional materials to review questions.",
+          "ex2ru": "Я использую дополнительные материалы, чтобы повторять вопросы.",
+          "collocations": [
+            [
+              "additional learning materials",
+              "дополнительные учебные материалы"
+            ],
+            [
+              "send materials",
+              "прислать материалы"
+            ]
+          ],
+          "note": "",
+          "s": "The teacher sent ___.",
+          "sru": "Преподаватель прислал дополнительные материалы.",
+          "hard": true,
+          "rep": 0,
+          "examplesType": "original lesson14 educational examples",
+          "pronunciationType": "приблизительная запись, не IPA"
+        },
+        {
+          "en": "collocation",
+          "ru": "устойчивое сочетание слов",
+          "pr": "колэкэ́йшэн",
+          "g": "n",
+          "lessons": [
+            "14"
+          ],
+          "ex": "Be late is a useful collocation.",
+          "exru": "Be late — полезное устойчивое сочетание.",
+          "ex2": "I learn each collocation with an example.",
+          "ex2ru": "Я учу каждое устойчивое сочетание с примером.",
+          "collocations": [
+            [
+              "learn a collocation",
+              "выучить сочетание"
+            ],
+            [
+              "common collocation",
+              "частое сочетание"
+            ]
+          ],
+          "note": "",
+          "s": "I learn each ___ with an example.",
+          "sru": "Я учу каждое устойчивое сочетание с примером.",
+          "hard": true,
+          "rep": 0,
+          "examplesType": "original lesson14 educational examples",
+          "pronunciationType": "приблизительная запись, не IPA"
+        },
+        {
+          "en": "fail",
+          "ru": "не справиться; провалиться",
+          "pr": "фэйл",
+          "g": "v",
+          "lessons": [
+            "14"
+          ],
+          "ex": "I did not fail the test.",
+          "exru": "Я не провалил тест.",
+          "ex2": "The old alarm failed to work.",
+          "ex2ru": "Старый будильник не сработал.",
+          "collocations": [
+            [
+              "fail a test",
+              "провалить тест"
+            ],
+            [
+              "fail to do something",
+              "не суметь что-то сделать"
+            ]
+          ],
+          "note": "fail–failed; не прошедшая форма fall.",
+          "s": "I did not ___ the test.",
+          "sru": "Я не провалил тест.",
+          "hard": true,
+          "rep": 0,
+          "examplesType": "original lesson14 educational examples",
+          "pronunciationType": "приблизительная запись, не IPA"
+        },
+        {
+          "en": "foul",
+          "ru": "нарушение правил в спорте",
+          "pr": "фаул",
+          "g": "n",
+          "lessons": [
+            "14"
+          ],
+          "ex": "The player committed a foul.",
+          "exru": "Игрок нарушил правила.",
+          "ex2": "The referee saw the foul.",
+          "ex2ru": "Судья увидел нарушение.",
+          "collocations": [
+            [
+              "commit a foul",
+              "нарушить правила"
+            ],
+            [
+              "a foul in a game",
+              "нарушение в игре"
+            ]
+          ],
+          "note": "Foul /faʊl/, fall /fɔːl/, fail /feɪl/ — разные слова.",
+          "s": "The player committed a ___.",
+          "sru": "Игрок нарушил правила.",
+          "hard": true,
+          "rep": 0,
+          "examplesType": "original lesson14 educational examples",
+          "pronunciationType": "приблизительная запись, не IPA"
+        }
+      ],
+      "wordRefs": [
+        "find",
+        "route",
+        "until",
+        "be late for work",
+        "cancelled",
+        "lost"
+      ],
+      "wordNotes": {
+        "cancelled": {
+          "en": "cancel",
+          "ru": "отменять; аннулировать; блокировать карту в контексте",
+          "pr": "кэ́нсэл",
+          "g": "v",
+          "ex": "I had to cancel my cards.",
+          "exru": "Мне пришлось заблокировать мои карты.",
+          "ex2": "The bank cancelled my card.",
+          "ex2ru": "Банк аннулировал мою карту.",
+          "collocations": [
+            [
+              "cancel my cards",
+              "заблокировать мои карты"
+            ],
+            [
+              "cancel a meeting",
+              "отменить встречу"
+            ]
+          ],
+          "s": "I had to ___ my cards.",
+          "sru": "Мне пришлось заблокировать мои карты.",
+          "note": "Повтор существующей cancelled: cancel — V1, cancelled/canceled — V2/V3; отдельный канонический дубль не создан.",
+          "lessons": [
+            "14"
+          ],
+          "examplesType": "original lesson14 educational examples",
+          "pronunciationType": "приблизительная запись, не IPA",
+          "hard": true
+        },
+        "lost": {
+          "en": "get lost",
+          "ru": "заблудиться",
+          "pr": "гет лост",
+          "g": "phrase",
+          "ex": "I got lost near the museum.",
+          "exru": "Я заблудился возле музея.",
+          "ex2": "It is easy to get lost in a new city.",
+          "ex2ru": "В новом городе легко заблудиться.",
+          "collocations": [
+            [
+              "get–got lost",
+              "заблудиться — заблудился"
+            ],
+            [
+              "be lost",
+              "не знать, где находишься"
+            ]
+          ],
+          "s": "It is easy to ___ in a new city.",
+          "sru": "В новом городе легко заблудиться.",
+          "note": "Новый контекст существующей lost; каноническая запись и старый ID сохранены.",
+          "lessons": [
+            "14"
+          ],
+          "examplesType": "original lesson14 educational examples",
+          "pronunciationType": "приблизительная запись, не IPA",
+          "hard": true
+        },
+        "find": {
+          "hard": true
+        },
+        "route": {
+          "hard": true
+        },
+        "until": {
+          "hard": true
+        },
+        "be late for work": {
+          "hard": true
+        }
+      }
     }
   ],
   "entries": [

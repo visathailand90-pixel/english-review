@@ -1066,7 +1066,8 @@ $("#bigger").onclick = () => { readSize = Math.min(28, readSize + 1); applySize(
 if (canSpeak) { try { speechSynthesis.getVoices(); speechSynthesis.onvoiceschanged = () => {}; } catch (e) {} }
 
 
-const options=window.ENGLISH_READING_CONTEXT.map(l=>'<option value="'+l.id+'">'+l.id+' · '+esc(l.title)+'</option>').join('');
+// Static-only lessons do not advertise an unsupported optional Worker request.
+const options=window.ENGLISH_READING_CONTEXT.filter(l=>l.readerGeneration!==false).map(l=>'<option value="'+l.id+'">'+l.id+' · '+esc(l.title)+'</option>').join('');
 $('#genLesson').innerHTML=options;$('#genLesson').value='03';
 $('#learnedLessons').innerHTML=window.ENGLISH_READING_CONTEXT.map(l=>'<label style="display:block"><input type="checkbox" data-learned value="'+l.id+'"> '+esc(l.title)+'</label>').join('');
 
